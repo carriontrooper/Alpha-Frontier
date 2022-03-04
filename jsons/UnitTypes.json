@@ -73,14 +73,19 @@
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Can see invisible [Submarine] units"]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water"
     },
     {
-        "name": "Fighter",
+        "name": "Aerocraft",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "6 tiles in every direction always visible"]
+    },
+    {
+        "name": "Satellite",
         "movementType": "Air",
         "uniques": ["Aircraft", "6 tiles in every direction always visible"]
     },
