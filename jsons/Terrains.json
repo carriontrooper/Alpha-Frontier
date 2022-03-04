@@ -322,6 +322,42 @@
 
 	// Natural Wonders
 	{
+		"name": "Great Neuroreef",
+		"type": "NaturalWonder",
+		"food": 2,
+		"production": 1,
+		"gold": 1,
+		"science": 2,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [6] [Water] tiles",
+			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
+			"Occurs in groups of [2] to [2] tiles"],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Megaxenoform Graveyard",
+		"type": "NaturalWonder",
+		"production": 2,
+		"gold": 1,
+		"science": 2,
+		"faith": 1,
+		"happiness": 1,
+		"occursOn": ["Grassland","Tundra","Plains","Desert"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [1] [Desert] tiles",
+			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
+			"Occurs in groups of [2] to [2] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+/*
+	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
 		"food": 2,
@@ -534,7 +570,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-/*
 	// BNW wonders
 	{
 		"name": "King Solomon's Mines",
