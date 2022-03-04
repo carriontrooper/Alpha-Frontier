@@ -17,12 +17,12 @@
     },
     {
         "name": "Xeno Stealth Water",
-        "movementType": "Water"
+        "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
         "name": "Xeno Air",
-        "movementType": "Land"
+        "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
     },
     {
@@ -35,7 +35,7 @@
     },
     {
         "name": "Stealth Infantry",
-        "movementType": "Land"
+        "movementType": "Land",
         "uniques": ["Invisible to non-adjacent units", "Can see invisible [Stealth Infantry] units"]
     },
     {
