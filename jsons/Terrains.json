@@ -328,8 +328,12 @@
         "name": "Miasma",
         "type": "TerrainFeature",
         "movementCost": 2,
-        "unbuildable": true,
-        "uniques": ["Rare feature", "[-2] to Fertility for Map Generation"],
+        "unbuildable": false,
+        "uniques": [
+            "Rare feature",
+            "Considered [Undesirable] when determining start locations",
+            "[-2] to Fertility for Map Generation"
+        ],
         // For map editor only - the generator won't place it without code or enabling uniques
         // If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
         "occursOn": [
@@ -439,7 +443,60 @@
         "impassable": true,
         "unbuildable": true,
         "weight": 10
-    }
+    },
+    {
+        "name": "Uttershroom",
+        "type": "NaturalWonder",
+        "food": 3,
+        "science": 2,
+        "happiness": 3,
+        "occursOn": ["Grassland", "Plains", "Tundra", "Mycelium"],
+        "uniques": [
+            "Must be adjacent to [0] [Coast] tiles",
+            "Must be adjacent to [1] to [6] [Mycelium] tiles",
+            "Must be adjacent to [0] to [6] [Elevated] tiles",
+            "Must be adjacent to [0] to [3] [Desert] tiles",
+            "Must be adjacent to [0] to [3] [Tundra] tiles"
+        ],
+        "turnsInto": "Mountain",
+        "impassable": true,
+        "unbuildable": true,
+        "weight": 10
+    },
+    {
+        "name": "Aurigan Vault Complex",
+        "type": "NaturalWonder",
+        "production": 3,
+        "science": 3,
+        "overrideStats": true,
+        "occursOn": ["Plains", "Desert"],
+        "uniques": [
+            "Must be adjacent to [0] [Coast] tiles",
+            "Must be adjacent to [0] to [2] [Mountain] tiles"
+        ],
+        "turnsInto": "Plains",
+        "impassable": true,
+        "unbuildable": true,
+        "weight": 4
+    },
+    {
+        // This will count as "Fresh water" in civ 6
+        "name": "Tree of Worlds",
+        "type": "NaturalWonder",
+        "food": 3,
+        "happiness": 5,
+        "overrideStats": true,
+        "occursOn": ["Plains"],
+        "turnsInto": "Plains",
+        "impassable": true,
+        "unbuildable": true,
+        "uniques": [
+            "Must be adjacent to [0] [Coast] tiles",
+            "Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+            "Tile provides yield without assigned population"
+        ],
+        "weight": 1
+    },
     /*
 	{
 		"name": "Great Barrier Reef",
