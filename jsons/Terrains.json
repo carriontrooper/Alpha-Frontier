@@ -689,6 +689,27 @@
             }
         ]
 	},
+	{
+		"name": "Amoebic Lake",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 6,
+		"occursOn": ["Plains","Mycelium","Desert"],
+		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] to [6] [Mycelium] tiles",
+			"Must be adjacent to [0] to [6] [Plains] tiles"],
+		"turnsInto": "Lake",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+        "civilopediaText": [
+            {
+                "text": "This vast body of water is composed of one humongous single-celled organism. Ingesting its gelatinous liquid causes intense hallucinations, and many believers come in pilgrimage.",
+            }
+        ]
+	},
     /*
 	{
 		"name": "Great Barrier Reef",
