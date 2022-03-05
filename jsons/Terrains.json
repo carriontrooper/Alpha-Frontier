@@ -646,6 +646,49 @@
             }
         ]
     },
+	{
+		"name": "Sheeta Floating Mountain",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"science": 3,
+		"faith": 3,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] to [2] [Hill] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+        "civilopediaText": [
+            {
+                "text": "An entire mountain suspended on air, initial scans show the presence of a sizable Ulframite and Yairmite deposit under it. It has been theorized that its antigravitic properties are a side effect of a natural Ulframite reactor, although this is debatable.",
+            }
+        ]
+	},
+	{
+		"name": "Harborship Wreck",
+		"type": "NaturalWonder",
+		"science": 3,
+		"gold": 5,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+        "civilopediaText": [
+            {
+                "text": "Only a small part of this gargantuan alien ship is poking above water. Initial scans indicate that the rest of the ship is lodged inside an undersea trench, preserving whatever valuable artifacts in its depths. However, there would be a booming artifact market if this wreck is within reach of civilization.",
+            }
+        ]
+	},
     /*
 	{
 		"name": "Great Barrier Reef",
