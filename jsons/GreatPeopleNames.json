@@ -1,1 +1,44 @@
-
+{
+  "Great Tacticians": [
+    "Perry Rhodan",
+    "Nick Fury",
+    "Jim Raynor",
+    "Honor Harrington",
+    "Ender Wiggins",
+    "Usarkar E. Creed",
+    "Daisuke Aramaki",
+    "Yang Wenli",
+    "Paul von Oberstein",
+    "M'quve",
+    "'Hannibal' Smith",
+    "John Sheridan",
+    "Hanse Davion",
+    "Preston Cole",
+    "Cmdr. Shepard",
+    "Welkin Gunther",
+    "Benjamin Sisko",
+    "Wedge Antilles"
+  ],
+  "Great Scientists": [
+    "Hank Pym",
+    "Kevin Flynn",
+    "Bernard Quatermass",
+    "Hari Seldon",
+    "David Bowman",
+    "Chris Kelvin"
+  ],
+  "Great Merchants": [
+    "Handsome Jack",
+    "Limmar Ponyets",
+    "Cave Johnson"
+  ],
+  "Great Influencers": [
+    "Banksy",
+    "Porter Robinson"
+  ],
+  "Great Engineers": [
+    "Reginald Barclay",
+    "Isaac Clarke",
+    "Montgomery 'Scotty' Scott"
+  ]
+}
