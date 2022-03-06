@@ -6,7 +6,7 @@
         "food": 1,
         "gold": 1,
         "movementCost": 1,
-        "RGB": [45, 108, 145]
+        "RGB": [45, 108, 145],
         "civilopediaText": [
             {
                 "text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
@@ -24,7 +24,7 @@
             "[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Vast amounts of surface water exists in this world, and its shallow coastal areas teem with flourishing life.",
@@ -56,7 +56,7 @@
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "These fertile lands are already colonized by small, hardy vegetation that is the foundation of the local ecosystem.",
@@ -92,7 +92,7 @@
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "These fertile lands are already colonized by dense populations of small, hardy vegetation that is the foundation of the local ecosystem.",
@@ -126,7 +126,7 @@
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Spongy and fibrous hyphae cover these lands, offering an easy source of food for the critters taking refuge in it.",
@@ -151,7 +151,7 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "While temperatures regularly drop below freezing, life nevertheless clung on to this seemingly inhospitable land.",
@@ -174,7 +174,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "A sea of eons of ground rocks seared with heat, only the hardiest lifeforms survive here.",
@@ -191,7 +191,7 @@
             "Fresh water",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Some surface water coalesce into lakes, of which life took full advantage of.",
@@ -211,7 +211,7 @@
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Tall peaks of past geologic activity, life here are few yet hardy.",
@@ -234,7 +234,7 @@
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Be it covered in frozen water or carbon dioxide, these lands are far too cold for normal life to exist naturally.",
@@ -271,7 +271,7 @@
             "Considered [Desirable] when determining start locations",
             "Considered [Production] when determining start locations",
             "Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Veritable mounds borne of past geologic activity, precious minerals often lie underneath, brought from the depths of the planet.",
@@ -305,12 +305,6 @@
         ],
         "civilopediaText": [
             {
-                "text": "A Camp can be built here without cutting it down",
-                "link": "Improvement/Camp"
-            }
-        ]
-        "civilopediaText": [
-            {
                 "text": "Growths of sedentary life form the basis for the local ecosystem.",
             }
         ]
@@ -336,7 +330,7 @@
             "Considered [Food] when determining start locations <in all except [Grassland] Regions>",
             "Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Vast, thick growths of sedentary life form the basis for a myriad of local ecosystems.",
@@ -356,12 +350,6 @@
             "[-2] to Fertility for Map Generation",
             "Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
         ],
-        "civilopediaText": [
-            {
-                "text": "Only Polders can be built here",
-                "link": "Improvement/Polder"
-            }
-        ]
         "civilopediaText": [
             {
                 "text": "Half-submerged and moist places, life nevertheless call this land as home.",
@@ -393,7 +381,7 @@
             "Oasis",
             "Mycelium"
         ],
-        "defenceBonus": -0.15
+        "defenceBonus": -0.15,
         "civilopediaText": [
             {
                 "text": "Hazardous radioactive particles permeate this wasteland, rendering it inimical to life.",
@@ -426,7 +414,7 @@
             "Oasis",
             "Mycelium"
         ],
-        "defenceBonus": -0.15
+        "defenceBonus": -0.15,
         "civilopediaText": [
             {
                 "text": "Hazardous organic particles permeate this land, causing respiratory problems on humans.",
@@ -449,7 +437,7 @@
             "Always Fertility [4] for Map Generation",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Underground aquifers breaching the surface offers a safe haven for life to flourish.",
@@ -472,7 +460,7 @@
             "Always Fertility [4] for Map Generation",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Underground geothermal springs breaching the surface offers a safe haven for life to flourish.",
@@ -490,7 +478,7 @@
             "Always Fertility [5] for Map Generation",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Rich nutrients deposited by seasonal floodings turns this arid stretch of land into a successful ecosystem.",
@@ -506,7 +494,7 @@
         "uniques": [
             "[-1] to Fertility for Map Generation",
             "Considered [Undesirable] when determining start locations"
-        ]
+        ],
         "civilopediaText": [
             {
                 "text": "Broken pieces of a frozen sea, these places are invariably hazardous to travel through its surface.",
@@ -520,7 +508,7 @@
         "food": 1,
         "production": 1,
         "occursOn": ["Coast"],
-        "uniques": ["Rare feature"]
+        "uniques": ["Rare feature"],
         "civilopediaText": [
             {
                 "text": "Oceanic sedentary life has piled up enough detritus to form these teeming islands.",
@@ -546,7 +534,7 @@
         "turnsInto": "Coast",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 10,
         "civilopediaText": [
             {
                 "text": "These huge interconnected mass of organic matter were impressive on their own - but what's more astonishing, the ecosystem here is more akin to a neural network. Scientists compete to learn what they can from these reefs.",
@@ -571,7 +559,7 @@
         "turnsInto": "Desert",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 10,
         "civilopediaText": [
             {
                 "text": "A silent tomb for a creature so huge its existence violates the square-cube law, scientists swarm to find the secrets of its origin. Builders, however, rejoice at the ample construction materials.",
@@ -595,7 +583,7 @@
         "turnsInto": "Mountain",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 10,
         "civilopediaText": [
             {
                 "text": "A fungal miracle, no less than eight different ecosystems can be found inhabiting this humongous mushroom.",
@@ -616,7 +604,7 @@
         "turnsInto": "Plains",
         "impassable": true,
         "unbuildable": true,
-        "weight": 4
+        "weight": 4,
         "civilopediaText": [
             {
                 "text": "Proof that there were alien civilizations that predate ours, this labyrinthine complex of ruins keeps depicting symbols pointing towards the constellation Aurigae.",
@@ -639,7 +627,7 @@
             "Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
             "Tile provides yield without assigned population"
         ],
-        "weight": 1
+        "weight": 1,
         "civilopediaText": [
             {
                 "text": "A truly gigantic form of sedentary life, its sap holds rejuvenating properties to any life imbibing it. Speculations ensue over whether this organism is natural, or were genetically engineered in the past.",
@@ -663,7 +651,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 10,
         "civilopediaText": [
             {
                 "text": "An entire mountain suspended on air, initial scans show the presence of a sizable Ulframite and Yairmite deposit under it. It has been theorized that its antigravitic properties are a side effect of a natural Ulframite reactor, although this is debatable.",
@@ -682,7 +670,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 10,
         "civilopediaText": [
             {
                 "text": "Only a small part of this gargantuan alien ship is poking above water. Initial scans indicate that the rest of the ship is lodged inside an undersea trench, preserving whatever valuable artifacts in its depths. However, there would be a booming artifact market if this wreck is within reach of civilization.",
@@ -703,13 +691,13 @@
 		"turnsInto": "Lake",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 10,
         "civilopediaText": [
             {
                 "text": "This vast body of water is composed of one humongous single-celled organism. Ingesting its gelatinous liquid causes intense hallucinations, and many believers come in pilgrimage.",
             }
         ]
-	},
+	}
     /*
 	{
 		"name": "Great Barrier Reef",
