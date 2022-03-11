@@ -13,3 +13,5 @@ Bleh - idea
 Plaxys - idea
 
 Ravignir - idea
+
+Lodo the Bear (AKA SpacedOutChicken) - DeCiv code bits
