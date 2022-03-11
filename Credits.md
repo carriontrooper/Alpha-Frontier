@@ -14,4 +14,12 @@ Plaxys - idea
 
 Ravignir - idea
 
-Lodo the Bear (AKA SpacedOutChicken) - DeCiv code bits
+----- DeCiv stuff -----
+
+Lodo the Bear (AKA SpacedOutChicken) - DeCiv code bits, DeCiv art
+
+9kgsrice - maybe also DeCiv code bits
+
+GeneralWadaling (AKA TheBucketeer) - DeCiv art
+
+AdityaMH - DeCiv art
