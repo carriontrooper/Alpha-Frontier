@@ -26,11 +26,11 @@
         "uniques": ["Can pass through impassable tiles"]
     },
     {
-        "name": "Melee",
+        "name": "Close Range", //melee
         "movementType": "Land"
     },
     {
-        "name": "Infantry",
+        "name": "Infantry", //melee people
         "movementType": "Land"
     },
     {
@@ -39,7 +39,7 @@
         "uniques": ["Invisible to non-adjacent units", "Can see invisible [Stealth Infantry] units"]
     },
     {
-        "name": "Sniper",
+        "name": "Sniper", //ranged people
         "movementType": "Land"
     },
     {
@@ -51,11 +51,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Armor",
+        "name": "Armor", //melee tank and mechs
         "movementType": "Land"
     },
     {
-        "name": "Siege",
+        "name": "Siege", //ranged tank and mechs
         "movementType": "Land"
     },
     {
@@ -63,7 +63,7 @@
         "movementType": "Water"
     },
     {
-        "name": "Melee Water",
+        "name": "Close Range Water",
         "movementType": "Water"
     },
     {
@@ -94,11 +94,11 @@
         "movementType": "Air",
         "uniques": ["Aircraft"]
     },
-    {
+    /*{
         "name": "Atomic Bomber",
         "movementType": "Air",
         "uniques": ["Aircraft"]
-    },
+    }, */
     {
         "name": "Missile",
         "movementType": "Air",
