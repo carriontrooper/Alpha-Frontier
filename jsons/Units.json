@@ -1,1 +1,324 @@
+[
+    // Xeno Units
+    // Melee
+    
+    // Ranged
+    
+    // Water Melee
+    
+    // Water Stealth
+    
+    // Air (but not aircraft)
+    
+    // Landfall Era
+    // Civvies
+    {
+		"name": "Constructor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles"],
+		"cost": 70,
+        "civilopediaText": [
+			{"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."}
+		]
+	},
+	{
+		"name": "Colonizer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20,
+        "civilopediaText": [
+			{"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."}
+		]
+	},
+    // Scout
+	{
+		"name": "Rover Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": ["Rover", "May upgrade to [Combat Rover] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Brave explorers of the alien frontier, lightly armed and accompanied with a rover to hold basic supplies and cross difficult terrain."}
+		]
+	},
+    // Infantry
+	{
+		"name": "Frontier Militia",
+		"unitType": "Infantry",
+		"movement": 2,
+        //"range": 1,
+		"strength": 8,
+        //"rangedStrength": 8,
+		"cost": 40,
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Colony Rifleman",
+		"uniques" : ["May upgrade to [Colony Rifleman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Basically just a person in an atmo-suit and a gun."}
+		]
+	},
+    // Rovers
+    {
+		"name": "Combat Rover",
+		"unitType": "Rover",
+		"movement": 3,
+		"strength": 11,
+		"cost": 45,
+        "requiredTech": "Robotics",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Wholly remote-operated, these rovers are equipped with small arms."}
+		]
+	},
+    
+    // Exploration Era
+    // Rovers
+    {
+		"name": "Missile Rover",
+		"unitType": "Rover",
+		"movement": 2,
+        "range": 2,
+		"strength": 9,
+        "rangedStrength": 11,
+		"cost": 50,
+        "requiredTech": "Military Ballistics",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "missile",
+        "civilopediaText": [
+			{"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."}
+		]
+	},
+    
+    // Buggies
+    
+    // Hydrofoils
+    
+    // Hovercraft
+    
+    // Aerial Drones
+    
+    // Aerial Units
+    
+    // Colonization Era
+    // Infantry
+    {
+		"name": "Colony Rifleman",
+		"unitType": "Infantry",
+		"movement": 2,
+        //"range": 1,
+		"strength": 14,
+        //"rangedStrength": 14,
+		"cost": 75,
+        "requiredTech": "Next-Gen Armaments",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques" : ["May upgrade to [Exoframe Soldier] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A better suited, better trained person armed with a better gun."}
+		]
+	},
+    {
+		"name": "Colony Marksman",
+		"unitType": "Sniper",
+		"movement": 2,
+        "range": 2,
+		"strength": 11,
+        "rangedStrength": 11,
+		"cost": 75,
+        "requiredTech": "Next-Gen Armaments",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Exoframe Sniper",
+		"uniques" : ["May upgrade to [Exoframe Sniper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A soldier with a precise, long-ranged gun."}
+		]
+	},
+    {
+		"name": "Exoframe Soldier",
+		"unitType": "Infantry",
+		"movement": 2,
+        //"range": 1,
+		"strength": 24,
+        //"rangedStrength": 24,
+		"cost": 75,
+        "requiredTech": "Exoskeletons",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Drop Trooper",
+		"uniques" : ["May upgrade to [Drop Trooper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun",
+        "civilopediaText": [
+			{"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."}
+		]
+	},
+    {
+		"name": "Exoframe Sniper",
+		"unitType": "Sniper",
+		"movement": 2,
+        "range": 2,
+		"strength": 21,
+        "rangedStrength": 21,
+		"cost": 75,
+        "requiredTech": "Exoskeletons",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Laser Trooper",
+		"uniques" : ["May upgrade to [Laser Trooper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."}
+		]
+	},
+    {
+		"name": "Laser Trooper",
+		"unitType": "Sniper",
+		"movement": 2,
+        "range": 3,
+		"strength": 31,
+        "rangedStrength": 31,
+		"cost": 75,
+        "requiredTech": "Lasers",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Laser Trooper",
+		"uniques" : ["Ranged attacks may be performed over obstacles", "Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."}
+		]
+	},
+    
+    // Armor
+    
+    // Artillery
+    
+    // Mechs
+    
+    // Halcyon Era
+    // Infantry
+    {
+		"name": "Drop Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+        //"range": 1,
+		"strength": 34,
+        //"rangedStrength": 34,
+		"cost": 75,
+        "requiredTech": "Cybernetics",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques" : ["Never appears as a Barbarian unit"],
+		"attackSound": "machinegun",
+        "civilopediaText": [
+			{"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."}
+		]
+	},
+    
+    // Realization Era
+    
+    // Transcedental Era
+    
+    // Religious Units
+    {
+		"name": "Visionary",
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000,
+        "civilopediaText": [
+			{"text": "People who have recived a spiritual insight, the ideas they promote tend to stick to the collective unconscious."}
+		]
+	},
+	{
+		"name": "Expunger",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3,
+        "civilopediaText": [
+			{"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."}
+		]
+	}
+    
+    // Great People
+    {
+		"name": "Great Influencer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": "Very charismatic people, these tend to be artists and public figures that contribute to the cultural progress of a nation."}
+		]
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": "Brilliant scientists, inventors and innovators, these could advance technology by leaps and bounds."}
+		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": "Excellent merchants, economists and CEOs, these profit-oriented individuals turn the wheel of commerce across borders."}
+		]
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": "Industrious engineers and architects, these hasten urban projects with their productivity."}
+		]
+	},
+	{
+		"name": "Great Visionary",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000,
+        "civilopediaText": [
+			{"text": "Wise spiritualists and motivational speakers, these tend to aggregate followers around their brand of thinking."}
+		]
+	},
+	{
+		"name": "Great General", // rename to Great Tactician in localization
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."}
+		]
+	}
 
+]
