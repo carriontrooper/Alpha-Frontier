@@ -1,1 +1,114 @@
+[
+// Landfall Era
+	{
+		"columnNumber": 0,
+		"era": "Landfall era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Old Earth Knowledge",
+				"row": 6,
+				"quote": "'Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!' - Yuri Gagarin",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
 
+	{
+		"columnNumber": 1,
+		"era": "Landfall era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Hydrodynamics",
+				"row": 1,
+				"quote": "'' - ",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Xenobiology",
+				"row": 3,
+				"quote": "'Such an exciting new place, filled with amazing and exotic organisms! Well, exotic for a while, at least.' - Savitri Kumar, scientist",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Xenogeology",
+				"row": 4,
+				"quote": "'There's no such thing as a simple rock. This here is the foundation of everything we'll build here.' - Emmanuel Junkers, geologist",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Computing",
+				"row": 5,
+				"quote": "'Back then, we had the network and infrastructure to make a computer that fit in the palm of your hand. Now we got to do that all over again.' - Jose Jacinto, engineer",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Habitation",
+				"row": 6,
+				"quote": "'Sure, these prefab homes are nice, they have atmo, they have AC, they have electricity - but you know what would be cool? DOMES!' - Gregor Thorpe, engineer",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"quote": "'' - ",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Portable Power Sources",
+				"row": 9,
+				"quote": "'' - ",
+				"prerequisites": ["Old Earth Knowledge"]
+			},
+			{
+				"name": "Frontier Armaments",
+				"row": 10,
+				"quote": "'Listen, I don't want those bugs to nibble our colony to pieces. Guns and patrols are mandatory!' - Derek Mbata, security chief",
+				"prerequisites": ["Old Earth Knowledge"]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Landfall era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Hovercrafts",
+				"row": 2,
+				"quote": "'' - ",
+				"prerequisites": ["Hydrodynamics","Engineering"]
+			},
+			{
+				"name": "Xenoagriculture",
+				"row": 3,
+				"quote": "'' - ",
+				"prerequisites": ["Xenobiology"]
+			},
+			{
+				"name": "Xenochemistry",
+				"row": 4,
+				"quote": "'' - ",
+				"prerequisites": ["Xenobiology","Xenogeology"]
+			},
+			{
+				"name": "Pioneer Administration",
+				"row": 6,
+				"quote": "'' - ",
+				"prerequisites": ["Xenobiology","Xenogeology"]
+			},
+			{
+				"name": "Robotics",
+				"row": 9,
+				"quote": "'' - ",
+				"prerequisites": ["Engineering","Portable Power Sources"]
+			}
+		]
+	},
+]
