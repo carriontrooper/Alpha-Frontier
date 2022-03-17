@@ -56,7 +56,8 @@
 				"name": "Engineering",
 				"row": 8,
 				"quote": "'' - ",
-				"prerequisites": ["Old Earth Knowledge"]
+				"prerequisites": ["Old Earth Knowledge"],
+				"uniques": ["Roads connect tiles across rivers"],
 			},
 			{
 				"name": "Portable Power Sources",
@@ -83,7 +84,8 @@
 				"name": "Hovercrafts",
 				"row": 2,
 				"quote": "'' - ",
-				"prerequisites": ["Hydrodynamics","Engineering"]
+				"prerequisites": ["Hydrodynamics","Engineering"],
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Xenoagriculture",
@@ -101,7 +103,8 @@
 				"name": "Pioneer Administration",
 				"row": 6,
 				"quote": "'' - ",
-				"prerequisites": ["Xenobiology","Xenogeology"]
+				"prerequisites": ["Xenobiology","Xenogeology"],
+				"uniques": ["Enables Open Borders agreements"],
 			},
 			{
 				"name": "Robotics",
