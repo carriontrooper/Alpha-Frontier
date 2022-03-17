@@ -75,11 +75,64 @@
 		"cost": 45,
         "requiredTech": "Robotics",
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities with a [Rover Storage]>","Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "Wholly remote-operated, these rovers are equipped with small arms."}
+		]
+	},
+    // Buggies
+    {
+		"name": "Light Buggy",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Portable Power Sources",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."}
+		]
+	},
+    // Hydrofoils
+    {
+		"name": "Light Hydrofoil",
+		"unitType": "Close Range Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Hydrodynamics",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Assault Hydrofoil",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."}
+		]
+	},
+    //Hovercraft
+    {
+		"name": "Light Hovercraft",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Hovercrafts",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["Hovercraft","Normal vision when embarked","Defense bonus when embarked","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost","Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."}
 		]
 	},
     
@@ -90,28 +143,94 @@
 		"unitType": "Rover",
 		"movement": 2,
         "range": 2,
-		"strength": 9,
-        "rangedStrength": 11,
+		"strength": 11,
+        "rangedStrength": 15,
 		"cost": 50,
-        "requiredTech": "Military Ballistics",
+        "requiredTech": "Missiles",
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Only available <in cities with a [Rover Storage]>","Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "missile",
         "civilopediaText": [
 			{"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."}
 		]
 	},
-    
-    // Buggies
-    
-    // Hydrofoils
-    
-    // Hovercraft
-    
-    // Aerial Drones
-    
+    //Buggies
+    {
+		"name": "Anti-Air Buggy",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Drone] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."}
+		]
+	},
+    // Drones
+    {
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Combat Drone",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Aerial Drones",
+		//"requiredResource": "Aluminum",
+		"uniques": ["Drone","No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "[+50]% Strength <vs [Infantry] units>", "[-50]% Strength <vs [Air] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun",
+        "civilopediaText": [
+			{"text": "Small, fast and highly annoying, they are nevertheless good against infantry."}
+		]
+	},
     // Aerial Units
+    {
+		"name": "Aerojet",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": ["[100]% chance to intercept air attacks","[+50]% Strength <vs [non-air] units>","[+100]% Strength <vs [Air] units>","[-33]% Strength <vs cities>","Only available <in cities with a [Aerovehicle Hangars]>","Never appears as a Barbarian unit"],
+		"attackSound": "missile",
+        "civilopediaText": [
+			{"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."}
+		]
+	},
+    // Satellites
+    {
+		"name": "Defense Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 6,
+		"interceptRange": 1,
+		"cost": 200,
+		"requiredTech": "Payload Delivery",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": ["[100]% chance to intercept air attacks","[+50]% Strength <vs [non-air] units>","[+100]% Strength <vs [Satellite] units>","[-99]% Strength <vs cities>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Orbital military platform designed to protect a city, it lacks the strength to damage cities but is more precise toward enemy units."}
+		]
+	},
     
     // Colonization Era
     // Infantry
@@ -156,7 +275,7 @@
         //"range": 1,
 		"strength": 24,
         //"rangedStrength": 24,
-		"cost": 75,
+		"cost": 125,
         "requiredTech": "Exoskeletons",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Drop Trooper",
@@ -173,7 +292,7 @@
         "range": 2,
 		"strength": 21,
         "rangedStrength": 21,
-		"cost": 75,
+		"cost": 125,
         "requiredTech": "Exoskeletons",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Laser Trooper",
@@ -190,7 +309,7 @@
         "range": 3,
 		"strength": 31,
         "rangedStrength": 31,
-		"cost": 75,
+		"cost": 200,
         "requiredTech": "Lasers",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Laser Trooper",
@@ -200,12 +319,138 @@
 			{"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."}
 		]
 	},
-    
+    // Hydrofoil
+    {
+		"name": "Assault Hydrofoil",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": ["Never appears as a Barbarian unit"],
+		//"upgradesTo": "Assault Hydrofoil",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."}
+		]
+	},
+    //Hovercraft
+    {
+		"name": "Hovercarrier",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 32,
+		"cost": 250,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["Hovercraft","Can carry [2] [Aerocraft] units","Normal vision when embarked","Defense bonus when embarked","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost","Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."}
+		]
+	},
     // Armor
-    
+    {
+		"name": "Hovertank",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 35,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["Hovercraft","Normal vision when embarked","Defense bonus when embarked","Can move after attacking","No defensive terrain bonus","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost","Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "An armored, upgunned hovercraft."}
+		]
+	},
     // Artillery
-    
+    {
+		"name": "Missile Artillery",
+		"unitType": "Armor",
+		"movement": 2,
+        "range": 3,
+		"strength": 30,
+        "rangedStrength": 40,
+		"cost": 175,
+        "requiredTech": "Next-Gen Armaments",
+        "requiredResource": "Promethine",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "No defensive terrain bonus","Only available <in cities with a [Mechanized Unit Facility]>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "missile",
+        "civilopediaText": [
+			{"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."}
+		]
+	},
     // Mechs
+    {
+		"name": "Recon Mecha",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 30,
+		"cost": 175,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Ulframite",
+		"upgradesTo": "Assault Mecha",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["[+1] Sight","Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs [Armor] units>","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."}
+		]
+	},
+    // Drones
+    {
+		"name": "Strike Drone",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 100,
+		"requiredTech": "Strike Drones",
+		//"requiredResource": "Oil",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": ["Drone","[+150]% Strength <vs [non-air] units>","[-50]% Strength <vs [Air] units>","[+33]% Strength <vs cities>","Only available <in cities with a [Aerovehicle Hangars]>","Never appears as a Barbarian unit"],
+		"attackSound": "missile",
+        "civilopediaText": [
+			{"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."}
+		]
+	},
+    // Satellites
+    {
+		"name": "Laser Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 6,
+		"interceptRange": 3,
+		"cost": 300,
+		"requiredTech": "Lasers",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": ["[100]% chance to intercept air attacks","[+100]% Strength <vs [non-air] units>","[+100]% Strength <vs [Satellite] units>","[-99]% Strength <vs cities>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Armed with a laser array to dispense precision strikes against enemies."}
+		]
+	},
     
     // Halcyon Era
     // Infantry
@@ -214,9 +459,9 @@
 		"unitType": "Infantry",
 		"movement": 2,
         //"range": 1,
-		"strength": 34,
+		"strength": 44,
         //"rangedStrength": 34,
-		"cost": 75,
+		"cost": 300,
         "requiredTech": "Cybernetics",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
@@ -226,8 +471,85 @@
 			{"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."}
 		]
 	},
+    // Mechs
+    {
+		"name": "Assault Mecha",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Armor] units>","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."}
+		]
+	},
+    {
+		"name": "Artillery Mecha",
+		"unitType": "Armor",
+		"movement": 3,
+        "range": 3,
+		"strength": 45,
+        "rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Armor] units>","[-1] Sight","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost","Indirect Fire"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."}
+		]
+	},
+    // Satellites
+    {
+		"name": "Nuclear Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 6,
+		"interceptRange": 0,
+		"cost": 1500,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [2]","[+200]% Strength <vs [non-air] units>","[-100]% Strength <vs [Satellite] units>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"attackSound": "nuke",
+        "civilopediaText": [
+			{"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."}
+		]
+	},
     
     // Realization Era
+    //Infantry
+    {
+		"name": "Stealth Operative",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+        //"range": 1,
+		"strength": 34,
+        //"rangedStrength": 34,
+		"cost": 350,
+        "requiredTech": "Metamaterials",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques" : ["Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."}
+		]
+	},
     
     // Transcedental Era
     
