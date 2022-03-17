@@ -83,7 +83,6 @@
 		"uniques": [
 			"Can enter ice tiles",
 			"Invisible to non-adjacent units",
-			"Can see invisible [Submarine] units",
 			"Can see invisible [Submarine] units"
 		]
 	},
@@ -106,11 +105,13 @@
 		"movementType": "Air",
 		"uniques": ["Aircraft"]
 	},
-	/*{
+	/*
+	{
         "name": "Atomic Bomber",
         "movementType": "Air",
         "uniques": ["Aircraft"]
-    }, */
+    },
+	*/
 	{
 		"name": "Missile",
 		"movementType": "Air",

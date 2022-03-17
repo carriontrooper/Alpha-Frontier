@@ -2,7 +2,10 @@
 	// todo: add submersibles, ranged water units, aerocraft, tanks
 	// add more techs for them if needed
 
+	////////////////////
 	// Xeno Units
+	////////////////////
+
 	// Melee
 
 	// Ranged
@@ -13,23 +16,11 @@
 
 	// Air (but not aircraft)
 
-	// Landfall Era
+	////////////////////
+	// Player units
+	////////////////////
+
 	// Civvies
-	{
-		"name": "Constructor",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": [
-			"Can build [Land] improvements on tiles",
-			"Can build [Water] improvements on tiles"
-		],
-		"cost": 70,
-		"civilopediaText": [
-			{
-				"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."
-			}
-		]
-	},
 	{
 		"name": "Colonizer",
 		"unitType": "Civilian",
@@ -47,7 +38,25 @@
 			}
 		]
 	},
-	// Scout
+	{
+		"name": "Constructor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles"
+		],
+		"cost": 70,
+		"civilopediaText": [
+			{
+				"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."
+			}
+		]
+	},
+
+	// Landfall Era
+
+	//// Scout
 	{
 		"name": "Rover Explorer",
 		"unitType": "Scout",
@@ -68,7 +77,8 @@
 			}
 		]
 	},
-	// Infantry
+
+	//// Infantry
 	{
 		"name": "Frontier Militia",
 		"unitType": "Infantry",
@@ -88,7 +98,8 @@
 			{ "text": "Basically just a person in an atmo-suit and a gun." }
 		]
 	},
-	// Rovers
+
+	//// Rovers
 	{
 		"name": "Combat Rover",
 		"unitType": "Rover",
@@ -109,7 +120,8 @@
 			}
 		]
 	},
-	// Buggies
+
+	//// Buggies
 	{
 		"name": "Light Buggy",
 		"unitType": "Armor",
@@ -134,7 +146,8 @@
 			}
 		]
 	},
-	// Hydrofoils
+
+	//// Hydrofoils
 	{
 		"name": "Light Hydrofoil",
 		"unitType": "Close Range Water",
@@ -155,7 +168,8 @@
 			}
 		]
 	},
-	//Hovercraft
+
+	//// Hovercraft
 	{
 		"name": "Light Hovercraft",
 		"unitType": "Armor",
@@ -185,7 +199,8 @@
 	},
 
 	// Exploration Era
-	// Rovers
+
+	//// Rovers
 	{
 		"name": "Missile Rover",
 		"unitType": "Rover",
@@ -211,7 +226,8 @@
 			}
 		]
 	},
-	//Buggies
+
+	//// Buggies
 	{
 		"name": "Anti-Air Buggy",
 		"unitType": "Armor",
@@ -239,7 +255,8 @@
 			}
 		]
 	},
-	// Drones
+
+	//// Drones
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -268,7 +285,8 @@
 			}
 		]
 	},
-	// Aerial Units
+
+	//// Aerial Units
 	{
 		"name": "Aerojet",
 		"unitType": "Aerocraft",
@@ -297,7 +315,8 @@
 			}
 		]
 	},
-	// Satellites
+
+	//// Satellites
 	{
 		"name": "Defense Satellite",
 		"unitType": "Satellite",
@@ -328,7 +347,8 @@
 	},
 
 	// Colonization Era
-	// Infantry
+
+	//// Infantry
 	{
 		"name": "Colony Rifleman",
 		"unitType": "Infantry",
@@ -437,7 +457,8 @@
 			}
 		]
 	},
-	// Hydrofoil
+
+	//// Hydrofoil
 	{
 		"name": "Assault Hydrofoil",
 		"unitType": "Close Range Water",
@@ -455,7 +476,8 @@
 			}
 		]
 	},
-	//Hovercraft
+
+	//// Hovercraft
 	{
 		"name": "Hovercarrier",
 		"unitType": "Armor",
@@ -484,7 +506,8 @@
 			}
 		]
 	},
-	// Armor
+
+	//// Armor
 	{
 		"name": "Hovertank",
 		"unitType": "Armor",
@@ -509,7 +532,8 @@
 		"attackSound": "shot",
 		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
 	},
-	// Artillery
+
+	//// Artillery
 	{
 		"name": "Missile Artillery",
 		"unitType": "Armor",
@@ -537,7 +561,8 @@
 			}
 		]
 	},
-	// Mechs
+
+	//// Mechs
 	{
 		"name": "Recon Mecha",
 		"unitType": "Armor",
@@ -565,7 +590,8 @@
 			}
 		]
 	},
-	// Drones
+
+	//// Drones
 	{
 		"name": "Strike Drone",
 		"unitType": "Aerocraft",
@@ -594,7 +620,8 @@
 			}
 		]
 	},
-	// Satellites
+
+	//// Satellites
 	{
 		"name": "Laser Satellite",
 		"unitType": "Satellite",
@@ -625,7 +652,8 @@
 	},
 
 	// Halcyon Era
-	// Infantry
+
+	//// Infantry
 	{
 		"name": "Drop Trooper",
 		"unitType": "Infantry",
@@ -645,7 +673,8 @@
 			}
 		]
 	},
-	// Mechs
+
+	//// Mechs
 	{
 		"name": "Assault Mecha",
 		"unitType": "Armor",
@@ -702,7 +731,8 @@
 			}
 		]
 	},
-	// Satellites
+
+	//// Satellites
 	{
 		"name": "Nuclear Satellite",
 		"unitType": "Satellite",
@@ -733,7 +763,8 @@
 	},
 
 	// Realization Era
-	//Infantry
+
+	//// Infantry
 	{
 		"name": "Stealth Operative",
 		"unitType": "Stealth Infantry",
