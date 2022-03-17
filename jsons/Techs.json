@@ -103,7 +103,7 @@
 				"name": "Pioneer Administration",
 				"row": 6,
 				"quote": "'' - ",
-				"prerequisites": ["Xenobiology","Xenogeology"],
+				"prerequisites": ["Computing","Habitation"],
 				"uniques": ["Enables Open Borders agreements"],
 			},
 			{
