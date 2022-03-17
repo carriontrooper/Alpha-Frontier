@@ -1,5 +1,5 @@
 [
-// Landfall Era
+	// Landfall Era
 	{
 		"columnNumber": 0,
 		"era": "Landfall era",
@@ -14,7 +14,6 @@
 			}
 		]
 	},
-
 	{
 		"columnNumber": 1,
 		"era": "Landfall era",
@@ -57,7 +56,7 @@
 				"row": 8,
 				"quote": "'' - ",
 				"prerequisites": ["Old Earth Knowledge"],
-				"uniques": ["Roads connect tiles across rivers"],
+				"uniques": ["Roads connect tiles across rivers"]
 			},
 			{
 				"name": "Portable Power Sources",
@@ -84,8 +83,8 @@
 				"name": "Hovercrafts",
 				"row": 2,
 				"quote": "'' - ",
-				"prerequisites": ["Hydrodynamics","Engineering"],
-				"uniques": ["Enables embarkation for land units"],
+				"prerequisites": ["Hydrodynamics", "Engineering"],
+				"uniques": ["Enables embarkation for land units"]
 			},
 			{
 				"name": "Xenoagriculture",
@@ -97,21 +96,21 @@
 				"name": "Xenochemistry",
 				"row": 4,
 				"quote": "'' - ",
-				"prerequisites": ["Xenobiology","Xenogeology"]
+				"prerequisites": ["Xenobiology", "Xenogeology"]
 			},
 			{
 				"name": "Pioneer Administration",
 				"row": 6,
 				"quote": "'' - ",
-				"prerequisites": ["Computing","Habitation"],
-				"uniques": ["Enables Open Borders agreements"],
+				"prerequisites": ["Computing", "Habitation"],
+				"uniques": ["Enables Open Borders agreements"]
 			},
 			{
 				"name": "Robotics",
 				"row": 9,
 				"quote": "'' - ",
-				"prerequisites": ["Engineering","Portable Power Sources"]
+				"prerequisites": ["Engineering", "Portable Power Sources"]
 			}
 		]
-	},
+	}
 ]

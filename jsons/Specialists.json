@@ -1,26 +1,26 @@
 [
 	{
-		"name":"Scientist",
-		"science":3,
-		"greatPersonPoints": {"Great Scientist":3},
-		"color": [44,232,245]
+		"name": "Scientist",
+		"science": 3,
+		"greatPersonPoints": { "Great Scientist": 3 },
+		"color": [44, 232, 245]
 	},
 	{
-		"name":"Merchant",
-		"gold":3,
-		"greatPersonPoints": {"Great Merchant":3},
-		"color": [255,234,0]
+		"name": "Merchant",
+		"gold": 3,
+		"greatPersonPoints": { "Great Merchant": 3 },
+		"color": [255, 234, 0]
 	},
 	{
-		"name":"Influencer",
-		"culture":2,
-		"greatPersonPoints": {"Great Influencer":3},
-		"color": [167,91,218]
+		"name": "Influencer",
+		"culture": 2,
+		"greatPersonPoints": { "Great Influencer": 3 },
+		"color": [167, 91, 218]
 	},
 	{
-		"name":"Engineer",
-		"production":2,
-		"greatPersonPoints": {"Great Engineer":3},
-		"color": [247,118,34]
+		"name": "Engineer",
+		"production": 2,
+		"greatPersonPoints": { "Great Engineer": 3 },
+		"color": [247, 118, 34]
 	}
 ]
