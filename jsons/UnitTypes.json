@@ -58,11 +58,15 @@
 		"movementType": "Land"
 	},
 	{
-		"name": "Armored", //melee tank and mechs
+		"name": "Armored", //melee tank
 		"movementType": "Land"
 	},
 	{
-		"name": "Siege", //ranged tank and mechs
+		"name": "Mech", //mechs
+		"movementType": "Land"
+	},
+	{
+		"name": "Siege", //ranged tank
 		"movementType": "Land"
 	},
 	{
