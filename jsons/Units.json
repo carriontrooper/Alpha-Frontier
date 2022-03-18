@@ -1,5 +1,5 @@
 [
-	// todo: add submersibles, ranged water units, aerocraft, tanks
+	// todo: add submersibles, ranged water units, more aerocraft
 	// add more techs for them if needed
 
 	////////////////////
@@ -45,7 +45,7 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
-				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey."
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal."
 			}
 		]
 	},
@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"name": "Wurm",
+		"name": "Wurm", //see into limiting movement to desert tiles if possible in the future
 		"unitType": "Xeno Melee Land",
 		"uniqueTo": "Barbarians",
 		"movement": 0.5,
@@ -92,6 +92,7 @@
 			}
 		]
 	},
+	
 	// Stealth Infantry
 	{
 		"name": "Wendigo",
@@ -114,6 +115,7 @@
 			}
 		]
 	},
+	
 	// Ranged
 	{
 		"name": "Echidna",
@@ -139,7 +141,7 @@
 		]
 	},
 	{
-		"name": "Mycon",
+		"name": "Mycon", //see into limiting movement to mycelium tiles if possible in the future
 		"unitType": "Xeno Ranged Land",
 		"uniqueTo": "Barbarians",
 		"movement": 0.5,
@@ -161,6 +163,7 @@
 			}
 		]
 	},
+	
 	// Water Melee
 	{
 		"name": "Gun Lobster",
@@ -183,6 +186,7 @@
 			}
 		]
 	},
+	
 	// Water Stealth
 	{
 		"name": "Lurker",
@@ -205,6 +209,7 @@
 			}
 		]
 	},
+	
 	// Air (but not aircraft)
 	{
 		"name": "Darter",
@@ -790,6 +795,28 @@
 		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
 	},
 	{
+		"name": "Colonial Armor",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 40,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armor] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [{ "text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon." }]
+	},
+	{
 		"name": "Laser Tank",
 		"unitType": "Armor",
 		"movement": 3,
@@ -801,6 +828,7 @@
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Armor] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Drone] units>",
 			"Can move after attacking",
