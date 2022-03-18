@@ -1,25 +1,19 @@
-Indonesian Gentleman (AKA Carriontrooper) - sprites, idea, code, lore
+# Credits
 
-HaneulCheong - code wizardry, lore
+## Development
 
-Bronze - idea
+- [Indonesian Gentleman (AKA Carriontrooper)](https://github.com/carriontrooper) - sprites, idea, code, lore
+- [HaneulCheong](https://github.com/HaneulCheong) - code wizardry, lore
+- Bronze - idea
+- Caballero von Pancake - idea, lore
+- R.E.N. - idea
+- Bleh - idea
+- Plaxys - idea
+- [Ravignir](https://github.com/ravignir) - idea
 
-Caballero von Pancake - idea, lore
+## DeCiv stuff
 
-R.E.N. - idea
-
-Bleh - idea
-
-Plaxys - idea
-
-Ravignir - idea
-
------ DeCiv stuff -----
-
-Lodo the Bear (AKA SpacedOutChicken) - DeCiv code bits, DeCiv art
-
-9kgsrice - maybe also DeCiv code bits
-
-GeneralWadaling (AKA TheBucketeer) - DeCiv art
-
-AdityaMH - DeCiv art
+- [Lodo the Bear (AKA SpacedOutChicken)](https://github.com/SpacedOutChicken) - DeCiv code bits, DeCiv art
+- [9kgsrice](https://github.com/9kgsofrice) - maybe also DeCiv code bits
+- GeneralWadaling (AKA TheBucketeer) - DeCiv art
+- AdityaMH - DeCiv art

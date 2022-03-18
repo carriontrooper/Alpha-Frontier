@@ -1,43 +1,62 @@
 [
-    // todo: add submersibles, ranged water units, aerocraft, tanks
-    // add more techs for them if needed
+	// todo: add submersibles, ranged water units, aerocraft, tanks
+	// add more techs for them if needed
 
-    // Xeno Units
-    // Melee
-    
-    // Ranged
-    
-    // Water Melee
-    
-    // Water Stealth
-    
-    // Air (but not aircraft)
-    
-    // Landfall Era
-    // Civvies
-    {
-		"name": "Constructor",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles"],
-		"cost": 70,
-        "civilopediaText": [
-			{"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."}
-		]
-	},
+	////////////////////
+	// Xeno Units
+	////////////////////
+
+	// Melee
+
+	// Ranged
+
+	// Water Melee
+
+	// Water Stealth
+
+	// Air (but not aircraft)
+
+	////////////////////
+	// Player units
+	////////////////////
+
+	// Civvies
 	{
 		"name": "Colonizer",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
 		"hurryCostModifier": 20,
-        "civilopediaText": [
-			{"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."}
+		"civilopediaText": [
+			{
+				"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."
+			}
 		]
 	},
-    // Scout
+	{
+		"name": "Constructor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles"
+		],
+		"cost": 70,
+		"civilopediaText": [
+			{
+				"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."
+			}
+		]
+	},
+
+	// Landfall Era
+
+	//// Scout
 	{
 		"name": "Rover Explorer",
 		"unitType": "Scout",
@@ -45,48 +64,65 @@
 		"strength": 5,
 		"cost": 25,
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["Rover", "May upgrade to [Combat Rover] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Rover",
+			"May upgrade to [Combat Rover] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Brave explorers of the alien frontier, lightly armed and accompanied with a rover to hold basic supplies and cross difficult terrain."}
+		"civilopediaText": [
+			{
+				"text": "Brave explorers of the alien frontier, lightly armed and accompanied with a rover to hold basic supplies and cross difficult terrain."
+			}
 		]
 	},
-    // Infantry
+
+	//// Infantry
 	{
 		"name": "Frontier Militia",
 		"unitType": "Infantry",
 		"movement": 2,
-        //"range": 1,
+		//"range": 1,
 		"strength": 8,
-        //"rangedStrength": 8,
+		//"rangedStrength": 8,
 		"cost": 40,
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Colony Rifleman",
-		"uniques" : ["May upgrade to [Colony Rifleman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Basically just a person in an atmo-suit and a gun."}
+		"civilopediaText": [
+			{ "text": "Basically just a person in an atmo-suit and a gun." }
 		]
 	},
-    // Rovers
-    {
+
+	//// Rovers
+	{
 		"name": "Combat Rover",
 		"unitType": "Rover",
 		"movement": 3,
 		"strength": 11,
 		"cost": 45,
-        "requiredTech": "Robotics",
+		"requiredTech": "Robotics",
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["Only available <in cities with a [Rover Storage]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Wholly remote-operated, these rovers are equipped with small arms."}
+		"civilopediaText": [
+			{
+				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+			}
 		]
 	},
-    // Buggies
-    {
+
+	//// Buggies
+	{
 		"name": "Light Buggy",
 		"unitType": "Armor",
 		"movement": 4,
@@ -96,31 +132,45 @@
 		"requiredResource": "Titanium",
 		"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."}
+		"civilopediaText": [
+			{
+				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
+			}
 		]
 	},
-    // Hydrofoils
-    {
+
+	//// Hydrofoils
+	{
 		"name": "Light Hydrofoil",
 		"unitType": "Close Range Water",
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Hydrodynamics",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Never appears as a Barbarian unit"
+		],
 		"upgradesTo": "Assault Hydrofoil",
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."}
+		"civilopediaText": [
+			{
+				"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."
+			}
 		]
 	},
-    //Hovercraft
-    {
+
+	//// Hovercraft
+	{
 		"name": "Light Hovercraft",
 		"unitType": "Armor",
 		"movement": 3,
@@ -130,36 +180,55 @@
 		"requiredResource": "Titanium",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["Hovercraft","Normal vision when embarked","Defense bonus when embarked","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost","Amphibious"],
+		"uniques": [
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."}
+		"civilopediaText": [
+			{
+				"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."
+			}
 		]
 	},
-    
-    // Exploration Era
-    // Rovers
-    {
+
+	// Exploration Era
+
+	//// Rovers
+	{
 		"name": "Missile Rover",
 		"unitType": "Rover",
 		"movement": 2,
-        "range": 2,
+		"range": 2,
 		"strength": 11,
-        "rangedStrength": 15,
+		"rangedStrength": 15,
 		"cost": 50,
-        "requiredTech": "Missiles",
+		"requiredTech": "Missiles",
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Only available <in cities with a [Rover Storage]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "missile",
-        "civilopediaText": [
-			{"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."}
+		"civilopediaText": [
+			{
+				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
+			}
 		]
 	},
-    //Buggies
-    {
+
+	//// Buggies
+	{
 		"name": "Anti-Air Buggy",
 		"unitType": "Armor",
 		"movement": 4,
@@ -169,15 +238,26 @@
 		"requiredResource": "Titanium",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Drone] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."}
+		"civilopediaText": [
+			{
+				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
+			}
 		]
 	},
-    // Drones
-    {
+
+	//// Drones
+	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
 		"name": "Combat Drone",
@@ -187,15 +267,27 @@
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
 		//"requiredResource": "Aluminum",
-		"uniques": ["Drone","No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "[+50]% Strength <vs [Infantry] units>", "[-50]% Strength <vs [Air] units>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Drone",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun",
-        "civilopediaText": [
-			{"text": "Small, fast and highly annoying, they are nevertheless good against infantry."}
+		"civilopediaText": [
+			{
+				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
+			}
 		]
 	},
-    // Aerial Units
-    {
+
+	//// Aerial Units
+	{
 		"name": "Aerojet",
 		"unitType": "Aerocraft",
 		"movement": 1,
@@ -208,14 +300,24 @@
 		"requiredResource": "Promethine",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks","[+50]% Strength <vs [non-air] units>","[+100]% Strength <vs [Air] units>","[-33]% Strength <vs cities>","Only available <in cities with a [Aerovehicle Hangars]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "missile",
-        "civilopediaText": [
-			{"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."}
+		"civilopediaText": [
+			{
+				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
+			}
 		]
 	},
-    // Satellites
-    {
+
+	//// Satellites
+	{
 		"name": "Defense Satellite",
 		"unitType": "Satellite",
 		"movement": 1,
@@ -228,102 +330,136 @@
 		"requiredResource": "Titanium",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks","[+50]% Strength <vs [non-air] units>","[+100]% Strength <vs [Satellite] units>","[-99]% Strength <vs cities>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Satellite] units>",
+			"[-99]% Strength <vs cities>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Orbital military platform designed to protect a city, it lacks the strength to damage cities but is more precise toward enemy units."}
+		"civilopediaText": [
+			{
+				"text": "Orbital military platform designed to protect a city, it lacks the strength to damage cities but is more precise toward enemy units."
+			}
 		]
 	},
-    
-    // Colonization Era
-    // Infantry
-    {
+
+	// Colonization Era
+
+	//// Infantry
+	{
 		"name": "Colony Rifleman",
 		"unitType": "Infantry",
 		"movement": 2,
-        //"range": 1,
+		//"range": 1,
 		"strength": 14,
-        //"rangedStrength": 14,
+		//"rangedStrength": 14,
 		"cost": 75,
-        "requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Next-Gen Armaments",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Exoframe Soldier",
-		"uniques" : ["May upgrade to [Exoframe Soldier] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "A better suited, better trained person armed with a better gun."}
+		"civilopediaText": [
+			{
+				"text": "A better suited, better trained person armed with a better gun."
+			}
 		]
 	},
-    {
+	{
 		"name": "Colony Marksman",
 		"unitType": "Sniper",
 		"movement": 2,
-        "range": 2,
+		"range": 2,
 		"strength": 11,
-        "rangedStrength": 11,
+		"rangedStrength": 11,
 		"cost": 75,
-        "requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Next-Gen Armaments",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Exoframe Sniper",
-		"uniques" : ["May upgrade to [Exoframe Sniper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Exoframe Sniper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "A soldier with a precise, long-ranged gun."}
+		"civilopediaText": [
+			{ "text": "A soldier with a precise, long-ranged gun." }
 		]
 	},
-    {
+	{
 		"name": "Exoframe Soldier",
 		"unitType": "Infantry",
 		"movement": 2,
-        //"range": 1,
+		//"range": 1,
 		"strength": 24,
-        //"rangedStrength": 24,
+		//"rangedStrength": 24,
 		"cost": 125,
-        "requiredTech": "Exoskeletons",
+		"requiredTech": "Exoskeletons",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Drop Trooper",
-		"uniques" : ["May upgrade to [Drop Trooper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun",
-        "civilopediaText": [
-			{"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."}
+		"civilopediaText": [
+			{
+				"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."
+			}
 		]
 	},
-    {
+	{
 		"name": "Exoframe Sniper",
 		"unitType": "Sniper",
 		"movement": 2,
-        "range": 2,
+		"range": 2,
 		"strength": 21,
-        "rangedStrength": 21,
+		"rangedStrength": 21,
 		"cost": 125,
-        "requiredTech": "Exoskeletons",
+		"requiredTech": "Exoskeletons",
 		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Laser Trooper",
-		"uniques" : ["May upgrade to [Laser Trooper] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Laser Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."}
+		"civilopediaText": [
+			{
+				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
+			}
 		]
 	},
-    {
+	{
 		"name": "Laser Trooper",
 		"unitType": "Sniper",
 		"movement": 2,
-        "range": 3,
+		"range": 3,
 		"strength": 31,
-        "rangedStrength": 31,
+		"rangedStrength": 31,
 		"cost": 200,
-        "requiredTech": "Lasers",
+		"requiredTech": "Lasers",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Laser Trooper",
-		"uniques" : ["Ranged attacks may be performed over obstacles", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."}
+		"civilopediaText": [
+			{
+				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+			}
 		]
 	},
-    // Hydrofoil
-    {
+
+	//// Hydrofoil
+	{
 		"name": "Assault Hydrofoil",
 		"unitType": "Close Range Water",
 		"movement": 5,
@@ -334,12 +470,15 @@
 		//"upgradesTo": "Assault Hydrofoil",
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."}
+		"civilopediaText": [
+			{
+				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+			}
 		]
 	},
-    //Hovercraft
-    {
+
+	//// Hovercraft
+	{
 		"name": "Hovercarrier",
 		"unitType": "Armor",
 		"movement": 3,
@@ -349,16 +488,27 @@
 		"requiredResource": "Promethine",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["Hovercraft","Can carry [2] [Aerocraft] units","Normal vision when embarked","Defense bonus when embarked","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost","Amphibious"],
+		"uniques": [
+			"Hovercraft",
+			"Can carry [2] [Aerocraft] units",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."}
+		"civilopediaText": [
+			{
+				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+			}
 		]
 	},
-    // Armor
-    {
+
+	//// Armor
+	{
 		"name": "Hovertank",
 		"unitType": "Armor",
 		"movement": 3,
@@ -368,35 +518,52 @@
 		"requiredResource": "Promethine",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["Hovercraft","Normal vision when embarked","Defense bonus when embarked","Can move after attacking","No defensive terrain bonus","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost","Amphibious"],
+		"uniques": [
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "An armored, upgunned hovercraft."}
-		]
+		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
 	},
-    // Artillery
-    {
+
+	//// Artillery
+	{
 		"name": "Missile Artillery",
 		"unitType": "Armor",
 		"movement": 2,
-        "range": 3,
+		"range": 3,
 		"strength": 30,
-        "rangedStrength": 40,
+		"rangedStrength": 40,
 		"cost": 175,
-        "requiredTech": "Next-Gen Armaments",
-        "requiredResource": "Promethine",
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
 		//"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "No defensive terrain bonus","Only available <in cities with a [Mechanized Unit Facility]>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile",
-        "civilopediaText": [
-			{"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."}
+		"civilopediaText": [
+			{
+				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
+			}
 		]
 	},
-    // Mechs
-    {
+
+	//// Mechs
+	{
 		"name": "Recon Mecha",
 		"unitType": "Armor",
 		"movement": 4,
@@ -406,16 +573,26 @@
 		"requiredResource": "Ulframite",
 		"upgradesTo": "Assault Mecha",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["[+1] Sight","Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs [Armor] units>","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost"],
+		"uniques": [
+			"[+1] Sight",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Armor] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."}
+		"civilopediaText": [
+			{
+				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
+			}
 		]
 	},
-    // Drones
-    {
+
+	//// Drones
+	{
 		"name": "Strike Drone",
 		"unitType": "Aerocraft",
 		"movement": 1,
@@ -428,14 +605,24 @@
 		//"requiredResource": "Oil",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
-		"uniques": ["Drone","[+150]% Strength <vs [non-air] units>","[-50]% Strength <vs [Air] units>","[+33]% Strength <vs cities>","Only available <in cities with a [Aerovehicle Hangars]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"Drone",
+			"[+150]% Strength <vs [non-air] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "missile",
-        "civilopediaText": [
-			{"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."}
+		"civilopediaText": [
+			{
+				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
+			}
 		]
 	},
-    // Satellites
-    {
+
+	//// Satellites
+	{
 		"name": "Laser Satellite",
 		"unitType": "Satellite",
 		"movement": 1,
@@ -448,34 +635,47 @@
 		"requiredResource": "Titanium",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks","[+100]% Strength <vs [non-air] units>","[+100]% Strength <vs [Satellite] units>","[-99]% Strength <vs cities>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Satellite] units>",
+			"[-99]% Strength <vs cities>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Armed with a laser array to dispense precision strikes against enemies."}
+		"civilopediaText": [
+			{
+				"text": "Armed with a laser array to dispense precision strikes against enemies."
+			}
 		]
 	},
-    
-    // Halcyon Era
-    // Infantry
-    {
+
+	// Halcyon Era
+
+	//// Infantry
+	{
 		"name": "Drop Trooper",
 		"unitType": "Infantry",
 		"movement": 2,
-        //"range": 1,
+		//"range": 1,
 		"strength": 44,
-        //"rangedStrength": 34,
+		//"rangedStrength": 34,
 		"cost": 300,
-        "requiredTech": "Cybernetics",
+		"requiredTech": "Cybernetics",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
-		"uniques" : ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "machinegun",
-        "civilopediaText": [
-			{"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."}
+		"civilopediaText": [
+			{
+				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
+			}
 		]
 	},
-    // Mechs
-    {
+
+	//// Mechs
+	{
 		"name": "Assault Mecha",
 		"unitType": "Armor",
 		"movement": 4,
@@ -485,36 +685,55 @@
 		"requiredResource": "Ulframite",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Armor] units>","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armor] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."}
+		"civilopediaText": [
+			{
+				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
+			}
 		]
 	},
-    {
+	{
 		"name": "Artillery Mecha",
 		"unitType": "Armor",
 		"movement": 3,
-        "range": 3,
+		"range": 3,
 		"strength": 45,
-        "rangedStrength": 50,
+		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Ulframite",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Armor] units>","[-1] Sight","Only available <in cities with a [Mechanized Unit Facility]>","Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost","Indirect Fire"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armor] units>",
+			"[-1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."}
+		"civilopediaText": [
+			{
+				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
+			}
 		]
 	},
-    // Satellites
-    {
+
+	//// Satellites
+	{
 		"name": "Nuclear Satellite",
 		"unitType": "Satellite",
 		"movement": 1,
@@ -527,123 +746,198 @@
 		"requiredResource": "Titanium",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
-		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [2]","[+200]% Strength <vs [non-air] units>","[-100]% Strength <vs [Satellite] units>","Only available <in cities with a [Orbital Launch Facility]>","Never appears as a Barbarian unit"],
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"[+200]% Strength <vs [non-air] units>",
+			"[-100]% Strength <vs [Satellite] units>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "nuke",
-        "civilopediaText": [
-			{"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."}
+		"civilopediaText": [
+			{
+				"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."
+			}
 		]
 	},
-    
-    // Realization Era
-    //Infantry
-    {
+
+	// Realization Era
+
+	//// Infantry
+	{
 		"name": "Stealth Operative",
 		"unitType": "Stealth Infantry",
 		"movement": 2,
-        //"range": 1,
+		//"range": 1,
 		"strength": 34,
-        //"rangedStrength": 34,
+		//"rangedStrength": 34,
 		"cost": 350,
-        "requiredTech": "Metamaterials",
+		"requiredTech": "Metamaterials",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
-		"uniques" : ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."}
+		"civilopediaText": [
+			{
+				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+			}
 		]
 	},
-    
-    // Transcedental Era
-    
-    // Religious Units
-    {
+
+	// Transcedental Era
+
+	// Religious Units
+	{
 		"name": "Visionary",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"uniques": [
+			"Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
 		"movement": 4,
 		"religiousStrength": 1000,
-        "civilopediaText": [
-			{"text": "People who have recived a spiritual insight, the ideas they promote tend to stick to the collective unconscious."}
+		"civilopediaText": [
+			{
+				"text": "People who have recived a spiritual insight, the ideas they promote tend to stick to the collective unconscious."
+			}
 		]
 	},
 	{
 		"name": "Expunger",
 		"unitType": "Civilian",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
 		],
 		"movement": 3,
-        "civilopediaText": [
-			{"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."}
+		"civilopediaText": [
+			{
+				"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."
+			}
 		]
-	}
-    
-    // Great People
-    {
+	},
+
+	// Great People
+	{
 		"name": "Great Influencer",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Landmark]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2,
-        "civilopediaText": [
-			{"text": "Very charismatic people, these tend to be artists and public figures that contribute to the cultural progress of a nation."}
+		"civilopediaText": [
+			{
+				"text": "Very charismatic people, these tend to be artists and public figures that contribute to the cultural progress of a nation."
+			}
 		]
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Academy]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2,
-        "civilopediaText": [
-			{"text": "Brilliant scientists, inventors and innovators, these could advance technology by leaps and bounds."}
+		"civilopediaText": [
+			{
+				"text": "Brilliant scientists, inventors and innovators, these could advance technology by leaps and bounds."
+			}
 		]
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2,
-        "civilopediaText": [
-			{"text": "Excellent merchants, economists and CEOs, these profit-oriented individuals turn the wheel of commerce across borders."}
+		"civilopediaText": [
+			{
+				"text": "Excellent merchants, economists and CEOs, these profit-oriented individuals turn the wheel of commerce across borders."
+			}
 		]
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can construct [Manufactory]",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2,
-        "civilopediaText": [
-			{"text": "Industrious engineers and architects, these hasten urban projects with their productivity."}
+		"civilopediaText": [
+			{
+				"text": "Industrious engineers and architects, these hasten urban projects with their productivity."
+			}
 		]
 	},
 	{
 		"name": "Great Visionary",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
-			"Takes your religion over the one in their birth city"],
+		"uniques": [
+			"Can construct [Holy site] if it hasn't used other actions yet",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000,
-        "civilopediaText": [
-			{"text": "Wise spiritualists and motivational speakers, these tend to aggregate followers around their brand of thinking."}
+		"civilopediaText": [
+			{
+				"text": "Wise spiritualists and motivational speakers, these tend to aggregate followers around their brand of thinking."
+			}
 		]
 	},
 	{
 		"name": "Great General", // rename to Great Tactician in localization
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2,
-        "civilopediaText": [
-			{"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."}
+		"civilopediaText": [
+			{
+				"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."
+			}
 		]
 	}
-
 ]

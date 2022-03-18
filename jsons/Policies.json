@@ -2,17 +2,23 @@
 	{
 		"name": "Pioneer Spirit",
 		"era": "Landfall era",
-		"uniques": ["[+3 Culture] [in capital]", "[+5]% Production when constructing [All] buildings [in all cities]"],
+		"uniques": [
+			"[+3 Culture] [in capital]",
+			"[+5]% Production when constructing [All] buildings [in all cities]"
+		],
 		"policies": [
 			{
 				"name": "Adaptation",
-				"uniques": ["[+2 Food] [in all cities]", "[+1 Happiness] per [10] population [in all cities]"],
+				"uniques": [
+					"[+2 Food] [in all cities]",
+					"[+1 Happiness] per [10] population [in all cities]"
+				],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Trailblazers",
-				"uniques":["[+1] Movement <for [All] units>"],
+				"uniques": ["[+1] Movement <for [All] units>"],
 				"row": 1,
 				"column": 3
 			},
@@ -24,21 +30,30 @@
 			},
 			{
 				"name": "Survey Corps",
-				"uniques": ["[+1] Sight <for [All] units>", "[+1 Gold] from [Luxury resource] tiles [in all cities]"], //how to define luxury resources?
+				"uniques": [
+					"[+1] Sight <for [All] units>",
+					"[+1 Gold] from [Luxury resource] tiles [in all cities]"
+				], //how to define luxury resources?
 				"requires": ["Trailblazers"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Homestead Initiative",
-				"uniques": ["Free [Colonizer] appears", "[-25]% Culture cost of natural border growth [in all cities]"],
+				"uniques": [
+					"Free [Colonizer] appears",
+					"[-25]% Culture cost of natural border growth [in all cities]"
+				],
 				"requires": ["Trailblazers", "Self-Sufficiency"],
 				"row": 3,
 				"column": 4
 			},
 			{
 				"name": "Pioneer Spirit Complete",
-				"uniques": ["[+15]% growth [in all cities]", "Provides a [Medbay] in your first [4] cities for free"]
+				"uniques": [
+					"[+15]% growth [in all cities]",
+					"Provides a [Medbay] in your first [4] cities for free"
+				]
 			}
 		]
 	},
@@ -49,179 +64,246 @@
 		"policies": [
 			{
 				"name": "Centralization",
-				"uniques": ["[+10]% [Production] [in capital]", "[+10]% growth [in capital]"],
+				"uniques": [
+					"[+10]% [Production] [in capital]",
+					"[+10]% growth [in capital]"
+				],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Monumentalism",
-				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", "[+1 Happiness] per [5] population [in all cities] <during a Golden Age>"],
-                "requires": ["Centralization"],
+				"uniques": [
+					"[+15]% Production when constructing [All] wonders [in all cities]",
+					"[+1 Happiness] per [5] population [in all cities] <during a Golden Age>"
+				],
+				"requires": ["Centralization"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "City Planning",
-				"uniques": ["[+5]% Production when constructing [All] buildings [in all cities]", "Free [Constructor] appears"],
+				"uniques": [
+					"[+5]% Production when constructing [All] buildings [in all cities]",
+					"Free [Constructor] appears"
+				],
 				"requires": ["Centralization"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Urban Luxuries",
-				"uniques": ["[+1 Happiness] from [Luxury resource] tiles [in all cities]", "[+1 Happiness] per [5] population [in capital]"],
+				"uniques": [
+					"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
+					"[+1 Happiness] per [5] population [in capital]"
+				],
 				"requires": ["Centralization"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Civil Protection",
-				"uniques": ["[20]% Strength for cities", "[+1 Happiness] [in all cities with a garrison]"],
+				"uniques": [
+					"[20]% Strength for cities",
+					"[+1 Happiness] [in all cities with a garrison]"
+				],
 				"requires": ["Centralization"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Centralization Complete",
-				"uniques": ["[+2 Gold, +2 Production] [in capital] <during a Golden Age>"]
+				"uniques": [
+					"[+2 Gold, +2 Production] [in capital] <during a Golden Age>"
+				]
 			}
 		]
 	},
-    {
+	{
 		"name": "Diversity",
 		"era": "Landfall era",
 		"uniques": ["[+1 Happiness] per [5] population [in all cities]"],
 		"policies": [
 			{
 				"name": "Census Logs",
-				"uniques": ["[+1 Food] [in all cities]", "[+5]% growth [in all cities]"],
+				"uniques": [
+					"[+1 Food] [in all cities]",
+					"[+5]% growth [in all cities]"
+				],
 				"row": 1,
 				"column": 1
 			},
-            {
+			{
 				"name": "Representation",
-				"uniques": ["Each city founded increases culture cost of policies [33]% less than normal"],
+				"uniques": [
+					"Each city founded increases culture cost of policies [33]% less than normal"
+				],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Diversity Festivals",
-				"uniques": ["[+1 Culture] [in all cities]", "[25]% Golden Age length"],
+				"uniques": [
+					"[+1 Culture] [in all cities]",
+					"[25]% Golden Age length"
+				],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Worker Unions",
-				"uniques": ["[-10]% tile improvement construction time", "[+1 Production] [in all cities connected to capital]"],
+				"uniques": [
+					"[-10]% tile improvement construction time",
+					"[+1 Production] [in all cities connected to capital]"
+				],
 				"requires": ["Representation"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Cultural Variety",
-				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"],
+				"uniques": [
+					"Provides the cheapest [Culture] building in your first [4] cities for free"
+				],
 				"requires": ["Diversity Festivals"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Diversity Complete",
-				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "[+1 culture] [in all cities] <during a Golden Age>"]
+				"uniques": [
+					"[+1 Happiness] [in all cities connected to capital]",
+					"[+1 culture] [in all cities] <during a Golden Age>"
+				]
 			}
 		]
 	},
 	{
 		"name": "Tenacity",
 		"era": "Landfall era",
-		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-			"Notified of new Barbarian encampments"],
+		"uniques": [
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"Notified of new Barbarian encampments"
+		],
 		"policies": [
 			{
 				"name": "Professional Army",
-				"uniques":["[+15]% Production when constructing [Military] units [in all cities]", "[-33]% Gold cost of upgrading <for [Military] units>"],
+				"uniques": [
+					"[+15]% Production when constructing [Military] units [in all cities]",
+					"[-33]% Gold cost of upgrading <for [Military] units>"
+				],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Esprit de Corps",
-				"uniques":["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+				"uniques": [
+					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+				],
 				"row": 1,
 				"column": 4
 			},
-            {
+			{
 				"name": "Defense in Depth",
-				"uniques": ["[20]% City Strength from defensive buildings", "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+				"uniques": [
+					"[20]% City Strength from defensive buildings",
+					"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+				],
 				"requires": ["Professional Army"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Military Tactics",
-				"uniques":["[+50]% XP gained from combat <for [Military] units>", "Free [Great General] appears"],
+				"uniques": [
+					"[+50]% XP gained from combat <for [Military] units>",
+					"Free [Great General] appears"
+				],
 				"requires": ["Professional Army"],
 				"row": 2,
 				"column": 3
 			},
 			{
 				"name": "Force Majeure",
-				"uniques": ["[+50]% Strength for cities <with a garrison> <when attacking>", "[+10]% Strength <for [All] units> <with [1] to [1] neighboring [City center] tiles>"],
+				"uniques": [
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
+					"[+10]% Strength <for [All] units> <with [1] to [1] neighboring [City center] tiles>"
+				],
 				"requires": ["Esprit de Corps", "Military Tactics"],
 				"row": 3,
 				"column": 4
 			},
 			{
 				"name": "Tenacity Complete",
-				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]", "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonial era]>"]
+				"uniques": [
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonial era]>"
+				]
 			}
 		]
 	},
-    {
+	{
 		"name": "Statecraft",
 		"era": "Exploration era",
-		"uniques": ["Resting point for Influence with City-States is increased by [20]"],
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [20]"
+		],
 		"policies": [
 			{
 				"name": "State Altruism",
-				"uniques":["Gifts of Gold to City-States generate [25]% more Influence"],
+				"uniques": [
+					"Gifts of Gold to City-States generate [25]% more Influence"
+				],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Aligned Interests",
-				"uniques":["Military Units gifted from City-States start with [10] XP"],
+				"uniques": [
+					"Military Units gifted from City-States start with [10] XP"
+				],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Research Cooperation",
-				"uniques":["Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
+				"uniques": [
+					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+				],
 				"requires": ["State Altruism"],
 				"row": 2,
 				"column": 3
 			},
 			{
 				"name": "Cultural Ambassadors",
-				"uniques": ["Allied City-States will occasionally gift Great People"],
+				"uniques": [
+					"Allied City-States will occasionally gift Great People"
+				],
 				"requires": ["Research Cooperation"],
 				"row": 3,
 				"column": 2
 			},
 			{
 				"name": "Local Hegemony",
-				"requires": ["Research Cooperation","Aligned Interests"],
-				"uniques": ["[+100]% resources gifted by City-States",
-					"[+50]% Happiness from luxury resources gifted by City-States"],
+				"requires": ["Research Cooperation", "Aligned Interests"],
+				"uniques": [
+					"[+100]% resources gifted by City-States",
+					"[+50]% Happiness from luxury resources gifted by City-States"
+				],
 				"row": 3,
 				"column": 4
 			},
 			{
 				"name": "Statecraft Complete",
-				"uniques": ["Influence of all other civilizations with all city-states degrades [33]% faster", 
-					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"]
-			} 
+				"uniques": [
+					"Influence of all other civilizations with all city-states degrades [33]% faster",
+					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+				]
+			}
 		]
 	},
-    {
+	{
 		"name": "Ingenuity",
 		"era": "Colonial era",
 		"uniques": ["[+1 Gold] per [3] population [in all cities]"],
@@ -238,9 +320,12 @@
 				"row": 1,
 				"column": 4
 			},
-            {
+			{
 				"name": "Field Research",
-				"uniques": ["[+1 Science] from every [Trading post]", "[+1 Science] [in all cities connected to capital]"],
+				"uniques": [
+					"[+1 Science] from every [Trading post]",
+					"[+1 Science] [in all cities connected to capital]"
+				],
 				"requires": ["Colonial Patents"],
 				"row": 2,
 				"column": 1
@@ -254,20 +339,25 @@
 			},
 			{
 				"name": "Legacies of Genius",
-				"uniques": ["[+50 Science] whenever a Great Person is expended"],
+				"uniques": [
+					"[+50 Science] whenever a Great Person is expended"
+				],
 				"requires": ["Scientific Management"],
 				"row": 3,
 				"column": 3
 			},
 			{
 				"name": "Ingenuity Complete",
-				"uniques": ["[1] Free Technologies", "[+100]% Gold from Great Merchant trade missions"]
+				"uniques": [
+					"[1] Free Technologies",
+					"[+100]% Gold from Great Merchant trade missions"
+				]
 			}
 		]
 	},
 	{
 		"name": "Humanitarian",
-        "era": "Colonial era",
+		"era": "Colonial era",
 		"uniques": ["[+1 Faith] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -282,9 +372,12 @@
 				"row": 1,
 				"column": 4
 			},
-            {
+			{
 				"name": "Promotion of the Arts",
-				"uniques": ["[-10]% Culture cost of adopting new Policies", "[+100]% Production when constructing [Culture] buildings [in all cities connected to capital]"],
+				"uniques": [
+					"[-10]% Culture cost of adopting new Policies",
+					"[+100]% Production when constructing [Culture] buildings [in all cities connected to capital]"
+				],
 				"requires": ["Founding Mythos"],
 				"row": 2,
 				"column": 2
@@ -305,7 +398,10 @@
 			},
 			{
 				"name": "Humanitarian Complete",
-				"uniques": ["Free [Great Prophet] appears", "[+2 Culture, +2 Faith] from [Holy Site] tiles [in all cities]"]
+				"uniques": [
+					"Free [Great Prophet] appears",
+					"[+2 Culture, +2 Faith] from [Holy Site] tiles [in all cities]"
+				]
 			}
 		]
 	},
@@ -316,13 +412,18 @@
 		"policies": [
 			{
 				"name": "Deep Analysis",
-				"uniques": ["[+2 Science] from every specialist [in all cities]"],
+				"uniques": [
+					"[+2 Science] from every specialist [in all cities]"
+				],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Neo-Philosophy",
-				"uniques": ["[+1 Faith] from from all [Religious] buildings", "[+1 Science] from from all [Science] buildings"],
+				"uniques": [
+					"[+1 Faith] from from all [Religious] buildings",
+					"[+1 Science] from from all [Science] buildings"
+				],
 				"row": 1,
 				"column": 5
 			},
@@ -349,18 +450,24 @@
 			},
 			{
 				"name": "Ascendancy Complete",
-				"uniques": ["[1] Free Technologies", "[+3 Science] from every [Academy]"]
+				"uniques": [
+					"[1] Free Technologies",
+					"[+3 Science] from every [Academy]"
+				]
 			}
 		]
 	},
-    {
+	{
 		"name": "Influence",
 		"era": "Colonial era",
 		"uniques": ["[+1 Culture] per [3] population [in all cities]"],
 		"policies": [
 			{
 				"name": "Cultural Icons",
-				"uniques": ["[+50 Culture] whenever a Great Person is expended", "[Great Influencer] is earned [+20]% faster"],
+				"uniques": [
+					"[+50 Culture] whenever a Great Person is expended",
+					"[Great Influencer] is earned [+20]% faster"
+				],
 				"row": 1,
 				"column": 1
 			},
@@ -370,14 +477,14 @@
 				"row": 1,
 				"column": 5
 			},
-						{
+			{
 				"name": "Social Media",
 				"uniques": ["[+1 Culture] from every [Influencer]"],
 				"requires": ["Cultural Icons"],
 				"row": 2,
 				"column": 1
 			},
-						{
+			{
 				"name": "Right to Expression",
 				"uniques": ["[+2 Culture] per [4] population [in all cities]"],
 				"requires": ["Cultural Icons", "Market of Ideas"],
@@ -393,78 +500,108 @@
 			},
 			{
 				"name": "Aesthetics Complete",
-				"uniques": ["Free Social Policy","May buy [Great Influencer] units for [500] [Gold] [in all cities] at an increasing price ([250]) <starting from the [Halcyon era]>"]
+				"uniques": [
+					"Free Social Policy",
+					"May buy [Great Influencer] units for [500] [Gold] [in all cities] at an increasing price ([250]) <starting from the [Halcyon era]>"
+				]
 			}
 		]
 	},
 	{
 		"name": "Purification Ideology",
 		"era": "Halcyon era",
-		"uniques": ["[+1 Happiness] from every [Prefab Walls]",
-                    "[+1 Happiness] from every [Prefab Bunkers]",
-                    "[+1 Happiness] from every [Defense Perimeter]",
-                    "[+1 Happiness] from every [Command Center]",
-                    "Only available <before adopting [Symbiosis Ideology]>", "Only available <before adopting [Radiant Ideology]>"],
+		"uniques": [
+			"[+1 Happiness] from every [Prefab Walls]",
+			"[+1 Happiness] from every [Prefab Bunkers]",
+			"[+1 Happiness] from every [Defense Perimeter]",
+			"[+1 Happiness] from every [Command Center]",
+			"Only available <before adopting [Symbiosis Ideology]>",
+			"Only available <before adopting [Radiant Ideology]>"
+		],
 		"policies": [
 			{
 				"name": "Xenocide",
-				"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Credit]"],
+				"uniques": [
+					"[+33]% Strength <vs [Barbarian] units>",
+					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Credit]"
+				],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Supremacy",
-				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"],
+				"uniques": [
+					"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+				],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Appropriation",
-				"uniques": ["Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately", "[-20]% Culture cost of natural border growth [in all cities]"],
+				"uniques": [
+					"Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
+					"[-20]% Culture cost of natural border growth [in all cities]"
+				],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Sanctity of Form",
-				"uniques": ["[+2 Happiness] per [4] population [in all cities] <when at war>"],
+				"uniques": [
+					"[+2 Happiness] per [4] population [in all cities] <when at war>"
+				],
 				"requires": ["Xenocide", "Supremacy"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Censorship",
-				"uniques": ["[+100]% Production when constructing [Courthouse] buildings [in all cities]", "[+3 Happiness] [in all cities] <when below [3] Happiness>"],
+				"uniques": [
+					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+					"[+3 Happiness] [in all cities] <when below [3] Happiness>"
+				],
 				"requires": ["Appropriation"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Purification Ideology Apex",
-				"uniques": ["[+20]% Production when constructing [Military] units [in all cities]", "[+50]% Production when constructing [Military] units [in capital]"]
+				"uniques": [
+					"[+20]% Production when constructing [Military] units [in all cities]",
+					"[+50]% Production when constructing [Military] units [in capital]"
+				]
 			}
 		]
 	},
 	{
 		"name": "Symbiosis Ideology",
 		"era": "Halcyon era",
-		"uniques": ["[+10]% growth [in all cities]",
-			"Only available <before adopting [Purification Ideology]>", "Only available <before adopting [Radiant Ideology]>"],
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"Only available <before adopting [Purification Ideology]>",
+			"Only available <before adopting [Radiant Ideology]>"
+		],
 		"policies": [
 			{
 				"name": "Eco Harmony",
-				"uniques": ["[+1 Food, +1 Production] from [Grassland] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Plains] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Mycelium] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Forest] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Jungle] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Oasis] tiles [in all cities]",
-                           "[+1 Food, +1 Production] from [Polar Oasis] tiles [in all cities]"],
+				"uniques": [
+					"[+1 Food, +1 Production] from [Grassland] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Plains] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Mycelium] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Forest] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Jungle] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Oasis] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Polar Oasis] tiles [in all cities]"
+				],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Healing Nature",
-				"uniques": ["All healing effects doubled <in [Miasma] tiles>", "All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"],
+				"uniques": [
+					"All healing effects doubled <in [Miasma] tiles>",
+					"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"
+				],
 				"row": 1,
 				"column": 5
 			},
@@ -477,31 +614,35 @@
 			},
 			{
 				"name": "Biodiversity",
-				"uniques": ["[+1 Happiness] from [Tubers] tiles [in all cities]",
-                           "[+1 Happiness] from [Algae] tiles [in all cities]",
-                           "[+1 Happiness] from [Seasilk] tiles [in all cities]",
-                           "[+1 Happiness] from [Plankton] tiles [in all cities]",
-                           "[+1 Happiness] from [Fungi Pods] tiles [in all cities]",
-                           "[+1 Happiness] from [Exotic Fruit] tiles [in all cities]",
-                           "[+1 Happiness] from [Chitin] tiles [in all cities]",
-                           "[+1 Happiness] from [Dairy Aphid] tiles [in all cities]",
-                           "[+1 Happiness] from [Sea Slivers] tiles [in all cities]",
-                           "[+1 Happiness] from [Rockbud] tiles [in all cities]",
-                           "[+1 Happiness] from [Spice] tiles [in all cities]",
-                           "[+1 Happiness] from [Stimulants] tiles [in all cities]",
-                           "[+1 Happiness] from [Hydromielin] tiles [in all cities]",
-                           "[+1 Happiness] from [Ruby Cactus] tiles [in all cities]",
-                           "[+1 Happiness] from [Snuffets] tiles [in all cities]",
-                           "[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
-                           "[+1 Happiness] from [Vitamass] tiles [in all cities]"],
+				"uniques": [
+					"[+1 Happiness] from [Tubers] tiles [in all cities]",
+					"[+1 Happiness] from [Algae] tiles [in all cities]",
+					"[+1 Happiness] from [Seasilk] tiles [in all cities]",
+					"[+1 Happiness] from [Plankton] tiles [in all cities]",
+					"[+1 Happiness] from [Fungi Pods] tiles [in all cities]",
+					"[+1 Happiness] from [Exotic Fruit] tiles [in all cities]",
+					"[+1 Happiness] from [Chitin] tiles [in all cities]",
+					"[+1 Happiness] from [Dairy Aphid] tiles [in all cities]",
+					"[+1 Happiness] from [Sea Slivers] tiles [in all cities]",
+					"[+1 Happiness] from [Rockbud] tiles [in all cities]",
+					"[+1 Happiness] from [Spice] tiles [in all cities]",
+					"[+1 Happiness] from [Stimulants] tiles [in all cities]",
+					"[+1 Happiness] from [Hydromielin] tiles [in all cities]",
+					"[+1 Happiness] from [Ruby Cactus] tiles [in all cities]",
+					"[+1 Happiness] from [Snuffets] tiles [in all cities]",
+					"[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
+					"[+1 Happiness] from [Vitamass] tiles [in all cities]"
+				],
 				"requires": ["Xeno-Cooperation"],
 				"row": 2,
 				"column": 3
 			},
 			{
 				"name": "Regrowth",
-				"uniques": ["[+25]% growth [in all cities] <while the empire is happy>"],
-				"requires": ["Biodiversity","Healing Nature"],
+				"uniques": [
+					"[+25]% growth [in all cities] <while the empire is happy>"
+				],
+				"requires": ["Biodiversity", "Healing Nature"],
 				"row": 3,
 				"column": 4
 			},
@@ -514,46 +655,64 @@
 		]
 	},
 	{
-    "name": "Radiant Ideology",
-    "era": "Halcyon era",
-	"uniques": ["[+25]% great person generation [in all cities]", "Only available <before adopting [Symbiosis Ideology]>", "Only available <before adopting [Purification Ideology]>"],
-    "policies": [
-        {
-            "name": "Liberated Experimentation",
-			"uniques": ["[+2 Science] from from all [Science] buildings"],
-            "row": 1,
-            "column": 1
-        },
-		{
-			"name": "Combat Analysis",
-			"uniques": ["Earn [20]% of the damage done to [Military] units as [Science]"],
-			"row": 1,
-			"column": 3
-		},
-        {
-            "name": "Peer-to-Peer Review",
-			"uniques": ["[+1 Science] per [3] population [in all cities connected to capital]"],
-            "row": 1,
-            "column": 5
-        },
-        {
-            "name": "Logical Progression",
-            "requires": ["Liberated Experimentation", "Combat Analysis", "Peer-to-Peer Review"],
-			"uniques": ["[Great Scientist] is earned [+20]% faster", "Science gained from research agreements [+100]%"],
-            "row": 2,
-            "column": 3
-        },
-		{
-			"name": "Glorifying Brilliance",
-            "requires": ["Logical Progression"],
-			"uniques": ["[+2 Science] from from all [Science] buildings <during a Golden Age>", "[+2 Science] from every specialist [in all cities] <during a Golden Age>"],
-			"row": 3,
-			"column": 3
-		},
-        {
-            "name": "Radiant Ideology Apex",
-			"uniques": ["[+100]% Yield from every [Great Improvement]"]
-        }
-    ]
-}
+		"name": "Radiant Ideology",
+		"era": "Halcyon era",
+		"uniques": [
+			"[+25]% great person generation [in all cities]",
+			"Only available <before adopting [Symbiosis Ideology]>",
+			"Only available <before adopting [Purification Ideology]>"
+		],
+		"policies": [
+			{
+				"name": "Liberated Experimentation",
+				"uniques": ["[+2 Science] from from all [Science] buildings"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Combat Analysis",
+				"uniques": [
+					"Earn [20]% of the damage done to [Military] units as [Science]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Peer-to-Peer Review",
+				"uniques": [
+					"[+1 Science] per [3] population [in all cities connected to capital]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Logical Progression",
+				"requires": [
+					"Liberated Experimentation",
+					"Combat Analysis",
+					"Peer-to-Peer Review"
+				],
+				"uniques": [
+					"[Great Scientist] is earned [+20]% faster",
+					"Science gained from research agreements [+100]%"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Glorifying Brilliance",
+				"requires": ["Logical Progression"],
+				"uniques": [
+					"[+2 Science] from from all [Science] buildings <during a Golden Age>",
+					"[+2 Science] from every specialist [in all cities] <during a Golden Age>"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Radiant Ideology Apex",
+				"uniques": ["[+100]% Yield from every [Great Improvement]"]
+			}
+		]
+	}
 ]
