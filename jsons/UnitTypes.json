@@ -84,6 +84,7 @@
 			"Can enter ice tiles",
 			"Invisible to non-adjacent units",
 			"Can see invisible [Submarine] units"
+			"Can see invisible [Xeno Stealth Water] units"
 		]
 	},
 	{
