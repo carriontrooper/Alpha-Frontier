@@ -1,3 +1,40 @@
 // TODO: Implement "Ignore terrain cost"
 // TODO: Implement "Amphibious"
 // TODO: Implement "Indirect Fire"
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Scout","Rover","Armor","Siege","Close Range Water","Ranged Water","Submarine","Helicopter"]
+	},
+
+// Sniper + Siege
+
+// Close Combat, Armored
+
+// Scout
+
+// Close Range Water
+
+// Ranged Water
+
+// Submarine
+
+// Misc Water
+
+// Aerocraft
+
+// Helicopter
+
+// Aerocrafr
+
+// Mechs
+
+// Mixed
+
+// Ranged Water and Air
+
+// Uniques kept through upgrades
+
+]
