@@ -24,13 +24,13 @@
 			{
 				"name": "Hydrodynamics",
 				"row": 1,
-				"quote": "'' - ",
+				"quote": "'Once again, this whole biosphere is possible due to water! It's everywhere, get used to it.' - Jeanie O'Shea, scientist",
 				"prerequisites": ["Old Earth Knowledge"]
 			},
 			{
 				"name": "Xenobiology",
 				"row": 3,
-				"quote": "'Such an exciting new place, filled with amazing and exotic organisms! Well, exotic for a while, at least.' - Savitri Kumar, scientist",
+				"quote": "'Such an exciting new place, filled with amazing and exotic organisms! Well, exotic for a while, at least.' - Savitri Kumar, xenobiologist",
 				"prerequisites": ["Old Earth Knowledge"]
 			},
 			{
@@ -43,31 +43,32 @@
 				"name": "Computing",
 				"row": 5,
 				"quote": "'Back then, we had the network and infrastructure to make a computer that fit in the palm of your hand. Now we got to do that all over again.' - Jose Jacinto, engineer",
-				"prerequisites": ["Old Earth Knowledge"]
+				"prerequisites": ["Old Earth Knowledge"],
+				"uniques": ["Enables conversion of city production to science"]
 			},
 			{
 				"name": "Habitation",
 				"row": 6,
-				"quote": "'Sure, these prefab homes are nice, they have atmo, they have AC, they have electricity - but you know what would be cool? DOMES!' - Gregor Thorpe, engineer",
+				"quote": "'Sure, these prefab homes are nice, they have atmo, they have AC, they have electricity - but you know what would be cool? DOMES!' - Truong Vanth Ngo, environmental engineer",
 				"prerequisites": ["Old Earth Knowledge"]
 			},
 			{
 				"name": "Engineering",
 				"row": 8,
-				"quote": "'' - ",
+				"quote": "'I'll thwack ye over the head if you tell me to 'reverse the shield polarity' again.' - Montgomier 'Scotty' Scotch, chief engineer",
 				"prerequisites": ["Old Earth Knowledge"],
 				"uniques": ["Roads connect tiles across rivers"]
 			},
 			{
 				"name": "Portable Power Sources",
 				"row": 9,
-				"quote": "'' - ",
+				"quote": "'Batteries? These aren't your grandma's lithium ion batteries! They're called Radioisotope Thermal Generators, and they're nice to have!' - Vladimir Mradek, engineer",
 				"prerequisites": ["Old Earth Knowledge"]
 			},
 			{
 				"name": "Frontier Armaments",
 				"row": 10,
-				"quote": "'Listen, I don't want those bugs to nibble our colony to pieces. Guns and patrols are mandatory!' - Derek Mbata, security chief",
+				"quote": "'Listen, I don't want those bugs to nibble our colony to pieces. Guns and patrols are mandatory! No use whining about it!' - Derek Mbata, security chief",
 				"prerequisites": ["Old Earth Knowledge"]
 			}
 		]
@@ -75,42 +76,540 @@
 	{
 		"columnNumber": 2,
 		"era": "Landfall era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 55,
+		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Hovercrafts",
 				"row": 2,
-				"quote": "'' - ",
+				"quote": "'Will you look at that beauty of a machine! She glides like an opera singer, packs enough punch for the local critters, and more importantly, free of eels!' - Aswan Fulani, mechanic",
 				"prerequisites": ["Hydrodynamics", "Engineering"],
 				"uniques": ["Enables embarkation for land units"]
 			},
 			{
 				"name": "Xenoagriculture",
 				"row": 3,
-				"quote": "'' - ",
+				"quote": "'Breeding different strains together and splicing some genes so these plants are edible - it ain't much, but it's honest work.' - John Appleseed, farmer",
 				"prerequisites": ["Xenobiology"]
 			},
 			{
 				"name": "Xenochemistry",
 				"row": 4,
-				"quote": "'' - ",
+				"quote": "'You have no idea how much of them have wildly different toxins. Oh yeah, some of those might even be beneficial in the right doses.' - Elsa Nesbitt, medical officer",
 				"prerequisites": ["Xenobiology", "Xenogeology"]
 			},
 			{
 				"name": "Pioneer Administration",
 				"row": 6,
-				"quote": "'' - ",
+				"quote": "'One thing I've learned is that you can run to another planet all you like, the paperwork can and will catch up to you eventually.' - Yuen Xin Tiao, junior administrator",
 				"prerequisites": ["Computing", "Habitation"],
 				"uniques": ["Enables Open Borders agreements"]
 			},
 			{
 				"name": "Robotics",
 				"row": 9,
-				"quote": "'' - ",
+				"quote": "'We're still a long way from making giant death robots like in the animays of old, but these little fellas sure can fit a lot of exploring in their chassis!' - Valdo Pentecost, mechanic",
 				"prerequisites": ["Engineering", "Portable Power Sources"]
 			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Exploration era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Astronomy",
+				"row": 1,
+				"quote": "'Over here as it was over there, the same stars shine down on us. Well, you get the gist of it.' - Pavel Samurov, explorer",
+				"prerequisites": ["Hydrodynamics"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"]
+			},
+			{
+				"name": "Xeno-Grafting",
+				"row": 2,
+				"quote": "'Now we can plant these straight on the ground! Ain't that a nice thing to have?' - John Appleseed, farmer",
+				"prerequisites": ["Xenoagriculture"]
+			},
+			{
+				"name": "Xeno-Medicine",
+				"row": 3,
+				"quote": "'I was right! As they say, anything can be medicine if taken at the right dose at the right situation. Now, who wants to get me some more Darter venom sacs? Anyone?' - Elsa Nesbitt, medical officer",
+				"prerequisites": ["Xenochemistry"]
+			},
+			{
+				"name": "Synthetic Materials",
+				"row": 4,
+				"quote": "'I ain't saying these are plastics because there's just so much of them strewn all over in old Earth... but these, these are plastics. Maybe even rubber!' - Ismara Yanuar, chemist",
+				"prerequisites": ["Xenochemistry"]
+			},
+			{
+				"name": "Research Networks",
+				"row": 5,
+				"quote": "'Neat, now I can peer review without delay! I mean, what else are these nerds going to use it, besides research?' - Jeanie O'Shea, scientist",
+				"prerequisites": ["Pioneer Administration"],
+				"uniques": ["Enables Research agreements"]
+			},
+			{
+				"name": "Aerial Drones",
+				"row": 9,
+				"quote": "'Look at them glide, look at them soar! Watch as this baby goes from 0 to 100 in less than a second! You can't go wrong with drones, no siree.' - Aswan Fulani, mechanic",
+				"prerequisites": ["Robotics"]
+			},
+			{
+				"name": "Military Ballistics",
+				"row": 10,
+				"quote": "'You see, these are good guns, they shoot straight. Good to have when the neighbors get uppity.' - Derek Mbata, garrison commander",
+				"prerequisites": ["Frontier Armaments"]
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Exploration era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Payload Delivery",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Astronomy"]
+			},
+			{
+				"name": "Aeronautics",
+				"row": 2,
+				"quote": "'.' - ",
+				"prerequisites": ["Astronomy"]
+			},
+			{
+				"name": "Offworld Industries",
+				"row": 4,
+				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
+				"prerequisites": ["Xenogeology","Xenochemistry"],
+				"uniques": ["Enables conversion of city production to gold"]
+			},
+			{
+				"name": "Hab-Domes",
+				"row": 6,
+				"quote": "'Now these are what I'm talking about! No more bumping your shins on room dividers! No more stale friggin' recycled air! We have DOMES!' - Truong Vanth Ngo, environmental engineer",
+				"prerequisites": ["Pioneer Administration","Portable Power Sources"]
+			},
+			{
+				"name": "Stable Fission Power",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Portable Power Sources"]
+			},
+			{
+				"name": "Missiles",
+				"row": 10,
+				"quote": "'You should aspire to be like the humble missile. The missile always knows where it's at.' - General Daejung Kwan",
+				"prerequisites": ["Aerial Drones","Military Ballistics"]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Colonization era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Satellite Networks",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Payload Delivery"],
+				"uniques": ["Improves movement speed on roads","[+1] Movement <for [Embarked] units>"]
+			},
+			{
+				"name": "Crust Fracking",
+				"row": 4,
+				"quote": "'.' - ",
+				"prerequisites": ["Offworld Industries"]
+			},
+			{
+				"name": "Info Networks",
+				"row": 5,
+				"quote": "'They did WHAT on my network?! ...Well, these funny cats are nice...' - Jeanie O'Shea, scientist",
+				"prerequisites": ["Research Networks"]
+			},
+			{
+				"name": "Colony Administration",
+				"row": 6,
+				"quote": "'I wouldn't know what to do if we haven't installed more bandwidth and more servers. It would be a bureaucratic hell, signed in triplicate.' - Yuen Xin Tiao, senior administrator",
+				"prerequisites": ["Hab-Domes","Research Networks"]
+			},
+			{
+				"name": "Strike Drones",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Aerial Drones"]
+			},
+			{
+				"name": "Next-Gen Armaments",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Military Ballistics"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Colonization era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Genetics",
+				"row": 3,
+				"quote": "'Once I finish decoding these sequences, we'll finally solve that nature versus nurture problem.' - Savitri Kumar, xenobiologist",
+				"prerequisites": ["Xeno-Medicine"]
+			},
+			{
+				"name": "Cryptocurrency",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Info Networks","Colony Administration"]
+			},
+			{
+				"name": "Colonial Culture",
+				"row": 6,
+				"quote": "'' - Anonymous on ColonyChan",
+				"prerequisites": ["Info Networks","Colony Administration"]
+			},
+			{
+				"name": "Lasers",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Next-Gen Armaments","Satellite Networks"]
+			},
+			{
+				"name": "Mecha Prototypes",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Next-Gen Armaments","Stable Fission Power"]
+			},
+			{
+				"name": "Composite Armor",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Next-Gen Armaments","Synthetic Materials"]
+			},
+			{
+				"name": "Exoskeletons",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Next-Gen Armaments"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Halcyon era",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Orbital Deterrents",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Satellite Networks"]
+			},
+			{
+				"name": "Cloning",
+				"row": 3,
+				"quote": "'.' - ",
+				"prerequisites": ["Genetics"]
+			},
+			{
+				"name": "Metaverse",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Cryptocurrency","Colonial Culture"]
+			},
+			{
+				"name": "Net Culture",
+				"row": 6,
+				"quote": "'Dang, chum, where'd you get those absolute drek memes from, your OG-nanna's stash.io on ol-E? Maybe if you drop those yee-yee ass memes, you'll have Xeno-chan bouncing all up out yo chest, knawmean?' - Anonymous on ColonyChan",
+				"prerequisites": ["Colonial Culture"]
+			},
+			{
+				"name": "Combat Mechas",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Mecha Prototypes"]
+			},
+			{
+				"name": "Cybernetics",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Next-Gen Armaments"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Halcyon era",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
+			{
+				"name": "Cosmonautics",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Orbital Deterrents"],
+				"uniques": ["Reveals the entire map"]
+			},
+			{
+				"name": "Quantum Theory",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Info Networks"]
+			},
+			{
+				"name": "Xenoarcheology",
+				"row": 6,
+				"quote": "'.' - ",
+				"prerequisites": ["Info Networks","Net Culture"]
+			},
+			{
+				"name": "Virtual Drugs",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Cybernetics","Net Culture"]
+			},
+			{
+				"name": "Fusion Power",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Stable Fission Power"]
+			},
+			{
+				"name": "Mind-Machine Interface",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Cybernetics"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Realization era",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Metamaterials",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Cosmonautics"]
+			},
+			{
+				"name": "Genetic Hybridization",
+				"row": 3,
+				"quote": "'.' - ",
+				"prerequisites": ["Genetics"]
+			},
+			{
+				"name": "Quantum Computing",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Quantum Theory"]
+			},
+			{
+				"name": "Xeno Psychology",
+				"row": 6,
+				"quote": "'.' - ",
+				"prerequisites": ["Xenoarcheology"]
+			},
+			{
+				"name": "Terraforming",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Crust Fracking","Xenoarcheology"]
+			},
+			{
+				"name": "Cyberbrains",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Mind-Machine Interface","Virtual Drugs"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Realization era",
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900,
+		"techs": [
+			{
+				"name": "Nanotechnology",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Metamaterials"]
+			},
+			{
+				"name": "Artificial Intelligence",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Quantum Computing"]
+			},
+			{
+				"name": "Stasis Fields",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Fusion Power","Metamaterials"]
+			},
+			{
+				"name": "Antimatter Harnessing",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Fusion power","Quantum Theory"]
+			},
+			{
+				"name": "Mind Linking",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Cyberbrains","Xeno Psychology"]
+			},
+			{
+				"name": "Nerve Staple",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Cyberbrains"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Transcedental era",
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Hyperwave Communications",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Artificial Intelligence","Nanotechnology"]
+			},
+			{
+				"name": "Solar Reflectors",
+				"row": 2,
+				"quote": "'.' - ",
+				"prerequisites": ["Metamaterials","Nanotechnology"]
+			},
+			{
+				"name": "Designer Lifeforms",
+				"row": 3,
+				"quote": "'.' - ",
+				"prerequisites": ["Genetic Hybridization"]
+			},
+			{
+				"name": "Exotic Quantum Physics",
+				"row": 4,
+				"quote": "'.' - ",
+				"prerequisites": ["Artificial Intelligence"]
+			},
+			{
+				"name": "Lossless Matter Converter",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Stasis Fields","Antimatter Harnessing"]
+			},
+			{
+				"name": "Posthumanist Culture",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Mind Linking"]
+			},
+			{
+				"name": "Psionics",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Mind Linking","Nerve Staple"]
+			}
+			
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Transcedental era",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "FTL Travel",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Hyperwave Communications"]
+			},
+			{
+				"name": "Advanced Biotech",
+				"row": 3,
+				"quote": "'.' - ",
+				"prerequisites": ["Genetic Hybridization"]
+			},
+			{
+				"name": "N-Dimensional Exploration",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Exotic Quantum Physics","Hyperwave Communications","Posthumanist Culture"]
+			},
+			{
+				"name": "Zero Point Energy",
+				"row": 1,
+				"quote": "'.' - ",
+				"prerequisites": ["Exotic Quantum Physics","Lossless Matter Converter"]
+			},
+			{
+				"name": "Graviton Harnessing",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Exotic Quantum Physics","Antimatter Harnessing"]
+			},
+			{
+				"name": "Hive Mind",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Psionics","Hyperwave Communications","Posthumanist Culture"]
+			}
+			
+		]
+	}
+	{
+		"columnNumber": 13,
+		"era": "Singularity era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Singularity Tech",
+				"row": 6,
+				"quote": "'.' - ",
+				"prerequisites": ["FTL Travel","Advanced Biotech","N-Dimensional Exploration","Zero Point Energy","Graviton Harnessing","Hive Mind"]
+				"uniques": ["Sometimes the end is not the end.", "Can be continually researched"],
+			}
+			
 		]
 	}
 ]
