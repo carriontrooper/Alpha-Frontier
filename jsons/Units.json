@@ -7,14 +7,271 @@
 	////////////////////
 
 	// Melee
-
+	{
+		"name": "Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet."
+			}
+		]
+	},
+	{
+		"name": "Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[+33]% Strength <vs [Armor] units>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey."
+			}
+		]
+	},
+	{
+		"name": "Gigantes",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 50,
+		"cost": 100,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[+33]% Strength <vs [Armor] units>",
+			"[+33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "An absolute unit of a xenofauna, one of these can wreak havoc on a settlement. Thankfully, its mass reduces its speed."
+			}
+		]
+	},
+	{
+		"name": "Wurm",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 0.5,
+		"strength": 50,
+		"cost": 100,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[+33]% Strength <vs [Armor] units>",
+			"[+33]% Strength <vs cities>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "This cthonic menace were first seen near the deserts of the planet, and contrary to popular beliefs, is not a source of spice."
+			}
+		]
+	},
+	// Stealth Infantry
+	{
+		"name": "Wendigo",
+		"unitType": "Stealth Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 50,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A curious parasite, the hosts of these xenofauna tend to target civilian units."
+			}
+		]
+	},
 	// Ranged
-
+	{
+		"name": "Echidna",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 20,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances."
+			}
+		]
+	},
+	{
+		"name": "Mycon",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 0.5,
+		"range": 1,
+		"strength": 20,
+		"rangedStrength": 24,
+		"cost": 100,
+		"uniques": [
+			"Xeno",
+			"Blast radius [1]"
+		],
+		"promotions": [
+			"[+33]% Strength <vs [Infantry] units>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A towering ambulatory fungus. Beware its acidic spores."
+			}
+		]
+	},
 	// Water Melee
-
+	{
+		"name": "Gun Lobster",
+		"unitType": "Xeno Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors."
+			}
+		]
+	},
 	// Water Stealth
-
+	{
+		"name": "Lurker",
+		"unitType": "Xeno Stealth Water",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "Despite being as big as a ship, this xenofanua is hard to detect due to their carapace. They spell trouble when they mistake ships for prey."
+			}
+		]
+	},
 	// Air (but not aircraft)
+	{
+		"name": "Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
+			}
+		]
+	},
+	{
+		"name": "Winghead",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 30,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks."
+			}
+		]
+	},
+	{
+		"name": "Neon Dragon",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 100,
+		"uniques": [
+			"Xeno"
+		],
+		"promotions": [
+			"[90]% chance to intercept air attacks",
+			"[+33]% Strength <vs cities>",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "An apex predator of the skies, their luminescent displays might look beautiful - but beware their terrible power."
+			}
+		]
+	},
 
 	////////////////////
 	// Player units
@@ -531,6 +788,30 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
+	},
+	{
+		"name": "Laser Tank",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		//"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [{ "text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well." }]
 	},
 
 	//// Artillery
