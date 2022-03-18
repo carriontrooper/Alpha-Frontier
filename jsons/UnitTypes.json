@@ -58,7 +58,7 @@
 		"movementType": "Land"
 	},
 	{
-		"name": "Armor", //melee tank and mechs
+		"name": "Armored", //melee tank and mechs
 		"movementType": "Land"
 	},
 	{
