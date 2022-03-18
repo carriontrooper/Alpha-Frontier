@@ -590,7 +590,7 @@
 		"cost": 200,
 		"requiredTech": "Payload Delivery",
 		"requiredResource": "Titanium",
-		//"upgradesTo": "Fighter",
+		"upgradesTo": "Laser Satellite",
 		//"obsoleteTech": "Radar",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
