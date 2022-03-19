@@ -1143,7 +1143,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [8]-turn golden age",
-			"Can construct [Landmark]",
+			"Can construct [Cultural site]",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1177,7 +1177,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]",
+			"Can construct [Trade center]",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1194,7 +1194,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building",
-			"Can construct [Manufactory]",
+			"Can construct [Industrial district]",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1210,7 +1210,7 @@
 		"name": "Great Visionary",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Holy site] if it hasn't used other actions yet",
+			"Can construct [Visionary site] if it hasn't used other actions yet",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
