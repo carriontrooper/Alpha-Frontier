@@ -646,7 +646,7 @@
 
 // Uniques kept through upgrades
 	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Tree of Life
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Tree of Worlds
 		"uniques": ["All healing effects doubled"]
 	},
 	{
