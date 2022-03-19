@@ -1,6 +1,6 @@
 [
     {
-        "name": "Reverence to the Past",
+        "name": "Reverence of the Past",
         "type": "Pantheon", //rename to Superstition
         "uniques": ["[+1 Culture] from every [Memorial]"]
     },
