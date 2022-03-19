@@ -219,7 +219,7 @@
 		"uniques": ["Great Improvement", "[+1 Culture] <after discovering [Colonial Culture]>", "[+2 Culture] <after discovering [Net Culture]>", "[+3 Culture] <after discovering [Posthumanist Culture]>"]
 	},
 	{
-		"name": "Manufactory",
+		"name": "Industrial district",
 		"production": 4,
 		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>"]
 	},
