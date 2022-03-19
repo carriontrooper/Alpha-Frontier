@@ -632,9 +632,15 @@
 		"unitTypes": ["Xeno Air"]
 	},
 	{
-		"name": "Reflexes",
-		"prerequisites": ["Ambulation II"],
-		"uniques": ["May withdraw before melee ([75]%)"],
+		"name": "Frenzy",
+		"prerequisites": ["Spike II"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Xeno Melee Land","Xeno Melee Water"]
+	},
+	{
+		"name": "Bloodthirst",
+		"prerequisites": ["Spike I"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Xeno Melee Land","Xeno Melee Water"]
 	},
 
