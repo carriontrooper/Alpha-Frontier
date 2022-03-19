@@ -590,10 +590,52 @@
 	},
 	
 	{
-		"name": "Agility",
-		"prerequisites": ["Talons II"],
-		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"name": "Ambulation I",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water"]
+	},
+	{
+		"name": "Ambulation II",
+		"prerequisites": ["Ambulation I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water"]
+	},
+	{
+		"name": "Ambulation III",
+		"prerequisites": ["Ambulation II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water"]
+	},
+	
+	{
+		"name": "Wings I",
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Xeno Air"]
+	},
+	{
+		"name": "Wings II",
+		"prerequisites": ["Wings I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Xeno Air"]
+	},
+	{
+		"name": "Wings III",
+		"prerequisites": ["Wings II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Xeno Air"]
+	},
+	
+	{
+		"name": "Agility",
+		"prerequisites": ["Wings II"],
+		"uniques": ["May withdraw before melee ([75]%)"],
+		"unitTypes": ["Xeno Air"]
+	},
+	{
+		"name": "Reflexes",
+		"prerequisites": ["Ambulation II"],
+		"uniques": ["May withdraw before melee ([75]%)"],
+		"unitTypes": ["Xeno Melee Land","Xeno Melee Water"]
 	},
 
 // Uniques kept through upgrades
