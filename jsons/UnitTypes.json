@@ -92,7 +92,7 @@
 		]
 	},
 	{
-		"name": "Aerocraft Carrier",
+		"name": "Carrier",
 		"movementType": "Land"
 	},
 	{
@@ -105,7 +105,8 @@
 		"movementType": "Air",
 		"uniques": ["Aircraft", "6 tiles in every direction always visible"]
 	},
-	/*{
+	/*
+	{
 		"name": "Bomber",
 		"movementType": "Air",
 		"uniques": ["Aircraft"]
