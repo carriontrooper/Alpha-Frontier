@@ -394,13 +394,13 @@
 	{
 		"name": "Dodge I",
 		"uniques": ["May withdraw before melee ([75]%)"],
-		"unitTypes": ["Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Close Range Mech","Ranged Mech","Xeno Melee Land"]
 	},
 	{
 		"name": "Dodge II",
 		"prerequisites": ["Dodge I"],
 		"uniques": ["May withdraw before melee ([75]%)"],
-		"unitTypes": ["Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Close Range Mech","Ranged Mech","Xeno Melee Land"]
 	},
 
 // Mixed
@@ -497,6 +497,104 @@
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Aerocraft"]
 	},
+	
+//Xeno only, in case you can build/capture xeno units
+	{
+		"name": "Toxin I",
+		"uniques": ["[+15]% Strength <vs [Infantry] units> <when attacking>","[+15]% Strength <vs [Stealth Infantry] units> <when attacking>","[+15]% Strength <vs [Sniper] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land"]
+	},
+	{
+		"name": "Toxin II",
+		"prerequisites": ["Toxin I"],
+		"uniques": ["[+15]% Strength <vs [Infantry] units> <when attacking>","[+15]% Strength <vs [Stealth Infantry] units> <when attacking>","[+15]% Strength <vs [Sniper] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land"]
+	},
+	{
+		"name": "Toxin III",
+		"prerequisites": ["Toxin II"],
+		"uniques": ["[+15]% Strength <vs [Infantry] units> <when attacking>","[+15]% Strength <vs [Stealth Infantry] units> <when attacking>","[+15]% Strength <vs [Sniper] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land"]
+	},
+	
+	{
+		"name": "Spike I",
+		"uniques": ["[+15]% Strength <vs [Armored] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	{
+		"name": "Spike II",
+		"prerequisites": ["Spike I"],
+		"uniques": ["[+15]% Strength <vs [Armored] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	{
+		"name": "Spike III",
+		"prerequisites": ["Spike II"],
+		"uniques": ["[+15]% Strength <vs [Armored] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	
+	{
+		"name": "Supercavitation I",
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Water","Xeno Stealth Water"]
+	},
+	{
+		"name": "Supercavitation II",
+		"prerequisites": ["Supercavitation I"],
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Water","Xeno Stealth Water"]
+	},
+	{
+		"name": "Supercavitation III",
+		"prerequisites": ["Supercavitation II"],
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"unitTypes": ["Xeno Melee Water","Xeno Stealth Water"]
+	},
+	
+	{
+		"name": "Talons I",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Xeno Air"]
+	},
+	{
+		"name": "Talons II",
+		"prerequisites": ["Talons I"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Xeno Air"]
+	},
+	{
+		"name": "Talons III",
+		"prerequisites": ["Talons II"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Xeno Air"]
+	},
+	
+	{
+		"name": "Carapace I",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	{
+		"name": "Carapace II",
+		"prerequisites": ["Carapace I"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	{
+		"name": "Carapace III",
+		"prerequisites": ["Carapace II"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	
+	{
+		"name": "Agility",
+		"prerequisites": ["Talons II"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Xeno Air"]
+	},
 
 // Uniques kept through upgrades
 	{
@@ -507,5 +605,5 @@
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"]
 	}
-
+	
 ]
