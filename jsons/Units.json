@@ -1,5 +1,5 @@
 [
-	// todo: add submersibles, ranged water units, more aerocraft
+	// todo: add submersibles, ranged water units, missiles, more aerocraft
 	// add more techs for them if needed
 
 	////////////////////
@@ -1134,6 +1134,38 @@
 			{
 				"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."
 			}
+		]
+	},
+	{
+		"name": "Religious Zealot",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ "text": "What makes them dangerous isn't their weaponry, but their fanaticism." }
+		]
+	},
+	{
+		"name": "Religious Martyr",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"uniques": [
+			"[+200]% Strength <when attacking>"
+			"Self-destructs when attacking",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{ "text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them." }
 		]
 	},
 
