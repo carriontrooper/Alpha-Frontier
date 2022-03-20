@@ -570,7 +570,7 @@
 			"Only available <in cities with a [Aerovehicle Hangars]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
 				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
