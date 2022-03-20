@@ -731,7 +731,7 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		//"upgradesTo": "Assault Hydrofoil",
 		//"obsoleteTech": "Astronomy",
-		"attackSound": "shot",
+		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
 				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
