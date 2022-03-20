@@ -153,7 +153,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland", "Desert", "Tundra"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Quarry",
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
@@ -171,7 +171,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert", "Tundra"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Quarry",
 		"improvementStats": { "gold": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
@@ -613,7 +613,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
 		"science": 1,
-		"improvement": "Research site",
+		"improvement": "Research Base",
 		"improvementStats": { "culture": 1, "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -636,7 +636,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
 		"science": 2,
-		"improvement": "Research site",
+		"improvement": "Research Base",
 		"improvementStats": { "science": 3 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",

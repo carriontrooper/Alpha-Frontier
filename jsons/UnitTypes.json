@@ -58,11 +58,19 @@
 		"movementType": "Land"
 	},
 	{
-		"name": "Armor", //melee tank and mechs
+		"name": "Armored", //melee tank
 		"movementType": "Land"
 	},
 	{
-		"name": "Siege", //ranged tank and mechs
+		"name": "Siege", //ranged tank
+		"movementType": "Land"
+	},
+	{
+		"name": "Close Range Mech", //mechs
+		"movementType": "Land"
+	},
+	{
+		"name": "Ranged Mech", //mechs
 		"movementType": "Land"
 	},
 	{
@@ -88,8 +96,8 @@
 		]
 	},
 	{
-		"name": "Aircraft Carrier",
-		"movementType": "Water"
+		"name": "Carrier",
+		"movementType": "Land"
 	},
 	{
 		"name": "Aerocraft",
@@ -101,12 +109,12 @@
 		"movementType": "Air",
 		"uniques": ["Aircraft", "6 tiles in every direction always visible"]
 	},
+	/*
 	{
 		"name": "Bomber",
 		"movementType": "Air",
 		"uniques": ["Aircraft"]
 	},
-	/*
 	{
         "name": "Atomic Bomber",
         "movementType": "Air",

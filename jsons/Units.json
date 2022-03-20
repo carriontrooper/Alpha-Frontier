@@ -1,5 +1,5 @@
 [
-	// todo: add submersibles, ranged water units, more aerocraft
+	// todo: add submersibles, ranged water units, missiles, more aerocraft
 	// add more techs for them if needed
 
 	////////////////////
@@ -590,7 +590,7 @@
 		"cost": 200,
 		"requiredTech": "Payload Delivery",
 		"requiredResource": "Titanium",
-		//"upgradesTo": "Fighter",
+		"upgradesTo": "Laser Satellite",
 		//"obsoleteTech": "Radar",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -1136,6 +1136,38 @@
 			}
 		]
 	},
+	{
+		"name": "Religious Zealot",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ "text": "What makes them dangerous isn't their weaponry, but their fanaticism." }
+		]
+	},
+	{
+		"name": "Religious Martyr",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"uniques": [
+			"[+200]% Strength <when attacking>"
+			"Self-destructs when attacking",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{ "text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them." }
+		]
+	},
 
 	// Great People
 	{
@@ -1143,7 +1175,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [8]-turn golden age",
-			"Can construct [Landmark]",
+			"Can construct [Cultural site]",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1177,7 +1209,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]",
+			"Can construct [Trade center]",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1194,7 +1226,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building",
-			"Can construct [Manufactory]",
+			"Can construct [Industrial district]",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1210,7 +1242,7 @@
 		"name": "Great Visionary",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Holy site] if it hasn't used other actions yet",
+			"Can construct [Visionary site] if it hasn't used other actions yet",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",

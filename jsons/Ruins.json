@@ -1,1 +1,70 @@
-
+[
+    {
+        "name": "discover old Earth memorabilia",
+        "notification": "We have discovered old Earth memorabilia in the crash site! (+20 culture)",
+        "uniques": ["Gain [20] [Culture]"],
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "an intact and easily repairable Constructor",
+        "notification": "We have found a working [Constructor]!",
+        "uniques": ["Free [Constructor] found in the ruins"],
+        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
+    },
+    {
+        "name": "cryopods as well as an intact Colonizer,
+        "notification": "We have found a working [Colonizer]!",
+        "uniques": ["Free [Colonizer] found in the ruins"],
+        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+    },
+    {
+        "name": "your exploring unit receives training",
+        "notification": "Our [unitName] has gained experience from military logs recovered from the crash site!,
+        "uniques": ["This Unit gains [10] XP", "Only available after [10] turns"]
+    },
+    {
+        "name": "cryopods (adds population to a city)",
+        "notification": "We have found intact cryopods in the crash site - population added to [cityName].",
+        "uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+		"color": "#81c784"
+    },
+    {
+        "name": "a credit account",
+        "notification": "We have found an intact credit account in the crash site and recovered [goldAmount] credits!",
+        "uniques": ["Gain [50]-[100] [Gold]"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "discover a lost technology",
+        "notification": "We discovered a complete data schematic of [techName] in the crash site!",
+        "uniques": ["[1] free random researchable Tech(s) from the [Landfall era]"],
+		"color": "#7f7fff"
+    },
+    {
+        "name": "advanced weaponry for your explorer",
+        "notification": "Our unit finds intact combat equipment in the crash site!",
+        "uniques": ["This Unit upgrades for free including special upgrades"]
+    },
+    {
+        "name": "reveal nearby Xeno Hives",
+        "notification": "You find evidence of Xeno activity. Nearby Xeno Hives are revealed!",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+    },
+    {
+        "name": "found partial survey data",
+        "notification": "We have found partial survey data from the crash site!",
+        "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
+    },
+    {
+        "name": "experienced mystical event",
+        "notification": " (Our unit had a mystical experience while searching the crash site! (+[faithAmount] Faith),
+        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Hidden after founding a Pantheon", "Only available after [20] turns"],
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "experienced a religious epiphany",
+        "notification": "Our unit had a religious epiphany while searching the crash site! (+[faithAmount] Faith)",
+        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet", "Hidden before founding a Pantheon", "Only available after [20] turns"],
+		"color": "#CDDDF4"
+    }
+]
