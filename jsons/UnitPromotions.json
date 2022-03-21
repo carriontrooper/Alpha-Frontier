@@ -459,6 +459,18 @@
 	},
 	
 	{
+		"name": "Mech Hunter I",
+		"uniques": ["[+25]% Strength <vs [Mech] units>"],
+		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
+	},
+	{
+		"name": "Mech Hunter II",
+		"prerequisites": ["Mech Hunter I"],
+		"uniques": ["[+25]% Strength <vs [Mech] units>"],
+		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
+	},
+	
+	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Rover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Carrier"]
