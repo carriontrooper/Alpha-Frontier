@@ -746,7 +746,7 @@
 	//// Hovercraft
 	{
 		"name": "Hovercarrier",
-		"unitType": "Armored",
+		"unitType": "Carrier",
 		"movement": 3,
 		"strength": 32,
 		"cost": 250,
