@@ -1,1 +1,384 @@
-
+[
+	{
+		"name": "Colony Headquarters",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"],
+		"civilopediaText": [
+			{
+				"text": "The beating heart of your offworld colony."
+			}
+		]
+	},
+	
+	// Landfall Era
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"],
+		"civilopediaText": [
+			{
+				"text": "An edifice to remember the hardship and accomplishments of your nation."
+			}
+		]
+	},
+	{
+		"name": "Greenhouse",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
+		],
+		//"requiredTech": "Pottery"
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Memorial",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		//"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Air Scrubber",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Habitation",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Field Lab",
+		"hurryCostModifier": 25,
+		"science": 2,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] from [Research Base] tiles [in this city]",
+			"[+1 Science] from [Artifact] tiles [in this city]"
+		],
+		"requiredTech": "Computing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Prefab Printer",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Engineering",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Pioneer Depot",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Frontier Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Infantry] units start with [15] Experience [in this city]",
+			"New [Stealth Infantry] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Frontier Armaments",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Arcade Plaza",
+		"maintenance": 1,
+		"culture": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Megamall",
+		"maintenance": 1,
+		"gold": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Medbay",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[20]% Food is carried over after population increases [in this city] <after discovering [Xeno-Medicine]>"
+		],
+		"requiredTech": "Xenochemistry",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Survey Buoy",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Algae] tiles [in this city]",
+			"[+1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Food] from [Plankton] tiles [in this city]",
+			"[+1 Food] from [Sea Slivers] tiles [in this city]"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Floating Harbor",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Trade Port",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Mining Tunnels",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+2 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]",
+			"Must have an owned [Mine] within [3] tiles"
+		],
+		"requiredTech": "Xenogeology",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Rover Storage",
+		"cost": 60,
+		"maintenance": 1,
+		"production": 1,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Rover] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Robotics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	// Exploration Era
+	{
+		"name": "Research Laboratory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Mycelium] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Frontier Hospital",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Xeno-Medicine",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Ore Refinery",
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 25},
+		"requiredBuilding": "Mining Tunnels",
+		"uniques": [
+			"[+1 Production] from [Hexanite] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production] from [Redstone] tiles [in this city]",
+			"[+1 Production] from [Gold Ore] tiles [in this city]",
+			"[+1 Production] from [Titanium] tiles [in this city]"
+		],
+		"requiredTech": "Offworld Industries",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Congregation Space",
+		"faith": 2,
+		"requiredBuilding": "Memorial",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hab-Domes",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Aerocraft Hangar",
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Air] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Aeronautics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Orbital Launch Facility",
+		"cost": 180,
+		"maintenance": 1,
+		"production": 1,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Payload Delivery",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	// Colonization Era
+	{
+		"name": "Mechanized Unit Facility",
+		"cost": 60,
+		"maintenance": 1,
+		"production": 1,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Armored] units start with [15] Experience [in this city]",
+			"New [Close Range Mech] units start with [15] Experience [in this city]",
+			"New [Ranged Mech] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Composite Armor",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+]
