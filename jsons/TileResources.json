@@ -4,6 +4,7 @@
 	{
 		"name": "Tubers",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"food": 1,
 		"improvement": "Agri Farm",
@@ -63,6 +64,7 @@
 	{
 		"name": "Rockbud",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Tundra", "Desert"],
 		"food": 1,
 		"improvement": "Agri Farm",
@@ -99,7 +101,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Most of the mobile xenofauna in this planet seem to be linked by a primitive hivemind and are hostile to us. Among the few that are docile to us, these beetle-like xenofauna possess a chitinous carapace which it sheds regularly - and provide us with building materials."
+				"text": "Most of the mobile xenofauna in this planet seem to be linked by a primitive hivemind and are hostile to us. Among the docile few, these beetle-like xenofauna possess a chitinous carapace which it sheds regularly - and provide us with building materials."
 			}
 		]
 	},
@@ -117,7 +119,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "One of the few docile xenofauna in this planet, large herds of these graze on the alien grass and excrete globs of nutritious liquid, which we can eat. It is said to taste like liquid cheese."
+				"text": "One of the few docile xenofauna in this planet, large herds of these aphid-like bugs graze on the alien grass and excrete globs of nutritious liquid, which is edible for humans. It is said to taste like liquid cheese."
 			}
 		]
 	},
@@ -125,6 +127,7 @@
 	{
 		"name": "Hexanite",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Grassland",
@@ -222,6 +225,7 @@
 	{
 		"name": "Redstone",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -241,6 +245,7 @@
 	{
 		"name": "Vents",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 1,
 		"improvement": "Offshore Platform",
@@ -381,6 +386,7 @@
 	{
 		"name": "Hydromielin",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": [
 			"Jungle",
 			"Forest",
@@ -488,6 +494,7 @@
 	{
 		"name": "Harmonix Crystals",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -517,6 +524,7 @@
 	{
 		"name": "Jadonyx",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -546,6 +554,7 @@
 	{
 		"name": "Kaibir Crystals",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -593,6 +602,7 @@
 	{
 		"name": "Benthic Orbs",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
 		"gold": 1,
 		"improvement": "Offshore Platform",
@@ -611,6 +621,7 @@
 	{
 		"name": "Artifacts",
 		"resourceType": "Luxury",
+		"revealedBy": "Aerial Drones",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
 		"science": 1,
 		"improvement": "Research Base",
@@ -634,6 +645,7 @@
 	{
 		"name": "Flowers of Silence",
 		"resourceType": "Luxury",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
 		"science": 2,
 		"improvement": "Research Base",
@@ -659,7 +671,7 @@
 	{
 		"name": "Titanium",
 		"resourceType": "Strategic",
-		//"revealedBy": "Iron Working",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -701,7 +713,7 @@
 	{
 		"name": "Promethine",
 		"resourceType": "Strategic",
-		//"revealedBy": "Industrialization",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -741,7 +753,7 @@
 	{
 		"name": "Vitamass",
 		"resourceType": "Strategic",
-		//"revealedBy": "Industrialization",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -781,7 +793,7 @@
 	{
 		"name": "Ulframite",
 		"resourceType": "Strategic",
-		//"revealedBy": "Writing",
+		"revealedBy": "Fusion Power",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -817,7 +829,7 @@
 	{
 		"name": "Gravitix",
 		"resourceType": "Strategic",
-		//"revealedBy": "Atomic Theory",
+		"revealedBy": "Quantum Theory",
 		"terrainsCanBeFoundOn": ["Tundra", "Snow", "Desert", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -841,7 +853,7 @@
 	{
 		"name": "Yairmite",
 		"resourceType": "Strategic",
-		//"revealedBy": "Atomic Theory",
+		"revealedBy": "Quantum Theory",
 		"terrainsCanBeFoundOn": [
 			"Marsh",
 			"Jungle",

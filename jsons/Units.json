@@ -39,7 +39,7 @@
 			"Xeno"
 		],
 		"promotions": [
-			"[+33]% Strength <vs [Armor] units>",
+			"[+33]% Strength <vs [Armored] units>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -60,7 +60,7 @@
 			"Xeno"
 		],
 		"promotions": [
-			"[+33]% Strength <vs [Armor] units>",
+			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
@@ -82,7 +82,7 @@
 			"Xeno"
 		],
 		"promotions": [
-			"[+33]% Strength <vs [Armor] units>",
+			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>"
 		],
 		"attackSound": "nonmetalhit",
@@ -386,7 +386,7 @@
 	//// Buggies
 	{
 		"name": "Light Buggy",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
@@ -419,6 +419,7 @@
 		"requiredTech": "Hydrodynamics",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
 		"upgradesTo": "Assault Hydrofoil",
@@ -434,7 +435,7 @@
 	//// Hovercraft
 	{
 		"name": "Light Hovercraft",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 3,
 		"strength": 12,
 		"cost": 100,
@@ -492,7 +493,7 @@
 	//// Buggies
 	{
 		"name": "Anti-Air Buggy",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 4,
 		"strength": 15,
 		"cost": 100,
@@ -504,6 +505,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
@@ -566,11 +568,12 @@
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerovehicle Hangars]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
 				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
@@ -579,6 +582,35 @@
 	},
 
 	//// Satellites
+	{
+		"name": "Survey Satellite",
+		"unitType": "Satellite",
+		"movement": 0,
+		"strength": 8,
+		"rangedStrength": 8,
+		"range": 1,
+		"interceptRange": 0,
+		"cost": 100,
+		"requiredTech": "Payload Delivery",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Laser Satellite",
+		//"obsoleteTech": "Radar",
+		"uniques": [
+			"[0]% Strength <vs [All] units>",
+			"[0]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "A satellite in geosynchronous orbit over a city, it is equipped with state-of-the-art sensors to survey the land."
+			}
+		]
+	},
 	{
 		"name": "Defense Satellite",
 		"unitType": "Satellite",
@@ -728,10 +760,13 @@
 		"strength": 30,
 		"cost": 200,
 		"requiredTech": "Next-Gen Armaments",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
 		//"upgradesTo": "Assault Hydrofoil",
 		//"obsoleteTech": "Astronomy",
-		"attackSound": "shot",
+		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
 				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
@@ -742,7 +777,7 @@
 	//// Hovercraft
 	{
 		"name": "Hovercarrier",
-		"unitType": "Armor",
+		"unitType": "Carrier",
 		"movement": 3,
 		"strength": 32,
 		"cost": 250,
@@ -769,10 +804,10 @@
 		]
 	},
 
-	//// Armor
+	//// Armored
 	{
 		"name": "Hovertank",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 3,
 		"strength": 35,
 		"cost": 150,
@@ -796,7 +831,7 @@
 	},
 	{
 		"name": "Colonial Armor",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 3,
 		"strength": 40,
 		"cost": 150,
@@ -807,7 +842,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[+100]% Strength <vs [Armor] units>",
+			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -828,9 +863,10 @@
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
-			"[+50]% Strength <vs [Armor] units>",
+			"[+50]% Strength <vs [Armored] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -845,7 +881,7 @@
 	//// Artillery
 	{
 		"name": "Missile Artillery",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 2,
 		"range": 3,
 		"strength": 30,
@@ -874,7 +910,7 @@
 	//// Mechs
 	{
 		"name": "Recon Mecha",
-		"unitType": "Armor",
+		"unitType": "Close Range Mech",
 		"movement": 4,
 		"strength": 30,
 		"cost": 175,
@@ -886,7 +922,7 @@
 			"[+1] Sight",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-50]% Strength <vs [Armor] units>",
+			"[-50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -986,7 +1022,7 @@
 	//// Mechs
 	{
 		"name": "Assault Mecha",
-		"unitType": "Armor",
+		"unitType": "Close Range Mech",
 		"movement": 4,
 		"strength": 45,
 		"cost": 450,
@@ -997,7 +1033,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Armor] units>",
+			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1012,7 +1048,7 @@
 	},
 	{
 		"name": "Artillery Mecha",
-		"unitType": "Armor",
+		"unitType": "Ranged Mech",
 		"movement": 3,
 		"range": 3,
 		"strength": 45,
@@ -1026,7 +1062,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Armor] units>",
+			"[+50]% Strength <vs [Armored] units>",
 			"[-1] Sight",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
@@ -1059,7 +1095,7 @@
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
-			"[-100]% Strength <vs [Satellite] units>",
+			"[0]% Strength <vs [Satellite] units>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],

@@ -112,7 +112,7 @@
 	{
 		"name": "Derrick",
 		"turnsToBuild": 9,
-		"techRequired": "Biology",
+		"techRequired": "Offworld Industries",
 		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Offworld Industries]>","Cannot be built on [Ocean] tiles <before discovering [Offworld Industries]>"],
 		"shortcutKey": "W",
 		"civilopediaText": [{"text":"Akin to a siphon, the derrick sucks fluid resources from deep beneath the crust"}]

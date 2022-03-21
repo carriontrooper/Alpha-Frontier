@@ -529,7 +529,7 @@
 				"prerequisites": ["Artificial Intelligence"]
 			},
 			{
-				"name": "Lossless Matter Converter",
+				"name": "Lossless Matter Conversion",
 				"row": 7,
 				"quote": "'.' - ",
 				"prerequisites": ["Stasis Fields","Antimatter Harnessing"]

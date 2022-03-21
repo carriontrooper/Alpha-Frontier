@@ -10,6 +10,9 @@
 - Bleh - idea
 - Plaxys - idea
 - [Ravignir](https://github.com/ravignir) - idea
+- Destro9000 - idea
+- Bisik Setan (AKA Tafsir Kiri) - idea
+- NoviceCoder2000 - idea
 
 ## DeCiv stuff
 
