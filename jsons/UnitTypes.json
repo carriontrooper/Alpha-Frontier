@@ -107,7 +107,7 @@
 	{
 		"name": "Satellite",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "6 tiles in every direction always visible"]
+		"uniques": ["Aircraft", "6 tiles in every direction always visible","Cannot be carried by [Carrier] units"]
 	},
 	/*
 	{
