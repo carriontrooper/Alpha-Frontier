@@ -1,4 +1,7 @@
 [
+	//todo: more buildings for Halcyon upwards, especially Realization and Transcedental
+	
+	//// Buildings
 	{
 		"name": "Colony Headquarters",
 		"isNationalWonder": true,
@@ -208,11 +211,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+1 Food] from [Algae] tiles [in this city]",
-			"[+1 Food] from [Seasilk] tiles [in this city]",
-			"[+1 Food] from [Plankton] tiles [in this city]",
-			"[+1 Food] from [Sea Slivers] tiles [in this city]"
+			"[+1 Food] from [Coast] tiles [in this city]"
 		],
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
@@ -263,9 +262,9 @@
 		"uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
 			"[+2 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]",
-			"Must have an owned [Mine] within [3] tiles"
+			"[+1 Production] from [Mine] tiles [in this city]"
 		],
+		"requiredNearbyImprovedResources": ["Hexanite","Aluminum","Phostlite","Redstone","Gold Ore","Titanium"],
 		"requiredTech": "Xenogeology",
 		"civilopediaText": [
 			{
@@ -294,15 +293,53 @@
 	
 	// Exploration Era
 	{
+		"name": "Aquatic Farm",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Algae] tiles [in this city]",
+			"[+1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Food] from [Plankton] tiles [in this city]",
+			"[+1 Food] from [Sea Slivers] tiles [in this city]",
+			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
+		],
+		"requiredTech": "Xeno-Grafting"
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Research Laboratory",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 10},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"[+2 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Mycelium] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Museum of the Frontier",
+		"maintenance": 1,
+		"culture": 3,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"[+ Science, +1 Culture] from [Artifact] tiles [in this city]"
 		],
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
@@ -319,6 +356,38 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Petting Zoo",
+		"maintenance": 2,
+		"specialistSlots": {"Scientist": 1},
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Happiness] from [Snuffets] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": ["Snuffets"],
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Designated Stim Rooms",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Happiness] from [Stimulants] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": ["Stimulants"],
+		"requiredTech": "Xeno-Medicine",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -356,6 +425,34 @@
 			"[+1 Production] from [Titanium] tiles [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Robotics Assembly Plant",
+		"maintenance": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 25},
+		"requiredBuilding": "Prefab Printer",
+		"requiredTech": "Offworld Industries",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Drone Delivery Network",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10},
+		"requiredBuilding": "Prefab Printer",
+		"requiredTech": "Aerial Drones",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -495,13 +592,91 @@
 	
 	// Colonization Era
 	{
+		"name": "Genetic Laboratory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"[+1 Science, +1 Food] from [Agri-Farm] tiles [in this city]"
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Biomodding Center",
+		"maintenance": 2,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Influencer": 1},
+		"requiredBuilding": "Genetic Laboratory",
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Colonial Unversity",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 20},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Research Laboratory",
+		"requiredTech": "Colonial Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Bureaucratic Office",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"production": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "gold": 10},
+		"requiredTech": "Colonial Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Tele-Temple",
 		"faith": 2,
 		"requiredBuilding": "Congregation Space",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Colonial Culture",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"],
+		"uniques": [
+			"[+1 Faith] <in cities with a [Harmony Garden]>"
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Harmony Garden",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Happiness] from [Harmonix] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": ["Harmonix"],
+		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -535,6 +710,50 @@
 		]
 	},
 	{
+		"name": "Cryptomining Servers",
+		"gold": 5,
+		"science": -1,
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 25,
+		"requiredTech": "Cryptocurrency",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Infrastructure 2.0",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10, "gold": 10},
+		"requiredTech": "Colonial Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Command Center",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Info Networks",
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Military Base",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -542,6 +761,24 @@
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Next-Gen Armaments",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Naval Yard",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 2,
+		"uniques": [
+			"New [Water] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Floating Harbor",
 		"requiredTech": "Next-Gen Armaments",
 		"civilopediaText": [
 			{
@@ -571,6 +808,41 @@
 	
 	// Halcyon Era
 	{
+		"name": "Particle Collider",
+		"maintenance": 2,
+		"science": 10,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 10},
+		"specialistSlots": {"Scientist": 3},
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"[+2 Science] from [Yairmite] tiles [in this city]",
+			"[+1 Science] from [Jadonyx] tiles [in this city]",
+			"[+1 Science] from [Gravitix] tiles [in this city]",
+			"[+1 Science] from [Ulframite] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Adaptive Tax Network",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 20},
+		"uniques": [
+			"Virtual"
+		]
+		"requiredTech": "Net Culture",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Virtual Cultural Space",
 		"culture": 3,
 		"specialistSlots": {"Influencer": 2},
@@ -578,6 +850,23 @@
 		"uniques": [
 			"Virtual"
 		]
+		"requiredTech": "Net Culture",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Sim Life Servers",
+		"maintenance": 2,
+		"gold": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual"
+		]
+		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
 		"civilopediaText": [
 			{
@@ -603,6 +892,62 @@
 	},
 	
 	// Realization Era
+	{
+		"name": "Nano-Reassembler",
+		"maintenance": 2,
+		"food": 2,
+		"production": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[Armored] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Mech] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Water] Units adjacent to this city heal [20] HP per turn when healing"
+		],
+		"requiredTech": "Nanotechnology",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Holodeck",
+		"maintenance": 2,
+		"culture": 3,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual"
+		]
+		"requiredTech": "Artificial Intelligence",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	
-	// Transcendent Era
+	// Transcendental Era
+	{
+		"name": "Uni-Recycler",
+		"maintenance": 2,
+		"production": 1,
+		"gold": 1,
+		"percentStatBonus": {"production": 20},
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Lossless Matter Conversion",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	//// National Wonders
+
+	//// Wonders
+
 ]
