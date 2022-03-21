@@ -1,5 +1,5 @@
 [
-	// todo: add submersibles, ranged water units, missiles, more aerocraft
+	// todo: add more aerocraft
 	// add more techs for them if needed
 
 	////////////////////
@@ -519,6 +519,28 @@
 			}
 		]
 	},
+	
+	//// Hydrofoil
+	{
+		"name": "Assault Hydrofoil",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Military Ballistics",
+		"uniques": [
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"upgradesTo": "Corvette",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+			}
+		]
+	},
 
 	//// Drones
 	{
@@ -577,6 +599,31 @@
 		"civilopediaText": [
 			{
 				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
+			}
+		]
+	},
+	
+	//// Missiles
+	{
+		"name": "Short-Range Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 4,
+		"cost": 100,
+		"requiredTech": "Missile",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[+100]% Strength <vs [Water] units>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled single-use missiles for anti-armor operations."
 			}
 		]
 	},
@@ -752,16 +799,17 @@
 		]
 	},
 
-	//// Hydrofoil
+	//// Water Units
 	{
-		"name": "Assault Hydrofoil",
+		"name": "Corvette",
 		"unitType": "Close Range Water",
 		"movement": 5,
-		"strength": 30,
-		"cost": 200,
+		"strength": 35,
+		"cost": 250,
 		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
 		"uniques": [
-			"Only available <in cities with a [Floating Harbor]>",
+			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
 		//"upgradesTo": "Assault Hydrofoil",
@@ -769,7 +817,82 @@
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
-				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+				"text": "A serious combat ship, they pack firepower in a compact and fast hull."
+			}
+		]
+	},
+	{
+		"name": "Missile Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"range": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 275,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Can carry [1] [Cruise Missile] units",
+			"Can carry [4] [Short-Range Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Armed with advanced missiles, these could double as floating missile platforms."
+			}
+		]
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"range": 3,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "Massive and powerful, this ship sends a message of military might."
+			}
+		]
+	},
+	{
+		"name": "Submersible",
+		"unitType": "Submarine",
+		"movement": 4,
+		"range": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 275,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Composite Armor",
+		"uniques": [
+			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [2] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
 			}
 		]
 	},
@@ -813,8 +936,6 @@
 		"cost": 150,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"Hovercraft",
 			"Normal vision when embarked",
@@ -853,7 +974,7 @@
 	},
 	{
 		"name": "Laser Tank",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"movement": 3,
 		"strength": 35,
 		"cost": 175,
@@ -919,6 +1040,7 @@
 		"upgradesTo": "Assault Mecha",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"Mech",
 			"[+1] Sight",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -962,6 +1084,28 @@
 		"civilopediaText": [
 			{
 				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
+			}
+		]
+	},
+	
+	//// Missiles
+	{
+		"name": "Cruise Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 42,
+		"rangedStrength": 42,
+		"range": 5,
+		"cost": 125,
+		"requiredTech": "Satellite Networks",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Satellite-guided missile with enough payload to neutralize coastal defences."
 			}
 		]
 	},
@@ -1031,6 +1175,7 @@
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"Mech",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
@@ -1059,6 +1204,7 @@
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"Mech",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1126,6 +1272,32 @@
 		"civilopediaText": [
 			{
 				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+			}
+		]
+	},
+	
+	//// Submarine
+	{
+		"name": "Phantom Submersible",
+		"unitType": "Submarine",
+		"movement": 5,
+		"range": 3,
+		"strength": 52,
+		"rangedStrength": 52,
+		"cost": 275,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Composite Armor",
+		"uniques": [
+			"[+150]% Strength <vs [Submarine] units>",
+			"[+150]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [4] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
 			}
 		]
 	},
