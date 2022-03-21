@@ -114,6 +114,7 @@
 			}
 		]
 	},
+	// Exploration Era
 	{
 		"columnNumber": 3,
 		"era": "Exploration era",
@@ -213,6 +214,7 @@
 			}
 		]
 	},
+	// Colonization Era
 	{
 		"columnNumber": 5,
 		"era": "Colonization era",
@@ -312,6 +314,7 @@
 			
 		]
 	},
+	// Halcyon Era
 	{
 		"columnNumber": 7,
 		"era": "Halcyon era",
@@ -405,6 +408,7 @@
 			
 		]
 	},
+	// Realization Era
 	{
 		"columnNumber": 9,
 		"era": "Realization era",
@@ -497,6 +501,7 @@
 			
 		]
 	},
+	// Transcenddental Era
 	{
 		"columnNumber": 11,
 		"era": "Transcedental era",
@@ -595,6 +600,7 @@
 			
 		]
 	}
+	// Singularity Era
 	{
 		"columnNumber": 13,
 		"era": "Singularity era",
