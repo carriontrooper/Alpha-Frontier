@@ -1,5 +1,6 @@
 [
 	//todo: more buildings for Halcyon upwards, especially Realization and Transcedental
+	//todo: add mercenary office building
 	
 	//// Buildings
 	{
@@ -292,6 +293,19 @@
 	},
 	
 	// Exploration Era
+	{
+		"name": "Cloud Seeder Station",
+		"maintenance": 1,
+		"food": 2,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Payload Delivery",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	{
 		"name": "Aquatic Farm",
 		"food": 2,
@@ -724,7 +738,7 @@
 	},
 	{
 		"name": "Infrastructure 2.0",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 10},
 		"percentStatBonus": {"production": 10},
@@ -808,6 +822,29 @@
 	
 	// Halcyon Era
 	{
+		"name": "Meteor Catcher",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 20},
+		"requiredTech": "Cosmonautics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Intercity Hyperloop",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 30},
+		"percentStatBonus": {"gold": 10}, // if this doesn't work try "percentStatBonus": {"production": 30, "gold": 10},
+		"requiredTech": "Fusion Power",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Particle Collider",
 		"maintenance": 2,
 		"science": 10,
@@ -821,7 +858,7 @@
 			"[+1 Science] from [Gravitix] tiles [in this city]",
 			"[+1 Science] from [Ulframite] tiles [in this city]"
 		],
-		"requiredTech": "Research Networks",
+		"requiredTech": "Quantum Theory",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -835,7 +872,7 @@
 		"uniques": [
 			"Virtual"
 		]
-		"requiredTech": "Net Culture",
+		"requiredTech": "Metaverse",
 		"civilopediaText": [
 			{
 				"text": "."
