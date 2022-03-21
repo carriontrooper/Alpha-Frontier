@@ -157,6 +157,11 @@
 			"[+10 Faith] from every [Harborship Wreck]"
 		]
     },
+	{
+        "name": "Soldiers of Fortune",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Mercenary Office] <in cities where this religion has at least [3] followers>","[10]% Strength <for units with [Mercenary] promotion> <when at war>"]
+    },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Memorialists",
