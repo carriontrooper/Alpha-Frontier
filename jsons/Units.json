@@ -419,6 +419,7 @@
 		"requiredTech": "Hydrodynamics",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
 		"upgradesTo": "Assault Hydrofoil",
@@ -728,7 +729,10 @@
 		"strength": 30,
 		"cost": 200,
 		"requiredTech": "Next-Gen Armaments",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
 		//"upgradesTo": "Assault Hydrofoil",
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shipguns",
