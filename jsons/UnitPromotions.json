@@ -661,6 +661,10 @@
 	{
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"]
+	},
+	{
+		"name": "Mercenary",
+		"uniques": ["Earn [10]% of the damage done to [Military] units as [Gold]"]
 	}
 	
 ]
