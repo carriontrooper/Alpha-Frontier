@@ -1125,6 +1125,7 @@
 		"cost": 125,
 		"requiredTech": "Satellite Networks",
 		"uniques": [
+			"Blast radius [1]",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -1278,14 +1279,41 @@
 			}
 		]
 	},
+	
+	//// Missiles
+	{
+		"name": "Nuclear ICBM",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"[+200]% Strength <vs [non-air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Armed with the looming threat of mutually assured destruction."
+			}
+		]
+	},
 
 	//// Satellites
 	{
 		"name": "Nuclear Satellite",
 		"unitType": "Satellite",
 		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
+		"strength": 1000,
+		"rangedStrength": 1000,
 		"range": 6,
 		"interceptRange": 0,
 		"cost": 1500,
@@ -1345,6 +1373,7 @@
 			"[+150]% Strength <vs [Submarine] units>",
 			"[+150]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [4] [Cruise Missile] units",
+			"Can carry [1] [Nuclear ICBM] units",
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1357,6 +1386,7 @@
 	},
 
 	// Transcedental Era
+	
 	
 	// Mercenary Units
 	//// Scout
@@ -1590,7 +1620,7 @@
 		]
 	},
 	{
-		"name": "Skywatchers (Anti-Air Buggy)",
+		"name": "Itano's Disciples (Anti-Air Buggy)",
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 15,
@@ -1615,7 +1645,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "Known for their vigilant gaze and an insistence of doing things manually."
+				"text": "Known for their unbridled use of various seeking missiles."
 			}
 		]
 	},
