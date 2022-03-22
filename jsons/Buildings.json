@@ -1368,5 +1368,116 @@
 		"requiredTech": "Offworld Industries",
 		"quote": "'.' - "
 	},
+	{
+		"name": "Saraswati Cultural College",
+		"culture": 3,
+		"greatPersonPoints": {"Great Influencer": 1},
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Colonial Culture",
+		"quote": "'.' - "
+	},
+	{
+		"name": "PANOPTIKON Surveillance System",
+		"cityStrength": 50,
+		"cityHealth": 100,
+		"isWonder": true,
+		"uniques": ["[-20]% unhappiness from population [in all cities]"],
+		"requiredTech": "Info Network",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Valhalla Milsim Training Facility",
+		"cityStrength": 300,
+		"isWonder": true,
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+		"requiredTech": "Next-Gen Armaments",
+		"quote": "'.' - "
+	},
+	{
+		"name": "BALOR Solar-Powered Laser Cannon",
+		"cityStrength": 300,
+		"isWonder": true,
+		"uniques": ["[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"],
+		"requiredTech": "Lasers",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Houyi Ballistic Defense System",
+		"cityHealth": 300,
+		"isWonder": true,
+		"uniques": ["[+100]% City Strength from defensive buildings","Population loss from nuclear attacks [-75]% [in all cities]"],
+		"requiredTech": "Missiles",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Gaia Preserve",
+		"culture": 1,
+		"food": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age","[+10]% [Food] [in all cities]"],
+		"requiredTech": "Xenobiology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Hyperspace Augur",
+		"science": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]"],
+		"requiredTech": "Hyperspace Communications",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Captive Microsingularity",
+		"science": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Provides [5] [Gravitix]","Production to science conversion in cities increased by 33%"],
+		"requiredTech": "Graviton Harnessing",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Old Terra Resort",
+		"culture": 5,
+		"gold": 3,
+		"greatPersonPoints": {"Great Influencer": 2},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]","[-50]% Culture cost of natural border growth [in all cities]","Doubles Gold given to enemy if city is captured"],
+		"requiredTech": "Terraforming",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Yggdrasil Arcology",
+		"culture": 3,
+		"gold": 3,
+		"food": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["Provides 1 happiness per 2 additional social policies adopted"],
+		"requiredTech": "Nanotechnology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Interdimensional Gate Project",
+		"culture": 5,
+		"gold": 5,
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[+100]% Golden Age length","[+1 Science] from every specialist [in all cities]"],
+		"requiredTech": "N-Dimensional Exploration",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Surrogate Xenomind",
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["May capture killed [Xeno] units"],
+		"requiredTech": "Xeno Psychology",
+		"quote": "'.' - "
+	}
 
 ]
