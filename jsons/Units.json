@@ -1,6 +1,5 @@
 [
 	// todo: add more aerocraft
-	// todo: add merc units, unbuildable but buyable units that are slightly worse
 	// add more techs for them if needed
 
 	////////////////////
@@ -585,8 +584,7 @@
 		"cost": 150,
 		"requiredTech": "Aeronautics",
 		"requiredResource": "Promethine",
-		//"upgradesTo": "Fighter",
-		//"obsoleteTech": "Radar",
+		"upgradesTo": "Beam Fighter",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
@@ -1056,6 +1054,35 @@
 			}
 		]
 	},
+	
+	//// Aerial Units
+	{
+		"name": "Beam Fighter",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[50]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
+			}
+		]
+	},
 
 	//// Drones
 	{
@@ -1200,8 +1227,6 @@
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Ulframite",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"Mech",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -1221,6 +1246,38 @@
 			}
 		]
 	},
+	
+	//// Aerial Units
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Cyberheli",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 50,
+		"cost": 45,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"May withdraw before melee ([50]%)"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
+			}
+		]
+	},
 
 	//// Satellites
 	{
@@ -1234,8 +1291,6 @@
 		"cost": 1500,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
-		//"upgradesTo": "Fighter",
-		//"obsoleteTech": "Radar",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
@@ -1323,7 +1378,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A freelance survey, scouting and courier team."
 			}
 		]
 	},
@@ -1345,7 +1400,7 @@
 		"promotions": ["Mercenary Pay"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "." }
+			{ "text": "Rumors of them being better shots when drunk still remain inconclusive." }
 		]
 	},
 	{
@@ -1366,7 +1421,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "One of the few professional and disciplined mercenary groups of the early eras."
 			}
 		]
 	},
@@ -1389,7 +1444,7 @@
 		"promotions": ["Mercenary Pay"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "." }
+			{ "text": "Has a reputation of only accepting payment once they've completed their contract." }
 		]
 	},
 	{
@@ -1410,7 +1465,7 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Their apparent childlike glee in combat situations is known all over the planet."
 			}
 		]
 	},
@@ -1434,7 +1489,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "They are willing to track their target for months through rough wilderness, and then finish the job from several miles away."
 			}
 		]
 	},
@@ -1459,7 +1514,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Although experimental, their portable laser guns have been tried and tested in combat situations."
 			}
 		]
 	},
@@ -1481,7 +1536,7 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "They have a tendency to flatten all opposition within moments of their landing. They also have a reputation for collateral damage."
 			}
 		]
 	},
@@ -1503,7 +1558,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+				"text": "Very elusive mercenaries, it is said that they will only appear for negotiations if you are able to pay for their extravagant prices. In your personal quarters, no less."
 			}
 		]
 	},
@@ -1530,7 +1585,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Speed enthusiasts who also do combat missions on the side."
 			}
 		]
 	},
@@ -1560,7 +1615,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Known for their vigilant gaze and an insistence of doing things manually."
 			}
 		]
 	},
@@ -1586,7 +1641,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Do they really have to paint that shark teeth graphic everywhere?"
 			}
 		]
 	},
@@ -1609,7 +1664,7 @@
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Has a tradition of throwing a lavish feast after every mission."
 			}
 		]
 	},
@@ -1640,7 +1695,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Name stuck after being caught smuggling eels in their hovercraft for the fifth time."
 			}
 		]
 	},
@@ -1674,7 +1729,7 @@
 		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Prone to spontaneous acrobatic maneuvers while evading missile locks."
 			}
 		]
 	},
@@ -1700,7 +1755,7 @@
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A semi-nomadic group of naval clans that roams the seas, from port to port."
 			}
 		]
 	},
@@ -1731,7 +1786,7 @@
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Former pirates who finds privateering to be a more lucrative endeavor."
 			}
 		]
 	},
@@ -1761,7 +1816,7 @@
 		"promotions": ["Mercenary Pay","Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "." }]
+		"civilopediaText": [{ "text": "Never, ever disparage their hovertanks. Very short fuses." }]
 	},
 	{
 		"name": "Steel Legion Detachment (Colonial Armor)",
@@ -1785,7 +1840,7 @@
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "." }]
+		"civilopediaText": [{ "text": "Known for their bravery under fire, and always upholding their contracts." }]
 	},
 	{
 		"name": "PrismTech Field Testers (Laser Tank)",
@@ -1813,7 +1868,7 @@
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "." }]
+		"civilopediaText": [{ "text": "Despite being a tech start-up's field testing team, they've gained a reputation of being efficient on the battlefield." }]
 	},
 
 	//// Artillery
@@ -1843,7 +1898,7 @@
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "They have a tradition of writing crude, vulgar or comedic messages on their ammunition."
 			}
 		]
 	},
@@ -1875,7 +1930,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This rowdy bunch specializes in hit and run tactics."
 			}
 		]
 	},
@@ -1904,7 +1959,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Feared on the battlefield for their ruthless, death-defying charges."
 			}
 		]
 	},
@@ -1937,7 +1992,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Never stays in the same place for too long, they have a tendency to rotate their pilots."
 			}
 		]
 	},
