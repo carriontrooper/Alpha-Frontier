@@ -603,13 +603,12 @@
 		"name": "Benthic Orbs",
 		"resourceType": "Luxury",
 		"revealedBy": "Xenogeology",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 1,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "culture": 2 },
 		"uniques": [
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>",
-			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>"
 		],
 		"civilopediaText": [
 			{
