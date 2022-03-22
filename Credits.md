@@ -13,6 +13,7 @@
 - Destro9000 - idea
 - Bisik Setan (AKA Tafsir Kiri) - idea
 - NoviceCoder2000 - idea
+- sosiggate - sound finder
 
 ## DeCiv stuff
 
