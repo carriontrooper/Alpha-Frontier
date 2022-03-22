@@ -819,6 +819,24 @@
 			}
 		]
 	},
+	{
+		"name": "Mercenary Offices",
+		"cost": 60,
+		"maintenance": 0,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Unbuildable",
+			"New [Mercenary] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Semi-legal businesses where one can hire soldiers of fortune."
+			}
+		]
+	},
 	
 	// Halcyon Era
 	{
@@ -1094,24 +1112,6 @@
 
 	//// Wonders
 
-	//// Misc
-	{
-		"name": "Mercenary Offices",
-		"cost": 0,
-		"maintenance": 0,
-		"gold": 1,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Unbuildable",
-			"New [Mercenary] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured"
-		],
-		//"requiredTech": "Info Networks",
-		"civilopediaText": [
-			{
-				"text": "Semi-legal businesses where one can hire soldiers of fortune."
-			}
-		]
-	}
+
 
 ]
