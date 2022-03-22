@@ -161,7 +161,7 @@
         "name": "Soldiers of Fortune",
         "type": "Pantheon",
         "uniques": [
-			"May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
+//			"May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
 			"[+1 Faith] from every [Mercenary Offices] <in cities where this religion has at least [3] followers>",
 			"[10]% Strength <for units with [Mercenary] promotion> <when at war>"
 		]
