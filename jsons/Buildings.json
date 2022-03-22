@@ -978,6 +978,38 @@
 			}
 		]
 	},
+	{
+		"name": "Antimatter Reactor",
+		"maintenance": 2,
+		"production": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [2] [Antimatter]"
+		]
+		"requiredTech": "Antimatter Harnessing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Mindspace Expansion",
+		"maintenance": 2,
+		"culture": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
+		]
+		"requiredTech": "Mind Linking",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	
 	// Transcendental Era
 	{
@@ -997,8 +1029,66 @@
 			}
 		]
 	},
+	{
+		"name": "Bio-Design Agency",
+		"maintenance": 2,
+		"culture": 4,
+		"happiness": 1,
+		"percentStatBonus": {"food": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	//// Religious Buildings (e.g. Mosques, Cathedrals etc)
+	{
+		"name": "Charity Center",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"food": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Cult Hideout",
+		"cost": 0,
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"culture": 1,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Meditation Field",
+		"cost": 0,
+		"culture": 2,
+		"faith": 4,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Debate Hall",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"science": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Virtual Trance Server",
+		"cost": 0,
+		"culture": 3,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": ["Virtual","Unbuildable", "Hidden when religion is disabled"]
+	}
 
 	//// National Wonders
 
@@ -1022,6 +1112,6 @@
 				"text": "Semi-legal businesses where one can hire soldiers of fortune."
 			}
 		]
-	},
+	}
 
 ]
