@@ -493,7 +493,7 @@
 				"prerequisites": ["Cyberbrains","Xeno Psychology"]
 			},
 			{
-				"name": "Nerve Staple",
+				"name": "Nerve Stapling",
 				"row": 10,
 				"quote": "'.' - ",
 				"prerequisites": ["Cyberbrains"]
