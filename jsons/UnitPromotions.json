@@ -655,6 +655,10 @@
 
 // Uniques kept through upgrades
 	{
+		"name": "Morale", // Military Simulation Training
+		"uniques": ["[+15]% Strength"]
+	},
+	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Tree of Worlds
 		"uniques": ["All healing effects doubled"]
 	},
@@ -665,6 +669,10 @@
 	{
 		"name": "Mercenary Pay",
 		"uniques": ["Earn [10]% of the damage done to [Military] units as [Gold]"]
+	},
+	{
+		"name": "Spook",
+		"uniques": ["Ignores Zone of Control","Invisible to Others","May enter foreign tiles without open borders"]
 	}
 	
 ]
