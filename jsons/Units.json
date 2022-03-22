@@ -881,8 +881,8 @@
 		"strength": 32,
 		"rangedStrength": 32,
 		"cost": 275,
-		"requiredTech": "Next-Gen Armaments",
-		"requiredResource": "Composite Armor",
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
@@ -968,7 +968,6 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [{ "text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon." }]
@@ -994,7 +993,6 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		//"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [{ "text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well." }]
@@ -1304,6 +1302,645 @@
 	},
 
 	// Transcedental Era
+	
+	// Mercenary Units
+	//// Scout
+	{
+		"name": "Rover Boys (Rover Explorer)",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Rover",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Infantry
+	{
+		"name": "Boondock Posse (Frontier Militia)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ "text": "." }
+		]
+	},
+	{
+		"name": "Martian Free Rifles (Colonial Rifleman)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Europan Deadshots (Colonial Marksman)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ "text": "." }
+		]
+	},
+	{
+		"name": "Sundowner Company (Exoframe Soldier)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 23,
+		"cost": 125,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Jovian Wolves Company (Exoframe Sniper)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 23,
+		"rangedStrength": 23,
+		"cost": 175,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Photon Gunners (Laser Trooper)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 33,
+		"rangedStrength": 33,
+		"cost": 250,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 43,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Shadow Ghosts (Stealth Operatives)",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		"strength": 34,
+		"cost": 350,
+		"requiredTech": "Metamaterials",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+			}
+		]
+	},
+	
+	//// Buggies
+	{
+		"name": "Dune Raiders (Light Buggy)",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Portable Power Sources",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Skywatchers (Anti-Air Buggy)",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Hydrofoils
+	{
+		"name": "Cutty Sharks (Light Hydrofoil)",
+		"unitType": "Close Range Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Hydrodynamics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Hungry Orcas (Assault Hydrofoil)",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Military Ballistics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Hovercrafts
+	{
+		"name": "Fierce Eels (Hovercraft)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Hovercrafts",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Aerial Units
+	{
+		"name": "Razgriz Wing (Aerojet)",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Water Units
+	{
+		"name": "Tidehunters (Corvette)",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Submarine
+	{
+		"name": "Nemo's Pack (Submersible)",
+		"unitType": "Submarine",
+		"movement": 4,
+		"range": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [2] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	
+	//// Armored
+	{
+		"name": "Floating Furies (Hovertank)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 35,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [{ "text": "." }]
+	},
+	{
+		"name": "Steel Legion Detachment (Colonial Armor)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 40,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [{ "text": "." }]
+	},
+	{
+		"name": "PrismTech Field Testers (Laser Tank)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [{ "text": "." }]
+	},
+
+	//// Artillery
+	{
+		"name": "Iron Arrow Besiegers (Missile Artillery)",
+		"unitType": "Armored",
+		"movement": 2,
+		"range": 3,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 175,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Indirect Fire"],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	//// Mechs
+	{
+		"name": "Redhorse Striders (Recon Mech)",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 30,
+		"cost": 175,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"[+1] Sight",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Alpha Raptor Renegades (Assault Mech)",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 45,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Silver Arbalest Company (Artillery Mech)",
+		"unitType": "Ranged Mech",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[-1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Ignore terrain cost", "Indirect Fire"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	// Religious Units
 	{
