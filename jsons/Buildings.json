@@ -1,6 +1,6 @@
 [
 	//todo: more buildings for Halcyon upwards, especially Realization and Transcedental
-	//todo: add mercenary office building
+	//todo: add something to augment the virtual buildings, maybe a wonder?
 	
 	//// Buildings
 	{
@@ -920,6 +920,7 @@
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]"
 		],
+		"requiredBuilding": "Frontier Hospital",
 		"requiredTech": "Cybernetics",
 		"civilopediaText": [
 			{
@@ -957,6 +958,20 @@
 			"Virtual"
 		]
 		"requiredTech": "Artificial Intelligence",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Nerve Staple Center",
+		"maintenance": 1,
+		"culture": -5,
+		"percentStatBonus": {"production": 20},
+		"hurryCostModifier": 0,
+		"requiredBuilding": "Augment Center",
+		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
 				"text": "."
