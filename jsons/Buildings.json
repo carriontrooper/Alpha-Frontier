@@ -921,6 +921,23 @@
 		]
 	},
 	{
+		"name": "Cloning Vat",
+		"maintenance": 1,
+		"food": 2,
+		"requiredBuilding": "Frontier Hospital",
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"[+1] population [in this city]"
+		],
+		"requiredTech": "Cloning",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 30},
@@ -1365,7 +1382,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% tile improvement construction time","[2] free [Constructor] units appear"],
-		"requiredTech": "Offworld Industries",
+		"requiredTech": "Crust Fracking",
 		"quote": "'.' - "
 	},
 	{
@@ -1390,7 +1407,7 @@
 		"name": "Valhalla Milsim Training Facility",
 		"cityStrength": 300,
 		"isWonder": true,
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+		"uniques": ["Free [Great General] appears","All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
 		"requiredTech": "Next-Gen Armaments",
 		"quote": "'.' - "
 	},
@@ -1418,6 +1435,25 @@
 		"isWonder": true,
 		"uniques": ["Empire enters golden age","[+10]% [Food] [in all cities]"],
 		"requiredTech": "Xenobiology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Xeno Gene Tapestry Project",
+		"science": 2,
+		"food": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Food] [in all cities]","[+1] population [in all cities]"],
+		"requiredTech": "Genetics",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Vyasa-Gandhari Cloning Array",
+		"science": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["[+1] population [in all cities]","[+50]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Cloning",
 		"quote": "'.' - "
 	},
 	{
@@ -1468,6 +1504,16 @@
 		"isWonder": true,
 		"uniques": ["[+100]% Golden Age length","[+1 Science] from every specialist [in all cities]"],
 		"requiredTech": "N-Dimensional Exploration",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Shambhala Virtual Space",
+		"culture": 2,
+		"faith": 3,
+		"greatPersonPoints": {"Great Visionary": 1},
+		"isWonder": true,
+		"uniques": ["Virtual","Hidden when religion is disabled","Gain a free [Tele-Temple] [in this city]"],
+		"requiredTech": "Colonial Culture",
 		"quote": "'.' - "
 	},
 	{
