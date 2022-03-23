@@ -499,7 +499,7 @@
 				"column": 4
 			},
 			{
-				"name": "Aesthetics Complete",
+				"name": "Influence Complete",
 				"uniques": [
 					"Free Social Policy",
 					"May buy [Great Influencer] units for [500] [Gold] [in all cities] at an increasing price ([250]) <starting from the [Halcyon era]>"
@@ -557,7 +557,7 @@
 			{
 				"name": "Censorship",
 				"uniques": [
-					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+					"[+100]% Production when constructing [Proxy Office] buildings [in all cities]",
 					"[+3 Happiness] [in all cities] <when below [3] Happiness>"
 				],
 				"requires": ["Appropriation"],
@@ -599,6 +599,7 @@
 			{
 				"name": "Healing Nature",
 				"uniques": [
+					"[+15]% Strength <in [Miasma] tiles> <when defending>",
 					"All healing effects doubled <in [Miasma] tiles>",
 					"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"
 				],
@@ -630,6 +631,7 @@
 					"[+1 Happiness] from [Hydromielin] tiles [in all cities]",
 					"[+1 Happiness] from [Ruby Cactus] tiles [in all cities]",
 					"[+1 Happiness] from [Snuffets] tiles [in all cities]",
+					"[+1 Happiness] from [Sindrian Lobster] tiles [in all cities]",
 					"[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
 					"[+1 Happiness] from [Vitamass] tiles [in all cities]"
 				],
