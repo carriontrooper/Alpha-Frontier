@@ -145,7 +145,8 @@
 				"name": "Synthetic Materials",
 				"row": 4,
 				"quote": "'I ain't saying these are plastics because there's just so much of them strewn all over in old Earth... but these, these are plastics. Maybe even rubber!' - Ismara Yanuar, chemist",
-				"prerequisites": ["Xenochemistry"]
+				"prerequisites": ["Xenochemistry"],
+				"uniques": ["[+20]% Strength <for [All] units> <when defending>"]
 			},
 			{
 				"name": "Research Networks",
