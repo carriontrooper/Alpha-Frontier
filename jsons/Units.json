@@ -647,6 +647,7 @@
 			"Can see invisible [Stealth Infantry] units",
 			"Can see invisible [Submarine] units",
 			"Can see invisible [Xeno Stealth Water] units",
+			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -675,6 +676,7 @@
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
+			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1156,6 +1158,7 @@
 			"[+100]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
+			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1324,6 +1327,7 @@
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
+			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
