@@ -716,6 +716,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 50},
+		"requiredBuilding": "Resource Market",
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
@@ -768,7 +769,7 @@
 		]
 	},
 	{
-		"name": "Relay Satellite",
+		"name": "Relay Satellite Network",
 		"cost": 180,
 		"maintenance": 1,
 		"culture": 1,
@@ -786,7 +787,7 @@
 		]
 	},
 	{
-		"name": "Spy Satellite",
+		"name": "Spy Satellite Network",
 		"cost": 180,
 		"maintenance": 1,
 		"cityStrength": 10,
@@ -864,6 +865,7 @@
 			"New [Ranged Mech] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
+		"requiredBuilding": "Military Base",
 		"requiredTech": "Composite Armor",
 		"civilopediaText": [
 			{
@@ -921,16 +923,27 @@
 		]
 	},
 	{
+		"name": "ICBM Silos",
+		"hurryCostModifier": 25,
+		"requiredTech": "Orbital Deterrents",
+		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Cloning Vat",
 		"maintenance": 1,
 		"food": 2,
-		"requiredBuilding": "Frontier Hospital",
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
 			"[+1] population [in this city]"
 		],
 		"requiredTech": "Cloning",
+		"requiredBuilding": "Frontier Hospital",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -942,6 +955,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 30},
 		"percentStatBonus": {"gold": 10}, // if this doesn't work try "percentStatBonus": {"production": 30, "gold": 10},
+		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
 			{
@@ -978,6 +992,7 @@
 			"Virtual"
 		]
 		"requiredTech": "Metaverse",
+		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1335,7 +1350,7 @@
 		]
 	},
 	{
-		"name": "Entertainment Complex",
+		"name": "Commercial Entertainment Complex",
 		"cost": 125,
 		"happiness": 5,
 		"culture": 1,
@@ -1355,7 +1370,7 @@
 		"cityStrength": 50,
 		"cityHealth": 100,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Spy Satellite] in all cities", "All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
+		"uniques": ["Requires a [Spy Satellite Network] in all cities", "All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Military Ballistics",
 		"civilopediaText": [
