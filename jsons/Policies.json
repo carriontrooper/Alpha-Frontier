@@ -599,6 +599,7 @@
 			{
 				"name": "Healing Nature",
 				"uniques": [
+					"[+15]% Strength <in [Miasma] tiles> <when defending>",
 					"All healing effects doubled <in [Miasma] tiles>",
 					"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"
 				],
@@ -630,6 +631,7 @@
 					"[+1 Happiness] from [Hydromielin] tiles [in all cities]",
 					"[+1 Happiness] from [Ruby Cactus] tiles [in all cities]",
 					"[+1 Happiness] from [Snuffets] tiles [in all cities]",
+					"[+1 Happiness] from [Sindrian Lobster] tiles [in all cities]",
 					"[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
 					"[+1 Happiness] from [Vitamass] tiles [in all cities]"
 				],
