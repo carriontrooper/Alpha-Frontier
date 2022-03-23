@@ -328,6 +328,22 @@
 		]
 	},
 	{
+		"name": "Synthetic Recycling Station",
+		"maintenance": 1,
+		"food": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Promethine] tiles [in this city]"
+		],
+		"requiredTech": "Synthetic Materials",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Research Laboratory",
 		"maintenance": 2,
 		"hurryCostModifier": 15,

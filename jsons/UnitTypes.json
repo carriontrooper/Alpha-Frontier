@@ -29,10 +29,12 @@
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles"]
 	},
+	/* never actually got used
 	{
-		"name": "Close Range", //melee
+		"name": "Close Range",
 		"movementType": "Land"
 	},
+	*/
 	{
 		"name": "Infantry", //melee people
 		"movementType": "Land"

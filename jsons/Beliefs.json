@@ -19,6 +19,11 @@
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Mycelium]"]
     },
+	{
+        "name": "Miasma Dreams",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Miasma]"]
+    },
     {
         "name": "Homeopathy",
         "type": "Pantheon",

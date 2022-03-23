@@ -52,7 +52,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Xenogeology",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>","[+1 Production] <after discovering [Crust Fracking]>"],
 		"shortcutKey": "M",
 		"civilopediaText": [{"text":"Tunnels dug by machinery to retrieve the resources hidden underground"}]
 	},
@@ -152,6 +152,15 @@
 		"shortcutKey": "O",
 		"civilopediaText": [{"text":"A massive, strategic defensive structure"}]
 	},
+	{
+		"name": "Artificial Miasma",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium","Flood Plains"],
+		"turnsToBuild": 6,
+		"techRequired": "Frontier Armaments",
+		"uniques": ["Can be built outside your borders","Does not need removal of [Forest]","Does not need removal of [Jungle]","Gives a defensive bonus of [-15]%"],
+		//"shortcutKey": "O"
+		"civilopediaText": [{"text":"Artificially-induced miasma cloud, just as annoying as the natural version"}]
+	},
 	
 	// Transportation
 	{
@@ -210,7 +219,7 @@
 		"name": "Remove Miasma",
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Miasma"],
-		// Has no tile improvements as it can always be built
+		"techRequired": "Synthetic Materials",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
@@ -260,7 +269,7 @@
 	{
 		"name": "Industrial district",
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>", "[+1 Production] <after discovering [Crust Fracking]>"],
 		"civilopediaText": [
 			{"text":"Sprawling fronts of industrial machinery, producing anything and everything you could think of"}
 		]
