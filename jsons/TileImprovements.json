@@ -152,6 +152,15 @@
 		"shortcutKey": "O",
 		"civilopediaText": [{"text":"A massive, strategic defensive structure"}]
 	},
+	{
+		"name": "Artificial Miasma",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium","Flood Plains"],
+		"turnsToBuild": 6,
+		"techRequired": "Frontier Armaments",
+		"uniques": ["Can be built outside your borders","Does not need removal of [Forest]","Does not need removal of [Jungle]","Gives a defensive bonus of [-15]%"],
+		//"shortcutKey": "O"
+		"civilopediaText": [{"text":"Artificially-induced miasma cloud, just as annoying as the natural version"}]
+	},
 	
 	// Transportation
 	{
@@ -210,7 +219,7 @@
 		"name": "Remove Miasma",
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Miasma"],
-		// Has no tile improvements as it can always be built
+		"techRequired": "Synthetic Materials",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
