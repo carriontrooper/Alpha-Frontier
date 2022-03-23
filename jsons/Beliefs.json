@@ -157,19 +157,21 @@
 			"[+10 Faith] from every [Harborship Wreck]"
 		]
     },
+	{
+        "name": "Soldiers of Fortune",
+        "type": "Pantheon",
+        "uniques": [
+//			"May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
+			"[+1 Faith] from every [Mercenary Offices] <in cities where this religion has at least [3] followers>",
+			"[10]% Strength <for units with [Mercenary] promotion> <when at war>"
+		]
+    },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Memorialists",
         "type": "Follower",
         "uniques": ["[+1 Happiness] from every [Memorial] <in cities where this religion has at least [3] followers>"]
     },
-	/*
-    {
-        "name": "Cathedrals",
-        "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
-    },
-	*/
 	{
         "name": "Fanaticism",
         "type": "Follower",
@@ -208,23 +210,6 @@
         "type": "Follower",
         "uniques": ["[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>"]
     },
-	/*
-    {
-        "name": "Monasteries",
-        "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Mosques",
-        "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Pagodas",
-        "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
-    },
-	*/
     {
         "name": "Peace Gardens",
         "type": "Follower",
@@ -249,6 +234,31 @@
         "name": "Peaceful Prosperity",
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    },
+    {
+        "name": "Charity Centers",
+        "type": "Follower",
+        "uniques": ["May buy [Charity Center] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Cult Hideouts",
+        "type": "Follower",
+        "uniques": ["May buy [Cult Hideout] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Meditation Fields",
+        "type": "Follower",
+        "uniques": ["May buy [Meditation Field] buildings with [Faith] [in cities following this religion]"]
+    },
+	{
+        "name": "Debate Halls",
+        "type": "Follower",
+        "uniques": ["May buy [Debate Hall] buildings with [Faith] [in cities following this religion]"]
+    },
+	{
+        "name": "Virtual Trance Servers",
+        "type": "Follower",
+        "uniques": ["May buy [Virtual Trance Server] buildings with [Faith] [in cities following this religion]"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
     

@@ -102,12 +102,12 @@
 	{
 		"name": "Aerocraft",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "6 tiles in every direction always visible"]
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
 	},
 	{
 		"name": "Satellite",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "6 tiles in every direction always visible","Cannot be carried by [Carrier] units"]
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles","Cannot be carried by [Carrier] units"]
 	},
 	/*
 	{
@@ -129,7 +129,7 @@
 	{
 		"name": "Helicopter",
 		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles"]
+		"uniques": ["Air","Can pass through impassable tiles"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work

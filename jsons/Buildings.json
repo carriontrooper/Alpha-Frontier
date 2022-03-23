@@ -1,5 +1,6 @@
 [
 	//todo: more buildings for Halcyon upwards, especially Realization and Transcedental
+	//todo: add something to augment the virtual buildings, maybe a wonder?
 	
 	//// Buildings
 	{
@@ -292,6 +293,19 @@
 	},
 	
 	// Exploration Era
+	{
+		"name": "Cloud Seeder Station",
+		"maintenance": 1,
+		"food": 2,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Payload Delivery",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	{
 		"name": "Aquatic Farm",
 		"food": 2,
@@ -702,6 +716,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 50},
+		"requiredBuilding": "Resource Market",
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
@@ -724,12 +739,64 @@
 	},
 	{
 		"name": "Infrastructure 2.0",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 10},
 		"percentStatBonus": {"production": 10},
 		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10, "gold": 10},
 		"requiredTech": "Colonial Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Research Satellite",
+		"cost": 180,
+		"maintenance": 1,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Satellite Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Relay Satellite Network",
+		"cost": 180,
+		"maintenance": 1,
+		"culture": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Satellite Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Spy Satellite Network",
+		"cost": 180,
+		"maintenance": 1,
+		"cityStrength": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Info Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
@@ -791,13 +858,14 @@
 		"cost": 60,
 		"maintenance": 1,
 		"production": 1,
-		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"New [Armored] units start with [15] Experience [in this city]",
 			"New [Close Range Mech] units start with [15] Experience [in this city]",
-			"New [Ranged Mech] units start with [15] Experience [in this city]"
+			"New [Ranged Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
 		],
+		"requiredBuilding": "Military Base",
 		"requiredTech": "Composite Armor",
 		"civilopediaText": [
 			{
@@ -805,8 +873,96 @@
 			}
 		]
 	},
+	{
+		"name": "Mercenary Offices",
+		"cost": 60,
+		"maintenance": 0,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Unbuildable",
+			"New [Mercenary] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Semi-legal businesses where one can hire soldiers of fortune."
+			}
+		]
+	},
 	
 	// Halcyon Era
+	{
+		"name": "Meteor Catcher",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 20},
+		"requiredTech": "Cosmonautics",
+		"uniques": [
+			"Orbital"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Satellite Control Center",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 10},
+		"requiredTech": "Cosmonautics",
+		"uniques": [
+			"[+1 Science, +1 Culture, +1 Gold] <in cities with a [Orbital]>",
+			"New [Satellite] units start with [15] Experience [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "ICBM Silos",
+		"hurryCostModifier": 25,
+		"requiredTech": "Orbital Deterrents",
+		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Cloning Vat",
+		"maintenance": 1,
+		"food": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"[+1] population [in this city]"
+		],
+		"requiredTech": "Cloning",
+		"requiredBuilding": "Frontier Hospital",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Intercity Hyperloop",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 30},
+		"percentStatBonus": {"gold": 10}, // if this doesn't work try "percentStatBonus": {"production": 30, "gold": 10},
+		"requiredBuilding": "Infrastructure 2.0",
+		"requiredTech": "Fusion Power",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	{
 		"name": "Particle Collider",
 		"maintenance": 2,
@@ -821,7 +977,7 @@
 			"[+1 Science] from [Gravitix] tiles [in this city]",
 			"[+1 Science] from [Ulframite] tiles [in this city]"
 		],
-		"requiredTech": "Research Networks",
+		"requiredTech": "Quantum Theory",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -835,7 +991,8 @@
 		"uniques": [
 			"Virtual"
 		]
-		"requiredTech": "Net Culture",
+		"requiredTech": "Metaverse",
+		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -883,6 +1040,7 @@
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]"
 		],
+		"requiredBuilding": "Frontier Hospital",
 		"requiredTech": "Cybernetics",
 		"civilopediaText": [
 			{
@@ -926,6 +1084,52 @@
 			}
 		]
 	},
+	{
+		"name": "Nerve Staple Center",
+		"maintenance": 1,
+		"culture": -5,
+		"percentStatBonus": {"production": 20},
+		"hurryCostModifier": 0,
+		"requiredBuilding": "Augment Center",
+		"requiredTech": "Nerve Stapling",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Antimatter Reactor",
+		"maintenance": 2,
+		"production": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [2] [Antimatter]"
+		]
+		"requiredTech": "Antimatter Harnessing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Mindspace Expansion",
+		"maintenance": 2,
+		"culture": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
+		]
+		"requiredTech": "Mind Linking",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	
 	// Transcendental Era
 	{
@@ -945,9 +1149,432 @@
 			}
 		]
 	},
+	{
+		"name": "Bio-Design Agency",
+		"maintenance": 2,
+		"culture": 4,
+		"happiness": 1,
+		"percentStatBonus": {"food": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	//// Religious Buildings (e.g. Mosques, Cathedrals etc)
+	{
+		"name": "Charity Center",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"food": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Cult Hideout",
+		"cost": 0,
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"culture": 1,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Meditation Field",
+		"cost": 0,
+		"culture": 2,
+		"faith": 4,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Debate Hall",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"science": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Virtual Trance Server",
+		"cost": 0,
+		"culture": 3,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": ["Virtual","Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	//// National Wonders
+	{
+		"name": "Landfall Memorial",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Military Simulation Training",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Virtual","Requires a [Frontier Armory] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "University of the Planet",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Field Lab] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Massive Interactive Virtual Epic",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Virtual","Requires a [Virtual Cultural Space] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Quantum Computing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Religious Broadcast Center",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Requires a [Tele-Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Net Culture",
+		"isNationalWonder": true,
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Central Economic Database",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Pioneer Depot] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Cryptocurrency",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Orbital Space Station",
+		"cost": 125,
+		"science": 3,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": ["Orbital","Requires a [Orbital Launch Facility] in all cities", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Cosmonautics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Printer Array Foundry",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Prefab Printer] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Stable Fission Power",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Commercial Entertainment Complex",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"gold": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Megamall] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "National intelligence Agency",
+		"cost": 125,
+		"cityStrength": 50,
+		"cityHealth": 100,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Spy Satellite Network] in all cities", "All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Samson Option",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion"],
+		"requiredTech": "Orbital Deterrents",
+		"quote": "'.' - "
+	},
 
 	//// Wonders
+	{
+		"name": "Akashipedia Archives",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Computing",
+		"uniques": ["Virtual","Free Technology", "Gain a free [Field Lab] [in this city]"],
+		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist"
+	},
+	{
+		"name": "Hades Core Bore Project",
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% tile improvement construction time","[2] free [Constructor] units appear"],
+		"requiredTech": "Crust Fracking",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Saraswati Cultural College",
+		"culture": 3,
+		"greatPersonPoints": {"Great Influencer": 1},
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Colonial Culture",
+		"quote": "'.' - "
+	},
+	{
+		"name": "PANOPTIKON Surveillance System",
+		"cityStrength": 50,
+		"cityHealth": 100,
+		"isWonder": true,
+		"uniques": ["[-20]% unhappiness from population [in all cities]"],
+		"requiredTech": "Info Network",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Valhalla Milsim Training Facility",
+		"cityStrength": 300,
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears","All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+		"requiredTech": "Next-Gen Armaments",
+		"quote": "'.' - "
+	},
+	{
+		"name": "BALOR Solar-Powered Laser Cannon",
+		"cityStrength": 300,
+		"isWonder": true,
+		"uniques": ["[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"],
+		"requiredTech": "Lasers",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Houyi Ballistic Defense System",
+		"cityHealth": 300,
+		"isWonder": true,
+		"uniques": ["[+100]% City Strength from defensive buildings","Population loss from nuclear attacks [-75]% [in all cities]"],
+		"requiredTech": "Missiles",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Gaia Preserve",
+		"culture": 1,
+		"food": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age","[+10]% [Food] [in all cities]"],
+		"requiredTech": "Xenobiology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Xeno Gene Tapestry Project",
+		"science": 2,
+		"food": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Food] [in all cities]","[+1] population [in all cities]"],
+		"requiredTech": "Genetics",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Vyasa-Gandhari Cloning Array",
+		"science": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["[+1] population [in all cities]","[+50]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Cloning",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Hyperspace Augur",
+		"science": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]"],
+		"requiredTech": "Hyperspace Communications",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Captive Microsingularity",
+		"science": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Provides [5] [Gravitix]","Production to science conversion in cities increased by 33%"],
+		"requiredTech": "Graviton Harnessing",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Old Terra Resort",
+		"culture": 5,
+		"gold": 3,
+		"greatPersonPoints": {"Great Influencer": 2},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]","[-50]% Culture cost of natural border growth [in all cities]","Doubles Gold given to enemy if city is captured"],
+		"requiredTech": "Terraforming",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Yggdrasil Arcology",
+		"culture": 3,
+		"gold": 3,
+		"food": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["Provides 1 happiness per 2 additional social policies adopted"],
+		"requiredTech": "Nanotechnology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Interdimensional Gate Project",
+		"culture": 5,
+		"gold": 5,
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[+100]% Golden Age length","[+1 Science] from every specialist [in all cities]"],
+		"requiredTech": "N-Dimensional Exploration",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Shambhala Virtual Space",
+		"culture": 2,
+		"faith": 3,
+		"greatPersonPoints": {"Great Visionary": 1},
+		"isWonder": true,
+		"uniques": ["Virtual","Hidden when religion is disabled","Gain a free [Tele-Temple] [in this city]"],
+		"requiredTech": "Colonial Culture",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Surrogate Xenomind",
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["May capture killed [Xeno] units"],
+		"requiredTech": "Xeno Psychology",
+		"quote": "'.' - "
+	},
+
+	// Victory Buildings
+	{
+		"name": "Planetary Mindlink",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {"Great Influencer": 2},
+		"requiredTech": "Mind Linking",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "'.' - "
+	},
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+	},
+	{
+		"name": "FTL Seedship Program",
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
+			"Hidden when [Scientific] Victory is disabled"],
+		"requiredTech": "Cosmonautics",
+		"quote": "'.' - "
+	}
 
 ]
