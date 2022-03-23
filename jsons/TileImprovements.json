@@ -81,6 +81,18 @@
 		//"shortcutKey": "T",
 		"civilopediaText": [{"text":"Domed enclosures amenable for human habitation, retaining breathable atmosphere"}]
 	},
+	{
+		"name": "Xeno Sanctuary",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Mycelium"],
+		"food": 2,
+		"culture": 2,
+		"turnsToBuild": 8,
+		"uniques": ["Only available <after adopting [Xeno-Cooperation]>", 
+			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Genetic Hybridization]>",
+			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Designer Lifeforms]>"],
+		//"shortcutKey": "F",
+		"civilopediaText": [{"text":"Massive domed habitats purely dedicated to preserving a piece of xeno ecology, they also double as recreation areas for the colonists"}]
+	},
 	
 	// Resource specific
 	{
