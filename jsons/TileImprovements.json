@@ -52,7 +52,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Xenogeology",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>","[+1 Production] <after discovering [Crust Fracking]>"],
 		"shortcutKey": "M",
 		"civilopediaText": [{"text":"Tunnels dug by machinery to retrieve the resources hidden underground"}]
 	},
@@ -260,7 +260,7 @@
 	{
 		"name": "Industrial district",
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>", "[+1 Production] <after discovering [Crust Fracking]>"],
 		"civilopediaText": [
 			{"text":"Sprawling fronts of industrial machinery, producing anything and everything you could think of"}
 		]
