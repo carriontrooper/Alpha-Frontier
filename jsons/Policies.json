@@ -557,7 +557,7 @@
 			{
 				"name": "Censorship",
 				"uniques": [
-					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+					"[+100]% Production when constructing [Proxy Office] buildings [in all cities]",
 					"[+3 Happiness] [in all cities] <when below [3] Happiness>"
 				],
 				"requires": ["Appropriation"],
