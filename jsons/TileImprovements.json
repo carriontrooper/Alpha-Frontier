@@ -66,6 +66,21 @@
 		"shortcutKey": "T",
 		"civilopediaText": [{"text":"Vast arrays of raw computing power dedicated to the storage and retrieval of digital 'marks of credit'"}]
 	},
+	{
+		"name": "Habitation Dome",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Snow","Tundra","Forest","Jungle","Flood plains","Mycelium"],
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Hab-Domes",
+		"uniques": [
+			"[+1 Gold] <after discovering [Cryptocurrency]>",
+			"[+1 Production] <after discovering [Exoskeletons]>",
+			"[+1 Food] <after discovering [Genetics]>",
+			"[+1 Culture] <after discovering [Colonial Culture]>"
+		],
+		//"shortcutKey": "T",
+		"civilopediaText": [{"text":"Domed enclosures amenable for human habitation, retaining breathable atmosphere"}]
+	},
 	
 	// Resource specific
 	{
