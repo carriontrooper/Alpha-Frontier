@@ -20,6 +20,15 @@
 		]
 	},
 	
+	{
+		"name": "Proxy Office",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Pioneer Administration"
+	},
+	
 	// Landfall Era
 	{
 		"name": "Monument",
