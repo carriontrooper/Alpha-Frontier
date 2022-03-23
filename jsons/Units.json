@@ -328,6 +328,7 @@
 		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
 			"Rover",
+			"[+1] Sight",
 			"May upgrade to [Combat Rover] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
@@ -642,12 +643,12 @@
 		//"upgradesTo": "Laser Satellite",
 		//"obsoleteTech": "Radar",
 		"uniques": [
+			"[+4] Sight",
 			"[0]% Strength <vs [All] units>",
 			"[0]% Strength <vs cities>",
 			"Can see invisible [Stealth Infantry] units",
 			"Can see invisible [Submarine] units",
 			"Can see invisible [Xeno Stealth Water] units",
-			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -676,7 +677,6 @@
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
-			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -810,6 +810,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
 		"uniques": [
+			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -833,6 +834,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
 		"uniques": [
+			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Drone] units>",
@@ -862,6 +864,7 @@
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Titanium",
 		"uniques": [
+			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1158,7 +1161,6 @@
 			"[+100]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
-			"Can see over obstacles",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1268,6 +1270,7 @@
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Unable to capture cities",
+			"[+1] Sight",
 			"[+50]% Strength <vs [Infantry] units>",
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
@@ -1299,6 +1302,7 @@
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
+			"Only available <if [Samson Option] is constructed>"
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1327,7 +1331,7 @@
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
-			"Can see over obstacles",
+			"Only available <if [Samson Option] is constructed>"
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2098,7 +2102,7 @@
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "nuke",
+		"attackSound": "nuke", //change to explosion
 		"civilopediaText": [
 			{ "text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them." }
 		]
@@ -2215,5 +2219,93 @@
 				"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."
 			}
 		]
+	},
+	
+	// FTL Seedship Parts
+	{
+		"name": "Hyperspace Core",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "FTL Travel",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "FTL Navigations Bridge",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Hyperwave Communications",
+		"requiredResource": "Yairmite",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "FTL Drive",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Gravitix",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Zero Point Ship Reactor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Zero Point Energy",
+		"requiredResource": "Ulframite",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Nanite Life Support",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Vitamass",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Stasis Pod Arrays",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Yairmite",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [2] per Civilization"],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	}
+	
 ]
