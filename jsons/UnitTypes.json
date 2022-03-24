@@ -29,18 +29,13 @@
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles"]
 	},
-	/* never actually got used
-	{
-		"name": "Close Range",
-		"movementType": "Land"
-	},
-	*/
+	
 	{
 		"name": "Infantry", //melee people
 		"movementType": "Land"
 	},
 	{
-		"name": "Stealth Infantry",
+		"name": "Stealth Infantry", //melee hidden people
 		"movementType": "Land",
 		"uniques": [
 			"Invisible to non-adjacent units",
@@ -56,7 +51,7 @@
 		"movementType": "Land"
 	},
 	{
-		"name": "Rover",
+		"name": "Rover", //zippy whee robot
 		"movementType": "Land"
 	},
 	{
