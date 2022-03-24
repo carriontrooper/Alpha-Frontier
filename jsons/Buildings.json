@@ -1275,6 +1275,45 @@
 		]
 	},
 
+	//// Uniques
+	{
+		"name": "Net Terminal Genelab",
+		"replaces": "Genetic Laboratory",
+		"uniqueTo": "Toma Heavy Industries",
+		"maintenance": 2,
+		"science": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 3},
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"[+1 Science, +1 Production] from [Tubers] tiles [in this city]", //damn I gotta simplify these
+			"[+1 Science, +1 Production] from [Fungi Pods] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Exotic Fruits] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Rockbud] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Chitin] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Dairy Aphid] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Algae] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Seasilk] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Plankton] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Sea Slivers] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Spice] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Stimulants] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Hydromielin] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Snuffets] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Sindrian Lobster] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Flowers of Silence] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Vitamass] tiles [in this city]"
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
 	//// National Wonders
 	{
 		"name": "Landfall Memorial",
