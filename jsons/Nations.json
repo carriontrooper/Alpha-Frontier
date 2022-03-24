@@ -5,4 +5,134 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	}
+	
+	/* template: at least 20 city names
+	
+	{
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["Adjective"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "UniqueName",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"AndSoOn"
+		]
+	},
+	
+	// CS types: Cultured, Maritime, Mercantile, Militaristic, Religious
+	
+	{
+		"name": "OutpostName",
+		"adjective": ["Adjective"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Sputnik Outpost"]
+	}
+	
+	*/
+	
+	//Nations
+	{
+		"name": "Toma Heavy Industries",
+		"leaderName": "Kirii Toma",
+		"adjective": ["Toman"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries! Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
+		"startIntroPart2": "Kirii, your scientists and engineers are eager to uncover the secrets of the future on this new planet. Will you reach a new pinnacle of technological marvel? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "We regretfully inform you that your nation is now subject to unrestricted field testing for our weaponry. Please provide at least a token amount of resistance to provide the necessary data.",
+		"attacked": "This is most inconvenient. Very well.",
+		"defeated": "The improbable has occurred. Our company has fallen into ruin...",
+		"introduction": "Greetings. I am Kirii Toma, CEO of Toma Heavy Industries. I hope you are here for mutual research.",
+
+		"neutralHello": "Greetings. State your business.",
+		"hateHello": "State your business or vacate this frequency.",
+
+		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Virtualism",
+		"uniqueName": "Ingenuity from Isolation",
+		"uniques": [
+			"Receive a tech boost when scientific buildings/wonders are built in capital",
+			"Science gained from research agreements [+100]%",
+			"Unhappiness from number of Cities doubled"
+		],
+		"cities": [
+			"Cydonia Central",
+			"Cibo City",
+			"Kanoe Landing",
+			"Mizunoe Base",
+			"Dhomochevsky Post",
+			"Zuru Station",
+			"Gauna Base",
+			"Denji Landing",
+			"Tanikaze City",
+			"Tsumugi Post",
+			"Izana Base",
+			"N5S Facility",
+			"Ion Green City",
+			"Iko Post",
+			"Mori Base",
+			"Kumoi Post",
+			"Midorikawa Base",
+			"Honoka Landing",
+			"Etherow City",
+			"Kozlov Station"
+		]
+	},
+	
+	//Outposts
+	{
+		"name": "Sputnik Outpost",
+		"adjective": ["Sputnikian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Sputnik Outpost"]
+	},
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [198,243,102],
+		"uniques": ["Can only heal by pillaging"]
+	}
 ]
