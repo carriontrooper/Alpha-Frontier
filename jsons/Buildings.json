@@ -50,10 +50,13 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			/*
 			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
+			*/
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xenoagriculture]>"
 		],
 		"requiredTech": "Xenobiology"
 		"civilopediaText": [
@@ -323,11 +326,14 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
+			/*
 			"[+1 Food] from [Algae] tiles [in this city]",
 			"[+1 Food] from [Seasilk] tiles [in this city]",
 			"[+1 Food] from [Plankton] tiles [in this city]",
 			"[+1 Food] from [Sea Slivers] tiles [in this city]",
 			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
+			*/
+			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
 		],
 		"requiredTech": "Xeno-Grafting"
 		"civilopediaText": [
@@ -457,11 +463,14 @@
 		"percentStatBonus": {"production": 25},
 		"requiredBuilding": "Mining Tunnels",
 		"uniques": [
+			/*
 			"[+1 Production] from [Hexanite] tiles [in this city]",
 			"[+1 Production] from [Aluminum] tiles [in this city]",
 			"[+1 Production] from [Redstone] tiles [in this city]",
 			"[+1 Production] from [Gold Ore] tiles [in this city]",
 			"[+1 Production] from [Titanium] tiles [in this city]"
+			*/
+			"[+1 Production] from [Metallic] tiles [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
@@ -1287,6 +1296,7 @@
 		"specialistSlots": {"Scientist": 3},
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
+			/*
 			"[+1 Science, +1 Production] from [Tubers] tiles [in this city]", //damn I gotta simplify these
 			"[+1 Science, +1 Production] from [Fungi Pods] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Exotic Fruits] tiles [in this city]",
@@ -1305,6 +1315,8 @@
 			"[+1 Science, +1 Production] from [Sindrian Lobster] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Flowers of Silence] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Vitamass] tiles [in this city]"
+			*/
+			"[+1 Science, +1 Production] from [Organic] tiles [in this city]"
 		],
 		"requiredTech": "Genetics",
 		"civilopediaText": [
