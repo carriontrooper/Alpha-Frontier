@@ -15,10 +15,10 @@
 		"strength": 5,
 		"cost": 20,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -36,10 +36,10 @@
 		"strength": 7,
 		"cost": 40,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>"
 		],
 		"promotions": [
-			"[+33]% Strength <vs [Armored] units>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -57,11 +57,11 @@
 		"strength": 50,
 		"cost": 100,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -79,9 +79,7 @@
 		"strength": 50,
 		"cost": 100,
 		"uniques": [
-			"Xeno"
-		],
-		"promotions": [
+			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>"
 		],
@@ -102,10 +100,10 @@
 		"strength": 5,
 		"cost": 50,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -127,10 +125,10 @@
 		"rangedStrength": 6,
 		"cost": 20,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "shot",
@@ -151,10 +149,8 @@
 		"cost": 100,
 		"uniques": [
 			"Xeno",
+			"[+33]% Strength <vs [Infantry] units>",
 			"Blast radius [1]"
-		],
-		"promotions": [
-			"[+33]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -173,10 +169,10 @@
 		"strength": 5,
 		"cost": 20,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "shot",
@@ -196,10 +192,10 @@
 		"strength": 20,
 		"cost": 50,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -219,11 +215,11 @@
 		"strength": 5,
 		"cost": 20,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[5]% chance to intercept air attacks",
-			"[-66]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -241,11 +237,11 @@
 		"strength": 15,
 		"cost": 30,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[10]% chance to intercept air attacks",
-			"[-33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -263,11 +259,11 @@
 		"strength": 50,
 		"cost": 100,
 		"uniques": [
-			"Xeno"
+			"Xeno",
+			"[90]% chance to intercept air attacks",
+			"[+33]% Strength <vs cities>"
 		],
 		"promotions": [
-			"[90]% chance to intercept air attacks",
-			"[+33]% Strength <vs cities>",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit",
@@ -2061,7 +2057,486 @@
 			}
 		]
 	},
+	{
+		"name": "Penal Legionnaire",
+		"replaces": "Frontier Militia",
+		"uniqueTo": "Belta V Offworld Mining",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 30,
+		"upgradesTo": "Colony Rifleman",
+		"uniques": [
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Penal Training"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ "text": "Basically just a convict in an atmo-suit and a gun, they spend their life sentence building colonial infrastructure." }
+		]
+	},
+	{
+		"name": "Delver Team",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Deep Rock Ganymede",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Delver Training","Bug Hunter"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "A small squad of veteran miners, armed with company-issued weaponry."
+			}
+		]
+	},
+	{
+		"name": "Colonial Marine",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Walpole-Yuen Inc.",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Colonial Marine] Unit","Bug Hunter"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Soldiers who went through some tough training, they could earn special equipment when they gain a rank."
+			}
+		]
+	},
+	{
+		"name": "T-Series",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 125,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[T-Series] Unit"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
+			}
+		]
+	},
+	{
+		"name": "GHOST Unit",
+		"replaces": "Stealth Operative",
+		"uniqueTo": "Daikyu Boei Kikan",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		"strength": 34,
+		"cost": 350,
+		"requiredTech": "Metamaterials",
+		"uniques": ["GHOST Hack","Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Augmented with cutting-edge cybernetics and trained in cyberwarfare, their speciality is ambushing enemy vehicles and mechs utilizing both their augments and hacking skills."
+			}
+		]
+	},
+	{
+		"name": "Dog Soldier",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Einherjar Diktat",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Dog Soldier] Reputation"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Rumor has it that these soldiers are the result of a crude genetics experiment involving canine DNA. It's not true, of course, but the Diktat uses it as propaganda to demoralize enemies."
+			}
+		]
+	},
 	
+	//// Hydrofoil
+	{
+		"name": "Seadog",
+		"replaces": "Assault Hydrofoil",
+		"uniqueTo": "Free Waverunners",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 22,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Seadog] Raiding Crew"],
+		"upgradesTo": "Corvette",
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "Sleek and artistic, these vessels are still able to put up a fight and then plunder your ships."
+			}
+		]
+	},
+	
+	//// Drone
+	{
+		"name": "Vulture Combat Drone",
+		"replaces": "Combat Drone",
+		"uniqueTo": "Einherjar Diktat",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Aerial Drones",
+		"uniques": [
+			"Drone",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+25]% Strength <vs [Wounded] units>",
+			"[+25]% XP gained from combat",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Deadly and precise, this vicious hunter-killer drone comes with a targeting unit that prioritizes wounded units."
+			}
+		]
+	},
+	
+	//// Aerocraft
+	{
+		"name": "Aero-Striker",
+		"replaces": "Aerojet",
+		"uniqueTo": "Blue Streak Aerodynamics",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 27,
+		"rangedStrength": 27,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"upgradesTo": "Beam Fighter",
+		"uniques": [
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ambush I"],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Blue Streak's own design, it is designed to hit enemy armor hard and fast while still keeping a high speed and low drag. Its sensor suite is also optimized to detect distant threats."
+			}
+		]
+	},
+	
+	//// Mechs
+	{
+		"name": "War Casket",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Imperio di Uomo",
+		"unitType": "Close Range Mech",
+		"movement": 3,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs cities> <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Part siege unit, part life support, these morbid mechs house mortally wounded veterans and armed with powerful defense-shattering weaponry."
+			}
+		]
+	},
+	{
+		"name": "Civil Protection Mecha",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Xingxing Fazhan Bu",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 40,
+		"cost": 400,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units> <when defending>",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"May enter foreign tiles without open borders",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Designed with civilian protection in mind, they possess reduced lethal weaponry while benefiting from a boosted defense system. Due to their less threatening and protective reputation, they are usually granted free pass through borders."
+			}
+		]
+	},
+	{
+		"name": "ZANKER Mecha",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Jaeger Engineering",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 47,
+		"cost": 475,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blitz","Jaeger Manufacturing","Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Jaeger Engineering's frontline mech, their pilots are trained to use weapons with both of its hands. The result enables the mech to strike twice in quick succession."
+			}
+		]
+	},
+	
+	//// Great Person
+	{
+		"name": "Great Nomad",
+		"replaces": "Great Visionary",
+		"uniqueTo": "Badwalmusafir",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Visionary site] if it hasn't used other actions yet",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{
+				"text": "Visionary wanderers, they are both able to spread their brand of thinking and keep an open eye for economic opportunities."
+			}
+		]
+	},
+	
+	//// Tame Xenos
+	{
+		"name": "Tame Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Echidna",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"range": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Gun Lobster",
+		"unitType": "Xeno Melee Water",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Winghead",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 15,
+		"cost": 30,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks. Thankfully it's been tamed."
+			}
+		]
+	},
 
 	// Religious Units
 	{
@@ -2256,12 +2731,12 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "FTL Travel",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Gravitix",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "One of three cores required for the fastest FTL method available, they catch and store graviton particles and condense them for storage."
 			}
 		]
 	},
@@ -2276,7 +2751,7 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Requiring massive amounts of quantum computing, this mostly-automated and AI-operated system calculates the optimal path through space by using hyperwave analysis."
 			}
 		]
 	},
@@ -2286,9 +2761,14 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Graviton Harnessing",
-		"requiredResource": "Gravitix",
+		"requiredResource": "Antimatter",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
 		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"text": "Powered by antimatter, this drive functions by using graviton particles to 'pull' the ship along graviton-attuned cosmic strings."
+			}
+		]
 	},
 	{
 		"name": "Zero Point Ship Reactor",
@@ -2301,7 +2781,7 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Creating power from nothing, this is the biggest reactor humanity can build. Its Ulframite-lined inner core channels exotic particles out of its main chamber, creating an utter, true vaccuum inside - which spontaneously generates energy as universal forces try to fill in that vaccuum."
 			}
 		]
 	},
@@ -2316,7 +2796,7 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Appearing as a breathable orange juice, the nanite fluids dispensed by this system ensures that human biology survives the rigors of graviton string travel."
 			}
 		]
 	},
@@ -2331,7 +2811,7 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "The crew and colonists aboard the ship will spend entire lifetimes suspended in stasis, protected by similar stasis shielding."
 			}
 		]
 	}
