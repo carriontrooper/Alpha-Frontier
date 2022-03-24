@@ -949,7 +949,7 @@
 		]
 	},
 	{
-		"name": "ICBM Silos",
+		"name": "ICBM Silo",
 		"hurryCostModifier": 25,
 		"requiredTech": "Orbital Deterrents",
 		"requiredBuilding": "Orbital Launch Facility",
