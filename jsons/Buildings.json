@@ -591,6 +591,7 @@
 		"requiredTech": "Military Ballistics",
 		"uniques": [
 			"Prefab",
+			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
@@ -952,6 +953,20 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Orbital Deterrents",
 		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Deep Shelter",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Population loss from nuclear attacks [-50]% [in this city]",
+		],
+		"requiredTech": "Orbital Deterrents",
 		"civilopediaText": [
 			{
 				"text": "."
