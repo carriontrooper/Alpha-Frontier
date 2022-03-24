@@ -1304,6 +1304,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"Only available <if [Samson Option] is constructed>"
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Only available <in cities with a [ICBM Silo]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "nuke",
