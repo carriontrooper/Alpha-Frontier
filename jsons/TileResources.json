@@ -10,6 +10,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated on every [10] tiles <in [Featureless] [Grassland] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",
@@ -29,6 +31,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
 			"Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Mycelium] tiles>",
@@ -50,6 +54,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 2, "production": -1, "gold": -1 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated on every [14] tiles <in [Jungle] tiles>",
 			"Generated on every [28] tiles <in [Forest] tiles>",
 			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>",
@@ -70,6 +76,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 2 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated on every [14] tiles <in [Desert] tiles>",
 			"Generated on every [28] tiles <in [Tundra] tiles>",
 			"Generated on every [16] tiles <in [Desert] tiles> <in [Hill] Regions>",
@@ -90,6 +98,8 @@
 		"improvement": "Enclosure",
 		"improvementStats": { "production": 1 },
 		"uniques": [
+			"Organic",
+			"Fauna",
 			"Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
@@ -113,6 +123,8 @@
 		"improvement": "Enclosure",
 		"improvementStats": { "food": 2 },
 		"uniques": [
+			"Organic",
+			"Fauna",
 			"Generated on every [32] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [32] tiles <in [Featureless] [Mycelium] tiles>",
 			"Generated on every [36] tiles <in [Featureless] [Grassland] tiles>"
@@ -139,6 +151,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
+			"Mineral",
+			"Metallic",
 			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
@@ -159,6 +173,7 @@
 		"improvement": "Quarry",
 		"improvementStats": { "production": 1 },
 		"uniques": [
+			"Mineral",
 			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
@@ -177,6 +192,7 @@
 		"improvement": "Quarry",
 		"improvementStats": { "gold": 1 },
 		"uniques": [
+			"Mineral",
 			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
 		],
@@ -194,6 +210,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
+			"Mineral",
+			"Metallic",
 			"Generated with weight [15] <in [Featureless] [Plains] tiles>",
 			"Generated with weight [15] <in [Featureless] [Desert] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
@@ -212,6 +230,7 @@
 		"improvement": "Mine",
 		"improvementStats": { "food": 1 },
 		"uniques": [
+			"Mineral",
 			"Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
 			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
@@ -231,6 +250,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "production": 1 },
 		"uniques": [
+			"Mineral",
+			"Metallic",
 			"Generated with weight [15] <in [Featureless] [Plains] tiles>",
 			"Generated with weight [15] <in [Featureless] [Desert] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
@@ -251,6 +272,7 @@
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "production": 1 },
 		"uniques": [
+			"Mineral",
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>"
 		],
 		"civilopediaText": [
@@ -266,6 +288,7 @@
 		"food": 1,
 		"improvement": "Aquaculture",
 		"uniques": [
+			"Organic",
 			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
@@ -283,6 +306,8 @@
 		"improvement": "Aquaculture",
 		"improvementStats": { "credit": 1 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -299,6 +324,7 @@
 		"improvement": "Aquaculture",
 		"improvementStats": { "production": 1, "food": 1 },
 		"uniques": [
+			"Organic",
 			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
@@ -316,6 +342,7 @@
 		"improvement": "Aquaculture",
 		"improvementStats": { "food": 1 },
 		"uniques": [
+			"Fauna",
 			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
@@ -336,6 +363,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "faith": 2 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [10] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -366,6 +395,8 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "culture": 2 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Forest] Regions>",
@@ -398,6 +429,7 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "science": 2 },
 		"uniques": [
+			"Organic",
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Forest] Regions>",
@@ -423,6 +455,9 @@
 		"improvement": "Agri Farm",
 		"improvementStats": { "gold": 1, "food": 1 },
 		"uniques": [
+			"Organic",
+			"Flora",
+			"Gemlike",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Grassland] Regions>",
@@ -446,6 +481,8 @@
 		"improvement": "Enclosure",
 		"improvementStats": { "culture": 2, "happiness": 1 },
 		"uniques": [
+			"Organic",
+			"Fauna",
 			"Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
@@ -476,6 +513,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "gold": 1 },
 		"uniques": [
+			"Mineral",
+			"Metallic",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -506,6 +545,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "culture": 1 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -536,6 +577,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "science": 1 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -566,6 +609,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "culture": 2 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -590,6 +635,7 @@
 		"improvement": "Aquaculture",
 		"improvementStats": { "gold": 1, "food": 1 },
 		"uniques": [
+			"Fauna",
 			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
@@ -608,6 +654,8 @@
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "culture": 2 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>"
 		],
 		"civilopediaText": [
@@ -650,6 +698,8 @@
 		"improvement": "Research Base",
 		"improvementStats": { "science": 3 },
 		"uniques": [
+			"Organic",
+			"Flora",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
@@ -684,6 +734,8 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
+			"Mineral",
+			"Metallic",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
 			"Generated with weight [25] <in [Featureless] [Snow] tiles>",
@@ -727,6 +779,7 @@
 		"improvement": "Derrick",
 		"improvementStats": { "production": 1 },
 		"uniques": [
+			"Mineral",
 			"Deposits in [Coast] tiles always provide [4] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -767,6 +820,7 @@
 		"improvement": "Derrick",
 		"improvementStats": { "production": 1 },
 		"uniques": [
+			"Organic",
 			"Deposits in [Coast] tiles always provide [4] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -798,6 +852,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "production": 1, "science": 1 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated with weight [35] <in [Hill] tiles>",
 			"Generated with weight [30] <in [Grassland] tiles> <in tiles without [Hill]>",
 			"Generated with weight [30] <in [Plains] tiles> <in tiles without [Hill]>",
@@ -834,6 +890,8 @@
 		"improvement": "Mine",
 		"improvementStats": { "science": 3 },
 		"uniques": [
+			"Mineral",
+			"Gemlike",
 			"Generated with weight [10] <in [Snow] [Hill] tiles>",
 			"Generated with weight [30] <in [Tundra] [Hill] tiles>",
 			"Generated with weight [30] <in [Desert] [Hill] tiles>",
@@ -865,6 +923,7 @@
 		"improvement": "Mine",
 		"improvementStats": { "science": 3 },
 		"uniques": [
+			"Mineral",
 			"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
