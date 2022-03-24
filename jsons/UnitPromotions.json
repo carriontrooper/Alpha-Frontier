@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Scout","Rover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Scout","Rover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech"]
 	},
 
 // Sniper + Siege
@@ -66,37 +66,37 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry"]
+		"unitTypes": ["Infantry","Stealth Infantry"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry"]
+		"unitTypes": ["Infantry","Stealth Infantry"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry"]
+		"unitTypes": ["Infantry","Stealth Infantry"]
 	},
 	
 	{
@@ -127,38 +127,38 @@
 		"name": "Urban Warfare",
 		"prerequisites": ["Shock II","Drill II","Terrain Cover II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Close Range Mech"]
 	},
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III","Terrain Cover III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Armored","Close Range Mech"]
 	},
 	{
 		"name": "Jungle Warfare",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Close Range Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Close Range Mech"]
 	},
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I","Terrain Cover I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Scout","Rover","Armored","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Scout","Rover","Armored","Close Range Mech","Ranged Mech"]
 	},
 	
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Terrain Cover I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Scout"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Rover","Scout"]
+		"unitTypes": ["Infantry","Stealth Infantry","Rover","Scout"]
 	},
 
 // Scout
@@ -404,20 +404,20 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
 	},
 
 	{
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III","Terrain Cover III","Dodge II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Rover","Armored","Siege","Close Range Mech","Ranged Mech"]
 	},
 	{
 		"name": "Maintenance",
@@ -436,7 +436,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Terrain Cover II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Sniper","Rover","Close Range Water","Ranged Water","Armored"]
+		"unitTypes": ["Infantry","Stealth Infantry","Sniper","Rover","Close Range Water","Ranged Water","Armored"]
 	},
 	{
 		"name": "Logistics",
@@ -449,25 +449,25 @@
 	{
 		"name": "Ambush I",
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft"]
+		"unitTypes": ["Infantry","Stealth Infantry","Aerocraft"]
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft"]
+		"unitTypes": ["Infantry","Stealth Infantry","Aerocraft"]
 	},
 	
 	{
 		"name": "Mech Hunter I",
 		"uniques": ["[+25]% Strength <vs [Mech] units>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
 	},
 	{
 		"name": "Mech Hunter II",
 		"prerequisites": ["Mech Hunter I"],
 		"uniques": ["[+25]% Strength <vs [Mech] units>"],
-		"unitTypes": ["Close Range","Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
+		"unitTypes": ["Infantry","Stealth Infantry","Aerocraft","Armored","Close Range Mech","Ranged Mech"]
 	},
 	
 	{
@@ -684,22 +684,30 @@
 		"prerequisites": ["Bug Hunter"],
 		"uniques": ["[+50]% Strength <vs [Xeno] units>"]
 	},
+	{
+		"name": "Penal Training",
+		"uniques": ["Can build [Land] improvements on tiles"]
+	},
+	{
+		"name": "Delver Training",
+		"uniques": ["Can build [Land] improvements on tiles", "[+50]% Strength <when fighting in [Hill] tiles>"]
+	},
 	
 	{
 		"name": "GHOST Hack",
 		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>","May withdraw before melee ([80]%)"]
 	},
 	{
-		"name": "Vulture Targeting Suite",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>","[+25]% XP gained from combat"]
-	},
-	{
 		"name": "[Dog Soldier] Reputation",
 		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles","[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
+		"name": "[Seadog] Raiding Crew",
+		"uniques": ["Earn [10]% of the damage done to [All] units as [Gold]","Earn [10]% of killed [All] unit's [Cost] as [Gold]","May withdraw before melee ([80]%)"]
+	},
+	{
 		"name": "Jaeger Manufacturing",
-		"uniques": ["[+50]% Strength <vs [Armored] units> <when defending>"]
+		"uniques": ["[+50]% Strength <vs [Armored] units> <when defending>","[+20]% to Flank Attack bonuses"]
 	},
 	
 	// Colonial Marine special promos
@@ -756,17 +764,17 @@
 	
 	// Tame Xeno special promos, other than the usual xeno promos
 	{
-		"name": "[Tame Xeno] Unit",
+		"name": "Tame Xeno Unit",
 		"uniques": ["Gains access to special promotions available only to this unit"]
 	},
 	{
 		"name": "Human-Xeno Cooperation",
-		"prerequisites": ["[Tame Xeno] Unit"],
+		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": ["[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>"]
 	},
 	{
 		"name": "Healing Goop",
-		"prerequisites": ["[Tame Xeno] Unit"],
+		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"]
 	}
 	
