@@ -1186,7 +1186,7 @@
 		"requiredTech": "Cybernetics",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
