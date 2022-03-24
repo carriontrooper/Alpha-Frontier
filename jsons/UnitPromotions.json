@@ -673,6 +673,101 @@
 	{
 		"name": "Spook",
 		"uniques": ["Ignores Zone of Control","Invisible to Others","May enter foreign tiles without open borders"]
+	},
+	
+	{
+		"name": "Bug Hunter",
+		"uniques": ["[+25]% Strength <vs [Xeno] units>"]
+	},
+	{
+		"name": "Bug Exterminator",
+		"prerequisites": ["Bug Hunter"],
+		"uniques": ["[+50]% Strength <vs [Xeno] units>"]
+	},
+	
+	{
+		"name": "GHOST Hack",
+		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>","May withdraw before melee ([80]%)"]
+	},
+	{
+		"name": "Vulture Targeting Suite",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","[+25]% XP gained from combat"]
+	},
+	{
+		"name": "[Dog Soldier] Reputation",
+		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles","[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
+	{
+		"name": "Jaeger Manufacturing",
+		"uniques": ["[+50]% Strength <vs [Armored] units> <when defending>"]
+	},
+	
+	// Colonial Marine special promos
+	{
+		"name": "[Colonial Marine] Unit",
+		"uniques": ["Gains access to special promotions available only to this unit"]
+	},
+	{
+		"name": "Smartgun Equipped",
+		"prerequisites": ["[Colonial Marine] Unit"],
+		"uniques": ["[+25]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Stealth Infantry] units>"]
+	},
+	{
+		"name": "Flamer Equipped",
+		"prerequisites": ["[Colonial Marine] Unit"],
+		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"]
+	},
+	{
+		"name": "Commando Training",
+		"prerequisites": ["[Colonial Marine] Unit"],
+		"uniques": ["Ignores Zone of Control","Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Drop Trooper Training",
+		"prerequisites": ["[Colonial Marine] Unit"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"]
+	},
+	
+	// T-Series special promos
+	{
+		"name": "[T-Series] Unit",
+		"uniques": ["Gains access to special promotions available only to this unit"]
+	},
+	{
+		"name": "Hardened Exoskeleton",
+		"prerequisites": ["[T-Series] Unit"],
+		"uniques": ["[+50]% Strength <when defending>"]
+	},
+	{
+		"name": "Uncanny Appearance",
+		"prerequisites": ["[T-Series] Unit"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Network Synchronization",
+		"prerequisites": ["[T-Series] Unit"],
+		"uniques": ["[+50]% Strength decreasing with distance from the capital"]
+	},
+	{
+		"name": "Combat Analysis Module",
+		"prerequisites": ["[T-Series] Unit"],
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	
+	// Tame Xeno special promos, other than the usual xeno promos
+	{
+		"name": "[Tame Xeno] Unit",
+		"uniques": ["Gains access to special promotions available only to this unit"]
+	},
+	{
+		"name": "Human-Xeno Cooperation",
+		"prerequisites": ["[Tame Xeno] Unit"],
+		"uniques": ["[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>"]
+	},
+	{
+		"name": "Healing Goop",
+		"prerequisites": ["[Tame Xeno] Unit"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
 	}
 	
 ]
