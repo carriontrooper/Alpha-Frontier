@@ -1375,7 +1375,7 @@
 		"range": 3,
 		"strength": 52,
 		"rangedStrength": 52,
-		"cost": 275,
+		"cost": 375,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Composite Armor",
 		"uniques": [
@@ -2035,6 +2035,33 @@
 			}
 		]
 	},
+	
+	// Uniques
+	//// Infantry
+	{
+		"name": "Graviton Gunner",
+		"replaces": "Laser Trooper",
+		"uniqueTo": "Toma Heavy Industries",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 31,
+		"rangedStrength": 500,
+		"cost": 350,
+		"requiredTech": "Graviton Harnessing",
+		"uniques": [
+			"[+1] Sight",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Armed with an experimental Graviton Beam Gun, this unassuming handheld device can blast holes 7 km long. Suffice to say, beware of collateral damages."
+			}
+		]
+	},
+	
 
 	// Religious Units
 	{
