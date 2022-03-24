@@ -715,6 +715,19 @@
 			}
 		]
 	},
+	// Civ Uniques
+	{
+		"name": "Stout Ale", 
+		"gold": 2,
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{
+				"text": "Deep Rock Ganymede's special brew, it can trace its origins from plentiful miners' moonshine."
+			}
+		]
+	},
+	
+	// CS Uniques
 
 	// Strategic resources
 	{
