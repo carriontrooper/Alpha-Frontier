@@ -12,14 +12,14 @@
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
     },
     {
-        "name": "cryopods as well as an intact Colonizer,
+        "name": "cryopods as well as an intact Colonizer",
         "notification": "We have found a working [Colonizer]!",
         "uniques": ["Free [Colonizer] found in the ruins"],
         "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
     {
         "name": "your exploring unit receives training",
-        "notification": "Our [unitName] has gained experience from military logs recovered from the crash site!,
+        "notification": "Our [unitName] has gained experience from military logs recovered from the crash site!",
         "uniques": ["This Unit gains [10] XP", "Only available after [10] turns"]
     },
     {
