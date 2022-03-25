@@ -267,7 +267,7 @@
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
-			"Starts in regions of this type receive an extra [Sheep]",
+			"Starts in regions of this type receive an extra [Chitin]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
