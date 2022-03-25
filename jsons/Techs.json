@@ -576,13 +576,13 @@
 			},
 			{
 				"name": "N-Dimensional Exploration",
-				"row": 1,
+				"row": 4,
 				"quote": "'.' - ",
 				"prerequisites": ["Exotic Quantum Physics","Hyperwave Communications","Posthumanist Culture"]
 			},
 			{
 				"name": "Zero Point Energy",
-				"row": 1,
+				"row": 7,
 				"quote": "'.' - ",
 				"prerequisites": ["Exotic Quantum Physics","Lossless Matter Converter"]
 			},
