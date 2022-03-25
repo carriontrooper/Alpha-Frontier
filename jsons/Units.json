@@ -608,7 +608,7 @@
 		"rangedStrength": 22,
 		"range": 4,
 		"cost": 100,
-		"requiredTech": "Missile",
+		"requiredTech": "Missiles",
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
@@ -1372,8 +1372,8 @@
 		"strength": 52,
 		"rangedStrength": 52,
 		"cost": 375,
-		"requiredTech": "Next-Gen Armaments",
-		"requiredResource": "Composite Armor",
+		"requiredTech": "Metamaterials",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"[+150]% Strength <vs [Submarine] units>",
 			"[+150]% Strength <vs [Xeno Stealth Water] units>",
