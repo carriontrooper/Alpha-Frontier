@@ -1,6 +1,4 @@
 {
 	"isBaseRuleset": true,
-	"constants": ["maxXPfromBarbarians : 50"],
-	"modUrl": "https://github.com/carriontrooper/Alpha-Frontier",
-	"author": "Carriontrooper AKA Indonesian Gentleman"
+	"constants": {"maxXPfromBarbarians : 50"},
 }
