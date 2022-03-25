@@ -8,6 +8,8 @@
 
 	/* template: at least 20 city names
 	
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	
 	{
 		"name": "EmpireName",
 		"leaderName": "LeaderName",
@@ -52,10 +54,30 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
+		"outerColor": [50, 50, 50],
+		"innerColor": [252,219,3],
 		"cities": ["Sputnik Outpost"]
 	}
+	
+	// Cultured -> Cultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		
+	// Maritime -> Agricultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+	
+	// Mercantile -> Economic
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+	
+	// Militaristic
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		
+	// Religious
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
 	
 	*/
 
@@ -67,7 +89,7 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Scientific",
 
-		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries! Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
+		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries. Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
 		"startIntroPart2": "Kirii, your scientists and engineers are eager to uncover the secrets of the future on this new planet. Will you reach a new pinnacle of technological marvel? Can you build a colony that stands the test of time?",
 
 		"declaringWar": "We regretfully inform you that your nation is now subject to unrestricted field testing for our weaponry. Please provide at least a token amount of resistance to provide the necessary data.",
@@ -112,8 +134,227 @@
 			"Kozlov Station"
 		]
 	},
+	
+	{
+		"name": "Belta V Offworld Mining",
+		"leaderName": "Tycho Dawes",
+		"adjective": ["Belta"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Oye, Beltalowda Tycho Dawes, spokesperson of the Belta V Offworld Mining! Originally a small mining company based on Ceres in the Asteroid Belt, its integration into the local prison system has been a major success. Soon the company spread around the Asteroid Belt and beyond, taking in a majority of the Belter subculture into their workforce. As the mineral content of the Belt dwindles, rumors spread of a fresh new exoplanet to colonize - and soon the company commissioned their own colony ship with you, Tycho Dawes, as its warden.",
+		"startIntroPart2": "Tycho, the inmates under your watch require rehabilitation in the form of labor, and the planet provides a second life to many. Will you develop this penal colony into greatness? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Oye, sorry mate, but you got the ting I want. Hand 'em over.",
+		"attacked": "Hey, hey! No funny business! Eye for an eye!",
+		"defeated": "Aw, rats. Back to rock jumpin' then eh?",
+		"introduction": "Oye, this be Tycho Dawes, yap-man for Belta V. How's the gravity treatin' ya?",
+
+		"neutralHello": "Oye, what's cookin' ay?",
+		"hateHello": "Ach, it's the slaggart. Whatchu want?",
+
+		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
+
+		"outerColor": [128, 100, 55],
+		"innerColor": [255, 179, 0],
+		"favoredReligion": "Mormonism",
+		"uniqueName": "Belta Penal Code",
+		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
+		"cities": [
+			"Canterbury",
+			"Rocinante",
+			"Barbapiccola",
+			"Bhikaji Cama",
+			"Derecho",
+			"Dagon Meggido",
+			"Guy Molinari",
+			"Highland Swing",
+			"Lauber Camp",
+			"Gatamang Feronte",
+			"Savage Landing",
+			"Malaclypse",
+			"Mosley Camp",
+			"John Galt's Folly",
+			"Torngarsuk",
+			"Nokota Sioux",
+			"Neve Avivim",
+			"Tucumcari",
+			"Vanderpoele",
+			"Whiteoak"
+		]
+	},
+	{
+		"name": "Deep Rock Ganymede",
+		"leaderName": "Karl McUrist",
+		"adjective": ["Deep Rock"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "May you forever Rock and Stone, Karl McUrist, CEO of Deep Rock Ganymede! Ever since you've struck it rich as a hazardous miner in Ganymede, you've built your own corporation from the ground up. Your company's key to success is specializing in high-hazard high-pay employment to mine the rarest resources, going farther and deeper than any of your competitor ever dreamed of. Now, as unrest grips the Jovian moons, you turn your eye towards the new exoplanet, and built your own colony ship.",
+		"startIntroPart2": "Karl, your miners hunger for more minerals and riches, abundant on this planet. Will you lead them to better profit margins? Can you make a colony that stands the test of time?",
+
+		"declaringWar": "Something about you makes me want to punch your face in. Brace yourself, I'm going there personally!",
+		"attacked": "Oho? Fancying a fight now, you intergalactic goat?",
+		"defeated": "Ohh, this'll go in the Log of Grudges, aye.",
+		"introduction": "Hello there! I'm Karl McUrist, CEO of this here Deep Rock Ganymede corporation. Nice to meet you!",
+
+		"neutralHello": "Aye, hello there!",
+		"hateHello": "What is it, you oaf?",
+
+		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
+
+		"outerColor": [217, 56, 7],
+		"innerColor": [255, 218, 31],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Rock and Stone to the Bone",
+		"uniques": ["[+20%]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
+		"cities": [
+			"Koganusan",
+			"Corroded Grotto",
+			"Leaf Lover's Crypt",
+			"Solitary Expanse",
+			"Rancid Fissure",
+			"Deadman's Wreck",
+			"Purified Inferno",
+			"Karl's Drift",
+			"Mammoth Catacomb",
+			"Madmen's Doom",
+			"Blunt Hammer",
+			"Scout's Ledge",
+			"Forsaken Hand",
+			"Frozen Belly",
+			"Dastardly Agony",
+			"Brutal Echo",
+			"Noble Core",
+			"Driller's Drop",
+			"Shallow Fangs",
+			"Dry Gap"
+		]
+	},
+	{
+		"name": "Walpole-Yuen Inc.",
+		"leaderName": "Paula Walpole",
+		"adjective": ["W-Y"],
+		//"startBias": ["Tundra"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Greetings upon you, Paula Walpole, CEO of the Walpole-Yuen Inc. megacorporation. What began as a merger between Walpole Trading Company and Yuen Solutions turned into a lucrative conglomeration of companies, profiting more and more with each acquisition. Right before the Great Economic Collapse, Walpole-Yuen had invested much into a colony ship - one it uses to seek new worlds to colonize and exploit. Accompanied by colonists eager for profits, you, Paula Walpole, had landed on this exoplanet.",
+		"startIntroPart2": "Paula, your employees thirst for profit and new, alien resources. Will you create a better global economic model here? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Don't think of it as a war, think of it as... a hostile takeover.",
+		"attacked": "If you dare attack us, then you wouldn't mind us pushing back, yes?",
+		"defeated": "Nooo, my profits! My glorious profits!",
+		"introduction": "Welcome to Walpole-Yuen Incorporated. I am Paula Walpole, CEO. Walpole-Yuen, 'Making Better Worlds'.",
+
+		"neutralHello": "Walpole-Yuen Incorporated, Paula speaking.",
+		"hateHello": "Walpole-Yuen Inco- tch, it's you.",
+
+		"tradeRequest": "We would like to open up a trade opportunity with you.",
+
+		"outerColor": [77, 77, 77],
+		"innerColor": [245, 184, 0],
+		"favoredReligion": "Neo-Monolith",
+		"uniqueName": "Building Better Worlds",
+		"uniques": ["Retain [20]% of the happiness from a luxury after the last copy has been traded away","[+1] Sight <for [All] units>"],
+		"cities": [
+			"Hadley's Hope",
+			"Charybdis",
+			"Oryza",
+			"Plymouth",
+			"Rigel Five",
+			"Ryushi",
+			"Bracken's Claim",
+			"Gimeno",
+			"Lucien",
+			"Felicity",
+			"Dazbog",
+			"Ataegina",
+			"Kauffmann",
+			"Fiorina",
+			"Sargon Four",
+			"Salazar Seven",
+			"Rosamond Six",
+			"Pylos",
+			"Prometheus",
+			"Charon Thirteen"
+		]
+	},
+	{
+		"name": "Somatek Biomedical",
+		"leaderName": "Aparajita Devi",
+		"adjective": ["Somatek"],
+		"startBias": ["Mycelium"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Namaste, Director Aparajita Devi of Somatek Biomedical. Your company successfully rose from a simple pharmaceutical company in old Earth's India, treating the poor and rich alike. You've stumbled upon a major breakthrough when you revived the Soma plant back from extinction, which proved to have major health benefits. As the Earth's conditions worsen and more and more pandemics occur, your company have gathered enough capital to save as much people as you can off the Earth. When time came, you, Aparajita Devi, emerged into a new paradise, along with the people you pledged to save.",
+		"startIntroPart2": "Devi, your people seek to create a healthier new home in this planet. Will you thrive in this new environment? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Your nation is like a sickness on this world. Thus, we are conducting emergency invasive surgery. This will be painless.",
+		"attacked": "Please be advised that we have reserved the right to self-defense.",
+		"defeated": "We have failed the fight against entropy. Thus we return once more into the great void.",
+		"introduction": "Welcome, welcome! Somatek Biomedical is here to help. I am Aparajita Devi, the director of this company.",
+
+		"neutralHello": "Good morning! How can I help you?",
+		"hateHello": "Oh, I do not need this right now. How may I help you?",
+
+		"tradeRequest": "We think these will aid both of us.",
+
+		"outerColor": [182, 143, 255],
+		"innerColor": [35, 219, 115],
+		"favoredReligion": "Astral Pantheon",
+		"uniqueName": "Somatic Element",
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[20] HP when healing <for [Wounded] units>"],
+		"cities": [
+			"Magnasanti",
+			"Mandira",
+			"Asraya",
+			"Aswarganj",
+			"Pranapura",
+			"Bhagavan",
+			"Vasanta",
+			"Parvati",
+			"Satya Pradesh",
+			"Neo Jaipur",
+			"New Varanasi",
+			"Indoresvara",
+			"Patnapuram",
+			"Malgudi",
+			"Lolpur",
+			"Rayyan",
+			"Kalikottarapura",
+			"Kalana Ganj",
+			"Viranastra",
+			"New Tamilpur"
+		]
+	},
 
 	// Outposts
+	{
+		"name": "Neo-Hedonist Enclave",
+		"adjective": ["Neo-Hedonist"],
+		"cityStateType": "Cultured",
+		"startBias": ["Prairie"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Neo-Hedonist Enclave"]
+	}
+	{
+		"name": "Demeter Commune",
+		"adjective": ["Demeter"],
+		"cityStateType": "Cultured",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Demeter Commune"]
+	}
 	{
 		"name": "Sputnik Outpost",
 		"adjective": ["Sputnikian"],
@@ -123,9 +364,35 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 0],
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
 		"cities": ["Sputnik Outpost"]
+	},
+	{
+		"name": "Eglon Base",
+		"adjective": ["Eglon"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Eglon Base"]
+	},
+	{
+		"name": "Yahiro-Dono Sanctuary",
+		"adjective": ["Yahiro-Dono"],
+		"cityStateType": "Religious",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Yahiro-Dono Sanctuary"]
 	},
 
 	// Barbarian
