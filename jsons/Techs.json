@@ -127,7 +127,10 @@
 				"row": 1,
 				"quote": "'Over here as it was over there, the same stars shine down on us. Well, you get the gist of it.' - Pavel Samurov, explorer",
 				"prerequisites": ["Hydrodynamics"],
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"]
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"Enables [Embarked] units to enter ocean tiles"
+				]
 			},
 			{
 				"name": "Xeno-Grafting",
@@ -146,7 +149,9 @@
 				"row": 4,
 				"quote": "'I ain't saying these are plastics because there's just so much of them strewn all over in old Earth... but these, these are plastics. Maybe even rubber!' - Ismara Yanuar, chemist",
 				"prerequisites": ["Xenochemistry"],
-				"uniques": ["[+20]% Strength <for [All] units> <when defending>"]
+				"uniques": [
+					"[+20]% Strength <for [All] units> <when defending>"
+				]
 			},
 			{
 				"name": "Research Networks",
@@ -192,14 +197,17 @@
 				"name": "Offworld Industries",
 				"row": 4,
 				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
-				"prerequisites": ["Xeno-Grafting","Xenochemistry"],
+				"prerequisites": ["Xeno-Grafting", "Xenochemistry"],
 				"uniques": ["Enables conversion of city production to gold"]
 			},
 			{
 				"name": "Hab-Domes",
 				"row": 6,
 				"quote": "'Now these are what I'm talking about! No more bumping your shins on room dividers! No more stale friggin' recycled air! We have DOMES!' - Truong Vanth Ngo, environmental engineer",
-				"prerequisites": ["Pioneer Administration","Portable Power Sources"]
+				"prerequisites": [
+					"Pioneer Administration",
+					"Portable Power Sources"
+				]
 			},
 			{
 				"name": "Stable Fission Power",
@@ -211,7 +219,7 @@
 				"name": "Missiles",
 				"row": 10,
 				"quote": "'You should aspire to be like the humble missile. The missile always knows where it's at.' - General Daejung Kwan",
-				"prerequisites": ["Aerial Drones","Military Ballistics"]
+				"prerequisites": ["Aerial Drones", "Military Ballistics"]
 			}
 		]
 	},
@@ -228,7 +236,10 @@
 				"row": 1,
 				"quote": "'.' - ",
 				"prerequisites": ["Payload Delivery"],
-				"uniques": ["Improves movement speed on roads","[+1] Movement <for [Embarked] units>"]
+				"uniques": [
+					"Improves movement speed on roads",
+					"[+1] Movement <for [Embarked] units>"
+				]
 			},
 			{
 				"name": "Crust Fracking",
@@ -246,7 +257,7 @@
 				"name": "Colony Administration",
 				"row": 6,
 				"quote": "'I wouldn't know what to do if we haven't installed more bandwidth and more servers. It would be a bureaucratic hell, signed in triplicate.' - Yuen Xin Tiao, senior administrator",
-				"prerequisites": ["Hab-Domes","Research Networks"]
+				"prerequisites": ["Hab-Domes", "Research Networks"]
 			},
 			{
 				"name": "Strike Drones",
@@ -260,7 +271,6 @@
 				"quote": "'.' - ",
 				"prerequisites": ["Military Ballistics"]
 			}
-			
 		]
 	},
 	{
@@ -280,31 +290,31 @@
 				"name": "Cryptocurrency",
 				"row": 5,
 				"quote": "'.' - ",
-				"prerequisites": ["Info Networks","Colony Administration"]
+				"prerequisites": ["Info Networks", "Colony Administration"]
 			},
 			{
 				"name": "Colonial Culture",
 				"row": 6,
 				"quote": "'Aye, you can rickroll, but can ye ken to thole a loonerin'?' - Anonymous on ColonyChan",
-				"prerequisites": ["Info Networks","Colony Administration"]
+				"prerequisites": ["Info Networks", "Colony Administration"]
 			},
 			{
 				"name": "Lasers",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments","Satellite Networks"]
+				"prerequisites": ["Next-Gen Armaments", "Satellite Networks"]
 			},
 			{
 				"name": "Mecha Prototypes",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments","Stable Fission Power"]
+				"prerequisites": ["Next-Gen Armaments", "Stable Fission Power"]
 			},
 			{
 				"name": "Composite Armor",
 				"row": 9,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments","Synthetic Materials"]
+				"prerequisites": ["Next-Gen Armaments", "Synthetic Materials"]
 			},
 			{
 				"name": "Exoskeletons",
@@ -312,7 +322,6 @@
 				"quote": "'.' - ",
 				"prerequisites": ["Next-Gen Armaments"]
 			}
-			
 		]
 	},
 	// Halcyon Era
@@ -339,7 +348,7 @@
 				"name": "Metaverse",
 				"row": 5,
 				"quote": "'.' - ",
-				"prerequisites": ["Cryptocurrency","Colonial Culture"]
+				"prerequisites": ["Cryptocurrency", "Colonial Culture"]
 			},
 			{
 				"name": "Net Culture",
@@ -359,7 +368,6 @@
 				"quote": "'.' - ",
 				"prerequisites": ["Next-Gen Armaments"]
 			}
-			
 		]
 	},
 	{
@@ -386,13 +394,13 @@
 				"name": "Xenoarcheology",
 				"row": 6,
 				"quote": "'.' - ",
-				"prerequisites": ["Satellite Networks","Net Culture"]
+				"prerequisites": ["Satellite Networks", "Net Culture"]
 			},
 			{
 				"name": "Virtual Drugs",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Cybernetics","Net Culture"]
+				"prerequisites": ["Cybernetics", "Net Culture"]
 			},
 			{
 				"name": "Fusion Power",
@@ -406,7 +414,6 @@
 				"quote": "'.' - ",
 				"prerequisites": ["Cybernetics"]
 			}
-			
 		]
 	},
 	// Realization Era
@@ -445,15 +452,14 @@
 				"name": "Terraforming",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Crust Fracking","Xenoarcheology"]
+				"prerequisites": ["Crust Fracking", "Xenoarcheology"]
 			},
 			{
 				"name": "Cyberbrains",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Mind-Machine Interface","Virtual Drugs"]
+				"prerequisites": ["Mind-Machine Interface", "Virtual Drugs"]
 			}
-			
 		]
 	},
 	{
@@ -479,19 +485,19 @@
 				"name": "Stasis Fields",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Fusion Power","Metamaterials"]
+				"prerequisites": ["Fusion Power", "Metamaterials"]
 			},
 			{
 				"name": "Antimatter Harnessing",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Fusion Power","Quantum Theory"]
+				"prerequisites": ["Fusion Power", "Quantum Theory"]
 			},
 			{
 				"name": "Mind Linking",
 				"row": 9,
 				"quote": "'.' - ",
-				"prerequisites": ["Cyberbrains","Xeno Psychology"]
+				"prerequisites": ["Cyberbrains", "Xeno Psychology"]
 			},
 			{
 				"name": "Nerve Stapling",
@@ -499,7 +505,6 @@
 				"quote": "'.' - ",
 				"prerequisites": ["Cyberbrains"]
 			}
-			
 		]
 	},
 	// Transcenddental Era
@@ -514,13 +519,13 @@
 				"name": "Hyperwave Communications",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Artificial Intelligence","Nanotechnology"]
+				"prerequisites": ["Artificial Intelligence", "Nanotechnology"]
 			},
 			{
 				"name": "Solar Reflectors",
 				"row": 2,
 				"quote": "'.' - ",
-				"prerequisites": ["Stasis Fields","Nanotechnology"]
+				"prerequisites": ["Stasis Fields", "Nanotechnology"]
 			},
 			{
 				"name": "Designer Lifeforms",
@@ -538,7 +543,7 @@
 				"name": "Lossless Matter Conversion",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Stasis Fields","Antimatter Harnessing"]
+				"prerequisites": ["Stasis Fields", "Antimatter Harnessing"]
 			},
 			{
 				"name": "Posthumanist Culture",
@@ -550,9 +555,8 @@
 				"name": "Psionics",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Mind Linking","Nerve Stapling"]
+				"prerequisites": ["Mind Linking", "Nerve Stapling"]
 			}
-			
 		]
 	},
 	{
@@ -578,27 +582,40 @@
 				"name": "N-Dimensional Exploration",
 				"row": 4,
 				"quote": "'.' - ",
-				"prerequisites": ["Exotic Quantum Physics","Hyperwave Communications","Posthumanist Culture"]
+				"prerequisites": [
+					"Exotic Quantum Physics",
+					"Hyperwave Communications",
+					"Posthumanist Culture"
+				]
 			},
 			{
 				"name": "Zero Point Energy",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Exotic Quantum Physics","Lossless Matter Conversion"]
+				"prerequisites": [
+					"Exotic Quantum Physics",
+					"Lossless Matter Conversion"
+				]
 			},
 			{
 				"name": "Graviton Harnessing",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Exotic Quantum Physics","Antimatter Harnessing"]
+				"prerequisites": [
+					"Exotic Quantum Physics",
+					"Antimatter Harnessing"
+				]
 			},
 			{
 				"name": "Hive Mind",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Psionics","Hyperwave Communications","Posthumanist Culture"]
+				"prerequisites": [
+					"Psionics",
+					"Hyperwave Communications",
+					"Posthumanist Culture"
+				]
 			}
-			
 		]
 	},
 	// Singularity Era
@@ -613,10 +630,19 @@
 				"name": "Singularity Tech",
 				"row": 6,
 				"quote": "'.' - ",
-				"prerequisites": ["FTL Travel","Advanced Biotech","N-Dimensional Exploration","Zero Point Energy","Graviton Harnessing","Hive Mind"],
-				"uniques": ["Sometimes the end is not the end.", "Can be continually researched"]
+				"prerequisites": [
+					"FTL Travel",
+					"Advanced Biotech",
+					"N-Dimensional Exploration",
+					"Zero Point Energy",
+					"Graviton Harnessing",
+					"Hive Mind"
+				],
+				"uniques": [
+					"Sometimes the end is not the end.",
+					"Can be continually researched"
+				]
 			}
-			
 		]
 	}
 ]

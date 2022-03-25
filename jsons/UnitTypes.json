@@ -29,7 +29,7 @@
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles"]
 	},
-	
+
 	{
 		"name": "Infantry", //melee people
 		"movementType": "Land"
@@ -104,7 +104,12 @@
 	{
 		"name": "Satellite",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles","Cannot be carried by [Carrier] units"]
+		"uniques": [
+			"Aircraft",
+			"[+4] Sight",
+			"Can see over obstacles",
+			"Cannot be carried by [Carrier] units"
+		]
 	},
 	/*
 	{
@@ -126,7 +131,7 @@
 	{
 		"name": "Helicopter",
 		"movementType": "Land",
-		"uniques": ["Air","Can pass through impassable tiles"]
+		"uniques": ["Air", "Can pass through impassable tiles"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work

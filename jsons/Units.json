@@ -14,13 +14,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 20,
-		"uniques": [
-			"Xeno",
-			"[-33]% Strength <vs cities>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -35,13 +30,8 @@
 		"movement": 2,
 		"strength": 7,
 		"cost": 40,
-		"uniques": [
-			"Xeno",
-			"[+33]% Strength <vs [Armored] units>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -61,9 +51,7 @@
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -90,7 +78,7 @@
 			}
 		]
 	},
-	
+
 	// Stealth Infantry
 	{
 		"name": "Wendigo",
@@ -99,13 +87,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 50,
-		"uniques": [
-			"Xeno",
-			"[-33]% Strength <vs cities>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -113,7 +96,7 @@
 			}
 		]
 	},
-	
+
 	// Ranged
 	{
 		"name": "Echidna",
@@ -124,13 +107,8 @@
 		"strength": 5,
 		"rangedStrength": 6,
 		"cost": 20,
-		"uniques": [
-			"Xeno",
-			"[-33]% Strength <vs cities>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -159,7 +137,7 @@
 			}
 		]
 	},
-	
+
 	// Water Melee
 	{
 		"name": "Gun Lobster",
@@ -168,13 +146,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 20,
-		"uniques": [
-			"Xeno",
-			"[-33]% Strength <vs cities>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -182,7 +155,7 @@
 			}
 		]
 	},
-	
+
 	// Water Stealth
 	{
 		"name": "Lurker",
@@ -191,13 +164,8 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
-		"uniques": [
-			"Xeno",
-			"[-33]% Strength <vs cities>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -205,7 +173,7 @@
 			}
 		]
 	},
-	
+
 	// Air (but not aircraft)
 	{
 		"name": "Darter",
@@ -219,9 +187,7 @@
 			"[5]% chance to intercept air attacks",
 			"[-66]% Strength <vs cities>"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -241,9 +207,7 @@
 			"[10]% chance to intercept air attacks",
 			"[-33]% Strength <vs cities>"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -263,9 +227,7 @@
 			"[90]% chance to intercept air attacks",
 			"[+33]% Strength <vs cities>"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -516,7 +478,7 @@
 			}
 		]
 	},
-	
+
 	//// Hydrofoil
 	{
 		"name": "Assault Hydrofoil",
@@ -598,7 +560,7 @@
 			}
 		]
 	},
-	
+
 	//// Missiles
 	{
 		"name": "Short-Range Missile",
@@ -969,7 +931,11 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon." }]
+		"civilopediaText": [
+			{
+				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+			}
+		]
 	},
 	{
 		"name": "Laser Tank",
@@ -994,7 +960,11 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well." }]
+		"civilopediaText": [
+			{
+				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
+			}
+		]
 	},
 
 	//// Artillery
@@ -1055,7 +1025,7 @@
 			}
 		]
 	},
-	
+
 	//// Aerial Units
 	{
 		"name": "Beam Fighter",
@@ -1114,7 +1084,7 @@
 			}
 		]
 	},
-	
+
 	//// Missiles
 	{
 		"name": "Cruise Missile",
@@ -1182,7 +1152,10 @@
 		"requiredTech": "Cybernetics",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Never appears as a Barbarian unit"],
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -1248,7 +1221,7 @@
 			}
 		]
 	},
-	
+
 	//// Aerial Units
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
@@ -1281,7 +1254,7 @@
 			}
 		]
 	},
-	
+
 	//// Missiles
 	{
 		"name": "Nuclear ICBM",
@@ -1362,7 +1335,7 @@
 			}
 		]
 	},
-	
+
 	//// Submarine
 	{
 		"name": "Phantom Submersible",
@@ -1391,8 +1364,7 @@
 	},
 
 	// Transcedental Era
-	
-	
+
 	// Mercenary Units
 	//// Scout
 	{
@@ -1409,7 +1381,7 @@
 			"Rover",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -1417,7 +1389,7 @@
 			}
 		]
 	},
-	
+
 	//// Infantry
 	{
 		"name": "Boondock Posse (Frontier Militia)",
@@ -1435,7 +1407,9 @@
 		"promotions": ["Mercenary Pay"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "Rumors of them being better shots when drunk still remain inconclusive." }
+			{
+				"text": "Rumors of them being better shots when drunk still remain inconclusive."
+			}
 		]
 	},
 	{
@@ -1479,7 +1453,9 @@
 		"promotions": ["Mercenary Pay"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "Has a reputation of only accepting payment once they've completed their contract." }
+			{
+				"text": "Has a reputation of only accepting payment once they've completed their contract."
+			}
 		]
 	},
 	{
@@ -1597,7 +1573,7 @@
 			}
 		]
 	},
-	
+
 	//// Buggies
 	{
 		"name": "Dune Raiders (Light Buggy)",
@@ -1654,7 +1630,7 @@
 			}
 		]
 	},
-	
+
 	//// Hydrofoils
 	{
 		"name": "Cutty Sharks (Light Hydrofoil)",
@@ -1703,7 +1679,7 @@
 			}
 		]
 	},
-	
+
 	//// Hovercrafts
 	{
 		"name": "Fierce Eels (Hovercraft)",
@@ -1725,7 +1701,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost", "Amphibious"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -1734,7 +1710,7 @@
 			}
 		]
 	},
-	
+
 	//// Aerial Units
 	{
 		"name": "Razgriz Wing (Aerojet)",
@@ -1768,7 +1744,7 @@
 			}
 		]
 	},
-	
+
 	//// Water Units
 	{
 		"name": "Tidehunters (Corvette)",
@@ -1794,7 +1770,7 @@
 			}
 		]
 	},
-	
+
 	//// Submarine
 	{
 		"name": "Nemo's Pack (Submersible)",
@@ -1825,7 +1801,7 @@
 			}
 		]
 	},
-	
+
 	//// Armored
 	{
 		"name": "Floating Furies (Hovertank)",
@@ -1848,10 +1824,14 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost", "Amphibious"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "Never, ever disparage their hovertanks. Very short fuses." }]
+		"civilopediaText": [
+			{
+				"text": "Never, ever disparage their hovertanks. Very short fuses."
+			}
+		]
 	},
 	{
 		"name": "Steel Legion Detachment (Colonial Armor)",
@@ -1875,7 +1855,11 @@
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "Known for their bravery under fire, and always upholding their contracts." }]
+		"civilopediaText": [
+			{
+				"text": "Known for their bravery under fire, and always upholding their contracts."
+			}
+		]
 	},
 	{
 		"name": "PrismTech Field Testers (Laser Tank)",
@@ -1903,7 +1887,11 @@
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
-		"civilopediaText": [{ "text": "Despite being a tech start-up's field testing team, they've gained a reputation of being efficient on the battlefield." }]
+		"civilopediaText": [
+			{
+				"text": "Despite being a tech start-up's field testing team, they've gained a reputation of being efficient on the battlefield."
+			}
+		]
 	},
 
 	//// Artillery
@@ -1929,7 +1917,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Indirect Fire"],
+		"promotions": ["Mercenary Pay", "Indirect Fire"],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
@@ -1960,7 +1948,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -1989,7 +1977,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -2022,7 +2010,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Ignore terrain cost", "Indirect Fire"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -2031,7 +2019,7 @@
 			}
 		]
 	},
-	
+
 	// Uniques
 	//// Infantry
 	{
@@ -2073,7 +2061,9 @@
 		"promotions": ["Penal Training"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "Basically just a convict in an atmo-suit and a gun, they spend their life sentence building colonial infrastructure." }
+			{
+				"text": "Basically just a convict in an atmo-suit and a gun, they spend their life sentence building colonial infrastructure."
+			}
 		]
 	},
 	{
@@ -2090,7 +2080,7 @@
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Delver Training","Bug Hunter"],
+		"promotions": ["Delver Training", "Bug Hunter"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2112,7 +2102,7 @@
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Colonial Marine] Unit","Bug Hunter"],
+		"promotions": ["[Colonial Marine] Unit", "Bug Hunter"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2130,9 +2120,7 @@
 		"cost": 125,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Titanium",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["[T-Series] Unit"],
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -2150,7 +2138,7 @@
 		"strength": 34,
 		"cost": 350,
 		"requiredTech": "Metamaterials",
-		"uniques": ["GHOST Hack","Never appears as a Barbarian unit"],
+		"uniques": ["GHOST Hack", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2180,7 +2168,7 @@
 			}
 		]
 	},
-	
+
 	//// Hydrofoil
 	{
 		"name": "Seadog",
@@ -2205,7 +2193,7 @@
 			}
 		]
 	},
-	
+
 	//// Drone
 	{
 		"name": "Vulture Combat Drone",
@@ -2236,7 +2224,7 @@
 			}
 		]
 	},
-	
+
 	//// Aerocraft
 	{
 		"name": "Aero-Striker",
@@ -2270,7 +2258,7 @@
 			}
 		]
 	},
-	
+
 	//// Mechs
 	{
 		"name": "War Casket",
@@ -2348,7 +2336,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blitz","Jaeger Manufacturing","Ignore terrain cost"],
+		"promotions": ["Blitz", "Jaeger Manufacturing", "Ignore terrain cost"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -2357,7 +2345,7 @@
 			}
 		]
 	},
-	
+
 	//// Great Person
 	{
 		"name": "Great Nomad",
@@ -2387,7 +2375,7 @@
 			}
 		]
 	},
-	
+
 	//// Tame Xenos
 	{
 		"name": "Tame Bugwolf",
@@ -2403,9 +2391,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -2427,9 +2413,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -2453,9 +2437,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2477,9 +2459,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2502,9 +2482,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -2527,9 +2505,7 @@
 			"Only available <in cities with a [Xenoid Barracks]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -2584,13 +2560,12 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 30,
-		"uniques": [
-			"Unbuildable",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Unbuildable", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 		"civilopediaText": [
-			{ "text": "What makes them dangerous isn't their weaponry, but their fanaticism." }
+			{
+				"text": "What makes them dangerous isn't their weaponry, but their fanaticism."
+			}
 		]
 	},
 	{
@@ -2607,7 +2582,9 @@
 		],
 		"attackSound": "nuke", //change to explosion
 		"civilopediaText": [
-			{ "text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them." }
+			{
+				"text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them."
+			}
 		]
 	},
 
@@ -2723,7 +2700,7 @@
 			}
 		]
 	},
-	
+
 	// FTL Seedship Parts
 	{
 		"name": "Hyperspace Core",
@@ -2732,7 +2709,14 @@
 		"cost": 750,
 		"requiredTech": "FTL Travel",
 		"requiredResource": "Gravitix",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [3] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2747,7 +2731,14 @@
 		"cost": 750,
 		"requiredTech": "Hyperwave Communications",
 		"requiredResource": "Yairmite",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2762,7 +2753,14 @@
 		"cost": 750,
 		"requiredTech": "Graviton Harnessing",
 		"requiredResource": "Antimatter",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2777,7 +2775,14 @@
 		"cost": 750,
 		"requiredTech": "Zero Point Energy",
 		"requiredResource": "Ulframite",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2792,7 +2797,14 @@
 		"cost": 750,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Vitamass",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2807,7 +2819,14 @@
 		"cost": 750,
 		"requiredTech": "Stasis Fields",
 		"requiredResource": "Yairmite",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [FTL Seedship Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [2] per Civilization"],
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [2] per Civilization"
+		],
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
@@ -2815,5 +2834,4 @@
 			}
 		]
 	}
-	
 ]

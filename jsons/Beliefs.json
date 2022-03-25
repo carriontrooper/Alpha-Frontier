@@ -1,365 +1,436 @@
 [
-    {
-        "name": "Reverence of the Past",
-        "type": "Pantheon", //rename to Superstition
-        "uniques": ["[+1 Culture] from every [Memorial]"]
-    },
-    {
-        "name": "Aurora Fascination",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
-    },
-    {
-        "name": "Desert Folklore",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
-    },
+	// Pantheon
 	{
-        "name": "Fungal Visions",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Mycelium]"]
-    },
+		"name": "Reverence of the Past",
+		"type": "Pantheon", //rename to Superstition
+		"uniques": ["[+1 Culture] from every [Memorial]"]
+	},
 	{
-        "name": "Miasma Dreams",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Miasma]"]
-    },
-    {
-        "name": "Homeopathy",
-        "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
-    },
-    {
-        "name": "Fertility Charms",
-        "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"] 
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation 
-    },
-    {
-        "name": "Work Ethos",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] in cities with at least [3] [Population]"]
-    },
-    {
-        "name": "Xeno Observation",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Enclosure]"]
-    },
-    {
-        "name": "Seafarers' Superstition",
-        "type": "Pantheon",
-        "uniques": [
+		"name": "Aurora Fascination",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"
+		]
+	},
+	{
+		"name": "Desert Folklore",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Desert]"]
+	},
+	{
+		"name": "Fungal Visions",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Mycelium]"]
+	},
+	{
+		"name": "Miasma Dreams",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Miasma]"]
+	},
+	{
+		"name": "Homeopathy",
+		"type": "Pantheon",
+		"uniques": [
+			"[All] Units adjacent to this city heal [+30] HP per turn when healing"
+		]
+		// TODO: This should be worded better
+	},
+	{
+		"name": "Fertility Charms",
+		"type": "Pantheon",
+		"uniques": ["[+10]% growth [in this city]"]
+		// Preferably I would not have a cityFilter here,
+		// but doing so requires no additional implementation
+	},
+	{
+		"name": "Work Ethos",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production] in cities with at least [3] [Population]"]
+	},
+	{
+		"name": "Xeno Observation",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Enclosure]"]
+	},
+	{
+		"name": "Seafarers' Superstition",
+		"type": "Pantheon",
+		"uniques": [
 			"[+1 Production] from every [Offshore Platform]",
 			"[+1 Production] from every [Aquaculture]",
 			"[+1 Production] from every [Derrick] <in [Water] tiles>"
 		]
-    },
-    {
-        "name": "Machoistic Mindset",
-        "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
-    },
-    {
-        "name": "Drug Culture",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Stimulants]", "[+1 Culture, +1 Faith] from every [Hydromielin]", "[+1 Culture, +1 Faith] from every [Flowers of Silence]"]
-    },
-    {
-        "name": "Sanctity of Marriage",
-        "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities with at least [6] [Population]"]
-    },
-    {
-        "name": "Defend the Motherland",
-        "type": "Pantheon",
-        "uniques": ["[+30]% attacking Strength for cities"]
-    },
-    {
-        "name": "Food Preparations",
-        "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Enclosure]"]
-    },
-    {
-        "name": "Credo of the Mailmen",
-        "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
-    },
-    {
-        "name": "Monumentalist Ideal",
-        "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
-        // For that we really should need an era.matchesFilter(), so we could write something like:
-        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
-        // For now this feels like overkill, but I'll leave this here for the future
-
-        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
-    },
-    {
-        "name": "Wonders of the New Planet",
-        "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
-    },
-    {
-        "name": "Old Earth Greenery",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Terraboretum]"]
-    },
-    {
-        "name": "Respect the Bling",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Benthic Orbs]"]
-    },
-    {
-        "name": "Manifest Destiny",
-        "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
-    },
-    {
-        "name": "Sacred Path",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]"]
-    },
-    {
-        "name": "Sacred Waters",
-        "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
-    },
-    {
-        "name": "Rock and Stone to the Bone",
-        "type": "Pantheon",
-        "uniques": [
+	},
+	{
+		"name": "Machoistic Mindset",
+		"type": "Pantheon",
+		"uniques": [
+			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+		]
+	},
+	{
+		"name": "Drug Culture",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Stimulants]",
+			"[+1 Culture, +1 Faith] from every [Hydromielin]",
+			"[+1 Culture, +1 Faith] from every [Flowers of Silence]"
+		]
+	},
+	{
+		"name": "Sanctity of Marriage",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] in cities with at least [6] [Population]"]
+	},
+	{
+		"name": "Defend the Motherland",
+		"type": "Pantheon",
+		"uniques": ["[+30]% attacking Strength for cities"]
+	},
+	{
+		"name": "Food Preparations",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food] from every [Enclosure]"]
+	},
+	{
+		"name": "Credo of the Mailmen",
+		"type": "Pantheon",
+		"uniques": ["[+2 Science] from each Trade Route"]
+	},
+	{
+		"name": "Monumentalist Ideal",
+		"type": "Pantheon",
+		"uniques": [
+			"[+15]% Production when constructing [All] wonders [in cities following this religion]"
+		]
+		/*
+		ToDo: Should only be early era wonders, so we could write something like:
+		"uniques": [
+			"[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+			"[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"
+		]
+		Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
+		*/
+	},
+	{
+		"name": "Wonders of the New Planet",
+		"type": "Pantheon",
+		"uniques": ["[+4 Faith] from every [Natural Wonder]"]
+	},
+	{
+		"name": "Old Earth Greenery",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Terraboretum]"]
+	},
+	{
+		"name": "Respect the Bling",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Gold Ore]",
+			"[+1 Culture, +1 Faith] from every [Benthic Orbs]"
+		]
+	},
+	{
+		"name": "Manifest Destiny",
+		"type": "Pantheon",
+		"uniques": [
+			"[-15]% Culture cost of natural border growth [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Sacred Path",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Jungle]"]
+	},
+	{
+		"name": "Sacred Waters",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] in cities on [River] tiles"]
+	},
+	{
+		"name": "Rock and Stone to the Bone",
+		"type": "Pantheon",
+		"uniques": [
 			"[+2 Faith] from every [Quarry]",
 			"[+1 Faith] from every [Mine]"
 		]
-    },
+	},
 	{
-        "name": "Order in Bureaucracy",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Bureaucratic Office]"]
-    },
+		"name": "Order in Bureaucracy",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Bureaucratic Office]"]
+	},
 	{
-        "name": "Faith in Science",
-        "type": "Pantheon",
-        "uniques": [
+		"name": "Faith in Science",
+		"type": "Pantheon",
+		"uniques": [
 			"[+1 Faith] from every [Field Lab]",
 			"[+1 Faith] from every [Research Laboratory]"
 		]
-    },
+	},
 	{
-        "name": "Ode to the Spacefarer",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Orbital Launch Facility]"]
-    },
+		"name": "Ode to the Spacefarer",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Orbital Launch Facility]"]
+	},
 	{
-        "name": "Ancient Alien Theory",
-        "type": "Pantheon",
-        "uniques": [
+		"name": "Ancient Alien Theory",
+		"type": "Pantheon",
+		"uniques": [
 			"[+2 Faith] from every [Artifact]",
 			"[+10 Faith] from every [Aurigan Vault Complex]",
 			"[+10 Faith] from every [Harborship Wreck]"
 		]
-    },
+	},
 	{
-        "name": "Soldiers of Fortune",
-        "type": "Pantheon",
-        "uniques": [
-//			"May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
+		"name": "Soldiers of Fortune",
+		"type": "Pantheon",
+		"uniques": [
+			// "May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
+			// "[10]% Strength <for units with [Mercenary Pay] promotion> <when at war>",
 			"[+1 Faith] from every [Mercenary Offices] <in cities where this religion has at least [3] followers>"
-//			"[10]% Strength <for units with [Mercenary Pay] promotion> <when at war>"
 		]
-    },
-///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
-    {
-        "name": "Memorialists",
-        "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Memorial] <in cities where this religion has at least [3] followers>"]
-    },
+	},
+
+	// Follower beliefs
 	{
-        "name": "Fanaticism",
-        "type": "Follower",
-        "uniques": [
+		"name": "Memorialists",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Happiness] from every [Memorial] <in cities where this religion has at least [3] followers>"
+		]
+	},
+	{
+		"name": "Fanaticism",
+		"type": "Follower",
+		"uniques": [
 			"May buy [Religious Zealot] units with [Faith] [in cities following this religion]",
 			"May buy [Religious Martyr] units with [Faith] [in cities following this religion]"
 		]
-    },
-    {
-        "name": "Mass Prayer",
-        "type": "Follower",
-        "uniques": ["[+2 Culture] from every [Congregation Space] <in cities where this religion has at least [5] followers>"]
-    },
-    {
-        "name": "Divine Inspiration",
-        "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Wonder]"]
-    },
-    {
-        "name": "Feed the World",
-        "type": "Follower",
-        "uniques": ["[+1 Food] from every [Memorial]", "[+1 Food] from every [Congregation Space]"]
-    },
-    {
-        "name": "Specialist Reverence",
-        "type": "Follower",
-        "uniques": ["[+2 Production] <if this city has at least [1] specialists>"]
-    },
-    {
-        "name": "Militant Sect",
-        "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Halcyon era]>"]
-    },
-    {
-        "name": "Virtual Idol Worship",
-        "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>"]
-    },
-    {
-        "name": "Peace Gardens",
-        "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Rec Area]"]
-    },
-    {
-        "name": "Spiritual Digital Art",
-        "type": "Follower",
-        "uniques": ["[+8 Culture] from every [Holodeck]"]
-    },
-    {
-        "name": "Urban Spiritualism",
-        "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Congregation Space] <in cities where this religion has at least [5] followers>"]
-    },
-    {
-        "name": "Religious Community",
-        "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
-    },
-    {
-        "name": "Peaceful Prosperity",
-        "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] <when not at war>"]
-    },
-    {
-        "name": "Charity Centers",
-        "type": "Follower",
-        "uniques": ["May buy [Charity Center] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Cult Hideouts",
-        "type": "Follower",
-        "uniques": ["May buy [Cult Hideout] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Meditation Fields",
-        "type": "Follower",
-        "uniques": ["May buy [Meditation Field] buildings with [Faith] [in cities following this religion]"]
-    },
+	},
 	{
-        "name": "Debate Halls",
-        "type": "Follower",
-        "uniques": ["May buy [Debate Hall] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Mass Prayer",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Culture] from every [Congregation Space] <in cities where this religion has at least [5] followers>"
+		]
+	},
 	{
-        "name": "Virtual Trance Servers",
-        "type": "Follower",
-        "uniques": ["May buy [Virtual Trance Server] buildings with [Faith] [in cities following this religion]"]
-    },
-///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
-    
-    {
-        "name": "Art of Joy",
-        "type": "Founder",
-        "uniques": ["[+1 Happiness] for each global city following this religion"]
-    },
-    {
-        "name": "Neo-Materialism",
-        "type": "Founder",
-        "uniques": ["[+2 Gold] for each global city following this religion"]
-    },
-    {
-        "name": "The Cost of Life",
-        "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
-    },
-    {
-        "name": "Interfaith Dialogue",
-        "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
-    },
-    {
-        "name": "Universal Friendship",
-        "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+15]"]
-    },
-    {
-        "name": "Peace Loving",
-        "type": "Founder",
-        "uniques": ["[+1 Happiness] for every [5] global followers [in non-enemy foreign cities]"]
-    },
-    {
-        "name": "Pilgrimage",
-        "type": "Founder",
-        "uniques": ["[+2 Faith] for each global city following this religion"]
-    },
-    {
-        "name": "Charitable Ideal",
-        "type": "Founder",
-        "uniques": ["[+1 Gold] for every [4] global followers [in all cities]"]
-    },
-    {
-        "name": "Global Diversity",
-        "type": "Founder",
-        "uniques": ["[+1 Culture] for every [5] global followers [in foreign cities]"]
-    },
+		"name": "Divine Inspiration",
+		"type": "Follower",
+		"uniques": ["[+2 Faith] from every [Wonder]"]
+	},
+	{
+		"name": "Feed the World",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Food] from every [Memorial]",
+			"[+1 Food] from every [Congregation Space]"
+		]
+	},
+	{
+		"name": "Specialist Reverence",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Production] <if this city has at least [1] specialists>"
+		]
+	},
+	{
+		"name": "Militant Sect",
+		"type": "Follower",
+		"uniques": [
+			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Halcyon era]>"
+		]
+	},
+	{
+		"name": "Virtual Idol Worship",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>"
+		]
+	},
+	{
+		"name": "Peace Gardens",
+		"type": "Follower",
+		"uniques": ["[+2 Happiness] from every [Rec Area]"]
+	},
+	{
+		"name": "Spiritual Digital Art",
+		"type": "Follower",
+		"uniques": ["[+8 Culture] from every [Holodeck]"]
+	},
+	{
+		"name": "Urban Spiritualism",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Happiness] from every [Congregation Space] <in cities where this religion has at least [5] followers>"
+		]
+	},
+	{
+		"name": "Religious Community",
+		"type": "Follower",
+		"uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+	},
+	{
+		"name": "Peaceful Prosperity",
+		"type": "Follower",
+		"uniques": ["[+15]% growth [in this city] <when not at war>"]
+	},
+	{
+		"name": "Charity Centers",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Charity Center] buildings with [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Cult Hideouts",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Cult Hideout] buildings with [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Meditation Fields",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Meditation Field] buildings with [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Debate Halls",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Debate Hall] buildings with [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Virtual Trance Servers",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Virtual Trance Server] buildings with [Faith] [in cities following this religion]"
+		]
+	},
 
-    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+	// Founder beliefs
+	{
+		"name": "Art of Joy",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Happiness] for each global city following this religion"
+		]
+	},
+	{
+		"name": "Neo-Materialism",
+		"type": "Founder",
+		"uniques": ["[+2 Gold] for each global city following this religion"]
+	},
+	{
+		"name": "The Cost of Life",
+		"type": "Founder",
+		"uniques": [
+			"[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"
+		]
+	},
+	{
+		"name": "Interfaith Dialogue",
+		"type": "Founder",
+		"uniques": [
+			"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"
+		]
+	},
+	{
+		"name": "Universal Friendship",
+		"type": "Founder",
+		"uniques": [
+			"Resting point for Influence with City-States following this religion [+15]"
+		]
+	},
+	{
+		"name": "Peace Loving",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Happiness] for every [5] global followers [in non-enemy foreign cities]"
+		]
+	},
+	{
+		"name": "Pilgrimage",
+		"type": "Founder",
+		"uniques": ["[+2 Faith] for each global city following this religion"]
+	},
+	{
+		"name": "Charitable Ideal",
+		"type": "Founder",
+		"uniques": ["[+1 Gold] for every [4] global followers [in all cities]"]
+	},
+	{
+		"name": "Global Diversity",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Culture] for every [5] global followers [in foreign cities]"
+		]
+	},
 
-    {
-        "name": "Stalwart Protectors",
-        "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
-        // ToDo: Should only be friendly territory of cities that follow this religion
-    },
-    {
-        "name": "Visionary Teachings",
-        "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Visionary] units [-30]%", "[Faith] cost of purchasing [Expunger] units [-30]%"]
-    },
-    {
-        "name": "Nomadic Preachers",
-        "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
-    },
-    {
-        "name": "Just War",
-        "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
-        // ToDo: Should only be enemy territory of cities that follow this religion
-    },
-    {
-        "name": "Messiah",
-        "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Visionary] units>", "[-25]% Faith cost of generating Great Prophet equivalents", "[Faith] cost for [Great Visionary] units [-25]%"]
-    },
-    {
-        "name": "Visionary Visions",
-        "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Visionary] units>"]
-    },
-    {
-        "name": "Religious Documents",
-        "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Info Networks]>"]
-    },
-    {
-        "name": "Religious Unity",
-        "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
-    },
-    {
-        "name": "Memorabilia",
-        "type": "Enhancer",
-        "uniques": ["[+50 Faith] whenever a Great Person is expended"]
-    }
+	// Enhancer beliefs
+	{
+		"name": "Stalwart Protectors",
+		"type": "Enhancer",
+		"uniques": [
+			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+		]
+		// ToDo: Should only be friendly territory of cities that follow this religion
+	},
+	{
+		"name": "Visionary Teachings",
+		"type": "Enhancer",
+		"uniques": [
+			"[Faith] cost of purchasing [Visionary] units [-30]%",
+			"[Faith] cost of purchasing [Expunger] units [-30]%"
+		]
+	},
+	{
+		"name": "Nomadic Preachers",
+		"type": "Enhancer",
+		"uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+	},
+	{
+		"name": "Just War",
+		"type": "Enhancer",
+		"uniques": [
+			"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+		]
+		// ToDo: Should only be enemy territory of cities that follow this religion
+	},
+	{
+		"name": "Messiah",
+		"type": "Enhancer",
+		"uniques": [
+			"[+25]% Spread Religion Strength <for [Great Visionary] units>",
+			"[-25]% Faith cost of generating Great Prophet equivalents",
+			"[Faith] cost for [Great Visionary] units [-25]%"
+		]
+	},
+	{
+		"name": "Visionary Visions",
+		"type": "Enhancer",
+		"uniques": ["[+25]% Spread Religion Strength <for [Visionary] units>"]
+	},
+	{
+		"name": "Religious Documents",
+		"type": "Enhancer",
+		"uniques": [
+			"[+34]% Natural religion spread [in all cities]",
+			"[+34]% Natural religion spread [in all cities] <after discovering [Info Networks]>"
+		]
+	},
+	{
+		"name": "Religious Unity",
+		"type": "Enhancer",
+		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+	},
+	{
+		"name": "Memorabilia",
+		"type": "Enhancer",
+		"uniques": ["[+50 Faith] whenever a Great Person is expended"]
+	}
 ]

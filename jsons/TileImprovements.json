@@ -1,50 +1,92 @@
 [
 	{
 		"name": "Hydroponics Field",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Mycelium"
+		],
 		"food": 1,
 		"turnsToBuild": 6,
 		"techRequired": "Old Earth Knowledge",
-		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"],
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"
+		],
 		"shortcutKey": "F",
-		"civilopediaText": [{"text":"Rows upon rows of basic hydroponics, growing staple foods of old Earth"}]
+		"civilopediaText": [
+			{
+				"text": "Rows upon rows of basic hydroponics, growing staple foods of old Earth"
+			}
+		]
 	},
 	{
 		"name": "Agri Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Mycelium"
+		],
 		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Xenoagriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"],
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"
+		],
 		//"shortcutKey": "F",
-		"civilopediaText": [{"text":"Rows upon rows of tilled, fertilized ground, growing local edible xenoflora and the few old Earth plants that could survive here"}]
+		"civilopediaText": [
+			{
+				"text": "Rows upon rows of tilled, fertilized ground, growing local edible xenoflora and the few old Earth plants that could survive here"
+			}
+		]
 	},
 	{
 		"name": "Terraboretum",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Mycelium"
+		],
 		"food": 2,
 		"culture": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Genetics",
-		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetic Hybridization]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Designer Lifeforms]>"],
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Designer Lifeforms]>"
+		],
 		//"shortcutKey": "F",
-		"civilopediaText": [{"text":"Massive domed habitats purely dedicated to growing a variety of DNA-cloned plants of old Earth, they also double as recreation areas for the colonists"}]
+		"civilopediaText": [
+			{
+				"text": "Massive domed habitats purely dedicated to growing a variety of DNA-cloned plants of old Earth, they also double as recreation areas for the colonists"
+			}
+		]
 	},
 	{
 		"name": "Forestry Camp",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": [
+			"[+1 Production] <after discovering [Offworld Industries]>"
+		],
 		"shortcutKey": "L",
-		"civilopediaText": [{"text":"An unintrusive camp to gather sustainable lumber from local forests and jungles"}]
+		"civilopediaText": [
+			{
+				"text": "An unintrusive camp to gather sustainable lumber from local forests and jungles"
+			}
+		]
 	},
 	{
 		"name": "Mine",
@@ -52,23 +94,54 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Xenogeology",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>","[+1 Production] <after discovering [Crust Fracking]>"],
+		"uniques": [
+			"[+1 Production] <after discovering [Offworld Industries]>",
+			"[+1 Production] <after discovering [Crust Fracking]>"
+		],
 		"shortcutKey": "M",
-		"civilopediaText": [{"text":"Tunnels dug by machinery to retrieve the resources hidden underground"}]
+		"civilopediaText": [
+			{
+				"text": "Tunnels dug by machinery to retrieve the resources hidden underground"
+			}
+		]
 	},
 	{
 		"name": "Server Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Forest",
+			"Jungle",
+			"Flood plains",
+			"Mycelium"
+		],
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Computing",
 		"uniques": ["[+1 Gold] <after discovering [Cryptocurrency]>"],
 		"shortcutKey": "T",
-		"civilopediaText": [{"text":"Vast arrays of raw computing power dedicated to the storage and retrieval of digital 'marks of credit'"}]
+		"civilopediaText": [
+			{
+				"text": "Vast arrays of raw computing power dedicated to the storage and retrieval of digital 'marks of credit'"
+			}
+		]
 	},
 	{
 		"name": "Habitation Dome",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Snow","Tundra","Forest","Jungle","Flood plains","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Snow",
+			"Tundra",
+			"Forest",
+			"Jungle",
+			"Flood plains",
+			"Mycelium"
+		],
 		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Hab-Domes",
@@ -79,37 +152,68 @@
 			"[+1 Culture] <after discovering [Colonial Culture]>"
 		],
 		//"shortcutKey": "T",
-		"civilopediaText": [{"text":"Domed enclosures amenable for human habitation, retaining breathable atmosphere"}]
+		"civilopediaText": [
+			{
+				"text": "Domed enclosures amenable for human habitation, retaining breathable atmosphere"
+			}
+		]
 	},
 	{
 		"name": "Xeno Sanctuary",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Tundra",
+			"Mycelium"
+		],
 		"food": 2,
 		"culture": 2,
 		"turnsToBuild": 8,
-		"uniques": ["Only available <after adopting [Xeno-Cooperation]>", 
+		"uniques": [
+			"Only available <after adopting [Xeno-Cooperation]>",
 			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Genetic Hybridization]>",
-			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Designer Lifeforms]>"],
+			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Designer Lifeforms]>"
+		],
 		//"shortcutKey": "F",
-		"civilopediaText": [{"text":"Massive domed habitats purely dedicated to preserving a piece of xeno ecology, they also double as recreation areas for the colonists"}]
+		"civilopediaText": [
+			{
+				"text": "Massive domed habitats purely dedicated to preserving a piece of xeno ecology, they also double as recreation areas for the colonists"
+			}
+		]
 	},
-	
+
 	// Resource specific
 	{
 		"name": "Enclosure",
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Offworld Industries]>"],
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Gold] <after discovering [Offworld Industries]>"
+		],
 		"shortcutKey": "P",
-		"civilopediaText": [{"text":"An enclosed space to limit movement of local xenofauna resources, so we could exploit them"}]
+		"civilopediaText": [
+			{
+				"text": "An enclosed space to limit movement of local xenofauna resources, so we could exploit them"
+			}
+		]
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Xenogeology",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>"],
+		"uniques": [
+			"[+1 Production] <after discovering [Offworld Industries]>"
+		],
 		"shortcutKey": "Q",
-		"civilopediaText": [{"text":"Machinery breaks stone into easily transportable chunks in this facility"}]
+		"civilopediaText": [
+			{
+				"text": "Machinery breaks stone into easily transportable chunks in this facility"
+			}
+		]
 	},
 	{
 		"name": "Research Base",
@@ -118,89 +222,180 @@
 		"techRequired": "Research Networks",
 		"uniques": ["[+2 Science] <after discovering [Info Networks]>"],
 		//"shortcutKey": "Q"
-		"civilopediaText": [{"text":"A remote but self-sufficient base dedicated to field research"}]
+		"civilopediaText": [
+			{
+				"text": "A remote but self-sufficient base dedicated to field research"
+			}
+		]
 	},
 	{
 		"name": "Offshore Platform",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"production": 1,
 		"techRequired": "Hydrodynamics",
-		"uniques": ["[+1 Production] <after discovering [Offworld Industries]>"],
-		"civilopediaText": [{"text":"massive floating oceanic structures designed to exploit a specific resource from the ocean floor"}]
+		"uniques": [
+			"[+1 Production] <after discovering [Offworld Industries]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "massive floating oceanic structures designed to exploit a specific resource from the ocean floor"
+			}
+		]
 	},
 	{
 		"name": "Aquaculture",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"food": 1,
 		"techRequired": "Xenobiology",
 		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
-		"civilopediaText": [{"text":"A place to cultivate the organic riches of the sea"}]
+		"civilopediaText": [
+			{ "text": "A place to cultivate the organic riches of the sea" }
+		]
 	},
 	{
 		"name": "Derrick",
 		"turnsToBuild": 9,
 		"techRequired": "Offworld Industries",
-		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Offworld Industries]>","Cannot be built on [Ocean] tiles <before discovering [Offworld Industries]>"],
+		"uniques": [
+			"Cannot be built on [Coast] tiles <before discovering [Offworld Industries]>",
+			"Cannot be built on [Ocean] tiles <before discovering [Offworld Industries]>"
+		],
 		"shortcutKey": "W",
-		"civilopediaText": [{"text":"Akin to a siphon, the derrick sucks fluid resources from deep beneath the crust"}]
+		"civilopediaText": [
+			{
+				"text": "Akin to a siphon, the derrick sucks fluid resources from deep beneath the crust"
+			}
+		]
 	},
-	
+
 	// Military improvements
 	{
 		"name": "Emplacement",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Mycelium"
+		],
 		"turnsToBuild": 6,
 		"techRequired": "Frontier Armaments",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [10]%"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [10]%"
+		],
 		//"shortcutKey": "O"
-		"civilopediaText": [{"text":"A defensive clearing that provides some protection for the units inside"}]
+		"civilopediaText": [
+			{
+				"text": "A defensive clearing that provides some protection for the units inside"
+			}
+		]
 	},
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Mycelium"
+		],
 		"turnsToBuild": 6,
 		"techRequired": "Next-Gen Armaments",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [50]%"
+		],
 		"shortcutKey": "O",
-		"civilopediaText": [{"text":"A massive, strategic defensive structure"}]
+		"civilopediaText": [
+			{ "text": "A massive, strategic defensive structure" }
+		]
 	},
 	{
 		"name": "Artificial Miasma",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium","Flood plains"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Mycelium",
+			"Flood plains"
+		],
 		"turnsToBuild": 6,
 		"techRequired": "Frontier Armaments",
-		"uniques": ["Can be built outside your borders","Does not need removal of [Forest]","Does not need removal of [Jungle]","Gives a defensive bonus of [-15]%"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Gives a defensive bonus of [-15]%"
+		],
 		//"shortcutKey": "O"
-		"civilopediaText": [{"text":"Artificially-induced miasma cloud, just as annoying as the natural version"}]
+		"civilopediaText": [
+			{
+				"text": "Artificially-induced miasma cloud, just as annoying as the natural version"
+			}
+		]
 	},
-	
+
 	// Transportation
 	{
 		"name": "Road",
 		"turnsToBuild": 4,
 		"techRequired": "Pioneer Administration",
 		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
-		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [1] gold per turn when in your territory"
+		],
 		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"A basic transport infrastructure that allows land vehicles to traverse terrain easily"},
-			{"text":"Reduces movement cost to ½ if the other tile also has a Road or Magrail"},
-            {"text":"Reduces movement cost to ⅓ with Satellite Networks", "link":"Technology/Satellite Networks"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
-        ]
+		"civilopediaText": [
+			{
+				"text": "A basic transport infrastructure that allows land vehicles to traverse terrain easily"
+			},
+			{
+				"text": "Reduces movement cost to ½ if the other tile also has a Road or Magrail"
+			},
+			{
+				"text": "Reduces movement cost to ⅓ with Satellite Networks",
+				"link": "Technology/Satellite Networks"
+			},
+			{
+				"text": "Requires Engineering to bridge rivers",
+				"link": "Technology/Engineering"
+			}
+		]
 	},
 	{
 		"name": "Railroad", //rename to Magrail in translations
 		"turnsToBuild": 4,
 		"techRequired": "Colony Administration",
-		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [2] gold per turn when in your territory"
+		],
 		"shortcutKey": "R",
-        "civilopediaText": [
-			{"text":"Magnetically charged metallic rails that allow carriages to float and move easily, unimpeded by friction"},
-			{"text":"Reduces movement cost to ⅒ if the other tile also has a Magrail"}
+		"civilopediaText": [
+			{
+				"text": "Magnetically charged metallic rails that allow carriages to float and move easily, unimpeded by friction"
+			},
+			{
+				"text": "Reduces movement cost to ⅒ if the other tile also has a Magrail"
+			}
 		]
 	},
-	
+
 	// Removals
 	{
 		"name": "Remove Forest",
@@ -209,7 +404,11 @@
 		"techRequired": "Pioneer Administration",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+			}
+		]
 	},
 	{
 		"name": "Remove Jungle",
@@ -260,38 +459,64 @@
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "."
 	},
-	
+
 	// Great Person improvements
 	{
 		"name": "Academy",
 		"science": 8,
-		"uniques": ["Great Improvement", "[+1 Science] <after discovering [Research Networks]>", "[+2 Science] <after discovering [Quantum Theory]>", "[+2 Science] <after discovering [Artificial Intelligence]>"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Science] <after discovering [Research Networks]>",
+			"[+2 Science] <after discovering [Quantum Theory]>",
+			"[+2 Science] <after discovering [Artificial Intelligence]>"
+		],
 		"civilopediaText": [
-			{"text":"Vast research complexes combined with an university to teach the new generation in the lastest technologies, and at the same time discovering future ones"}
+			{
+				"text": "Vast research complexes combined with an university to teach the new generation in the lastest technologies, and at the same time discovering future ones"
+			}
 		]
 	},
 	{
 		"name": "Cultural site",
 		"culture": 6,
-		"uniques": ["Great Improvement", "[+1 Culture] <after discovering [Colonial Culture]>", "[+2 Culture] <after discovering [Net Culture]>", "[+3 Culture] <after discovering [Posthumanist Culture]>"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Culture] <after discovering [Colonial Culture]>",
+			"[+2 Culture] <after discovering [Net Culture]>",
+			"[+3 Culture] <after discovering [Posthumanist Culture]>"
+		],
 		"civilopediaText": [
-			{"text":"A place of great cultural significance, tourists regularly flock to these spots"}
+			{
+				"text": "A place of great cultural significance, tourists regularly flock to these spots"
+			}
 		]
 	},
 	{
 		"name": "Industrial district",
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Offworld Industries]>", "[+1 Production] <after discovering [Crust Fracking]>"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Production] <after discovering [Offworld Industries]>",
+			"[+1 Production] <after discovering [Crust Fracking]>"
+		],
 		"civilopediaText": [
-			{"text":"Sprawling fronts of industrial machinery, producing anything and everything you could think of"}
+			{
+				"text": "Sprawling fronts of industrial machinery, producing anything and everything you could think of"
+			}
 		]
 	},
 	{
 		"name": "Trade center",
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Info Networks]>", "[+2 Gold] <after discovering [Cryptocurrency]>"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <after discovering [Info Networks]>",
+			"[+2 Gold] <after discovering [Cryptocurrency]>"
+		],
 		"civilopediaText": [
-			{"text":"It bustles with transactions and trades, a not-so-small cogwheel in the economic system"}
+			{
+				"text": "It bustles with transactions and trades, a not-so-small cogwheel in the economic system"
+			}
 		]
 	},
 	{
@@ -299,43 +524,64 @@
 		"faith": 6,
 		"uniques": ["Great Improvement"],
 		"civilopediaText": [
-			{"text":"A locus of spiritual enlightenment for the colonists of this planet"}
+			{
+				"text": "A locus of spiritual enlightenment for the colonists of this planet"
+			}
 		]
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders"],
-        "civilopediaText": [
-			{"text":"Formidable complex of military installations which instill fear for would-be attackers"},
-			{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders"
+		],
+		"civilopediaText": [
+			{
+				"text": "Formidable complex of military installations which instill fear for would-be attackers"
+			},
+			{
+				"text": "Constructing it will take over the tiles around it and assign them to your closest city"
+			}
 		]
 	},
-	
+
 	// Misc essentials
-	{ 
-		//"name": "Ancient ruins", 
+	{
+		//"name": "Ancient ruins",
 		"name": "Crash site",
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"],
 		"civilopediaText": [
-			{"text":"Something man-made that was once in orbit, brought low by gravity"}
+			{
+				"text": "Something man-made that was once in orbit, brought low by gravity"
+			}
 		]
 	},
-	{ 
-		"name": "City ruins", 
+	{
+		"name": "City ruins",
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"A bleak reminder of the cost of waging war"}]
+		"civilopediaText": [
+			{ "text": "A bleak reminder of the cost of waging war" }
+		]
 	},
-	{ 
-		"name": "City center", 
+	{
+		"name": "City center",
 		"uniques": ["Unpillagable", "Indestructible"],
-        "civilopediaText": [
-			{"text":"Marks the center of a city"},
-			{"text":"Appearance changes with the technological era of the owning civilization"}
+		"civilopediaText": [
+			{ "text": "Marks the center of a city" },
+			{
+				"text": "Appearance changes with the technological era of the owning civilization"
+			}
 		]
 	},
-	{ 
-		"name": "Barbarian encampment", 
+	{
+		"name": "Barbarian encampment",
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"Home to savage Xenos, will spawn a hostile xeno from time to time"}]
+		"civilopediaText": [
+			{
+				"text": "Home to savage Xenos, will spawn a hostile xeno from time to time"
+			}
+		]
 	}
 ]

@@ -1,11 +1,11 @@
 [
-	//Spectator
+	// Spectator
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		"outerColor": [255, 255, 255]
+		// "innerColor": [255,255,255]
 	},
-	
+
 	/* template: at least 20 city names
 	
 	{
@@ -58,14 +58,14 @@
 	}
 	
 	*/
-	
-	//Nations
+
+	// Nations
 	{
 		"name": "Toma Heavy Industries",
 		"leaderName": "Kirii Toma",
 		"adjective": ["Toman"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType":"Scientific",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries! Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
 		"startIntroPart2": "Kirii, your scientists and engineers are eager to uncover the secrets of the future on this new planet. Will you reach a new pinnacle of technological marvel? Can you build a colony that stands the test of time?",
@@ -112,8 +112,8 @@
 			"Kozlov Station"
 		]
 	},
-	
-	//Outposts
+
+	// Outposts
 	{
 		"name": "Sputnik Outpost",
 		"adjective": ["Sputnikian"],
@@ -124,15 +124,15 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
+		"innerColor": [255, 255, 0],
 		"cities": ["Sputnik Outpost"]
 	},
 
-	//Barbarian
+	// Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [198,243,102],
+		"outerColor": [0, 0, 0],
+		"innerColor": [198, 243, 102],
 		"uniques": ["Can only heal by pillaging"]
 	}
 ]

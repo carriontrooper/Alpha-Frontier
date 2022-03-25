@@ -472,7 +472,7 @@
 			}
 		]
 	},
-	//Critters
+	// Critters
 	{
 		"name": "Snuffets",
 		"resourceType": "Bonus",
@@ -498,7 +498,7 @@
 			}
 		]
 	},
-	//Minerals
+	// Minerals
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with the stat
 		"resourceType": "Luxury",
@@ -626,7 +626,7 @@
 			}
 		]
 	},
-	//Water stuff
+	// Water stuff
 	{
 		"name": "Sindrian Lobster",
 		"resourceType": "Luxury",
@@ -664,7 +664,7 @@
 			}
 		]
 	},
-	//Research Base
+	// Research Base
 	{
 		"name": "Artifacts",
 		"resourceType": "Luxury",
@@ -717,7 +717,7 @@
 	},
 	// Civ Uniques
 	{
-		"name": "Stout Ale", 
+		"name": "Stout Ale",
 		"gold": 2,
 		"resourceType": "Luxury",
 		"civilopediaText": [
@@ -726,7 +726,7 @@
 			}
 		]
 	},
-	
+
 	// CS Uniques
 
 	// Strategic resources
@@ -885,9 +885,9 @@
 		]
 	},
 	{
-		"name": "Antimatter", //doesn't generate naturally
+		"name": "Antimatter", // doesn't generate naturally
 		"resourceType": "Strategic",
-		//"revealedBy": "Writing",
+		// "revealedBy": "Writing",
 		"civilopediaText": [
 			{
 				"text": "Matter that are composed of antiparticles, these do not occur naturally. They contain vast and terrible amounts of energy, especially when reacting to normal matter."

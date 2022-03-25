@@ -123,7 +123,12 @@
 		"startingGold": 50,
 		"startingCulture": 300,
 		"settlerPopulation": 2,
-		"settlerBuildings": ["Memorial", "Monument", "Greenhouse", "Survey Buoy"],
+		"settlerBuildings": [
+			"Memorial",
+			"Monument",
+			"Greenhouse",
+			"Survey Buoy"
+		],
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
