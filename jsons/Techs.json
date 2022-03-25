@@ -600,7 +600,7 @@
 			}
 			
 		]
-	}
+	},
 	// Singularity Era
 	{
 		"columnNumber": 13,
@@ -613,8 +613,8 @@
 				"name": "Singularity Tech",
 				"row": 6,
 				"quote": "'.' - ",
-				"prerequisites": ["FTL Travel","Advanced Biotech","N-Dimensional Exploration","Zero Point Energy","Graviton Harnessing","Hive Mind"]
-				"uniques": ["Sometimes the end is not the end.", "Can be continually researched"],
+				"prerequisites": ["FTL Travel","Advanced Biotech","N-Dimensional Exploration","Zero Point Energy","Graviton Harnessing","Hive Mind"],
+				"uniques": ["Sometimes the end is not the end.", "Can be continually researched"]
 			}
 			
 		]

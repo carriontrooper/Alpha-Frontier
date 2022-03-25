@@ -58,7 +58,7 @@
 			*/
 			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xenoagriculture]>"
 		],
-		"requiredTech": "Xenobiology"
+		"requiredTech": "Xenobiology",
 		"civilopediaText": [
 			{
 				"text": "Staple food plants from old Earth, grown in a controlled environment."
@@ -115,7 +115,7 @@
 		"percentStatBonus": {"production": 10},
 		"uniques": [
 			"[50]% Production when constructing [Prefab] buildings [in this city]"
-		]
+		],
 		"requiredTech": "Engineering",
 		"civilopediaText": [
 			{
@@ -131,7 +131,7 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
 			"Prefab"
-		]
+		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
@@ -177,7 +177,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab"
-		]
+		],
 		"requiredTech": "Habitation",
 		"civilopediaText": [
 			{
@@ -192,7 +192,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab"
-		]
+		],
 		"requiredTech": "Xenochemistry",
 		"civilopediaText": [
 			{
@@ -335,7 +335,7 @@
 			*/
 			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
 		],
-		"requiredTech": "Xeno-Grafting"
+		"requiredTech": "Xeno-Grafting",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -497,8 +497,7 @@
 		"name": "Drone Delivery Network",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
-		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10},
+		"percentStatBonus": {"food": 10, "production": 10},
 		"requiredBuilding": "Prefab Printer",
 		"requiredTech": "Aerial Drones",
 		"civilopediaText": [
@@ -532,7 +531,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab"
-		]
+		],
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
@@ -689,8 +688,7 @@
 		"name": "Bureaucratic Office",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 10},
-		"percentStatBonus": {"production": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "gold": 10},
+		"percentStatBonus": {"production": 10, "gold": 10},
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -706,7 +704,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Colonial Culture",
 		"uniques": [
-			"[+1 Faith] <in cities with a [Harmony Garden]>"
+			"[+1 Faith] <in cities with a [Harmony Garden]>",
 			"Hidden when religion is disabled",
 			"Destroyed when the city is captured"
 		],
@@ -776,9 +774,7 @@
 		"name": "Infrastructure 2.0",
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 10},
-		"percentStatBonus": {"production": 10},
-		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10, "gold": 10},
+		"percentStatBonus": {"food": 10, "production": 10, "gold": 10},
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -973,7 +969,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Population loss from nuclear attacks [-50]% [in this city]",
+			"Population loss from nuclear attacks [-50]% [in this city]"
 		],
 		"requiredTech": "Orbital Deterrents",
 		"civilopediaText": [
@@ -1002,8 +998,7 @@
 	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 30},
-		"percentStatBonus": {"gold": 10}, // if this doesn't work try "percentStatBonus": {"production": 30, "gold": 10},
+		"percentStatBonus": {"production": 30, "gold": 10},
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
@@ -1039,7 +1034,7 @@
 		"percentStatBonus": {"gold": 20},
 		"uniques": [
 			"Virtual"
-		]
+		],
 		"requiredTech": "Metaverse",
 		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
@@ -1055,7 +1050,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual"
-		]
+		],
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
 			{
@@ -1071,7 +1066,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual"
-		]
+		],
 		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
 		"civilopediaText": [
@@ -1125,7 +1120,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual"
-		]
+		],
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
 			{
@@ -1155,7 +1150,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [2] [Antimatter]"
-		]
+		],
 		"requiredTech": "Antimatter Harnessing",
 		"civilopediaText": [
 			{
@@ -1171,7 +1166,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
-		]
+		],
 		"requiredTech": "Mind Linking",
 		"civilopediaText": [
 			{

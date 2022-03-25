@@ -1271,7 +1271,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[-50]% Strength <vs [Air] units>",
-			"May withdraw before melee ([50]%)"
+			"May withdraw before melee ([50]%)",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -1298,7 +1298,7 @@
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
-			"Only available <if [Samson Option] is constructed>"
+			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Only available <in cities with a [ICBM Silo]>",
 			"Never appears as a Barbarian unit"
@@ -1328,7 +1328,7 @@
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
-			"Only available <if [Samson Option] is constructed>"
+			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2600,7 +2600,7 @@
 		"strength": 8,
 		"cost": 30,
 		"uniques": [
-			"[+200]% Strength <when attacking>"
+			"[+200]% Strength <when attacking>",
 			"Self-destructs when attacking",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
