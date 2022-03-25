@@ -57,7 +57,7 @@
     },
     {
         "name": "experienced mystical event",
-        "notification": " (Our unit had a mystical experience while searching the crash site! (+[faithAmount] Faith),
+        "notification": " (Our unit had a mystical experience while searching the crash site! (+[faithAmount] Faith)",
         "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Hidden after founding a Pantheon", "Only available after [20] turns"],
 		"color": "#CDDDF4"
     },
