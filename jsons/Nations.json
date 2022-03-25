@@ -156,7 +156,7 @@
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
 
 		"outerColor": [240, 199, 36],
-		"innerColor": [201, 124, 0],
+		"innerColor": [255, 125, 3],
 		"favoredReligion": "Mormonism",
 		"uniqueName": "Belta Penal Code",
 		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
@@ -299,8 +299,8 @@
 
 		"tradeRequest": "We think these will aid both of us.",
 
-		"outerColor": [182, 143, 255],
-		"innerColor": [1, 128, 56],
+		"outerColor": [110, 44, 171],
+		"innerColor": [2, 161, 25],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "Somatic Element",
 		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[20] HP when healing <for [Wounded] units>"],
