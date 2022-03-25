@@ -102,8 +102,8 @@
 
 		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [126, 192, 253],
+		"innerColor": [85, 85, 85],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "Ingenuity from Isolation",
 		"uniques": [
