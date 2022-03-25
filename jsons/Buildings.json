@@ -678,7 +678,7 @@
 		"percentStatBonus": {"science": 20},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Research Laboratory",
-		"requiredTech": "Colonial Administration",
+		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -691,7 +691,7 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 10},
 		"percentStatBonus": {"production": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "gold": 10},
-		"requiredTech": "Colonial Administration",
+		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -779,7 +779,7 @@
 		"percentStatBonus": {"gold": 10},
 		"percentStatBonus": {"production": 10},
 		"percentStatBonus": {"food": 10}, // if this doesn't work try "percentStatBonus": {"production": 10, "food": 10, "gold": 10},
-		"requiredTech": "Colonial Administration",
+		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1514,7 +1514,7 @@
 		"cityHealth": 100,
 		"isWonder": true,
 		"uniques": ["[-20]% unhappiness from population [in all cities]"],
-		"requiredTech": "Info Network",
+		"requiredTech": "Info Networks",
 		"quote": "'.' - "
 	},
 	{
@@ -1576,7 +1576,7 @@
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]"],
-		"requiredTech": "Hyperspace Communications",
+		"requiredTech": "Hyperwave Communications",
 		"quote": "'.' - "
 	},
 	{
