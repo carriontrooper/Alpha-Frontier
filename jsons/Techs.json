@@ -520,7 +520,7 @@
 				"name": "Solar Reflectors",
 				"row": 2,
 				"quote": "'.' - ",
-				"prerequisites": ["Cosmonautics","Nanotechnology"]
+				"prerequisites": ["Stasis Fields","Nanotechnology"]
 			},
 			{
 				"name": "Designer Lifeforms",
