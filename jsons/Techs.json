@@ -192,7 +192,7 @@
 				"name": "Offworld Industries",
 				"row": 4,
 				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
-				"prerequisites": ["Xenogeology","Xenochemistry"],
+				"prerequisites": ["Xeno-Grafting","Xenochemistry"],
 				"uniques": ["Enables conversion of city production to gold"]
 			},
 			{
@@ -386,7 +386,7 @@
 				"name": "Xenoarcheology",
 				"row": 6,
 				"quote": "'.' - ",
-				"prerequisites": ["Info Networks","Net Culture"]
+				"prerequisites": ["Satellite Networks","Net Culture"]
 			},
 			{
 				"name": "Virtual Drugs",
@@ -520,7 +520,7 @@
 				"name": "Solar Reflectors",
 				"row": 2,
 				"quote": "'.' - ",
-				"prerequisites": ["Metamaterials","Nanotechnology"]
+				"prerequisites": ["Cosmonautics","Nanotechnology"]
 			},
 			{
 				"name": "Designer Lifeforms",
