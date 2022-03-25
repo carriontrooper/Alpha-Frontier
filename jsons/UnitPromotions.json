@@ -441,7 +441,7 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+			"Bombardment III", "Coastal Raider III","Boarding Party III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Sniper","Siege","Close Range Water","Ranged Water","Submarine","Aerocraft","Helicopter"]
 	},
