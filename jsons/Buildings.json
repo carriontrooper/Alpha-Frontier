@@ -384,7 +384,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Field Lab",
 		"uniques": [
-			"[+ Science, +1 Culture] from [Artifact] tiles [in this city]"
+			"[+1 Science, +1 Culture] from [Artifact] tiles [in this city]"
 		],
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
