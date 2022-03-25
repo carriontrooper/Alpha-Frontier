@@ -1369,7 +1369,7 @@ TileSets/FantasyHex/Tiles/Kaibir Crystals
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lake
+TileSets/FantasyHex/Tiles/Lakes
   rotate: false
   xy: 1164, 20
   size: 32, 28
