@@ -207,7 +207,7 @@
 		"innerColor": [255, 218, 31],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Rock and Stone to the Bone",
-		"uniques": ["[+20%]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
+		"uniques": ["[+20]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
 		"cities": [
 			"Koganusan",
 			"Corroded Grotto",
