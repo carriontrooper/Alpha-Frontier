@@ -1635,7 +1635,7 @@
 		"science": 5,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["May capture killed [Xeno] units"],
+		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Hivemind Hijacker] promotion"],
 		"requiredTech": "Xeno Psychology",
 		"quote": "'.' - "
 	},
