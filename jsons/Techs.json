@@ -41,14 +41,14 @@
 			},
 			{
 				"name": "Computing",
-				"row": 5,
+				"row": 6,
 				"quote": "'Back then, we had the network and infrastructure to make a computer that fit in the palm of your hand. Now we got to do that all over again.' - Jose Jacinto, engineer",
 				"prerequisites": ["Old Earth Knowledge"],
 				"uniques": ["Enables conversion of city production to science"]
 			},
 			{
 				"name": "Habitation",
-				"row": 6,
+				"row": 7,
 				"quote": "'Sure, these prefab homes are nice, they have atmo, they have AC, they have electricity - but you know what would be cool? DOMES!' - Truong Vanth Ngo, environmental engineer",
 				"prerequisites": ["Old Earth Knowledge"]
 			},
@@ -155,7 +155,7 @@
 			},
 			{
 				"name": "Research Networks",
-				"row": 5,
+				"row": 6,
 				"quote": "'Neat, now I can peer review without delay! I mean, what else are these nerds going to use it, besides research?' - Jeanie O'Shea, scientist",
 				"prerequisites": ["Pioneer Administration"],
 				"uniques": ["Enables Research agreements"]
@@ -164,7 +164,7 @@
 				"name": "Aerial Drones",
 				"row": 9,
 				"quote": "'Look at them glide, look at them soar! Watch as this baby goes from 0 to 100 in less than a second! You can't go wrong with drones, no siree.' - Aswan Fulani, mechanic",
-				"prerequisites": ["Robotics"]
+				"prerequisites": ["Robotics","Hovercrafts"]
 			},
 			{
 				"name": "Military Ballistics",
@@ -191,7 +191,7 @@
 				"name": "Aeronautics",
 				"row": 2,
 				"quote": "'.' - ",
-				"prerequisites": ["Astronomy"]
+				"prerequisites": ["Astronomy","Aerial Drones"]
 			},
 			{
 				"name": "Offworld Industries",
@@ -202,7 +202,7 @@
 			},
 			{
 				"name": "Hab-Domes",
-				"row": 6,
+				"row": 7,
 				"quote": "'Now these are what I'm talking about! No more bumping your shins on room dividers! No more stale friggin' recycled air! We have DOMES!' - Truong Vanth Ngo, environmental engineer",
 				"prerequisites": [
 					"Pioneer Administration",
@@ -235,7 +235,7 @@
 				"name": "Satellite Networks",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Payload Delivery"],
+				"prerequisites": ["Payload Delivery","Aeronautics"],
 				"uniques": [
 					"Improves movement speed on roads",
 					"[+1] Movement <for [Embarked] units>"
@@ -288,7 +288,7 @@
 			},
 			{
 				"name": "Cryptocurrency",
-				"row": 5,
+				"row": 4,
 				"quote": "'.' - ",
 				"prerequisites": ["Info Networks", "Colony Administration"]
 			},
@@ -320,7 +320,7 @@
 				"name": "Exoskeletons",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments"]
+				"prerequisites": ["Next-Gen Armaments","Strike Drones"]
 			}
 		]
 	},
@@ -346,7 +346,7 @@
 			},
 			{
 				"name": "Metaverse",
-				"row": 5,
+				"row": 4,
 				"quote": "'.' - ",
 				"prerequisites": ["Cryptocurrency", "Colonial Culture"]
 			},
@@ -366,7 +366,7 @@
 				"name": "Cybernetics",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments"]
+				"prerequisites": ["Exoskeletons"]
 			}
 		]
 	},
@@ -406,13 +406,13 @@
 				"name": "Fusion Power",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Stable Fission Power"]
+				"prerequisites": ["Stable Fission Power","Lasers"]
 			},
 			{
 				"name": "Mind-Machine Interface",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Cybernetics"]
+				"prerequisites": ["Cybernetics","Combat Mechas"]
 			}
 		]
 	},
@@ -428,13 +428,13 @@
 				"name": "Metamaterials",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Cosmonautics"]
+				"prerequisites": ["Cosmonautics","Composite Armor"]
 			},
 			{
 				"name": "Genetic Hybridization",
 				"row": 3,
 				"quote": "'.' - ",
-				"prerequisites": ["Genetics"]
+				"prerequisites": ["Cloning"]
 			},
 			{
 				"name": "Quantum Computing",
@@ -549,7 +549,7 @@
 				"name": "Posthumanist Culture",
 				"row": 9,
 				"quote": "'.' - ",
-				"prerequisites": ["Mind Linking"]
+				"prerequisites": ["Mind Linking","Terraforming"]
 			},
 			{
 				"name": "Psionics",
@@ -570,13 +570,13 @@
 				"name": "FTL Travel",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Hyperwave Communications"]
+				"prerequisites": ["Hyperwave Communications","Solar Reflectors"]
 			},
 			{
 				"name": "Advanced Biotech",
 				"row": 3,
 				"quote": "'.' - ",
-				"prerequisites": ["Genetic Hybridization"]
+				"prerequisites": ["Designer Lifeforms"]
 			},
 			{
 				"name": "N-Dimensional Exploration",
