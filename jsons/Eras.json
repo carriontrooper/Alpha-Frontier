@@ -5,7 +5,7 @@
 		"startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingWorkerCount": 0,
 		"startingMilitaryUnitCount": 1,
-		"startingMilitaryUnit": "FrontierMilitia",
+		"startingMilitaryUnit": "Frontier Militia",
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
@@ -38,7 +38,7 @@
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
 		"startingMilitaryUnitCount": 2,
-		"startingMilitaryUnit": "FrontierMilitia",
+		"startingMilitaryUnit": "Frontier Militia",
 		"startingGold": 10,
 		"startingCulture": 100,
 		"settlerPopulation": 1,
@@ -73,11 +73,12 @@
 		"startingSettlerCount": 2,
 		"startingWorkerCount": 1,
 		"startingMilitaryUnitCount": 3,
-		"startingMilitaryUnit": "Spearman",
+		"startingMilitaryUnit": "Colony Rifleman",
 		"startingGold": 25,
 		"startingCulture": 200,
 		"settlerPopulation": 1,
-		"settlerBuildings": ["Shrine", "Monument"],
+		"settlerBuildings": ["Memorial", "Monument"],
+		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
 			"Stonehenge",
@@ -86,6 +87,7 @@
 			"The Pyramids",
 			"Statue of Zeus"
 		],
+		*/
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 8,
 		"startPercent": 25,
@@ -117,11 +119,12 @@
 		"startingSettlerCount": 2,
 		"startingWorkerCount": 1,
 		"startingMilitaryUnitCount": 3,
-		"startingMilitaryUnit": "Pikeman",
+		"startingMilitaryUnit": "Exosuit Soldier",
 		"startingGold": 50,
 		"startingCulture": 300,
 		"settlerPopulation": 2,
-		"settlerBuildings": ["Shrine", "Monument", "Granary", "Lighthouse"],
+		"settlerBuildings": ["Memorial", "Monument", "Greenhouse", "Survey Buoy"],
+		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
 			"Stonehenge",
@@ -137,6 +140,7 @@
 			"Great Wall",
 			"Colossus"
 		],
+		*/
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 8,
 		"startPercent": 37,
@@ -168,21 +172,23 @@
 		"startingSettlerCount": 3,
 		"startingWorkerCount": 2,
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Musketman",
+		"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 100,
 		"startingCulture": 400,
 		"settlerPopulation": 3,
 		"settlerBuildings": [
+			"Memorial",
 			"Monument",
-			"Granary",
-			"Lighthouse",
-			"Market",
-			"Workshop",
-			"Amphitheater",
-			"Barracks",
-			"Library",
-			"Colosseum"
+			"Greenhouse",
+			"Survey Buoy",
+			"Pioneer Depot",
+			"Prefab Printer",
+			"Pioneer Speakeasy",
+			"Frontier Armament",
+			"Field Lab",
+			"Air Scrubber"
 		],
+		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
 			"Stonehenge",
@@ -204,6 +210,7 @@
 			"Alhambra",
 			"Notre Dame"
 		],
+		*/
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 10,
 		"startPercent": 50,
@@ -230,8 +237,8 @@
 		"iconRGB": [63, 81, 182],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			//"Starting in this era disables religion"
 		]
 	},
 	{
@@ -240,21 +247,23 @@
 		"startingSettlerCount": 3,
 		"startingWorkerCount": 2,
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Rifleman",
+		"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 200,
 		"startingCulture": 500,
 		"settlerPopulation": 3,
 		"settlerBuildings": [
+			"Memorial",
 			"Monument",
-			"Granary",
-			"Lighthouse",
-			"Market",
-			"Workshop",
-			"Amphitheater",
-			"Barracks",
-			"Library",
-			"Colosseum"
+			"Greenhouse",
+			"Survey Buoy",
+			"Pioneer Depot",
+			"Prefab Printer",
+			"Pioneer Speakeasy",
+			"Frontier Armament",
+			"Field Lab",
+			"Air Scrubber"
 		],
+		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
 			"Stonehenge",
@@ -283,6 +292,7 @@
 			"Porcelain Tower",
 			"Kremlin"
 		],
+		*/
 		"baseUnitBuyCost": 600,
 		"embarkDefense": 13,
 		"startPercent": 65,
@@ -309,8 +319,8 @@
 		"iconRGB": [33, 150, 243],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			//"Starting in this era disables religion"
 		]
 	},
 	{
@@ -319,23 +329,25 @@
 		"startingSettlerCount": 3,
 		"startingWorkerCount": 3,
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Marine",
+		"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 400,
 		"startingCulture": 600,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
+			"Memorial",
 			"Monument",
-			"Granary",
-			"Lighthouse",
-			"Market",
-			"Workshop",
-			"Amphitheater",
-			"Barracks",
-			"Library",
-			"Colosseum",
-			"Theatre",
-			"Bank"
+			"Greenhouse",
+			"Survey Buoy",
+			"Pioneer Depot",
+			"Prefab Printer",
+			"Pioneer Speakeasy",
+			"Frontier Armament",
+			"Field Lab",
+			"Air Scrubber"
+			"Rec Area",
+			"Resource Market"
 		],
+		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
 			"Stonehenge",
@@ -371,6 +383,7 @@
 			"Neuschwanstein",
 			"Cristo Redentor"
 		],
+		*/
 		"baseUnitBuyCost": 1000,
 		"embarkDefense": 25,
 		"startPercent": 80,
@@ -397,8 +410,8 @@
 		"iconRGB": [76, 176, 81],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			//"Starting in this era disables religion"
 		]
 	}
 ]
