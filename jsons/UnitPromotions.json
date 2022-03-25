@@ -672,7 +672,7 @@
 	},
 	{
 		"name": "Spook",
-		"uniques": ["Ignores Zone of Control","Invisible to Others","May enter foreign tiles without open borders"]
+		"uniques": ["Ignores Zone of Control","Invisible to others","May enter foreign tiles without open borders"]
 	},
 	
 	{
