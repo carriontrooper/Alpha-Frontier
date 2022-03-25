@@ -6,7 +6,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
-			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-grafting]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"],
 		"shortcutKey": "F",
 		"civilopediaText": [{"text":"Rows upon rows of basic hydroponics, growing staple foods of old Earth"}]
@@ -18,7 +18,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenoagriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
-			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-grafting]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"],
 		//"shortcutKey": "F",
 		"civilopediaText": [{"text":"Rows upon rows of tilled, fertilized ground, growing local edible xenoflora and the few old Earth plants that could survive here"}]
@@ -166,7 +166,7 @@
 	},
 	{
 		"name": "Artificial Miasma",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium","Flood Plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mycelium","Flood plains"],
 		"turnsToBuild": 6,
 		"techRequired": "Frontier Armaments",
 		"uniques": ["Can be built outside your borders","Does not need removal of [Forest]","Does not need removal of [Jungle]","Gives a defensive bonus of [-15]%"],
