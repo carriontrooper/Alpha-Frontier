@@ -228,7 +228,12 @@
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": ["Xenobiology", "Habitation", "Xenogeology", "Engineering"],
+		"aiFreeTechs": [
+			"Xenobiology",
+			"Habitation",
+			"Xenogeology",
+			"Engineering"
+		],
 		"aiMajorCivBonusStartingUnits": [
 			"Colonizer",
 			"Worker",

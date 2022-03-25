@@ -693,7 +693,7 @@
 			"Must be adjacent to [0] to [6] [Mycelium] tiles",
 			"Must be adjacent to [0] to [6] [Plains] tiles"
 		],
-		"turnsInto": "Lake",
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10,
