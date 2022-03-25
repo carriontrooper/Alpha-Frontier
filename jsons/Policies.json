@@ -305,7 +305,7 @@
 	},
 	{
 		"name": "Ingenuity",
-		"era": "Colonial era",
+		"era": "Colonization era",
 		"uniques": ["[+1 Gold] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -357,7 +357,7 @@
 	},
 	{
 		"name": "Humanitarian",
-		"era": "Colonial era",
+		"era": "Colonization era",
 		"uniques": ["[+1 Faith] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -407,7 +407,7 @@
 	},
 	{
 		"name": "Ascendancy",
-		"era": "Colonial era",
+		"era": "Colonization era",
 		"uniques": ["[+1 Science] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -459,7 +459,7 @@
 	},
 	{
 		"name": "Influence",
-		"era": "Colonial era",
+		"era": "Colonization era",
 		"uniques": ["[+1 Culture] per [3] population [in all cities]"],
 		"policies": [
 			{
