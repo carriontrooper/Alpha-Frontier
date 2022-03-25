@@ -659,6 +659,10 @@
 		"uniques": ["[+15]% Strength"]
 	},
 	{
+		"name": "Hivemind Hijacker", // Surrogate Hivemind
+		"uniques": ["May capture killed [Xeno] units"]
+	},
+	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Tree of Worlds
 		"uniques": ["All healing effects doubled"]
 	},
