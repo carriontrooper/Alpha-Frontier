@@ -550,7 +550,7 @@
 				"name": "Psionics",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Mind Linking","Nerve Staple"]
+				"prerequisites": ["Mind Linking","Nerve Stapling"]
 			}
 			
 		]
@@ -584,7 +584,7 @@
 				"name": "Zero Point Energy",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Exotic Quantum Physics","Lossless Matter Converter"]
+				"prerequisites": ["Exotic Quantum Physics","Lossless Matter Conversion"]
 			},
 			{
 				"name": "Graviton Harnessing",
