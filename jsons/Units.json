@@ -2091,7 +2091,7 @@
 	{
 		"name": "Colonial Marine",
 		"replaces": "Colony Rifleman",
-		"uniqueTo": "Walpole-Yuen Inc.",
+		"uniqueTo": "Walpole-Yuen Inc",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 16,
