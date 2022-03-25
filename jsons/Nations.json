@@ -156,7 +156,7 @@
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
 
 		"outerColor": [128, 100, 55],
-		"innerColor": [255, 179, 0],
+		"innerColor": [245, 141, 66],
 		"favoredReligion": "Mormonism",
 		"uniqueName": "Belta Penal Code",
 		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
