@@ -300,7 +300,7 @@
 		"tradeRequest": "We think these will aid both of us.",
 
 		"outerColor": [182, 143, 255],
-		"innerColor": [35, 219, 115],
+		"innerColor": [1, 128, 56],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "Somatic Element",
 		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[20] HP when healing <for [Wounded] units>"],
