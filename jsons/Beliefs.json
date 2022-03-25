@@ -168,7 +168,7 @@
         "uniques": [
 //			"May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
 			"[+1 Faith] from every [Mercenary Offices] <in cities where this religion has at least [3] followers>",
-			"[10]% Strength <for units with [Mercenary] promotion> <when at war>"
+//			"[10]% Strength <for units with [Mercenary Pay] promotion> <when at war>"
 		]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
