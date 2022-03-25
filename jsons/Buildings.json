@@ -1332,7 +1332,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
@@ -1513,7 +1513,7 @@
 		"cityStrength": 50,
 		"cityHealth": 100,
 		"isWonder": true,
-		"uniques": ["[-20]% unhappiness from population [in all cities]"],
+		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Info Networks",
 		"quote": "'.' - "
 	},
