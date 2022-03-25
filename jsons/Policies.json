@@ -550,7 +550,7 @@
 				"uniques": [
 					"[+2 Happiness] per [4] population [in all cities] <when at war>"
 				],
-				"requires": ["Xenocide", "Supremacy"],
+				"requires": ["Pest Control", "Supremacy"],
 				"row": 2,
 				"column": 2
 			},
