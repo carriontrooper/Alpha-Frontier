@@ -2258,6 +2258,36 @@
 			}
 		]
 	},
+	
+	//// Satellite
+	{
+		"name": "Skyhammer",
+		"unitType": "Satellite",
+		"replaces": "Nuclear Satellite",
+		"uniqueTo": "Imperio di Uomo",
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 6,
+		"interceptRange": 0,
+		"cost": 1000,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Blast radius [2]",
+			"[+200]% Strength <vs [non-air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[+100]% Strength <vs cities>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Rods of solid tungsten-titanium alloy manufactured in orbit and attached to a system of powerfully precise deorbiting thrusters, this technically isn't a nuclear weapon - but it might as well be."
+			}
+		]
+	},
 
 	//// Mechs
 	{

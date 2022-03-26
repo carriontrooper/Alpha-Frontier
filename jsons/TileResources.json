@@ -726,6 +726,16 @@
 			}
 		]
 	},
+	{
+		"name": "Soma",
+		"food": 2,
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{
+				"text": "Somatek Biomedical's namesake, this long-extinct plant has been successfully recreated from fossilized pollen. It has various medicinal properties."
+			}
+		]
+	},
 
 	// CS Uniques
 
@@ -777,7 +787,7 @@
 	{
 		"name": "Promethine",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -818,7 +828,7 @@
 	{
 		"name": "Vitamass",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenobiology",
+		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",

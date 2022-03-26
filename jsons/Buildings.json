@@ -1298,6 +1298,242 @@
 			}
 		]
 	},
+	{
+		"name": "Deep Mining Station",
+		"replaces": "Mining Tunnels",
+		"uniqueTo": "Deep Rock Ganymede",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Stout Ale]",
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+2 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]",
+			"[+1 Production] from [Mineral] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": [
+			"Hexanite",
+			"Aluminum",
+			"Phostlite",
+			"Redstone",
+			"Gold Ore",
+			"Titanium"
+		],
+		"requiredTech": "Xenogeology",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Corpotown",
+		"replaces": "Pioneer Depot",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 2,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 25 },
+		"uniques": [
+			"Prefab",
+			"[Gold] cost of purchasing [Military] units [-20]%",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Offworld Industries]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Cryptocurrencies]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Metaverse]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Artificial Intelligence]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Lossless Matter Conversion]>"
+		],
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Soma Biolab",
+		"replaces": "Genetic Laboratory",
+		"uniqueTo": "Somatek Biomedical",
+		"faith": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"Provides [1] [Soma]",
+			"[+1 Science, +1 Food] from [Organic] tiles [in this city]"
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Robotics Testing Lab",
+		"replaces": "Research Laboratory",
+		"uniqueTo": "Skye Robotics",
+		"science": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 10 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Mycelium] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Infowarfare Division",
+		"uniqueTo": "Daikyu Boei Kikan",
+		"hurryCostModifier": 25,
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+20]% City Strength from defensive buildings",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Next-Gen Armaments",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Simchip Studio",
+		"uniqueTo": "Thespiaux Medianet",
+		"maintenance": 1,
+		"culture": 4,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Influencer": 1 },
+		"requiredBuilding": "Pioneer Speakeasy",
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can be purchased for [100] [Culture] [in all cities]"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Xenoid Barracks",
+		"replaces": "Frontier Armory",
+		"uniqueTo": "Xenoidid Empire",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Infantry] units start with [15] Experience [in this city]",
+			"New [Stealth Infantry] units start with [15] Experience [in this city]",
+			"New [Tame Xeno] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Frontier Armaments",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Interspecies Parliament",
+		"replaces": "Bureaucratic Office",
+		"uniqueTo": "Xenoidid Empire",
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "production": 10, "gold": 10 },
+		"requiredTech": "Colony Administration",
+		"uniques": [
+			"[+1 Happiness] per [4] population [in this city]"
+		]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Expansion Bureau",
+		"replaces": "Bureaucratic Office",
+		"uniqueTo": "Xingxing Fazhan Bu",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "production": 10, "gold": 10 },
+		"requiredTech": "Colony Administration",
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+		]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Aerodrome",
+		"replaces": "Aerocraft Hangar",
+		"uniqueTo": "Blue Streak Aerodynamics",
+		"cost": 120,
+		"Gold": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 10 },
+		"uniques": [
+			"New [Air] units start with [30] Experience [in this city]"
+		],
+		"requiredTech": "Aeronautics",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Mechbay",
+		"replaces": "Mechanized Unit Facility",
+		"uniqueTo": "Jaeger Engineering",
+		"cost": 80,
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
+			"New [Armored] units start with [15] Experience [in this city]",
+			"New [Close Range Mech] units start with [15] Experience [in this city]",
+			"New [Ranged Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Composite Armor",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	// National Wonders
 	{
