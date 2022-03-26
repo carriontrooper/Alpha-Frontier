@@ -89,6 +89,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 50,
+		"requiredTech": "Next-Gen Armaments",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
