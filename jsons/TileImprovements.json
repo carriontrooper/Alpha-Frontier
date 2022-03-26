@@ -477,7 +477,7 @@
 		]
 	},
 	{
-		"name": "Cultural site",
+		"name": "Cultural Site",
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
@@ -492,7 +492,7 @@
 		]
 	},
 	{
-		"name": "Industrial district",
+		"name": "Industrial District",
 		"production": 4,
 		"uniques": [
 			"Great Improvement",
@@ -506,7 +506,7 @@
 		]
 	},
 	{
-		"name": "Trade center",
+		"name": "Trade Center",
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
@@ -520,7 +520,7 @@
 		]
 	},
 	{
-		"name": "Visionary site",
+		"name": "Visionary Site",
 		"faith": 6,
 		"uniques": ["Great Improvement"],
 		"civilopediaText": [
