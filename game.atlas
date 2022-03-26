@@ -1642,7 +1642,7 @@ TileSets/FantasyHex/Units/Combat Rover
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Constructor
+TileSets/FantasyHex/Units/Worker
   rotate: false
   xy: 1852, 236
   size: 32, 28
