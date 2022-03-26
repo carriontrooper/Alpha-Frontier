@@ -726,6 +726,16 @@
 			}
 		]
 	},
+	{
+		"name": "Soma",
+		"food": 2,
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{
+				"text": "Somatek Biomedical's namesake, this long-extinct plant has been successfully recreated from fossilized pollen. It has various medicinal properties."
+			}
+		]
+	},
 
 	// CS Uniques
 
