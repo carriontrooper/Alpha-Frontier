@@ -46,6 +46,7 @@
 		"movement": 1,
 		"strength": 50,
 		"cost": 100,
+		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
@@ -66,6 +67,7 @@
 		"movement": 0.5,
 		"strength": 50,
 		"cost": 100,
+		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
@@ -125,6 +127,7 @@
 		"strength": 20,
 		"rangedStrength": 24,
 		"cost": 100,
+		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Infantry] units>",
@@ -164,6 +167,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
+		"requiredTech": "Exoskeletons",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
@@ -222,6 +226,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 100,
+		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno",
 			"[90]% chance to intercept air attacks",
