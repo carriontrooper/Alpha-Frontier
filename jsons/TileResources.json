@@ -787,7 +787,7 @@
 	{
 		"name": "Promethine",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -828,7 +828,7 @@
 	{
 		"name": "Vitamass",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenobiology",
+		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
