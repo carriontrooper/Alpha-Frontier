@@ -173,8 +173,8 @@
 		"turnsToBuild": 8,
 		"uniques": [
 			"Only available <after adopting [Xeno-Cooperation]>",
-			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Genetic Hybridization]>",
-			"[+1 Culture] from [Xeno Sanctuary] tiles <after discovering [Designer Lifeforms]>"
+			"[+1 Culture] <after discovering [Genetic Hybridization]>",
+			"[+1 Culture] <after discovering [Designer Lifeforms]>"
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -543,6 +543,134 @@
 			},
 			{
 				"text": "Constructing it will take over the tiles around it and assign them to your closest city"
+			}
+		]
+	},
+	
+	// Nation Uniques
+	{
+		"name": "Mining Camp",
+		"uniqueTo": "Belta V Offworld Mining",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Xenogeology",
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"[+1 Production] <after discovering [Offworld Industries]>",
+			"[+1 Production] <after discovering [Crust Fracking]>"
+		],
+		//"shortcutKey": "M",
+		"civilopediaText": [
+			{
+				"text": "Convicts toil away at these cheap but defensive sites, extracting mineral resources for the company"
+			}
+		]
+	},
+	{
+		"name": "Biodome City",
+		"replaces": "Academy",
+		"uniqueTo": "Somatek Biomedical",
+		"science": 8,
+		"food": 5,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Science] <after discovering [Research Networks]>",
+			"[+2 Science] <after discovering [Quantum Theory]>",
+			"[+2 Science] <after discovering [Artificial Intelligence]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Under the dome, a bustling, eco-friendly city thrives. Various flora are cultivated on the buildings themselves, providing food to the masses. And of course, the laboratories and educational services are integrated into daily life here"
+			}
+		]
+	},
+	{
+		"name": "Holorelay",
+		"uniqueTo": "Thespiaux Medianet",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Tundra",
+			"Mycelium"
+		],
+		"gold": 2,
+		"culture": 2,
+		"faith": 2,
+		"turnsToBuild": 8,
+		"uniques": [
+			"[+1 Culture] from [Holorelay] tiles <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
+			"[+1 Culture] from [Holorelay] tiles <after discovering [Net Culture]>",
+			"[+1 Culture] from [Holorelay] tiles <after discovering [Posthumanist Culture]>"
+		],
+		//"shortcutKey": "F",
+		"civilopediaText": [
+			{
+				"text": "Relay towers which light up with advertisement hologramss that also appear in augmented reality and virtual reality. They also depict Thespiaux-endorsed influencers and idols, promoting them far and wide"
+			}
+		]
+	},
+	{
+		"name": "Waystation",
+		"uniqueTo": "Badwalmusafir",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+			"Tundra",
+			"Mycelium",
+			"Snow"
+		],
+		"turnsToBuild": 6,
+		"uniques": [
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Waystation] tiles>", // can't be built next to each other
+			"[+1 Food] <with [1] to [6] neighboring [Plains] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Grassland] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Forest] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Hydroponics Field] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Agri Farm] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Terraboretum] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Lakes] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Aquaculture] tiles>",
+			"[+1 Food, +1 Gold] <with [1] to [6] neighboring [Oasis] tiles>",
+			"[+1 Food, +1 Gold] <with [1] to [6] neighboring [Polar Oasis] tiles>",
+			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Forestry Camp] tiles>",
+			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Enclosure] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Hill] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Mountain] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Mine] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Quarry] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Offshore Platform] tiles>",
+			"[+1 Production, +1 Gold] <with [1] to [6] neighboring [Derrick] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Desert] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Snow] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Server Farm] tiles>",
+			"[+1 Science] <with [1] to [6] neighboring [Mycelium] tiles>",
+			"[+1 Science] <with [1] to [6] neighboring [Tundra] tiles>",
+			"[+1 Science] <with [1] to [6] neighboring [Jungle] tiles>",
+			"[+1 Science] <with [1] to [6] neighboring [Research Base] tiles>",
+			
+			//cut the entries above if too OP
+			"[+1 Food] <with [1] to [6] neighboring [Organic] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Metallic] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Gemlike] tiles>",
+			
+			//cut the entries above if still too OP
+			"[+1 Faith] <with [1] to [6] neighboring [Water resource] tiles>",
+			"[+1 Faith] <with [1] to [6] neighboring [Bonus resource] tiles>",
+			"[+1 Faith] <with [1] to [6] neighboring [Luxury resource] tiles>",
+			"[+1 Faith] <with [1] to [6] neighboring [Strategic resource] tiles>"
+			
+		],
+		//"shortcutKey": "F",
+		"civilopediaText": [
+			{
+				"text": "A small complex of habitation, regularly stocked with local supplies to aid any Nomad on their journeys"
 			}
 		]
 	},
