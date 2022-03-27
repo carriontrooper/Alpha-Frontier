@@ -396,7 +396,7 @@
 		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
 
 		"outerColor": [43, 55, 66],
-		"innerColor": [162, 0, 255],
+		"innerColor": [8, 61, 255],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "We are Soldiers, Stand or Die",
 		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs <to [All] units>"],
