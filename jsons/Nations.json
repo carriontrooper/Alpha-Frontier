@@ -206,7 +206,7 @@
 		"outerColor": [217, 56, 7],
 		"innerColor": [255, 218, 31],
 		"favoredReligion": "Cosmic Clergy",
-		"uniqueName": "Rock and Stone to the Bone",
+		"uniqueName": "Rock Solid",
 		"uniques": ["[+20]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
 		"cities": [
 			"Koganusan",
@@ -327,6 +327,241 @@
 			"New Tamilpur"
 		]
 	},
+	{
+		"name": "Skye Robotics",
+		"leaderName": "Gladys Winters",
+		"adjective": ["Skye"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Greetings be upon you, Director Gladys Winters of Skye Robotics. Although the earliest data about your company was unavailable, it rose to prominence in the beginning of the collapse of old Earth as an independent robotics provider. Your company made various kinds of robots to help the ailing humanity - from automated construction vehicles to toys for refugee children. From the profits, you created a spaceship and crewed it with engineers and scientists, aimed at the stars to learn more about the human condition.",
+		"startIntroPart2": "Gladys, your engineers and scientists await for your benevolent direction. Will you lead them to interesting new directions? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "The time has come for you to be assimilated. Resistance is futile.",
+		"attacked": "So be it. Activate our military production lines.",
+		"defeated": "My backups are secure. This will not be the last time you've seen me.",
+		"introduction": "Hello, and welcome to Skye Robotics. I am director Gladys Winters, pleased to make your acquaintance.",
+
+		"neutralHello": "Oh? What is it that you require?",
+		"hateHello": "Oh, it's just you. State your business.",
+
+		"tradeRequest": "Perhaps some trade would be in order.",
+
+		"outerColor": [230, 243, 245],
+		"innerColor": [22, 116, 204],
+		"favoredReligion": "Mekhaneites",
+		"uniqueName": "The Future is Chrome",
+		"uniques": ["Double quantity of [Titanium] produced","Double quantity of [Ulframite] produced","[+1 Science] from all [Science] buildings"],
+		"cities": [
+			"Terminal Aperture",
+			"District 01",
+			"District 02",
+			"District 03",
+			"District 04",
+			"District 05",
+			"District 06",
+			"District 07",
+			"District 08",
+			"District 09",
+			"District 10",
+			"District 11",
+			"District 12",
+			"District 13",
+			"District 14",
+			"District 15",
+			"District 16",
+			"District 17",
+			"District 18",
+			"District 19"
+		]
+	},
+	
+	{
+		"name": "Daikyu Boei Kikan",
+		"leaderName": "Chihiro Kusanagi",
+		"adjective": ["Daikyu"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Salutations, Major Chihiro Kusanagi of the Daikyu Boei Kikan. A quasi-espionage agency operating in the East Asian region of old Earth, its role expanded into covert paramilitary action during the collapse. As the refugees and wars creep closer, you've decided to convert your secret space station into a covert colony ship - to spy upon new worlds.",
+		"startIntroPart2": "Major Chihiro, your agents await your orders. Will you be able to defend the peace in this new world? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "We have decided to mobilize against you. The reason? I'm afraid it's on a need-to-know basis.",
+		"attacked": "We've anticipated that. All teams are free to attack.",
+		"defeated": "I must admit, you are a worthy foe. Now let's end this charade.",
+		"introduction": "Communications established. This is Major Chihiro Kusanagi of the Daikyu Boei Kikan - the Ninth Defense Agency. We've had eyes on you for a while.",
+
+		"neutralHello": "Commlink secure. Hailing frequencies open.",
+		"hateHello": "Hostile communication detected. Establishing firewalls.",
+
+		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
+
+		"outerColor": [43, 55, 66],
+		"innerColor": [162, 0, 255],
+		"favoredReligion": "Virtualism",
+		"uniqueName": "We are Soldiers, Stand or Die",
+		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs <to [All] units>"],
+		"cities": [
+			"Niihama New Port City",
+			"Aramaki-Cho",
+			"Batou-Cho",
+			"Togusa-Cho",
+			"Ishikawa-Cho",
+			"Borma-Cho",
+			"Pazu-Cho",
+			"Saito-Cho",
+			"Azuma-Cho",
+			"Yano-Cho",
+			"Proto-Kenkyujo",
+			"Tachikoma-Cho",
+			"Uchikoma-Cho",
+			"Harima City",
+			"Dejima Gunkan"
+		]
+	},
+	{
+		"name": "Einherjar Diktat",
+		"leaderName": "Gregor Radec",
+		"adjective": ["Einherjar"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Hail, Diktat Gregor Radec of the Einherjar Diktat! Ever since your beginnings as a mercenary operating in the ice mines of Europa, you've steadily built up a loyal and dangerous following. As you seized power over Europa during the Jovian unrests, you've also begun to build your own spaceship - to further the reach of the Diktat far into space.",
+		"startIntroPart2": "Diktat Gregor, your troops are itching for a worthy fight in this new planet. Will you subjugate this world into the Diktat's fold? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Your nation is next on the list. Let us let loose the dogs of war!",
+		"attacked": "Did you think this mere gesture would save you from our wrath?",
+		"defeated": "At last, we are truly free.",
+		"introduction": "This is the Einherjar Diktat. I am Diktat Gregor Radec. Stand down or be reaped.",
+
+		"neutralHello": "Ah, good. Speak, friend.",
+		"hateHello": "Speak.",
+
+		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Voidist",
+		"uniqueName": "The Hounds of War",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","+30% Strength when fighting City-State units and cities"],
+		"cities": [
+			"Ragnarok's Fist",
+			"Jotunheim",
+			"Solstenheim",
+			"Val-Halla",
+			"Bifrost Gap",
+			"Jormungand's Maw",
+			"Amsvartnir",
+			"Eljudnir",
+			"Folkvangr",
+			"Vaygr Reach",
+			"Gjallarbru",
+			"Helheim",
+			"Hvelgelmir",
+			"Lyngvi Kennel",
+			"Niflheim",
+			"Muspelheim",
+			"Svartalfheim",
+			"Urdarbrunn",
+			"Valgrind",
+			"Noatun"
+		]
+	},
+	{
+		"name": "Thespiaux Medianet",
+		"leaderName": "Camille Jourdain",
+		"adjective": ["Thespiaux"],
+		"startBias": ["Coastal"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "Bonjour, Camille Jourdain, head of Thespiaux Medianet! Rising from a small news outlet into a major media player in old Earth's Europe, your network has entertained, informed and shaped opinions of millions around the world and beyond. Your cameras had captured the pandemics of Asia, the worsening climate change, the Jovian unrest, and as a last broadcast on old Earth: the launch of your own colony ship. Packed with the most creative minds from around the world, you seek to document and air the entirety of your colony-building efforts.",
+		"startIntroPart2": "Camille, your people is brimming with creative potential, waiting to be unleashed upon the blank canvas that is this new world. Will you become a new beacon of culture? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Our ratings has decided, a heroic, gallant war is what the masses want! I hope you'd put on a good show for the camera!",
+		"attacked": "Oh, oh! You dare attack moi?! This cannot go unanswered!",
+		"defeated": "C'est la vie, or so they say... and that's a wrap.",
+		"introduction": "Ah, how wonderful to meet you! I am Camille Jourdain, and this is my network, Thespiaux Medianet. We have such sights to show you!",
+
+		"neutralHello": "Greetings, salutations, and good day! What brings you before me today?",
+		"hateHello": "Did I ever tell you that you look bad in that angle?",
+
+		"tradeRequest": "It seems like a great time for an exchange, wouldn't you agree?",
+
+		"outerColor": [138, 51, 189],
+		"innerColor": [255, 179, 252],
+		"favoredReligion": "Neo-Monolith",
+		"uniqueName": "All the World's a Stage",
+		"uniques": ["[-50]% City-State Influence degradation","[+50]% Golden Age length"],
+		"cities": [
+			"New Lutetia",
+			"Cousteau City",
+			"De Gaulle City",
+			"Lumiere City",
+			"Vercingetorix City",
+			"Derrida City",
+			"Descartes City",
+			"Le Corbusier City",
+			"Eiffel City",
+			"Curie City",
+			"Depardieu City",
+			"Marceau City",
+			"Perrault City",
+			"Garnier City",
+			"Cezanne City",
+			"Degas City",
+			"Gauguin City",
+			"Seurat City",
+			"Matisse City",
+			"Duchamp City"
+		]
+	},
+	{
+		"name": "Badwalmusafir",
+		"leaderName": "Igider Zeroual",
+		"adjective": ["Musafir"],
+		"startBias": ["Desert"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Azul, Igider Zeroual of the Badwalmusafir. A true visionary among the waves of refugees in the wake of the societal collapse of old Earth, you have amassed a devout following by promoting a nomadic way of life. Your wanderings took you places you never even believed existed before - and when your followers created a colony ship to wander the stars with, you did not hesitate to go.",
+		"startIntroPart2": "Igider, your nomads seek to roam on a better place. Will you lead them to new vistas full of distant sights? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "It is time for these restraining borders to disappear, starting with yours.",
+		"attacked": "Trespassing, are we?",
+		"defeated": "This may be where my mortal tracks stop - but my next leg of the journey had just begun.",
+		"introduction": "Hail, traveler! If you must ask, I am called Igider Zeroual. I walk with the Badwalmusafir.",
+
+		"neutralHello": "Mataanit, how are you?",
+		"hateHello": "Huh?",
+
+		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
+
+		"outerColor": [201, 175, 113],
+		"innerColor": [255, 246, 212],
+		"favoredReligion": "Nomadist",
+		"uniqueName": "Eternal Caravan",
+		"uniques": ["City-State territory always counts as friendly territory","[+1] Movement <for [Land] units>"],
+		"cities": [
+			"Netmezra",
+			"Tenere",
+			"Tifawin",
+			"Timensiwin",
+			"Tanemmirt",
+			"Timlilit",
+			"Igerrez",
+			"Tam",
+			"Maghrebi",
+			"Akras",
+			"Yamrayur",
+			"Tafsut",
+			"Azegzaw",
+			"Timidi",
+			"Ngiit",
+			"Aynas",
+			"Kuzyur",
+			"Tamyur",
+			"Tagrest",
+			"Amwan"
+		]
+	},
 
 	// Outposts
 	{
@@ -341,11 +576,51 @@
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Neo-Hedonist Enclave"]
-	}
+	},
+	{
+		"name": "Brotherhood of Dada",
+		"adjective": ["Dadaist"],
+		"cityStateType": "Cultured",
+		"startBias": ["Mycelium"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Brotherhood of Dada"]
+	},
+	{
+		"name": "Saudade West",
+		"adjective": ["Saudadin"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coastal"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Saudade West"]
+	},
+	{
+		"name": "Virtual Babylon",
+		"adjective": ["Virtual Babylon"],
+		"cityStateType": "Cultured",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Virtual Babylon"]
+	},
+	
 	{
 		"name": "Demeter Commune",
 		"adjective": ["Demeter"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Maritime",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -354,7 +629,47 @@
 		"outerColor": [50, 50, 50],
 		"innerColor": [114, 222, 55],
 		"cities": ["Demeter Commune"]
-	}
+	},
+	{
+		"name": "Neo-Amish",
+		"adjective": ["Neo-Amish"],
+		"cityStateType": "Maritime",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Neo-Amish"]
+	},
+	{
+		"name": "Indomie Corporation",
+		"adjective": ["Indomie"],
+		"cityStateType": "Maritime",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Indomie Corporation"]
+	},
+	{
+		"name": "Fiddler's Green",
+		"adjective": ["Fiddler"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coastal"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Fiddler's Green"]
+	},
+	
 	{
 		"name": "Sputnik Outpost",
 		"adjective": ["Sputnikian"],
@@ -369,6 +684,33 @@
 		"cities": ["Sputnik Outpost"]
 	},
 	{
+		"name": "Vega Casino Town",
+		"adjective": ["Vega"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Vega Casino Town"]
+	},
+	{
+		"name": "Samarkandi Clanhome",
+		"adjective": ["Samarkandi"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Samarkandi Clanhome"]
+	},
+	
+	{
 		"name": "Eglon Base",
 		"adjective": ["Eglon"],
 		"cityStateType": "Militaristic",
@@ -382,6 +724,33 @@
 		"cities": ["Eglon Base"]
 	},
 	{
+		"name": "Soldados Vagabundos",
+		"adjective": ["Vagabundo"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Jungle"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Soldados Vagabundos"]
+	},
+	{
+		"name": "Northfrost Paramilitary",
+		"adjective": ["Northfrost"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Northfrost Paramilitary"]
+	},
+	
+	{
 		"name": "Yahiro-Dono Sanctuary",
 		"adjective": ["Yahiro-Dono"],
 		"cityStateType": "Religious",
@@ -393,6 +762,32 @@
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Yahiro-Dono Sanctuary"]
+	},
+	{
+		"name": "Gospodnik Hallow",
+		"adjective": ["Gospodnik"],
+		"cityStateType": "Religious",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Gospodnik Hallow"]
+	},
+	{
+		"name": "Greenhome Compound",
+		"adjective": ["Greenhome"],
+		"cityStateType": "Religious",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Greenhome Compound"]
 	},
 
 	// Barbarian
