@@ -1292,7 +1292,7 @@ TileSets/FantasyHex/Tiles/BasaltQuarry
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/BenthicOrbs
+TileSets/FantasyHex/Tiles/Benthic Orbs
   rotate: false
   xy: 1840, 1906
   size: 32, 28
@@ -1362,7 +1362,7 @@ TileSets/FantasyHex/Tiles/Coast
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/CrashSite
+TileSets/FantasyHex/Tiles/Crash site
   rotate: false
   xy: 1124, 1150
   size: 32, 28
@@ -1390,7 +1390,7 @@ TileSets/FantasyHex/Tiles/Exotic Fruits
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/FloodPlains
+TileSets/FantasyHex/Tiles/Flood Plains
   rotate: false
   xy: 1732, 1762
   size: 32, 28
@@ -1586,7 +1586,7 @@ TileSets/FantasyHex/Tiles/Plankton
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/PolarOasis
+TileSets/FantasyHex/Tiles/Polar Oasis
   rotate: false
   xy: 220, 106
   size: 32, 28
@@ -1621,7 +1621,7 @@ TileSets/FantasyHex/Tiles/Ruby Cactus
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/SeaSlivers
+TileSets/FantasyHex/Tiles/Sea Slivers
   rotate: false
   xy: 908, 862
   size: 32, 28
@@ -1649,7 +1649,7 @@ TileSets/FantasyHex/Tiles/SilicaQuarry
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/SindrianLobster
+TileSets/FantasyHex/Tiles/Sindrian Lobster
   rotate: false
   xy: 988, 934
   size: 32, 28
