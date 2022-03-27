@@ -126,7 +126,7 @@
 				"name": "Astronomy",
 				"row": 1,
 				"quote": "'Over here as it was over there, the same stars shine down on us. Well, you get the gist of it.' - Pavel Samurov, explorer",
-				"prerequisites": ["Hydrodynamics"],
+				"prerequisites": ["Hydrodynamics","Hovercrafts"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
 					"Enables [Embarked] units to enter ocean tiles"
@@ -170,7 +170,7 @@
 				"name": "Military Ballistics",
 				"row": 10,
 				"quote": "'You see, these are good guns, they shoot straight. Good to have when the neighbors get uppity.' - Derek Mbata, garrison commander",
-				"prerequisites": ["Frontier Armaments"]
+				"prerequisites": ["Frontier Armaments","Robotics"]
 			}
 		]
 	},
@@ -284,7 +284,7 @@
 				"name": "Genetics",
 				"row": 3,
 				"quote": "'Once I finish decoding these sequences, we'll finally solve that nature versus nurture problem.' - Savitri Kumar, xenobiologist",
-				"prerequisites": ["Xeno-Medicine"]
+				"prerequisites": ["Xeno-Medicine","Info Networks"]
 			},
 			{
 				"name": "Cryptocurrency",
@@ -336,7 +336,7 @@
 				"name": "Orbital Deterrents",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Satellite Networks"]
+				"prerequisites": ["Satellite Networks","Lasers"]
 			},
 			{
 				"name": "Cloning",
@@ -391,14 +391,14 @@
 				"prerequisites": ["Info Networks"]
 			},
 			{
-				"name": "Xenoarcheology",
+				"name": "Xenoarchaeology",
 				"row": 6,
 				"quote": "'.' - ",
 				"prerequisites": ["Satellite Networks", "Net Culture"]
 			},
 			{
 				"name": "Virtual Drugs",
-				"row": 7,
+				"row": 9,
 				"quote": "'.' - ",
 				"prerequisites": ["Cybernetics", "Net Culture"]
 			},
@@ -434,7 +434,7 @@
 				"name": "Genetic Hybridization",
 				"row": 3,
 				"quote": "'.' - ",
-				"prerequisites": ["Cloning"]
+				"prerequisites": ["Cloning","Xenoarchaeology"]
 			},
 			{
 				"name": "Quantum Computing",
@@ -446,13 +446,13 @@
 				"name": "Xeno Psychology",
 				"row": 6,
 				"quote": "'.' - ",
-				"prerequisites": ["Xenoarcheology"]
+				"prerequisites": ["Xenoarchaeology"]
 			},
 			{
 				"name": "Terraforming",
 				"row": 7,
 				"quote": "'.' - ",
-				"prerequisites": ["Crust Fracking", "Xenoarcheology"]
+				"prerequisites": ["Crust Fracking", "Xenoarchaeology"]
 			},
 			{
 				"name": "Cyberbrains",
@@ -531,7 +531,7 @@
 				"name": "Designer Lifeforms",
 				"row": 3,
 				"quote": "'.' - ",
-				"prerequisites": ["Genetic Hybridization"]
+				"prerequisites": ["Genetic Hybridization","Artificial Intelligence"]
 			},
 			{
 				"name": "Exotic Quantum Physics",
