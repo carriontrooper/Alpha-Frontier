@@ -263,7 +263,7 @@
 				"name": "Strike Drones",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Aerial Drones","Missiles"]
+				"prerequisites": ["Aeronautics","Missiles"]
 			},
 			{
 				"name": "Next-Gen Armaments",
