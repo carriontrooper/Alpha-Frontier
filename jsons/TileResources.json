@@ -897,7 +897,7 @@
 	{
 		"name": "Antimatter", // doesn't generate naturally
 		"resourceType": "Strategic",
-		// "revealedBy": "Writing",
+		"revealedBy": "Quantum Theory",
 		"civilopediaText": [
 			{
 				"text": "Matter that are composed of antiparticles, these do not occur naturally. They contain vast and terrible amounts of energy, especially when reacting to normal matter."
