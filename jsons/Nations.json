@@ -396,7 +396,7 @@
 		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
 
 		"outerColor": [43, 55, 66],
-		"innerColor": [8, 61, 255],
+		"innerColor": [126, 192, 253],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "We are Soldiers, Stand or Die",
 		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs <to [All] units>"],
@@ -438,8 +438,8 @@
 
 		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [109, 145, 145],
+		"innerColor": [209, 50, 50],
 		"favoredReligion": "Voidist",
 		"uniqueName": "The Hounds of War",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","+30% Strength when fighting City-State units and cities"],
