@@ -261,9 +261,9 @@
 			},
 			{
 				"name": "Strike Drones",
-				"row": 9,
+				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Aerial Drones"]
+				"prerequisites": ["Aerial Drones","Missiles"]
 			},
 			{
 				"name": "Next-Gen Armaments",
@@ -440,7 +440,7 @@
 				"name": "Quantum Computing",
 				"row": 5,
 				"quote": "'.' - ",
-				"prerequisites": ["Quantum Theory"]
+				"prerequisites": ["Quantum Theory","Metaverse"]
 			},
 			{
 				"name": "Xeno Psychology",
