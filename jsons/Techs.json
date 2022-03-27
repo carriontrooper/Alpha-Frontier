@@ -284,7 +284,7 @@
 				"name": "Genetics",
 				"row": 3,
 				"quote": "'Once I finish decoding these sequences, we'll finally solve that nature versus nurture problem.' - Savitri Kumar, xenobiologist",
-				"prerequisites": ["Xeno-Medicine","Info Networks"]
+				"prerequisites": ["Xeno-Medicine","Stable Fission Power"]
 			},
 			{
 				"name": "Cryptocurrency",
