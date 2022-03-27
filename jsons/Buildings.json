@@ -1750,7 +1750,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[-25]% tile improvement construction time",
-			"[2] free [Constructor] units appear"
+			"[2] free [Worker] units appear"
 		],
 		"requiredTech": "Crust Fracking",
 		"quote": "'.' - "

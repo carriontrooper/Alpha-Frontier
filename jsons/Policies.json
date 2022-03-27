@@ -85,7 +85,7 @@
 				"name": "City Planning",
 				"uniques": [
 					"[+5]% Production when constructing [All] buildings [in all cities]",
-					"Free [Constructor] appears"
+					"Free [Worker] appears"
 				],
 				"requires": ["Centralization"],
 				"row": 2,

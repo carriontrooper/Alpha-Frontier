@@ -334,7 +334,7 @@
 			"Flood plains"
 		],
 		"turnsToBuild": 6,
-		"techRequired": "Frontier Armaments",
+		"techRequired": "Xeno-Medicine",
 		"uniques": [
 			"Can be built outside your borders",
 			"Does not need removal of [Forest]",
