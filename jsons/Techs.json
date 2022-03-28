@@ -203,13 +203,13 @@
 				"name": "Aeronautics",
 				"row": 2,
 				"quote": "'.' - ",
-				"prerequisites": ["Astronomy","Aerial Drones"]
+				"prerequisites": ["Synthetic Materials","Aerial Drones"]
 			},
 			{
 				"name": "Offworld Industries",
 				"row": 4,
 				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
-				"prerequisites": ["Deep Resource Scanning"],
+				"prerequisites": ["Deep Resource Scanning","Xeno-Grafting"],
 				"uniques": ["Enables conversion of city production to gold"]
 			},
 			{
@@ -272,6 +272,12 @@
 				"prerequisites": ["Hab-Domes", "Research Networks"]
 			},
 			{
+				"name": "Alloy Microstructures",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Offworld Industries","Missiles"]
+			},
+			{
 				"name": "Strike Drones",
 				"row": 9,
 				"quote": "'.' - ",
@@ -326,7 +332,7 @@
 				"name": "Composite Armor",
 				"row": 9,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments", "Synthetic Materials"]
+				"prerequisites": ["Next-Gen Armaments", "Carbon Aerogel"]
 			},
 			{
 				"name": "Exoskeletons",
