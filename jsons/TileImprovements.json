@@ -246,7 +246,7 @@
 		"name": "Aquaculture",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"food": 1,
-		"techRequired": "Xenobiology",
+		"techRequired": "Xenoagriculture",
 		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
 		"civilopediaText": [
 			{ "text": "A place to cultivate the organic riches of the sea" }
@@ -600,6 +600,7 @@
 		"culture": 2,
 		"faith": 2,
 		"turnsToBuild": 8,
+		"techRequired": "Info Networks",
 		"uniques": [
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Net Culture]>",
@@ -625,7 +626,7 @@
 			"Snow"
 		],
 		"turnsToBuild": 6,
-		"techRequired": "Pioneer Administration",
+		"techRequired": "Portable Power Sources",
 		"uniques": [
 			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Waystation] tiles>", // can't be built next to each other
 			"[+1 Food] <with [1] to [6] neighboring [Plains] tiles>",
