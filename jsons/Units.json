@@ -771,7 +771,7 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 250,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+1] Sight",
@@ -795,7 +795,7 @@
 		"strength": 30,
 		"rangedStrength": 35,
 		"cost": 275,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+2] Sight",
@@ -1758,7 +1758,7 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 250,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
