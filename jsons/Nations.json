@@ -626,6 +626,246 @@
 			"Ovipostor"
 		]
 	},
+	{
+		"name": "Imperio di Uomo",
+		"leaderName": "Cain Stalia",
+		"adjective": ["Imperio"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Ave, true to Cain Stalia! Imperator of the Imperio di Uomo, subjugator of cities. Ever since the collapse ocurred, you've established yourself as a warlord, amassing military might to protect your people. Then, you sought to civilize the devastated states around you, and went on a ten-year campaign to unite most of old Earth's Balkans, South and East Europe under your banner. For a while, your empire porspers, a beacon of martial civility among the ruins. When the climate began to take a turn for the worse, you've managed to build a magnificent colony ship, ready for an exodus to preserve humanity across the stars.",
+		"startIntroPart2": "Imperator Cain, your people represent the purity of humanity's ideals. Will you conquer this planet under Humanity's banner? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "It is time to unleash the full might of Humanity on you!",
+		"attacked": "Fools! You've risked your own nation by doing so!",
+		"defeated": "As thus to tyrants, I see.",
+		"introduction": "Ave! You are in the presence of Imperator Cain Stalia. Know that the Imperio di Uomo salutes you, stranger.",
+
+		"neutralHello": "Ave. The Imperator is listening.",
+		"hateHello": "You dare show your face here?",
+
+		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
+
+		"outerColor": [255, 136, 0],
+		"innerColor": [232, 0, 0],
+		"favoredReligion": "Gene Purists",
+		"uniqueName": "Humanity's Fist",
+		"uniques": ["[50]% Strength <vs cities>","Double movement in [All Road]"],
+		"cities": [
+			"Nuova Roma",
+			"Secundus",
+			"Tertius",
+			"Juno Vallis",
+			"Rubrum Collis",
+			"Metropoli Rossa",
+			"Victoria",
+			"Legatum Terrae",
+			"Pompam Causam",
+			"Militum Oppidum",
+			"Castra Montis",
+			"Gloria Humanitatis",
+			"Humanitatis Potentia",
+			"Ingenium",
+			"Sanguis Vires",
+			"Bellum Campum",
+			"Tonitrum Fulgrum",
+			"Pugnus Civitas",
+			"Durum Municipum",
+			"Parvos Oppidum"
+		]
+	},
+	{
+		"name": "Xingxing Fazhan Bu",
+		"leaderName": "Xu Jianhong",
+		"adjective": ["Fazhan"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Ni Hao, Xu Jianhong of Xingxing Fazhan Bu - the Ministry of Planetary Development. Your ministry arose in the East Asia region of old Earth, anticipating an early rush for space colonization - alas, the collapse had complicated things. Instead, your ministry had turned into one dedicated for the development and defense of the people, focusing on the protection of civilians in the inscreasingly chaotic times. However, the original intent still lives on, and eventually the Ministry had managed to create a colony ship of their own. Now, the Ministry has found a foothold in this new world, ready to finally fulfill their original purpose.",
+		"startIntroPart2": "Administrator Xu, . Can you build a colony that stands the test of time?",
+
+		"declaringWar": "The Ministry has decided it would be expedient to annex your nation. Here are the documents to legitimize this war - you don't have to sign, by the way.",
+		"attacked": "Aha ha ha, don't you know the Ministry specializes in defense and protection?",
+		"defeated": "Aiya, I'll be doing the paperwork on this for months!",
+		"introduction": "Ah, ni hao, ni hao. Administrator Xu Jianhong at your service, what is your business with the Ministry of Planetary Development?",
+
+		"neutralHello": "Ni hao, what is today's business?",
+		"hateHello": "Oh great, more paperwork. What is it?",
+
+		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
+
+		"outerColor": [198, 207, 37],
+		"innerColor": [53, 99, 0],
+		"favoredReligion": "Solar Mass",
+		"uniqueName": "Protection Intitative",
+		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","+[20]% Strength if within [1] tiles of a [Fort]"],
+		"cities": [
+			"Xinxing Duhui",
+			"He Cheng",
+			"Tianshan",
+			"Shaqiu Cheng",
+			"Fanrong Chengshi",
+			"Gongye Qu",
+			"Dong Zhen",
+			"Hong Bao",
+			"Shangmao Cheng",
+			"Meide He",
+			"Xin Fazhan",
+			"Hao Diqiu",
+			"Heping Zhen",
+			"Jinshan",
+			"Yinshan",
+			"Kuai Yao Shan",
+			"Xiao Senlin",
+			"Fanmao De Senlin",
+			"Kuaile Xiao Zhen",
+			"Biancheng"
+		]
+	},
+	{
+		"name": "Free Waverunners",
+		"leaderName": "Omnira Pessoa",
+		"adjective": ["Waverunner"],
+		"startBias": ["Coastal"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "Bonjou, Captain Omnira Pessoa of the Free Waverunners! Starting as a small artistic commune in the Caribbeans of old Earth, the societal collapse had turned your collection of artists and writers into a den of pirates just to survive. Over time, your crew had assimilated the other pirates in the area, and grew into a major threat for shipping in the Atlantic. But you kept your artistic roots alive - and even influenced the other pirate groups. It was when you found a failed prototype of a colony ship in a Floridan warehouse that you decided to expand your operations towards other planets. Fixing the ship took time, effort, and a few more raids inland, but at the end it was worth it - soon you'll sail in another ocean, on alien seas unfettered.",
+		"startIntroPart2": "Captain Omnira, your crew long for the sea once more. Will you spread your artistic roots once more in this new world? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Avast, ou landlubber! It be raiding time!",
+		"attacked": "Ow! That hurt, ou bumbaclot! Reken yo avek ou!",
+		"defeated": "I will go haunt ou from Kazye Davy Jones! Dis I swear!",
+		"introduction": "Bonjou, monami! We be Free Waverunners, Omnira Pessoa be me name. Kontan we ou!",
+
+		"neutralHello": "Yah, ki sa ou vle?",
+		"hateHello": "Oh, dis bumbaclot again.",
+
+		"tradeRequest": "What say ou, to put price on dis loot?",
+
+		"outerColor": [124, 222, 149],
+		"innerColor": [255, 147, 23],
+		"favoredReligion": "Children of Nihil",
+		"uniqueName": "Lanme Kouri",
+		"uniques": ["Embarked units can defend themselves","[+1] Movement <in [Water] tiles>"],
+		"cities": [
+			"Freeport",
+			"Barataria",
+			"Libertatia",
+			"Bondye",
+			"Vil Reken",
+			"Vil Pwason",
+			"Vil Mouet",
+			"Vil Albatros",
+			"Vil Iguana",
+			"Vil Vodou",
+			"Vil Paloud",
+			"Vil Pel",
+			"Vil Barracuda",
+			"Vil Balen",
+			"Bidonvil",
+			"Vil Lanme",
+			"Vil Mizik",
+			"Vil Atizay",
+			"Bon Vil",
+			"Fen Vil"
+		]
+	},
+	{
+		"name": "Blue Streak Aerodynamics",
+		"leaderName": "Harvey Hawkes",
+		"adjective": ["Blue Streak"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
+		"startIntroPart2": "Harvey, your colonists dream of flying the skies on this new world. Will you reach once more into the sky? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "You've done sullied my skies for too long. I'm gonna bomb you back to the stone age!",
+		"attacked": "Dag nabbit! I'll have you know, this means war!",
+		"defeated": "Doggone it, you've done clipped my wings.",
+		"introduction": "Howdy! I'm Harvey Hawkes, CEO of Blue Streak Aerodynamics. See you up above!",
+
+		"neutralHello": "What's the occasion, fella?",
+		"hateHello": "Well if it isn't the yellowbelly.",
+
+		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
+
+		"outerColor": [92, 233, 255],
+		"innerColor": [204, 235, 255],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Wild Blue Yonder",
+		"uniques": ["[+1] Range <for [Air] units>","Gain [30] Influence with a [Air] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
+		"cities": [
+			"Eagle City",
+			"Amarillo 2",
+			"Airstrip One",
+			"New Alamo",
+			"Cloud District",
+			"Skyhaven",
+			"Testament",
+			"Abilene Station",
+			"Test or Consequences",
+			"Osprey Junction",
+			"Buzz Corral",
+			"Kittyhawk Ridge",
+			"Rango Town",
+			"Dodge City",
+			"Bandera Station",
+			"Butte Hill",
+			"Fairweather",
+			"Zephyr City",
+			"Dust Devil",
+			"Airstrip Two"
+		]
+	},
+	{
+		"name": "Jaeger Engineering",
+		"leaderName": "Alphonse Gunther-Zetkin",
+		"adjective": ["Jaeger"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Greetings to you, Alphone Gunther-Zetkin, CEO of Jaeger Engineering. Since before the collapse of old Earth, your company have long focused on making armored cars. Soon, you've expanded into the weapons manufacturing business, making armored cars and tanks to other countries. It was your company that first developed the Mech as we know it - and you, too, capitalized it, franchising its designs across the globe. When the collapse happened, you've managed to survive by arming everyone and yourself at a profit. Now, that same profit has been invested into a colony ship, where you hope to test your company against other nations among the stars. To you, competition is the ultimate crucible, and you will look for it even in the stars.",
+		"startIntroPart2": "Alphonse, your engineers and soldiers desire to test their might and prove themselves. Will you lead them to a steel-clad tomorrow? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Let us prove our steel in battle. May the best win!",
+		"attacked": "Hrm. Deploy the counteroffensive.",
+		"defeated": "Hrm. It seems that you have proven to have the better steel. I concede.",
+		"introduction": "Greetings. I am Alphonse Gunther-Zetkin, CEO of Jaeger Engineering. Come marvel at our mechanical ingenuity!",
+
+		"neutralHello": "Hrm. What is the purpose of this call?",
+		"hateHello": "Hrmph.",
+
+		"tradeRequest": "Let us swap steel. And other goods besides.",
+
+		"outerColor": [184, 184, 184],
+		"innerColor": [99, 99, 99],
+		"favoredReligion": "Mekhaneites",
+		"uniqueName": "Proven Steel",
+		"uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Science]","[+50]% Production when constructing [Armored] units [in all cities]","[+50]% Production when constructing [Mech] units [in all cities]"],
+		"cities": [
+			"Einefabrik",
+			"Panzerstadt",
+			"Schwertschmiede",
+			"Schmiedenstein",
+			"Stahlberg",
+			"Schwarzesfeld",
+			"Donnerkuppel",
+			"Maschinenstadt",
+			"Motorenfabrik",
+			"Kabelstadt",
+			"Eisenstein",
+			"Glitzernde Klippe",
+			"Roterstein",
+			"Glitzerstadt",
+			"Alpha-Fabrik",
+			"Stahlhugel",
+			"Riesensternstadt",
+			"Eiserner Riese",
+			"Mechanische Fahrzeugfabrik",
+			"Schwertbereich"
+		]
+	},
 
 	// Outposts
 	// Cultural
