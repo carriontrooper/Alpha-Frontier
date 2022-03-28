@@ -790,7 +790,7 @@
 
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
-		"outerColor": [202, 223, 224],
+		"outerColor": [0, 19, 186],
 		"innerColor": [92, 233, 255],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Wild Blue Yonder",
