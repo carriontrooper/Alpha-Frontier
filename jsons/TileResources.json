@@ -270,7 +270,7 @@
 	{
 		"name": "Vents",
 		"resourceType": "Bonus",
-		"revealedBy": "Offworld Industries",
+		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 1,
 		"improvement": "Offshore Platform",
@@ -360,7 +360,7 @@
 	{
 		"name": "Ice-10",
 		"resourceType": "Bonus",
-		"revealedBy": "Offworld Industries",
+		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
 		"science": 3,
 		"improvement": "Offshore Platform",
@@ -557,7 +557,7 @@
 	{
 		"name": "Harmonix Crystals",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Exotic Crystalline Extraction",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -589,7 +589,7 @@
 	{
 		"name": "Jadonyx",
 		"resourceType": "Luxury",
-		"revealedBy": "Offworld Industries",
+		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -621,7 +621,7 @@
 	{
 		"name": "Kaibir Crystals",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Exotic Crystalline Extraction",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -672,7 +672,7 @@
 	{
 		"name": "Benthic Orbs",
 		"resourceType": "Luxury",
-		"revealedBy": "Offworld Industries",
+		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 1,
 		"improvement": "Offshore Platform",
