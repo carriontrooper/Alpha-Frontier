@@ -261,7 +261,7 @@
 			},
 			{
 				"name": "Strike Drones",
-				"row": 8,
+				"row": 9,
 				"quote": "'.' - ",
 				"prerequisites": ["Aeronautics","Missiles"]
 			},
