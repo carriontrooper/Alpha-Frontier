@@ -58,7 +58,7 @@
 			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
 			*/
-			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xenoagriculture]>"
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
 		],
 		"requiredTech": "Xenoagriculture",
 		"civilopediaText": [
