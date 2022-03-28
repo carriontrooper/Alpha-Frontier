@@ -100,6 +100,12 @@
 				"prerequisites": ["Xenobiology", "Xenogeology"]
 			},
 			{
+				"name": "Exotic Crystalline Extraction",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Xenogeology"]
+			},
+			{
 				"name": "Pioneer Administration",
 				"row": 6,
 				"quote": "'One thing I've learned is that you can run to another planet all you like, the paperwork can and will catch up to you eventually.' - Yuen Xin Tiao, junior administrator",
@@ -154,6 +160,12 @@
 				]
 			},
 			{
+				"name": "Deep Resource Scanning",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Exotic Crystalline Extraction"]
+			},
+			{
 				"name": "Research Networks",
 				"row": 6,
 				"quote": "'Neat, now I can peer review without delay! I mean, what else are these nerds going to use it, besides research?' - Jeanie O'Shea, scientist",
@@ -197,7 +209,7 @@
 				"name": "Offworld Industries",
 				"row": 4,
 				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
-				"prerequisites": ["Xeno-Grafting", "Xenochemistry"],
+				"prerequisites": ["Deep Resource Scanning"],
 				"uniques": ["Enables conversion of city production to gold"]
 			},
 			{
