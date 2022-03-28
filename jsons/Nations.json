@@ -18,7 +18,7 @@
 		"preferredVictoryType":"Scientific",
 
 		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
 
 		"declaringWar": ".",
 		"attacked": ".",
@@ -39,6 +39,22 @@
 			"Capital",
 			"City1",
 			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
 			"AndSoOn"
 		]
 	},
@@ -562,8 +578,57 @@
 			"Amwan"
 		]
 	},
+	{
+		"name": "Xenoidid Empire",
+		"leaderName": "Smetre D'Poloty",
+		"adjective": ["Xenoidid"],
+		"startBias": ["Mycelium"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Greetings to you and your beasts, king Smetre D'Poloty of the Xenoidid Empire! As a bioengineering scientist back on old Earth, you've joined the numerous legions of refugees that escaped the collapse. Your ship is among the first to land on this exoplanet - albeit damaged and lacking supplies. It was fortunate, then, that a rare strain of mutated Xeno lifeform lives nearby - one whose hive mind was severed from the main planetary hive mind, and is more open for domestication. That is how you and your people survived, by forming a rudimentary symbiosis with these orphaned Xenos.",
+		"startIntroPart2": "King Smetre, both the humans and the xenos in your empire desire peaceful cooperation. Will you bring harmony upon this exoplanet? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "My beasts are hungry, hope you don't mind em nibblin' on you.",
+		"attacked": "Why would you do that?! You've agitated the Xenos!",
+		"defeated": "Go, be free, my pretties! We may be defeated, but the Xenos will forever be here!",
+		"introduction": "Ello there! Don't mind these puppies, they're friends. I'm Smetre D'Poloty, king of the Xenoidid Empire.",
+
+		"neutralHello": "Ello there. What's the pleasure?",
+		"hateHello": "Heel, boy, you'll get your chance yet. So what're you insinuatin'?",
+
+		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
+
+		"outerColor": [243, 71, 255],
+		"innerColor": [95, 179, 0],
+		"favoredReligion": "Xenocult",
+		"uniqueName": "Xeno Brotherhood",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","50% chance of capturing defeated Barbarian naval units and earning 25 Gold","[+50]% Strength <vs [Xeno] units>"],
+		"cities": [
+			"Xenopolis",
+			"Helixien",
+			"Myrmidopolis",
+			"Megalisk",
+			"Carchano",
+			"Apis Hold",
+			"Karkinosis",
+			"Aspidoch",
+			"Paramit",
+			"Skarabia",
+			"Tarsus Claw",
+			"Mastigos",
+			"Mandibulum",
+			"Ulnaradius",
+			"Karnossus",
+			"Lupine Hold",
+			"Metataxoon",
+			"Hydralisk",
+			"Lepus Hold",
+			"Ovipostor"
+		]
+	},
 
 	// Outposts
+	// Cultural
 	{
 		"name": "Neo-Hedonist Enclave",
 		"adjective": ["Neo-Hedonist"],
@@ -616,7 +681,20 @@
 		"innerColor": [197, 55, 222],
 		"cities": ["Virtual Babylon"]
 	},
-	
+	{
+		"name": "Wordsmiths' Refuge",
+		"adjective": ["Wordsmith"],
+		"cityStateType": "Cultured",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Wordsmiths' Refug"]
+	},
+	// Agricultural
 	{
 		"name": "Demeter Commune",
 		"adjective": ["Demeter"],
@@ -669,7 +747,20 @@
 		"innerColor": [114, 222, 55],
 		"cities": ["Fiddler's Green"]
 	},
-	
+	{
+		"name": "Nutri-Paste Inc.",
+		"adjective": ["Nutri-Paste"],
+		"cityStateType": "Maritime",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Nutri-Paste Inc."]
+	},
+	// Economic
 	{
 		"name": "Sputnik Outpost",
 		"adjective": ["Sputnikian"],
@@ -709,7 +800,31 @@
 		"innerColor": [222, 200, 55],
 		"cities": ["Samarkandi Clanhome"]
 	},
-	
+	{
+		"name": "Intersolutions",
+		"adjective": ["Intersolutions"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Intersolutions"]
+	},
+	{
+		"name": "Ancapistan",
+		"adjective": ["Ancapistan"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Ancapistan"]
+	},
+	// Militaristic
 	{
 		"name": "Eglon Base",
 		"adjective": ["Eglon"],
@@ -749,7 +864,32 @@
 		"innerColor": [222, 116, 55],
 		"cities": ["Northfrost Paramilitary"]
 	},
-	
+	{
+		"name": "Pushkagrad Sniper Community",
+		"adjective": ["Pushkagrad"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Pushkagrad Sniper Community"]
+	},
+	{
+		"name": "Yeni Turkiye Engineering",
+		"adjective": ["Yeni Turkiye"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Yeni Turkiye Engineering"]
+	},
+	// Religious
 	{
 		"name": "Yahiro-Dono Sanctuary",
 		"adjective": ["Yahiro-Dono"],
@@ -788,6 +928,32 @@
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Greenhome Compound"]
+	},
+	{
+		"name": "Sisterhood of the Wastes",
+		"adjective": ["Waste Sister"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Sisterhood of the Wastes"]
+	},
+	{
+		"name": "St. Cuthbert Monastery",
+		"adjective": ["Cuthbertian"],
+		"cityStateType": "Religious",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["St. Cuthbert Monastery"]
 	},
 
 	// Barbarian
