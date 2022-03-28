@@ -771,7 +771,7 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 250,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+1] Sight",
@@ -795,7 +795,7 @@
 		"strength": 30,
 		"rangedStrength": 35,
 		"cost": 275,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+2] Sight",
@@ -1668,7 +1668,7 @@
 		"movement": 5,
 		"strength": 20,
 		"cost": 125,
-		"requiredTech": "Military Ballistics",
+		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -1758,7 +1758,7 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 250,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
@@ -2270,7 +2270,7 @@
 		"name": "Skyhammer",
 		"unitType": "Satellite",
 		"replaces": "Nuclear Satellite",
-		"uniqueTo": "Imperio di Uomo",
+		"uniqueTo": "Imperio Di Uomo",
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
@@ -2299,7 +2299,7 @@
 	{
 		"name": "War Casket",
 		"replaces": "Assault Mecha",
-		"uniqueTo": "Imperio di Uomo",
+		"uniqueTo": "Imperio Di Uomo",
 		"unitType": "Close Range Mech",
 		"movement": 3,
 		"strength": 60,
