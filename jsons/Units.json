@@ -1668,7 +1668,7 @@
 		"movement": 5,
 		"strength": 20,
 		"cost": 125,
-		"requiredTech": "Military Ballistics",
+		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
