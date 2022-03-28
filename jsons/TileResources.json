@@ -309,7 +309,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Aquaculture",
-		"improvementStats": { "credit": 1 },
+		"improvementStats": { "gold": 1 },
 		"uniques": [
 			"Organic",
 			"Flora",
