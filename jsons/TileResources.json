@@ -4,7 +4,7 @@
 	{
 		"name": "Tubers",
 		"resourceType": "Bonus",
-		"revealedBy": "Xenobiology",
+		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"food": 1,
 		"improvement": "Agri Farm",
@@ -26,6 +26,7 @@
 	{
 		"name": "Fungi Pods",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium"],
 		"food": 1,
 		"improvement": "Agri Farm",
@@ -49,6 +50,7 @@
 	{
 		"name": "Exotic Fruits",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"food": 1,
 		"improvement": "Agri Farm",
@@ -205,6 +207,7 @@
 	{
 		"name": "Aluminum",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -225,6 +228,7 @@
 	{
 		"name": "Phostlite",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Desert", "Plains", "Grassland"],
 		"food": 1,
 		"improvement": "Mine",
@@ -244,7 +248,7 @@
 	{
 		"name": "Redstone",
 		"resourceType": "Bonus",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -266,7 +270,7 @@
 	{
 		"name": "Vents",
 		"resourceType": "Bonus",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 1,
 		"improvement": "Offshore Platform",
@@ -301,6 +305,7 @@
 	{
 		"name": "Seasilk",
 		"resourceType": "Bonus",
+		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Aquaculture",
@@ -352,6 +357,24 @@
 			}
 		]
 	},
+	{
+		"name": "Ice-10",
+		"resourceType": "Bonus",
+		"revealedBy": "Offworld Industries",
+		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"science": 3,
+		"improvement": "Offshore Platform",
+		"improvementStats": { "science": 1, "production": 1 },
+		"uniques": [
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Ice] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Coast] tiles> <with [1] to [6] neighboring [Ice] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A kind of hypersaline ice caused by polar currents and microbial agents, they possess unique physical attributes that researchers love to study."
+			}
+		]
+	},
 
 	// Luxury resources
 	// Farm stuff
@@ -384,6 +407,7 @@
 	{
 		"name": "Stimulants",
 		"resourceType": "Luxury",
+		"revealedBy": "Xeno-Medicine",
 		"terrainsCanBeFoundOn": [
 			"Jungle",
 			"Forest",
@@ -417,7 +441,7 @@
 	{
 		"name": "Hydromielin",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenobiology",
+		"revealedBy": "Xeno-Medicine",
 		"terrainsCanBeFoundOn": [
 			"Jungle",
 			"Forest",
@@ -565,7 +589,7 @@
 	{
 		"name": "Jadonyx",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
@@ -648,7 +672,7 @@
 	{
 		"name": "Benthic Orbs",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenogeology",
+		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 1,
 		"improvement": "Offshore Platform",
@@ -692,7 +716,7 @@
 	{
 		"name": "Flowers of Silence",
 		"resourceType": "Luxury",
-		"revealedBy": "Xenobiology",
+		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
 		"science": 2,
 		"improvement": "Research Base",
@@ -787,7 +811,7 @@
 	{
 		"name": "Promethine",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenochemistry",
+		"revealedBy": "Crust Fracking",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -828,7 +852,7 @@
 	{
 		"name": "Vitamass",
 		"resourceType": "Strategic",
-		"revealedBy": "Xenochemistry",
+		"revealedBy": "Crust Fracking",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",

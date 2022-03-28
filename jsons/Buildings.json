@@ -58,9 +58,9 @@
 			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
 			*/
-			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xenoagriculture]>"
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
 		],
-		"requiredTech": "Xenobiology",
+		"requiredTech": "Xenoagriculture",
 		"civilopediaText": [
 			{
 				"text": "Staple food plants from old Earth, grown in a controlled environment."
@@ -133,11 +133,14 @@
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 25 },
-		"uniques": ["Prefab"],
+		"uniques": [
+			"Prefab",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
-				"text": "Also known as Cargo Bay, where the quartermaster and their team also audits the goods coming in and out of the colony."
+				"text": "Also known as Cargo Bay, where the quartermaster and their team stores and audits the goods coming in and out of the colony."
 			}
 		]
 	},
@@ -310,9 +313,12 @@
 	{
 		"name": "Cloud Seeder Station",
 		"maintenance": 1,
-		"food": 2,
+		//"food": 2,
 		"science": 1,
 		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Flora] tiles [in this city]"
+		],
 		"requiredTech": "Payload Delivery",
 		"civilopediaText": [
 			{
