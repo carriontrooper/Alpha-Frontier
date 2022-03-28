@@ -126,7 +126,7 @@
 				"name": "Astronomy",
 				"row": 1,
 				"quote": "'Over here as it was over there, the same stars shine down on us. Well, you get the gist of it.' - Pavel Samurov, explorer",
-				"prerequisites": ["Hydrodynamics","Hovercrafts"],
+				"prerequisites": ["Hovercrafts"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
 					"Enables [Embarked] units to enter ocean tiles"
@@ -336,7 +336,7 @@
 				"name": "Orbital Deterrents",
 				"row": 1,
 				"quote": "'.' - ",
-				"prerequisites": ["Satellite Networks","Lasers"]
+				"prerequisites": ["Lasers"]
 			},
 			{
 				"name": "Cloning",
