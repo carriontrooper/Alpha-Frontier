@@ -598,8 +598,8 @@
 
 		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
 
-		"outerColor": [190, 102, 196],
-		"innerColor": [95, 179, 0],
+		"outerColor": [164, 196, 88],
+		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Xeno Brotherhood",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","50% chance of capturing defeated Barbarian naval units and earning 25 Gold","[+50]% Strength <vs [Xeno] units>"],
@@ -743,7 +743,7 @@
 		"tradeRequest": "What say ou, to put price on dis loot?",
 
 		"outerColor": [146, 222, 182],
-		"innerColor": [255, 147, 23],
+		"innerColor": [99, 16, 232],
 		"favoredReligion": "Children of Nihil",
 		"uniqueName": "Lanme Kouri",
 		"uniques": ["Embarked units can defend themselves","[+1] Movement <in [Water] tiles>"],
