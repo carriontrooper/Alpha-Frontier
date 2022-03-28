@@ -399,7 +399,7 @@
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "We are Soldiers, Stand or Die",
-		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs <to [All] units>"],
+		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs"],
 		"cities": [
 			"Niihama New Port City",
 			"Aramaki-Cho",
