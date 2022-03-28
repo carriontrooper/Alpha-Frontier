@@ -332,7 +332,7 @@
 				"name": "Composite Armor",
 				"row": 9,
 				"quote": "'.' - ",
-				"prerequisites": ["Next-Gen Armaments", "Carbon Aerogel"]
+				"prerequisites": ["Next-Gen Armaments", "Alloy Microstructures"]
 			},
 			{
 				"name": "Exoskeletons",
