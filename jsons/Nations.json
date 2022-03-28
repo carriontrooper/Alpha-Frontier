@@ -790,8 +790,8 @@
 
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
-		"outerColor": [0, 19, 186],
-		"innerColor": [92, 233, 255],
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Wild Blue Yonder",
 		"uniques": ["[+1] Range <for [Air] units>","Gain [30] Influence with a [Air] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
