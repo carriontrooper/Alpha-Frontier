@@ -703,7 +703,7 @@
 		"innerColor": [53, 99, 0],
 		"favoredReligion": "Solar Mass",
 		"uniqueName": "Protection Intitative",
-		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","+[20]% Strength <within [1] tiles of a [Fort]>"],
+		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","[+20]% Strength <within [1] tiles of a [Fort]>"],
 		"cities": [
 			"Xinxing Duhui",
 			"He Cheng",
