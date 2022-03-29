@@ -598,8 +598,8 @@
 
 		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
 
-		"outerColor": [243, 71, 255],
-		"innerColor": [95, 179, 0],
+		"outerColor": [164, 196, 88],
+		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Xeno Brotherhood",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","50% chance of capturing defeated Barbarian naval units and earning 25 Gold","[+50]% Strength <vs [Xeno] units>"],
@@ -627,19 +627,19 @@
 		]
 	},
 	{
-		"name": "Imperio di Uomo",
+		"name": "Imperio Di Uomo",
 		"leaderName": "Cain Stalia",
 		"adjective": ["Imperio"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "Ave, true to Cain Stalia! Imperator of the Imperio di Uomo, subjugator of cities. Ever since the collapse ocurred, you've established yourself as a warlord, amassing military might to protect your people. Then, you sought to civilize the devastated states around you, and went on a ten-year campaign to unite most of old Earth's Balkans, South and East Europe under your banner. For a while, your empire porspers, a beacon of martial civility among the ruins. When the climate began to take a turn for the worse, you've managed to build a magnificent colony ship, ready for an exodus to preserve humanity across the stars.",
+		"startIntroPart1": "Ave, true to Cain Stalia! Imperator of the Imperio Di Uomo, subjugator of cities. Ever since the collapse ocurred, you've established yourself as a warlord, amassing military might to protect your people. Then, you sought to civilize the devastated states around you, and went on a ten-year campaign to unite most of old Earth's Balkans, South and East Europe under your banner. For a while, your empire porspers, a beacon of martial civility among the ruins. When the climate began to take a turn for the worse, you've managed to build a magnificent colony ship, ready for an exodus to preserve humanity across the stars.",
 		"startIntroPart2": "Imperator Cain, your people represent the purity of humanity's ideals. Will you conquer this planet under Humanity's banner? Can you build a colony that stands the test of time?",
 
 		"declaringWar": "It is time to unleash the full might of Humanity on you!",
 		"attacked": "Fools! You've risked your own nation by doing so!",
 		"defeated": "As thus to tyrants, I see.",
-		"introduction": "Ave! You are in the presence of Imperator Cain Stalia. Know that the Imperio di Uomo salutes you, stranger.",
+		"introduction": "Ave! You are in the presence of Imperator Cain Stalia. Know that the Imperio Di Uomo salutes you, stranger.",
 
 		"neutralHello": "Ave. The Imperator is listening.",
 		"hateHello": "You dare show your face here?",
@@ -647,7 +647,7 @@
 		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
 
 		"outerColor": [255, 136, 0],
-		"innerColor": [232, 0, 0],
+		"innerColor": [59, 54, 54],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "Humanity's Fist",
 		"uniques": ["[50]% Strength <vs cities>","Double movement in [All Road]"],
@@ -694,7 +694,7 @@
 
 		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
 
-		"outerColor": [198, 207, 37],
+		"outerColor": [130, 224, 16],
 		"innerColor": [53, 99, 0],
 		"favoredReligion": "Solar Mass",
 		"uniqueName": "Protection Intitative",
@@ -742,8 +742,8 @@
 
 		"tradeRequest": "What say ou, to put price on dis loot?",
 
-		"outerColor": [124, 222, 149],
-		"innerColor": [255, 147, 23],
+		"outerColor": [146, 222, 182],
+		"innerColor": [99, 16, 232],
 		"favoredReligion": "Children of Nihil",
 		"uniqueName": "Lanme Kouri",
 		"uniques": ["Embarked units can defend themselves","[+1] Movement <in [Water] tiles>"],
@@ -790,8 +790,8 @@
 
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
-		"outerColor": [92, 233, 255],
-		"innerColor": [204, 235, 255],
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Wild Blue Yonder",
 		"uniques": ["[+1] Range <for [Air] units>","Gain [30] Influence with a [Air] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
