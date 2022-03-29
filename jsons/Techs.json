@@ -217,15 +217,15 @@
 				"row": 7,
 				"quote": "'Now these are what I'm talking about! No more bumping your shins on room dividers! No more stale friggin' recycled air! We have DOMES!' - Truong Vanth Ngo, environmental engineer",
 				"prerequisites": [
-					"Pioneer Administration",
-					"Portable Power Sources"
+					"Habitation",
+					"Synthetic Materials"
 				]
 			},
 			{
 				"name": "Stable Fission Power",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Portable Power Sources"]
+				"prerequisites": ["Portable Power Sources","Research Networks"]
 			},
 			{
 				"name": "Missiles",
@@ -257,7 +257,7 @@
 				"name": "Crust Fracking",
 				"row": 4,
 				"quote": "'.' - ",
-				"prerequisites": ["Offworld Industries"]
+				"prerequisites": ["Offworld Industries","Stable Fission Power"]
 			},
 			{
 				"name": "Info Networks",
@@ -302,7 +302,7 @@
 				"name": "Genetics",
 				"row": 3,
 				"quote": "'Once I finish decoding these sequences, we'll finally solve that nature versus nurture problem.' - Savitri Kumar, xenobiologist",
-				"prerequisites": ["Xeno-Medicine","Stable Fission Power"]
+				"prerequisites": ["Xeno-Medicine","Info Networks"]
 			},
 			{
 				"name": "Cryptocurrency",
@@ -509,7 +509,7 @@
 				"name": "Antimatter Harnessing",
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Fusion Power", "Quantum Theory"]
+				"prerequisites": ["Metamaterials", "Quantum Theory"]
 			},
 			{
 				"name": "Mind Linking",
