@@ -655,7 +655,7 @@
 		"innerColor": [59, 54, 54],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "Humanity's Fist",
-		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [Military] units [in all cities] receive the [Humanity's March] promotion"],
+		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [{Land}{Military}] units [in all cities] receive the [Humanity's March] promotion"],
 		"cities": [
 			"Nuova Roma",
 			"Secundus",
