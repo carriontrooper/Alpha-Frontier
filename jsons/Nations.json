@@ -134,7 +134,7 @@
 			"Mizunoe Base",
 			"Dhomochevsky Post",
 			"Zuru Station",
-			"Gauna Base",
+			"Gauna Containment",
 			"Denji Landing",
 			"Tanikaze City",
 			"Tsumugi Post",
@@ -419,6 +419,7 @@
 		"cities": [
 			"Niihama New Port City",
 			"Aramaki-Cho",
+			"Motoko-Cho",
 			"Batou-Cho",
 			"Togusa-Cho",
 			"Ishikawa-Cho",
@@ -431,6 +432,10 @@
 			"Tachikoma-Cho",
 			"Uchikoma-Cho",
 			"Harima City",
+			"Ningyohime-Cho",
+			"Ebisu-Cho",
+			"Buchikoma-Cho",
+			"Warautokojima",
 			"Dejima Gunkan"
 		]
 	},
@@ -650,7 +655,7 @@
 		"innerColor": [59, 54, 54],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "Humanity's Fist",
-		"uniques": ["[50]% Strength <vs cities>","Double movement in [All Road]"],
+		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [Military] units [in all cities] receive the [Humanity's March] promotion"],
 		"cities": [
 			"Nuova Roma",
 			"Secundus",
