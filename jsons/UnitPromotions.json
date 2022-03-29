@@ -1031,7 +1031,6 @@
 			"[+50]% Strength <when fighting in [Hill] tiles>"
 		]
 	},
-
 	{
 		"name": "GHOST Hack",
 		"uniques": [
@@ -1044,6 +1043,13 @@
 		"uniques": [
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
+		]
+	},
+	{
+		"name": "Humanity's March",
+		"uniques": [
+			"Double movement in [All Road]",
+			"[-20]% maintenance costs"
 		]
 	},
 	{
