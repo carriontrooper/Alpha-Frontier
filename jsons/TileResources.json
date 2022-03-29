@@ -6,7 +6,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -28,7 +28,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -52,7 +52,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 2, "production": -1, "gold": -1 },
 		"uniques": [
@@ -121,7 +121,7 @@
 		"name": "Dairy Aphid",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Enclosure",
 		"improvementStats": { "food": 2 },
 		"uniques": [
@@ -149,7 +149,7 @@
 			"Tundra",
 			"Mycelium"
 		],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
@@ -209,7 +209,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
@@ -230,7 +230,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Desert", "Plains", "Grassland"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Mine",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -250,7 +250,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 1 },
 		"uniques": [
@@ -272,7 +272,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": ["Ocean"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "production": 1 },
 		"uniques": [
@@ -325,7 +325,7 @@
 		"name": "Plankton",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "production": 1, "food": 1 },
 		"uniques": [
@@ -382,7 +382,7 @@
 		"name": "Spice",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh", "Desert"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "faith": 2 },
 		"uniques": [
@@ -415,7 +415,7 @@
 			"Desert",
 			"Mycelium"
 		],
-		"production": 2,
+		"production": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "culture": 2 },
 		"uniques": [
@@ -449,7 +449,7 @@
 			"Desert",
 			"Mycelium"
 		],
-		"food": 2,
+		"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "science": 2 },
 		"uniques": [
@@ -501,7 +501,7 @@
 		"name": "Snuffets",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Enclosure",
 		"improvementStats": { "culture": 2, "happiness": 1 },
 		"uniques": [
@@ -655,7 +655,7 @@
 		"name": "Sindrian Lobster",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "gold": 1, "food": 1 },
 		"uniques": [
@@ -718,9 +718,9 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
-		"science": 2,
+		"science": 1,
 		"improvement": "Research Base",
-		"improvementStats": { "science": 3 },
+		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Organic",
 			"Flora",
@@ -752,7 +752,8 @@
 	},
 	{
 		"name": "Soma",
-		"food": 2,
+		"food": 1,
+		"gold": 1,
 		"resourceType": "Luxury",
 		"civilopediaText": [
 			{
@@ -762,6 +763,7 @@
 	},
 
 	// CS Uniques
+	// Digipets, Brand Fashion, Loot Boxes, Trinkets, Designer Augments, Volatile Motes, Jovian Lager, Smart Furniture
 
 	// Strategic resources
 	{
