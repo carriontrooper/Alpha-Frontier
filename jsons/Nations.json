@@ -134,7 +134,7 @@
 			"Mizunoe Base",
 			"Dhomochevsky Post",
 			"Zuru Station",
-			"Gauna Base",
+			"Gauna Containment",
 			"Denji Landing",
 			"Tanikaze City",
 			"Tsumugi Post",
@@ -415,10 +415,11 @@
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "We are Soldiers, Stand or Die",
-		"uniques": ["Units fight as though they were at full strength even when damaged","Great General provides double combat bonus","[+50]% maintenance costs"],
+		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>","Great General provides double combat bonus","[+50]% maintenance costs"],
 		"cities": [
 			"Niihama New Port City",
 			"Aramaki-Cho",
+			"Motoko-Cho",
 			"Batou-Cho",
 			"Togusa-Cho",
 			"Ishikawa-Cho",
@@ -431,6 +432,10 @@
 			"Tachikoma-Cho",
 			"Uchikoma-Cho",
 			"Harima City",
+			"Ningyohime-Cho",
+			"Ebisu-Cho",
+			"Buchikoma-Cho",
+			"Warautokojima",
 			"Dejima Gunkan"
 		]
 	},
@@ -602,7 +607,7 @@
 		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Xeno Brotherhood",
-		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","50% chance of capturing defeated Barbarian naval units and earning 25 Gold","[+50]% Strength <vs [Xeno] units>"],
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>"],
 		"cities": [
 			"Xenopolis",
 			"Helixien",
@@ -650,7 +655,7 @@
 		"innerColor": [59, 54, 54],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "Humanity's Fist",
-		"uniques": ["[50]% Strength <vs cities>","Double movement in [All Road]"],
+		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [{Land}{Military}] units [in all cities] receive the [Humanity's March] promotion"],
 		"cities": [
 			"Nuova Roma",
 			"Secundus",
@@ -698,7 +703,7 @@
 		"innerColor": [53, 99, 0],
 		"favoredReligion": "Solar Mass",
 		"uniqueName": "Protection Intitative",
-		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","+[20]% Strength if within [1] tiles of a [Fort]"],
+		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","[+20]% Strength <within [1] tiles of a [Fort]>"],
 		"cities": [
 			"Xinxing Duhui",
 			"He Cheng",
@@ -746,7 +751,7 @@
 		"innerColor": [99, 16, 232],
 		"favoredReligion": "Children of Nihil",
 		"uniqueName": "Lanme Kouri",
-		"uniques": ["Embarked units can defend themselves","[+1] Movement <in [Water] tiles>"],
+		"uniques": ["Defense bonus when embarked <for [All] units>","[+1] Movement <in [Water] tiles>"],
 		"cities": [
 			"Freeport",
 			"Barataria",

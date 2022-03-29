@@ -112,7 +112,7 @@
 				"column": 5
 			},
 			{
-				"name": "Centralization Complete",
+				"name": "Consolidation Complete",
 				"uniques": [
 					"[+2 Gold, +2 Production] [in capital] <during a Golden Age>"
 				]
@@ -565,7 +565,7 @@
 				"column": 5
 			},
 			{
-				"name": "Purification Ideology Apex",
+				"name": "Purification Ideology Complete", //rename into Apex
 				"uniques": [
 					"[+20]% Production when constructing [Military] units [in all cities]",
 					"[+50]% Production when constructing [Military] units [in capital]"
@@ -652,7 +652,7 @@
 				"column": 4
 			},
 			{
-				"name": "Symbiosis Ideology Apex",
+				"name": "Symbiosis Ideology Complete", //rename into Apex
 				"uniques": [
 					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities]"
 				]
@@ -715,7 +715,7 @@
 				"column": 3
 			},
 			{
-				"name": "Radiant Ideology Apex",
+				"name": "Radiant Ideology Complete", //rename into Apex
 				"uniques": ["[+100]% Yield from every [Great Improvement]"]
 			}
 		]
