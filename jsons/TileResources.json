@@ -6,7 +6,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -28,7 +28,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -52,7 +52,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "food": 2, "production": -1, "gold": -1 },
 		"uniques": [
@@ -80,10 +80,10 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [14] tiles <in [Desert] tiles>",
-			"Generated on every [28] tiles <in [Tundra] tiles>",
-			"Generated on every [16] tiles <in [Desert] tiles> <in [Hill] Regions>",
-			"Generated on every [32] tiles <in [Tundra] tiles> <in [Hill] Regions>"
+			"Generated on every [14] tiles <in [Featureless] [Desert] tiles>",
+			"Generated on every [28] tiles <in [Featureless] [Tundra] tiles>",
+			"Generated on every [16] tiles <in [Featureless] [Desert] tiles> <in [Hill] Regions>",
+			"Generated on every [32] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -121,7 +121,7 @@
 		"name": "Dairy Aphid",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Enclosure",
 		"improvementStats": { "food": 2 },
 		"uniques": [
@@ -149,7 +149,7 @@
 			"Tundra",
 			"Mycelium"
 		],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
@@ -209,7 +209,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 2 },
 		"uniques": [
@@ -230,7 +230,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Xenogeology",
 		"terrainsCanBeFoundOn": ["Desert", "Plains", "Grassland"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Mine",
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -250,7 +250,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Offworld Industries",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 1 },
 		"uniques": [
@@ -272,12 +272,12 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Deep Resource Scanning",
 		"terrainsCanBeFoundOn": ["Ocean"],
-		"production": 1,
+		//"production": 1,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "production": 1 },
 		"uniques": [
 			"Mineral",
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>"
+			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -293,7 +293,7 @@
 		"improvement": "Aquaculture",
 		"uniques": [
 			"Organic",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -325,12 +325,12 @@
 		"name": "Plankton",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "production": 1, "food": 1 },
 		"uniques": [
 			"Organic",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -348,7 +348,7 @@
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Fauna",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -366,7 +366,7 @@
 		"improvement": "Offshore Platform",
 		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Ice] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Ice] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles> <with [1] to [6] neighboring [Ice] tiles>"
 		],
 		"civilopediaText": [
@@ -382,7 +382,7 @@
 		"name": "Spice",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh", "Desert"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "faith": 2 },
 		"uniques": [
@@ -415,7 +415,7 @@
 			"Desert",
 			"Mycelium"
 		],
-		"production": 2,
+		"production": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "culture": 2 },
 		"uniques": [
@@ -449,7 +449,7 @@
 			"Desert",
 			"Mycelium"
 		],
-		"food": 2,
+		"food": 1,
 		"improvement": "Agri Farm",
 		"improvementStats": { "science": 2 },
 		"uniques": [
@@ -501,7 +501,7 @@
 		"name": "Snuffets",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland", "Mycelium"],
-		"food": 1,
+		//"food": 1,
 		"improvement": "Enclosure",
 		"improvementStats": { "culture": 2, "happiness": 1 },
 		"uniques": [
@@ -655,13 +655,13 @@
 		"name": "Sindrian Lobster",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "gold": 1, "food": 1 },
 		"uniques": [
 			"Fauna",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -680,7 +680,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles>"
+			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -718,9 +718,9 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Xenochemistry",
 		"terrainsCanBeFoundOn": ["Jungle", "Mycelium", "Desert"],
-		"science": 2,
+		"science": 1,
 		"improvement": "Research Base",
-		"improvementStats": { "science": 3 },
+		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Organic",
 			"Flora",
@@ -752,7 +752,8 @@
 	},
 	{
 		"name": "Soma",
-		"food": 2,
+		"food": 1,
+		"gold": 1,
 		"resourceType": "Luxury",
 		"civilopediaText": [
 			{
@@ -762,6 +763,117 @@
 	},
 
 	// CS Uniques
+	// Digipets, Brand Fashion, Loot Boxes, Trinkets, Designer Augments, Exotic Gases, Jovian Lager, Smart Furniture
+	{
+		"name": "Digipets",
+		"culture": 1,
+		"happiness": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Virtual digital pets, complete with simulated needs."
+			}
+		]
+	},
+	{
+		"name": "Brand Fashion",
+		"culture": 1,
+		"gold": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "The latest trend-setting apparel, sometimes follows form more than function."
+			}
+		]
+	},
+	{
+		"name": "Loot Boxes",
+		"gold": 1,
+		"faith": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Also known as Gacha Boxes, these virtually-owned boxes bestow a random digital item of variable rarity when opened."
+			}
+		]
+	},
+	{
+		"name": "Trinkets",
+		"gold": 2,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Baubles, knick-knacks and assorted souvenir-worthy small items of decorative function - their value lies more in the memories of obtaining them."
+			}
+		]
+	},
+	{
+		"name": "Designer Augments",
+		"gold": 1,
+		"production": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Exclusive artificial prosthetics tailored and designed to follow a cultural aesthetic."
+			}
+		]
+	},
+	{
+		"name": "Exotic Gases",
+		"gold": 1,
+		"production": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Specially synthesized gases of various use, from effervescent perfumes, specialized cooking fuel, to stink bombs."
+			}
+		]
+	},
+	{
+		"name": "Jovian Lager",
+		"gold": 1,
+		"food": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "A rather bitter, pungent brew supposedly using Jupiter's gas as one of its ingredients, this hard-to-replicate alcoholic beverage was first popularized among the Jovian moons."
+			}
+		]
+	},
+	{
+		"name": "Smart Furniture",
+		"gold": 2,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Avant garde furniture embedded with electronics, it enhances the lifestyle of its users. Thankfully not smart enough to sass over your choice of wallpaper."
+			}
+		]
+	},
 
 	// Strategic resources
 	{
@@ -894,7 +1006,7 @@
 		"name": "Ulframite",
 		"resourceType": "Strategic",
 		"revealedBy": "Fusion Power",
-		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill"],
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 1, "science": 1 },

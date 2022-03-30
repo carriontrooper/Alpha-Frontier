@@ -629,6 +629,7 @@
 		"techRequired": "Portable Power Sources",
 		"uniques": [
 			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Waystation] tiles>", // can't be built next to each other
+			/*
 			"[+1 Food] <with [1] to [6] neighboring [Plains] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Grassland] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Forest] tiles>",
@@ -655,10 +656,10 @@
 			"[+1 Science] <with [1] to [6] neighboring [Tundra] tiles>",
 			"[+1 Science] <with [1] to [6] neighboring [Jungle] tiles>",
 			"[+1 Science] <with [1] to [6] neighboring [Research Base] tiles>",
-			
+			*/
 			//cut the entries above if too OP
 			"[+1 Food] <with [1] to [6] neighboring [Organic] tiles>",
-			"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
+			//"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Metallic] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Gemlike] tiles>",
 			
