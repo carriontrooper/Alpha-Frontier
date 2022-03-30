@@ -80,10 +80,10 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [14] tiles <in [Desert] tiles>",
-			"Generated on every [28] tiles <in [Tundra] tiles>",
-			"Generated on every [16] tiles <in [Desert] tiles> <in [Hill] Regions>",
-			"Generated on every [32] tiles <in [Tundra] tiles> <in [Hill] Regions>"
+			"Generated on every [14] tiles <in [Featureless] [Desert] tiles>",
+			"Generated on every [28] tiles <in [Featureless] [Tundra] tiles>",
+			"Generated on every [16] tiles <in [Featureless] [Desert] tiles> <in [Hill] Regions>",
+			"Generated on every [32] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
