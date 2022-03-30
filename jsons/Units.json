@@ -16,7 +16,7 @@
 		"cost": 20,
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "A pack-hunting, vicious xenofauna commonly found on this planet."
@@ -32,7 +32,7 @@
 		"cost": 40,
 		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal."
@@ -53,7 +53,7 @@
 			"[+33]% Strength <vs cities>"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterStep",
 		"civilopediaText": [
 			{
 				"text": "An absolute unit of a xenofauna, one of these can wreak havoc on a settlement. Thankfully, its mass reduces its speed."
@@ -73,7 +73,7 @@
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>"
 		],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "This cthonic menace were first seen near the deserts of the planet, and contrary to popular beliefs, is not a source of spice."
@@ -92,7 +92,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "A curious parasite, the hosts of these xenofauna tend to target civilian units."
@@ -152,7 +152,7 @@
 		"cost": 20,
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "shot",
+		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
 			{
 				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors."
@@ -171,7 +171,7 @@
 		"requiredTech": "Exoskeletons",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
 			{
 				"text": "Despite being as big as a ship, this xenofauna is hard to detect due to their carapace. They spell trouble when they mistake ships for prey."
@@ -193,7 +193,7 @@
 			"[-66]% Strength <vs cities>"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
 				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
@@ -213,7 +213,7 @@
 			"[-33]% Strength <vs cities>"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
 				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks."
@@ -234,7 +234,7 @@
 			"[+33]% Strength <vs cities>"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
 				"text": "An apex predator of the skies, their luminescent displays might look beautiful - but beware their terrible power."
@@ -448,7 +448,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "missile",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
@@ -478,7 +478,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "AntiAirLock",
 		"civilopediaText": [
 			{
 				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
@@ -645,7 +645,7 @@
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Orbital military platform designed to protect a city, it lacks the strength to damage cities but is more precise toward enemy units."
@@ -693,7 +693,7 @@
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{ "text": "A soldier with a precise, long-ranged gun." }
 		]
@@ -735,7 +735,7 @@
 			"May upgrade to [Laser Trooper] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
 				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
@@ -757,7 +757,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
@@ -811,7 +811,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Armed with advanced missiles, these could double as floating missile platforms."
@@ -858,7 +858,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "torpedo",
 		"civilopediaText": [
 			{
 				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
@@ -916,7 +916,7 @@
 		],
 		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "tankshot",
 		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
 	},
 	{
@@ -937,7 +937,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
 				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
@@ -966,7 +966,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
@@ -995,7 +995,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "missile",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
@@ -1025,7 +1025,7 @@
 		],
 		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
@@ -1054,7 +1054,7 @@
 			"Only available <in cities with a [Aerovehicle Hangars]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "jetgun",
+		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
 				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
@@ -1084,7 +1084,7 @@
 			"Only available <in cities with a [Aerovehicle Hangars]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
@@ -1137,7 +1137,7 @@
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"text": "Armed with a laser array to dispense precision strikes against enemies."
@@ -1192,7 +1192,7 @@
 		],
 		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
 				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
@@ -1221,7 +1221,7 @@
 		],
 		"promotions": ["Ignore terrain cost", "Indirect Fire"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
@@ -1254,7 +1254,7 @@
 			"May withdraw before melee ([50]%)",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "machinegun",
+		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
 				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
@@ -1362,7 +1362,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "missile",
+		"attackSound": "torpedo",
 		"civilopediaText": [
 			{
 				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
@@ -1458,7 +1458,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay"],
-		"attackSound": "shot",
+		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
 				"text": "Has a reputation of only accepting payment once they've completed their contract."
@@ -1504,7 +1504,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay"],
-		"attackSound": "shot",
+		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
 				"text": "They are willing to track their target for months through rough wilderness, and then finish the job from several miles away."
@@ -1529,7 +1529,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay"],
-		"attackSound": "shot",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"text": "Although experimental, their portable laser guns have been tried and tested in combat situations."
@@ -1630,7 +1630,7 @@
 		],
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "AntiAirLock",
 		"civilopediaText": [
 			{
 				"text": "Known for their unbridled use of various seeking missiles."
@@ -1801,7 +1801,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay"],
-		"attackSound": "missile",
+		"attackSound": "torpedo",
 		"civilopediaText": [
 			{
 				"text": "Former pirates who finds privateering to be a more lucrative endeavor."
@@ -1833,7 +1833,7 @@
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
 				"text": "Never, ever disparage their hovertanks. Very short fuses."
@@ -1861,7 +1861,7 @@
 		],
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
 				"text": "Known for their bravery under fire, and always upholding their contracts."
@@ -1893,7 +1893,7 @@
 		],
 		"promotions": ["Mercenary Pay"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"text": "Despite being a tech start-up's field testing team, they've gained a reputation of being efficient on the battlefield."
@@ -1925,7 +1925,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Indirect Fire"],
-		"attackSound": "missile",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "They have a tradition of writing crude, vulgar or comedic messages on their ammunition."
@@ -1957,7 +1957,7 @@
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "This rowdy bunch specializes in hit and run tactics."
@@ -1986,7 +1986,7 @@
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
 				"text": "Feared on the battlefield for their ruthless, death-defying charges."
@@ -2019,7 +2019,7 @@
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
 				"text": "Never stays in the same place for too long, they have a tendency to rotate their pilots."
@@ -2037,15 +2037,16 @@
 		"movement": 2,
 		"range": 3,
 		"strength": 31,
-		"rangedStrength": 500,
+		"rangedStrength": 31,
 		"cost": 350,
 		"requiredTech": "Graviton Harnessing",
 		"uniques": [
 			"[+1] Sight",
+			"[+1000]% Strength <when attacking>"
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shot",
+		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
 			{
 				"text": "Armed with an experimental Graviton Beam Gun, this unassuming handheld device can blast holes 7 km long. Suffice to say, beware of collateral damages."
@@ -2110,7 +2111,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Colonial Marine] Unit", "Bug Hunter"],
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "Soldiers who went through some tough training, they could earn special equipment when they gain a rank."
@@ -2129,7 +2130,7 @@
 		"requiredResource": "Titanium",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["[T-Series] Unit"],
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
@@ -2168,7 +2169,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["[Dog Soldier] Reputation"],
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "Rumor has it that these soldiers are the result of a crude genetics experiment involving canine DNA. It's not true, of course, but the Diktat uses it as propaganda to demoralize enemies."
@@ -2429,7 +2430,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "A pack-hunting, vicious xenofauna commonly found on this planet. Thankfully it's been tamed."
@@ -2451,7 +2452,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal. Thankfully it's been tamed."
@@ -2497,7 +2498,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "shot",
+		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
 			{
 				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors. Thankfully it's been tamed."
@@ -2520,7 +2521,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
 				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area. Thankfully it's been tamed."
@@ -2543,7 +2544,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
 				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks. Thankfully it's been tamed."
@@ -2617,7 +2618,7 @@
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "nuke", //change to explosion
+		"attackSound": "ChargeExplosion", //change to explosion
 		"civilopediaText": [
 			{
 				"text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them."
