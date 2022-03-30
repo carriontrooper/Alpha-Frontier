@@ -763,7 +763,117 @@
 	},
 
 	// CS Uniques
-	// Digipets, Brand Fashion, Loot Boxes, Trinkets, Designer Augments, Volatile Motes, Jovian Lager, Smart Furniture
+	// Digipets, Brand Fashion, Loot Boxes, Trinkets, Designer Augments, Exotic Gases, Jovian Lager, Smart Furniture
+	{
+		"name": "Digipets",
+		"culture": 1,
+		"happiness": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Virtual digital pets, complete with simulated needs."
+			}
+		]
+	},
+	{
+		"name": "Brand Fashion",
+		"culture": 1,
+		"gold": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "The latest trend-setting apparel, sometimes follows form more than function."
+			}
+		]
+	},
+	{
+		"name": "Loot Boxes",
+		"gold": 1,
+		"faith": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Also known as Gacha Boxes, these virtually-owned boxes bestow a random digital item of variable rarity when opened."
+			}
+		]
+	},
+	{
+		"name": "Trinkets",
+		"gold": 2,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Baubles, knick-knacks and assorted souvenir-worthy small items of decorative function - their value lies more in the memories of obtaining them."
+			}
+		]
+	},
+	{
+		"name": "Designer Augments",
+		"gold": 1,
+		"production": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Exclusive artificial prosthetics tailored and designed to follow a cultural aesthetic."
+			}
+		]
+	},
+	{
+		"name": "Exotic Gases",
+		"gold": 1,
+		"production": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Specially synthesized gases of various use, from effervescent perfumes, specialized cooking fuel, to stink bombs."
+			}
+		]
+	},
+	{
+		"name": "Jovian Lager",
+		"gold": 1,
+		"food": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "A rather bitter, soupy brew, this hard-to-replicate alcoholic beverage was first popularized among the Jovian moons."
+			}
+		]
+	},
+	{
+		"name": "Smart furniture",
+		"gold": 2,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
+		"civilopediaText": [
+			{
+				"text": "Avant garde furniture embedded with electronics, it enhances the lifestyle of its users. Thankfully not smart enough to sass over your choice of wallpaper."
+			}
+		]
+	},
 
 	// Strategic resources
 	{
@@ -896,7 +1006,7 @@
 		"name": "Ulframite",
 		"resourceType": "Strategic",
 		"revealedBy": "Fusion Power",
-		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill"],
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": { "production": 1, "science": 1 },
