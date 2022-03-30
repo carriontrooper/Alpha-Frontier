@@ -136,10 +136,10 @@
 		"Mycelium+Jungle+Ruby Cactus": ["Mycelium","JungleClearingMyceliumBack","Ruby Cactus","JungleClearingMyceliumFront"],
 		
 		// Snuffets
-		"Grassland+Forest+Snuffets": ["Grassland","ForestClearingGrasslandBack","Exotic Fruits","ForestClearingGrasslandFront"],
-		"Plains+Forest+Snuffets": ["Plains","ForestClearingPlainsBack","Exotic Fruits","ForestClearingPlainsFront"],
-		"Mycelium+Forest+Snuffets": ["Mycelium","ForestClearingMyceliumBack","Exotic Fruits","ForestClearingMyceliumFront"],
-		"Tundra+Forest+Snuffets": ["Tundra","ForestClearingTundraBack","Exotic Fruits","ForestClearingTundraFront"],
+		"Grassland+Forest+Snuffets": ["Grassland","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront"],
+		"Plains+Forest+Snuffets": ["Plains","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront"],
+		"Mycelium+Forest+Snuffets": ["Mycelium","ForestClearingMyceliumBack","Snuffets","ForestClearingMyceliumFront"],
+		"Tundra+Forest+Snuffets": ["Tundra","ForestClearingTundraBack","Snuffets","ForestClearingTundraFront"],
 		
 		"Grassland+Hill+Forest+Snuffets": ["Grassland","Hill","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront"],
 		"Plains+Hill+Forest+Snuffets": ["Plains","Hill","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront"],
