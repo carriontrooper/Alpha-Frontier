@@ -78,25 +78,25 @@
 		// Basalt
 		// Silica
 		// Aluminum
-		"Grassland+Hill+Forest+Aluminum": ["Grassland","Hill","ForestClearingGrasslandBack","Aluminum","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Aluminum": ["Plains","Hill","ForestClearingPlainsBack","Aluminum","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Aluminum": ["Mycelium","Hill","ForestClearingMyceliumBack","Aluminum","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Aluminum": ["Tundra","Hill","ForestClearingTundraBack","Aluminum","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Aluminum": ["Grassland","Hill","Aluminum","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Aluminum": ["Plains","Hill","Aluminum","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Aluminum": ["Mycelium","Hill","Aluminum","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Aluminum": ["Tundra","Hill","Aluminum","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Aluminum": ["Grassland","Hill","JungleClearingGrasslandBack","Aluminum","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Aluminum": ["Plains","Hill","JungleClearingPlainsBack","Aluminum","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Aluminum": ["Mycelium","Hill","JungleClearingMyceliumBack","Aluminum","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Aluminum": ["Grassland","Hill","Aluminum","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Aluminum": ["Plains","Hill","Aluminum","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Aluminum": ["Mycelium","Hill","Aluminum","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Phostlite
 		// Redstone
-		"Grassland+Hill+Forest+Redstone": ["Grassland","Hill","ForestClearingGrasslandBack","Redstone","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Redstone": ["Plains","Hill","ForestClearingPlainsBack","Redstone","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Redstone": ["Mycelium","Hill","ForestClearingMyceliumBack","Redstone","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Redstone": ["Tundra","Hill","ForestClearingTundraBack","Redstone","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Redstone": ["Grassland","Hill","Redstone","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Redstone": ["Plains","Hill","Redstone","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Redstone": ["Mycelium","Hill","Redstone","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Redstone": ["Tundra","Hill","Redstone","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Redstone": ["Grassland","Hill","JungleClearingGrasslandBack","Redstone","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Redstone": ["Plains","Hill","JungleClearingPlainsBack","Redstone","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Redstone": ["Mycelium","Hill","JungleClearingMyceliumBack","Redstone","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Redstone": ["Grassland","Hill","Redstone","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Redstone": ["Plains","Hill","Redstone","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Redstone": ["Mycelium","Hill","Redstone","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// skip the water stuff
 		// Spice
@@ -147,44 +147,44 @@
 		"Tundra+Hill+Forest+Snuffets": ["Tundra","Hill","ForestClearingTundraBack","Snuffets","ForestClearingTundraFront"],
 		
 		// Gold Ore
-		"Grassland+Hill+Forest+Gold Ore": ["Grassland","Hill","ForestClearingGrasslandBack","Gold Ore","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Gold Ore": ["Plains","Hill","ForestClearingPlainsBack","Gold Ore","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Gold Ore": ["Mycelium","Hill","ForestClearingMyceliumBack","Gold Ore","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Gold Ore": ["Tundra","Hill","ForestClearingTundraBack","Gold Ore","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Gold Ore": ["Grassland","Hill","Gold Ore","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Gold Ore": ["Plains","Hill","Gold Ore","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Gold Ore": ["Mycelium","Hill","Gold Ore","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Gold Ore": ["Tundra","Hill","Gold Ore","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Gold Ore": ["Grassland","Hill","JungleClearingGrasslandBack","Gold Ore","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Gold Ore": ["Plains","Hill","JungleClearingPlainsBack","Gold Ore","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Gold Ore": ["Mycelium","Hill","JungleClearingMyceliumBack","Gold Ore","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Gold Ore": ["Grassland","Hill","Gold Ore","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Gold Ore": ["Plains","Hill","Gold Ore","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Gold Ore": ["Mycelium","Hill","Gold Ore","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Harmonix Crystals
-		"Grassland+Hill+Forest+Harmonix Crystals": ["Grassland","Hill","ForestClearingGrasslandBack","Harmonix Crystals","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Harmonix Crystals": ["Plains","Hill","ForestClearingPlainsBack","Harmonix Crystals","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Harmonix Crystals": ["Mycelium","Hill","ForestClearingMyceliumBack","Harmonix Crystals","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Harmonix Crystals": ["Tundra","Hill","ForestClearingTundraBack","Harmonix Crystals","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Harmonix Crystals": ["Grassland","Hill","Harmonix Crystals","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Harmonix Crystals": ["Plains","Hill","Harmonix Crystals","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Harmonix Crystals": ["Mycelium","Hill","Harmonix Crystals","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Harmonix Crystals": ["Tundra","Hill","Harmonix Crystals","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Harmonix Crystals": ["Grassland","Hill","JungleClearingGrasslandBack","Harmonix Crystals","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Harmonix Crystals": ["Plains","Hill","JungleClearingPlainsBack","Harmonix Crystals","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Harmonix Crystals": ["Mycelium","Hill","JungleClearingMyceliumBack","Harmonix Crystals","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Harmonix Crystals": ["Grassland","Hill","Harmonix Crystals","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Harmonix Crystals": ["Plains","Hill","Harmonix Crystals","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Harmonix Crystals": ["Mycelium","Hill","Harmonix Crystals","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Jadonyx
-		"Grassland+Hill+Forest+Jadonyx": ["Grassland","Hill","ForestClearingGrasslandBack","Jadonyx","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Jadonyx": ["Plains","Hill","ForestClearingPlainsBack","Jadonyx","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Jadonyx": ["Mycelium","Hill","ForestClearingMyceliumBack","Jadonyx","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Jadonyx": ["Tundra","Hill","ForestClearingTundraBack","Jadonyx","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Jadonyx": ["Grassland","Hill","Jadonyx","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Jadonyx": ["Plains","Hill","Jadonyx","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Jadonyx": ["Mycelium","Hill","Jadonyx","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Jadonyx": ["Tundra","Hill","Jadonyx","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Jadonyx": ["Grassland","Hill","JungleClearingGrasslandBack","Jadonyx","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Jadonyx": ["Plains","Hill","JungleClearingPlainsBack","Jadonyx","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Jadonyx": ["Mycelium","Hill","JungleClearingMyceliumBack","Jadonyx","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Jadonyx": ["Grassland","Hill","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Jadonyx": ["Plains","Hill","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Jadonyx": ["Mycelium","Hill","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Kaibir Crystals
-		"Grassland+Hill+Forest+Kaibir Crystals": ["Grassland","Hill","ForestClearingGrasslandBack","Kaibir Crystals","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Kaibir Crystals": ["Plains","Hill","ForestClearingPlainsBack","Kaibir Crystals","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Kaibir Crystals": ["Mycelium","Hill","ForestClearingMyceliumBack","Kaibir Crystals","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Kaibir Crystals": ["Tundra","Hill","ForestClearingTundraBack","Kaibir Crystals","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Kaibir Crystals": ["Grassland","Hill","Kaibir Crystals","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Kaibir Crystals": ["Plains","Hill","Kaibir Crystals","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Kaibir Crystals": ["Mycelium","Hill","Kaibir Crystals","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Kaibir Crystals": ["Tundra","Hill","Kaibir Crystals","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Kaibir Crystals": ["Grassland","Hill","JungleClearingGrasslandBack","Kaibir Crystals","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Kaibir Crystals": ["Plains","Hill","JungleClearingPlainsBack","Kaibir Crystals","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Kaibir Crystals": ["Mycelium","Hill","JungleClearingMyceliumBack","Kaibir Crystals","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Kaibir Crystals": ["Grassland","Hill","Kaibir Crystals","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Kaibir Crystals": ["Plains","Hill","Kaibir Crystals","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Kaibir Crystals": ["Mycelium","Hill","Kaibir Crystals","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// skip water stuff
 		// Artifacts
@@ -223,82 +223,82 @@
 		
 		// skip civ and cs uniques
 		// Titanium
-		"Grassland+Forest+Titanium": ["Grassland","ForestClearingGrasslandBack","Titanium","ForestClearingGrasslandFront"],
-		"Plains+Forest+Titanium": ["Plains","ForestClearingPlainsBack","Titanium","ForestClearingPlainsFront"],
-		"Mycelium+Forest+Titanium": ["Mycelium","ForestClearingMyceliumBack","Titanium","ForestClearingMyceliumFront"],
-		"Tundra+Forest+Titanium": ["Tundra","ForestClearingTundraBack","Titanium","ForestClearingTundraFront"],
+		"Grassland+Forest+Titanium": ["Grassland","Titanium","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Forest+Titanium": ["Plains","Titanium","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Forest+Titanium": ["Mycelium","Titanium","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Forest+Titanium": ["Tundra","Titanium","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Jungle+Titanium": ["Grassland","JungleClearingGrasslandBack","Titanium","JungleClearingGrasslandFront"],
-		"Plains+Jungle+Titanium": ["Plains","JungleClearingPlainsBack","Titanium","JungleClearingPlainsFront"],
-		"Mycelium+Jungle+Titanium": ["Mycelium","JungleClearingMyceliumBack","Titanium","JungleClearingMyceliumFront"],
+		"Grassland+Jungle+Titanium": ["Grassland","Titanium","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Jungle+Titanium": ["Plains","Titanium","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Jungle+Titanium": ["Mycelium","Titanium","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
-		"Grassland+Hill+Forest+Titanium": ["Grassland","Hill","ForestClearingGrasslandBack","Titanium","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Titanium": ["Plains","Hill","ForestClearingPlainsBack","Titanium","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Titanium": ["Mycelium","Hill","ForestClearingMyceliumBack","Titanium","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Titanium": ["Tundra","Hill","ForestClearingTundraBack","Titanium","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Titanium": ["Grassland","Hill","Titanium","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Titanium": ["Plains","Hill","Titanium","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Titanium": ["Mycelium","Hill","Titanium","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Titanium": ["Tundra","Hill","Titanium","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Titanium": ["Grassland","Hill","JungleClearingGrasslandBack","Titanium","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Titanium": ["Plains","Hill","JungleClearingPlainsBack","Titanium","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Titanium": ["Mycelium","Hill","JungleClearingMyceliumBack","Titanium","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Titanium": ["Grassland","Hill","Titanium","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Titanium": ["Plains","Hill","Titanium","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Titanium": ["Mycelium","Hill","Titanium","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Promethine
-		"Grassland+Forest+Promethine": ["Grassland","ForestClearingGrasslandBack","Promethine","ForestClearingGrasslandFront"],
-		"Plains+Forest+Promethine": ["Plains","ForestClearingPlainsBack","Promethine","ForestClearingPlainsFront"],
-		"Mycelium+Forest+Promethine": ["Mycelium","ForestClearingMyceliumBack","Promethine","ForestClearingMyceliumFront"],
-		"Tundra+Forest+Promethine": ["Tundra","ForestClearingTundraBack","Promethine","ForestClearingTundraFront"],
+		"Grassland+Forest+Promethine": ["Grassland","Promethine","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Forest+Promethine": ["Plains","Promethine","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Forest+Promethine": ["Mycelium","Promethine","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Forest+Promethine": ["Tundra","Promethine","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Jungle+Promethine": ["Grassland","JungleClearingGrasslandBack","Promethine","JungleClearingGrasslandFront"],
-		"Plains+Jungle+Promethine": ["Plains","JungleClearingPlainsBack","Promethine","JungleClearingPlainsFront"],
-		"Mycelium+Jungle+Promethine": ["Mycelium","JungleClearingMyceliumBack","Promethine","JungleClearingMyceliumFront"],
+		"Grassland+Jungle+Promethine": ["Grassland","Promethine","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Jungle+Promethine": ["Plains","Promethine","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Jungle+Promethine": ["Mycelium","Promethine","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
-		"Grassland+Hill+Forest+Promethine": ["Grassland","Hill","ForestClearingGrasslandBack","Promethine","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Promethine": ["Plains","Hill","ForestClearingPlainsBack","Promethine","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Promethine": ["Mycelium","Hill","ForestClearingMyceliumBack","Promethine","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Promethine": ["Tundra","Hill","ForestClearingTundraBack","Promethine","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Promethine": ["Grassland","Hill","Promethine","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Promethine": ["Plains","Hill","Promethine","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Promethine": ["Mycelium","Hill","Promethine","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Promethine": ["Tundra","Hill","Promethine","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
 		// Vitamass
-		"Grassland+Forest+Vitamass": ["Grassland","ForestClearingGrasslandBack","Vitamass","ForestClearingGrasslandFront"],
-		"Plains+Forest+Vitamass": ["Plains","ForestClearingPlainsBack","Vitamass","ForestClearingPlainsFront"],
-		"Mycelium+Forest+Vitamass": ["Mycelium","ForestClearingMyceliumBack","Vitamass","ForestClearingMyceliumFront"],
-		"Tundra+Forest+Vitamass": ["Tundra","ForestClearingTundraBack","Vitamass","ForestClearingTundraFront"],
+		"Grassland+Forest+Vitamass": ["Grassland","Vitamass","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Forest+Vitamass": ["Plains","Vitamass","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Forest+Vitamass": ["Mycelium","Vitamass","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Forest+Vitamass": ["Tundra","Vitamass","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Jungle+Vitamass": ["Grassland","JungleClearingGrasslandBack","Vitamass","JungleClearingGrasslandFront"],
-		"Plains+Jungle+Vitamass": ["Plains","JungleClearingPlainsBack","Vitamass","JungleClearingPlainsFront"],
-		"Mycelium+Jungle+Vitamass": ["Mycelium","JungleClearingMyceliumBack","Vitamass","JungleClearingMyceliumFront"],
+		"Grassland+Jungle+Vitamass": ["Grassland","Vitamass","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Jungle+Vitamass": ["Plains","Vitamass","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Jungle+Vitamass": ["Mycelium","Vitamass","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
-		"Grassland+Hill+Forest+Vitamass": ["Grassland","Hill","ForestClearingGrasslandBack","Vitamass","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Vitamass": ["Plains","Hill","ForestClearingPlainsBack","Vitamass","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Vitamass": ["Mycelium","Hill","ForestClearingMyceliumBack","Vitamass","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Vitamass": ["Tundra","Hill","ForestClearingTundraBack","Vitamass","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Vitamass": ["Grassland","Hill","Vitamass","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Vitamass": ["Plains","Hill","Vitamass","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Vitamass": ["Mycelium","Hill","Vitamass","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Vitamass": ["Tundra","Hill","Vitamass","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
 		// Ulframite
-		"Grassland+Forest+Ulframite": ["Grassland","ForestClearingGrasslandBack","Ulframite","ForestClearingGrasslandFront"],
-		"Plains+Forest+Ulframite": ["Plains","ForestClearingPlainsBack","Ulframite","ForestClearingPlainsFront"],
-		"Tundra+Forest+Ulframite": ["Tundra","ForestClearingTundraBack","Ulframite","ForestClearingTundraFront"],
+		"Grassland+Forest+Ulframite": ["Grassland","Ulframite","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Forest+Ulframite": ["Plains","Ulframite","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Tundra+Forest+Ulframite": ["Tundra","Ulframite","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Jungle+Ulframite": ["Grassland","JungleClearingGrasslandBack","Ulframite","JungleClearingGrasslandFront"],
-		"Plains+Jungle+Ulframite": ["Plains","JungleClearingPlainsBack","Ulframite","JungleClearingPlainsFront"],
+		"Grassland+Jungle+Ulframite": ["Grassland","Ulframite","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Jungle+Ulframite": ["Plains","Ulframite","JungleClearingPlainsBack","JungleClearingPlainsFront"],
 		
-		"Grassland+Hill+Forest+Ulframite": ["Grassland","Hill","ForestClearingGrasslandBack","Ulframite","ForestClearingGrasslandFront"],
-		"Plains+Hill+Forest+Ulframite": ["Plains","Hill","ForestClearingPlainsBack","Ulframite","ForestClearingPlainsFront"],
-		"Mycelium+Hill+Forest+Ulframite": ["Mycelium","Hill","ForestClearingMyceliumBack","Ulframite","ForestClearingMyceliumFront"],
-		"Tundra+Hill+Forest+Ulframite": ["Tundra","Hill","ForestClearingTundraBack","Ulframite","ForestClearingTundraFront"],
+		"Grassland+Hill+Forest+Ulframite": ["Grassland","Hill","Ulframite","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Hill+Forest+Ulframite": ["Plains","Hill","Ulframite","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Hill+Forest+Ulframite": ["Mycelium","Hill","Ulframite","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Hill+Forest+Ulframite": ["Tundra","Hill","Ulframite","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Hill+Jungle+Ulframite": ["Grassland","Hill","JungleClearingGrasslandBack","Ulframite","JungleClearingGrasslandFront"],
-		"Plains+Hill+Jungle+Ulframite": ["Plains","Hill","JungleClearingPlainsBack","Ulframite","JungleClearingPlainsFront"],
-		"Mycelium+Hill+Jungle+Ulframite": ["Mycelium","Hill","JungleClearingMyceliumBack","Ulframite","JungleClearingMyceliumFront"],
+		"Grassland+Hill+Jungle+Ulframite": ["Grassland","Hill","Ulframite","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Hill+Jungle+Ulframite": ["Plains","Hill","Ulframite","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Hill+Jungle+Ulframite": ["Mycelium","Ulframite","Hill","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		// Antimatter
 		// Gravitix
 		// Yairmite
-		"Grassland+Forest+Yairmite": ["Grassland","ForestClearingGrasslandBack","Yairmite","ForestClearingGrasslandFront"],
-		"Plains+Forest+Yairmite": ["Plains","ForestClearingPlainsBack","Yairmite","ForestClearingPlainsFront"],
-		"Mycelium+Forest+Yairmite": ["Mycelium","ForestClearingMyceliumBack","Yairmite","ForestClearingMyceliumFront"],
-		"Tundra+Forest+Yairmite": ["Tundra","ForestClearingTundraBack","Yairmite","ForestClearingTundraFront"],
+		"Grassland+Forest+Yairmite": ["Grassland","Yairmite","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
+		"Plains+Forest+Yairmite": ["Plains","Yairmite","ForestClearingPlainsBack","ForestClearingPlainsFront"],
+		"Mycelium+Forest+Yairmite": ["Mycelium","Yairmite","ForestClearingMyceliumBack","ForestClearingMyceliumFront"],
+		"Tundra+Forest+Yairmite": ["Tundra","Yairmite","ForestClearingTundraBack","ForestClearingTundraFront"],
 		
-		"Grassland+Jungle+Yairmite": ["Grassland","JungleClearingGrasslandBack","Yairmite","JungleClearingGrasslandFront"],
-		"Plains+Jungle+Yairmite": ["Plains","JungleClearingPlainsBack","Yairmite","JungleClearingPlainsFront"],
-		"Mycelium+Jungle+Yairmite": ["Mycelium","JungleClearingMyceliumBack","Yairmite","JungleClearingMyceliumFront"],
+		"Grassland+Jungle+Yairmite": ["Grassland","Yairmite","JungleClearingGrasslandBack","JungleClearingGrasslandFront"],
+		"Plains+Jungle+Yairmite": ["Plains","Yairmite","JungleClearingPlainsBack","JungleClearingPlainsFront"],
+		"Mycelium+Jungle+Yairmite": ["Mycelium","Yairmite","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
 		/*
 		//Legacy hill support
