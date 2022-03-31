@@ -2044,7 +2044,7 @@
 		"requiredTech": "Graviton Harnessing",
 		"uniques": [
 			"[+1] Sight",
-			"[+1000]% Strength <when attacking>"
+			"[+1000]% Strength <when attacking>",
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
