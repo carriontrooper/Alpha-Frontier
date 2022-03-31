@@ -1460,7 +1460,14 @@ TileSets/FantasyHex/Tiles/Exotic Fruits
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Flood plains
+TileSets/FantasyHex/Tiles/Flood Plains
+  rotate: false
+  xy: 1408, 1222
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/FloodPlains
   rotate: false
   xy: 1408, 1222
   size: 32, 28
