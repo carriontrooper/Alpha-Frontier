@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "Pioneer Depot",
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 25 },
@@ -191,6 +191,7 @@
 	{
 		"name": "Pioneer Speakeasy",
 		"culture": 2,
+		"gold": 1,
 		"specialistSlots": { "Influencer": 1 },
 		"hurryCostModifier": 25,
 		"uniques": ["Prefab"],
@@ -211,6 +212,22 @@
 			"[10]% Food is carried over after population increases [in this city] <after discovering [Xeno-Medicine]>"
 		],
 		"requiredTech": "Xenochemistry",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Lobster Eatery",
+		"maintenance": 1,
+		"happiness": 1,
+		"gold": 3,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Harmonix] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Sindrian Lobster"],
+		"requiredTech": "Hovercrafts",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -355,6 +372,7 @@
 		"maintenance": 1,
 		"food": 1,
 		"production": 2,
+		"gold": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Promethine] tiles [in this city]"],
 		"requiredTech": "Synthetic Materials",
@@ -401,7 +419,7 @@
 	},
 	{
 		"name": "Specimen Storage",
-		"maintenance": 2,
+		"maintenance": 1,
 		"science": 2,
 		"specialistSlots": { "Scientist": 1 },
 		"happiness": 1,
@@ -431,6 +449,7 @@
 	{
 		"name": "Designated Stim Rooms",
 		"maintenance": 1,
+		"gold": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Happiness] from [Stimulants] tiles [in this city]"],
 		"requiredNearbyImprovedResources": ["Stimulants"],
@@ -472,6 +491,7 @@
 			"[+1 Production] from [Gold Ore] tiles [in this city]",
 			"[+1 Production] from [Titanium] tiles [in this city]"
 			*/
+			"[+1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Production] from [Metallic] tiles [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
@@ -512,7 +532,7 @@
 		"name": "Congregation Space",
 		"faith": 2,
 		"requiredBuilding": "Memorial",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Hab-Domes",
 		"uniques": [
@@ -528,7 +548,7 @@
 	},
 	{
 		"name": "Rec Area",
-		"maintenance": 2,
+		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Prefab"],
@@ -541,7 +561,7 @@
 	},
 	{
 		"name": "Resource Market",
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Pioneer Depot",
@@ -558,9 +578,62 @@
 		]
 	},
 	{
+		"name": "Gem Traders' Bourse",
+		"gold": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Gravitix","Benthic Orbs","Harmonix Crystals","Jadonyx","Kaibir Crystals","Ruby Cactus"],
+		"requiredTech": "Deep Resource Scanning",
+		"uniques": [
+			"[+1 Gold] from [Gemlike] tiles [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Exotic Flora Nursery",
+		"gold": 2,
+		"food": 1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Algae","Exotic Fruits","Flowers of Silence","Fungi Pods","Rockbud","Ruby Cactus","Seasilk","Spice","Stimulants","Tubers"],
+		"requiredTech": "Xeno-Grafting",
+		"uniques": [
+			"[+1 Gold] from [Flora] tiles [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Xeno Livestock Auction House",
+		"gold": 2,
+		"food": 1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Chitin","Dairy Aphid","Snuffets","Sea Slivers","Sindrian Lobster"],
+		"requiredTech": "Xeno-Grafting",
+		"uniques": [
+			"[+1 Gold] from [Fauna] tiles [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Megamall",
 		"maintenance": 2,
-		"gold": 2,
+		"gold": 3,
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arcade Room",
