@@ -6,7 +6,7 @@
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
-		"RGB": [45, 108, 145],
+		"RGB": [2, 104, 100],
 		"civilopediaText": [
 			{
 				"text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
@@ -19,7 +19,7 @@
 		"type": "Water",
 		"food": 1,
 		"movementCost": 1,
-		"RGB": [107, 167, 193],
+		"RGB": [42, 206, 179],
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
@@ -36,7 +36,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [97, 171, 58],
+		"RGB": [107, 214, 152],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
@@ -73,7 +73,7 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-		"RGB": [168, 185, 102],
+		"RGB": [61, 142, 93],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
@@ -110,7 +110,7 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-		"RGB": [165, 85, 180],
+		"RGB": [154, 107, 214],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.9] and [1]",
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.8] and [0.9]",
@@ -138,7 +138,7 @@
 		"type": "Land",
 		"food": 1,
 		"movementCost": 1,
-		"RGB": [189, 204, 191],
+		"RGB": [205, 204, 136],
 		"uniques": [
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
 			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
@@ -162,7 +162,7 @@
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [230, 230, 113],
+		"RGB": [212, 112, 70],
 		"uniques": [
 			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
