@@ -3,7 +3,7 @@
 	"ruleVariants": {
 		
 		// Flood Plain fix
-		"Desert+Flood plains": ["Desert","FloodPlains"],
+		//"Desert+Flood plains": ["Desert","FloodPlains"],
 		
 		// Crash Site stuff
 		"Grassland+Forest+Crash site": ["Grassland","ForestClearingGrasslandBack","Crash site","ForestClearingGrasslandFront"],
