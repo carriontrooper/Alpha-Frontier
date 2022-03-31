@@ -1983,6 +1983,7 @@
 		"name": "Global Terraforming Project",
 		"cost": 1000,
 		"isNationalWonder": true,
+		"requiredTech": "Terraforming",
 		"uniques": [
 			"Requires a [Atmospheric Generator] in at least [3] cities",
 			"Requires a [Tectonic Stabilizer] in at least [3] cities",
