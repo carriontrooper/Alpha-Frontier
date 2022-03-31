@@ -1954,6 +1954,122 @@
 		"quote": "'.' - "
 	},
 
+	// Natural Wonder Enhancers
+	{
+		"name": "Neuroreef Interface Laboratory",
+		"science": 3,
+		"food": 1,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Great Neuroreef] within [3] tiles",
+			"[+1 Food] from [Water resource] tiles [in this city]",
+			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
+		],
+		"requiredTech": "Mind Linking",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Megaxenoform Excavation",
+		"science": 2,
+		"production": 2,
+		"greatPersonPoints": { "Great Scientist": 1, "Great Engineer": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Megaxenoform Graveyard] within [3] tiles",
+			"[+1 Production] from [Desert] tiles [in this city]",
+			"[+2 Science, +2 Faith] from [Megaxenoform Graveyard] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Uttershroom Ecological Park",
+		"science": 2,
+		"culture": 2,
+		"greatPersonPoints": { "Great Scientist": 1, "Great Influencer": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Uttershroom] within [3] tiles",
+			"[+1 Food, +1 Culture] from [Mycelium] tiles [in this city]",
+			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
+		],
+		"requiredTech": "Genetic Hybridization",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Aurigan Vault Exploratorium",
+		"science": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Aurigan Vault Complex] within [3] tiles",
+			"Free Technology",
+			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "World Tree Sap Distiller",
+		"food": 2,
+		"happiness": 2,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Tree of Worlds] within [3] tiles",
+			"[+50]% growth [in all cities]",
+			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
+		],
+		"requiredTech": "Virtual Drugs",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Floating Mountain Fortress",
+		"food": 2,
+		"cityStrength": 100,
+		"cityHealth": 100,
+		"greatPersonPoints": { "Great General": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Sheeta Floating Mountain] within [3] tiles",
+			"Provides [2] [Gravitix] <after discovering [Graviton Harnessing]>",
+			"Provides [2] [Ulframite]",
+			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]"
+		],
+		"requiredTech": "Terraforming",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Harborship Diving Agency",
+		"science": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Harborship Wreck] within [3] tiles",
+			"Free Technology",
+			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Amoebic Lake Mindlink Station",
+		"faith": 3,
+		"gold": 1,
+		"greatPersonPoints": { "Great Influencer": 1, "Great Prophet": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Amoebic Lake] within [3] tiles",
+			"[+1 Faith] from [Lakes] tiles [in this city]",
+			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
+		],
+		"requiredTech": "Mind Linking",
+		"quote": "'.' - "
+	},
+
 	// Victory Buildings
 	{
 		"name": "Planetary Mindlink",
