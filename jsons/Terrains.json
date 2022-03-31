@@ -527,7 +527,8 @@
 			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [6] [Water] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
-			"Occurs in groups of [2] to [2] tiles"
+			"Occurs in groups of [2] to [2] tiles",
+			"Neighboring tiles will convert to [Coast]"
 		],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -552,7 +553,8 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [1] [Desert] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
-			"Occurs in groups of [2] to [2] tiles"
+			"Occurs in groups of [2] to [2] tiles",
+			"Neighboring tiles will convert to [Desert]"
 		],
 		"turnsInto": "Desert",
 		"impassable": true,
@@ -576,7 +578,8 @@
 			"Must be adjacent to [1] to [6] [Mycelium] tiles",
 			"Must be adjacent to [0] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
-			"Must be adjacent to [0] to [3] [Tundra] tiles"
+			"Must be adjacent to [0] to [3] [Tundra] tiles",
+			"Neighboring tiles will convert to [Mycelium]"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -623,7 +626,8 @@
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Neighboring tiles will convert to [Plains]"
 		],
 		"weight": 1,
 		"civilopediaText": [
