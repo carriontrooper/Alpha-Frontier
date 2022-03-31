@@ -30,6 +30,7 @@
 		"movement": 2,
 		"strength": 7,
 		"cost": 40,
+		"requiredTech": "Frontier Armaments",
 		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -207,6 +208,7 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 30,
+		"requiredTech": "Frontier Armaments",
 		"uniques": [
 			"Xeno",
 			"[10]% chance to intercept air attacks",
