@@ -9,7 +9,7 @@
 	// Melee
 	{
 		"name": "Bugwolf",
-		"unitType": "Xeno Melee Land",
+		"unitType": "Xeno Melee Land",GH
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 5,
@@ -2250,7 +2250,8 @@
 		"strength": 34,
 		"cost": 350,
 		"requiredTech": "Metamaterials",
-		"uniques": ["GHOST Hack", "Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["GHOST Hack"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
