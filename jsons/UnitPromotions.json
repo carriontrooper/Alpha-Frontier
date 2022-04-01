@@ -1013,7 +1013,8 @@
 	{
 		"name": "Bug Exterminator",
 		"prerequisites": ["Bug Hunter"],
-		"uniques": ["[+50]% Strength <vs [Xeno] units>"]
+		"uniques": ["[+50]% Strength <vs [Xeno] units>"],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Penal Training",
@@ -1076,12 +1077,14 @@
 		"uniques": [
 			"[+25]% Strength <vs [Infantry] units>",
 			"[+25]% Strength <vs [Stealth Infantry] units>"
-		]
+		],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Flamer Equipped",
 		"prerequisites": ["[Colonial Marine] Unit"],
-		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"]
+		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Commando Training",
@@ -1089,14 +1092,16 @@
 		"uniques": [
 			"Ignores Zone of Control",
 			"Invisible to non-adjacent units"
-		]
+		],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Drop Trooper Training",
 		"prerequisites": ["[Colonial Marine] Unit"],
 		"uniques": [
 			"May Paradrop up to [5] tiles from inside friendly territory"
-		]
+		],
+		"unitTypes": ["Infantry"]
 	},
 
 	// T-Series special promos
@@ -1109,24 +1114,28 @@
 	{
 		"name": "Hardened Exoskeleton",
 		"prerequisites": ["[T-Series] Unit"],
-		"uniques": ["[+50]% Strength <when defending>"]
+		"uniques": ["[+50]% Strength <when defending>"],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Uncanny Appearance",
 		"prerequisites": ["[T-Series] Unit"],
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
-		]
+		],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Network Synchronization",
 		"prerequisites": ["[T-Series] Unit"],
-		"uniques": ["[+50]% Strength decreasing with distance from the capital"]
+		"uniques": ["[+50]% Strength decreasing with distance from the capital"],
+		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Combat Analysis Module",
 		"prerequisites": ["[T-Series] Unit"],
-		"uniques": ["[+50]% XP gained from combat"]
+		"uniques": ["[+50]% XP gained from combat"],
+		"unitTypes": ["Infantry"]
 	},
 
 	// Tame Xeno special promos, other than the usual xeno promos
@@ -1141,11 +1150,13 @@
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": [
 			"[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>"
-		]
+		],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
 	},
 	{
 		"name": "Healing Goop",
 		"prerequisites": ["Tame Xeno Unit"],
-		"uniques": ["All adjacent units heal [+10] HP when healing"]
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
 	}
 ]
