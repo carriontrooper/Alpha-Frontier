@@ -559,7 +559,7 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "jetgun",
@@ -1053,7 +1053,7 @@
 			"[+150]% Strength <vs [Air] units>",
 			"[50]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -1083,7 +1083,7 @@
 			"[+150]% Strength <vs [non-air] units>",
 			"[-50]% Strength <vs [Air] units>",
 			"[+33]% Strength <vs cities>",
-			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "MissileLaunch",
@@ -2257,7 +2257,7 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Only available <in cities with a [Aerodrome]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ambush I"],
