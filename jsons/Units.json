@@ -929,7 +929,7 @@
 		"cost": 150,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
-		//"upgradesTo": "Anti-Air Buggy",
+		"upgradesTo": "Drop Tank",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"Can move after attacking",
@@ -979,7 +979,7 @@
 	//// Artillery
 	{
 		"name": "Missile Artillery",
-		"unitType": "Armored",
+		"unitType": "Siege",
 		"movement": 2,
 		"range": 3,
 		"strength": 30,
@@ -1230,6 +1230,34 @@
 			}
 		]
 	},
+	{
+		"name": "Laser Mecha",
+		"unitType": "Ranged Mech",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Armed with an extra large laser cannon, this mech requires a fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+			}
+		]
+	},
 
 	//// Aerial Units
 	{
@@ -1344,6 +1372,32 @@
 			}
 		]
 	},
+	
+	//// Armored
+	{
+		"name": "Drop Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 50,
+		"cost": 150,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
+			}
+		]
+	},
 
 	//// Submarine
 	{
@@ -1373,6 +1427,50 @@
 	},
 
 	// Transcedental Era
+	//// Infantry
+	{
+		"name": "Battle Psion",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 44,
+		"cost": 350,
+		"requiredTech": "Psionics",
+		"uniques": [
+			"May capture killed [Military] units <with [33]% chance>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Their formidable minds enables them to deal damage without even touching their enemies - sometimes they can even mind control an enemy unit they have defeated."
+			}
+		]
+	},
+	
+	//// Artillery
+	{
+		"name": "Graviton Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 61,
+		"rangedStrength": 61,
+		"cost": 400,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"[+1000]% Strength <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
+			}
+		]
+	},
 
 	// Mercenary Units
 	//// Scout
