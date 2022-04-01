@@ -9,7 +9,7 @@
 	// Melee
 	{
 		"name": "Bugwolf",
-		"unitType": "Xeno Melee Land",GH
+		"unitType": "Xeno Melee Land",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 5,
