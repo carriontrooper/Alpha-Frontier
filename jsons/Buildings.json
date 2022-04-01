@@ -971,14 +971,14 @@
 	},
 	{
 		"name": "Mercenary Offices",
-		"cost": 60,
+		"cost": 0, //60,
 		"maintenance": 0,
 		"gold": 1,
-		"hurryCostModifier": 25,
+		//"hurryCostModifier": 25,
 		"uniques": [
 			"Unbuildable",
-			"Can be purchased with [Gold] [in all cities]",
-			"Can be purchased for [200] [Gold] [in all cities]",
+			//"Can be purchased with [Gold] [in all cities]",
+			//"Can be purchased for [200] [Gold] [in all cities]",
 			"Limited to [3] per Civilization",
 			"New [Mercenary] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
