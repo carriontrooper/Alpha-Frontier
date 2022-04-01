@@ -977,6 +977,8 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Unbuildable",
+			"Can be purchased for [200] [Gold] [in all cities]",
+			"Limited to [3] per Civilization",
 			"New [Mercenary] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
