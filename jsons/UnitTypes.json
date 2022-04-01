@@ -92,12 +92,6 @@
 			"Can see invisible [Xeno Stealth Water] units"
 		]
 	},
-	/*
-	{
-		"name": "Carrier",
-		"movementType": "Land"
-	},
-	*/
 	{
 		"name": "Aerocraft",
 		"movementType": "Air",
@@ -137,6 +131,19 @@
 	},
 	{
 		"name": "Hover",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] movement point cost to disembark","Defense bonus when embarked"]
+	},
+	{
+		"name": "Water Carrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "Land Carrier",
+		"movementType": "Land"
+	},
+	{
+		"name": "Hover Carrier",
 		"movementType": "Land",
 		"uniques": ["Normal vision when embarked","[1] movement point cost to disembark","Defense bonus when embarked"]
 	},
