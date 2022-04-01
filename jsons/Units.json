@@ -872,7 +872,7 @@
 	//// Hovercraft
 	{
 		"name": "Hovercarrier",
-		"unitType": "Hover",
+		"unitType": "Hover Carrier",
 		"movement": 3,
 		"strength": 32,
 		"cost": 250,
