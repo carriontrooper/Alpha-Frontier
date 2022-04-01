@@ -133,6 +133,11 @@
 		"movementType": "Land",
 		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","[1] movement point cost to disembark"]
 	},
+	{
+		"name": "Hover",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] movement point cost to disembark","Defense bonus when embarked"]
+	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work
 
