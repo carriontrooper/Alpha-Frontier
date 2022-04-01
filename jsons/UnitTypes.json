@@ -93,10 +93,6 @@
 		]
 	},
 	{
-		"name": "Carrier",
-		"movementType": "Land"
-	},
-	{
 		"name": "Aerocraft",
 		"movementType": "Air",
 		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
@@ -132,6 +128,24 @@
 		"name": "Helicopter",
 		"movementType": "Land",
 		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","[1] movement point cost to disembark"]
+	},
+	{
+		"name": "Hover",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] movement point cost to disembark","Defense bonus when embarked"]
+	},
+	{
+		"name": "Water Carrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "Land Carrier",
+		"movementType": "Land"
+	},
+	{
+		"name": "Hover Carrier",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] movement point cost to disembark","Defense bonus when embarked"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work

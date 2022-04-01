@@ -403,7 +403,7 @@
 	//// Hovercraft
 	{
 		"name": "Light Hovercraft",
-		"unitType": "Armored",
+		"unitType": "Hover",
 		"movement": 3,
 		"strength": 12,
 		"cost": 100,
@@ -412,6 +412,7 @@
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"Armored",
 			"Hovercraft",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
@@ -871,7 +872,7 @@
 	//// Hovercraft
 	{
 		"name": "Hovercarrier",
-		"unitType": "Carrier",
+		"unitType": "Hover Carrier",
 		"movement": 3,
 		"strength": 32,
 		"cost": 250,
@@ -880,6 +881,7 @@
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"Carrier",
 			"Hovercraft",
 			"Can carry [2] [Aerocraft] units",
 			"Normal vision when embarked",
@@ -901,13 +903,14 @@
 	//// Armored
 	{
 		"name": "Hovertank",
-		"unitType": "Armored",
+		"unitType": "Hover",
 		"movement": 3,
 		"strength": 35,
 		"cost": 150,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
+			"Armored",
 			"Hovercraft",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
@@ -1790,7 +1793,7 @@
 	//// Hovercrafts
 	{
 		"name": "Fierce Eels (Hovercraft)",
-		"unitType": "Armored",
+		"unitType": "Hover",
 		"movement": 3,
 		"strength": 12,
 		"cost": 100,
@@ -1801,6 +1804,7 @@
 			"Unbuildable",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Armored",
 			"Hovercraft",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
