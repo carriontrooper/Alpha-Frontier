@@ -263,7 +263,8 @@
 				"name": "Info Networks",
 				"row": 5,
 				"quote": "'They did WHAT on my network?! ...Well, these funny cats are nice...' - Jeanie O'Shea, scientist",
-				"prerequisites": ["Research Networks","Offworld Industries"]
+				"prerequisites": ["Research Networks","Offworld Industries"],
+				"uniques": ["May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]"]
 			},
 			{
 				"name": "Colony Administration",
