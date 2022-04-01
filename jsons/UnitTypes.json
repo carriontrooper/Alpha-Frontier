@@ -92,10 +92,12 @@
 			"Can see invisible [Xeno Stealth Water] units"
 		]
 	},
+	/*
 	{
 		"name": "Carrier",
 		"movementType": "Land"
 	},
+	*/
 	{
 		"name": "Aerocraft",
 		"movementType": "Air",
