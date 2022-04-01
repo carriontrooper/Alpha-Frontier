@@ -397,19 +397,31 @@
 	{
 		"name": "Flight Deck I",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Carrier"]
+		"unitTypes": [
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
+		]
 	},
 	{
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Carrier"]
+		"unitTypes": [
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
+		]
 	},
 	{
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Carrier"]
+		"unitTypes": [
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
+		]
 	},
 
 	// Misc Water
