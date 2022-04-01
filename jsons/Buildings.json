@@ -971,7 +971,7 @@
 	},
 	{
 		"name": "Mercenary Offices",
-		"cost": 200, //60,
+		"cost": 50, //60,
 		"maintenance": 0,
 		"gold": 1,
 		//"hurryCostModifier": 25,
