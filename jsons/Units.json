@@ -359,7 +359,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Portable Power Sources",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -466,7 +466,7 @@
 		"strength": 15,
 		"cost": 100,
 		"requiredTech": "Missiles",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1013,7 +1013,7 @@
 		"strength": 30,
 		"cost": 175,
 		"requiredTech": "Mecha Prototypes",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"upgradesTo": "Assault Mecha",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1181,7 +1181,7 @@
 		"strength": 45,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1210,7 +1210,7 @@
 		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -1254,7 +1254,7 @@
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
-				"text": "Armed with an extra large laser cannon, this mech requires a fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
 			}
 		]
 	},
@@ -2041,7 +2041,7 @@
 		"strength": 30,
 		"cost": 175,
 		"requiredTech": "Mecha Prototypes",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2071,7 +2071,7 @@
 		"strength": 45,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2102,7 +2102,7 @@
 		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2407,7 +2407,7 @@
 		"strength": 60,
 		"cost": 500,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
@@ -2436,7 +2436,7 @@
 		"strength": 40,
 		"cost": 400,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
@@ -2465,7 +2465,7 @@
 		"strength": 47,
 		"cost": 475,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Ulframite",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
