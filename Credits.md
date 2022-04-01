@@ -19,5 +19,5 @@
 
 - [Lodo the Bear (AKA SpacedOutChicken)](https://github.com/SpacedOutChicken) - DeCiv code bits, DeCiv art
 - [9kgsrice](https://github.com/9kgsofrice) - maybe also DeCiv code bits
-- GeneralWadaling (AKA TheBucketeer) - DeCiv art
+- GeneralWadaling (AKA TheBucketeer) - DeCiv art + captured civilian art
 - AdityaMH - DeCiv art
