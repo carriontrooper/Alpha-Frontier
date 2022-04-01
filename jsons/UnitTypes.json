@@ -27,7 +27,7 @@
 	{
 		"name": "Xeno Air",
 		"movementType": "Land",
-		"uniques": ["Air","Can pass through impassable tiles","Normal vision when embarked","Units pay only 1 movement point to disembark"]
+		"uniques": ["Air","Can pass through impassable tiles","Normal vision when embarked","[1] movement point cost to disembark"]
 	},
 
 	{
@@ -131,7 +131,7 @@
 	{
 		"name": "Helicopter",
 		"movementType": "Land",
-		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","Units pay only 1 movement point to disembark"]
+		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","[1] movement point cost to disembark"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work
