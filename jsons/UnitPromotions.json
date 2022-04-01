@@ -726,7 +726,9 @@
 			"Close Range Water",
 			"Ranged Water",
 			"Submarine",
-			"Carrier"
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
 		]
 	},
 	{
@@ -740,7 +742,9 @@
 			"Close Range Water",
 			"Ranged Water",
 			"Submarine",
-			"Carrier"
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
 		]
 	},
 	{
@@ -754,7 +758,9 @@
 			"Close Range Water",
 			"Ranged Water",
 			"Submarine",
-			"Carrier"
+			"Water Carrier",
+			"Land Carrier",
+			"Hover Carrier"
 		]
 	},
 
