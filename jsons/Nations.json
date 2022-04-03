@@ -799,7 +799,7 @@
 		"innerColor": [0, 19, 186],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Wild Blue Yonder",
-		"uniques": ["[+1] Range <for [Air] units>","Gain [30] Influence with a [Air] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
+		"uniques": ["[+1] Range <for [Air] units>","Gain [35] Influence with a [Military] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
 		"cities": [
 			"Eagle City",
 			"Amarillo 2",
