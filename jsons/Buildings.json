@@ -256,7 +256,11 @@
 		"cost": 60,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Prefab", "Must be next to [Coast]"],
+		"uniques": [
+			"Enables you to build Hydrofoil units",
+			"Prefab",
+			"Must be next to [Coast]"
+		],
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
 			{
@@ -315,6 +319,7 @@
 		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Enables you to build Rover units",
 			"Prefab",
 			"New [Rover] units start with [15] Experience [in this city]"
 		],
@@ -687,6 +692,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Enables you to build Aerocraft units",
 			"New [Air] units start with [15] Experience [in this city]"
 		],
 		"requiredTech": "Aeronautics",
@@ -704,6 +710,9 @@
 		"science": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Payload Delivery",
+		"uniques": [
+			"Enables you to build Satellite units"
+		]
 		"civilopediaText": [
 			{
 				"text": "."
@@ -938,6 +947,7 @@
 		"maintenance": 1,
 		"production": 2,
 		"uniques": [
+			"Enables you to build larger Water units",
 			"New [Water] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -956,6 +966,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Enables you to build Armored and Mech units",
 			"New [Armored] units start with [15] Experience [in this city]",
 			"New [Close Range Mech] units start with [15] Experience [in this city]",
 			"New [Ranged Mech] units start with [15] Experience [in this city]",
@@ -998,6 +1009,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "production": 20 },
 		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": ["Orbital"],
 		"civilopediaText": [
 			{
@@ -1025,6 +1037,9 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Orbital Deterrents",
 		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Enables you to build ICBMs",
+		]
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1525,6 +1540,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Enables you to build Tame Xeno units",
 			"New [Infantry] units start with [15] Experience [in this city]",
 			"New [Stealth Infantry] units start with [15] Experience [in this city]",
 			"New [Tame Xeno] units start with [15] Experience [in this city]",
