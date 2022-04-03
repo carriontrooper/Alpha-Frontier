@@ -225,7 +225,7 @@
 		"gold": 3,
 		"food": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Happiness] from [Harmonix] tiles [in this city]"],
+		"uniques": ["[+1 Happiness] from [Sindrian Lobster] tiles [in this city]"],
 		"requiredNearbyImprovedResources": ["Sindrian Lobster"],
 		"requiredTech": "Hovercrafts",
 		"civilopediaText": [
@@ -801,8 +801,8 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Happiness] from [Harmonix] tiles [in this city]"],
-		"requiredNearbyImprovedResources": ["Harmonix"],
+		"uniques": ["[+1 Happiness] from [Harmonix Crystals] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Harmonix Crystals"],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
