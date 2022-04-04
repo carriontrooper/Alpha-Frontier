@@ -95,7 +95,7 @@
 				"name": "Urban Luxuries",
 				"uniques": [
 					"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
-					"[+1 Happiness] per [5] population [in capital]"
+					"[+1 Gold] per [5] population [in capital]"
 				],
 				"requires": ["Centralization"],
 				"row": 2,
