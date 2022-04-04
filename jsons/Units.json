@@ -369,7 +369,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
