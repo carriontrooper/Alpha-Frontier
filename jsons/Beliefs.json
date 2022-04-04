@@ -45,7 +45,7 @@
 	{
 		"name": "Work Ethos",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production] in cities with at least [3] [Population]"]
+		"uniques": ["[+1 Production] <in cities with at least [3] [Followers of this Religion]>"]
 	},
 	{
 		"name": "Xeno Observation",
@@ -80,7 +80,7 @@
 	{
 		"name": "Sanctity of Marriage",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] in cities with at least [6] [Population]"]
+		"uniques": ["[+1 Happiness] <in cities with at least [6] [Followers of this Religion]>"]
 	},
 	{
 		"name": "Defend the Motherland",
