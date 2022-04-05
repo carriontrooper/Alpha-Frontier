@@ -127,7 +127,7 @@
 			{
 				"name": "Census Logs",
 				"uniques": [
-					"[+1 Food] [in all cities]",
+					"[+1 Gold] [in all cities]",
 					"[+5]% growth [in all cities]"
 				],
 				"row": 1,
