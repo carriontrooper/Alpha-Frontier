@@ -1596,7 +1596,7 @@
 		"replaces": "Aerocraft Hangar",
 		"uniqueTo": "Blue Streak Aerodynamics",
 		"cost": 120,
-		"Gold": 2,
+		"gold": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 10 },
