@@ -1261,6 +1261,35 @@
 			}
 		]
 	},
+	{
+		"name": "Siege Walker",
+		"unitType": "Close Range Mech",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 550,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Ulframite",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Mech",
+			"[+200]% Strength <vs cities>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
+			}
+		]
+	},
 
 	//// Aerial Units
 	{
