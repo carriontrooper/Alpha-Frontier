@@ -2,6 +2,13 @@
 	{
 		"name": "Pioneer Spirit",
 		"era": "Landfall era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+        	},
 		"uniques": [
 			"[+3 Culture] [in capital]",
 			"[+5]% Production when constructing [All] buildings [in all cities]"
@@ -60,6 +67,13 @@
 	{
 		"name": "Consolidation",
 		"era": "Landfall era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 30,
+			"Scientific": 10
+        	},
 		"uniques": ["[+1 Production] per [3] population [in capital]"],
 		"policies": [
 			{
@@ -122,6 +136,13 @@
 	{
 		"name": "Diversity",
 		"era": "Landfall era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 30,
+			"Diplomatic": 10,
+			"Domination": 0,
+			"Scientific": 0
+        	},
 		"uniques": ["[+1 Happiness] per [5] population [in all cities]"],
 		"policies": [
 			{
@@ -181,6 +202,13 @@
 	{
 		"name": "Tenacity",
 		"era": "Landfall era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 0,
+			"Diplomatic": 0,
+			"Domination": 50,
+			"Scientific": 0
+        	},
 		"uniques": [
 			"[+33]% Strength <vs [Barbarian] units>",
 			"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
@@ -246,6 +274,13 @@
 	{
 		"name": "Statecraft",
 		"era": "Exploration era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 30,
+			"Diplomatic": 50,
+			"Domination": 0,
+			"Scientific": 10
+        	},
 		"uniques": [
 			"Resting point for Influence with City-States is increased by [20]"
 		],
@@ -306,6 +341,13 @@
 	{
 		"name": "Ingenuity",
 		"era": "Colonization era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 0,
+			"Diplomatic": 10,
+			"Domination": 0,
+			"Scientific": 50
+        	},
 		"uniques": ["[+1 Gold] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -358,6 +400,13 @@
 	{
 		"name": "Humanitarian",
 		"era": "Colonization era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 30,
+			"Diplomatic": 50,
+			"Domination": 0,
+			"Scientific": 0
+        	},
 		"uniques": ["[+1 Faith] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -408,6 +457,13 @@
 	{
 		"name": "Ascendancy",
 		"era": "Colonization era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 0,
+			"Diplomatic": 0,
+			"Domination": 30,
+			"Scientific": 50
+        	},
 		"uniques": ["[+1 Science] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -460,6 +516,13 @@
 	{
 		"name": "Influence",
 		"era": "Colonization era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 50,
+			"Diplomatic": 30,
+			"Domination": 0,
+			"Scientific": 0
+        	},
 		"uniques": ["[+1 Culture] per [3] population [in all cities]"],
 		"policies": [
 			{
@@ -510,6 +573,13 @@
 	{
 		"name": "Purification Ideology",
 		"era": "Halcyon era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 10,
+			"Diplomatic": 0,
+			"Domination": 70,
+			"Scientific": 10
+        	},
 		"uniques": [
 			"[+1 Happiness] from every [Prefab Walls]",
 			"[+1 Happiness] from every [Prefab Bunkers]",
@@ -576,6 +646,13 @@
 	{
 		"name": "Symbiosis Ideology",
 		"era": "Halcyon era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 70,
+			"Diplomatic": 70,
+			"Domination": 0,
+			"Scientific": 10
+        	},
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"Only available <before adopting [Purification Ideology]>",
@@ -662,6 +739,13 @@
 	{
 		"name": "Radiant Ideology",
 		"era": "Halcyon era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 70,
+			"Diplomatic": 10,
+			"Domination": 0,
+			"Scientific": 70
+        	},
 		"uniques": [
 			"[+25]% Great Person generation [in all cities]",
 			"Only available <before adopting [Symbiosis Ideology]>",
