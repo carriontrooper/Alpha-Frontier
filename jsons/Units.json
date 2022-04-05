@@ -369,7 +369,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
@@ -1258,6 +1258,35 @@
 		"civilopediaText": [
 			{
 				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+			}
+		]
+	},
+	{
+		"name": "Siege Walker",
+		"unitType": "Close Range Mech",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 550,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Ulframite",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Mech",
+			"[+200]% Strength <vs cities>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
 			}
 		]
 	},

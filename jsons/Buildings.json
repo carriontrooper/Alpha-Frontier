@@ -952,7 +952,7 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Floating Harbor",
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Alloy Microstructures",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -2019,7 +2019,7 @@
 			"Hidden when religion is disabled",
 			"Gain a free [Tele-Temple] [in this city]"
 		],
-		"requiredTech": "Colonial Culture",
+		"requiredTech": "Net Culture",
 		"quote": "'.' - "
 	},
 	{
