@@ -529,7 +529,7 @@
 	// Transcendental Era
 	{
 		"columnNumber": 11,
-		"era": "Transcedental era",
+		"era": "Transcendental era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
@@ -580,7 +580,7 @@
 	},
 	{
 		"columnNumber": 12,
-		"era": "Transcedental era",
+		"era": "Transcendental era",
 		"techCost": 4100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
