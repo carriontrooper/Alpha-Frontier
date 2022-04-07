@@ -303,6 +303,49 @@
 		"Plains+Jungle+Yairmite": ["Plains","Yairmite","JungleClearingPlainsBack","JungleClearingPlainsFront"],
 		"Mycelium+Jungle+Yairmite": ["Mycelium","Yairmite","JungleClearingMyceliumBack","JungleClearingMyceliumFront"],
 		
+		////// IMPROVED RESOURCES
+
+		//// Agri Farms
+		// Tubers
+		"Grassland+Tubers+Agri Farm": ["Grassland","Agri Farm Tubers"],
+		"Plains+Tubers+Agri Farm": ["Plains","Agri Farm Tubers"],
+		
+		// Fungi Pods
+		"Grassland+Fungi Pods+Agri Farm": ["Grassland","Agri Farm Fungi Pods"],
+		"Plains+Fungi Pods+Agri Farm": ["Plains","Agri Farm Fungi Pods"],
+		"Mycelium+Fungi Pods+Agri Farm": ["Mycelium","Agri Farm Fungi Pods"],
+		
+		// Exotic Fruits
+		"Grassland+Exotic Fruits+Agri Farm": ["Grassland","Agri Farm Exotic Fruits"],
+		"Plains+Exotic Fruits+Agri Farm": ["Plains","Agri Farm Exotic Fruits"],
+		"Mycelium+Exotic Fruits+Agri Farm": ["Mycelium","Agri Farm Exotic Fruits"],
+		"Tundra+Exotic Fruits+Agri Farm": ["Tundra","Agri Farm Exotic Fruits"],
+		
+		// Rockbud
+		"Desert+Rockbud+Agri Farm": ["Desert","Agri Farm Rockbud"],
+		"Tundra+Rockbud+Agri Farm": ["Tundra","Agri Farm Rockbud"],
+		
+		// Spice
+		"Grassland+Spice+Agri Farm": ["Grassland","Agri Farm Spice"],
+		"Plains+Spice+Agri Farm": ["Plains","Agri Farm Spice"],
+		"Mycelium+Spice+Agri Farm": ["Mycelium","Agri Farm Spice"],
+		"Desert+Spice+Agri Farm": ["Desert","Agri Farm Spice"],
+		
+		// Stimulants
+		"Grassland+Stimulants+Agri Farm": ["Grassland","Agri Farm Stimulants"],
+		"Plains+Stimulants+Agri Farm": ["Plains","Agri Farm Stimulants"],
+		"Mycelium+Stimulants+Agri Farm": ["Mycelium","Agri Farm Stimulants"],
+		"Desert+Stimulants+Agri Farm": ["Desert","Agri Farm Stimulants"],
+		
+		// Hydromielin
+		"Grassland+Hydromielin+Agri Farm": ["Grassland","Agri Farm Hydromielin"],
+		"Plains+Hydromielin+Agri Farm": ["Plains","Agri Farm Hydromielin"],
+		"Mycelium+Hydromielin+Agri Farm": ["Mycelium","Agri Farm Hydromielin"],
+		"Desert+Hydromielin+Agri Farm": ["Desert","Agri Farm Hydromielin"],
+		
+		// Ruby Cactus
+		"Desert+Ruby Cactus+Agri Farm": ["Desert","Agri Farm Ruby Cactus"],
+		
 		/*
 		//Legacy hill support
 		"Hill": ["Grassland", "Hill"],
