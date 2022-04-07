@@ -288,7 +288,7 @@
 				"name": "Next-Gen Armaments",
 				"row": 10,
 				"quote": "'.' - ",
-				"prerequisites": ["Military Ballistics"]
+				"prerequisites": ["Missiles"]
 			}
 		]
 	},
