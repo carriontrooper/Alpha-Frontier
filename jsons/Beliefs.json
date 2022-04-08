@@ -85,7 +85,7 @@
 	{
 		"name": "Defend the Motherland",
 		"type": "Pantheon",
-		"uniques": ["[+30]% Attacking Strength for cities"]
+		"uniques": ["[+30]% Strength for cities <when attacking>"]
 	},
 	{
 		"name": "Food Preparations",
