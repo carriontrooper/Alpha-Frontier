@@ -18,15 +18,15 @@
 			"Generated on every [22] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Tubers"
+			},
+			{
 				"text": "Image should be above this"
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Underground growths of plantlike xenoflora, they are quite edible if prepared correctly."
 			}
