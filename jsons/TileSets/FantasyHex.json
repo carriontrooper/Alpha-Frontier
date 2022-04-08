@@ -79,7 +79,14 @@
 		// Dairy Aphid
 		// Hexanite
 		// Basalt
+		"Grassland+Basalt+Quarry": ["Grassland","BasaltQuarry"],
+		"Tundra+Basalt+Quarry": ["Tundra","BasaltQuarry"],
+		"Desert+Basalt+Quarry": ["Desert","BasaltQuarry"],
+		
 		// Silica
+		"Tundra+Silica+Quarry": ["Tundra","SilicaQuarry"],
+		"Desert+Silica+Quarry": ["Desert","SilicaQuarry"],
+		
 		// Aluminum
 		"Grassland+Hill+Forest+Aluminum": ["Grassland","Hill","Aluminum","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
 		"Plains+Hill+Forest+Aluminum": ["Plains","Hill","Aluminum","ForestClearingPlainsBack","ForestClearingPlainsFront"],
