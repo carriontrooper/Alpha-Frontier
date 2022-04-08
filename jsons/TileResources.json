@@ -19,10 +19,8 @@
 		],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Tubers"
-			},
-			{
-				"text": "Image should be above this"
+				"extraImage": "TileSets/FantasyHex/Tiles/Tubers",
+				"imageSize": 32
 			},
 			{
 				"Separator": true
