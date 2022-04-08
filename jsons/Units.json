@@ -19,6 +19,13 @@
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A pack-hunting, vicious xenofauna commonly found on this planet."
 			}
 		]
@@ -35,6 +42,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal."
 			}
@@ -57,6 +71,13 @@
 		"attackSound": "MonsterStep",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Gigantes",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "An absolute unit of a xenofauna, one of these can wreak havoc on a settlement. Thankfully, its mass reduces its speed."
 			}
 		]
@@ -77,6 +98,13 @@
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Wurm",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "This cthonic menace were first seen near the deserts of the planet, and contrary to popular beliefs, is not a source of spice."
 			}
 		]
@@ -95,6 +123,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Wendigo",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A curious parasite, the hosts of these xenofauna tend to target civilian units."
 			}
@@ -115,6 +150,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Echidna",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances."
 			}
@@ -138,6 +180,13 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Mycon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A towering ambulatory fungus. Beware its acidic spores."
 			}
 		]
@@ -155,6 +204,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Gun Lobster",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors."
 			}
@@ -174,6 +230,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lurker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Despite being as big as a ship, this xenofauna is hard to detect due to their carapace. They spell trouble when they mistake ships for prey."
 			}
@@ -197,6 +260,13 @@
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
 			}
 		]
@@ -218,6 +288,13 @@
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Winghead",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks."
 			}
 		]
@@ -238,6 +315,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Neon Dragon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "An apex predator of the skies, their luminescent displays might look beautiful - but beware their terrible power."
 			}
@@ -262,6 +346,13 @@
 		"hurryCostModifier": 20,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."
 			}
 		]
@@ -277,6 +368,13 @@
 		],
 		"cost": 70,
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."
 			}
@@ -303,6 +401,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Rover Explorer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Brave explorers of the alien frontier, lightly armed and accompanied with a rover to hold basic supplies and cross difficult terrain."
 			}
 		]
@@ -325,6 +430,13 @@
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Frontier Militia",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{ "text": "Basically just a person in an atmo-suit and a gun." }
 		]
 	},
@@ -345,6 +457,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Combat Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Wholly remote-operated, these rovers are equipped with small arms."
 			}
@@ -372,6 +491,13 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Buggy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
 			}
 		]
@@ -394,6 +520,13 @@
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Hydrofoil",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."
 			}
@@ -425,6 +558,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Hovercraft",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."
 			}
 		]
@@ -453,6 +593,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
 			}
@@ -484,6 +631,13 @@
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Anti-Air Buggy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
 			}
 		]
@@ -505,6 +659,13 @@
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault Hydrofoil",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
 			}
@@ -535,6 +696,13 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Combat Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
 			}
@@ -677,6 +845,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Colony Rifleman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A better suited, better trained person armed with a better gun."
 			}
 		]
@@ -698,6 +873,13 @@
 		],
 		"attackSound": "SniperShot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colony Marksman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{ "text": "A soldier with a precise, long-ranged gun." }
 		]
 	},
@@ -718,6 +900,13 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Exoframe Soldier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."
 			}
@@ -741,6 +930,13 @@
 		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Exoframe Sniper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
 			}
 		]
@@ -762,6 +958,13 @@
 		],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
 			}
@@ -786,6 +989,13 @@
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Corvette",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A serious combat ship, they pack firepower in a compact and fast hull."
 			}
@@ -817,6 +1027,13 @@
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Destroyer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Armed with advanced missiles, these could double as floating missile platforms."
 			}
 		]
@@ -839,6 +1056,13 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Battleship",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Massive and powerful, this ship sends a message of military might."
 			}
@@ -863,6 +1087,13 @@
 		],
 		"attackSound": "torpedo",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Submersible",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
 			}
@@ -895,6 +1126,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Hovercarrier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
 			}
 		]
@@ -922,7 +1160,16 @@
 		"promotions": ["Ignore terrain cost", "Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
-		"civilopediaText": [{ "text": "An armored, upgunned hovercraft." }]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hovertank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "An armored, upgunned hovercraft." }
+		]
 	},
 	{
 		"name": "Colonial Armor",
@@ -944,6 +1191,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
 			}
@@ -974,6 +1228,13 @@
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
 			}
 		]
@@ -1002,6 +1263,13 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Artillery",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
 			}
@@ -1032,6 +1300,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Recon Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
 			}
@@ -1171,6 +1446,13 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
 			}
 		]
@@ -1199,6 +1481,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
 			}
@@ -1229,6 +1518,13 @@
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Artillery Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
 			}
 		]
@@ -1256,6 +1552,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
 			}
@@ -1285,6 +1588,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Siege Walker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
 			}
@@ -1318,6 +1628,13 @@
 		],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyberheli",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
 			}
@@ -1400,6 +1717,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Stealth Operative",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
 			}
 		]
@@ -1425,6 +1749,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
 			}
@@ -1453,6 +1784,13 @@
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Phantom Submersible",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
 			}
 		]
@@ -1474,6 +1812,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "PsyBlast",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Battle Psion",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Their formidable minds enables them to deal damage without even touching their enemies - sometimes they can even mind control an enemy unit they have defeated."
 			}
@@ -1498,6 +1843,13 @@
 		],
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Graviton Cannon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
 			}
@@ -2182,6 +2534,13 @@
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Graviton Gunner",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Armed with an experimental Graviton Beam Gun, this unassuming handheld device can blast holes 7 km long. Suffice to say, beware of collateral damages."
 			}
 		]
@@ -2202,6 +2561,13 @@
 		"promotions": ["Penal Training"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Penal Legionnaire",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Basically just a convict in an atmo-suit and a gun, they spend their life sentence building colonial infrastructure."
 			}
@@ -2225,6 +2591,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Delver Team",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A small squad of veteran miners, armed with company-issued weaponry."
 			}
 		]
@@ -2247,6 +2620,13 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Soldiers who went through some tough training, they could earn special equipment when they gain a rank."
 			}
 		]
@@ -2266,6 +2646,13 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
 			}
 		]
@@ -2283,6 +2670,13 @@
 		"promotions": ["GHOST Hack"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/GHOST Unit",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Augmented with cutting-edge cybernetics and trained in cyberwarfare, their speciality is ambushing enemy vehicles and mechs utilizing both their augments and hacking skills."
 			}
@@ -2305,6 +2699,13 @@
 		"promotions": ["[Dog Soldier] Reputation"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dog Soldier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Rumor has it that these soldiers are the result of a crude genetics experiment involving canine DNA. It's not true, of course, but the Diktat uses it as propaganda to demoralize enemies."
 			}
@@ -2330,6 +2731,13 @@
 		"upgradesTo": "Corvette",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Seadog",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Sleek and artistic, these vessels are still able to put up a fight and then plunder your ships."
 			}
@@ -2361,6 +2769,13 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Vulture Combat Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Deadly and precise, this vicious hunter-killer drone comes with a targeting unit that prioritizes wounded units."
 			}
@@ -2457,6 +2872,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/War Casket",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Part siege unit, part life support, these morbid mechs house mortally wounded veterans and armed with powerful defense-shattering weaponry."
 			}
 		]
@@ -2486,6 +2908,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Civil Protection Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Designed with civilian protection in mind, they possess reduced lethal weaponry while benefiting from a boosted defense system. Due to their less threatening and protective reputation, they are usually granted free pass through borders."
 			}
 		]
@@ -2512,6 +2941,13 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/ZANKER Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Jaeger Engineering's frontline mech, their pilots are trained to use weapons with both of its hands. The result enables the mech to strike twice in quick succession."
 			}
@@ -2543,6 +2979,13 @@
 		"religiousStrength": 1000,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Nomad",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Visionary wanderers, they are both able to spread their brand of thinking and keep an open eye for economic opportunities."
 			}
 		]
@@ -2567,6 +3010,13 @@
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A pack-hunting, vicious xenofauna commonly found on this planet. Thankfully it's been tamed."
 			}
 		]
@@ -2588,6 +3038,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal. Thankfully it's been tamed."
 			}
@@ -2613,6 +3070,13 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Echidna",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances. Thankfully it's been tamed."
 			}
 		]
@@ -2634,6 +3098,13 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Gun Lobster",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors. Thankfully it's been tamed."
 			}
@@ -2658,6 +3129,13 @@
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area. Thankfully it's been tamed."
 			}
 		]
@@ -2681,6 +3159,13 @@
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Winghead",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks. Thankfully it's been tamed."
 			}
 		]
@@ -2703,6 +3188,13 @@
 		"religiousStrength": 1000,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Visionary",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "People who have recived a spiritual insight, the ideas they promote tend to stick to the collective unconscious."
 			}
 		]
@@ -2722,6 +3214,13 @@
 		"movement": 3,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Expunger",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."
 			}
 		]
@@ -2735,6 +3234,13 @@
 		"uniques": ["Unbuildable", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Religious Zealot",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "What makes them dangerous isn't their weaponry, but their fanaticism."
 			}
@@ -2752,8 +3258,15 @@
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "ChargeExplosion", //change to explosion
+		"attackSound": "ChargeExplosion",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Religious Martyr",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them."
 			}
@@ -2774,6 +3287,13 @@
 		"movement": 2,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Influencer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Very charismatic people, these tend to be artists and public figures that contribute to the cultural progress of a nation."
 			}
 		]
@@ -2790,6 +3310,13 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Scientist",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Brilliant scientists, inventors and innovators, these could advance technology by leaps and bounds."
 			}
@@ -2808,6 +3335,13 @@
 		"movement": 2,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Merchant",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Excellent merchants, economists and CEOs, these profit-oriented individuals turn the wheel of commerce across borders."
 			}
 		]
@@ -2824,6 +3358,13 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Engineer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Industrious engineers and architects, these hasten urban projects with their productivity."
 			}
@@ -2850,6 +3391,13 @@
 		"religiousStrength": 1000,
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Visionary",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Wise spiritualists and motivational speakers, these tend to aggregate followers around their brand of thinking."
 			}
 		]
@@ -2867,6 +3415,13 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great General",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."
 			}
@@ -2892,6 +3447,13 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Hyperspace Core",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "One of three cores required for the fastest FTL method available, they catch and store graviton particles and condense them for storage."
 			}
 		]
@@ -2913,6 +3475,13 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/FTL Navigations Bridge",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Requiring massive amounts of quantum computing, this mostly-automated and AI-operated system calculates the optimal path through space by using hyperwave analysis."
 			}
@@ -2936,6 +3505,13 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/FTL Drive",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Powered by antimatter, this drive functions by using graviton particles to 'pull' the ship along graviton-attuned cosmic strings."
 			}
 		]
@@ -2957,6 +3533,13 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Zero Point Ship Reactor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Creating power from nothing, this is the biggest reactor humanity can build. Its Ulframite-lined inner core channels exotic particles out of its main chamber, creating an utter, true vaccuum inside - which spontaneously generates energy as universal forces try to fill in that vaccuum."
 			}
@@ -2980,6 +3563,13 @@
 		// costs 1500 in BNW
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Units/Nanite Life Support",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Appearing as a breathable orange juice, the nanite fluids dispensed by this system ensures that human biology survives the rigors of graviton string travel."
 			}
 		]
@@ -3001,6 +3591,13 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stasis Pod Arrays",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "The crew and colonists aboard the ship will spend entire lifetimes suspended in stasis, protected by similar stasis shielding."
 			}
