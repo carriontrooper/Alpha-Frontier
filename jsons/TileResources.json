@@ -19,7 +19,8 @@
 		],
 		"civilopediaText": [
 			{
-				"extraImage": "Tubers.png"
+				"extraImage": "Tubers.png",
+				"text": "Image should be above this"
 			},
 			{
 				"Separator": true
