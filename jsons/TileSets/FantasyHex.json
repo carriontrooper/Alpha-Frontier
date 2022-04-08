@@ -79,14 +79,7 @@
 		// Dairy Aphid
 		// Hexanite
 		// Basalt
-		"Grassland+Basalt+Quarry": ["Grassland","BasaltQuarry"],
-		"Tundra+Basalt+Quarry": ["Tundra","BasaltQuarry"],
-		"Desert+Basalt+Quarry": ["Desert","BasaltQuarry"],
-		
 		// Silica
-		"Tundra+Silica+Quarry": ["Tundra","SilicaQuarry"],
-		"Desert+Silica+Quarry": ["Desert","SilicaQuarry"],
-		
 		// Aluminum
 		"Grassland+Hill+Forest+Aluminum": ["Grassland","Hill","Aluminum","ForestClearingGrasslandBack","ForestClearingGrasslandFront"],
 		"Plains+Hill+Forest+Aluminum": ["Plains","Hill","Aluminum","ForestClearingPlainsBack","ForestClearingPlainsFront"],
@@ -352,6 +345,39 @@
 		
 		// Ruby Cactus
 		"Desert+Ruby Cactus+Agri Farm": ["Desert","Agri Farm Ruby Cactus"],
+		
+		//// Quarry
+		// Basalt
+		"Grassland+Basalt+Quarry": ["Grassland","BasaltQuarry"],
+		"Tundra+Basalt+Quarry": ["Tundra","BasaltQuarry"],
+		"Desert+Basalt+Quarry": ["Desert","BasaltQuarry"],
+		
+		// Silica
+		"Tundra+Silica+Quarry": ["Tundra","SilicaQuarry"],
+		"Desert+Silica+Quarry": ["Desert","SilicaQuarry"],
+		
+		//// Research Base
+		// Artifacts
+		"Grassland+Artifacts+Research Base": ["Grassland","Research Base Artifacts"],
+		"Plains+Artifacts+Research Base": ["Plains","Research Base Artifacts"],
+		"Mycelium+Artifacts+Research Base": ["Mycelium","Research Base Artifacts"],
+		"Desert+Artifacts+Research Base": ["Desert","Research Base Artifacts"],
+		
+		"Grassland+Hill+Artifacts+Research Base": ["Grassland","Hill","Research Base Artifacts"],
+		"Plains+Hill+Artifacts+Research Base": ["Plains","Hill","Research Base Artifacts"],
+		"Mycelium+Hill+Artifacts+Research Base": ["Mycelium","Hill","Research Base Artifacts"],
+		"Desert+Hill+Artifacts+Research Base": ["Desert","Hill","Research Base Artifacts"],
+		
+		// Flowers of Silence
+		"Grassland+Flowers of Silence+Research Base": ["Grassland","Research Base Flowers of Silence"],
+		"Plains+Flowers of Silence+Research Base": ["Plains","Research Base Flowers of Silence"],
+		"Mycelium+Flowers of Silence+Research Base": ["Mycelium","Research Base Flowers of Silence"],
+		"Desert+Flowers of Silence+Research Base": ["Desert","Research Base Flowers of Silence"],
+		
+		"Grassland+Hill+Flowers of Silence+Research Base": ["Grassland","Hill","Research Base Flowers of Silence"],
+		"Plains+Hill+Flowers of Silence+Research Base": ["Plains","Hill","Research Base Flowers of Silence"],
+		"Mycelium+Hill+Flowers of Silence+Research Base": ["Mycelium","Hill","Research Base Flowers of Silence"],
+		"Desert+Hill+Flowers of Silence+Research Base": ["Desert","Hill","Research Base Flowers of Silence"],
 		
 		/*
 		//Legacy hill support
