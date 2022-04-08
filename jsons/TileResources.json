@@ -54,6 +54,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Fungi Pods",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Fungi Pods",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "While fungal xeno-organisms flourish in this planet, most of them are toxic or disagree with our biochemistry. Some of them, however, possess fruiting bodies that are both edible and tasty."
 			}
 		]
@@ -76,6 +87,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Exotic Fruits",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Exotic Fruits",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "There are few non-fungal plantlike xeno-organisms, and most do not grow fruits like these. Quite tasty if harvested in the right season."
 			}
 		]
@@ -97,6 +119,17 @@
 			"Generated on every [32] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Rockbud",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Rockbud",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Hardy extremophiles living in the hottest of deserts and the coldest of tundras, these stone-like xenoflora can be the sole source of nutrient in these places."
 			}
@@ -124,6 +157,19 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Chitin",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
 				"text": "Most of the mobile xenofauna in this planet seem to be linked by a primitive hivemind and are hostile to us. Among the docile few, these beetle-like xenofauna possess a chitinous carapace which it sheds regularly - and provide us with building materials."
 			}
 		]
@@ -143,6 +189,19 @@
 			"Generated on every [36] tiles <in [Featureless] [Grassland] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Dairy Aphid",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "One of the few docile xenofauna in this planet, large herds of these aphid-like bugs graze on the alien grass and excrete globs of nutritious liquid, which is edible for humans. It is said to taste like liquid cheese."
 			}
@@ -174,6 +233,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Hexanite",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Not to be confused with an obscure old Earth explosive, these are iron ores which naturally form a hexagonal lattice due to other elements in its molecule. This also means that they are easy to smelt into steel."
 			}
 		]
@@ -193,6 +259,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Basalt",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/BasaltQuarry",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "A good, solid rock, these stones with volcanic origins are good building material."
 			}
 		]
@@ -210,6 +287,17 @@
 			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Silica",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/SilicaQuarry",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "The deserts of this planet sometimes have sands composed of very pure silica - one of the materials needed for a good-quality lens."
 			}
@@ -232,6 +320,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aluminum",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Far more plentiful here than on Earth, this durable yet lightweight metal is perfect for vehicles, aerial or otherwise."
 			}
 		]
@@ -251,6 +346,13 @@
 			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Phostlite",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A naturally occurring compound in this planet, it can easily be processed into an efficient fertilizer."
 			}
@@ -273,6 +375,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Redstone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "These reddish metal ore possess above average conductivity when processed into wires. Scientists suspect they come from another reality."
 			}
 		]
@@ -292,6 +401,19 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Vents",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
 				"text": "Deep ocean hydrothermal vents are not only good sources of heat, they are also the source of exotic compounds and xeno-organisms."
 			}
 		]
@@ -309,6 +431,19 @@
 			"Generated on every [10] tiles <in [Featureless] [Lakes] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Algae",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "Microbial plantlife floating in the sea, they exhibit striking similarities to the algae of old Earth. This means they, too, can be a source of nutrient and biofuel."
 			}
@@ -329,6 +464,19 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Seasilk",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
 				"text": "Gossamer threads grown naturally by seafloor xenoflora, these can fetch a high price on local markets, since local colonists use them for textiles. Also, they are tasty when fried."
 			}
 		]
@@ -346,6 +494,19 @@
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Plankton",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "Free-floating microscopic xenofauna and xenoflora, these are an excellent source of nutrients and biofuel."
 			}
@@ -365,6 +526,19 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Sea Slivers",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
 				"text": "One of the few watery xenofauna that agrees with our biochemistry, these are plentiful enough at sea to be a regular source of meals."
 			}
 		]
@@ -382,6 +556,19 @@
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles> <with [1] to [6] neighboring [Ice] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "A kind of hypersaline ice caused by polar currents and microbial agents, they possess unique physical attributes that researchers love to study."
 			}
@@ -411,6 +598,17 @@
 			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Spice",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Spice",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Some type of moss or fungal xenoflora, these hardy organisms can enhance the taste of food. But prepared in a different way, and they become a potent hallucinogenic."
 			}
@@ -446,6 +644,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Stimulants",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Stimulants",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Certain substances from local xenoflora and xenofauna can energize a tired mind and/or body, when prepared carefully."
 			}
 		]
@@ -479,6 +688,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Hydromielin",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Hydromielin",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Scientists call this honey-like liquid 'a new superfood' because of its nutritional density. They are also very interested in its mind-expanding properties."
 			}
 		]
@@ -503,6 +723,17 @@
 			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ruby Cactus",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Ruby Cactus",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Edible when processed, its hard, almost amber-like reddish sap is also sought after by jewelers."
 			}
@@ -529,6 +760,19 @@
 			"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Snuffets",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "Among the least hostile xenofauna we've ever encountered in this planet, Snuffets were at the bottom of the planetary food chain. Colonists also find them to be a fancy exotic pet, as long as you spay them."
 			}
@@ -562,6 +806,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Gold Ore",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "The same shiny material that was highly prized in old Earth, it is now valued more by its use in electronics rather than its lustre."
 			}
 		]
@@ -593,6 +844,13 @@
 			"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Harmonix Crystals",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "These crystals possess a certain molecular structure that a soothing hum can be heard when they are lightly struck. They have since become a good stress reliever for colonists."
 			}
@@ -626,6 +884,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Jadonyx",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "These gems differ from their old Earth counterparts in that they sometimes contain exotic particles in their molecules, thus making them sought after by scientists."
 			}
 		]
@@ -658,6 +923,13 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Kaibir Crystals",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "These crystals' molecular structure naturally bend light into a beam of a specific color, especially when a strong light shines straight on them. The old Earth tradition of 'Raves' were thus revived here."
 			}
 		]
@@ -677,6 +949,19 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Sindrian Lobster",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
 				"text": "This blue crustacean-like xenofauna is said to be the most delicious in this planet."
 			}
 		]
@@ -695,6 +980,19 @@
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Benthic Orbs",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
 			{
 				"text": "A pearl-like concentration of alloyed minerals created from the crushing depths of this planet's oceans, they are beautiful as they are rare."
 			}
@@ -721,6 +1019,17 @@
 		],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Artifacts",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Research Base Artifacts",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "There are signs that this planet used to be colonized by another civilization before us - a theory that had been proven by the existence of these artefacts."
 			}
 		]
@@ -746,6 +1055,17 @@
 			"Generated near City States with weight [15]"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Flowers of Silence",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Research Base Flowers of Silence",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A type of xenoflora whose 'petals' contain a nootropic drug, they are considered valuable to scientists."
 			}
@@ -928,6 +1248,13 @@
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Titanium",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "The ores of this sturdy metal are more plentiful here than on old Earth, and their alloys are used in buildings and vehicles."
 			}
 		]
@@ -968,6 +1295,16 @@
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Promethine",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
 			{
 				"text": "A high-energy liquid akin to petrochemicals on old Earth, these provide excellent fuel sources and rapidly applicable pyrotechnics."
 			}
@@ -1010,6 +1347,16 @@
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Vitamass",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
 				"text": "Underground pools of living, undifferentiated xeno-stem cells that might be unique to this planet, and could be cultivated for raw nutrients or biofuel."
 			}
 		]
@@ -1037,6 +1384,13 @@
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ulframite",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "These glowing crystals have an unique property: when rubbed against each other, they repel gravitational forces for some time. Scientists are coming up with possible ways to utilize them as power sources."
 			}
@@ -1074,6 +1428,13 @@
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Gravitix",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Rarely occurring in nature, these gems contain graviton particles useful to scientists."
 			}
 		]
@@ -1106,6 +1467,13 @@
 		"majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Yairmite",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Very valuable to the scientific community, this mineral exhibit natural quantum entanglement in its particles, offering a relatively easy way to entangle other materials."
 			}
