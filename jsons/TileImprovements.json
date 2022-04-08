@@ -19,6 +19,13 @@
 		"shortcutKey": "F",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Hydroponics Field",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Rows upon rows of basic hydroponics, growing staple foods of old Earth"
 			}
 		]
@@ -42,6 +49,13 @@
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Rows upon rows of tilled, fertilized ground, growing local edible xenoflora and the few old Earth plants that could survive here"
 			}
@@ -68,6 +82,13 @@
 		//"shortcutKey": "F",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Terraboretum",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Massive domed habitats purely dedicated to growing a variety of DNA-cloned plants of old Earth, they also double as recreation areas for the colonists"
 			}
 		]
@@ -83,6 +104,15 @@
 		],
 		"shortcutKey": "L",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Forestry Camp",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "An unintrusive camp to gather sustainable lumber from local forests and jungles"
 			}
@@ -100,6 +130,13 @@
 		],
 		"shortcutKey": "M",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Tunnels dug by machinery to retrieve the resources hidden underground"
 			}
@@ -124,6 +161,13 @@
 		"uniques": ["[+1 Gold] <after discovering [Cryptocurrency]>"],
 		"shortcutKey": "T",
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Server Farm",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Vast arrays of raw computing power dedicated to the storage and retrieval of digital 'marks of credit'"
 			}
@@ -154,6 +198,13 @@
 		//"shortcutKey": "T",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Habitation Dome",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Domed enclosures amenable for human habitation, retaining breathable atmosphere"
 			}
 		]
@@ -179,6 +230,13 @@
 		//"shortcutKey": "F",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Xeno Sanctuary",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Massive domed habitats purely dedicated to preserving a piece of xeno ecology, they also double as recreation areas for the colonists"
 			}
 		]
@@ -196,6 +254,15 @@
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Enclosure Dairy Aphid",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "An enclosed space to limit movement of local xenofauna resources, so we could exploit them"
 			}
@@ -211,6 +278,13 @@
 		"shortcutKey": "Q",
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/BasaltQuarry",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Machinery breaks stone into easily transportable chunks in this facility"
 			}
 		]
@@ -223,6 +297,13 @@
 		"uniques": ["[+2 Science] <after discovering [Info Networks]>"],
 		//"shortcutKey": "Q"
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Research Base Artifacts",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "A remote but self-sufficient base dedicated to field research"
 			}
@@ -237,6 +318,15 @@
 			"[+1 Production] <after discovering [Offworld Industries]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Vents",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "massive floating oceanic structures designed to exploit a specific resource from the ocean floor"
 			}
@@ -249,6 +339,15 @@
 		"techRequired": "Xenoagriculture",
 		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Sliver",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{ "text": "A place to cultivate the organic riches of the sea" }
 		]
 	},
@@ -262,6 +361,15 @@
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Derrick Promethine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Akin to a siphon, the derrick sucks fluid resources from deep beneath the crust"
 			}
@@ -290,6 +398,15 @@
 		],
 		//"shortcutKey": "O"
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Emplacement",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "A defensive clearing that provides some protection for the units inside"
 			}
@@ -316,6 +433,15 @@
 		],
 		"shortcutKey": "O",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Fort",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{ "text": "A massive, strategic defensive structure" }
 		]
 	},
@@ -343,6 +469,13 @@
 		],
 		//"shortcutKey": "O"
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Artificial Miasma",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{
 				"text": "Artificially-induced miasma cloud, just as annoying as the natural version"
 			}
@@ -471,6 +604,15 @@
 			"[+2 Science] <after discovering [Artificial Intelligence]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Academy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Vast research complexes combined with an university to teach the new generation in the lastest technologies, and at the same time discovering future ones"
 			}
@@ -486,6 +628,15 @@
 			"[+3 Culture] <after discovering [Posthumanist Culture]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Cultural Site",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "A place of great cultural significance, tourists regularly flock to these spots"
 			}
@@ -500,6 +651,15 @@
 			"[+1 Production] <after discovering [Crust Fracking]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Industrial District",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Sprawling fronts of industrial machinery, producing anything and everything you could think of"
 			}
@@ -514,6 +674,15 @@
 			"[+2 Gold] <after discovering [Cryptocurrency]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Trade Center",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "It bustles with transactions and trades, a not-so-small cogwheel in the economic system"
 			}
@@ -524,6 +693,15 @@
 		"faith": 6,
 		"uniques": ["Great Improvement"],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Visionary Site",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "A locus of spiritual enlightenment for the colonists of this planet"
 			}
@@ -538,6 +716,15 @@
 			"Can be built just outside your borders"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Citadel",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Formidable complex of military installations which instill fear for would-be attackers"
 			},
@@ -562,6 +749,15 @@
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mining Camp",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Convicts toil away at these cheap but defensive sites, extracting mineral resources for the company"
 			}
@@ -580,6 +776,15 @@
 			"[+2 Science] <after discovering [Artificial Intelligence]>"
 		],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Biodome City",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Under the dome, a bustling, eco-friendly city thrives. Various flora are cultivated on the buildings themselves, providing food to the masses. And of course, the laboratories and educational services are integrated into daily life here"
 			}
@@ -608,6 +813,15 @@
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Holorelay",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Relay towers which light up with advertisement hologramss that also appear in augmented reality and virtual reality. They also depict Thespiaux-endorsed influencers and idols, promoting them far and wide"
 			}
@@ -672,6 +886,15 @@
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Waystation",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "A small complex of habitation, regularly stocked with local supplies to aid any Nomad on their journeys"
 			}
@@ -704,6 +927,15 @@
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Prefab Lair",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Prefabricated habitation modules built as-is, and utilized as makeshift defenses. Also doubles as artificial reef if built on water, and can hurt enemy boats hitting it"
 			}
@@ -717,6 +949,13 @@
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"],
 		"civilopediaText": [
 			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Crash site",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
 				"text": "Something man-made that was once in orbit, brought low by gravity"
 			}
 		]
@@ -725,6 +964,15 @@
 		"name": "City ruins",
 		"uniques": ["Unpillagable"],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{ "text": "A bleak reminder of the cost of waging war" }
 		]
 	},
@@ -732,6 +980,37 @@
 		"name": "City center",
 		"uniques": ["Unpillagable", "Indestructible"],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Landfall era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Exploration era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Colonization era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Halcyon era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Realization era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Transcendental era",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Singularity era",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{ "text": "Marks the center of a city" },
 			{
 				"text": "Appearance changes with the technological era of the owning civilization"
@@ -742,6 +1021,15 @@
 		"name": "Barbarian encampment",
 		"uniques": ["Unpillagable"],
 		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
 			{
 				"text": "Home to savage Xenos, will spawn a hostile xeno from time to time"
 			}
