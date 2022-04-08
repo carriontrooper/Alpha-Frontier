@@ -20,7 +20,11 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Tubers",
-				"imageSize": 32
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
 			},
 			{
 				"Separator": true
