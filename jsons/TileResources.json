@@ -742,7 +742,7 @@
 	// Critters
 	{
 		"name": "Snuffets",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland", "Mycelium"],
 		//"food": 1,
 		"improvement": "Enclosure",
