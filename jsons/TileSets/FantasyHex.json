@@ -346,6 +346,42 @@
 		// Ruby Cactus
 		"Desert+Ruby Cactus+Agri Farm": ["Desert","Agri Farm Ruby Cactus"],
 		
+		//// Enclosure
+		// Chitin
+		"Grassland+Chitin+Enclosure": ["Grassland","EnclosureBack","Chitin","EnclosureFront"],
+		"Plains+Chitin+Enclosure": ["Plains","EnclosureBack","Chitin","EnclosureFront"],
+		"Tundra+Chitin+Enclosure": ["Tundra","EnclosureBack","Chitin","EnclosureFront"],
+		"Mycelium+Chitin+Enclosure": ["Mycelium","EnclosureBack","Chitin","EnclosureFront"],
+		
+		"Grassland+Forest+Chitin+Enclosure": ["Grassland","EnclosureBack","ForestClearingGrasslandBack","Chitin","ForestClearingGrasslandFront","EnclosureFront"],
+		"Plains+Forest+Chitin+Enclosure": ["Plains","EnclosureBack","ForestClearingPlainsBack","Chitin","ForestClearingPlainsFront","EnclosureFront"],
+		"Tundra+Forest+Chitin+Enclosure": ["Tundra","EnclosureBack","ForestClearingTundraBack","Chitin","ForestClearingTundraFront","EnclosureFront"],
+		
+		"Grassland+Hill+Forest+Chitin+Enclosure": ["Grassland","Hill","EnclosureBack","ForestClearingGrasslandBack","Chitin","ForestClearingGrasslandFront","EnclosureFront"],
+		"Plains+Hill+Forest+Chitin+Enclosure": ["Plains","Hill","EnclosureBack","ForestClearingPlainsBack","Chitin","ForestClearingPlainsFront","EnclosureFront"],
+		"Mycelium+Hill+Forest+Chitin+Enclosure": ["Mycelium","Hill","EnclosureBack","ForestClearingMyceliumBack","Chitin","ForestClearingMyceliumFront","EnclosureFront"],
+		"Tundra+Hill+Forest+Chitin+Enclosure": ["Tundra","Hill","EnclosureBack","ForestClearingTundraBack","Chitin","ForestClearingTundraFront","EnclosureFront"],
+		
+		// Dairy Aphid
+		"Grassland+Dairy Aphid+Enclosure": ["Grassland","EnclosureBack","Dairy Aphid","EnclosureFront"],
+		"Plains+Dairy Aphid+Enclosure": ["Plains","EnclosureBack","Dairy Aphid","EnclosureFront"],
+		"Mycelium+Dairy Aphid+Enclosure": ["Mycelium","EnclosureBack","Dairy Aphid","EnclosureFront"],
+		
+		// Snuffets
+		"Grassland+Snuffets+Enclosure": ["Grassland","EnclosureBack","Snuffets","EnclosureFront"],
+		"Plains+Snuffets+Enclosure": ["Plains","EnclosureBack","Snuffets","EnclosureFront"],
+		"Tundra+Snuffets+Enclosure": ["Tundra","EnclosureBack","Snuffets","EnclosureFront"],
+		"Mycelium+Snuffets+Enclosure": ["Mycelium","EnclosureBack","Snuffets","EnclosureFront"],
+		
+		"Grassland+Forest+Snuffets+Enclosure": ["Grassland","EnclosureBack","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront","EnclosureFront"],
+		"Plains+Forest+Snuffets+Enclosure": ["Plains","EnclosureBack","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront","EnclosureFront"],
+		"Tundra+Forest+Snuffets+Enclosure": ["Tundra","EnclosureBack","ForestClearingTundraBack","Snuffets","ForestClearingTundraFront","EnclosureFront"],
+		
+		"Grassland+Hill+Forest+Snuffets+Enclosure": ["Grassland","Hill","EnclosureBack","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront","EnclosureFront"],
+		"Plains+Hill+Forest+Snuffets+Enclosure": ["Plains","Hill","EnclosureBack","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront","EnclosureFront"],
+		"Mycelium+Hill+Forest+Snuffets+Enclosure": ["Mycelium","Hill","EnclosureBack","ForestClearingMyceliumBack","Snuffets","ForestClearingMyceliumFront","EnclosureFront"],
+		"Tundra+Hill+Forest+Snuffets+Enclosure": ["Tundra","Hill","EnclosureBack","ForestClearingTundraBack","Snuffets","ForestClearingTundraFront","EnclosureFront"],
+		
 		//// Quarry
 		// Basalt
 		"Grassland+Basalt+Quarry": ["Grassland","BasaltQuarry"],
@@ -355,6 +391,35 @@
 		// Silica
 		"Tundra+Silica+Quarry": ["Tundra","SilicaQuarry"],
 		"Desert+Silica+Quarry": ["Desert","SilicaQuarry"],
+		
+		//// Aquaculture
+		// Algae
+		"Coast+Algae+Aquaculture": ["Coast","Aquaculture Algae"],
+		"Ocean+Algae+Aquaculture": ["Ocean","Aquaculture Algae"],
+		"Lakes+Algae+Aquaculture": ["Lakes","Aquaculture Algae"],
+		
+		// Seasilk
+		"Coast+Seasilk+Aquaculture": ["Coast","Aquaculture Seasilk"],
+		
+		// Plankton
+		"Coast+Plankton+Aquaculture": ["Coast","Aquaculture Plankton"],
+		"Ocean+Plankton+Aquaculture": ["Ocean","Aquaculture Plankton"],
+		
+		// Sea Slivers
+		"Coast+Sea Slivers+Aquaculture": ["Coast","Aquaculture Sea Slivers"],
+		"Ocean+Sea Slivers+Aquaculture": ["Ocean","Aquaculture Sea Slivers"],
+		
+		// Sindrian Lobster
+		"Coast+Sindrian Lobster+Aquaculture": ["Coast","Aquaculture Sindrian Lobster"],
+		"Ocean+Sindrian Lobster+Aquaculture": ["Ocean","Aquaculture Sindrian Lobster"],
+		
+		//// Offshore Platform
+		// Vents
+		// Ice-10
+		"Coast+Ice-10+Offshore Platform": ["Coast","Offshore Platform Ice-10"],
+		"Ocean+Ice-10+Offshore Platform": ["Ocean","Offshore Platform Ice-10"],
+		
+		// Benthic Orbs
 		
 		//// Research Base
 		// Artifacts
