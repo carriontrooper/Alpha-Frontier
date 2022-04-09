@@ -20,6 +20,8 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Tubers",
+				"imageSize": 64,
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
 				"imageSize": 64
 			},
 			{
@@ -435,12 +437,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Algae",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Algae",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -467,12 +467,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Seasilk",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Seasilk",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -498,12 +496,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Plankton",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Plankton",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -529,12 +525,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Sea Slivers",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Slivers",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -560,12 +554,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -952,12 +944,10 @@
 				"extraImage": "TileSets/FantasyHex/Tiles/Sindrian Lobster",
 				"imageSize": 64
 			},
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sindrian Lobster",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
