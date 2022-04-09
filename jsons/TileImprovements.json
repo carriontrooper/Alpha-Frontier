@@ -254,15 +254,13 @@
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Enclosure Dairy Aphid",
+				"extraImage": "TileSets/FantasyHex/Tiles/EnclosureFull",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "An enclosed space to limit movement of local xenofauna resources, so we could exploit them"
 			}
@@ -318,15 +316,13 @@
 			"[+1 Production] <after discovering [Offworld Industries]>"
 		],
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Vents",
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "massive floating oceanic structures designed to exploit a specific resource from the ocean floor"
 			}
@@ -339,15 +335,13 @@
 		"techRequired": "Xenoagriculture",
 		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Sliver",
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Slivers",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{ "text": "A place to cultivate the organic riches of the sea" }
 		]
 	},
