@@ -100,6 +100,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
 		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
 			"[+1 Production] <after discovering [Offworld Industries]>"
 		],
 		"shortcutKey": "L",
