@@ -106,15 +106,13 @@
 		],
 		"shortcutKey": "L",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Forestry Camp",
+				"extraImage": "TileSets/FantasyHex/Tiles/Forestry Camp Grassland Forest",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "An unintrusive camp to gather sustainable lumber from local forests and jungles"
 			}
@@ -357,15 +355,13 @@
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Derrick Promethine",
+				"extraImage": "TileSets/FantasyHex/Tiles/Derrick",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Akin to a siphon, the derrick sucks fluid resources from deep beneath the crust"
 			}
