@@ -444,6 +444,34 @@
 		"Mycelium+Hill+Flowers of Silence+Research Base": ["Mycelium","Hill","Research Base Flowers of Silence"],
 		"Desert+Hill+Flowers of Silence+Research Base": ["Desert","Hill","Research Base Flowers of Silence"],
 		
+		//// Derrick
+		// Promethine
+		// Vitamass
+		
+		////// OTHER IMPROVEMENTS
+		// Forestry Camp
+		"Grassland+Forest+Forestry Camp": ["Grassland","Forestry Camp Grassland Forest"],
+		"Plains+Forest+Forestry Camp": ["Plains","Forestry Camp Plains Forest"],
+		"Mycelium+Forest+Forestry Camp": ["Mycelium","Forestry Camp Mycelium Forest"],
+		"Tundra+Forest+Forestry Camp": ["Tundra","Forestry Camp Tundra Forest"],
+		
+		"Grassland+Jungle+Forestry Camp": ["Grassland","Forestry Camp Grassland Jungle"],
+		"Plains+Jungle+Forestry Camp": ["Plains","Forestry Camp Plains Jungle"],
+		"Mycelium+Jungle+Forestry Camp": ["Mycelium","Forestry Camp Mycelium Jungle"],
+		
+		"Grassland+Hill+Forest+Forestry Camp": ["Grassland","Hill","Forestry Camp Grassland Forest"],
+		"Plains+Hill+Forest+Forestry Camp": ["Plains","Hill","Forestry Camp Plains Forest"],
+		"Mycelium+Hill+Forest+Forestry Camp": ["Mycelium","Hill","Forestry Camp Mycelium Forest"],
+		"Tundra+Hill+Forest+Forestry Camp": ["Tundra","Hill","Forestry Camp Tundra Forest"],
+		
+		"Grassland+Hill+Jungle+Forestry Camp": ["Grassland","Hill","Forestry Camp Grassland Jungle"],
+		"Plains+Hill+Jungle+Forestry Camp": ["Plains","Hill","Forestry Camp Plains Jungle"],
+		"Mycelium+Hill+Jungle+Forestry Camp": ["Mycelium","Hill","Forestry Camp Mycelium Jungle"],
+		
+		////// GREAT IMPROVEMENTS
+		
+		////// UNIQUE IMPROVEMENTS
+		
 		/*
 		//Legacy hill support
 		"Hill": ["Grassland", "Hill"],
