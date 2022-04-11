@@ -102,7 +102,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] <after discovering [Offworld Industries]>"
+			"[+1 Production] <after discovering [Efficient Extraction Methods]>"
 		],
 		"shortcutKey": "L",
 		"civilopediaText": [
@@ -250,7 +250,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Gold] <after discovering [Offworld Industries]>"
+			"[+1 Gold] <after discovering [Efficient Extraction Methods]>"
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
@@ -350,8 +350,8 @@
 		"turnsToBuild": 9,
 		"techRequired": "Offworld Industries",
 		"uniques": [
-			"Cannot be built on [Coast] tiles <before discovering [Offworld Industries]>",
-			"Cannot be built on [Ocean] tiles <before discovering [Offworld Industries]>"
+			"Cannot be built on [Coast] tiles <before discovering [Crust Fracking]>",
+			"Cannot be built on [Ocean] tiles <before discovering [Crust Fracking]>"
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
