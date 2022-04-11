@@ -213,6 +213,12 @@
 				"uniques": ["Enables conversion of city production to gold"]
 			},
 			{
+				"name": "Efficient Extraction Methods",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Deep Resource Scanning","Synthetic Materials"]
+			},
+			{
 				"name": "Hab-Domes",
 				"row": 7,
 				"quote": "'Now these are what I'm talking about! No more bumping your shins on room dividers! No more stale friggin' recycled air! We have DOMES!' - Truong Vanth Ngo, environmental engineer",
@@ -257,7 +263,7 @@
 				"name": "Crust Fracking",
 				"row": 4,
 				"quote": "'.' - ",
-				"prerequisites": ["Offworld Industries","Stable Fission Power"]
+				"prerequisites": ["Offworld Industries","Efficient Extraction Methods"]
 			},
 			{
 				"name": "Info Networks",
