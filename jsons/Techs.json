@@ -416,16 +416,16 @@
 				"prerequisites": ["Satellite Networks", "Net Culture"]
 			},
 			{
+				"name": "Fusion Power",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Stable Fission Power","Lasers"]
+			},
+			{
 				"name": "Virtual Drugs",
 				"row": 9,
 				"quote": "'.' - ",
 				"prerequisites": ["Cybernetics", "Net Culture"]
-			},
-			{
-				"name": "Fusion Power",
-				"row": 8,
-				"quote": "'.' - ",
-				"prerequisites": ["Stable Fission Power","Lasers"]
 			},
 			{
 				"name": "Mind-Machine Interface",
@@ -469,7 +469,7 @@
 			},
 			{
 				"name": "Terraforming",
-				"row": 7,
+				"row": 8,
 				"quote": "'.' - ",
 				"prerequisites": ["Crust Fracking", "Xenoarchaeology"]
 			},
