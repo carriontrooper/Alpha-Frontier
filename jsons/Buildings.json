@@ -486,7 +486,7 @@
 		"maintenance": 2,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 25 },
+		"percentStatBonus": { "production": 10 },
 		"requiredBuilding": "Mining Tunnels",
 		"uniques": [
 			/*
@@ -511,8 +511,11 @@
 		"maintenance": 1,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 25 },
+		"percentStatBonus": { "production": 10 },
 		"requiredBuilding": "Prefab Printer",
+		"uniques": [
+			"[+20]% Production when constructing [Rover] units [in this city]"
+		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
 			{
@@ -725,7 +728,7 @@
 		"name": "Genetic Laboratory",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 33 },
+		"percentStatBonus": { "science": 25 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
@@ -756,7 +759,7 @@
 		"name": "Colonial Unversity",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 20 },
+		"percentStatBonus": { "science": 10 },
 		"specialistSlots": { "Scientist": 1 },
 		"requiredBuilding": "Research Laboratory",
 		"requiredTech": "Colony Administration",
@@ -1007,7 +1010,7 @@
 	{
 		"name": "Meteor Catcher",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 20 },
+		"percentStatBonus": { "production": 10 },
 		"requiredTech": "Cosmonautics",
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": ["Orbital"],
@@ -1080,7 +1083,7 @@
 	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 30, "gold": 10 },
+		"percentStatBonus": { "production": 20, "gold": 10 },
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
@@ -1155,7 +1158,7 @@
 		"name": "Augment Center",
 		"maintenance": 1,
 		"culture": 2,
-		"percentStatBonus": { "production": 20 },
+		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]"
@@ -1253,7 +1256,7 @@
 		"maintenance": 2,
 		"production": 1,
 		"gold": 1,
-		"percentStatBonus": { "production": 20 },
+		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]"
@@ -1458,7 +1461,7 @@
 		"faith": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 33 },
+		"percentStatBonus": { "science": 25 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
