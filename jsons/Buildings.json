@@ -917,7 +917,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Colonial Patrol Station",
-		"requiredTech": "Info Networks",
+		"requiredTech": "Colony Administration",
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
