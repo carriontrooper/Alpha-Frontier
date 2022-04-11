@@ -348,10 +348,10 @@
 	{
 		"name": "Derrick",
 		"turnsToBuild": 9,
-		"techRequired": "Offworld Industries",
+		"techRequired": "Crust Fracking",
 		"uniques": [
-			"Cannot be built on [Coast] tiles <before discovering [Crust Fracking]>",
-			"Cannot be built on [Ocean] tiles <before discovering [Crust Fracking]>"
+			"Cannot be built on [Coast] tiles <before discovering [Stable Fission Power]>",
+			"Cannot be built on [Ocean] tiles <before discovering [Stable Fission Power]>"
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
