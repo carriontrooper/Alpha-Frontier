@@ -390,7 +390,6 @@
 		],
 		//"shortcutKey": "O"
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Emplacement",
 				"imageSize": 64
@@ -398,7 +397,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "A defensive clearing that provides some protection for the units inside"
 			}
@@ -425,7 +423,6 @@
 		],
 		"shortcutKey": "O",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Fort",
 				"imageSize": 64
@@ -433,7 +430,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{ "text": "A massive, strategic defensive structure" }
 		]
 	},
@@ -708,7 +704,6 @@
 			"Can be built just outside your borders"
 		],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Citadel",
 				"imageSize": 64
@@ -716,7 +711,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Formidable complex of military installations which instill fear for would-be attackers"
 			},
