@@ -116,6 +116,7 @@
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.8] and [0.9]",
 			"Occurs at temperature between [0] and [0.2] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.6] and [0.7]",
+			"Occurs in groups of [2] to [5] tiles",
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Mycelium] tiles, with priority [6]",
 			"A Region can not contain more [Grassland] tiles than [Mycelium] tiles",
