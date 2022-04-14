@@ -1904,7 +1904,7 @@
 		]
 	},
 	{
-		"name": "Martian Free Rifles (Colonial Rifleman)",
+		"name": "Martian Free Rifles (Colony Rifleman)",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 13,
@@ -1926,7 +1926,7 @@
 		]
 	},
 	{
-		"name": "Europan Deadshots (Colonial Marksman)",
+		"name": "Europan Deadshots (Colony Marksman)",
 		"unitType": "Sniper",
 		"movement": 2,
 		"range": 2,
