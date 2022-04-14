@@ -1329,7 +1329,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
-			"[50]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs [Satellite] units> <with [50]% chance>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Never appears as a Barbarian unit"
