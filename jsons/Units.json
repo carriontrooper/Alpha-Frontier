@@ -391,6 +391,7 @@
 		"strength": 5,
 		"cost": 25,
 		//"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Combat Rover",
 		"uniques": [
 			"Rover",
 			"[+1] Sight",
@@ -1852,6 +1853,50 @@
 			},
 			{
 				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
+			}
+		]
+	},
+	
+	//// Aerial Units
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Swarm Drones",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 50,
+		"cost": 55,
+		"requiredTech": "Hive Mind",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+50]% Strength <when adjacent to a [Swarm Drones] unit>",
+			"[+10]% Strength <when adjacent to a [Military] unit>",
+			"May withdraw before melee ([50]%)",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Taking notes from Darters, these flocks of AI-controlled drones operate as if they are a single organism. Their combat algorithms are enhanced when there are more units near them."
 			}
 		]
 	},
