@@ -1,6 +1,22 @@
 [
 	// todo: more buildings for Halcyon upwards, especially Realization and Transcedental
 	// todo: add something to augment the virtual buildings, maybe a wonder?
+	// todo: add buildings for techs:
+	// Strike Drone (Drone Command?)
+	// Stable Fission Power (Tokamak Reactor?)
+	// Mecha Prototypes (Mech Pilot Training Facility?)
+	// Quantum Computing (Quantum Economic Services?)
+	// Xeno Psychology (Xenomind Research Center?)
+	// Virtual Drugs (Virtual Altered State?)
+	// Cyberbrains (Remote Fabricator? Persona Backup Servers?)
+	// Stasis Fields (Stasis Defenses?)
+	// Solar Reflectors (Orbital Solar Reflector?)
+	// Posthumanist Culture (Cyber-Dream Commune?)
+	// Psionics (Economic Oracle?)
+	// Hive Mind (Global Consciousness?)
+	// FTL Travel (FTL Probe Project?)
+	// N-Dimensional Exploration (Escher Module?)
+	// Zero Point Energy (Void Lens?)
 
 	// Buildings
 	{
