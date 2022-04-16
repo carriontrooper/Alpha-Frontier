@@ -1886,12 +1886,10 @@
 		],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
