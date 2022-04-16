@@ -592,7 +592,6 @@
 			"[+2 Science] <after discovering [Artificial Intelligence]>"
 		],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Academy",
 				"imageSize": 64
@@ -600,7 +599,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Vast research complexes combined with an university to teach the new generation in the lastest technologies, and at the same time discovering future ones"
 			}
@@ -616,7 +614,6 @@
 			"[+3 Culture] <after discovering [Posthumanist Culture]>"
 		],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Cultural Site",
 				"imageSize": 64
@@ -624,7 +621,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "A place of great cultural significance, tourists regularly flock to these spots"
 			}
@@ -639,7 +635,6 @@
 			"[+1 Production] <after discovering [Crust Fracking]>"
 		],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Industrial District",
 				"imageSize": 64
@@ -647,7 +642,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Sprawling fronts of industrial machinery, producing anything and everything you could think of"
 			}
