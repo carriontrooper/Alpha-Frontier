@@ -1,5 +1,5 @@
 [
-	// todo: add more aerocraft, ideo specific units
+	// todo: add more aerocraft
 	// add more techs for them if needed
 
 	////////////////////
@@ -1610,7 +1610,7 @@
 		"unitType": "Helicopter",
 		"movement": 5,
 		"strength": 50,
-		"cost": 45,
+		"cost": 345,
 		"requiredTech": "Mind-Machine Interface",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1736,7 +1736,7 @@
 		"unitType": "Armored",
 		"movement": 3,
 		"strength": 50,
-		"cost": 150,
+		"cost": 450,
 		"requiredTech": "Stasis Fields",
 		"requiredResource": "Ulframite",
 		"uniques": [
@@ -1865,7 +1865,7 @@
 		"unitType": "Helicopter",
 		"movement": 5,
 		"strength": 50,
-		"cost": 55,
+		"cost": 355,
 		"requiredTech": "Hive Mind",
 		"requiredResource": "Vitamass",
 		"uniques": [
@@ -1900,6 +1900,205 @@
 			}
 		]
 	},
+	
+	// Ideo specific units
+	//// Purification
+	{
+		"name": "Stim Trooper",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 46,
+		"cost": 300,
+		"requiredTech": "Virtual Drugs",
+		"uniques": [
+			"[+100]% Strength <during a Golden Age>",
+			"[+50]% XP gained from combat",
+			"Only available <after adopting [Purification Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a myriad of synthetic and virtual combat stimulants, this unit gets more effective when morale is high."
+			}
+		]
+	},
+	{
+		"name": "Mobile Fortress",
+		"unitType": "Land Carrier",
+		"movement": 3,
+		"strength": 65,
+		"range": 2,
+		"cost": 600,
+		"requiredTech": "Antimatter Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Can carry [2] [Aerocraft] units",
+			"Can carry [4] [Missile] units",
+			"Can carry [1] [Satellite] units",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Only available <after adopting [Purification Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "This truly massive vehicle is the epitome of defense - it is big enough to have its own landing strip and orbital launch facility, not to mention missile silos. Just park it in a choke point and let your enemies crash and burn against it."
+			}
+		]
+	},
+	
+	//// Symbiosis
+	{
+		"name": "Hybrid Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 56,
+		"cost": 400,
+		"requiredTech": "Genetic Hybridization",
+		"uniques": [
+			"[20] HP when healing",
+			"Heals [20] damage if it kills a unit",
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Genetically spliced with Xeno DNA, these soldiers could regenerate grievous wounds if allowed to rest. They could also digest battlefield remnants to heal themselves."
+			}
+		]
+	},
+	{
+		"name": "Behemoth",
+		"unitType": "Xeno Melee Land",
+		"movement": 2,
+		"strength": 60,
+		"cost": 600,
+		"requiredTech": "Advanced Biotech",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"Heals [20] damage if it kills a unit",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>"
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Mankind's answer to the Gigantes and its ilk, this artificially-created organism is more akin to a biological mech than a creature."
+			}
+		]
+	},
+	
+	//// Radiant
+	{
+		"name": "Cyborg Sniper",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 4,
+		"strength": 56,
+		"rangedStrength": 56,
+		"cost": 500,
+		"requiredTech": "Cyberbrains",
+		"uniques": [
+			"[+2] Sight",
+			"Damage is ignored when determining unit Strength",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "With the development of cyberbrains, full-body prosthetics became available, and this fully-augmented sniper makes the best use of it."
+			}
+		]
+	},
+	{
+		"name": "Ray Wing",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 5,
+		"interceptRange": 4,
+		"cost": 550,
+		"requiredTech": "Exotic Quantum Physics",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[100]% Strength <vs [Satellite] units> <with [80]% chance>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Utilizing exotic Ulframite reactions to fly, this state-of-the-art aerocraft can reach low orbit with ease. As a consequence, it can shoot down satellites."
+			}
+		]
+	},
+	
 
 	// Mercenary Units
 	//// Scout
