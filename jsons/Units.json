@@ -1869,6 +1869,7 @@
 		"requiredTech": "Hive Mind",
 		"requiredResource": "Vitamass",
 		"uniques": [
+			"Drone",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
