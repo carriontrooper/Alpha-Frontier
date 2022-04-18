@@ -1,6 +1,22 @@
 [
 	// todo: more buildings for Halcyon upwards, especially Realization and Transcedental
 	// todo: add something to augment the virtual buildings, maybe a wonder?
+	// todo: add buildings for techs:
+	// Strike Drone (Drone Command?)
+	// Stable Fission Power (Tokamak Reactor?)
+	// Mecha Prototypes (Mech Pilot Training Facility?)
+	// Quantum Computing (Quantum Economic Services?)
+	// Xeno Psychology (Xenomind Research Center?)
+	// Virtual Drugs (Virtual Altered State?)
+	// Cyberbrains (Remote Fabricator? Persona Backup Servers?)
+	// Stasis Fields (Stasis Defenses?)
+	// Solar Reflectors (Orbital Solar Reflector?)
+	// Posthumanist Culture (Cyber-Dream Commune?)
+	// Psionics (Economic Oracle?)
+	// Hive Mind (Global Consciousness?)
+	// FTL Travel (FTL Probe Project?)
+	// N-Dimensional Exploration (Escher Module?)
+	// Zero Point Energy (Void Lens?)
 
 	// Buildings
 	{
@@ -1161,7 +1177,7 @@
 		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[20]% Food is carried over after population increases [in this city]"
+			"[10]% Food is carried over after population increases [in this city]"
 		],
 		"requiredBuilding": "Frontier Hospital",
 		"requiredTech": "Cybernetics",
@@ -1276,6 +1292,44 @@
 		"percentStatBonus": { "food": 10 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Quantum Harvesting Facility",
+		"maintenance": 2,
+		"production": 1,
+		"science": 1,
+		"percentStatBonus": { "production": 10 },
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Provides [1] [Gravitix]",
+			"Provides [1] [Yairmite]"
+		],
+		"requiredTech": "Exotic Quantum Physics",
+		"requiredResource": "Antimatter",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Vitae Field Generator",
+		"maintenance": 2,
+		"science": 2,
+		"happiness": 1,
+		"percentStatBonus": { "food": 10 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Advanced Biotech",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
