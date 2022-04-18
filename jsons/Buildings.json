@@ -2,10 +2,6 @@
 	// todo: more buildings for Halcyon upwards, especially Realization and Transcedental
 	// todo: add something to augment the virtual buildings, maybe a wonder?
 	// todo: add buildings for techs:
-	// Strike Drone (Drone Command?)
-	// Stable Fission Power (Tokamak Reactor?)
-	// Mecha Prototypes (Mech Pilot Training Facility?)
-	// Quantum Computing (Quantum Economic Services?)
 	// Xeno Psychology (Xenomind Research Center?)
 	// Virtual Drugs (Virtual Altered State?)
 	// Cyberbrains (Remote Fabricator? Persona Backup Servers?)
@@ -415,6 +411,23 @@
 			"[+1 Science] from [Mycelium] tiles [in this city]"
 		],
 		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Tokamak Reactor",
+		"maintenance": 2,
+		"production": 2,
+		"gold": 1,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Scientist": 1, "Engineer": 1 },
+		"uniques": [
+			"[+5]% Production when constructing [Production] buildings [in this city]"
+		],
+		"requiredTech": "Stable Fission Power",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -979,6 +992,23 @@
 		]
 	},
 	{
+		"name": "Mech Pilot Training Facility",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Mecha Prototypes",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Mechanized Unit Facility",
 		"cost": 60,
 		"maintenance": 1,
@@ -987,12 +1017,27 @@
 		"uniques": [
 			"Enables you to build Armored and Mech units",
 			"New [Armored] units start with [15] Experience [in this city]",
-			"New [Close Range Mech] units start with [15] Experience [in this city]",
-			"New [Ranged Mech] units start with [15] Experience [in this city]",
+			//"New [Mech] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Military Base",
 		"requiredTech": "Composite Armor",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Drone Command",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Drone] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Strike Drones",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1222,6 +1267,20 @@
 		]
 	},
 	{
+		"name": "Quantum Economic Services",
+		"maintenance": 2,
+		"gold": 3,
+		"percentStatBonus": { "gold": 10 },
+		"hurryCostModifier": 25,
+		"uniques": ["Virtual"],
+		"requiredTech": "Quantum Computing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Nerve Staple Center",
 		"maintenance": 1,
 		"culture": -5,
@@ -1336,6 +1395,8 @@
 			}
 		]
 	},
+
+	// Ideo Buildings
 
 	// Religious Buildings (e.g. Mosques, Cathedrals etc)
 	{
@@ -1994,6 +2055,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isWonder": true,
 		"uniques": [
+			"Gain a free [Cloning Vat] [in this city]",
 			"[+1] population [in all cities]",
 			"[+50]% Production when constructing [Military] units [in this city]"
 		],
