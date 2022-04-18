@@ -1,5 +1,5 @@
 [
-	// todo: add more aerocraft
+	// todo: add more aerocraft, add nerve stapled conscripts
 	// add more techs for them if needed
 
 	////////////////////
@@ -1869,6 +1869,7 @@
 		"requiredTech": "Hive Mind",
 		"requiredResource": "Vitamass",
 		"uniques": [
+			"Drone",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
@@ -1886,12 +1887,10 @@
 		],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -1951,6 +1950,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Limited to [3] per Civilization",
 			"Only available <after adopting [Purification Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2016,7 +2016,8 @@
 			"Heals [20] damage if it kills a unit",
 			"Can move after attacking",
 			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs cities>"
+			"[+33]% Strength <vs cities>",
+			"Limited to [3] per Civilization",
 			"Only available <after adopting [Symbiosis Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2088,6 +2089,7 @@
 			"[100]% Strength <vs [Satellite] units> <with [80]% chance>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Limited to [3] per Civilization",
 			"Only available <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
