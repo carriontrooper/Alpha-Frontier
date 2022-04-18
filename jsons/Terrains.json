@@ -7,6 +7,10 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
+		"uniques": [
+			"Becomes [Coast] when adjacent to [Harborship Wreck]",
+			"Becomes [Coast] when adjacent to [Great Neuroreef]"
+		]
 		"civilopediaText": [
 			{
 				"text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
@@ -54,6 +58,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -87,6 +93,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -118,6 +126,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Becomes [Plains] when adjacent to [Tree of Worlds]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -143,6 +153,9 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Becomes [Plains] when adjacent to [River]",
+			"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Becomes [Plains] when adjacent to [Tree of Worlds]",
 			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -165,6 +178,8 @@
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Becomes [Flood plains] when adjacent to [River]",
+			"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			"Becomes [Plains] when adjacent to [Tree of Worlds]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -225,6 +240,9 @@
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
 			"Becomes [Tundra] when adjacent to [River]",
+			"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Becomes [Plains] when adjacent to [Tree of Worlds]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>"
 		],
@@ -521,7 +539,7 @@
 			"Must be adjacent to [6] [Water] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles",
-			"Neighboring tiles will convert to [Coast]"
+			//"Neighboring tiles will convert to [Coast]"
 		],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -547,7 +565,7 @@
 			"Must be adjacent to [0] to [1] [Desert] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles",
-			"Neighboring tiles will convert to [Desert]"
+			//"Neighboring tiles will convert to [Desert]"
 		],
 		"turnsInto": "Desert",
 		"impassable": true,
@@ -572,7 +590,7 @@
 			"Must be adjacent to [0] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
 			"Must be adjacent to [0] to [3] [Tundra] tiles",
-			"Neighboring tiles will convert to [Mycelium]"
+			//"Neighboring tiles will convert to [Mycelium]"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -620,7 +638,7 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
 			"Tile provides yield without assigned population",
-			"Neighboring tiles will convert to [Plains]"
+			//"Neighboring tiles will convert to [Plains]"
 		],
 		"weight": 1,
 		"civilopediaText": [
@@ -664,7 +682,7 @@
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
-			"Neighboring tiles will convert to [Coast]"
+			//"Neighboring tiles will convert to [Coast]"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
