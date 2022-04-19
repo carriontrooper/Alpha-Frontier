@@ -5,7 +5,7 @@
 - [Indonesian Gentleman (AKA Carriontrooper)](https://github.com/carriontrooper) - sprites, idea, code, lore
 - [HaneulCheong](https://github.com/HaneulCheong) - code wizardry, lore
 - Bronze - idea
-- Caballero von Pancake - idea, lore
+- [Caballero von Pancake](https://github.com/ArchDuque-Pancake) - idea, lore
 - R.E.N. - idea
 - Bleh - idea
 - Plaxys - idea
@@ -24,5 +24,5 @@
 
 ## Translation
 
-- Caballero von Pancake - translation template
+- [Caballero von Pancake](https://github.com/ArchDuque-Pancake) - translation template
 - Heipizhu6 - Chinese translation, autogen template
