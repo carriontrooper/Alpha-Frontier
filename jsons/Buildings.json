@@ -761,7 +761,7 @@
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
-			"[+1 Science, +1 Food] from [Agri-Farm] tiles [in this city]"
+			"[+1 Science, +1 Food] from [Agri Farm] tiles [in this city]"
 		],
 		"requiredTech": "Genetics",
 		"civilopediaText": [
