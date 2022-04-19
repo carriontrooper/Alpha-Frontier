@@ -477,6 +477,7 @@
 		"techRequired": "Pioneer Administration",
 		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
 		"uniques": [
+			"Transport Network",
 			"Can be built outside your borders",
 			"Costs [1] gold per turn when in your territory"
 		],
@@ -503,6 +504,7 @@
 		"turnsToBuild": 4,
 		"techRequired": "Colony Administration",
 		"uniques": [
+			"Transport Network",
 			"Can be built outside your borders",
 			"Costs [2] gold per turn when in your territory"
 		],
