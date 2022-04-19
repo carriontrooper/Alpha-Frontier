@@ -113,7 +113,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Science] from [Research Base] tiles [in this city]",
-			"[+1 Science] from [Artifact] tiles [in this city]"
+			"[+1 Science] from [Artifacts] tiles [in this city]"
 		],
 		"requiredTech": "Computing",
 		"civilopediaText": [
