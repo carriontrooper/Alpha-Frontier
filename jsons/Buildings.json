@@ -1,14 +1,5 @@
 [
-	// todo: more buildings for Halcyon upwards, especially Realization and Transcedental
-	// todo: add something to augment the virtual buildings, maybe a wonder?
-	// todo: add buildings for techs:
-	// Solar Reflectors (Orbital Solar Reflector?)
-	// Posthumanist Culture (Cyber-Dream Commune?)
-	// Psionics (Wonder: Economic Oracle?)
-	// Hive Mind (Wonder: Global Consciousness?)
-	// FTL Travel (FTL Probe Project?)
-	// N-Dimensional Exploration (Escher Module?)
-	// Zero Point Energy (Wonder: Void Lens?)
+	// todo: more wonders maybe?
 
 	// Buildings
 	{
@@ -1435,6 +1426,20 @@
 
 	// Transcendental Era
 	{
+		"name": "Orbital Solar Reflector",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": 10, "gold": 10 },
+		"requiredTech": "Solar Reflectors",
+		"requiredBuilding": "Orbital Launch Facility",
+		"requiredResource": "Titanium",
+		"uniques": ["Orbital"],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Uni-Recycler",
 		"maintenance": 2,
 		"production": 1,
@@ -1503,8 +1508,167 @@
 			}
 		]
 	},
+	{
+		"name": "Cyberdream Commune",
+		"maintenance": 1,
+		"culture": 3,
+		"faith": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
+			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>"
+		],
+		"requiredTech": "Posthumanist Culture",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Escher Module",
+		"maintenance": 1,
+		"production": 1,
+		"science": 1,
+		"gold": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[Gold] cost of purchasing [All] buildings [-10]%",
+			"[-10]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "N-Dimensional Exploration",
+		"requiredResource": "Yairmite",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "FTL Probe Project",
+		"culture": 4,
+		"science": 3,
+		"percentStatBonus": { "science": 10 },
+		"hurryCostModifier": 25,
+		"requiredTech": "FTL Travel",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	// Ideo Buildings
+	//// Purification
+	{
+		"name": "Genetic Purity Center",
+		"maintenance": 1,
+		"culture": 4,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+10]% growth [in this city]",
+			"New [Infantry] units start with [30] Experience [in this city]",
+			"Only available <after adopting [Purification Ideology]>"
+		],
+		"requiredTech": "Cloning",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Propaganda Office",
+		"maintenance": 1,
+		"culture": 2,
+		"percentStatBonus": { "culture": 10 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in this city] <with a garrison>",
+			"Only available <after adopting [Purification Ideology]>"
+		],
+		"requiredTech": "Nerve Stapling",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	//// Symbiosis
+	{
+		"name": "Biogel Nursery",
+		"maintenance": 1,
+		"food": 2,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing",
+			"Only available <after adopting [Symbiosis Ideology]>"
+		],
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Symbiotic Health Center",
+		"maintenance": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+5] Unit Supply per [3] population [in this city] <when at war>",
+			"[+1 Food, +2 Culture] per [3] population [in this city] <when not at war>",
+			"Only available <after adopting [Symbiosis Ideology]>"
+		],
+		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	//// Radiant
+	{
+		"name": "Knowledge Injection Node",
+		"maintenance": 1,
+		"happiness": 1,
+		"percentStatBonus": { "science": 10 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"[+4 Science] per [3] population [in this city]",
+			"Only available <after adopting [Radiant Ideology]>"
+		],
+		"requiredTech": "Virtual Drugs",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Mind Optimization Terminals",
+		"maintenance": 1,
+		"happiness": 1,
+		"percentStatBonus": { "production": 5, "gold": 5, "science": 5 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+3 Science] from each Trade Route <while the empire is happy>"
+			"Only available <after adopting [Radiant Ideology]>"
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	// Religious Buildings (e.g. Mosques, Cathedrals etc)
 	{
@@ -2321,6 +2485,44 @@
 			"[+1 Gold, +1 Production] from each Trade Route"
 		],
 		"requiredTech": "Metamaterials",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Economic Oracle",
+		"gold": 5,
+		"science": 3,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[+1 Gold] from all [Gold] buildings <during a Golden Age>",
+			"[+1 Gold] from every specialist [in all cities]",
+			"Doubles Gold given to enemy if city is captured"
+		],
+		"requiredTech": "Psionics",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Global Consciousness",
+		"science": 3,
+		"culture": 3,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [20]"
+		],
+		"requiredTech": "Hive Mind",
+		"quote": "'.' - "
+	},
+	{
+		"name": "Void Lens",
+		"science": 5,
+		"faith": 3,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Production to science conversion in cities increased by 33%"
+		],
+		"requiredTech": "Zero Point Energy",
 		"quote": "'.' - "
 	},
 
