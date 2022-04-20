@@ -1062,7 +1062,8 @@
 	{
 		"name": "Humanity's March",
 		"uniques": [
-			"Double movement in [Transport Network]",
+			"Double movement in [Road]",
+			"Double movement in [Railroad]",
 			"[-20]% maintenance costs"
 		]
 	},
