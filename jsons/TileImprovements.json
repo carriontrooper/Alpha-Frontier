@@ -854,10 +854,46 @@
 			"[+1 Science] <with [1] to [6] neighboring [Research Base] tiles>",
 			*/
 			//cut the entries above if too OP
+			
+			/* // goodbye my elegant uniques ;_;
 			"[+1 Food] <with [1] to [6] neighboring [Organic] tiles>",
+			*/
 			//"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
+			/*
 			"[+1 Production] <with [1] to [6] neighboring [Metallic] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Gemlike] tiles>",
+			*/
+			
+			"[+1 Food] <with [1] to [6] neighboring [Tubers] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Fungi Pods] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Exotic Fruits] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Rockbud] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Chitin] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Dairy Aphid] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Algae] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Seasilk] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Plankton] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Spice] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Stimulants] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Hydromielin] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Ruby Cactus] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Snuffets] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Flowers of Silence] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Vitamass] tiles>",
+			
+			"[+1 Production] <with [1] to [6] neighboring [Hexanite] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Aluminum] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Redstone] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Gold Ore] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Titanium] tiles>",
+			
+			"[+1 Gold] <with [1] to [6] neighboring [Ruby Cactus] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Harmonix Crystals] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Jadonyx] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Kaibir Crystals] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Benthic Orbs] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Ulframite] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Gravitix] tiles>",
 			
 			//cut the entries above if still too OP
 			"[+1 Faith] <with [1] to [6] neighboring [Water resource] tiles>",
