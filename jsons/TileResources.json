@@ -514,6 +514,7 @@
 		"improvement": "Aquaculture",
 		"improvementStats": { "food": 1 },
 		"uniques": [
+			"Organic",
 			"Fauna",
 			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
