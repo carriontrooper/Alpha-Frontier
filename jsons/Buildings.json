@@ -2,17 +2,13 @@
 	// todo: more buildings for Halcyon upwards, especially Realization and Transcedental
 	// todo: add something to augment the virtual buildings, maybe a wonder?
 	// todo: add buildings for techs:
-	// Xeno Psychology (Xenomind Research Center?)
-	// Virtual Drugs (Virtual Altered State?)
-	// Cyberbrains (Remote Fabricator? Persona Backup Servers?)
-	// Stasis Fields (Stasis Defenses?)
 	// Solar Reflectors (Orbital Solar Reflector?)
 	// Posthumanist Culture (Cyber-Dream Commune?)
-	// Psionics (Economic Oracle?)
-	// Hive Mind (Global Consciousness?)
+	// Psionics (Wonder: Economic Oracle?)
+	// Hive Mind (Wonder: Global Consciousness?)
 	// FTL Travel (FTL Probe Project?)
 	// N-Dimensional Exploration (Escher Module?)
-	// Zero Point Energy (Void Lens?)
+	// Zero Point Energy (Wonder: Void Lens?)
 
 	// Buildings
 	{
@@ -1251,6 +1247,20 @@
 		]
 	},
 	{
+		"name": "Virtual Altered State",
+		"culture": 2,
+		"faith": 2,
+		"specialistSlots": { "Influencer": 1 },
+		"hurryCostModifier": 25,
+		"uniques": ["Virtual"],
+		"requiredTech": "Virtual Drugs",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Augment Center",
 		"maintenance": 1,
 		"culture": 2,
@@ -1288,6 +1298,39 @@
 		]
 	},
 	{
+		"name": "Remote Fabricator",
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": { "Engineer": 2 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from every [Virtual]"
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Persona Backup Servers",
+		"maintenance": 2,
+		"culture": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Population loss from nuclear attacks [-50]% [in this city]",
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
 		"name": "Holodeck",
 		"maintenance": 2,
 		"culture": 3,
@@ -1309,6 +1352,20 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Virtual"],
 		"requiredTech": "Quantum Computing",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Xenomind Research Center",
+		"maintenance": 1,
+		"science": 3,
+		"culture": 2,
+		"hurryCostModifier": 0,
+		"requiredBuilding": "Genetic Laboratory",
+		"requiredTech": "Xeno Psychology",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1353,6 +1410,22 @@
 			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
 		],
 		"requiredTech": "Mind Linking",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Stasis Defenses",
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Command Center",
+		"requiredTech": "Stasis Fields",
+		"uniques": [
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Destroyed when the city is captured"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
