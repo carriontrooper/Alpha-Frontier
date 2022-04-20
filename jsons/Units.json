@@ -1917,12 +1917,10 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"extraImage": "TileSets/FantasyHex/Units/Stim Trooper",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -1957,12 +1955,10 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
+				"extraImage": "TileSets/FantasyHex/Units/Mobile Fortress",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -1988,12 +1984,10 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"extraImage": "TileSets/FantasyHex/Units/Hybrid Trooper",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -2024,12 +2018,10 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
+				"extraImage": "TileSets/FantasyHex/Units/Behemoth",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -2057,12 +2049,10 @@
 		],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
-			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"extraImage": "TileSets/FantasyHex/Units/Cyborg Sniper",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
