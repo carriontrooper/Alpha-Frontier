@@ -2429,7 +2429,7 @@
 		"name": "Amoebic Lake Mindlink Station",
 		"faith": 3,
 		"gold": 1,
-		"greatPersonPoints": { "Great Influencer": 1, "Great Prophet": 1 },
+		"greatPersonPoints": { "Great Influencer": 1, "Great Visionary": 1 },
 		"isWonder": true,
 		"uniques": [
 			"Must have an owned [Amoebic Lake] within [3] tiles",
