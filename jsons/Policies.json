@@ -693,7 +693,7 @@
 			{
 				"name": "Biodiversity",
 				"uniques": [
-					/*
+					
 					"[+1 Happiness] from [Tubers] tiles [in all cities]",
 					"[+1 Happiness] from [Algae] tiles [in all cities]",
 					"[+1 Happiness] from [Seasilk] tiles [in all cities]",
@@ -712,8 +712,8 @@
 					"[+1 Happiness] from [Sindrian Lobster] tiles [in all cities]",
 					"[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
 					"[+1 Happiness] from [Vitamass] tiles [in all cities]"
-					*/
-					"[+1 Happiness] from [Organic] tiles [in all cities]"
+					
+					//"[+1 Happiness] from [Organic] tiles [in all cities]"
 				],
 				"requires": ["Xeno-Cooperation"],
 				"row": 2,
