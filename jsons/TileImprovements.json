@@ -980,7 +980,6 @@
 		"name": "City ruins",
 		"uniques": ["Unpillagable"],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
 				"imageSize": 64
@@ -988,7 +987,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{ "text": "A bleak reminder of the cost of waging war" }
 		]
 	},
@@ -1037,7 +1035,6 @@
 		"name": "Barbarian encampment",
 		"uniques": ["Unpillagable"],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
 				"imageSize": 64
@@ -1045,7 +1042,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Home to savage Xenos, will spawn a hostile xeno from time to time"
 			}
