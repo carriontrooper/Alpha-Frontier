@@ -727,7 +727,6 @@
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Mining Camp",
 				"imageSize": 64
@@ -735,7 +734,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Convicts toil away at these cheap but defensive sites, extracting mineral resources for the company"
 			}
@@ -754,7 +752,6 @@
 			"[+2 Science] <after discovering [Artificial Intelligence]>"
 		],
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Biodome City",
 				"imageSize": 64
@@ -762,7 +759,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Under the dome, a bustling, eco-friendly city thrives. Various flora are cultivated on the buildings themselves, providing food to the masses. And of course, the laboratories and educational services are integrated into daily life here"
 			}
@@ -791,7 +787,6 @@
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Holorelay",
 				"imageSize": 64
@@ -799,7 +794,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Relay towers which light up with advertisement hologramss that also appear in augmented reality and virtual reality. They also depict Thespiaux-endorsed influencers and idols, promoting them far and wide"
 			}
@@ -902,7 +896,6 @@
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Waystation",
 				"imageSize": 64
@@ -910,7 +903,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "A small complex of habitation, regularly stocked with local supplies to aid any Nomad on their journeys"
 			}
@@ -943,7 +935,6 @@
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Prefab Lair",
 				"imageSize": 64
@@ -951,7 +942,6 @@
 			{
 				"Separator": true
 			},
-			*/
 			{
 				"text": "Prefabricated habitation modules built as-is, and utilized as makeshift defenses. Also doubles as artificial reef if built on water, and can hurt enemy boats hitting it"
 			}
