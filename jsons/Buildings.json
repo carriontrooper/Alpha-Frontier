@@ -115,7 +115,7 @@
 		"production": 2,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5 },
 		"uniques": [
 			"[50]% Production when constructing [Prefab] buildings [in this city]"
 		],
@@ -131,7 +131,7 @@
 		"gold": 3,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 25 },
+		"percentStatBonus": { "gold": 10 },
 		"uniques": [
 			"Prefab",
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
@@ -401,7 +401,7 @@
 		"name": "Research Laboratory",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 5 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Field Lab",
 		"uniques": [
@@ -513,7 +513,7 @@
 		"maintenance": 2,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5 },
 		"requiredBuilding": "Mining Tunnels",
 		"uniques": [
 			
@@ -538,7 +538,7 @@
 		"maintenance": 1,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5 },
 		"requiredBuilding": "Prefab Printer",
 		"uniques": [
 			"[+20]% Production when constructing [Rover] units [in this city]"
@@ -554,7 +554,7 @@
 		"name": "Drone Delivery Network",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "food": 10, "production": 10 },
+		"percentStatBonus": { "food": 5, "production": 5 },
 		"requiredBuilding": "Prefab Printer",
 		"requiredTech": "Aerial Drones",
 		"civilopediaText": [
@@ -779,7 +779,7 @@
 		"name": "Genetic Laboratory",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 25 },
+		"percentStatBonus": { "science": 10 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
@@ -810,7 +810,7 @@
 		"name": "Colonial Unversity",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 5 },
 		"specialistSlots": { "Scientist": 1 },
 		"requiredBuilding": "Research Laboratory",
 		"requiredTech": "Colony Administration",
@@ -824,7 +824,7 @@
 		"name": "Bureaucratic Office",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 10, "gold": 10 },
+		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -882,7 +882,7 @@
 		"gold": 3,
 		"specialistSlots": { "Merchant": 2 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 50 },
+		"percentStatBonus": { "gold": 10 },
 		"requiredBuilding": "Resource Market",
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
@@ -908,7 +908,7 @@
 		"name": "Infrastructure 2.0",
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "food": 10, "production": 10, "gold": 10 },
+		"percentStatBonus": { "food": 5, "production": 5, "gold": 5 },
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -1093,7 +1093,7 @@
 	{
 		"name": "Meteor Catcher",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5 },
 		"requiredTech": "Cosmonautics",
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": ["Orbital"],
@@ -1106,7 +1106,7 @@
 	{
 		"name": "Satellite Control Center",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 5 },
 		"requiredTech": "Cosmonautics",
 		"uniques": [
 			"[+1 Science, +1 Culture, +1 Gold] <in cities with a [Orbital]>",
@@ -1166,7 +1166,7 @@
 	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 20, "gold": 10 },
+		"percentStatBonus": { "production": 10, "gold": 5 },
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
@@ -1199,7 +1199,7 @@
 	{
 		"name": "Adaptive Tax Network",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 20 },
+		"percentStatBonus": { "gold": 10 },
 		"uniques": ["Virtual"],
 		"requiredTech": "Metaverse",
 		"requiredBuilding": "Stock Exchange",
@@ -1255,7 +1255,7 @@
 		"name": "Augment Center",
 		"maintenance": 1,
 		"culture": 2,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5 },
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[10]% Food is carried over after population increases [in this city]"
@@ -1483,6 +1483,23 @@
 		],
 		"requiredTech": "Exotic Quantum Physics",
 		"requiredResource": "Antimatter",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Public Teleportation",
+		"maintenance": 2,
+		"production": 2,
+		"gold": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+5]% growth [in this city]",
+			"[+1]% growth [in all cities]"
+		],
+		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1753,7 +1770,7 @@
 		"maintenance": 2,
 		"science": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 33 },
+		"percentStatBonus": { "science": 15 },
 		"specialistSlots": { "Scientist": 3 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
@@ -1854,7 +1871,7 @@
 		"gold": 2,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 25 },
+		"percentStatBonus": { "gold": 15 },
 		"uniques": [
 			"Prefab",
 			"[Gold] cost of purchasing [Military] units [-20]%",
@@ -1879,7 +1896,7 @@
 		"faith": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 25 },
+		"percentStatBonus": { "science": 15 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
@@ -1919,7 +1936,7 @@
 		"science": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 5 },
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Field Lab",
 		"uniques": [
@@ -2000,7 +2017,7 @@
 		"faith": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 10, "gold": 10 },
+		"percentStatBonus": { "production": 10, "gold": 5 },
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"[+1 Happiness] per [4] population [in this city]"
@@ -2019,7 +2036,7 @@
 		"cityHealth": 50,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 10, "gold": 10 },
+		"percentStatBonus": { "production": 5, "gold": 10 },
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
@@ -2039,7 +2056,7 @@
 		"gold": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 10 },
+		"percentStatBonus": { "gold": 5 },
 		"uniques": [
 			"New [Air] units start with [30] Experience [in this city]"
 		],
