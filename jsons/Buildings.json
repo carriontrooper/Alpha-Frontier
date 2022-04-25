@@ -51,13 +51,13 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			
+			/*
 			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
 			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
-			
-			//"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
+			*/
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
 		],
 		"requiredTech": "Xenoagriculture",
 		"civilopediaText": [
@@ -338,8 +338,8 @@
 		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			//"[+1 Food] from [Flora] tiles [in this city]"
-			
+			"[+1 Food] from [Flora] tiles [in this city]"
+			/*
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Fungi Pods] tiles [in this city]",
 			"[+1 Food] from [Exotic Fruits] tiles [in this city]",
@@ -349,7 +349,7 @@
 			"[+1 Food] from [Stimulants] tiles [in this city]",
 			"[+1 Food] from [Ruby Cactus] tiles [in this city]",
 			"[+1 Food] from [Flowers of Silence] tiles [in this city]"
-			
+			*/
 		],
 		"requiredTech": "Payload Delivery",
 		"civilopediaText": [
@@ -366,14 +366,14 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
-			
+			/*
 			"[+1 Food] from [Algae] tiles [in this city]",
 			"[+1 Food] from [Seasilk] tiles [in this city]",
 			"[+1 Food] from [Plankton] tiles [in this city]",
 			"[+1 Food] from [Sea Slivers] tiles [in this city]",
 			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
-			
-			//"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
+			*/
+			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
 		],
 		"requiredTech": "Xeno-Grafting",
 		"civilopediaText": [
@@ -516,15 +516,15 @@
 		"percentStatBonus": { "production": 5 },
 		"requiredBuilding": "Mining Tunnels",
 		"uniques": [
-			
+			/*
 			"[+1 Production] from [Hexanite] tiles [in this city]",
 			"[+1 Production] from [Aluminum] tiles [in this city]",
 			"[+1 Production] from [Redstone] tiles [in this city]",
 			"[+1 Production] from [Gold Ore] tiles [in this city]",
 			"[+1 Production] from [Titanium] tiles [in this city]"
-			
+			*/
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
-			//"[+1 Production] from [Metallic] tiles [in this city]"
+			"[+1 Production] from [Metallic] tiles [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
@@ -621,8 +621,8 @@
 		"requiredNearbyImprovedResources": ["Ulframite","Gravitix","Benthic Orbs","Harmonix Crystals","Jadonyx","Kaibir Crystals","Ruby Cactus"],
 		"requiredTech": "Deep Resource Scanning",
 		"uniques": [
-			//"[+1 Gold] from [Gemlike] tiles [in this city]"
-			
+			"[+1 Gold] from [Gemlike] tiles [in this city]"
+			/*
 			"[+1 Gold] from [Ruby Cactus] tiles [in this city]",
 			"[+1 Gold] from [Harmonix Crystals] tiles [in this city]",
 			"[+1 Gold] from [Jadonyx] tiles [in this city]",
@@ -630,6 +630,7 @@
 			"[+1 Gold] from [Benthic Orbs] tiles [in this city]",
 			"[+1 Gold] from [Ulframite] tiles [in this city]",
 			"[+1 Gold] from [Gravitix] tiles [in this city]"
+			*/
 		],
 		"civilopediaText": [
 			{
@@ -647,8 +648,8 @@
 		"requiredNearbyImprovedResources": ["Exotic Fruits","Flowers of Silence","Fungi Pods","Rockbud","Ruby Cactus","Seasilk","Spice","Stimulants","Tubers"],
 		"requiredTech": "Xeno-Grafting",
 		"uniques": [
-			//"[+1 Gold] from [Flora] tiles [in this city]"
-			
+			"[+1 Gold] from [Flora] tiles [in this city]"
+			/*
 			"[+1 Gold] from [Tubers] tiles [in this city]",
 			"[+1 Gold] from [Fungi Pods] tiles [in this city]",
 			"[+1 Gold] from [Exotic Fruits] tiles [in this city]",
@@ -658,6 +659,7 @@
 			"[+1 Gold] from [Stimulants] tiles [in this city]",
 			"[+1 Gold] from [Ruby Cactus] tiles [in this city]",
 			"[+1 Gold] from [Flowers of Silence] tiles [in this city]"
+			*/
 		],
 		"civilopediaText": [
 			{
@@ -675,13 +677,14 @@
 		"requiredNearbyImprovedResources": ["Chitin","Dairy Aphid","Snuffets","Sea Slivers","Sindrian Lobster"],
 		"requiredTech": "Xeno-Grafting",
 		"uniques": [
-			//"[+1 Gold] from [Fauna] tiles [in this city]"
-			
+			"[+1 Gold] from [Fauna] tiles [in this city]"
+			/*
 			"[+1 Gold] from [Chitin] tiles [in this city]",
 			"[+1 Gold] from [Dairy Aphid] tiles [in this city]",
 			"[+1 Gold] from [Sea Slivers] tiles [in this city]",
 			"[+1 Gold] from [Snuffets] tiles [in this city]",
 			"[+1 Gold] from [Sindrian Lobster] tiles [in this city]"
+			*/
 		],
 		"civilopediaText": [
 			{
@@ -1774,7 +1777,7 @@
 		"specialistSlots": { "Scientist": 3 },
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
-			
+			/*
 			"[+1 Science, +1 Production] from [Tubers] tiles [in this city]", //damn I gotta simplify these
 			"[+1 Science, +1 Production] from [Fungi Pods] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Exotic Fruits] tiles [in this city]",
@@ -1793,8 +1796,8 @@
 			"[+1 Science, +1 Production] from [Sindrian Lobster] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Flowers of Silence] tiles [in this city]",
 			"[+1 Science, +1 Production] from [Vitamass] tiles [in this city]"
-			
-			//"[+1 Science, +1 Production] from [Organic] tiles [in this city]"
+			*/
+			"[+1 Science, +1 Production] from [Organic] tiles [in this city]"
 		],
 		"requiredTech": "Genetics",
 		"civilopediaText": [
@@ -1816,8 +1819,8 @@
 			"[+2 Production] from [Mountain] tiles [in this city]",
 			"[+1 Production] from [Mine] tiles [in this city]",
 			
-			//"[+1 Production] from [Mineral] tiles [in this city]",
-			
+			"[+1 Production] from [Mineral] tiles [in this city]",
+			/*
 			"[+1 Production] from [Hexanite] tiles [in this city]",
 			"[+1 Production] from [Basalt] tiles [in this city]",
 			"[+1 Production] from [Silica] tiles [in this city]",
@@ -1835,7 +1838,7 @@
 			"[+1 Production] from [Ulframite] tiles [in this city]",
 			"[+1 Production] from [Gravitix] tiles [in this city]",
 			"[+1 Production] from [Yairmite] tiles [in this city]",
-			
+			*/
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
@@ -1901,8 +1904,8 @@
 		"requiredBuilding": "Research Laboratory",
 		"uniques": [
 			"Provides [1] [Soma]",
-			//"[+1 Science, +1 Food] from [Organic] tiles [in this city]"
-			
+			"[+1 Science, +1 Food] from [Organic] tiles [in this city]"
+			/*
 			"[+1 Science, +1 Food] from [Tubers] tiles [in this city]", //damn I gotta simplify these
 			"[+1 Science, +1 Food] from [Fungi Pods] tiles [in this city]",
 			"[+1 Science, +1 Food] from [Exotic Fruits] tiles [in this city]",
@@ -1921,6 +1924,7 @@
 			"[+1 Science, +1 Food] from [Sindrian Lobster] tiles [in this city]",
 			"[+1 Science, +1 Food] from [Flowers of Silence] tiles [in this city]",
 			"[+1 Science, +1 Food] from [Vitamass] tiles [in this city]"
+			*/
 		],
 		"requiredTech": "Genetics",
 		"civilopediaText": [
