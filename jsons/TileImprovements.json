@@ -845,15 +845,15 @@
 			*/
 			//cut the entries above if too OP
 			
-			/* // goodbye my elegant uniques ;_;
+			
 			"[+1 Food] <with [1] to [6] neighboring [Organic] tiles>",
-			*/
+			
 			//"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
-			/*
+			
 			"[+1 Production] <with [1] to [6] neighboring [Metallic] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Gemlike] tiles>",
-			*/
 			
+			/*
 			"[+1 Food] <with [1] to [6] neighboring [Tubers] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Fungi Pods] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Exotic Fruits] tiles>",
@@ -892,6 +892,7 @@
 			"[+1 Faith] <with [1] to [6] neighboring [Bonus resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Luxury resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Strategic resource] tiles>"
+			*/
 			
 		],
 		//"shortcutKey": "F",
