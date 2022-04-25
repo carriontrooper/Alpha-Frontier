@@ -2409,7 +2409,7 @@
 
 	//// Hovercrafts
 	{
-		"name": "Fierce Eels (Hovercraft)",
+		"name": "Fierce Eels (Light Hovercraft)",
 		"unitType": "Hover",
 		"movement": 3,
 		"strength": 12,
