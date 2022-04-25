@@ -9,6 +9,9 @@
 		"Tundra+Barbarian encampment": ["Tundra","Barbarian encampment"],
 		"Snow+Barbarian encampment": ["Snow","Barbarian encampment"],
 		
+		"Tundra+Hill+Barbarian encampment": ["Tundra","Hill","Barbarian encampment"],
+		"Snow+Hill+Barbarian encampment": ["Snow","Hill","Barbarian encampment"],
+		
 		// Crash Site stuff
 		"Grassland+Forest+Crash site": ["Grassland","ForestClearingGrasslandBack","Crash site","ForestClearingGrasslandFront"],
 		"Plains+Forest+Crash site": ["Plains","ForestClearingPlainsBack","Crash site","ForestClearingPlainsFront"],
