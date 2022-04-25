@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Scientific",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "milestones": [
+            "Build [FTL Seedship Program]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "Hyperspace Core", "Hyperspace Core", "Hyperspace Core", "FTL Navigations Bridge", "FTL Drive", "Zero Point Ship Reactor", "Nanite Life Support", "Stasis Pod Arrays", "Stasis Pod Arrays"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have achieved singularity and led your people beyond the lightspeed horizon! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Cultural",
+        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
+        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+        "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Terraforming",
+        "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Utopia Project to win!",
+        "milestones": ["Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Utopia Project]"],
+        "victoryString": "You have wrestled and shaped the planet under your control. Your efforts here will surely be replicated on old Earth! Humanity owes you a second chance in restoring Earth's ecological balance.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Domination",
+        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "milestones": ["Destroy all players"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Diplomatic",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["[Planetary Mindlink] build globally", "Win diplomatic vote"],
+        "victoryString": "You have united humanity into a singular mind! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Time",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
+]
