@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "your exploring unit receives training",
-		"notification": "Our [unitName] has gained experience from military logs recovered from the crash site!",
+		"notification": "Our unit has gained experience from military logs recovered from the crash site!",
 		"uniques": [
 			"This Unit gains [10] XP"
 			//"Only available after [10] turns"
