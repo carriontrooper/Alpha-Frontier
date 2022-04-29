@@ -1010,12 +1010,6 @@
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Mercenary Pay",
-		"uniques": [
-			"Earn [10]% of the damage done to [Military] units as [Gold]"
-		]
-	},
-	{
 		"name": "Spook",
 		"uniques": [
 			"Ignores Zone of Control",
@@ -1179,5 +1173,167 @@
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+	},
+	
+	// Merc promotions
+	{
+		"name": "Mercenary Pay",
+		"uniques": [
+			"Earn [10]% of the damage done to [Military] units as [Gold]"
+		]
+	},
+	
+	{
+		"name": "Runabout",
+		"uniques": [
+			"[+1] Movement"
+		]
+	},
+	{
+		"name": "Drunken Aim",
+		"uniques": [
+			"[+10]% Strength <with [50]% chance>"
+		]
+	},
+	{
+		"name": "Professional Discipline",
+		"uniques": [
+			"[+10]% Strength <when adjacent to a [Infantry] unit>",
+			"[+10]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Deadshot",
+		"uniques": [
+			"[+20]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Maniacal Glee",
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+		]
+	},
+	{
+		"name": "Jovian Wolfhunt",
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]"
+		]
+	},
+	{
+		"name": "Experimental Photon Sensors",
+		"uniques": [
+			"[+1] Sight",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Meteorlike",
+		"uniques": [
+			"[+20]% Strength <when attacking> <in [Hill] tiles>"
+		]
+	},
+	{
+		"name": "Spectre Shadow",
+		"uniques": [
+			"May withdraw before melee ([20]%)"
+		]
+	},
+	{
+		"name": "Dune Mirage",
+		"uniques": [
+			"[+1] Movement",
+			"May withdraw before melee ([10]%)"
+		]
+	},
+	{
+		"name": "Missile Saturation",
+		"uniques": [
+			"[+10]% Strength <vs [Aerocraft] units>"
+		]
+	},
+	{
+		"name": "Shark Attack",
+		"uniques": [
+			"[+10]% Strength <vs [Wounded] units>"
+		]
+	},
+	{
+		"name": "Orca Feast",
+		"uniques": [
+			"Earn [10]% of killed [Water] unit's [Strength] as [Food]"
+		]
+	},
+	{
+		"name": "Slippery but Fierce",
+		"uniques": [
+			"[+20]% to Flank Attack bonuses",
+			"May withdraw before melee ([10]%)"
+		]
+	},
+	{
+		"name": "Combat Aces",
+		"uniques": [
+			"[+10]% Strength <vs [Aerocraft] units>",
+			"Damage taken from interception reduced by [30]%"
+		]
+	},
+	{
+		"name": "Tide Prowling",
+		"uniques": [
+			"[+1] Movement <in [Coast] tiles>"
+		]
+	},
+	{
+		"name": "Deep Running",
+		"uniques": [
+			"[+1] Sight <in [Ocean] tiles>",
+			"[+1] Movement <in [Ocean] tiles>"
+		]
+	},
+	{
+		"name": "Furious Retaliation",
+		"uniques": [
+			"[+10]% Strength <when below [50] HP>"
+		]
+	},
+	{
+		"name": "Steel-Clad Mettle",
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"[+10]% Strength <when adjacent to a [Armor] unit>",
+		]
+	},
+	{
+		"name": "PrismTech Analytics",
+		"uniques": [
+			"Earn [10]% of the damage done to [Military] units as [Science]"
+		]
+	},
+	{
+		"name": "Piercing Taunts",
+		"uniques": [
+			"[+10]% Strength <vs cities> <while the empire is happy>"
+		]
+	},
+	{
+		"name": "Steady Gallop",
+		"uniques": [
+			"[+2] Movement <in [Open terrain] tiles>"
+		]
+	},
+	{
+		"name": "Alpha Strike",
+		"uniques": [
+			"[+10]% Strength <when attacking> <vs [Armored] units>"
+		]
+	},
+	{
+		"name": "Silver Rain",
+		"uniques": [
+			"[+10]% Strength <vs cities>",
+			"[+10]% Strength <vs [Armored] units>"
+		]
 	}
 ]
