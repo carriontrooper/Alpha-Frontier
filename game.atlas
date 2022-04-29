@@ -2328,7 +2328,7 @@ TileSets/FantasyHex/Tiles/Yairmite
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Alpha Raptor Renegades (Assault Mech)
+TileSets/FantasyHex/Units/Alpha Raptor Renegades (Assault Mecha)
   rotate: false
   xy: 1840, 878
   size: 32, 28
@@ -2888,7 +2888,7 @@ TileSets/FantasyHex/Units/Recon Mecha
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Redhorse Striders (Recon Mech)
+TileSets/FantasyHex/Units/Redhorse Striders (Recon Mecha)
   rotate: false
   xy: 1352, 54
   size: 32, 28
@@ -2951,7 +2951,7 @@ TileSets/FantasyHex/Units/Siege Walker
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Silver Arbalest Company (Artillery Mech)
+TileSets/FantasyHex/Units/Silver Arbalest Company (Artillery Mecha)
   rotate: false
   xy: 1960, 880
   size: 32, 28
@@ -3182,7 +3182,7 @@ UnitIcons/Aerojet
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Alpha Raptor Renegades (Assault Mech)
+UnitIcons/Alpha Raptor Renegades (Assault Mecha)
   rotate: false
   xy: 112, 1718
   size: 100, 100
@@ -3707,7 +3707,7 @@ UnitIcons/Recon Mecha
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Redhorse Striders (Recon Mech)
+UnitIcons/Redhorse Striders (Recon Mecha)
   rotate: false
   xy: 328, 98
   size: 100, 100
@@ -3770,7 +3770,7 @@ UnitIcons/Siege Walker
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Silver Arbalest Company (Artillery Mech)
+UnitIcons/Silver Arbalest Company (Artillery Mecha)
   rotate: false
   xy: 1732, 1394
   size: 100, 100
