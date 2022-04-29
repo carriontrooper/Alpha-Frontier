@@ -2108,7 +2108,7 @@
 			"Rover",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Runabout"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2131,7 +2131,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Drunken Aim"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2153,7 +2153,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Professional Discipline"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2177,7 +2177,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Deadshot"],
 		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
@@ -2199,7 +2199,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Maniacal Glee"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -2223,7 +2223,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Jovian Wolfhunt"],
 		"attackSound": "SniperShot",
 		"civilopediaText": [
 			{
@@ -2248,7 +2248,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Experimental Photon Sensors"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
@@ -2270,7 +2270,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Meteorlike"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -2292,7 +2292,7 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Spectre Shadow"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2319,7 +2319,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Dune Mirage"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2348,7 +2348,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Missile Saturation"],
 		"hurryCostModifier": 20,
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
@@ -2375,7 +2375,7 @@
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Shark Attack"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2398,7 +2398,7 @@
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Orca Feast"],
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
@@ -2429,7 +2429,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious", "Slippery but Fierce"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -2464,7 +2464,7 @@
 			"Only available <in cities with a [Aerovehicle Hangars]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Combat Aces"],
 		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
@@ -2490,7 +2490,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Tide Prowling"],
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
@@ -2521,7 +2521,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Deep Running"],
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{
@@ -2552,7 +2552,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious","Furious Retaliation"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
@@ -2580,7 +2580,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Steel-Clad Mettle"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
@@ -2612,7 +2612,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","PrismTech Analytics"],
 		"hurryCostModifier": 20,
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
@@ -2645,7 +2645,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Indirect Fire"],
+		"promotions": ["Mercenary Pay", "Indirect Fire","Piercing Taunts"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -2676,7 +2676,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Steady Gallop"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -2705,7 +2705,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Alpha Strike"],
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
@@ -2738,7 +2738,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire","Silver Rain"],
 		"hurryCostModifier": 20,
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
