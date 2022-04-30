@@ -12,6 +12,19 @@
 		"Tundra+Hill+Barbarian encampment": ["Tundra","Hill","Barbarian encampment"],
 		"Snow+Hill+Barbarian encampment": ["Snow","Hill","Barbarian encampment"],
 		
+		// Improvements etc no snow fix Academy & Citadel
+		"Tundra+Academy": ["Tundra","Academy"],
+		"Snow+Academy": ["Snow","Academy"],
+		
+		"Tundra+Hill+Academy": ["Tundra","Hill","Academy"],
+		"Snow+Hill+Academy": ["Snow","Hill","Academy"],
+		
+		"Tundra+Citadel": ["Tundra","Citadel"],
+		"Snow+Citadel": ["Snow","Citadel"],
+		
+		"Tundra+Hill+Citadel": ["Tundra","Hill","Citadel"],
+		"Snow+Hill+Citadel": ["Snow","Hill","Citadel"],
+		
 		// Crash Site stuff
 		"Grassland+Forest+Crash site": ["Grassland","ForestClearingGrasslandBack","Crash site","ForestClearingGrasslandFront"],
 		"Plains+Forest+Crash site": ["Plains","ForestClearingPlainsBack","Crash site","ForestClearingPlainsFront"],
