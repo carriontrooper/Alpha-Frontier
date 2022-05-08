@@ -183,7 +183,7 @@
 		"requiredTech": "Habitation",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A place where early colonists go to have some fun."
 			}
 		]
 	},
@@ -197,7 +197,7 @@
 		"requiredTech": "Xenochemistry",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Chemistry enables cheap intoxicants to be easily made; and so this room is reserved for their safe consumption. Social gathering is a known side effect."
 			}
 		]
 	},
@@ -213,7 +213,7 @@
 		"requiredTech": "Xenochemistry",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Medical beds and equipment to combat new and old maladies."
 			}
 		]
 	},
@@ -229,7 +229,7 @@
 		"requiredTech": "Hovercrafts",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A restaurant, of sorts - but its menu entries all contain lobster meat. Somehow popular among colonists."
 			}
 		]
 	},
@@ -246,7 +246,7 @@
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Buoyant device initially used to survey the oceans of this planet, now repurposed to monitor local biological assets."
 			}
 		]
 	},
@@ -263,7 +263,7 @@
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Instead of having to build on land and roll the ship into the sea, why not build directly on the sea?"
 			}
 		]
 	},
@@ -306,7 +306,7 @@
 		"requiredTech": "Xenogeology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Extensive underground tunnels, extracting riches from the depths of the planet."
 			}
 		]
 	},
@@ -325,7 +325,7 @@
 		"requiredTech": "Robotics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Well, where else are you going to store them?"
 			}
 		]
 	},
