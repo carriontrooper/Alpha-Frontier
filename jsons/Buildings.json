@@ -325,7 +325,7 @@
 		"requiredTech": "Robotics",
 		"civilopediaText": [
 			{
-				"text": "Well, where else are you going to store them?"
+				"text": "Well, where else are you going to store them? A garage?"
 			}
 		]
 	},
@@ -354,7 +354,7 @@
 		"requiredTech": "Payload Delivery",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A small launchpad for near-orbit aerosol dispersal, to induce the formation of rainclouds."
 			}
 		]
 	},
@@ -378,7 +378,7 @@
 		"requiredTech": "Xeno-Grafting",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "It's like a regular farm, but underwater! But seriously, this is where you raise and cultivate aquatic organisms."
 			}
 		]
 	},
@@ -393,7 +393,7 @@
 		"requiredTech": "Synthetic Materials",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "To avoid old Earth's ecological mistake, our plastics are made to be easily recyclable and very biodegradable. This building makes sure they do."
 			}
 		]
 	},
@@ -411,7 +411,7 @@
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A step up from small field laboratories, these facilities come with vital scientific things like blastproof experiment chambers and dedicated analysis computers."
 			}
 		]
 	},
@@ -428,7 +428,7 @@
 		"requiredTech": "Stable Fission Power",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A technology that were developed too late in old Earth, now repurposed and perfected to bring the safest nuclear power in this new world."
 			}
 		]
 	},
@@ -445,7 +445,7 @@
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Commemorating the history and achievements of the new world's pioneers through interactive diorama and immersive info panels."
 			}
 		]
 	},
@@ -459,7 +459,7 @@
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Specially constructed domes to store live organic samples for experiments. Also doubles as a viewing gallery."
 			}
 		]
 	},
@@ -474,7 +474,7 @@
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Fun for kids, adults, and Snuffets alike."
 			}
 		]
 	},
@@ -488,7 +488,7 @@
 		"requiredTech": "Xeno-Medicine",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Some forms of stimulants are stronger than the others - this is where the safe application and enjoyment of them could be done."
 			}
 		]
 	},
@@ -504,7 +504,7 @@
 		"requiredTech": "Xeno-Medicine",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A step up from Medbays, this dedicated medical facility can serve a city district by itself."
 			}
 		]
 	},
@@ -529,7 +529,7 @@
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This facility eliminates impurities from raw mined ore, enabling better mining yields."
 			}
 		]
 	},
@@ -546,7 +546,7 @@
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A factory where robotic equipment are utilized to assemble products - which sometimes are robots themselves."
 			}
 		]
 	},
@@ -559,7 +559,7 @@
 		"requiredTech": "Aerial Drones",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Fleets of small to heavy drones dedicated to the logistics of transporting things across the colony."
 			}
 		]
 	},
@@ -577,7 +577,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A multipurpose area where people are free to congregate and organize events - the optimal place for visionaries to spread their ideas."
 			}
 		]
 	},
@@ -590,7 +590,7 @@
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Whether it's the old Earth tradition of karaoke, massages, videogames, or just a place to relax, this place offers it all and more."
 			}
 		]
 	},
@@ -608,7 +608,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A specialized market exclusively dealing in specific goods and resources."
 			}
 		]
 	},
@@ -634,7 +634,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Half marketplace, half business lounge, this place regulates the trade of gems and similar crystalline luxuries."
 			}
 		]
 	},
@@ -663,7 +663,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Cultivating this world's exotic flora requires certain equipments and environments - this place offers both."
 			}
 		]
 	},
@@ -688,7 +688,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Once local fauna gets domesticated, the profession of xeno livestock rancher was born; and subsequently, livestock auctions are also needed."
 			}
 		]
 	},
@@ -705,7 +705,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Dazzling with its variety of goods and services for sale, the Megamall is also a popular place for the youth to socialize."
 			}
 		]
 	},
@@ -721,7 +721,7 @@
 		"requiredTech": "Military Ballistics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "As the colony gets bigger, the matter of its protection also gets more complex - and thus also more organized."
 			}
 		]
 	},
@@ -739,7 +739,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Tough, prefabricated buildings designed to withstand a war and to keep civilians safe."
 			}
 		]
 	},
@@ -755,7 +755,7 @@
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "It's like a garage for aerocrafts, but also does the maintenance for them as well."
 			}
 		]
 	},
@@ -772,7 +772,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Fully dedicated satellite-manufacturing and satellite-lobbing facilities."
 			}
 		]
 	},
