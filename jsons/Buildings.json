@@ -2285,7 +2285,7 @@
 			"Triggers a global alert upon completion"
 		],
 		"requiredTech": "Orbital Deterrents",
-		"quote": "'.' - "
+		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer"
 	},
 
 	// Wonders
@@ -2301,7 +2301,7 @@
 			"Free Technology",
 			"Gain a free [Field Lab] [in this city]"
 		],
-		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist"
+		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives"
 	},
 	{
 		"name": "Hades Core Bore Project",
@@ -2313,7 +2313,7 @@
 			"[2] free [Worker] units appear"
 		],
 		"requiredTech": "Crust Fracking",
-		"quote": "'.' - "
+		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer"
 	},
 	{
 		"name": "Saraswati Cultural College",
@@ -2322,7 +2322,7 @@
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Colonial Culture",
-		"quote": "'.' - "
+		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College"
 	},
 	{
 		"name": "PANOPTIKON Surveillance System",
@@ -2331,7 +2331,7 @@
 		"isWonder": true,
 		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Info Networks",
-		"quote": "'.' - "
+		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON"
 	},
 	{
 		"name": "Valhalla Milsim Training Facility",
@@ -2343,7 +2343,7 @@
 			"All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"
 		],
 		"requiredTech": "Next-Gen Armaments",
-		"quote": "'.' - "
+		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer"
 	},
 	{
 		"name": "BALOR Solar-Powered Laser Cannon",
@@ -2353,7 +2353,7 @@
 			"[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"
 		],
 		"requiredTech": "Lasers",
-		"quote": "'.' - "
+		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician"
 	},
 	{
 		"name": "Houyi Ballistic Defense System",
@@ -2364,7 +2364,7 @@
 			"Population loss from nuclear attacks [-75]% [in all cities]"
 		],
 		"requiredTech": "Missiles",
-		"quote": "'.' - "
+		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst"
 	},
 	{
 		"name": "Gaia Preserve",
@@ -2377,7 +2377,7 @@
 			"[+10]% [Food] [in all cities]"
 		],
 		"requiredTech": "Xenobiology",
-		"quote": "'.' - "
+		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist"
 	},
 	{
 		"name": "Xeno Gene Tapestry Project",
@@ -2390,7 +2390,7 @@
 			"[+1] population [in all cities]"
 		],
 		"requiredTech": "Genetics",
-		"quote": "'.' - "
+		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist"
 	},
 	{
 		"name": "Vyasa-Gandhari Cloning Array",
@@ -2403,7 +2403,7 @@
 			"[+50]% Production when constructing [Military] units [in this city]"
 		],
 		"requiredTech": "Cloning",
-		"quote": "'.' - "
+		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist"
 	},
 	{
 		"name": "Hyperspace Augur",
@@ -2415,7 +2415,7 @@
 			"[+1 Happiness] [in all cities]"
 		],
 		"requiredTech": "Hyperwave Communications",
-		"quote": "'.' - "
+		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert"
 	},
 	{
 		"name": "Captive Microsingularity",
@@ -2427,7 +2427,7 @@
 			"Production to science conversion in cities increased by 33%"
 		],
 		"requiredTech": "Graviton Harnessing",
-		"quote": "'.' - "
+		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist"
 	},
 	{
 		"name": "Old Terra Resort",
@@ -2441,7 +2441,7 @@
 			"Doubles Gold given to enemy if city is captured"
 		],
 		"requiredTech": "Terraforming",
-		"quote": "'.' - "
+		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur"
 	},
 	{
 		"name": "Yggdrasil Arcology",
@@ -2454,7 +2454,7 @@
 			"Provides 1 happiness per 2 additional social policies adopted"
 		],
 		"requiredTech": "Nanotechnology",
-		"quote": "'.' - "
+		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology"
 	},
 	{
 		"name": "Interdimensional Gate Project",
@@ -2468,7 +2468,7 @@
 			"[+1 Science] from every specialist [in all cities]"
 		],
 		"requiredTech": "N-Dimensional Exploration",
-		"quote": "'.' - "
+		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer"
 	},
 	{
 		"name": "Shambhala Virtual Space",
@@ -2482,7 +2482,7 @@
 			"Gain a free [Tele-Temple] [in this city]"
 		],
 		"requiredTech": "Net Culture",
-		"quote": "'.' - "
+		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary"
 	},
 	{
 		"name": "Surrogate Xenomind",
@@ -2493,7 +2493,7 @@
 			"All newly-trained [non-air] units [in this city] receive the [Hivemind Hijacker] promotion"
 		],
 		"requiredTech": "Xeno Psychology",
-		"quote": "'.' - "
+		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind"
 	},
 	{
 		"name": "Space Elevator",
@@ -2506,7 +2506,7 @@
 			"[+1 Gold, +1 Production] from each Trade Route"
 		],
 		"requiredTech": "Metamaterials",
-		"quote": "'.' - "
+		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer"
 	},
 	{
 		"name": "Economic Oracle",
@@ -2520,7 +2520,7 @@
 			"Doubles Gold given to enemy if city is captured"
 		],
 		"requiredTech": "Psionics",
-		"quote": "'.' - "
+		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant"
 	},
 	{
 		"name": "Global Consciousness",
@@ -2532,7 +2532,7 @@
 			"Resting point for Influence with City-States is increased by [20]"
 		],
 		"requiredTech": "Hive Mind",
-		"quote": "'.' - "
+		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind"
 	},
 	{
 		"name": "Void Lens",
@@ -2544,7 +2544,7 @@
 			"Production to science conversion in cities increased by 33%"
 		],
 		"requiredTech": "Zero Point Energy",
-		"quote": "'.' - "
+		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher"
 	},
 
 	// Natural Wonder Enhancers
