@@ -250,7 +250,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Gold] <after discovering [Efficient Extraction Methods]>"
+			"[+1 Gold] <after discovering [Efficient Extraction Methods]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
@@ -271,7 +272,8 @@
 		"turnsToBuild": 8,
 		"techRequired": "Xenogeology",
 		"uniques": [
-			"[+1 Production] <after discovering [Efficient Extraction Methods]>"
+			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "Q",
 		"civilopediaText": [
@@ -292,7 +294,10 @@
 		"science": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Research Networks",
-		"uniques": ["[+2 Science] <after discovering [Info Networks]>"],
+		"uniques": [
+			"[+2 Science] <after discovering [Info Networks]>",
+			"Can only be built to improve a resource"
+		],
 		//"shortcutKey": "Q"
 		"civilopediaText": [
 			{
@@ -313,7 +318,8 @@
 		"production": 1,
 		"techRequired": "Hydrodynamics",
 		"uniques": [
-			"[+1 Production] <after discovering [Efficient Extraction Methods]>"
+			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
+			"Can only be built to improve a resource"
 		],
 		"civilopediaText": [
 			{
@@ -333,7 +339,10 @@
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"food": 1,
 		"techRequired": "Xenoagriculture",
-		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
+		"uniques": [
+			"[+1 Food] <after discovering [Genetics]>",
+			"Can only be built to improve a resource"
+		],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Slivers",
@@ -351,7 +360,8 @@
 		"techRequired": "Crust Fracking",
 		"uniques": [
 			"Cannot be built on [Coast] tiles <before discovering [Stable Fission Power]>",
-			"Cannot be built on [Ocean] tiles <before discovering [Stable Fission Power]>"
+			"Cannot be built on [Ocean] tiles <before discovering [Stable Fission Power]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
@@ -473,6 +483,7 @@
 	// Transportation
 	{
 		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Pioneer Administration",
 		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
@@ -501,6 +512,7 @@
 	},
 	{
 		"name": "Railroad", //rename to Magrail in translations
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Colony Administration",
 		"uniques": [
@@ -586,6 +598,7 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": [
 			"Great Improvement",
@@ -608,6 +621,7 @@
 	},
 	{
 		"name": "Cultural Site",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
@@ -630,6 +644,7 @@
 	},
 	{
 		"name": "Industrial District",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": [
 			"Great Improvement",
@@ -651,6 +666,7 @@
 	},
 	{
 		"name": "Trade Center",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
@@ -672,6 +688,7 @@
 	},
 	{
 		"name": "Visionary Site",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": ["Great Improvement"],
 		"civilopediaText": [
@@ -689,6 +706,7 @@
 	},
 	{
 		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [100]%",
@@ -953,7 +971,8 @@
 	{
 		//"name": "Ancient ruins",
 		"name": "Crash site",
-		"uniques": ["Unpillagable", "Provides a random bonus when entered"],
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Crash site",
@@ -969,7 +988,8 @@
 	},
 	{
 		"name": "City ruins",
-		"uniques": ["Unpillagable"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
@@ -983,7 +1003,8 @@
 	},
 	{
 		"name": "City center",
-		"uniques": ["Unpillagable", "Indestructible"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable","Unbuildable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City center-Landfall era",
@@ -1024,7 +1045,8 @@
 	},
 	{
 		"name": "Barbarian encampment",
-		"uniques": ["Unpillagable"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
