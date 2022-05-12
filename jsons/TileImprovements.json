@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Biodome City",
-		"replaces": "Academy",
+		//"replaces": "Academy",
 		"uniqueTo": "Somatek Biomedical",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
