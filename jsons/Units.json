@@ -2769,7 +2769,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Very charismatic people, these tend to be artists and public figures that contribute to the cultural progress of a nation."
+				"text": "Very charismatic people, they tend to be artists and public figures that contribute to the cultural progress of a nation."
 			}
 		]
 	},
@@ -2793,7 +2793,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Brilliant scientists, inventors and innovators, these could advance technology by leaps and bounds."
+				"text": "Brilliant scientists, inventors and innovators, they could advance technology by leaps and bounds."
 			}
 		]
 	},
@@ -2873,7 +2873,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Wise spiritualists and motivational speakers, these tend to aggregate followers around their brand of thinking."
+				"text": "Wise spiritualists and motivational speakers, they tend to aggregate followers around their brand of thinking."
 			}
 		]
 	},
@@ -2898,7 +2898,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Tactical-minded military officers, these could read the flow of battle and turn certain defeat into a complete victory."
+				"text": "Tactical-minded military officers, they could read the flow of battle and turn certain defeat into a complete victory."
 			}
 		]
 	},
@@ -3378,6 +3378,32 @@
 			},
 			{
 				"text": "Visionary wanderers, they are both able to spread their brand of thinking and keep an open eye for economic opportunities."
+			}
+		]
+	},
+	{
+		"name": "Great Geneticist",
+		"replaces": "Great Scientist",
+		"uniqueTo": "Somatek Biomedical",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Biodome City]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Scientist",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These exceptional geneticists of Somatek Biomedical could advance technology by leaps and bounds."
 			}
 		]
 	},
