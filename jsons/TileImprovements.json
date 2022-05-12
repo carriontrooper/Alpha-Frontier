@@ -761,6 +761,7 @@
 		"name": "Biodome City",
 		"replaces": "Academy",
 		"uniqueTo": "Somatek Biomedical",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"food": 5,
 		"uniques": [
