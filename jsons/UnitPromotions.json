@@ -1217,6 +1217,7 @@
 	{
 		"name": "Jovian Wolfhunt",
 		"uniques": [
+			"[+15]% Strength <when fighting in [Vegetation] tiles>",
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]"
 		]
