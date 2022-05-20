@@ -2882,7 +2882,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can construct [Citadel]",
 			"Great Person - [War]",
 			"Unbuildable",
