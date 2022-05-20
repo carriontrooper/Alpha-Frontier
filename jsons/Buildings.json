@@ -25,7 +25,8 @@
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Pioneer Administration"
 	},
