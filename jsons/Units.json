@@ -552,6 +552,7 @@
 			"Defense bonus when embarked",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost", "Amphibious"],
@@ -730,6 +731,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "jetgun",
@@ -787,6 +789,7 @@
 			"Can see invisible [Submarine] units",
 			"Can see invisible [Xeno Stealth Water] units",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
@@ -815,6 +818,7 @@
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "MissileLaunch",
@@ -984,6 +988,7 @@
 		"uniques": [
 			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		//"upgradesTo": "Assault Hydrofoil",
@@ -1023,6 +1028,7 @@
 			"Can carry [1] [Cruise Missile] units",
 			"Can carry [4] [Short-Range Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "MissileLaunch",
@@ -1052,6 +1058,7 @@
 		"uniques": [
 			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
@@ -1084,6 +1091,7 @@
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [2] [Cruise Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -1120,6 +1128,7 @@
 			"Defense bonus when embarked",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
+			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost", "Amphibious"],
@@ -1156,6 +1165,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost", "Amphibious"],
@@ -1187,6 +1197,7 @@
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1223,6 +1234,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1259,6 +1271,7 @@
 			"[-1] Sight",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
@@ -1295,6 +1308,7 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1333,6 +1347,7 @@
 			"[-33]% Strength <vs [Satellite] units> <with [50]% chance>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -1416,6 +1431,7 @@
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "SingleLaser",
@@ -1476,6 +1492,7 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1512,6 +1529,7 @@
 			"[+50]% Strength <vs [Armored] units>",
 			"[-1] Sight",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost", "Indirect Fire"],
@@ -1547,6 +1565,7 @@
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1583,6 +1602,7 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1625,6 +1645,7 @@
 			"[+100]% Strength <vs [Mech] units>",
 			"[-50]% Strength <vs [Air] units>",
 			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -1652,7 +1673,7 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Orbital Deterrents",
-		"requiredResource": "Titanium",
+		"requiredResource": "Ulframite",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
@@ -1661,6 +1682,7 @@
 			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Only available <in cities with a [ICBM Silo]>",
+			"Consumes [3] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "nuke",
@@ -1682,7 +1704,7 @@
 		"interceptRange": 0,
 		"cost": 1500,
 		"requiredTech": "Orbital Deterrents",
-		"requiredResource": "Titanium",
+		"requiredResource": "Ulframite",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
@@ -1690,6 +1712,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "nuke",
@@ -1745,6 +1768,7 @@
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1780,6 +1804,7 @@
 			"Can carry [4] [Cruise Missile] units",
 			"Can carry [1] [Nuclear ICBM] units",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -1840,6 +1865,7 @@
 		"uniques": [
 			"[+1000]% Strength <when attacking>",
 			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeUpBeam",
@@ -1883,6 +1909,7 @@
 			"[+50]% Strength <when adjacent to a [Swarm Drones] unit>",
 			"[+10]% Strength <when adjacent to a [Military] unit>",
 			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Vitamass]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -1950,6 +1977,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Limited to [3] per Civilization",
 			"Only available <after adopting [Purification Ideology]>",
+			"Consumes [2] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -2013,6 +2041,7 @@
 			"[+33]% Strength <vs cities>",
 			"Limited to [3] per Civilization",
 			"Only available <after adopting [Symbiosis Ideology]>",
+			"Consumes [3] [Vitamass]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -2081,6 +2110,7 @@
 			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Limited to [3] per Civilization",
 			"Only available <after adopting [Radiant Ideology]>",
+			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -2427,6 +2457,7 @@
 			"Defense bonus when embarked",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious", "Slippery but Fierce"],
@@ -2462,6 +2493,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Combat Aces"],
@@ -2488,6 +2520,7 @@
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Tide Prowling"],
@@ -2519,6 +2552,7 @@
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [2] [Cruise Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Deep Running"],
@@ -2550,6 +2584,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious","Furious Retaliation"],
@@ -2578,6 +2613,7 @@
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Steel-Clad Mettle"],
@@ -2610,6 +2646,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","PrismTech Analytics"],
@@ -2643,6 +2680,7 @@
 			"[-1] Sight",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Indirect Fire","Piercing Taunts"],
@@ -2674,6 +2712,7 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost","Steady Gallop"],
@@ -2703,6 +2742,7 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost","Alpha Strike"],
@@ -2736,6 +2776,7 @@
 			"[+50]% Strength <vs [Armored] units>",
 			"[-1] Sight",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire","Silver Rain"],
@@ -2916,10 +2957,12 @@
 		"rangedStrength": 31,
 		"cost": 350,
 		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
 		"uniques": [
 			"[+1] Sight",
 			"[+1000]% Strength <when attacking>",
 			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeUpBeam",
@@ -3032,7 +3075,10 @@
 		"cost": 125,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Titanium",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["[T-Series] Unit"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -3196,6 +3242,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerodrome]>",
+			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ambush I"],
@@ -3227,6 +3274,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"[+100]% Strength <vs cities>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "nuke",
@@ -3256,6 +3304,7 @@
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs cities> <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -3292,6 +3341,7 @@
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
 			"May enter foreign tiles without open borders",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -3326,6 +3376,7 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blitz", "Jaeger Manufacturing", "Ignore terrain cost"],
@@ -3704,6 +3755,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [2] [Gravitix]",
 			"Limited to [3] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3733,6 +3785,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Yairmite]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3762,6 +3815,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Antimatter]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3791,6 +3845,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [4] [Ulframite]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3820,6 +3875,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [5] [Vitamass]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3849,6 +3905,7 @@
 			"Only available <if [FTL Seedship Program] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Yairmite]",
 			"Limited to [2] per Civilization"
 		],
 		// costs 1500 in BNW
