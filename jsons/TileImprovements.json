@@ -148,6 +148,7 @@
 			"Plains",
 			"Grassland",
 			"Desert",
+			"Snow",
 			"Hill",
 			"Tundra",
 			"Forest",
@@ -158,7 +159,11 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Computing",
-		"uniques": ["[+1 Gold] <after discovering [Cryptocurrency]>"],
+		"uniques": [
+			"[+1 Gold] <after discovering [Cryptocurrency]>",
+			"[+1 Gold] <in [Tundra] tiles>",
+			"[+1 Gold] <in [Snow] tiles>"
+		],
 		"shortcutKey": "T",
 		"civilopediaText": [
 			{
@@ -341,6 +346,7 @@
 		"techRequired": "Xenoagriculture",
 		"uniques": [
 			"[+1 Food] <after discovering [Genetics]>",
+			"[+1 Food] <in [Ocean] tiles>",
 			"Can only be built to improve a resource"
 		],
 		"civilopediaText": [
