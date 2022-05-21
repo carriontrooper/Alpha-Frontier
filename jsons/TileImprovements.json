@@ -162,7 +162,10 @@
 		"uniques": [
 			"[+1 Gold] <after discovering [Cryptocurrency]>",
 			"[+1 Gold] <in [Tundra] tiles>",
-			"[+1 Gold] <in [Snow] tiles>"
+			"[+1 Gold] <in [Snow] tiles>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Provides [1] [Digital Storage Space] <after discovering [Metaverse]>"
 		],
 		"shortcutKey": "T",
 		"civilopediaText": [
@@ -198,7 +201,9 @@
 			"[+1 Gold] <after discovering [Cryptocurrency]>",
 			"[+1 Production] <after discovering [Exoskeletons]>",
 			"[+1 Food] <after discovering [Genetics]>",
-			"[+1 Culture] <after discovering [Colonial Culture]>"
+			"[+1 Culture] <after discovering [Colonial Culture]>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
 		],
 		//"shortcutKey": "T",
 		"civilopediaText": [
@@ -610,7 +615,9 @@
 			"Great Improvement",
 			"[+1 Science] <after discovering [Research Networks]>",
 			"[+2 Science] <after discovering [Quantum Theory]>",
-			"[+2 Science] <after discovering [Artificial Intelligence]>"
+			"[+2 Science] <after discovering [Artificial Intelligence]>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
 		],
 		"civilopediaText": [
 			{
@@ -776,7 +783,9 @@
 			"Great Improvement",
 			"[+1 Science] <after discovering [Research Networks]>",
 			"[+2 Science] <after discovering [Quantum Theory]>",
-			"[+2 Science] <after discovering [Artificial Intelligence]>"
+			"[+2 Science] <after discovering [Artificial Intelligence]>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
 		],
 		"civilopediaText": [
 			{
@@ -920,6 +929,9 @@
 			"[+1 Faith] <with [1] to [6] neighboring [Luxury resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Strategic resource] tiles>"
 			*/
+			
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
 			
 		],
 		//"shortcutKey": "F",
