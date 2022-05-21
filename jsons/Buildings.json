@@ -1436,7 +1436,7 @@
 		"requiredTech": "Solar Reflectors",
 		"requiredBuilding": "Orbital Launch Facility",
 		"requiredResource": "Titanium",
-		"uniques": ["Orbital"],
+		"uniques": ["Orbital","Consumes [2] [Titanium]"],
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1482,6 +1482,7 @@
 		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"uniques": [
+			"Consumes [1] [Antimatter]",
 			"Provides [1] [Gravitix]",
 			"Provides [1] [Yairmite]"
 		],
@@ -1521,7 +1522,8 @@
 		"requiredResource": "Vitamass",
 		"uniques": [
 			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
-			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing"
+			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing",
+			"Consumes [1] [Vitamass]",
 		],
 		"civilopediaText": [
 			{
@@ -1556,7 +1558,8 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[Gold] cost of purchasing [All] buildings [-10]%",
-			"[-10]% Unhappiness from [Population] [in this city]"
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Consumes [1] [Yairmite]",
 		],
 		"requiredTech": "N-Dimensional Exploration",
 		"requiredResource": "Yairmite",
