@@ -11,7 +11,11 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"],
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Indicates the capital city"
+		],
 		"civilopediaText": [
 			{
 				"text": "The beating heart of your offworld colony."
@@ -24,6 +28,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": [
+			"Provides [1] [Digital Storage Space]",
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured"
@@ -407,7 +412,8 @@
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"[+2 Science] from [Jungle] tiles [in this city]",
-			"[+1 Science] from [Mycelium] tiles [in this city]"
+			"[+1 Science] from [Mycelium] tiles [in this city]",
+			"Provides [1] [Digital Storage Space]"
 		],
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
@@ -817,6 +823,9 @@
 		"percentStatBonus": { "science": 5 },
 		"specialistSlots": { "Scientist": 1 },
 		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -844,6 +853,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Colonial Culture",
 		"uniques": [
+			"Provides [1] [Digital Storage Space]",
 			"[+1 Faith] <in cities with a [Harmony Garden]>",
 			"Hidden when religion is disabled",
 			"Destroyed when the city is captured"
@@ -874,6 +884,9 @@
 		"culture": 1,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
@@ -901,6 +914,9 @@
 		"science": -1,
 		"specialistSlots": { "Merchant": 3 },
 		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
@@ -913,6 +929,9 @@
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "food": 5, "production": 5, "gold": 5 },
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
@@ -928,7 +947,10 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Satellite Networks",
 		"requiredBuilding": "Orbital Launch Facility",
-		"uniques": ["Orbital"],
+		"uniques": [
+			"Orbital",
+			"Provides [1] [Digital Storage Space]"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
@@ -944,7 +966,10 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Satellite Networks",
 		"requiredBuilding": "Orbital Launch Facility",
-		"uniques": ["Orbital"],
+		"uniques": [
+			"Orbital",
+			"Provides [1] [Digital Storage Space]"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
@@ -959,7 +984,10 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Info Networks",
 		"requiredBuilding": "Orbital Launch Facility",
-		"uniques": ["Orbital"],
+		"uniques": [
+			"Orbital",
+			"Consumes [1] [Digital Storage Space]"
+		],
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1204,7 +1232,10 @@
 		"name": "Adaptive Tax Network",
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 10 },
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Metaverse",
 		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
@@ -1218,7 +1249,10 @@
 		"culture": 3,
 		"specialistSlots": { "Influencer": 2 },
 		"hurryCostModifier": 25,
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
 			{
@@ -1232,7 +1266,10 @@
 		"gold": 2,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]"
+		],
 		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
 		"civilopediaText": [
@@ -1247,7 +1284,10 @@
 		"faith": 2,
 		"specialistSlots": { "Influencer": 1 },
 		"hurryCostModifier": 25,
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]"
+		],
 		"requiredTech": "Virtual Drugs",
 		"civilopediaText": [
 			{
@@ -1316,6 +1356,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Population loss from nuclear attacks [-50]% [in this city]",
 		],
 		"requiredTech": "Cyberbrains",
@@ -1331,7 +1372,10 @@
 		"culture": 3,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]"
+		],
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
 			{
@@ -1345,7 +1389,10 @@
 		"gold": 3,
 		"percentStatBonus": { "gold": 10 },
 		"hurryCostModifier": 25,
-		"uniques": ["Virtual"],
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]"
+		],
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
 			{
@@ -1402,6 +1449,8 @@
 		"science": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
 			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
 		],
 		"requiredTech": "Mind Linking",
@@ -1539,6 +1588,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
 			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
 			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>"
 		],
@@ -1666,6 +1716,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
 			"[+4 Science] per [3] population [in this city]",
 			"Only available <after adopting [Radiant Ideology]>"
 		],
@@ -1759,6 +1810,7 @@
 		"happiness": 2,
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Unbuildable",
 			"Hidden when religion is disabled"
 		],
@@ -1887,7 +1939,8 @@
 			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Cryptocurrency]>",
 			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Metaverse]>",
 			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Artificial Intelligence]>",
-			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Lossless Matter Conversion]>"
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Lossless Matter Conversion]>",
+			"Provides [1] [Digital Storage Space]",
 		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
@@ -1948,6 +2001,7 @@
 		"specialistSlots": { "Scientist": 2 },
 		"requiredBuilding": "Field Lab",
 		"uniques": [
+			"Provides [1] [Digital Storage Space]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+2 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Mycelium] tiles [in this city]"
@@ -1967,6 +2021,7 @@
 		"cityHealth": 50,
 		"maintenance": 1,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+20]% City Strength from defensive buildings",
 			"Destroyed when the city is captured"
@@ -2124,6 +2179,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Requires a [Frontier Armory] in all cities",
 			"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"
@@ -2144,6 +2200,7 @@
 		"percentStatBonus": { "science": 50 },
 		"uniques": [
 			"Requires a [Field Lab] in all cities",
+			"Provides [3] [Digital Storage Space]",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Colony Administration",
@@ -2161,6 +2218,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Requires a [Virtual Cultural Space] in all cities",
 			"Cost increases by [30] per owned city"
 		],
@@ -2198,6 +2256,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
+			"Provides [1] [Digital Storage Space]",
 			"Requires a [Pioneer Depot] in all cities",
 			"Cost increases by [30] per owned city"
 		],
@@ -2216,6 +2275,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Orbital",
+			"Provides [2] [Digital Storage Space]",
 			"Requires a [Orbital Launch Facility] in all cities",
 			"Free Technology",
 			"Cost increases by [30] per owned city"
@@ -2270,6 +2330,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Requires a [Spy Satellite Network] in all cities",
+			"Consumes [1] [Digital Storage Space]",
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
 			"Cost increases by [30] per owned city"
 		],
@@ -2302,6 +2363,7 @@
 		"requiredTech": "Computing",
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Free Technology",
 			"Gain a free [Field Lab] [in this city]"
 		],
@@ -2333,7 +2395,7 @@
 		"cityStrength": 50,
 		"cityHealth": 100,
 		"isWonder": true,
-		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["Consumes [1] [Digital Storage Space]","[-20]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Info Networks",
 		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON"
 	},
@@ -2342,6 +2404,7 @@
 		"cityStrength": 300,
 		"isWonder": true,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"Free [Great General] appears",
 			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"
@@ -2390,6 +2453,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isWonder": true,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"[+10]% [Food] [in all cities]",
 			"[+1] population [in all cities]"
 		],
@@ -2455,6 +2519,7 @@
 		"greatPersonPoints": { "Great Engineer": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Provides [3] [Digital Storage Space]",
 			"Provides 1 happiness per 2 additional social policies adopted"
 		],
 		"requiredTech": "Nanotechnology",
@@ -2482,6 +2547,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
 			"Hidden when religion is disabled",
 			"Gain a free [Tele-Temple] [in this city]"
 		],
@@ -2494,6 +2560,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"All newly-trained [non-air] units [in this city] receive the [Hivemind Hijacker] promotion"
 		],
 		"requiredTech": "Xeno Psychology",
@@ -2519,6 +2586,7 @@
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"[+1 Gold] from all [Gold] buildings <during a Golden Age>",
 			"[+1 Gold] from every specialist [in all cities]",
 			"Doubles Gold given to enemy if city is captured"
@@ -2533,6 +2601,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
 			"Resting point for Influence with City-States is increased by [20]"
 		],
 		"requiredTech": "Hive Mind",
@@ -2559,6 +2628,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Provides [2] [Digital Storage Space]",
 			"Must have an owned [Great Neuroreef] within [3] tiles",
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
@@ -2601,6 +2671,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Provides [2] [Digital Storage Space]",
 			"Must have an owned [Aurigan Vault Complex] within [3] tiles",
 			"Free Technology",
 			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
@@ -2659,6 +2730,7 @@
 		"greatPersonPoints": { "Great Influencer": 1, "Great Visionary": 1 },
 		"isWonder": true,
 		"uniques": [
+			"Provides [1] [Digital Storage Space]",
 			"Must have an owned [Amoebic Lake] within [3] tiles",
 			"[+1 Faith] from [Lakes] tiles [in this city]",
 			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
@@ -2675,6 +2747,7 @@
 		"greatPersonPoints": { "Great Influencer": 2 },
 		"requiredTech": "Mind Linking",
 		"uniques": [
+			"Consumes [2] [Digital Storage Space]",
 			"Triggers voting for the Diplomatic Victory",
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon completion"
