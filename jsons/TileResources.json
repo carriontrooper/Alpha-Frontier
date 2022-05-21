@@ -1468,5 +1468,15 @@
 				"text": "Very valuable to the scientific community, this mineral exhibit natural quantum entanglement in its particles, offering a relatively easy way to entangle other materials."
 			}
 		]
-	}
+	},
+	{
+		"name": "Digital Storage Space", // doesn't generate naturally
+		"resourceType": "Strategic",
+		"revealedBy": "Computing",
+		"civilopediaText": [
+			{
+				"text": "Physical manifestations of the virtual."
+			}
+		]
+	},
 ]
