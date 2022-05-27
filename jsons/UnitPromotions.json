@@ -1179,7 +1179,7 @@
 	{
 		"name": "Mercenary Pay",
 		"uniques": [
-			"Earn [10]% of the damage done to [Military] units as [Gold]"
+			"Earn [-10]% of the damage done to [Military] units as [Gold]"
 		]
 	},
 	
