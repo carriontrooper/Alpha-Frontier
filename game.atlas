@@ -1817,7 +1817,7 @@ UnitIcons/Recon Mecha
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Redhorse Striders (Recon Mech)
+UnitIcons/Redhorse Striders (Recon Mecha)
   rotate: false
   xy: 1624, 1084
   size: 100, 100
