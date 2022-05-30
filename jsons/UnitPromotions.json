@@ -238,7 +238,7 @@
 	},
 
 	{
-		"name": "Medic",
+		"name": "Medic I",
 		"prerequisites": [
 			"Shock I",
 			"Drill I",
@@ -251,7 +251,7 @@
 	},
 	{
 		"name": "Medic II",
-		"prerequisites": ["Medic"],
+		"prerequisites": ["Medic I"],
 		"uniques": [
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"All adjacent units heal [+5] HP when healing"
