@@ -3050,7 +3050,7 @@
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Colonial Marine] Unit", "Bug Hunter"],
+		"promotions": ["Colonial Marine Unit", "Bug Hunter"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -3079,7 +3079,7 @@
 			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[T-Series] Unit"],
+		"promotions": ["T-Series Unit"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -3133,7 +3133,7 @@
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Dog Soldier] Reputation"],
+		"promotions": ["Dog Soldier Reputation"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -3164,7 +3164,7 @@
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Seadog] Raiding Crew"],
+		"promotions": ["Seadog Raiding Crew"],
 		"upgradesTo": "Corvette",
 		"attackSound": "shipguns",
 		"civilopediaText": [
