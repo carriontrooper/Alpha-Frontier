@@ -1047,7 +1047,7 @@
 		]
 	},
 	{
-		"name": "[Dog Soldier] Reputation",
+		"name": "Dog Soldier Reputation",
 		"uniques": [
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
@@ -1064,7 +1064,7 @@
 		]
 	},
 	{
-		"name": "[Seadog] Raiding Crew",
+		"name": "Seadog Raiding Crew",
 		"uniques": [
 			"Earn [10]% of the damage done to [All] units as [Gold]",
 			"Earn [10]% of killed [All] unit's [Cost] as [Gold]",
@@ -1081,14 +1081,14 @@
 
 	// Colonial Marine special promos
 	{
-		"name": "[Colonial Marine] Unit",
+		"name": "Colonial Marine Unit",
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
 		]
 	},
 	{
 		"name": "Smartgun Equipped",
-		"prerequisites": ["[Colonial Marine] Unit"],
+		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": [
 			"[+25]% Strength <vs [Infantry] units>",
 			"[+25]% Strength <vs [Stealth Infantry] units>"
@@ -1097,13 +1097,13 @@
 	},
 	{
 		"name": "Flamer Equipped",
-		"prerequisites": ["[Colonial Marine] Unit"],
+		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"],
 		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Commando Training",
-		"prerequisites": ["[Colonial Marine] Unit"],
+		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": [
 			"Ignores Zone of Control",
 			"Invisible to non-adjacent units"
@@ -1112,7 +1112,7 @@
 	},
 	{
 		"name": "Drop Trooper Training",
-		"prerequisites": ["[Colonial Marine] Unit"],
+		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": [
 			"May Paradrop up to [5] tiles from inside friendly territory"
 		],
@@ -1121,20 +1121,20 @@
 
 	// T-Series special promos
 	{
-		"name": "[T-Series] Unit",
+		"name": "T-Series Unit",
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
 		]
 	},
 	{
 		"name": "Hardened Exoskeleton",
-		"prerequisites": ["[T-Series] Unit"],
+		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% Strength <when defending>"],
 		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Uncanny Appearance",
-		"prerequisites": ["[T-Series] Unit"],
+		"prerequisites": ["T-Series Unit"],
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 		],
@@ -1142,13 +1142,13 @@
 	},
 	{
 		"name": "Network Synchronization",
-		"prerequisites": ["[T-Series] Unit"],
+		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% Strength decreasing with distance from the capital"],
 		"unitTypes": ["Infantry"]
 	},
 	{
 		"name": "Combat Analysis Module",
-		"prerequisites": ["[T-Series] Unit"],
+		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% XP gained from combat"],
 		"unitTypes": ["Infantry"]
 	},
