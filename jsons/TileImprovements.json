@@ -346,7 +346,7 @@
 	},
 	{
 		"name": "Aquaculture",
-		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean", "Lakes"],
 		"food": 1,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
