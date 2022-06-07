@@ -2157,7 +2157,7 @@
 	// National Wonders
 	{
 		"name": "Landfall Memorial",
-		"cost": 125,
+		"cost": 200,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
@@ -2193,7 +2193,7 @@
 	},
 	{
 		"name": "University of the Planet",
-		"cost": 125,
+		"cost": 150,
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2212,7 +2212,7 @@
 	},
 	{
 		"name": "Massive Interactive Virtual Epic",
-		"cost": 125,
+		"cost": 400,
 		"percentStatBonus": { "culture": 50 },
 		"culture": 5,
 		"isNationalWonder": true,
@@ -2231,7 +2231,7 @@
 	},
 	{
 		"name": "Religious Broadcast Center",
-		"cost": 125,
+		"cost": 300,
 		"culture": 1,
 		"faith": 8,
 		"uniques": [
@@ -2251,7 +2251,7 @@
 	},
 	{
 		"name": "Central Economic Database",
-		"cost": 125,
+		"cost": 250,
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2269,7 +2269,7 @@
 	},
 	{
 		"name": "Orbital Space Station",
-		"cost": 125,
+		"cost": 400,
 		"science": 3,
 		"culture": 2,
 		"isNationalWonder": true,
@@ -2307,7 +2307,7 @@
 	},
 	{
 		"name": "Commercial Entertainment Complex",
-		"cost": 125,
+		"cost": 200,
 		"happiness": 5,
 		"culture": 2,
 		"gold": 2,
@@ -2325,7 +2325,7 @@
 	},
 	{
 		"name": "National Intelligence Agency",
-		"cost": 125,
+		"cost": 200,
 		"cityStrength": 50,
 		"cityHealth": 100,
 		"isNationalWonder": true,
@@ -2335,7 +2335,7 @@
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
 			"Cost increases by [30] per owned city"
 		],
-		"requiredTech": "Military Ballistics",
+		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
 				"text": "."
