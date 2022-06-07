@@ -2062,7 +2062,7 @@ UnitPromotionIcons/Humanity's March
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Ignore Terrain Cost
+UnitPromotionIcons/Ignore terrain cost
   rotate: false
   xy: 1084, 868
   size: 100, 100
