@@ -2281,6 +2281,7 @@
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
 		"civilopediaText": [
 			{
 				"text": "."
