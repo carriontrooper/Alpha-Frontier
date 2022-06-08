@@ -996,8 +996,8 @@
 	},
 	{
 		"name": "Command Center",
-		"cityStrength": 10,
-		"cityHealth": 50,
+		"cityStrength": 20,
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Colonial Patrol Station",
 		"requiredTech": "Colony Administration",
@@ -1013,6 +1013,7 @@
 	},
 	{
 		"name": "Military Base",
+		"cityStrength": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -2017,8 +2018,8 @@
 		"name": "Infowarfare Division",
 		"uniqueTo": "Daikyu Boei Kikan",
 		"hurryCostModifier": 25,
-		"cityStrength": 10,
-		"cityHealth": 50,
+		"cityStrength": 20,
+		"cityHealth": 100,
 		"maintenance": 1,
 		"uniques": [
 			"Consumes [1] [Digital Storage Space]",
