@@ -996,8 +996,8 @@
 	},
 	{
 		"name": "Command Center",
-		"cityStrength": 10,
-		"cityHealth": 50,
+		"cityStrength": 20,
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Colonial Patrol Station",
 		"requiredTech": "Colony Administration",
@@ -1013,6 +1013,7 @@
 	},
 	{
 		"name": "Military Base",
+		"cityStrength": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -2017,8 +2018,8 @@
 		"name": "Infowarfare Division",
 		"uniqueTo": "Daikyu Boei Kikan",
 		"hurryCostModifier": 25,
-		"cityStrength": 10,
-		"cityHealth": 50,
+		"cityStrength": 20,
+		"cityHealth": 100,
 		"maintenance": 1,
 		"uniques": [
 			"Consumes [1] [Digital Storage Space]",
@@ -2157,7 +2158,7 @@
 	// National Wonders
 	{
 		"name": "Landfall Memorial",
-		"cost": 125,
+		"cost": 200,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
@@ -2193,7 +2194,7 @@
 	},
 	{
 		"name": "University of the Planet",
-		"cost": 125,
+		"cost": 150,
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2212,7 +2213,7 @@
 	},
 	{
 		"name": "Massive Interactive Virtual Epic",
-		"cost": 125,
+		"cost": 400,
 		"percentStatBonus": { "culture": 50 },
 		"culture": 5,
 		"isNationalWonder": true,
@@ -2231,7 +2232,7 @@
 	},
 	{
 		"name": "Religious Broadcast Center",
-		"cost": 125,
+		"cost": 300,
 		"culture": 1,
 		"faith": 8,
 		"uniques": [
@@ -2251,7 +2252,7 @@
 	},
 	{
 		"name": "Central Economic Database",
-		"cost": 125,
+		"cost": 250,
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2269,7 +2270,7 @@
 	},
 	{
 		"name": "Orbital Space Station",
-		"cost": 125,
+		"cost": 400,
 		"science": 3,
 		"culture": 2,
 		"isNationalWonder": true,
@@ -2281,6 +2282,7 @@
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -2306,7 +2308,7 @@
 	},
 	{
 		"name": "Commercial Entertainment Complex",
-		"cost": 125,
+		"cost": 200,
 		"happiness": 5,
 		"culture": 2,
 		"gold": 2,
@@ -2324,7 +2326,7 @@
 	},
 	{
 		"name": "National Intelligence Agency",
-		"cost": 125,
+		"cost": 200,
 		"cityStrength": 50,
 		"cityHealth": 100,
 		"isNationalWonder": true,
@@ -2334,7 +2336,7 @@
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
 			"Cost increases by [30] per owned city"
 		],
-		"requiredTech": "Military Ballistics",
+		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
 				"text": "."
