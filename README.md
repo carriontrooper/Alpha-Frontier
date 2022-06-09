@@ -2,6 +2,8 @@
 
 An Unciv total conversion mod, taking inspiration from Alpha Centauri and Beyond Earth.
 
+Use FantasyHex tiles for now!!! HexRealm not supported yet!!
+
 Features:
 
 - Hostile Xeno lifeforms that you could hijack later in the tech tree
