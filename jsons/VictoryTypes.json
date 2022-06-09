@@ -20,8 +20,8 @@
     },
     {
         "name": "Terraforming",
-        "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Utopia Project to win!",
-        "milestones": ["Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Utopia Project]"],
+        "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Global Terraforming Project to win!",
+        "milestones": ["Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Global Terraforming Project]"],
         "victoryString": "You have wrestled and shaped the planet under your control. Your efforts here will surely be replicated on old Earth! Humanity owes you a second chance in restoring Earth's ecological balance.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
