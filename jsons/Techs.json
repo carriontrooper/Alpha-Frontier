@@ -95,7 +95,7 @@
 			{
 				"name": "Exotic Crystalline Extraction",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'All that glitters isn't just gold... but can be turned into a profit margin, if you know how to take it.' - Paula Walpole, CEO of Walpole-Yuen Inc.",
 				"prerequisites": ["Xenogeology"]
 			},
 			{
@@ -143,7 +143,7 @@
 			{
 				"name": "Deep Resource Scanning",
 				"row": 4,
-				"quote": "'.' - ",
+				"quote": "'Aye, that vein may be in deep, but we can get at them. Get the engineers, and prep the drill-dozer!' - Karl McUrist, CEO of Deep Rock Ganymede",
 				"prerequisites": ["Exotic Crystalline Extraction"]
 			},
 			{
@@ -203,7 +203,7 @@
 			{
 				"name": "Efficient Extraction Methods",
 				"row": 4,
-				"quote": "'.' - ",
+				"quote": "'Oy, tell them blokes to start usin' the ore refinery right! Bossman wants that sweet purified metal!' - Tycho Dawes, spokesperson for Belta V Offworld Mining",
 				"prerequisites": ["Deep Resource Scanning","Synthetic Materials"]
 			},
 			{
@@ -230,7 +230,7 @@
 			{
 				"name": "Aeronautics",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Never thought I'd soar in the wild blue yonder over here - just kiddin' son! If it can't be done, find a way to make it, like I did!' - Harvey Hawkes, CEO of Blue Streak Aerodynamics",
 				"prerequisites": ["Aerial Drones"]
 			},
 			{
@@ -326,7 +326,7 @@
 			{
 				"name": "Mecha Prototypes",
 				"row": 9,
-				"quote": "'.' - ",
+				"quote": "'Our acutators and joints are the best in the business. Soon they will outperform wheels completely.' - Gunther Welkin, CEO of Jaeger Engineering",
 				"prerequisites": ["Next-Gen Armaments", "Stable Fission Power"]
 			},
 			{
