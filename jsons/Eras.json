@@ -11,7 +11,7 @@
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
-		"startPercent": 0,
+		"startPercent": 200,
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -48,7 +48,7 @@
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 4,
-		"startPercent": 10,
+		"startPercent": 210,
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -96,7 +96,7 @@
 		*/
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 8,
-		"startPercent": 25,
+		"startPercent": 225,
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -156,7 +156,7 @@
 		*/
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 8,
-		"startPercent": 37,
+		"startPercent": 237,
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -228,7 +228,7 @@
 		*/
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 10,
-		"startPercent": 50,
+		"startPercent": 250,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -312,7 +312,7 @@
 		*/
 		"baseUnitBuyCost": 600,
 		"embarkDefense": 13,
-		"startPercent": 65,
+		"startPercent": 265,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -405,7 +405,7 @@
 		*/
 		"baseUnitBuyCost": 1000,
 		"embarkDefense": 25,
-		"startPercent": 80,
+		"startPercent": 280,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
