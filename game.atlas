@@ -2691,7 +2691,7 @@ TechIcons/Robotics
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Satellite Network
+TechIcons/Satellite Networks
   rotate: false
   xy: 328, 704
   size: 100, 100
