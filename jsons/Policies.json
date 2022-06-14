@@ -477,7 +477,7 @@
 			{
 				"name": "Neo-Philosophy",
 				"uniques": [
-					"[+1 Faith] from all [Religious] buildings",
+					"[+1 Faith] from all [Faith] buildings",
 					"[+1 Science] from all [Science] buildings"
 				],
 				"row": 1,
