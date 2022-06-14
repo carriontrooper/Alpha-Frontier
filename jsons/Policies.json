@@ -374,7 +374,7 @@
 			},
 			{
 				"name": "Scientific Management",
-				"uniques": ["[+1 Gold] from from all [Science] buildings"],
+				"uniques": ["[+1 Gold] from all [Science] buildings"],
 				"requires": ["Colonial Patents", "Cyber Entrepreneurs"],
 				"row": 2,
 				"column": 3
@@ -417,7 +417,7 @@
 			},
 			{
 				"name": "Charity NGOs",
-				"uniques": ["[+1 Food] from from all [Religious] buildings"],
+				"uniques": ["[+1 Food] from all [Religious] buildings"],
 				"row": 1,
 				"column": 4
 			},
@@ -477,8 +477,8 @@
 			{
 				"name": "Neo-Philosophy",
 				"uniques": [
-					"[+1 Faith] from from all [Religious] buildings",
-					"[+1 Science] from from all [Science] buildings"
+					"[+1 Faith] from all [Religious] buildings",
+					"[+1 Science] from all [Science] buildings"
 				],
 				"row": 1,
 				"column": 5
@@ -499,7 +499,7 @@
 			},
 			{
 				"name": "Ethics Committee",
-				"uniques": ["[+1 Faith] from from all [Science] buildings"],
+				"uniques": ["[+1 Faith] from all [Science] buildings"],
 				"requires": ["Neo-Philosophy"],
 				"row": 2,
 				"column": 5
@@ -754,7 +754,7 @@
 		"policies": [
 			{
 				"name": "Liberated Experimentation",
-				"uniques": ["[+2 Science] from from all [Science] buildings"],
+				"uniques": ["[+2 Science] from all [Science] buildings"],
 				"row": 1,
 				"column": 1
 			},
@@ -792,7 +792,7 @@
 				"name": "Glorifying Brilliance",
 				"requires": ["Logical Progression"],
 				"uniques": [
-					"[+2 Science] from from all [Science] buildings <during a Golden Age>",
+					"[+2 Science] from all [Science] buildings <during a Golden Age>",
 					"[+2 Science] from every specialist [in all cities] <during a Golden Age>"
 				],
 				"row": 3,
