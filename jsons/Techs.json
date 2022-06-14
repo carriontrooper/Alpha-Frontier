@@ -230,7 +230,7 @@
 			{
 				"name": "Aeronautics",
 				"row": 12,
-				"quote": "'Never thought I'd soar in the wild blue yonder over here - just kiddin' son! If it can't be done, find a way to make it, like I did!' - Harvey Hawkes, CEO of Blue Streak Aerodynamics",
+				"quote": "'Never thought I'd soar in the wild blue yonder over here - just kiddin', son! If it can't be done, find a way to make it, like I did!' - Harvey Hawkes, CEO of Blue Streak Aerodynamics",
 				"prerequisites": ["Aerial Drones"]
 			},
 			{
@@ -366,7 +366,7 @@
 			{
 				"name": "Metaverse",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'How come we have travelled to another planet - to explore the new world and the galaxy - to instead spend most of our time in virtual spaces? The first pioneers would be ashamed.' - Hamsa Lcujic, digital philosopher",
 				"prerequisites": ["Cryptocurrency", "Colonial Culture"]
 			},
 			{
@@ -423,7 +423,7 @@
 			{
 				"name": "Fusion Power",
 				"row": 10,
-				"quote": "'.' - ",
+				"quote": "'Gentlemen, behold - the unmatched power of the sun.' - Surya Chandrasekhar, fusion scientist",
 				"prerequisites": ["Combat Mechas","Lasers"]
 			},
 			{
@@ -470,7 +470,7 @@
 			{
 				"name": "Xeno Psychology",
 				"row": 6,
-				"quote": "'.' - ",
+				"quote": "'Ah, these boys are of the simple sort, they're just hungry most of the time. The other times, though? Different sorts of thinkin' happenin'!' - Smetre D'Poloty",
 				"prerequisites": ["Xenoarchaeology"]
 			},
 			{
