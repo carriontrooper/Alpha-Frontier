@@ -25,7 +25,7 @@ BuildingIcons/Colony Headquarters
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Defensive Perimeter
+BuildingIcons/Defense Perimeter
   rotate: false
   xy: 976, 1192
   size: 100, 100
