@@ -2890,7 +2890,7 @@
 		"name": "Great Visionary",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Visionary Site] if it hasn't used other actions yet",
+			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -3404,7 +3404,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Visionary Site] if it hasn't used other actions yet",
+			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
