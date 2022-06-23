@@ -287,7 +287,7 @@
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Bustling port facilities and warehouses for trade and shipping."
 			}
 		]
 	},
@@ -798,7 +798,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Peeking into the building blocks of life, and sometimes editing them."
 			}
 		]
 	},
@@ -812,7 +812,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Facilities to fix or add biological traits, from life-saving corrective measures such as sickle cell restoration, to simple cosmetics like custom skin colors."
 			}
 		]
 	},
@@ -829,7 +829,7 @@
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Higher education for colonists, fostering future professionals."
 			}
 		]
 	},
@@ -841,7 +841,7 @@
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Where forms are signed in triplicate and red tape are rampant. Even if they are digitized already."
 			}
 		]
 	},
@@ -860,7 +860,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "The next step from congregating together for those with spiritualist tendencies: a broadcast station to receive talks and sermons, as well as engaging in spiritual discussions, from their own homes."
 			}
 		]
 	},
@@ -874,7 +874,7 @@
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An open, natural space with aesthetically placed Harmonix Crystals."
 			}
 		]
 	},
@@ -890,7 +890,7 @@
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Places where secure trading of information is facilitated."
 			}
 		]
 	},
@@ -904,7 +904,7 @@
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "In this building, a hectic atmosphere rises daily as traders rush to buy and sell stocks."
 			}
 		]
 	},
@@ -920,7 +920,7 @@
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Where new algorithms of blockchain technology are automatically computed, at the cost of elbowing out some computing power from researchers."
 			}
 		]
 	},
@@ -935,7 +935,7 @@
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Better roads, better electricity networks, better plumbing - and better internet, too."
 			}
 		]
 	},
@@ -953,7 +953,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Whether taking in astronomical data from finely-tuned sensors or calculating things from orbit, it is a satellite focused on research."
 			}
 		]
 	},
@@ -972,7 +972,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A more mundane and cheap set of satellites to provide wireless coverage all over the planet."
 			}
 		]
 	},
@@ -990,7 +990,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "High-resolution cameras to spot enemy weak spots, powerful antennae to intercept transmissions, and an onboard encryption and decryption suite to relay top secret intel from orbit."
 			}
 		]
 	},
@@ -1007,7 +1007,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A centralized military base, with the facilities to enable the command of entire theaters of war."
 			}
 		]
 	},
@@ -1024,7 +1024,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Where all the military personnel train, work, and live, complete with the needed facilities."
 			}
 		]
 	},
@@ -1042,7 +1042,7 @@
 		"requiredTech": "Alloy Microstructures",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A floating harbor can only build ships up to a certain size - for bigger, heavier ships, you'll need a dedicated military shipyard like this one."
 			}
 		]
 	},
@@ -1059,7 +1059,7 @@
 		"requiredTech": "Mecha Prototypes",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A facility where simulations using mock cockpits and gyroscopic simulated motion help train future mecha pilots."
 			}
 		]
 	},
@@ -1079,7 +1079,7 @@
 		"requiredTech": "Composite Armor",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "These facilities produce and mantain the bigger engines of war such as tanks and mechas."
 			}
 		]
 	},
@@ -1095,7 +1095,7 @@
 		"requiredTech": "Strike Drones",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This place coordinates military drone activities of the colony, and also where the pilots can safely control them remotely."
 			}
 		]
 	},
@@ -1132,7 +1132,7 @@
 		"uniques": ["Orbital"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Dedicated orbital vehicles to capture stray meteorites and asteroids from hitting the planet. As an added bonus, they also harvest the minerals from those asteroids."
 			}
 		]
 	},
