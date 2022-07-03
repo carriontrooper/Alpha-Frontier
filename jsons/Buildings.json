@@ -1147,7 +1147,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Myriads of satellites can easily be monitored and controlled from this building, optimizing the effectiveness of orbital equipment."
 			}
 		]
 	},
@@ -2352,7 +2352,12 @@
 			"Triggers a global alert upon completion"
 		],
 		"requiredTech": "Orbital Deterrents",
-		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer"
+		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 
 	// Wonders
@@ -2369,7 +2374,12 @@
 			"Free Technology",
 			"Gain a free [Field Lab] [in this city]"
 		],
-		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives"
+		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Hades Core Bore Project",
@@ -2381,7 +2391,12 @@
 			"[2] free [Worker] units appear"
 		],
 		"requiredTech": "Crust Fracking",
-		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer"
+		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Saraswati Cultural College",
@@ -2390,7 +2405,12 @@
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Colonial Culture",
-		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College"
+		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "PANOPTIKON Surveillance System",
@@ -2399,7 +2419,12 @@
 		"isWonder": true,
 		"uniques": ["Consumes [1] [Digital Storage Space]","[-20]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Info Networks",
-		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON"
+		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Valhalla Milsim Training Facility",
@@ -2412,7 +2437,12 @@
 			"All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"
 		],
 		"requiredTech": "Next-Gen Armaments",
-		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer"
+		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "BALOR Solar-Powered Laser Cannon",
@@ -2422,7 +2452,12 @@
 			"[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"
 		],
 		"requiredTech": "Lasers",
-		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician"
+		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Houyi Ballistic Defense System",
@@ -2433,7 +2468,12 @@
 			"Population loss from nuclear attacks [-75]% [in all cities]"
 		],
 		"requiredTech": "Missiles",
-		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst"
+		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Gaia Preserve",
@@ -2446,7 +2486,12 @@
 			"[+10]% [Food] [in all cities]"
 		],
 		"requiredTech": "Xenobiology",
-		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist"
+		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Xeno Gene Tapestry Project",
@@ -2460,7 +2505,12 @@
 			"[+1] population [in all cities]"
 		],
 		"requiredTech": "Genetics",
-		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist"
+		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Vyasa-Gandhari Cloning Array",
@@ -2473,7 +2523,12 @@
 			"[+50]% Production when constructing [Military] units [in this city]"
 		],
 		"requiredTech": "Cloning",
-		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist"
+		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Hyperspace Augur",
@@ -2485,7 +2540,12 @@
 			"[+1 Happiness] [in all cities]"
 		],
 		"requiredTech": "Hyperwave Communications",
-		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert"
+		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Captive Microsingularity",
@@ -2497,7 +2557,12 @@
 			"Production to science conversion in cities increased by 33%"
 		],
 		"requiredTech": "Graviton Harnessing",
-		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist"
+		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Old Terra Resort",
@@ -2511,7 +2576,12 @@
 			"Doubles Gold given to enemy if city is captured"
 		],
 		"requiredTech": "Terraforming",
-		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur"
+		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Yggdrasil Arcology",
@@ -2525,7 +2595,12 @@
 			"Provides 1 happiness per 2 additional social policies adopted"
 		],
 		"requiredTech": "Nanotechnology",
-		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology"
+		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Interdimensional Gate Project",
@@ -2539,7 +2614,12 @@
 			"[+1 Science] from every specialist [in all cities]"
 		],
 		"requiredTech": "N-Dimensional Exploration",
-		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer"
+		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Shambhala Virtual Space",
@@ -2554,7 +2634,12 @@
 			"Gain a free [Tele-Temple] [in this city]"
 		],
 		"requiredTech": "Net Culture",
-		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary"
+		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Surrogate Xenomind",
@@ -2566,7 +2651,12 @@
 			"All newly-trained [non-air] units [in this city] receive the [Hivemind Hijacker] promotion"
 		],
 		"requiredTech": "Xeno Psychology",
-		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind"
+		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Space Elevator",
@@ -2579,7 +2669,12 @@
 			"[+1 Gold, +1 Production] from each Trade Route"
 		],
 		"requiredTech": "Metamaterials",
-		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer"
+		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Economic Oracle",
@@ -2594,7 +2689,12 @@
 			"Doubles Gold given to enemy if city is captured"
 		],
 		"requiredTech": "Psionics",
-		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant"
+		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Global Consciousness",
@@ -2607,7 +2707,12 @@
 			"Resting point for Influence with City-States is increased by [20]"
 		],
 		"requiredTech": "Hive Mind",
-		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind"
+		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Void Lens",
@@ -2619,7 +2724,12 @@
 			"Production to science conversion in cities increased by 33%"
 		],
 		"requiredTech": "Zero Point Energy",
-		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher"
+		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 
 	// Natural Wonder Enhancers
@@ -2636,7 +2746,12 @@
 			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Megaxenoform Excavation",
@@ -2650,7 +2765,12 @@
 			"[+2 Science, +2 Faith] from [Megaxenoform Graveyard] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Uttershroom Ecological Park",
@@ -2664,7 +2784,12 @@
 			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
 		],
 		"requiredTech": "Genetic Hybridization",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Aurigan Vault Exploratorium",
@@ -2679,7 +2804,12 @@
 			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "World Tree Sap Distiller",
@@ -2693,7 +2823,12 @@
 			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
 		],
 		"requiredTech": "Virtual Drugs",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Floating Mountain Fortress",
@@ -2709,7 +2844,12 @@
 			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]"
 		],
 		"requiredTech": "Terraforming",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Harborship Diving Agency",
@@ -2723,7 +2863,12 @@
 			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Amoebic Lake Mindlink Station",
@@ -2738,7 +2883,12 @@
 			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 
 	// Victory Buildings
@@ -2754,7 +2904,12 @@
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon completion"
 		],
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	},
 	{
 		"name": "Utopia Project",
@@ -2765,6 +2920,12 @@
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Hidden when [Cultural] Victory is disabled"
+		],
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2781,6 +2942,12 @@
 			//"Triggers a Cultural Victory upon completion",
 			"Triggers victory",
 			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2793,6 +2960,11 @@
 			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2804,6 +2976,11 @@
 			"[+1 Production] from [Mine] tiles [in this city]",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2816,6 +2993,11 @@
 			"[+1 Food] from [Terraboretum] tiles [in this city]",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2828,6 +3010,11 @@
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "."
+			}
 		]
 	},
 	{
@@ -2841,6 +3028,11 @@
 			"Hidden when [Scientific] Victory is disabled"
 		],
 		"requiredTech": "Cosmonautics",
-		"quote": "'.' - "
+		"quote": "'.' - ",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
 	}
 ]
