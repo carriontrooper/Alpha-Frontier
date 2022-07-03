@@ -271,7 +271,7 @@
 			{
 				"name": "Satellite Networks",
 				"row": 11,
-				"quote": "'.' - ",
+				"quote": "'C'est magnifique, these man-made orbital angels are - connecting each and every one of us from high on up.' - Camille Jourdain, head of Thespiaux Medianet",
 				"prerequisites": ["Payload Delivery","Aeronautics"],
 				"uniques": [
 					"Improves movement speed on roads",
@@ -293,7 +293,7 @@
 			{
 				"name": "Next-Gen Armaments",
 				"row": 14,
-				"quote": "'.' - ",
+				"quote": "'There is a possibility of peace in our lifetime - one that is enforced by superior firepower.' - Diktat Gregor Radec",
 				"prerequisites": ["Missiles"]
 			}
 		]
@@ -384,7 +384,7 @@
 			{
 				"name": "Cybernetics",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'As I see it, this is just one way to augment our capabilities. Evolution is no longer the monopoly of natural processes.' - Director Gladys Winters, Skye Robotics",
 				"prerequisites": ["Exoskeletons"]
 			},
 			{
@@ -405,13 +405,13 @@
 			{
 				"name": "Quantum Theory",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'Discerning the properties of these fleeting quantum subparticles allows us to start delving into the deeper mysteries of the universe.' - CEO Kirii Toma, Toma Heavy Industries",
 				"prerequisites": ["Metaverse"]
 			},
 			{
 				"name": "Xenoarchaeology",
 				"row": 6,
-				"quote": "'.' - ",
+				"quote": "'Always seek to learn the lessons of our past, for they will prepare us for the future.' - Igider Zeroual",
 				"prerequisites": ["Net Culture"]
 			},
 			{
@@ -482,7 +482,7 @@
 			{
 				"name": "Metamaterials",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'A new horizon opens in the field of stealth. One we can exploit.' - Major Chihiro Kusanagi, Daikyu Boei Kikan",
 				"prerequisites": ["Cosmonautics"]
 			},
 		]
@@ -521,7 +521,7 @@
 			{
 				"name": "Nerve Stapling",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Finally we have a method to deal with these dissidents that preserves their humanly values.' - Imperator Cain Stalia",
 				"prerequisites": ["Cyberbrains"]
 			},
 			{
