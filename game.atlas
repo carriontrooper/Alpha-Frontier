@@ -319,7 +319,7 @@ BuildingIcons/Intercity Hyperloop
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Knowledge Injection Module
+BuildingIcons/Knowledge Injection Node
   rotate: false
   xy: 1732, 652
   size: 100, 100
