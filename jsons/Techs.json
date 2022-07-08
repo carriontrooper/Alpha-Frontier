@@ -218,13 +218,13 @@
 			{
 				"name": "Stable Fission Power",
 				"row": 9,
-				"quote": "'.' - ",
+				"quote": "'Yeah, it's the safest design we can make, with a robust output - but for goodness sakes, don't bang on it just because you want it to start up faster!' - Anton Rucevic, Tokamak reactor technician",
 				"prerequisites": ["Portable Power Sources","Research Networks"]
 			},
 			{
 				"name": "Payload Delivery",
 				"row": 10,
-				"quote": "'.' - ",
+				"quote": "'Back in those days, we've put so many of those satellites in low orbit that it was getting hard to plot a new orbital trajectory. Kind of strange looking at this pristine, satellite-free orbit.' - Vidal Rajev, aerospace engineer",
 				"prerequisites": ["Astronomy"]
 			},
 			{
@@ -252,7 +252,7 @@
 			{
 				"name": "Crust Fracking",
 				"row": 3,
-				"quote": "'.' - ",
+				"quote": "'All I know that this method uses water, and enables us to dig deeper into the mantle. Mineral output's never been higher!' - Rachel Brightheaven, mine overseer",
 				"prerequisites": ["Offworld Industries","Efficient Extraction Methods"]
 			},
 			{
@@ -281,13 +281,13 @@
 			{
 				"name": "Strike Drones",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Luk up suh, di steel bud a nuh fi wi fren. (Look up there, the steel bird is not our friend).' - Captain Omnira Pessoa",
 				"prerequisites": ["Aeronautics","Missiles"]
 			},
 			{
 				"name": "Alloy Microstructures",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'See under the microscope - these honeycomb-like molecular structures in the metal allows us to have an alloy that's strong enough to withstand conventional cannon fire, yet light enough to be buoyant by itself.' - Benny Chen, materials scientist",
 				"prerequisites": ["Missiles"]
 			},
 			{
@@ -314,7 +314,7 @@
 			{
 				"name": "Cryptocurrency",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'Trust me, this new e-Credit is no fad like non-fungible tokens, your Credit history's safe in this blockchain algorithm.' - Murat Yersinoglu, economist",
 				"prerequisites": ["Info Networks", "Colony Administration"]
 			},
 			{
@@ -600,7 +600,7 @@
 			{
 				"name": "Zero Point Energy",
 				"row": 6,
-				"quote": "'.' - ",
+				"quote": "'Some say we're like gods, creating something from nothing. And yet they keep forgetting the enormous power requirement in keeping that nothing stay nothing. Some gods we are!' - Frida Boltzmann, zero point scientist",
 				"prerequisites": [
 					"Exotic Quantum Physics",
 					"Lossless Matter Conversion"
@@ -618,7 +618,7 @@
 			{
 				"name": "N-Dimensional Exploration",
 				"row": 9,
-				"quote": "'.' - ",
+				"quote": "'It's high time we go higher than four dimensions. Imagine all the new horizons we'll see.' - ",
 				"prerequisites": [
 					"Exotic Quantum Physics",
 					"Hyperwave Communications",
@@ -654,7 +654,7 @@
 			{
 				"name": "Singularity Tech",
 				"row": 8,
-				"quote": "'.' - ",
+				"quote": "'All things were together, infinite both in number and in smallness; for the small too was infinite.' - Anaxagoras",
 				"prerequisites": [
 					"FTL Travel",
 					"Advanced Biotech",
