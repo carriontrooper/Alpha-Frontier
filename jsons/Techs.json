@@ -44,7 +44,7 @@
 				"row": 8,
 				"quote": "'Back then, we had the network and infrastructure to make a computer that fit in the palm of your hand. Now we got to do that all over again.' - Jose Jacinto, engineer",
 				"prerequisites": ["Old Earth Knowledge"],
-				"uniques": ["Enables conversion of city production to science"]
+				"uniques": ["Enables conversion of city production to [Science]"]
 			},
 			{
 				"name": "Portable Power Sources",
@@ -198,7 +198,7 @@
 				"row": 3,
 				"quote": "'You know what we should do? We'll set up mines here, and then we get someone else to pay us to work them! I see it as a win-win.' - Karl McUrist, CEO of Deep Rock Ganymede",
 				"prerequisites": ["Deep Resource Scanning","Xeno-Grafting","Xeno-Medicine"],
-				"uniques": ["Enables conversion of city production to gold"]
+				"uniques": ["Enables conversion of city production to [Gold]"]
 			},
 			{
 				"name": "Efficient Extraction Methods",
