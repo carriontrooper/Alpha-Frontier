@@ -319,7 +319,7 @@
 		"innerColor": [2, 161, 25],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "Somatic Element",
-		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[10] HP when healing <for [Wounded] units>"],
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[15] HP when healing <for [Wounded] units>"],
 		"cities": [
 			"Magnasanti",
 			"Mandira",
