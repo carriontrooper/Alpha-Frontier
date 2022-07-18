@@ -1,11 +1,11 @@
 [
   {
-    "name": "Build Route",
+    "name": "Route",
     "description": "We request a road built to connect your capital to our city.",
     "influence": 50
   },
   {
-    "name": "Clear Xeno Hive",
+    "name": "Clear Barbarian Camp",
     "description": "We feel threatened by a Xeno Hive near our city. Please take care of it.",
     "type": "Global",
     "influence": 50,
@@ -24,7 +24,7 @@
     "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson]."
   },
   {
-    "name": "Conquer Outpost",
+    "name": "Conquer City State",
     "description": "It's time to erase the Outpost of [cityState] from the map. You will be greatly rewarded for conquering them!",
     "influence": 80
   },
@@ -39,7 +39,7 @@
   },
   /* G&K */
   {
-    "name": "Give Credits",
+    "name": "Give Gold",
     "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Credits, it's only a matter of time before we collapse.",
     "influence": 20,
     "duration": 30
@@ -80,12 +80,12 @@
     "minimumCivs": 2
   },
   {
-    "name": "Bully Outpost",
+    "name": "Bully City State",
     "description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
     "duration": 30
   },
   {
-    "name": "Denounce Colony",
+    "name": "Denounce Civilization",
     "description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
     "duration": 30
   },
