@@ -34,7 +34,7 @@
     },
     {
         "name": "Diplomatic",
-        "hiddenInVictoryScreen": true,
+        \\"hiddenInVictoryScreen": true,
         "milestones": ["Anyone should build [Planetary Mindlink]", "Win diplomatic vote"],
         "victoryString": "You have united humanity into a singular mind! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"

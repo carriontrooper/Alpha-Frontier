@@ -2554,7 +2554,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Provides [5] [Gravitix]",
-			"Production to science conversion in cities increased by 33%"
+			"Production to [Science] conversion in cities changed by [+33]%"
 		],
 		"requiredTech": "Graviton Harnessing",
 		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
@@ -2721,7 +2721,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isWonder": true,
 		"uniques": [
-			"Production to science conversion in cities increased by 33%"
+			"Production to [Science] conversion in cities changed by [+33]%"
 		],
 		"requiredTech": "Zero Point Energy",
 		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
