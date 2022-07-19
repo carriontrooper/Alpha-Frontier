@@ -2,6 +2,8 @@
 	// todo: add more aerocraft, add nerve stapled conscripts, add clone troopers?
 	// add more techs for them if needed
 	// add units that consume data storage
+	// add more anti-satellite stuff
+	// nerf nuke sats, somehow
 
 	////////////////////
 	// Xeno Units
@@ -1713,6 +1715,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Limited to [1] per Civilization",
 			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
@@ -3274,6 +3277,7 @@
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
 			"[+100]% Strength <vs cities>",
+			"Limited to [2] per Civilization",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit"
