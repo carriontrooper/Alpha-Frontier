@@ -18,7 +18,8 @@
 			"Submarine",
 			"Helicopter",
 			"Close Range Mech",
-			"Ranged Mech"
+			"Ranged Mech",
+			"Satellite"
 		]
 	},
 
@@ -359,13 +360,13 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"unitTypes": ["Ranged Water","Satellite"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"unitTypes": ["Ranged Water","Satellite"]
 	},
 	{
 		"name": "Targeting III",
@@ -445,7 +446,7 @@
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft","Satellite"]
 	},
 	{
 		"name": "Interception II",
@@ -484,7 +485,7 @@
 		"name": "Operational Range",
 		"prerequisites": ["Interception I" /*"Dogfighting I",*/],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft","Satellite"]
 	},
 	{
 		"name": "Air Repair",
@@ -650,7 +651,8 @@
 			"Rover",
 			"Close Range Water",
 			"Ranged Water",
-			"Armored"
+			"Armored",
+			"Satellite"
 		]
 	},
 	{
@@ -768,13 +770,13 @@
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
 	},
 	{
 		"name": "Bombardment III",
