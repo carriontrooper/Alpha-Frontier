@@ -95,7 +95,7 @@
 	{
 		"name": "Aerocraft",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles","Can perform Air Sweep"]
 	},
 	{
 		"name": "Satellite",
