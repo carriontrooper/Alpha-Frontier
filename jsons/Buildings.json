@@ -2355,7 +2355,7 @@
 		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer"
 			}
 		]
 	},
@@ -2406,6 +2406,19 @@
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Colonial Culture",
 		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Jormungand NAVSAT Network",
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <upon discovering [Cosmonautics]>"],
+		"requiredTech": "Satellite Networks",
+		"quote": "'Like a serpent coiling itself upon this world, we now have live coverage of the oceanic weather. Naval advantage is ours.' - Koko Hekmatyar, Jormungand project manager",
 		"civilopediaText": [
 			{
 				"text": "."
