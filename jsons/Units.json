@@ -1345,6 +1345,7 @@
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[-33]% Strength <vs [Satellite] units> <with [50]% chance>",
@@ -1430,6 +1431,8 @@
 		//"obsoleteTech": "Radar",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"Can perform Air Sweep",
+			"[+25]% Strength when performing Air Sweep",
 			"[+100]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
@@ -2107,6 +2110,7 @@
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+50]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[100]% Strength <vs [Satellite] units> <with [80]% chance>",
@@ -3241,6 +3245,8 @@
 		"uniques": [
 			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+25]% Damage when Intercepting",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Air] units>",
 			"[0]% Strength <vs [Satellite] units>",
