@@ -809,7 +809,8 @@
 			"Desert",
 			"Flood plains",
 			"Tundra",
-			"Mycelium"
+			"Mycelium",
+			"Hill"
 		],
 		"gold": 2,
 		"culture": 2,
@@ -845,7 +846,8 @@
 			"Flood plains",
 			"Tundra",
 			"Mycelium",
-			"Snow"
+			"Snow",
+			"Hill",
 		],
 		"turnsToBuild": 6,
 		"techRequired": "Portable Power Sources",
@@ -961,6 +963,7 @@
 			"Snow",
 			"Coast",
 			"Ocean",
+			"Hill"
 		],
 		"production": 1,
 		"turnsToBuild": 5,
