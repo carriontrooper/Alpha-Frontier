@@ -4,6 +4,13 @@
 	// add units that consume data storage
 	// add more anti-satellite stuff
 	// nerf nuke sats, somehow
+	// list of additional units TBD:
+	// -nerve staple conscript
+	// -clone troopers
+	// -stealth bomber
+	// -mirage trooper
+	// -mirage tank
+	// -tactical mobile uplink (basically discount GGs)
 
 	////////////////////
 	// Xeno Units
@@ -1917,6 +1924,7 @@
 			"[+10]% Strength <when adjacent to a [Military] unit>",
 			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Vitamass]",
+			"Consumes [1] [Digital Storage Space]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -2077,9 +2085,11 @@
 		"rangedStrength": 56,
 		"cost": 500,
 		"requiredTech": "Cyberbrains",
+		"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+2] Sight",
 			"Damage is ignored when determining unit Strength",
+			"Consumes [1] [Digital Storage Space]",
 			"Only available <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3797,6 +3807,7 @@
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3917,6 +3928,7 @@
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
 			"Limited to [2] per Civilization"
 		],
 		// costs 1500 in BNW
