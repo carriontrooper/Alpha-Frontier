@@ -971,8 +971,9 @@
 		"turnsToBuild": 5,
 		"techRequired": "Habitation",
 		"uniques": [
-			"Prefab Lair",
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair] tiles>", // can't be built next to each other
+			//"Prefab Lair",
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair (Land)] tiles>", // can't be built next to each other
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair (Water)] tiles>", // can't be built next to each other
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [10]% <in [Land] tiles>",
 			"[+1 Culture] <in [Land] tiles>",
@@ -1004,8 +1005,9 @@
 		"turnsToBuild": 5,
 		"techRequired": "Habitation",
 		"uniques": [
-			"Prefab Lair",
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair] tiles>", // can't be built next to each other
+			//"Prefab Lair",
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair (Land)] tiles>", // can't be built next to each other
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair (Water)] tiles>", // can't be built next to each other
 			"Can be built outside your borders",
 			"Adjacent enemy units ending their turn take [5] damage <for [Water] units>", // see if this work or not
 			"[+1 Gold, +1 Faith] <in [Water] tiles>"
