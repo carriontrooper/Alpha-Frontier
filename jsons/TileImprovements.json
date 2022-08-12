@@ -999,7 +999,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Coast",
 			"Ocean",
-			"Lake"
+			"Lakes"
 		],
 		"production": 1,
 		"turnsToBuild": 5,
