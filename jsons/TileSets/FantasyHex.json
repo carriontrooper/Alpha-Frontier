@@ -491,6 +491,8 @@
 		////// GREAT IMPROVEMENTS
 		
 		////// UNIQUE IMPROVEMENTS
+		// ugh, can't build non-resource-improving improvements on water
+		/*
 		"Coast+Prefab Lair (Water)": ["Coast","Prefab Lair Water"],
 		"Ocean+Prefab Lair (Water)": ["Ocean","Prefab Lair Water"],
 		"Lakes+Prefab Lair (Water)": ["Lakes","Prefab Lair Water"],
@@ -526,7 +528,8 @@
 		"Tundra+Hills+Prefab Lair (Land)": ["Tundra","Hills","Prefab Lair"],
 		"Snow+Hills+Prefab Lair (Land)": ["Snow","Hills","Prefab Lair"],
 
-		"Desert+Flood plains+Prefab Lair (Land)": ["Desert","Flood plains","Prefab Lair"],
+		"Desert+Flood plains+Prefab Lair (Land)": ["Desert","Flood plains","Prefab Lair"]
+		*/
 		
 		//// maybe snow and desert versions of stuff?
 		
