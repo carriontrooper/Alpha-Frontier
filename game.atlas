@@ -2831,14 +2831,7 @@ ImprovementIcons/Offshore Platform
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Prefab Lair (Land)
-  rotate: false
-  xy: 868, 1394
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Prefab Lair (Water)
+ImprovementIcons/Prefab Lair
   rotate: false
   xy: 868, 1394
   size: 100, 100
