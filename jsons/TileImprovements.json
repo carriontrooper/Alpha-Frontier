@@ -965,7 +965,10 @@
 			"Tundra",
 			"Mycelium",
 			"Snow",
-			"Hill"
+			"Hill",
+			"Coast",
+			"Ocean",
+			"Lakes"
 		],
 		"production": 1,
 		"turnsToBuild": 5,
@@ -977,7 +980,7 @@
 			"Gives a defensive bonus of [10]% <in [Land] tiles>",
 			"Adjacent enemy units ending their turn take [5] damage <for [Water] units>", // see if this work or not
 			"[+1 Culture] <in [Land] tiles>",
-			"[+1 Gold, +1 Faith] <in [Coastal] tiles>"
+			"[+1 Gold, +1 Faith] <in [Water] tiles>"
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
