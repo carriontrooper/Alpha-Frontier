@@ -3180,6 +3180,7 @@
 		"uniques": [
 			"May enter foreign tiles without open borders",
 			"Can construct [Prefab Lair]",
+			"Can build [Water] improvements on tiles"
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
