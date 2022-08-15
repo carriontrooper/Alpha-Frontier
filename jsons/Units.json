@@ -3179,8 +3179,8 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"May enter foreign tiles without open borders",
-			//"Can construct [Prefab Lair]",
-			//"Can build [Water] improvements on tiles"
+			"Can construct [Prefab Lair]",
+			"Can build [Water] improvements on tiles"
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3292,6 +3292,7 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Blast radius [2]",
+			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
 			"[+100]% Strength <vs cities>",
