@@ -492,11 +492,11 @@
 		
 		////// UNIQUE IMPROVEMENTS
 		// ugh, can't build non-resource-improving improvements on water
-		/*
-		"Coast+Prefab Lair (Water)": ["Coast","Prefab Lair Water"],
-		"Ocean+Prefab Lair (Water)": ["Ocean","Prefab Lair Water"],
-		"Lakes+Prefab Lair (Water)": ["Lakes","Prefab Lair Water"],
 		
+		"Coast+Prefab Lair": ["Coast","Prefab Lair Water"],
+		"Ocean+Prefab Lair": ["Ocean","Prefab Lair Water"],
+		"Lakes+Prefab Lair": ["Lakes","Prefab Lair Water"],
+		/*
 		"Coast+Algae+Prefab Lair (Water)": ["Coast","Algae","Prefab Lair Water"],
 		"Coast+Plankton+Prefab Lair (Water)": ["Coast","Plankton","Prefab Lair Water"],
 		"Coast+Seasilk+Prefab Lair (Water)": ["Coast","Seasilk","Prefab Lair Water"],
