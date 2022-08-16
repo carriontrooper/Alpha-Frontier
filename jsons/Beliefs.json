@@ -192,16 +192,16 @@
 		]
 	},
 
-{
-"name": "Belief in wrath",
-"type": "Pantheon",
-"uniques": ["[+2 Food, +2 Faith, +1 Culture] from every [Fallout]"]
-},
-{
-"name": "Old Earth flashbacks",
-"type": "Pantheon",
-"uniques": ["[+3 Faith] from every [City ruins]"]
-},
+	{
+		"name": "Wasteland Worship",
+		"type": "Pantheon",
+		"uniques": ["[+2 Food, +2 Faith, +1 Culture] from every [Fallout]"]
+	},
+	{
+		"name": "Cautions of Old Earth",
+		"type": "Pantheon",
+		"uniques": ["[+3 Faith] from every [City ruins]"]
+	},
 	// Follower beliefs
 	{
 		"name": "Memorialists",
@@ -321,13 +321,13 @@
 			"May buy [Virtual Trance Server] buildings with [Faith] [in cities following this religion]"
 		]
 	},
-{
-"name": "Feelable Race Supremacy"
-"type": "Follower",
-"uniques": [
-          "[+1 Faith, +1 Culture, +1 Science, +1 Production, +1 Happiness] from every [City ruins]"
-]
-},
+	{
+		"name": "Lessons from the Vanquished"
+		"type": "Follower",
+		"uniques": [
+        	"[+1 Faith, +1 Culture, +1 Science, +1 Production, +1 Happiness] from every [City ruins]"
+		]
+	},
 
 	// Founder beliefs
 	{
@@ -450,14 +450,14 @@
 		"type": "Enhancer",
 		"uniques": ["[+50 Faith] whenever a Great Person is expended"]
 	},
-{
-"name": "Demolition",
-"type": "Enhancer",
-"uniques": ["Cities are razed [10] times as fast", "[+1] Movement <for [Missile] units>"]
-},
-{
-"name": "Orbital deathbringer",
-"type": "Enhancer",
-"uniques": ["[+20]% Strength <for [Satellite] units> <when attacking>"]
-}
+	{
+		"name": "Impermanence",
+		"type": "Enhancer",
+		"uniques": ["Cities are razed [10] times as fast"]
+	},
+	{
+		"name": "Orbital Vengeance",
+		"type": "Enhancer",
+		"uniques": ["[+10]% Strength <for [Satellite] units> <when attacking>"]
+	}
 ]
