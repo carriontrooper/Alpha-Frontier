@@ -123,7 +123,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "production": 5 },
 		"uniques": [
-			"[50]% Production when constructing [Prefab] buildings [in this city]"
+			"[+20]% Production when constructing [Prefab] buildings [in this city]"
 		],
 		"requiredTech": "Engineering",
 		"civilopediaText": [
@@ -298,7 +298,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+2 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]",
 			"[+1 Production] from [Mine] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
@@ -1199,7 +1199,7 @@
 	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10, "gold": 5 },
+		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
@@ -1427,7 +1427,7 @@
 		"name": "Nerve Staple Center",
 		"maintenance": 1,
 		"culture": -5,
-		"percentStatBonus": { "production": 20 },
+		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Augment Center",
 		"requiredTech": "Nerve Stapling",
@@ -2093,7 +2093,7 @@
 		"faith": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 10, "gold": 5 },
+		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"[+1 Happiness] per [4] population [in this city]"
@@ -2548,7 +2548,7 @@
 		"uniques": [
 			"Gain a free [Cloning Vat] [in this city]",
 			"[+1] population [in all cities]",
-			"[+50]% Production when constructing [Military] units [in this city]"
+			"[+50]% Production when constructing [Infantry] units [in this city]"
 		],
 		"requiredTech": "Cloning",
 		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist",
