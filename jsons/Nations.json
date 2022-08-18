@@ -7,6 +7,7 @@
 	},
 
 	/* template: at least 20 city names
+	also 10 spy names
 	
 	// victory types: Scientific, Diplomatic, Cultural, Domination
 	
@@ -56,6 +57,18 @@
 			"City17",
 			"City18",
 			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
 		]
 	},
 	
@@ -148,7 +161,20 @@
 			"Honoka Landing",
 			"Etherow City",
 			"Kozlov Station"
+		] /*,
+		"spyNames": [
+			"Cibo",
+			"Kanoe",
+			"Iko",
+			"Denji",
+			"Kozlov",
+			"Dhomochevsky",
+			"Tanikaze",
+			"Mori",
+			"Zuru",
+			"Mizunoe"
 		]
+		*/
 	},
 	
 	{
@@ -197,7 +223,20 @@
 			"Tucumcari",
 			"Vanderpoele",
 			"Whiteoak"
+		] /*,
+		"spyNames": [
+			"Josephus",
+			"Riker",
+			"Paolo",
+			"Gia",
+			"Javi",
+			"Saachi",
+			"Vedasto",
+			"Tamir",
+			"Champa",
+			"Rattana"
 		]
+		*/
 	},
 	{
 		"name": "Deep Rock Ganymede",
@@ -245,7 +284,20 @@
 			"Driller's Drop",
 			"Shallow Fangs",
 			"Dry Gap"
+		] /*,
+		"spyNames": [
+			"Bomrek",
+			"Dastot",
+			"Nil",
+			"Sodel",
+			"Urist",
+			"Zasit",
+			"Stukos",
+			"Kadol",
+			"Astesh",
+			"Lokum"
 		]
+		*/
 	},
 	{
 		"name": "Walpole-Yuen Inc",
@@ -293,7 +345,20 @@
 			"Pylos",
 			"Prometheus",
 			"Charon Thirteen"
+		] /*,
+		"spyNames": [
+			"K. Morales",
+			"C. Bradley",
+			"P. Watkins",
+			"W. Hudson",
+			"E. Greenlief",
+			"J. Cruz",
+			"S. Baroski",
+			"J. Ma",
+			"A. Montgomery",
+			"G. Quintaro"
 		]
+		*/
 	},
 	{
 		"name": "Somatek Biomedical",
@@ -341,7 +406,20 @@
 			"Kalana Ganj",
 			"Viranastra",
 			"New Tamilpur"
+		] /*,
+		"spyNames": [
+			"Shanaya",
+			"Mahika",
+			"Kashvi",
+			"Krisha",
+			"Navya",
+			"Bhuv",
+			"Anant",
+			"Raj",
+			"Nimit",
+			"Rishit"
 		]
+		*/
 	},
 	{
 		"name": "Skye Robotics",
@@ -388,7 +466,20 @@
 			"District 17",
 			"District 18",
 			"District 19"
+		] /*,
+		"spyNames": [
+			"T-800",
+			"T-X",
+			"T-1000",
+			"T-500",
+			"T-600",
+			"T-700",
+			"T-900",
+			"T-3000",
+			"T-XA",
+			"T-5000"
 		]
+		*/
 	},
 	
 	{
@@ -437,7 +528,20 @@
 			"Buchikoma-Cho",
 			"Warautokojima",
 			"Dejima Gunkan"
+		] /*,
+		"spyNames": [
+			"Motoko",
+			"Batou",
+			"Togusa",
+			"Ishikawa",
+			"Borma",
+			"Pazu",
+			"Saito",
+			"Ladriya",
+			"Azuma",
+			"Yano"
 		]
+		*/
 	},
 	{
 		"name": "Einherjar Diktat",
@@ -485,7 +589,20 @@
 			"Urdarbrunn",
 			"Valgrind",
 			"Noatun"
+		] /*,
+		"spyNames": [
+			"Hakha",
+			"Radec",
+			"Visari",
+			"Metrac",
+			"Stahl",
+			"Savik",
+			"Drago",
+			"Tyran",
+			"Huxley",
+			"Kratek"
 		]
+		*/
 	},
 	{
 		"name": "Thespiaux Medianet",
@@ -533,7 +650,20 @@
 			"Seurat City",
 			"Matisse City",
 			"Duchamp City"
+		] /*,
+		"spyNames": [
+			"Valerian",
+			"Laureline",
+			"Difool",
+			"Bergerac",
+			"Proloff",
+			"Thorgal",
+			"Jourdan",
+			"Sloane",
+			"Nikopol",
+			"Spirou"
 		]
+		*/
 	},
 	{
 		"name": "Badwalmusafir",
@@ -581,7 +711,20 @@
 			"Tamyur",
 			"Tagrest",
 			"Amwan"
+		] /*,
+		"spyNames": [
+			"Aksil",
+			"Udad",
+			"Ziri",
+			"Kahina",
+			"Sekkura",
+			"Tafrara",
+			"Tajeddigt",
+			"Zeğiga",
+			"Agwmar",
+			"Izebboudjen"
 		]
+		*/
 	},
 	{
 		"name": "Xenoidid Empire",
@@ -629,7 +772,20 @@
 			"Hydralisk",
 			"Lepus Hold",
 			"Ovipostor"
+		] /*,
+		"spyNames": [
+			"Odonata",
+			"Psocodea",
+			"Diptera",
+			"Neuroptera",
+			"Blattodea",
+			"Mantodea",
+			"Zoraptera",
+			"Lepidoptera",
+			"Coleoptera",
+			"Zygentoma"
 		]
+		*/
 	},
 	{
 		"name": "Imperio Di Uomo",
@@ -677,7 +833,20 @@
 			"Pugnus Civitas",
 			"Durum Municipum",
 			"Parvos Oppidum"
+		] /*,
+		"spyNames": [
+			"Prīmus",
+			"Secundus",
+			"Tertius",
+			"Quārtus",
+			"Quīntus",
+			"Sextus",
+			"Septimus",
+			"Octāvus",
+			"Nōnus",
+			"Decimus"
 		]
+		*/
 	},
 	{
 		"name": "Xingxing Fazhan Bu",
@@ -725,7 +894,20 @@
 			"Fanmao De Senlin",
 			"Kuaile Xiao Zhen",
 			"Biancheng"
+		] /*,
+		"spyNames": [
+			"Yi Erzi",
+			"Er Nuer",
+			"San Bobo",
+			"Si Gugu",
+			"Wu Jiujiu",
+			"Liu Ayi",
+			"Qi Tangge",
+			"Ba Tangdi",
+			"Jiu Biaojie",
+			"Shi Biaomei"
 		]
+		*/
 	},
 	{
 		"name": "Free Waverunners",
@@ -773,7 +955,20 @@
 			"Vil Atizay",
 			"Bon Vil",
 			"Fen Vil"
+		] /*,
+		"spyNames": [
+			"Mondeh",
+			"Choozdeh",
+			"Wensdeh",
+			"Tursdeh",
+			"Frideh",
+			"Satideh",
+			"Sundeh",
+			"Yestideh",
+			"Tiddeh",
+			"Tomarroh"
 		]
+		*/
 	},
 	{
 		"name": "Blue Streak Aerodynamics",
@@ -821,7 +1016,20 @@
 			"Zephyr City",
 			"Dust Devil",
 			"Airstrip Two"
+		] /*,
+		"spyNames": [
+			"Tex",
+			"Kid",
+			"Sam",
+			"Bob",
+			"Joe",
+			"Anne",
+			"Lily",
+			"Abby",
+			"Lola",
+			"Mary"
 		]
+		*/
 	},
 	{
 		"name": "Jaeger Engineering",
@@ -869,7 +1077,20 @@
 			"Eiserner Riese",
 			"Mechanische Fahrzeugfabrik",
 			"Schwertbereich"
+		] /*,
+		"spyNames": [
+			"Fraunberg",
+			"Hesse",
+			"Richthofen",
+			"Schulenburg",
+			"Lehndorff",
+			"Metternich",
+			"Dampierre",
+			"Von Braun",
+			"Gotha",
+			"Faber-Castell"
 		]
+		*/
 	},
 
 	// Outposts
