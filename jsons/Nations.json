@@ -161,7 +161,7 @@
 			"Honoka Landing",
 			"Etherow City",
 			"Kozlov Station"
-		] /*,
+		] ,
 		"spyNames": [
 			"Cibo",
 			"Kanoe",
@@ -174,7 +174,7 @@
 			"Zuru",
 			"Mizunoe"
 		]
-		*/
+		
 	},
 	
 	{
@@ -223,7 +223,7 @@
 			"Tucumcari",
 			"Vanderpoele",
 			"Whiteoak"
-		] /*,
+		] ,
 		"spyNames": [
 			"Josephus",
 			"Riker",
@@ -236,7 +236,7 @@
 			"Champa",
 			"Rattana"
 		]
-		*/
+		
 	},
 	{
 		"name": "Deep Rock Ganymede",
@@ -284,7 +284,7 @@
 			"Driller's Drop",
 			"Shallow Fangs",
 			"Dry Gap"
-		] /*,
+		] ,
 		"spyNames": [
 			"Bomrek",
 			"Dastot",
@@ -297,7 +297,7 @@
 			"Astesh",
 			"Lokum"
 		]
-		*/
+		
 	},
 	{
 		"name": "Walpole-Yuen Inc",
@@ -345,7 +345,7 @@
 			"Pylos",
 			"Prometheus",
 			"Charon Thirteen"
-		] /*,
+		] ,
 		"spyNames": [
 			"K. Morales",
 			"C. Bradley",
@@ -358,7 +358,7 @@
 			"A. Montgomery",
 			"G. Quintaro"
 		]
-		*/
+		
 	},
 	{
 		"name": "Somatek Biomedical",
@@ -406,7 +406,7 @@
 			"Kalana Ganj",
 			"Viranastra",
 			"New Tamilpur"
-		] /*,
+		] ,
 		"spyNames": [
 			"Shanaya",
 			"Mahika",
@@ -419,7 +419,7 @@
 			"Nimit",
 			"Rishit"
 		]
-		*/
+		
 	},
 	{
 		"name": "Skye Robotics",
@@ -466,7 +466,7 @@
 			"District 17",
 			"District 18",
 			"District 19"
-		] /*,
+		] ,
 		"spyNames": [
 			"T-800",
 			"T-X",
@@ -479,7 +479,7 @@
 			"T-XA",
 			"T-5000"
 		]
-		*/
+		
 	},
 	
 	{
@@ -528,7 +528,7 @@
 			"Buchikoma-Cho",
 			"Warautokojima",
 			"Dejima Gunkan"
-		] /*,
+		] ,
 		"spyNames": [
 			"Motoko",
 			"Batou",
@@ -541,7 +541,7 @@
 			"Azuma",
 			"Yano"
 		]
-		*/
+		
 	},
 	{
 		"name": "Einherjar Diktat",
@@ -589,7 +589,7 @@
 			"Urdarbrunn",
 			"Valgrind",
 			"Noatun"
-		] /*,
+		] ,
 		"spyNames": [
 			"Hakha",
 			"Radec",
@@ -602,7 +602,7 @@
 			"Huxley",
 			"Kratek"
 		]
-		*/
+		
 	},
 	{
 		"name": "Thespiaux Medianet",
@@ -650,7 +650,7 @@
 			"Seurat City",
 			"Matisse City",
 			"Duchamp City"
-		] /*,
+		] ,
 		"spyNames": [
 			"Valerian",
 			"Laureline",
@@ -663,7 +663,7 @@
 			"Nikopol",
 			"Spirou"
 		]
-		*/
+		
 	},
 	{
 		"name": "Badwalmusafir",
@@ -711,7 +711,7 @@
 			"Tamyur",
 			"Tagrest",
 			"Amwan"
-		] /*,
+		] ,
 		"spyNames": [
 			"Aksil",
 			"Udad",
@@ -724,7 +724,7 @@
 			"Agwmar",
 			"Izebboudjen"
 		]
-		*/
+		
 	},
 	{
 		"name": "Xenoidid Empire",
@@ -772,7 +772,7 @@
 			"Hydralisk",
 			"Lepus Hold",
 			"Ovipostor"
-		] /*,
+		] ,
 		"spyNames": [
 			"Odonata",
 			"Psocodea",
@@ -785,7 +785,7 @@
 			"Coleoptera",
 			"Zygentoma"
 		]
-		*/
+		
 	},
 	{
 		"name": "Imperio Di Uomo",
@@ -833,7 +833,7 @@
 			"Pugnus Civitas",
 			"Durum Municipum",
 			"Parvos Oppidum"
-		] /*,
+		] ,
 		"spyNames": [
 			"Prīmus",
 			"Secundus",
@@ -846,7 +846,7 @@
 			"Nōnus",
 			"Decimus"
 		]
-		*/
+		
 	},
 	{
 		"name": "Xingxing Fazhan Bu",
@@ -894,7 +894,7 @@
 			"Fanmao De Senlin",
 			"Kuaile Xiao Zhen",
 			"Biancheng"
-		] /*,
+		] ,
 		"spyNames": [
 			"Yi Erzi",
 			"Er Nuer",
@@ -907,7 +907,7 @@
 			"Jiu Biaojie",
 			"Shi Biaomei"
 		]
-		*/
+		
 	},
 	{
 		"name": "Free Waverunners",
@@ -955,7 +955,7 @@
 			"Vil Atizay",
 			"Bon Vil",
 			"Fen Vil"
-		] /*,
+		] ,
 		"spyNames": [
 			"Mondeh",
 			"Choozdeh",
@@ -968,7 +968,7 @@
 			"Tiddeh",
 			"Tomarroh"
 		]
-		*/
+		
 	},
 	{
 		"name": "Blue Streak Aerodynamics",
@@ -1016,7 +1016,7 @@
 			"Zephyr City",
 			"Dust Devil",
 			"Airstrip Two"
-		] /*,
+		] ,
 		"spyNames": [
 			"Tex",
 			"Kid",
@@ -1029,7 +1029,7 @@
 			"Lola",
 			"Mary"
 		]
-		*/
+		
 	},
 	{
 		"name": "Jaeger Engineering",
@@ -1077,7 +1077,7 @@
 			"Eiserner Riese",
 			"Mechanische Fahrzeugfabrik",
 			"Schwertbereich"
-		] /*,
+		] ,
 		"spyNames": [
 			"Fraunberg",
 			"Hesse",
@@ -1090,7 +1090,7 @@
 			"Gotha",
 			"Faber-Castell"
 		]
-		*/
+		
 	},
 
 	// Outposts
@@ -1160,6 +1160,7 @@
 		"innerColor": [197, 55, 222],
 		"cities": ["Wordsmiths' Refuge"]
 	},
+	
 	// Agricultural
 	{
 		"name": "Demeter Commune",
@@ -1226,6 +1227,7 @@
 		"innerColor": [114, 222, 55],
 		"cities": ["Nutri-Paste Inc."]
 	},
+	
 	// Economic
 	{
 		"name": "Sputnik Outpost",
@@ -1290,6 +1292,7 @@
 		"innerColor": [222, 200, 55],
 		"cities": ["Ancapistan"]
 	},
+	
 	// Militaristic
 	{
 		"name": "Eglon Base",
@@ -1355,6 +1358,7 @@
 		"innerColor": [222, 116, 55],
 		"cities": ["Yeni Turkiye Engineering"]
 	},
+	
 	// Religious
 	{
 		"name": "Yahiro-Dono Sanctuary",
