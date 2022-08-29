@@ -491,6 +491,8 @@
 		"turnsToBuild": 6,
 		"techRequired": "Xeno-Medicine",
 		"uniques": [
+			"Miasma",
+			"Unpillagable",
 			"Can be built outside your borders",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
