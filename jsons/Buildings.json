@@ -1161,7 +1161,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A dedicated hole in the ground that stores nuclear ICBMs. Beware that you do not repeat Old Earth's folly."
 			}
 		]
 	},
@@ -1175,7 +1175,7 @@
 		"requiredTech": "Orbital Deterrents",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Networked bunkers far underground, complete with long-term life support systems and protected under several kilometers of planetary crust."
 			}
 		]
 	},
@@ -1192,7 +1192,7 @@
 		"requiredBuilding": "Frontier Hospital",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Mass production of the masses."
 			}
 		]
 	},
@@ -1204,7 +1204,7 @@
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A network of fusion-powered tube trains that connect the various districts of the ever-growing city."
 			}
 		]
 	},
@@ -1225,7 +1225,7 @@
 		"requiredTech": "Quantum Theory",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and break what remains. Here is fire."
 			}
 		]
 	},
@@ -1242,7 +1242,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "What if the taxes you owe was personally tailored depending on your spending, lifestyle, and other factors? With a deep algorithm, this is now a reality."
 			}
 		]
 	},
@@ -1259,7 +1259,7 @@
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An imaginary space where imagination and creativity is free to be exercised."
 			}
 		]
 	},
@@ -1278,7 +1278,7 @@
 		"requiredTech": "Metaverse",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "It is now possible for a colonist to live their life completely in the virtual realm."
 			}
 		]
 	},
@@ -1296,7 +1296,7 @@
 		"requiredTech": "Virtual Drugs",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Want to try mind-altering substances, but afraid of the physical side effects and addiction? Why not simulate it virtually with a direct brain stimulation instead?"
 			}
 		]
 	},
@@ -1313,7 +1313,7 @@
 		"requiredTech": "Cybernetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "For those disappointed by the weakness of their flesh, and found strength in replacements of metal and plastic."
 			}
 		]
 	},
@@ -1333,7 +1333,7 @@
 		"requiredTech": "Nanotechnology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Nanotechnology applied as a means to repair both biological and mechanical assets."
 			}
 		]
 	},
@@ -1350,7 +1350,7 @@
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Now factory workers can work from their homes by controlling the machines using their cyberbrains."
 			}
 		]
 	},
@@ -1369,7 +1369,7 @@
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Specialized servers that stores complete brain patterns, which could be downloaded to a fresh clone or empty cyborg shell."
 			}
 		]
 	},
@@ -1387,7 +1387,7 @@
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "The merging of the physical and the virtual, using AI as a bridge between worlds."
 			}
 		]
 	},
@@ -1405,7 +1405,7 @@
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Quantum computation allows even more complex economic algorithms to be calculated even faster than before."
 			}
 		]
 	},
@@ -1419,7 +1419,7 @@
 		"requiredTech": "Xeno Psychology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "In here, scientists use both biology and psychology to understand how the Xenomind works."
 			}
 		]
 	},
@@ -1433,7 +1433,7 @@
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A rather ruthless way to reduce the amount of dissenting population - just inhibit their troublemaking parts of the brain with an implant."
 			}
 		]
 	},
@@ -1447,7 +1447,7 @@
 		"requiredTech": "Antimatter Harnessing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This facility generates Antimatter by smashing together exotic subatomic particles in a certain way."
 			}
 		]
 	},
@@ -1466,7 +1466,7 @@
 		"requiredTech": "Mind Linking",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Ever wished you could store your memories elsewhere? Or upgrade your mental capacities? They are now possible by applying cloud computing aspects on biological minds."
 			}
 		]
 	},
@@ -1482,7 +1482,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Layers upon layers of hardened light and deflector shields that protect your city."
 			}
 		]
 	},
@@ -1498,7 +1498,7 @@
 		"uniques": ["Orbital","Consumes [2] [Titanium]"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Warm up cold places and chill down hot spots by reflecting the sun's rays with an enormous orbital mirror."
 			}
 		]
 	},
@@ -1515,7 +1515,7 @@
 		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Transform waste into pure energy, and then convert that energy into better, usable matter."
 			}
 		]
 	},
@@ -1529,7 +1529,7 @@
 		"requiredTech": "Designer Lifeforms",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This agency could design an organism from basically nothing, one that is according to your exact specifications."
 			}
 		]
 	},
@@ -1549,7 +1549,7 @@
 		"requiredResource": "Antimatter",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Basically, this facility is fishing for resources in the very sea of uncertain possibilities."
 			}
 		]
 	},
@@ -1566,7 +1566,7 @@
 		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Why walk when you could unravel your every subatomic particle into energy, and then reconstitute it back at your destination?"
 			}
 		]
 	},
@@ -1586,7 +1586,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Generates a healing field using harmonic frequencies, tuned using a sizable amount of connected Vitamass."
 			}
 		]
 	},
@@ -1606,7 +1606,7 @@
 		"requiredTech": "Posthumanist Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Live life unbound by physical limits, in an AI-generated virtual universe based on your mind."
 			}
 		]
 	},
@@ -1626,7 +1626,7 @@
 		"requiredResource": "Yairmite",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Uses manufactured pocket dimensions to create places where it's bigger on the inside."
 			}
 		]
 	},
@@ -1639,7 +1639,7 @@
 		"requiredTech": "FTL Travel",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Sends advanced, self-thinking AIs onto a small spacecraft that can travel faster than light, to survey for other suitable planets."
 			}
 		]
 	},
@@ -1660,7 +1660,7 @@
 		"requiredTech": "Cloning",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Deletes imperfections and inferior traits from your very own DNA."
 			}
 		]
 	},
@@ -1677,7 +1677,7 @@
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Control public opinion by using psychological tricks, tailored messages and opinion twisters."
 			}
 		]
 	},
@@ -1696,7 +1696,7 @@
 		"requiredTech": "Genetic Hybridization",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Derived from Xeno biological process, the Biogel repairs tissue damage by substituting itself for damaged or dead cells. Also works on vehicles."
 			}
 		]
 	},
@@ -1713,7 +1713,7 @@
 		"requiredTech": "Designer Lifeforms",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Keeping up the health of the populace by utilizing symbiotic organisms, whether big or small."
 			}
 		]
 	},
@@ -1735,7 +1735,7 @@
 		"requiredTech": "Virtual Drugs",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Directly download the knowledge you need at the moment, straight into your brain."
 			}
 		]
 	},
@@ -1752,7 +1752,7 @@
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "These terminals help filter out noisy or damaging thoughts, and ensure that your brain is working properly."
 			}
 		]
 	},
@@ -1768,7 +1768,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "To give alms to the poor is to be rich in spirit."
 			}
 		]
 	},
@@ -1783,7 +1783,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A legally-sanctioned cultist safehouse, in exchange for it doubling as a fortified compound during city combat."
 			}
 		]
 	},
@@ -1796,7 +1796,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A nice spot to focus your mind and meditate without being bothered by anything."
 			}
 		]
 	},
@@ -1810,7 +1810,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Arguments and debates are encouraged here, as long as it all stays civil."
 			}
 		]
 	},
@@ -1829,7 +1829,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A virtual space where you are subjected to sensory overstimulation, in order to see into the astral plane."
 			}
 		]
 	},
@@ -1871,7 +1871,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Genetic laboratory dedicated to the research of the Net Terminal Gene, which supposedly could let instant virtual connection without implants."
 			}
 		]
 	},
@@ -1932,7 +1932,7 @@
 		"requiredTech": "Xenogeology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A miner's outpost deep underground, where they extract riches while squashing the occasional underground Xeno nest."
 			}
 		]
 	},
@@ -1958,7 +1958,7 @@
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Walpole-Yuen Inc's corporate enclaves for its employees, which has their own laws, security, and corpo-scrip."
 			}
 		]
 	},
@@ -1999,7 +1999,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Laboratories like these are where Somatek Biomedical cultivates and researches the Soma plant."
 			}
 		]
 	},
@@ -2022,7 +2022,7 @@
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Autonomously maintained testing facilities that tests robotic designs - also used as a training site for the military."
 			}
 		]
 	},
@@ -2043,7 +2043,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This is where Daikyu Boei Kikan's legions of elite hackers defend against and launch information warfare against its enemies."
 			}
 		]
 	},
@@ -2062,7 +2062,7 @@
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Imagine a movie, but not only that you can see and hear it, you can smell, taste, and feel it. Now put it in a small chip you can slot in the side of your head."
 			}
 		]
 	},
@@ -2082,7 +2082,7 @@
 		"requiredTech": "Frontier Armaments",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Xenoidid infantry share their living space with the soldier caste of their tamed Xenos, resulting in better coordination between the two species."
 			}
 		]
 	},
@@ -2100,7 +2100,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Not only does this office deal with the human politics, it also deals with the tame Xeno's needs as well."
 			}
 		]
 	},
@@ -2120,7 +2120,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A veritable army of clerks, officers and bureaucrats working together to expedite land expansion for the colony."
 			}
 		]
 	},
@@ -2139,7 +2139,7 @@
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Not only a facility for military aerocraft, but also facilitates air-based travel and commerce."
 			}
 		]
 	},
@@ -2162,7 +2162,7 @@
 		"requiredTech": "Composite Armor",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A dedicated building to fabricate, store, service, and repair mechs, among other vehicles."
 			}
 		]
 	},
@@ -2181,7 +2181,7 @@
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A special monument commemorating our arrival on this planet."
 			}
 		]
 	},
@@ -2201,7 +2201,7 @@
 		"requiredTech": "Military Ballistics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Computer-assisted combat simulation training for the military."
 			}
 		]
 	},
@@ -2220,7 +2220,7 @@
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A prestigious university dedicated to the pursuit of science."
 			}
 		]
 	},
@@ -2240,7 +2240,7 @@
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A massively multiplayer virtual interactive experience that is unique to your colony."
 			}
 		]
 	},
@@ -2260,7 +2260,7 @@
 		"isNationalWonder": true,
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Utilizing the airwaves and free broadband to spread your ideology far and wide."
 			}
 		]
 	},
@@ -2278,7 +2278,7 @@
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A secure and efficient database that contains a comprehensive copy of your colony's marks of credit."
 			}
 		]
 	},
@@ -2299,7 +2299,7 @@
 		"requiredBuilding": "Orbital Launch Facility",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Your colony's own orbital structure, a testament to your colony's ingenuity and willpower."
 			}
 		]
 	},
@@ -2316,7 +2316,7 @@
 		"requiredTech": "Stable Fission Power",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A field of 3D printers churning away products in copious amounts."
 			}
 		]
 	},
@@ -2334,7 +2334,7 @@
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A place where your colonists can have fun while also simultaneously stimulating the local economy, and promoting local culture."
 			}
 		]
 	},
@@ -2353,7 +2353,7 @@
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Know your enemy, and know yourself, that is how you win wars and keep the peace."
 			}
 		]
 	},
@@ -2992,7 +2992,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This facility is where specialized aerosols are produced and released into the atmosphere, in order to make the air more breathable to humans."
 			}
 		]
 	},
@@ -3008,7 +3008,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Deep rods extend downwards to stabilize the local tectonic plates."
 			}
 		]
 	},
@@ -3025,7 +3025,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Procedures, microbes and chemicals developed and applied in order to return nutrients to the soil."
 			}
 		]
 	},
@@ -3042,7 +3042,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Massive floating facilities that roam the seas as they filter out toxins from the water and introduce oxygen to depleted waters."
 			}
 		]
 	},
