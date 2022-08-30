@@ -33,7 +33,12 @@
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Pioneer Administration"
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "This office eases the bureaucratic and administrative burdens of annexation."
+			}
+		]
 	},
 
 	// Landfall Era
@@ -2392,7 +2397,7 @@
 		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A widely distributed knowledge aggregation system akin to Old Earth's wikipedia, but more rigorously checked and updated. Secure underground servers also help preserve the knowledge."
 			}
 		]
 	},
@@ -2409,7 +2414,7 @@
 		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Basically a hole leading straight down to the core, exposing the structures of the planetary crust."
 			}
 		]
 	},
@@ -2423,7 +2428,7 @@
 		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Fully dedicated to preserving all forms of culture, this university produces many cultural figures."
 			}
 		]
 	},
@@ -2436,7 +2441,7 @@
 		"quote": "'Like a serpent coiling itself upon this world, we now have live coverage of the oceanic weather. Naval advantage is ours.' - Koko Hekmatyar, Jormungand project manager",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A chain of satellites that monitor the planet's weather patterns, and also guides ships to safe harbor."
 			}
 		]
 	},
@@ -2450,7 +2455,7 @@
 		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An ubiquitous surveillance software linked to a global network, it massively helps law enforcement."
 			}
 		]
 	},
@@ -2468,7 +2473,7 @@
 		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Even more rigorous than your usual military simulations, trainees will die and respawn over and over until they have mastered almost every weapon, tactic and strategy known to mankind."
 			}
 		]
 	},
@@ -2483,7 +2488,7 @@
 		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Harnessing the power of the sun itself, this massive stationary laser emplacement can burn through an invading army with ease."
 			}
 		]
 	},
@@ -2499,7 +2504,7 @@
 		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An array of ten linked and networked anti-missile emplacements with pinpoint precision, protecting the city against all but the heaviest missiles."
 			}
 		]
 	},
@@ -2517,7 +2522,7 @@
 		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Preserving a part of the alien ecosystem, before it is irreversibly changed by human activity."
 			}
 		]
 	},
@@ -2536,7 +2541,7 @@
 		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Several genetic databases that record and document the genetics of the local fauna and flora."
 			}
 		]
 	},
@@ -2554,7 +2559,7 @@
 		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A vast array of cloning vats, designed to create clones in bulk."
 			}
 		]
 	},
@@ -2571,7 +2576,7 @@
 		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Interstellar hyperwave signals are intercepted and decoded here, using the most sensitive man-made antenna."
 			}
 		]
 	},
@@ -2588,7 +2593,7 @@
 		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Using precise control of Graviton waves, this microscopic black hole can be safely generated, contained and studied."
 			}
 		]
 	},
@@ -2607,7 +2612,7 @@
 		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Luxurious villas and bungalows constructed on a piece of land terraformed extensively to resemble pre-collapse Old Earth."
 			}
 		]
 	},
@@ -2626,7 +2631,7 @@
 		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Massive self-contained vertical district that is only possible to build thanks to materials assembled by nanomachines."
 			}
 		]
 	},
@@ -2645,7 +2650,7 @@
 		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A daring breach into alternate realities created by tweaking dimensions other than the four humans can perceive."
 			}
 		]
 	},
@@ -2666,7 +2671,7 @@
 		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This virtual space cultivates a sense of spirituality by subtly stimulating parts of the brain."
 			}
 		]
 	},
@@ -2683,7 +2688,7 @@
 		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "While not as extensive or experienced as the original one, this AI-assisted copy is close enough that it could be used to hijack individual Xeno organisms."
 			}
 		]
 	},
@@ -2701,7 +2706,7 @@
 		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This space elevator is basically a very strong, very huge rope that is pulled taut by gravity. Provides a cheaper way to get into orbit."
 			}
 		]
 	},
@@ -2721,7 +2726,7 @@
 		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A program that uses both quantum computing and psionic mind reading that results in it accurately predicting economic trends."
 			}
 		]
 	},
@@ -2739,7 +2744,7 @@
 		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "When minds are interlinked across the planet, synchronization inevitably happens."
 			}
 		]
 	},
@@ -2753,10 +2758,10 @@
 			"Production to [Science] conversion in cities changed by [+33]%"
 		],
 		"requiredTech": "Zero Point Energy",
-		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
+		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothingness - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Zero Point theory states that when an area contains absolutely nothing, reality will try its best to fill that void. This facility is dedicated to observing such occasions in its own isolated vaccuum."
 			}
 		]
 	},
@@ -3057,10 +3062,10 @@
 			"Hidden when [Scientific] Victory is disabled"
 		],
 		"requiredTech": "Cosmonautics",
-		"quote": "'.' - ",
+		"quote": "'One small step for man, one giant leap for mankind.' - Neil Armstrong",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "'One small step for man, one giant leap for mankind.' - Neil Armstrong"
 			}
 		]
 	}
