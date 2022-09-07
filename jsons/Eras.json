@@ -12,6 +12,7 @@
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
 		"startPercent": 0,
+		"citySound": "cityLandfall",
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -49,6 +50,7 @@
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 4,
 		"startPercent": 10,
+		"citySound": "cityExploration",
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -97,6 +99,7 @@
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 8,
 		"startPercent": 25,
+		"citySound": "cityColonization",
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -157,6 +160,7 @@
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 8,
 		"startPercent": 37,
+		"citySound": "cityHalcyon",
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -229,6 +233,7 @@
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 10,
 		"startPercent": 50,
+		"citySound": "cityRealization",
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -313,6 +318,7 @@
 		"baseUnitBuyCost": 600,
 		"embarkDefense": 13,
 		"startPercent": 65,
+		"citySound": "cityTranscendental",
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -406,6 +412,7 @@
 		"baseUnitBuyCost": 1000,
 		"embarkDefense": 25,
 		"startPercent": 80,
+		"citySound": "citySingularity",
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
 			"Maritime": ["Provides [+2 Food] [in capital] per turn"],
