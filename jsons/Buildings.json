@@ -2780,10 +2780,10 @@
 			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'.' - ",
+		"quote": "'Radio waves! They communicate with radio waves! Eons of evolutionary arms race between these corals have resulted in this massive complex of symbiotic organisms using radio waves to essentially become one gigantic brain.' - Thomas Mills, Neuroreef researcher",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Allows humans to peek into the amazingly complex thoughts of an entire ecosystem."
 			}
 		]
 	},
@@ -2818,10 +2818,10 @@
 			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
 		],
 		"requiredTech": "Genetic Hybridization",
-		"quote": "'.' - ",
+		"quote": "'That looks like a... a HUGE, GARGANTUAN, SWOLLEN, BLOATED MUSHROOM!' - Griswold Smith, xenobiologist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A combination of nature preserve, scientific outpost, and tourist spot centered on this singular fungal organism."
 			}
 		]
 	},
@@ -2838,10 +2838,10 @@
 			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - ",
+		"quote": "'I am many things, I have been many things. Warm and green, cold and gray. Devastated and dying.' - translated inscryption found deep inside the vault",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An entire settlement that sprang around the enormous structure, supporting scientists and adventurers alike in their delves into the depths of the dungeonlike belly of the Aurigan Vault."
 			}
 		]
 	},
@@ -2897,10 +2897,10 @@
 			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - ",
+		"quote": "'This is our legacy to you.' - translated inscryption from the bridge area",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This agency not only supports scientific scanning of the Harborship, but also ensure that tourists don't damage it as well."
 			}
 		]
 	},
@@ -2938,10 +2938,10 @@
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon completion"
 		],
-		"quote": "'.' - ",
+		"quote": "'And blood-black nothingness began to spin, a system of cells interlinked within, cells interlinked within cells interlinked, within one stem. And dreadfully distinct against the dark, a tall white fountain played.' - Vladimir Nabokov, Pale Fire poem",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This instant communication between minds, a psycho-digital artificial telepathy, allows you to convince other colonies to vote for global unification."
 			}
 		]
 	},
@@ -2955,10 +2955,10 @@
 			"Triggers a Cultural Victory upon completion",
 			"Hidden when [Cultural] Victory is disabled"
 		],
-		"quote": "'.' - ",
+		"quote": "'Gaze upon my works, ye mighty, and weep.' - Ozymandias",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This is no mere monumental edifice, it is also the undying embodiment of your colony's culture, ideology, and religion."
 			}
 		]
 	},
@@ -2977,10 +2977,10 @@
 			"Triggers victory",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
-		"quote": "'.' - ",
+		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A massive, simultaneous undertaking to turn this alien planet into one that resembles Old Earth."
 			}
 		]
 	},
