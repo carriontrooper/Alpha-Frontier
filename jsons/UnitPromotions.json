@@ -18,7 +18,8 @@
 			"Submarine",
 			"Helicopter",
 			"Close Range Mech",
-			"Ranged Mech"
+			"Ranged Mech",
+			"Satellite"
 		]
 	},
 
@@ -359,13 +360,13 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"unitTypes": ["Ranged Water","Satellite"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"unitTypes": ["Ranged Water","Satellite"]
 	},
 	{
 		"name": "Targeting III",
@@ -445,7 +446,7 @@
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft","Satellite"]
 	},
 	{
 		"name": "Interception II",
@@ -459,10 +460,28 @@
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Aerocraft"]
 	},
+	
+	{
+		"name": "Dogfighting I",
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Aerocraft"]
+	},
+	{
+		"name": "Dogfighting II",
+		"prerequisites": ["Dogfighting I"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Aerocraft"]
+	},
+	{
+		"name": "Dogfighting III",
+		"prerequisites": ["Dogfighting II"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"unitTypes": ["Aerocraft"]
+	},
 
 	{
 		"name": "Air Targeting I",
-		"prerequisites": ["Interception I", "Bombardment I"], // "Dogfighting I"
+		"prerequisites": ["Interception I", "Bombardment I", "Dogfighting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Aerocraft"]
 	},
@@ -475,22 +494,23 @@
 
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II"], // "Dogfighting II"
+		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Aerocraft"]
 	},
 
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I" /*"Dogfighting I",*/],
+		"prerequisites": ["Interception I", "Dogfighting I"],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft","Satellite"]
 	},
 	{
 		"name": "Air Repair",
 		"prerequisites": [
 			"Interception II",
-			/*"Dogfighting II",*/ "Mobility II",
+			"Dogfighting II",
+			"Mobility II",
 			"Anti-Armor II"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
@@ -650,7 +670,8 @@
 			"Rover",
 			"Close Range Water",
 			"Ranged Water",
-			"Armored"
+			"Armored",
+			"Satellite"
 		]
 	},
 	{
@@ -768,13 +789,13 @@
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
 	},
 	{
 		"name": "Bombardment III",

@@ -491,23 +491,45 @@
 		////// GREAT IMPROVEMENTS
 		
 		////// UNIQUE IMPROVEMENTS
+		// ugh, can't build non-resource-improving improvements on water
+		
 		"Coast+Prefab Lair": ["Coast","Prefab Lair Water"],
 		"Ocean+Prefab Lair": ["Ocean","Prefab Lair Water"],
+		"Lakes+Prefab Lair": ["Lakes","Prefab Lair Water"],
+		/*
+		"Coast+Algae+Prefab Lair (Water)": ["Coast","Algae","Prefab Lair Water"],
+		"Coast+Plankton+Prefab Lair (Water)": ["Coast","Plankton","Prefab Lair Water"],
+		"Coast+Seasilk+Prefab Lair (Water)": ["Coast","Seasilk","Prefab Lair Water"],
+		"Coast+Sea Slivers+Prefab Lair (Water)": ["Coast","Sea Slivers","Prefab Lair Water"],
+		"Coast+Sindrian Lobster+Prefab Lair (Water)": ["Coast","Sindrian Lobster","Prefab Lair Water"],
+		"Coast+Ice-10+Prefab Lair (Water)": ["Coast","Ice-10","Prefab Lair Water"],
 		
-		"Coast+Algae+Prefab Lair": ["Coast","Algae","Prefab Lair Water"],
-		"Coast+Plankton+Prefab Lair": ["Coast","Plankton","Prefab Lair Water"],
-		"Coast+Seasilk+Prefab Lair": ["Coast","Seasilk","Prefab Lair Water"],
-		"Coast+Sea Slivers+Prefab Lair": ["Coast","Sea Slivers","Prefab Lair Water"],
-		"Coast+Sindrian Lobster+Prefab Lair": ["Coast","Sindrian Lobster","Prefab Lair Water"],
-		"Coast+Ice-10+Prefab Lair": ["Coast","Ice-10","Prefab Lair Water"],
-		
-		"Ocean+Algae+Prefab Lair": ["Ocean","Algae","Prefab Lair Water"],
-		"Ocean+Plankton+Prefab Lair": ["Ocean","Plankton","Prefab Lair Water"],
-		"Ocean+Sea Slivers+Prefab Lair": ["Ocean","Sea Slivers","Prefab Lair Water"],
-		"Ocean+Sindrian Lobster+Prefab Lair": ["Ocean","Sindrian Lobster","Prefab Lair Water"],
-		"Ocean+Ice-10+Prefab Lair": ["Ocean","Ice-10","Prefab Lair Water"],
-		"Ocean+Vents+Prefab Lair": ["Ocean","Vents","Prefab Lair Water"],
-		"Ocean+Benthic Orbs+Prefab Lair": ["Ocean","Benthic Orbs","Prefab Lair Water"]
+		"Ocean+Algae+Prefab Lair (Water)": ["Ocean","Algae","Prefab Lair Water"],
+		"Ocean+Plankton+Prefab Lair (Water)": ["Ocean","Plankton","Prefab Lair Water"],
+		"Ocean+Sea Slivers+Prefab Lair (Water)": ["Ocean","Sea Slivers","Prefab Lair Water"],
+		"Ocean+Sindrian Lobster+Prefab Lair (Water)": ["Ocean","Sindrian Lobster","Prefab Lair Water"],
+		"Ocean+Ice-10+Prefab Lair (Water)": ["Ocean","Ice-10","Prefab Lair Water"],
+		"Ocean+Vents+Prefab Lair (Water)": ["Ocean","Vents","Prefab Lair Water"],
+		"Ocean+Benthic Orbs+Prefab Lair (Water)": ["Ocean","Benthic Orbs","Prefab Lair Water"],
+
+		"Lakes+Algae+Prefab Lair (Water)": ["Lakes","Algae","Prefab Lair Water"],
+
+		"Grassland+Prefab Lair (Land)": ["Grassland","Prefab Lair"],
+		"Plains+Prefab Lair (Land)": ["Plains","Prefab Lair"],
+		"Desert+Prefab Lair (Land)": ["Desert","Prefab Lair"],
+		"Mycelium+Prefab Lair (Land)": ["Mycelium","Prefab Lair"],
+		"Tundra+Prefab Lair (Land)": ["Tundra","Prefab Lair"],
+		"Snow+Prefab Lair (Land)": ["Snow","Prefab Lair"],
+
+		"Grassland+Hills+Prefab Lair (Land)": ["Grassland","Hills","Prefab Lair"],
+		"Plains+Hills+Prefab Lair (Land)": ["Plains","Hills","Prefab Lair"],
+		"Desert+Hills+Prefab Lair (Land)": ["Desert","Hills","Prefab Lair"],
+		"Mycelium+Hills+Prefab Lair (Land)": ["Mycelium","Hills","Prefab Lair"],
+		"Tundra+Hills+Prefab Lair (Land)": ["Tundra","Hills","Prefab Lair"],
+		"Snow+Hills+Prefab Lair (Land)": ["Snow","Hills","Prefab Lair"],
+
+		"Desert+Flood plains+Prefab Lair (Land)": ["Desert","Flood plains","Prefab Lair"]
+		*/
 		
 		//// maybe snow and desert versions of stuff?
 		

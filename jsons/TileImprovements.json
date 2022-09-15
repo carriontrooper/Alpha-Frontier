@@ -1,3 +1,5 @@
+// TODO:
+
 [
 	{
 		"name": "Hydroponics Field",
@@ -14,7 +16,8 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"Pillaging this improvement yields approximately [+2 Food]"
 		],
 		"shortcutKey": "F",
 		"civilopediaText": [
@@ -45,7 +48,8 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"Pillaging this improvement yields approximately [+3 Food, +2 Gold]"
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -77,7 +81,8 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetic Hybridization]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Designer Lifeforms]>"
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Designer Lifeforms]>",
+			"Pillaging this improvement yields approximately [+3 Food, +3 Gold, +2 Culture]"
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -102,7 +107,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] <after discovering [Efficient Extraction Methods]>"
+			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
+			"Pillaging this improvement yields approximately [+2 Production]"
 		],
 		"shortcutKey": "L",
 		"civilopediaText": [
@@ -126,7 +132,9 @@
 		"techRequired": "Xenogeology",
 		"uniques": [
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
-			"[+1 Production] <after discovering [Crust Fracking]>"
+			"[+1 Production] <after discovering [Crust Fracking]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+2 Production, +2 Gold]"
 		],
 		"shortcutKey": "M",
 		"civilopediaText": [
@@ -165,7 +173,9 @@
 			"[+1 Gold] <in [Snow] tiles>",
 			"Provides [1] [Digital Storage Space]",
 			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
-			"Provides [1] [Digital Storage Space] <after discovering [Metaverse]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Metaverse]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
 		"shortcutKey": "T",
 		"civilopediaText": [
@@ -203,7 +213,9 @@
 			"[+1 Food] <after discovering [Genetics]>",
 			"[+1 Culture] <after discovering [Colonial Culture]>",
 			"Provides [1] [Digital Storage Space]",
-			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		//"shortcutKey": "T",
 		"civilopediaText": [
@@ -235,7 +247,9 @@
 		"uniques": [
 			"Only available <after adopting [Xeno-Cooperation]>",
 			"[+1 Culture] <after discovering [Genetic Hybridization]>",
-			"[+1 Culture] <after discovering [Designer Lifeforms]>"
+			"[+1 Culture] <after discovering [Designer Lifeforms]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold, +5 Food]"
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -261,7 +275,8 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Gold] <after discovering [Efficient Extraction Methods]>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+2 Production, +1 Food]"
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
@@ -283,7 +298,8 @@
 		"techRequired": "Xenogeology",
 		"uniques": [
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+2 Production]"
 		],
 		"shortcutKey": "Q",
 		"civilopediaText": [
@@ -306,7 +322,8 @@
 		"techRequired": "Research Networks",
 		"uniques": [
 			"[+2 Science] <after discovering [Info Networks]>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Science, +2 Gold]"
 		],
 		//"shortcutKey": "Q"
 		"civilopediaText": [
@@ -329,7 +346,8 @@
 		"techRequired": "Hydrodynamics",
 		"uniques": [
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+2 Science, +2 Gold, +2 Production]"
 		],
 		"civilopediaText": [
 			{
@@ -352,7 +370,8 @@
 		"uniques": [
 			"[+1 Food] <after discovering [Genetics]>",
 			"[+1 Food] <in [Ocean] tiles>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+3 Food]"
 		],
 		"civilopediaText": [
 			{
@@ -372,7 +391,8 @@
 		"uniques": [
 			"Cannot be built on [Coast] tiles <before discovering [Stable Fission Power]>",
 			"Cannot be built on [Ocean] tiles <before discovering [Stable Fission Power]>",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+5 Production]"
 		],
 		"shortcutKey": "W",
 		"civilopediaText": [
@@ -471,6 +491,8 @@
 		"turnsToBuild": 6,
 		"techRequired": "Xeno-Medicine",
 		"uniques": [
+			"Miasma",
+			"Unpillagable",
 			"Can be built outside your borders",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -617,7 +639,9 @@
 			"[+2 Science] <after discovering [Quantum Theory]>",
 			"[+2 Science] <after discovering [Artificial Intelligence]>",
 			"Provides [1] [Digital Storage Space]",
-			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Science]"
 		],
 		"civilopediaText": [
 			{
@@ -640,7 +664,9 @@
 			"Great Improvement",
 			"[+1 Culture] <after discovering [Colonial Culture]>",
 			"[+2 Culture] <after discovering [Net Culture]>",
-			"[+3 Culture] <after discovering [Posthumanist Culture]>"
+			"[+3 Culture] <after discovering [Posthumanist Culture]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Culture]"
 		],
 		"civilopediaText": [
 			{
@@ -662,7 +688,9 @@
 		"uniques": [
 			"Great Improvement",
 			"[+1 Production] <after discovering [Offworld Industries]>",
-			"[+1 Production] <after discovering [Crust Fracking]>"
+			"[+1 Production] <after discovering [Crust Fracking]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Production]"
 		],
 		"civilopediaText": [
 			{
@@ -684,7 +712,9 @@
 		"uniques": [
 			"Great Improvement",
 			"[+1 Gold] <after discovering [Info Networks]>",
-			"[+2 Gold] <after discovering [Cryptocurrency]>"
+			"[+2 Gold] <after discovering [Cryptocurrency]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"civilopediaText": [
 			{
@@ -703,7 +733,11 @@
 		"name": "Visionary Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement"],
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Faith]"
+		],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Visionary Site",
@@ -726,7 +760,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
         	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
+			"Removes removable features when built"
 		],
 		"civilopediaText": [
 			{
@@ -756,7 +790,8 @@
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <after discovering [Offworld Industries]>",
-			"[+1 Production] <after discovering [Crust Fracking]>"
+			"[+1 Production] <after discovering [Crust Fracking]>",
+			"Pillaging this improvement yields approximately [+3 Production]"
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
@@ -785,7 +820,9 @@
 			"[+2 Science] <after discovering [Quantum Theory]>",
 			"[+2 Science] <after discovering [Artificial Intelligence]>",
 			"Provides [1] [Digital Storage Space]",
-			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Science, +5 Food]"
 		],
 		"civilopediaText": [
 			{
@@ -809,7 +846,8 @@
 			"Desert",
 			"Flood plains",
 			"Tundra",
-			"Mycelium"
+			"Mycelium",
+			"Hill"
 		],
 		"gold": 2,
 		"culture": 2,
@@ -819,7 +857,9 @@
 		"uniques": [
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Net Culture]>",
-			"[+1 Culture] from [Holorelay] tiles <after discovering [Posthumanist Culture]>"
+			"[+1 Culture] from [Holorelay] tiles <after discovering [Posthumanist Culture]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+3 Gold, +3 Culture]"
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -845,12 +885,16 @@
 			"Flood plains",
 			"Tundra",
 			"Mycelium",
-			"Snow"
+			"Snow",
+			"Hill",
 		],
 		"turnsToBuild": 6,
 		"techRequired": "Portable Power Sources",
 		"uniques": [
 			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Waystation] tiles>", // can't be built next to each other
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			/*
 			"[+1 Food] <with [1] to [6] neighboring [Plains] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Grassland] tiles>",
@@ -931,7 +975,8 @@
 			*/
 			
 			"Provides [1] [Digital Storage Space]",
-			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
 			
 		],
 		//"shortcutKey": "F",
@@ -948,6 +993,7 @@
 			}
 		]
 	},
+	
 	{
 		"name": "Prefab Lair",
 		"uniqueTo": "Free Waverunners",
@@ -959,19 +1005,25 @@
 			"Tundra",
 			"Mycelium",
 			"Snow",
+			"Hill",
 			"Coast",
 			"Ocean",
+			"Lakes"
 		],
 		"production": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Habitation",
 		"uniques": [
+			//"Prefab Lair",
 			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair] tiles>", // can't be built next to each other
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [10]% <in [Land] tiles>",
 			"Adjacent enemy units ending their turn take [5] damage <for [Water] units>", // see if this work or not
 			"[+1 Culture] <in [Land] tiles>",
-			"[+1 Gold, +1 Faith] <in [Water] tiles>"
+			"[+1 Gold, +1 Faith] <in [Water] tiles>",
 		],
 		//"shortcutKey": "M",
 		"civilopediaText": [
@@ -1010,7 +1062,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Unbuildable"],
+		"uniques": ["Unpillagable","Unbuildable","Will be replaced by automated workers"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",

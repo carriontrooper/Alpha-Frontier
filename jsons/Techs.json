@@ -19,7 +19,7 @@
 		"era": "Landfall era",
 		"techCost": 35,
 		"buildingCost": 60,
-		"wonderCost": 185,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Xenobiology",
@@ -77,8 +77,8 @@
 		"columnNumber": 2,
 		"era": "Landfall era",
 		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"buildingCost": 100,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Xenoagriculture",
@@ -125,8 +125,8 @@
 		"columnNumber": 3,
 		"era": "Exploration era",
 		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"buildingCost": 160,
+		"wonderCost": 320,
 		"techs": [
 			{
 				"name": "Xeno-Grafting",
@@ -190,8 +190,8 @@
 		"columnNumber": 4,
 		"era": "Exploration era",
 		"techCost": 175,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"buildingCost": 220,
+		"wonderCost": 440,
 		"techs": [
 			{
 				"name": "Offworld Industries",
@@ -246,8 +246,8 @@
 		"columnNumber": 5,
 		"era": "Colonization era",
 		"techCost": 275,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 300,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Crust Fracking",
@@ -302,8 +302,8 @@
 		"columnNumber": 6,
 		"era": "Colonization era",
 		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"buildingCost": 400,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Genetics",
@@ -354,8 +354,8 @@
 		"columnNumber": 7,
 		"era": "Halcyon era",
 		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"buildingCost": 520,
+		"wonderCost": 1040,
 		"techs": [
 			{
 				"name": "Cloning",
@@ -399,8 +399,8 @@
 		"columnNumber": 8,
 		"era": "Halcyon era",
 		"techCost": 1150,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"buildingCost": 660,
+		"wonderCost": 1320,
 		"techs": [
 			{
 				"name": "Quantum Theory",
@@ -446,8 +446,8 @@
 		"columnNumber": 9,
 		"era": "Realization era",
 		"techCost": 1600,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"buildingCost": 820,
+		"wonderCost": 1640,
 		"techs": [
 			{
 				"name": "Genetic Hybridization",
@@ -491,8 +491,8 @@
 		"columnNumber": 10,
 		"era": "Realization era",
 		"techCost": 2350,
-		"buildingCost": 360,
-		"wonderCost": 900,
+		"buildingCost": 1000,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Artificial Intelligence",
@@ -537,8 +537,8 @@
 		"columnNumber": 11,
 		"era": "Transcendental era",
 		"techCost": 3100,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"buildingCost": 1200,
+		"wonderCost": 2400,
 		"techs": [
 			{
 				"name": "Designer Lifeforms",
@@ -588,8 +588,8 @@
 		"columnNumber": 12,
 		"era": "Transcendental era",
 		"techCost": 4100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"buildingCost": 1420,
+		"wonderCost": 2840,
 		"techs": [
 			{
 				"name": "Advanced Biotech",
@@ -648,8 +648,8 @@
 		"columnNumber": 13,
 		"era": "Singularity era",
 		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"buildingCost": 1660,
+		"wonderCost": 3320,
 		"techs": [
 			{
 				"name": "Singularity Tech",

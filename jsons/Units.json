@@ -1,6 +1,16 @@
 [
 	// todo: add more aerocraft, add nerve stapled conscripts, add clone troopers?
 	// add more techs for them if needed
+	// add units that consume data storage
+	// add more anti-satellite stuff
+	// nerf nuke sats, somehow
+	// list of additional units TBD:
+	// -nerve staple conscript
+	// -clone troopers
+	// -stealth bomber
+	// -mirage trooper
+	// -mirage tank
+	// -tactical mobile uplink (basically discount GGs)
 
 	////////////////////
 	// Xeno Units
@@ -1342,6 +1352,7 @@
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[-33]% Strength <vs [Satellite] units> <with [50]% chance>",
@@ -1427,6 +1438,8 @@
 		//"obsoleteTech": "Radar",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"Can perform Air Sweep",
+			"[+25]% Strength when performing Air Sweep",
 			"[+100]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
@@ -1712,6 +1725,7 @@
 			"[0]% Strength <vs [Satellite] units>",
 			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Limited to [1] per Civilization",
 			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1910,6 +1924,7 @@
 			"[+10]% Strength <when adjacent to a [Military] unit>",
 			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Vitamass]",
+			"Consumes [1] [Digital Storage Space]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -2070,9 +2085,11 @@
 		"rangedStrength": 56,
 		"cost": 500,
 		"requiredTech": "Cyberbrains",
+		"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+2] Sight",
 			"Damage is ignored when determining unit Strength",
+			"Consumes [1] [Digital Storage Space]",
 			"Only available <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2103,6 +2120,7 @@
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+50]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
 			"[100]% Strength <vs [Satellite] units> <with [80]% chance>",
@@ -3161,6 +3179,8 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"May enter foreign tiles without open borders",
+			"Can construct [Prefab Lair]",
+			"Can build [Water] improvements on tiles"
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3237,6 +3257,8 @@
 		"uniques": [
 			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+25]% Damage when intercepting",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Air] units>",
 			"[0]% Strength <vs [Satellite] units>",
@@ -3270,9 +3292,11 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Blast radius [2]",
+			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
 			"[+100]% Strength <vs cities>",
+			"Limited to [2] per Civilization",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -3786,6 +3810,7 @@
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
 			"Limited to [1] per Civilization"
 		],
 		// costs 1500 in BNW
@@ -3906,6 +3931,7 @@
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
 			"Limited to [2] per Civilization"
 		],
 		// costs 1500 in BNW

@@ -33,7 +33,12 @@
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Pioneer Administration"
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "This office eases the bureaucratic and administrative burdens of annexation."
+			}
+		]
 	},
 
 	// Landfall Era
@@ -123,7 +128,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "production": 5 },
 		"uniques": [
-			"[50]% Production when constructing [Prefab] buildings [in this city]"
+			"[+20]% Production when constructing [Prefab] buildings [in this city]"
 		],
 		"requiredTech": "Engineering",
 		"civilopediaText": [
@@ -298,7 +303,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+2 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]",
 			"[+1 Production] from [Mine] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
@@ -1161,7 +1166,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A dedicated hole in the ground that stores nuclear ICBMs. Beware that you do not repeat Old Earth's folly."
 			}
 		]
 	},
@@ -1175,7 +1180,7 @@
 		"requiredTech": "Orbital Deterrents",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Networked bunkers far underground, complete with long-term life support systems and protected under several kilometers of planetary crust."
 			}
 		]
 	},
@@ -1192,19 +1197,19 @@
 		"requiredBuilding": "Frontier Hospital",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Mass production of the masses."
 			}
 		]
 	},
 	{
 		"name": "Intercity Hyperloop",
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10, "gold": 5 },
+		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A network of fusion-powered tube trains that connect the various districts of the ever-growing city."
 			}
 		]
 	},
@@ -1225,7 +1230,7 @@
 		"requiredTech": "Quantum Theory",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and break what remains. Here is fire."
 			}
 		]
 	},
@@ -1235,13 +1240,14 @@
 		"percentStatBonus": { "gold": 10 },
 		"uniques": [
 			"Virtual",
-			"Consumes [1] [Digital Storage Space]"
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Metaverse",
 		"requiredBuilding": "Stock Exchange",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "What if the taxes you owe was personally tailored depending on your spending, lifestyle, and other factors? With a deep algorithm, this is now a reality."
 			}
 		]
 	},
@@ -1252,12 +1258,13 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
-			"Consumes [1] [Digital Storage Space]"
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An imaginary space where imagination and creativity is free to be exercised."
 			}
 		]
 	},
@@ -1269,13 +1276,14 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
-			"Consumes [1] [Digital Storage Space]"
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "It is now possible for a colonist to live their life completely in the virtual realm."
 			}
 		]
 	},
@@ -1287,12 +1295,13 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
-			"Consumes [1] [Digital Storage Space]"
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Virtual Drugs",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Want to try mind-altering substances, but afraid of the physical side effects and addiction? Why not simulate it virtually with a direct brain stimulation instead?"
 			}
 		]
 	},
@@ -1309,7 +1318,7 @@
 		"requiredTech": "Cybernetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "For those disappointed by the weakness of their flesh, and found strength in replacements of metal and plastic."
 			}
 		]
 	},
@@ -1329,7 +1338,7 @@
 		"requiredTech": "Nanotechnology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Nanotechnology applied as a means to repair both biological and mechanical assets."
 			}
 		]
 	},
@@ -1340,12 +1349,13 @@
 		"specialistSlots": { "Engineer": 2 },
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Production] from every [Virtual]"
+			//"[+1 Production] from every [Virtual]" //move this to the virtual buildings instead, for now
+			"Adds +1 Production on every Virtual building in this city"
 		],
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Now factory workers can work from their homes by controlling the machines using their cyberbrains."
 			}
 		]
 	},
@@ -1359,11 +1369,12 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Population loss from nuclear attacks [-50]% [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Specialized servers that stores complete brain patterns, which could be downloaded to a fresh clone or empty cyborg shell."
 			}
 		]
 	},
@@ -1375,12 +1386,13 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
-			"Consumes [2] [Digital Storage Space]"
+			"Consumes [2] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "The merging of the physical and the virtual, using AI as a bridge between worlds."
 			}
 		]
 	},
@@ -1392,12 +1404,13 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
-			"Consumes [2] [Digital Storage Space]"
+			"Consumes [2] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Quantum computation allows even more complex economic algorithms to be calculated even faster than before."
 			}
 		]
 	},
@@ -1411,7 +1424,7 @@
 		"requiredTech": "Xeno Psychology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "In here, scientists use both biology and psychology to understand how the Xenomind works."
 			}
 		]
 	},
@@ -1419,13 +1432,13 @@
 		"name": "Nerve Staple Center",
 		"maintenance": 1,
 		"culture": -5,
-		"percentStatBonus": { "production": 20 },
+		"percentStatBonus": { "production": 10 },
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Augment Center",
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A rather ruthless way to reduce the amount of dissenting population - just inhibit their troublemaking parts of the brain with an implant."
 			}
 		]
 	},
@@ -1439,7 +1452,7 @@
 		"requiredTech": "Antimatter Harnessing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This facility generates Antimatter by smashing together exotic subatomic particles in a certain way."
 			}
 		]
 	},
@@ -1452,12 +1465,13 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
-			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
+			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Mind Linking",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Ever wished you could store your memories elsewhere? Or upgrade your mental capacities? They are now possible by applying cloud computing aspects on biological minds."
 			}
 		]
 	},
@@ -1473,7 +1487,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Layers upon layers of hardened light and deflector shields that protect your city."
 			}
 		]
 	},
@@ -1489,7 +1503,7 @@
 		"uniques": ["Orbital","Consumes [2] [Titanium]"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Warm up cold places and chill down hot spots by reflecting the sun's rays with an enormous orbital mirror."
 			}
 		]
 	},
@@ -1506,7 +1520,7 @@
 		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Transform waste into pure energy, and then convert that energy into better, usable matter."
 			}
 		]
 	},
@@ -1520,7 +1534,7 @@
 		"requiredTech": "Designer Lifeforms",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This agency could design an organism from basically nothing, one that is according to your exact specifications."
 			}
 		]
 	},
@@ -1540,7 +1554,7 @@
 		"requiredResource": "Antimatter",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Basically, this facility is fishing for resources in the very sea of uncertain possibilities."
 			}
 		]
 	},
@@ -1557,7 +1571,7 @@
 		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Why walk when you could unravel your every subatomic particle into energy, and then reconstitute it back at your destination?"
 			}
 		]
 	},
@@ -1577,7 +1591,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Generates a healing field using harmonic frequencies, tuned using a sizable amount of connected Vitamass."
 			}
 		]
 	},
@@ -1591,12 +1605,13 @@
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
 			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
-			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>"
+			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Posthumanist Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Live life unbound by physical limits, in an AI-generated virtual universe based on your mind."
 			}
 		]
 	},
@@ -1616,7 +1631,7 @@
 		"requiredResource": "Yairmite",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Uses manufactured pocket dimensions to create places where it's bigger on the inside."
 			}
 		]
 	},
@@ -1629,7 +1644,7 @@
 		"requiredTech": "FTL Travel",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Sends advanced, self-thinking AIs onto a small spacecraft that can travel faster than light, to survey for other suitable planets."
 			}
 		]
 	},
@@ -1650,7 +1665,7 @@
 		"requiredTech": "Cloning",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Deletes imperfections and inferior traits from your very own DNA."
 			}
 		]
 	},
@@ -1667,7 +1682,7 @@
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Control public opinion by using psychological tricks, tailored messages and opinion twisters."
 			}
 		]
 	},
@@ -1686,7 +1701,7 @@
 		"requiredTech": "Genetic Hybridization",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Derived from Xeno biological process, the Biogel repairs tissue damage by substituting itself for damaged or dead cells. Also works on vehicles."
 			}
 		]
 	},
@@ -1703,7 +1718,7 @@
 		"requiredTech": "Designer Lifeforms",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Keeping up the health of the populace by utilizing symbiotic organisms, whether big or small."
 			}
 		]
 	},
@@ -1719,12 +1734,13 @@
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
 			"[+4 Science] per [3] population [in this city]",
-			"Only available <after adopting [Radiant Ideology]>"
+			"Only available <after adopting [Radiant Ideology]>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Virtual Drugs",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Directly download the knowledge you need at the moment, straight into your brain."
 			}
 		]
 	},
@@ -1741,7 +1757,7 @@
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "These terminals help filter out noisy or damaging thoughts, and ensure that your brain is working properly."
 			}
 		]
 	},
@@ -1757,7 +1773,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "To give alms to the poor is to be rich in spirit."
 			}
 		]
 	},
@@ -1772,7 +1788,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A legally-sanctioned cultist safehouse, in exchange for it doubling as a fortified compound during city combat."
 			}
 		]
 	},
@@ -1785,7 +1801,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A nice spot to focus your mind and meditate without being bothered by anything."
 			}
 		]
 	},
@@ -1799,7 +1815,7 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Arguments and debates are encouraged here, as long as it all stays civil."
 			}
 		]
 	},
@@ -1813,11 +1829,12 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Hidden when religion is disabled",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A virtual space where you are subjected to sensory overstimulation, in order to see into the astral plane."
 			}
 		]
 	},
@@ -1859,7 +1876,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Genetic laboratory dedicated to the research of the Net Terminal Gene, which supposedly could let instant virtual connection without implants."
 			}
 		]
 	},
@@ -1920,7 +1937,7 @@
 		"requiredTech": "Xenogeology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A miner's outpost deep underground, where they extract riches while squashing the occasional underground Xeno nest."
 			}
 		]
 	},
@@ -1946,7 +1963,7 @@
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Walpole-Yuen Inc's corporate enclaves for its employees, which has their own laws, security, and corpo-scrip."
 			}
 		]
 	},
@@ -1987,7 +2004,7 @@
 		"requiredTech": "Genetics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Laboratories like these are where Somatek Biomedical cultivates and researches the Soma plant."
 			}
 		]
 	},
@@ -2010,7 +2027,7 @@
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Autonomously maintained testing facilities that tests robotic designs - also used as a training site for the military."
 			}
 		]
 	},
@@ -2031,7 +2048,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This is where Daikyu Boei Kikan's legions of elite hackers defend against and launch information warfare against its enemies."
 			}
 		]
 	},
@@ -2050,7 +2067,7 @@
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Imagine a movie, but not only that you can see and hear it, you can smell, taste, and feel it. Now put it in a small chip you can slot in the side of your head."
 			}
 		]
 	},
@@ -2070,7 +2087,7 @@
 		"requiredTech": "Frontier Armaments",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Xenoidid infantry share their living space with the soldier caste of their tamed Xenos, resulting in better coordination between the two species."
 			}
 		]
 	},
@@ -2081,14 +2098,14 @@
 		"faith": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 10, "gold": 5 },
+		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"[+1 Happiness] per [4] population [in this city]"
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Not only does this office deal with the human politics, it also deals with the tame Xeno's needs as well."
 			}
 		]
 	},
@@ -2108,7 +2125,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A veritable army of clerks, officers and bureaucrats working together to expedite land expansion for the colony."
 			}
 		]
 	},
@@ -2127,7 +2144,7 @@
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Not only a facility for military aerocraft, but also facilitates air-based travel and commerce."
 			}
 		]
 	},
@@ -2150,7 +2167,7 @@
 		"requiredTech": "Composite Armor",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A dedicated building to fabricate, store, service, and repair mechs, among other vehicles."
 			}
 		]
 	},
@@ -2169,7 +2186,7 @@
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A special monument commemorating our arrival on this planet."
 			}
 		]
 	},
@@ -2183,12 +2200,13 @@
 			"Consumes [1] [Digital Storage Space]",
 			"Requires a [Frontier Armory] in all cities",
 			"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Military Ballistics",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Computer-assisted combat simulation training for the military."
 			}
 		]
 	},
@@ -2207,7 +2225,7 @@
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A prestigious university dedicated to the pursuit of science."
 			}
 		]
 	},
@@ -2221,12 +2239,13 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Requires a [Virtual Cultural Space] in all cities",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A massively multiplayer virtual interactive experience that is unique to your colony."
 			}
 		]
 	},
@@ -2246,7 +2265,7 @@
 		"isNationalWonder": true,
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Utilizing the airwaves and free broadband to spread your ideology far and wide."
 			}
 		]
 	},
@@ -2264,7 +2283,7 @@
 		"requiredTech": "Cryptocurrency",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A secure and efficient database that contains a comprehensive copy of your colony's marks of credit."
 			}
 		]
 	},
@@ -2285,7 +2304,7 @@
 		"requiredBuilding": "Orbital Launch Facility",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Your colony's own orbital structure, a testament to your colony's ingenuity and willpower."
 			}
 		]
 	},
@@ -2302,7 +2321,7 @@
 		"requiredTech": "Stable Fission Power",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A field of 3D printers churning away products in copious amounts."
 			}
 		]
 	},
@@ -2320,7 +2339,7 @@
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A place where your colonists can have fun while also simultaneously stimulating the local economy, and promoting local culture."
 			}
 		]
 	},
@@ -2339,7 +2358,7 @@
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Know your enemy, and know yourself, that is how you win wars and keep the peace."
 			}
 		]
 	},
@@ -2355,7 +2374,7 @@
 		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer"
 			}
 		]
 	},
@@ -2372,12 +2391,13 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Free Technology",
-			"Gain a free [Field Lab] [in this city]"
+			"Gain a free [Field Lab] [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A widely distributed knowledge aggregation system akin to Old Earth's wikipedia, but more rigorously checked and updated. Secure underground servers also help preserve the knowledge."
 			}
 		]
 	},
@@ -2394,7 +2414,7 @@
 		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Basically a hole leading straight down to the core, exposing the structures of the planetary crust."
 			}
 		]
 	},
@@ -2408,7 +2428,20 @@
 		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Fully dedicated to preserving all forms of culture, this university produces many cultural figures."
+			}
+		]
+	},
+	{
+		"name": "Jormungand NAVSAT Network",
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <upon discovering [Cosmonautics]>"],
+		"requiredTech": "Satellite Networks",
+		"quote": "'Like a serpent coiling itself upon this world, we now have live coverage of the oceanic weather. Naval advantage is ours.' - Koko Hekmatyar, Jormungand project manager",
+		"civilopediaText": [
+			{
+				"text": "A chain of satellites that monitor the planet's weather patterns, and also guides ships to safe harbor."
 			}
 		]
 	},
@@ -2422,13 +2455,13 @@
 		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An ubiquitous surveillance software linked to a global network, it massively helps law enforcement."
 			}
 		]
 	},
 	{
 		"name": "Valhalla Milsim Training Facility",
-		"cityStrength": 300,
+		"cityStrength": 100,
 		"isWonder": true,
 		"uniques": [
 			"Consumes [1] [Digital Storage Space]",
@@ -2440,13 +2473,13 @@
 		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Even more rigorous than your usual military simulations, trainees will die and respawn over and over until they have mastered almost every weapon, tactic and strategy known to mankind."
 			}
 		]
 	},
 	{
 		"name": "BALOR Solar-Powered Laser Cannon",
-		"cityStrength": 300,
+		"cityStrength": 100,
 		"isWonder": true,
 		"uniques": [
 			"[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"
@@ -2455,13 +2488,13 @@
 		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Harnessing the power of the sun itself, this massive stationary laser emplacement can burn through an invading army with ease."
 			}
 		]
 	},
 	{
 		"name": "Houyi Ballistic Defense System",
-		"cityHealth": 300,
+		"cityHealth": 100,
 		"isWonder": true,
 		"uniques": [
 			"[+100]% City Strength from defensive buildings",
@@ -2471,7 +2504,7 @@
 		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An array of ten linked and networked anti-missile emplacements with pinpoint precision, protecting the city against all but the heaviest missiles."
 			}
 		]
 	},
@@ -2489,7 +2522,7 @@
 		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Preserving a part of the alien ecosystem, before it is irreversibly changed by human activity."
 			}
 		]
 	},
@@ -2508,7 +2541,7 @@
 		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Several genetic databases that record and document the genetics of the local fauna and flora."
 			}
 		]
 	},
@@ -2520,13 +2553,13 @@
 		"uniques": [
 			"Gain a free [Cloning Vat] [in this city]",
 			"[+1] population [in all cities]",
-			"[+50]% Production when constructing [Military] units [in this city]"
+			"[+50]% Production when constructing [Infantry] units [in this city]"
 		],
 		"requiredTech": "Cloning",
 		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A vast array of cloning vats, designed to create clones in bulk."
 			}
 		]
 	},
@@ -2543,7 +2576,7 @@
 		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Interstellar hyperwave signals are intercepted and decoded here, using the most sensitive man-made antenna."
 			}
 		]
 	},
@@ -2560,7 +2593,7 @@
 		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Using precise control of Graviton waves, this microscopic black hole can be safely generated, contained and studied."
 			}
 		]
 	},
@@ -2579,7 +2612,7 @@
 		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Luxurious villas and bungalows constructed on a piece of land terraformed extensively to resemble pre-collapse Old Earth."
 			}
 		]
 	},
@@ -2598,7 +2631,7 @@
 		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Massive self-contained vertical district that is only possible to build thanks to materials assembled by nanomachines."
 			}
 		]
 	},
@@ -2617,7 +2650,7 @@
 		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A daring breach into alternate realities created by tweaking dimensions other than the four humans can perceive."
 			}
 		]
 	},
@@ -2631,13 +2664,14 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Hidden when religion is disabled",
-			"Gain a free [Tele-Temple] [in this city]"
+			"Gain a free [Tele-Temple] [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Net Culture",
 		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This virtual space cultivates a sense of spirituality by subtly stimulating parts of the brain."
 			}
 		]
 	},
@@ -2654,7 +2688,7 @@
 		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "While not as extensive or experienced as the original one, this AI-assisted copy is close enough that it could be used to hijack individual Xeno organisms."
 			}
 		]
 	},
@@ -2672,7 +2706,7 @@
 		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This space elevator is basically a very strong, very huge rope that is pulled taut by gravity. Provides a cheaper way to get into orbit."
 			}
 		]
 	},
@@ -2692,7 +2726,7 @@
 		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A program that uses both quantum computing and psionic mind reading that results in it accurately predicting economic trends."
 			}
 		]
 	},
@@ -2710,7 +2744,7 @@
 		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "When minds are interlinked across the planet, synchronization inevitably happens."
 			}
 		]
 	},
@@ -2724,10 +2758,10 @@
 			"Production to [Science] conversion in cities changed by [+33]%"
 		],
 		"requiredTech": "Zero Point Energy",
-		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothing - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
+		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothingness - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Zero Point theory states that when an area contains absolutely nothing, reality will try its best to fill that void. This facility is dedicated to observing such occasions in its own isolated vaccuum."
 			}
 		]
 	},
@@ -2746,10 +2780,10 @@
 			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'.' - ",
+		"quote": "'Radio waves! They communicate with radio waves! Eons of evolutionary arms race between these corals have resulted in this massive complex of symbiotic organisms using radio waves to essentially become one gigantic brain.' - Thomas Mills, Neuroreef researcher",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Allows humans to peek into the amazingly complex thoughts of an entire ecosystem."
 			}
 		]
 	},
@@ -2784,10 +2818,10 @@
 			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
 		],
 		"requiredTech": "Genetic Hybridization",
-		"quote": "'.' - ",
+		"quote": "'That looks like a... a HUGE, GARGANTUAN, SWOLLEN, BLOATED MUSHROOM!' - Griswold Smith, xenobiologist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A combination of nature preserve, scientific outpost, and tourist spot centered on this singular fungal organism."
 			}
 		]
 	},
@@ -2804,10 +2838,10 @@
 			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - ",
+		"quote": "'I am many things, I have been many things. Warm and green, cold and gray. Devastated and dying.' - translated inscryption found deep inside the vault",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An entire settlement that sprang around the enormous structure, supporting scientists and adventurers alike in their delves into the depths of the dungeonlike belly of the Aurigan Vault."
 			}
 		]
 	},
@@ -2863,10 +2897,10 @@
 			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - ",
+		"quote": "'This is our legacy to you.' - translated inscryption from the bridge area",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This agency not only supports scientific scanning of the Harborship, but also ensure that tourists don't damage it as well."
 			}
 		]
 	},
@@ -2904,10 +2938,10 @@
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon completion"
 		],
-		"quote": "'.' - ",
+		"quote": "'And blood-black nothingness began to spin, a system of cells interlinked within, cells interlinked within cells interlinked, within one stem. And dreadfully distinct against the dark, a tall white fountain played.' - Vladimir Nabokov, Pale Fire poem",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This instant communication between minds, a psycho-digital artificial telepathy, allows you to convince other colonies to vote for global unification."
 			}
 		]
 	},
@@ -2921,10 +2955,10 @@
 			"Triggers a Cultural Victory upon completion",
 			"Hidden when [Cultural] Victory is disabled"
 		],
-		"quote": "'.' - ",
+		"quote": "'Gaze upon my works, ye mighty, and weep.' - Ozymandias",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This is no mere monumental edifice, it is also the undying embodiment of your colony's culture, ideology, and religion."
 			}
 		]
 	},
@@ -2943,10 +2977,10 @@
 			"Triggers victory",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
-		"quote": "'.' - ",
+		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A massive, simultaneous undertaking to turn this alien planet into one that resembles Old Earth."
 			}
 		]
 	},
@@ -2963,7 +2997,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "This facility is where specialized aerosols are produced and released into the atmosphere, in order to make the air more breathable to humans."
 			}
 		]
 	},
@@ -2979,7 +3013,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Deep rods extend downwards to stabilize the local tectonic plates."
 			}
 		]
 	},
@@ -2996,7 +3030,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Procedures, microbes and chemicals developed and applied in order to return nutrients to the soil."
 			}
 		]
 	},
@@ -3013,7 +3047,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Massive floating facilities that roam the seas as they filter out toxins from the water and introduce oxygen to depleted waters."
 			}
 		]
 	},
@@ -3028,10 +3062,10 @@
 			"Hidden when [Scientific] Victory is disabled"
 		],
 		"requiredTech": "Cosmonautics",
-		"quote": "'.' - ",
+		"quote": "'One small step for man, one giant leap for mankind.' - Neil Armstrong",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "'One small step for man, one giant leap for mankind.' - Neil Armstrong"
 			}
 		]
 	}

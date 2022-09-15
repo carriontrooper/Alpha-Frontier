@@ -192,6 +192,16 @@
 		]
 	},
 
+	{
+		"name": "Wasteland Worship",
+		"type": "Pantheon",
+		"uniques": ["[+2 Food, +2 Faith, +1 Culture] from every [Fallout]"]
+	},
+	{
+		"name": "Cautions of Old Earth",
+		"type": "Pantheon",
+		"uniques": ["[+3 Faith] from every [City ruins]"]
+	},
 	// Follower beliefs
 	{
 		"name": "Memorialists",
@@ -309,6 +319,13 @@
 		"type": "Follower",
 		"uniques": [
 			"May buy [Virtual Trance Server] buildings with [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Lessons from the Vanquished"
+		"type": "Follower",
+		"uniques": [
+        	"[+1 Faith, +1 Culture, +1 Science, +1 Production, +1 Happiness] from every [City ruins]"
 		]
 	},
 
@@ -432,5 +449,15 @@
 		"name": "Memorabilia",
 		"type": "Enhancer",
 		"uniques": ["[+50 Faith] whenever a Great Person is expended"]
+	},
+	{
+		"name": "Impermanence",
+		"type": "Enhancer",
+		"uniques": ["Cities are razed [10] times as fast"]
+	},
+	{
+		"name": "Orbital Vengeance",
+		"type": "Enhancer",
+		"uniques": ["[+10]% Strength <for [Satellite] units> <when attacking>"]
 	}
 ]
