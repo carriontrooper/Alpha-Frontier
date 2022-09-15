@@ -2494,10 +2494,10 @@
 	},
 	{
 		"name": "Houyi Ballistic Defense System",
-		"cityHealth": 100,
+		"cityHealth": 50,
 		"isWonder": true,
 		"uniques": [
-			"[+100]% City Strength from defensive buildings",
+			"[+50]% City Strength from defensive buildings",
 			"Population loss from nuclear attacks [-75]% [in all cities]"
 		],
 		"requiredTech": "Missiles",
