@@ -1038,6 +1038,17 @@
 			"May enter foreign tiles without open borders"
 		]
 	},
+	
+	{
+		"name": "Nerve Stapled",
+		"uniques": [
+			"Nerve Stapled",
+			"[+15]% Strength",
+			"[-50]% XP gained from combat",
+			"Damage is ignored when determining unit Strength",
+			"Ignores Zone of Control"
+		]
+	},
 
 	{
 		"name": "Bug Hunter",
@@ -1157,7 +1168,8 @@
 		"name": "Uncanny Appearance",
 		"prerequisites": ["T-Series Unit"],
 		"uniques": [
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
 		"unitTypes": ["Infantry"]
 	},
@@ -1185,7 +1197,8 @@
 		"name": "Human-Xeno Cooperation",
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": [
-			"[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>"
+			"[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>",
+			"[-15]% Strength <for [Tame Xeno] units> <when adjacent to a [Nerve Stapled] unit>"
 		],
 		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
 	},
@@ -1232,7 +1245,8 @@
 	{
 		"name": "Maniacal Glee",
 		"uniques": [
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		]
 	},
 	{
