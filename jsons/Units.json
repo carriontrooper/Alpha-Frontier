@@ -1,16 +1,7 @@
 [
-	// todo: add more aerocraft, add nerve stapled conscripts, add clone troopers?
-	// add more techs for them if needed
-	// add units that consume data storage
-	// add more anti-satellite stuff
-	// nerf nuke sats, somehow
+	// todo: add more aerocraft?
 	// list of additional units TBD:
-	// -nerve staple conscript
-	// -clone troopers
-	// -stealth bomber
-	// -mirage trooper
-	// -mirage tank
-	// -tactical mobile uplink (basically discount GGs)
+	// none, yay!
 
 	////////////////////
 	// Xeno Units
@@ -776,6 +767,31 @@
 			}
 		]
 	},
+	
+	/*
+	{
+		"name": "Anti-Satellite Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 6,
+		"cost": 100,
+		"requiredTech": "Payload Delivery",
+		"uniques": [
+			"Can only attack [Satellite] units",
+			"[+200]% Strength <vs [Satellite] units>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled, single-use hypersonic missiles exclusively built for anti-satellite operations."
+			}
+		]
+	},
+	*/
 
 	//// Satellites
 	{
@@ -825,7 +841,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
-			"[+100]% Strength <vs [Satellite] units>",
+			"[+200]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Consumes [1] [Titanium]",
@@ -840,6 +856,39 @@
 	},
 
 	// Colonization Era
+	
+	//// 'Civilian'
+	/*
+	{
+		"name": "Tactical Mobile Uplink",
+		"unitType": "Civilian",
+		"cost": 200,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Digital Storage Space] <after discovering [Artificial Intelligence]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tactical Mobile Uplink",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Mobile command centers, linked together via satellites, delivering real-time updates of the combat situation."
+			}
+		]
+	},
+	*/
 
 	//// Infantry
 	{
@@ -1355,7 +1404,7 @@
 			"[+25]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+150]% Strength <vs [Air] units>",
-			"[-33]% Strength <vs [Satellite] units> <with [50]% chance>",
+			"[+100]% Strength <vs [Satellite] units> <with [50]% chance>",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Consumes [1] [Promethine]",
@@ -1487,6 +1536,39 @@
 			}
 		]
 	},
+	
+	/*
+	{
+		"name": "Clone Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 24,
+		//"rangedStrength": 24,
+		"cost": 50,
+		"requiredTech": "Cloning",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			//"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Only available <in cities with a [Cloning Vat]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Clone Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A rather disposable clone that can be trained from birth to become an exceptional soldier."
+			}
+		]
+	},
+	*/
 
 	//// Mechs
 	{
@@ -1719,10 +1801,12 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Ulframite",
 		"uniques": [
+			"Can only attack [City] units",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"[+200]% Strength <vs [non-air] units>",
 			"[0]% Strength <vs [Satellite] units>",
+			"[1]% Strength <when defending>",
 			"Only available <if [Samson Option] is constructed>",
 			"Only available <in cities with a [Orbital Launch Facility]>",
 			"Limited to [1] per Civilization",
@@ -1767,6 +1851,72 @@
 		]
 	},
 	
+	/*
+	{
+		"name": "Mirage Trooper",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 40,
+		//"rangedStrength": 40,
+		"cost": 380,
+		"requiredResource": "Digital Storage Space",
+		"requiredTech": "Artificial Intelligence",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Consumes [1] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mirage Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their AI-assisted, personal holographic projectors can both function as a cloaking field or a way to confuse, disorient, and reduce the enemy's morale. Does cost a hefty bandwidth per unit."
+			}
+		]
+	},
+	
+	{
+		"name": "Nerve Staple Conscript",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 30,
+		//"rangedStrength": 30,
+		"cost": 100,
+		"requiredTech": "Nerve Stapling",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": [
+			//"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Only available <in cities with a [Nerve Staple Center]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Nerve Stapled"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Nerve Staple Conscript",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Not only enhanced with cheap exoskeletons, these former dissidents' minds are also immune to morale damage. Shame about their reduced intelligence, though."
+			}
+		]
+	},
+	*/
+	
 	//// Armored
 	{
 		"name": "Drop Tank",
@@ -1800,6 +1950,42 @@
 			}
 		]
 	},
+	
+	/*
+	{
+		"name": "Mirage Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 50,
+		"cost": 450,
+		"requiredTech": "Artificial Intelligence",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mirage Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These tanks are equipped with an AI-assisted portable holographic projector, making them hard to be seen on the battlefield."
+			}
+		]
+	},
+	*/
 
 	//// Submarine
 	{
@@ -3722,8 +3908,12 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 8,
-		"cost": 30,
-		"uniques": ["Unbuildable", "Never appears as a Barbarian unit"],
+		"cost": 20,
+		"uniques": [
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -3743,10 +3933,11 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 8,
-		"cost": 30,
+		"cost": 20,
 		"uniques": [
-			"[+200]% Strength <when attacking>",
+			"[+300]% Strength <when attacking>",
 			"Self-destructs when attacking",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
