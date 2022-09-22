@@ -768,7 +768,7 @@
 		]
 	},
 	
-	/*
+	
 	{
 		"name": "Anti-Satellite Missile",
 		"unitType": "Missile",
@@ -791,7 +791,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Satellites
 	{
@@ -858,7 +858,7 @@
 	// Colonization Era
 	
 	//// 'Civilian'
-	/*
+	
 	{
 		"name": "Tactical Mobile Uplink",
 		"unitType": "Civilian",
@@ -867,6 +867,7 @@
 		"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Data Uplinked] units within [2] tiles",
 			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
 			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
 			"Consumes [1] [Digital Storage Space]",
@@ -888,7 +889,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Infantry
 	{
@@ -1537,7 +1538,7 @@
 		]
 	},
 	
-	/*
+	
 	{
 		"name": "Clone Trooper",
 		"unitType": "Infantry",
@@ -1568,7 +1569,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Mechs
 	{
@@ -1851,7 +1852,7 @@
 		]
 	},
 	
-	/*
+	
 	{
 		"name": "Mirage Trooper",
 		"unitType": "Stealth Infantry",
@@ -1865,10 +1866,10 @@
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
 		"uniques": [
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Consumes [1] [Digital Storage Space]",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Mirage I"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -1915,7 +1916,7 @@
 			}
 		]
 	},
-	*/
+	
 	
 	//// Armored
 	{
@@ -1951,7 +1952,7 @@
 		]
 	},
 	
-	/*
+	
 	{
 		"name": "Mirage Tank",
 		"unitType": "Armored",
@@ -1961,7 +1962,6 @@
 		"requiredTech": "Artificial Intelligence",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"Invisible to non-adjacent units",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
@@ -1970,6 +1970,7 @@
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Mirage I"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
@@ -1985,7 +1986,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Submarine
 	{
