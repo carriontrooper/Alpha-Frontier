@@ -784,6 +784,36 @@
 			"Hover Carrier"
 		]
 	},
+	
+	{
+		"name": "Data Uplinked",
+		"prerequisites": [
+			"Accuracy II",
+			"Barrage II",
+			"Shock II",
+			"Drill II",
+			"Terrain Cover II",
+			"Cover II",
+		],
+		"uniques": [
+			"Data Uplinked",
+			"[+5]% Strength",
+			"[+5]% Strength <after discovering [Mind-Machine Interface]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Digital Storage Space] <after discovering [Mind-Machine Interface]>"
+		],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Armored",
+			"Siege",
+			"Close Range Mech",
+			"Ranged Mech"
+		]
+	},
 
 	// Ranged Water and Air
 	{
@@ -1039,7 +1069,7 @@
 		]
 	},
 	
-	/*
+	
 	{
 		"name": "Nerve Stapled",
 		"uniques": [
@@ -1050,7 +1080,24 @@
 			"Ignores Zone of Control"
 		]
 	},
-	*/
+	
+	{
+		"name": "Mirage I",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"May withdraw before melee ([20]%)"
+		]
+	},
+	{
+		"name": "Mirage II",
+		"prerequisites": ["Mirage I"],
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
+			"Consumes [1] [Digital Storage Space]"
+		]
+	},
+	
 
 	{
 		"name": "Bug Hunter",
@@ -1084,7 +1131,7 @@
 		"name": "Dog Soldier Reputation",
 		"uniques": [
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
-			//"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
+			"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
 		]
 	},
@@ -1172,7 +1219,7 @@
 		"prerequisites": ["T-Series Unit"],
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			//"[10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
+			"[10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
 		"unitTypes": ["Infantry"]
 	},
@@ -1201,7 +1248,7 @@
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": [
 			"[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>",
-			//"[-15]% Strength <for [Tame Xeno] units> <when adjacent to a [Nerve Stapled] unit>"
+			"[-15]% Strength <for [Tame Xeno] units> <when adjacent to a [Nerve Stapled] unit>"
 		],
 		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
 	},
@@ -1249,7 +1296,7 @@
 		"name": "Maniacal Glee",
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			//"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
+			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		]
 	},
 	{
