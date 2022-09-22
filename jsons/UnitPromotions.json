@@ -1123,6 +1123,7 @@
 	{
 		"name": "GHOST Hack",
 		"uniques": [
+			"Data Uplinked",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"May withdraw before melee ([80]%)"
 		]
@@ -1226,7 +1227,10 @@
 	{
 		"name": "Network Synchronization",
 		"prerequisites": ["T-Series Unit"],
-		"uniques": ["[+50]% Strength decreasing with distance from the capital"],
+		"uniques": [
+			"Data Uplinked",
+			"[+50]% Strength decreasing with distance from the capital"
+		],
 		"unitTypes": ["Infantry"]
 	},
 	{
@@ -1394,6 +1398,7 @@
 	{
 		"name": "PrismTech Analytics",
 		"uniques": [
+			"Data Uplinked",
 			"Earn [10]% of the damage done to [Military] units as [Science]"
 		]
 	},
