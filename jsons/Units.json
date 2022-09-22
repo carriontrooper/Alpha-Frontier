@@ -2280,6 +2280,7 @@
 			"Only available <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Data Uplinked"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
