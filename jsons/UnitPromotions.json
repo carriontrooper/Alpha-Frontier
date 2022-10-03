@@ -11,6 +11,7 @@
 			"Sniper",
 			"Scout",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Water",
@@ -116,6 +117,7 @@
 			"Infantry",
 			"Stealth Infantry",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Close Range Mech"
 		]
@@ -128,6 +130,7 @@
 			"Infantry",
 			"Stealth Infantry",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Close Range Mech"
 		]
@@ -140,6 +143,7 @@
 			"Infantry",
 			"Stealth Infantry",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Close Range Mech"
 		]
@@ -166,26 +170,26 @@
 	{
 		"name": "Terrain Cover I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
 	},
 	{
 		"name": "Terrain Cover II",
 		"prerequisites": ["Terrain Cover I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
 	},
 	{
 		"name": "Terrain Cover III",
 		"prerequisites": ["Terrain Cover II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
 	},
 
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II", "Terrain Cover II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Rover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
 	},
 	{
 		"name": "Urban Warfare",
@@ -201,6 +205,7 @@
 			"Infantry",
 			"Stealth Infantry",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Close Range Mech"
 		]
@@ -232,6 +237,7 @@
 			"Sniper",
 			"Scout",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Close Range Mech",
 			"Ranged Mech"
@@ -248,7 +254,7 @@
 			"Survivalism II"
 		],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Scout"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"]
 	},
 	{
 		"name": "Medic II",
@@ -257,7 +263,7 @@
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Scout"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"]
 	},
 
 	// Scout
@@ -309,19 +315,19 @@
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 
 	{
@@ -330,7 +336,7 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 	{
 		"name": "Coastal Raider II",
@@ -339,7 +345,7 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 	{
 		"name": "Coastal Raider III",
@@ -348,12 +354,12 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 	{
 		"name": "Coastal Assault",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Close Range Water"]
+		"unitTypes": ["Close Range Water", "Hover"]
 	},
 
 	// Ranged Water
@@ -439,7 +445,7 @@
 			"May heal outside of friendly territory",
 			"[+15] HP when healing <in [Foreign Land] tiles>"
 		],
-		"unitTypes": ["Close Range Water", "Ranged Water", "Submarine"]
+		"unitTypes": ["Close Range Water", "Ranged Water", "Submarine", "Hover"]
 	},
 
 	// Aerocraft
@@ -570,6 +576,7 @@
 			"Stealth Infantry",
 			"Sniper",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Mech",
@@ -585,6 +592,7 @@
 			"Stealth Infantry",
 			"Sniper",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Mech",
@@ -622,6 +630,7 @@
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": [
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Mech",
@@ -643,6 +652,7 @@
 		"uniques": ["[+1] Movement"],
 		"unitTypes": [
 			"Rover",
+			"Hover",
 			"Close Range Water",
 			"Ranged Water",
 			"Armored",
@@ -668,6 +678,7 @@
 			"Stealth Infantry",
 			"Sniper",
 			"Rover",
+			"Hover",
 			"Close Range Water",
 			"Ranged Water",
 			"Armored",
@@ -742,6 +753,7 @@
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": [
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Water",
@@ -758,6 +770,7 @@
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": [
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Water",
@@ -774,6 +787,7 @@
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": [
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Water",
@@ -808,6 +822,7 @@
 			"Sniper",
 			"Scout",
 			"Rover",
+			"Hover",
 			"Armored",
 			"Siege",
 			"Close Range Mech",
