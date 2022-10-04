@@ -10,7 +10,12 @@
 				"name": "Old Earth Knowledge",
 				"row": 8,
 				"quote": "'Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!' - Yuri Gagarin",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech"],
+				"civilopediaText": [
+					{
+						"text": "'Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!' - Yuri Gagarin"
+					}
+				]
 			}
 		]
 	},
