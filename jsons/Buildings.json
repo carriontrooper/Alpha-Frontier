@@ -269,7 +269,8 @@
 		"uniques": [
 			"Enables you to build Hydrofoil units",
 			"Prefab",
-			"Must be next to [Coast]"
+			"Must be next to [Coast]",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Hydrodynamics",
 		"civilopediaText": [
@@ -1041,6 +1042,7 @@
 		"uniques": [
 			"Enables you to build larger Water units",
 			"New [Water] units start with [15] Experience [in this city]",
+			"Must be next to [Coast]"
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Floating Harbor",
