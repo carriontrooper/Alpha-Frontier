@@ -337,19 +337,19 @@
 			{
 				"name": "Lasers",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Now that's what I call pin-point photon precision.' - General Omar Bakerson",
 				"prerequisites": ["Next-Gen Armaments", "Satellite Networks"]
 			},
 			{
 				"name": "Exoskeletons",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'Cargo assist servos, modular combat plates, all in one easy to wear package - each and every soldier should have one of these.' - General Ingrid Rasmussen",
 				"prerequisites": ["Next-Gen Armaments","Strike Drones"]
 			},
 			{
 				"name": "Composite Armor",
 				"row": 14,
-				"quote": "'.' - ",
+				"quote": "'Sometimes pure metal just isn't enough. That's where the plastic webbing and ceramic plates come in - but that's old news... Now we can do this on the micrometer scale.' - Gordon Huerta, materials scientist",
 				"prerequisites": ["Next-Gen Armaments", "Alloy Microstructures"]
 			},
 		]
@@ -365,7 +365,7 @@
 			{
 				"name": "Cloning",
 				"row": 3,
-				"quote": "'.' - ",
+				"quote": "'Sure, she shares my DNA, but that doesn't mean she's not her own person.' - Dila Gandhari 2, cloning scientist",
 				"prerequisites": ["Genetics"]
 			},
 			{
@@ -395,7 +395,7 @@
 			{
 				"name": "Orbital Deterrents",
 				"row": 14,
-				"quote": "'.' - ",
+				"quote": "'And I repeat once again, this so-called double-edged sword of Damocles is to ensure the nuclear genie is securely in its bottle - nothing more.' - General Yelena Komarova",
 				"prerequisites": ["Composite Armor","Lasers"]
 			},
 		]
