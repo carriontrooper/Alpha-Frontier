@@ -14,7 +14,7 @@
 		"civilopediaText": [
 			{
 				"text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
-				"link": "Resource/Vent"
+				//"link": "Resource/Vent"
 			}
 		]
 	},
