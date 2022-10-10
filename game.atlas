@@ -4937,7 +4937,7 @@ TileSets/FantasyHex/Tiles/City center-Landfall era
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Realization Era
+TileSets/FantasyHex/Tiles/City center-Realization era
   rotate: false
   xy: 422, 40
   size: 32, 36
