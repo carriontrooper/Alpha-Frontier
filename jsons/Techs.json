@@ -383,7 +383,7 @@
 			{
 				"name": "Combat Mechas",
 				"row": 10,
-				"quote": "'.' - ",
+				"quote": "'Finally, a weapon to surpass modern armor! Their mobility will rewrite the rules of the battlefield.' - General Amuro Aznable",
 				"prerequisites": ["Mecha Prototypes"]
 			},
 			{
@@ -422,7 +422,7 @@
 			{
 				"name": "Virtual Drugs",
 				"row": 8,
-				"quote": "'.' - ",
+				"quote": "'We live in an age where sick people could download cures directly into their brains, and have their bodies produce the needed drugs. And of course, the junkies found a way to abuse it from day one!' - Dr. Casey Milligan, virtual drug specialist",
 				"prerequisites": ["Cybernetics", "Net Culture"]
 			},
 			{
@@ -434,13 +434,13 @@
 			{
 				"name": "Mind-Machine Interface",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Controlling a mech at the speed of thought, as if it is part of your own body - that is now possible, ladies and gentlemen.' - Ida Stevenson, bionics scientist",
 				"prerequisites": ["Cybernetics","Combat Mechas"]
 			},
 			{
 				"name": "Cosmonautics",
 				"row": 14,
-				"quote": "'.' - ",
+				"quote": "'Well, we'll set our navsats towards good ol' Orion; A parsec in, a parsec out, but watch for the aphelion!' - lyrics from a popular space shanty",
 				"prerequisites": ["Orbital Deterrents"],
 				"uniques": ["Reveals the entire map"]
 			},
@@ -481,7 +481,7 @@
 			{
 				"name": "Cyberbrains",
 				"row": 11,
-				"quote": "'.' - ",
+				"quote": "'Upgrade your gray matter, because one day, it will matter.' - Professor Delon Trikay, cyberbrain researcher",
 				"prerequisites": ["Mind-Machine Interface", "Virtual Drugs"]
 			},
 			{
@@ -623,7 +623,7 @@
 			{
 				"name": "N-Dimensional Exploration",
 				"row": 9,
-				"quote": "'It's high time we go higher than four dimensions. Imagine all the new horizons we'll see.' - ",
+				"quote": "'It's high time we go higher than four dimensions. Imagine all the new horizons we'll see.' - Kayla Hurst, applied post-quantum physicist",
 				"prerequisites": [
 					"Exotic Quantum Physics",
 					"Hyperwave Communications",
