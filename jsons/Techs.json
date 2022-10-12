@@ -457,19 +457,19 @@
 			{
 				"name": "Genetic Hybridization",
 				"row": 3,
-				"quote": "'.' - ",
+				"quote": "'Claims of us turning unwilling people into human-insect monsters are unfounded. We have digitally signed records of our clients volunteering to be one.' - Igor Brundle, geneticist",
 				"prerequisites": ["Cloning","Xenoarchaeology"]
 			},
 			{
 				"name": "Terraforming",
 				"row": 4,
-				"quote": "'.' - ",
+				"quote": "'With our current terraforming technology, what we did on Mars seem like child's play.' - Brigit Oxoa, terraformer",
 				"prerequisites": ["Cloning", "Xenoarchaeology"]
 			},
 			{
 				"name": "Quantum Computing",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'Using quantum multi-states in computing isn't exactly a new idea, but it's one that we can now realize at low cost.' - Johan Mbaye, electronics entrepreneur",
 				"prerequisites": ["Quantum Theory"]
 			},
 			{
@@ -502,19 +502,19 @@
 			{
 				"name": "Artificial Intelligence",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'Forget Captcha, forget the Turing test - this AI can make you doubt you are human.' - ROK-0, AI",
 				"prerequisites": ["Quantum Computing"]
 			},
 			{
 				"name": "Antimatter Harnessing",
 				"row": 7,
-				"quote": "'.' - ",
+				"quote": "'Imagine that! Entire galaxies' worth of so-called 'dark matter' that exist right on top of our reality, separated by a thin 'brane. I'd like to explore it, but too bad they explode when coming into contact with matter.' - Jaarsa Luminen, physicist",
 				"prerequisites": ["Metamaterials", "Quantum Computing"]
 			},
 			{
 				"name": "Stasis Fields",
 				"row": 9,
-				"quote": "'.' - ",
+				"quote": "'With this, we utilize energy to literally stop time in a limited area. Anything that enter this field will slow down until they, too, are frozen in time.' - Mori Tokimasa, physicist",
 				"prerequisites": ["Fusion Power"]
 			},
 			{
