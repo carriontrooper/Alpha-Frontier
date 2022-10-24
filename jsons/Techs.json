@@ -520,7 +520,7 @@
 			{
 				"name": "Mind Linking",
 				"row": 11,
-				"quote": "'.' - ",
+				"quote": "'In the science-fictions of the past, this would be called 'telepathy'. But does telepathy have inbuilt firewalls and read permissions? I don't think so.' - Kwame Nkodo, intermind-comms engineer",
 				"prerequisites": ["Cyberbrains", "Xeno Psychology"]
 			},
 			{
@@ -532,7 +532,7 @@
 			{
 				"name": "Nanotechnology",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'They may be smaller than a dust mote, but boy do they pack a lot of potential. Nanomachines, son!' - Duke Armstrong, nanomachine scientist",
 				"prerequisites": ["Metamaterials"]
 			},
 		]
@@ -548,43 +548,43 @@
 			{
 				"name": "Designer Lifeforms",
 				"row": 3,
-				"quote": "'.' - ",
+				"quote": "'Using gene samples and AI analysis, we now can create artificial genes that form never-before-seen effects on an organism. We are one step closer towards complete corporeal freedom.' - Airani Chanakya, biologist",
 				"prerequisites": ["Genetic Hybridization","Artificial Intelligence"]
 			},
 			{
 				"name": "Exotic Quantum Physics",
 				"row": 5,
-				"quote": "'.' - ",
+				"quote": "'Never thought strangelets can be used like that, before.' - Herzel Wurtz, quantum physicist",
 				"prerequisites": ["Artificial Intelligence"]
 			},
 			{
 				"name": "Lossless Matter Conversion",
 				"row": 8,
-				"quote": "'.' - ",
+				"quote": "'Absolutely no leftover material, no wasted energy, no rogue dissipation of any sort - this is a monumental achievement.' - Jin Ma Chow, applied physicist",
 				"prerequisites": ["Stasis Fields", "Antimatter Harnessing"]
 			},
 			{
 				"name": "Posthumanist Culture",
 				"row": 10,
-				"quote": "'.' - ",
+				"quote": "'It takes the physical to create the physical. Can you dig it? Which flower would you be?' - anonymous posthumanist meme",
 				"prerequisites": ["Mind Linking"]
 			},
 			{
 				"name": "Psionics",
 				"row": 11,
-				"quote": "'.' - ",
+				"quote": "'Actual telepathy! In my lifetime! Amazing. They also got telekinesis and the other flashy powers down pat too!' - Kwame Nkodo, telepathic comms engineer",
 				"prerequisites": ["Mind Linking", "Nerve Stapling"]
 			},
 			{
 				"name": "Solar Reflectors",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'We can't make an artificial sun yet, but this is the next best thing.' - Jeremy Biggins, orbital engineer",
 				"prerequisites": ["Stasis Fields", "Nanotechnology"]
 			},
 			{
 				"name": "Hyperwave Communications",
 				"row": 13,
-				"quote": "'.' - ",
+				"quote": "'This baby has a lag of 0.001 second per lightyear, and a bandwidth that might as well be unlimited. What more can you ask for?' - Guido Jimenez, hyperwave technician",
 				"prerequisites": ["Nanotechnology"]
 			},
 		]
