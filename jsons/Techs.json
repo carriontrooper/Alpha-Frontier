@@ -599,7 +599,7 @@
 			{
 				"name": "Advanced Biotech",
 				"row": 4,
-				"quote": "'.' - ",
+				"quote": "'No longer do we have to patch together DNA from existing ones. There will be wholly new organisms made by our own hands.' - Savitri Tridevi",
 				"prerequisites": ["Designer Lifeforms"]
 			},
 			{
@@ -614,7 +614,7 @@
 			{
 				"name": "Graviton Harnessing",
 				"row": 7,
-				"quote": "'.' - ",
+				"quote": "'The tables have turned, gravity! We're in control now!' - Jacques Dutton, applied physicist",
 				"prerequisites": [
 					"Exotic Quantum Physics",
 					"Antimatter Harnessing"
@@ -633,7 +633,7 @@
 			{
 				"name": "Hive Mind",
 				"row": 11,
-				"quote": "'.' - ",
+				"quote": "'Individuality is such an obsolete mode of thought.' - 'Becky', human-derived collective consciousness",
 				"prerequisites": [
 					"Psionics",
 					"Hyperwave Communications",
@@ -643,7 +643,7 @@
 			{
 				"name": "FTL Travel",
 				"row": 12,
-				"quote": "'.' - ",
+				"quote": "'Time to spread our wings, once more. Let us race to the edge of the universe.' - Giorgiou Matapopulous, hyperspace astronaut",
 				"prerequisites": ["Hyperwave Communications","Solar Reflectors"]
 			},
 		]
