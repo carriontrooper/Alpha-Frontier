@@ -3912,7 +3912,7 @@
 		"strength": 8,
 		"cost": 20,
 		"uniques": [
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
@@ -3939,7 +3939,7 @@
 		"uniques": [
 			"[+300]% Strength <when attacking>",
 			"Self-destructs when attacking",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
