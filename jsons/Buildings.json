@@ -2804,10 +2804,10 @@
 			"[+2 Science, +2 Faith] from [Megaxenoform Graveyard] tiles [in all cities]"
 		],
 		"requiredTech": "Xenoarchaeology",
-		"quote": "'.' - ",
+		"quote": "'Just how exactly does this organism get to be this huge and not succumb to the square cube law? I guess, life... life finds a way.' - Dr. John Malcolm, xenobiologist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Part archeological excavation, part construction material source, the gargantuan remains are first scanned, recorded and analyzed for science. Then, if a part is deemed already scanned enough, it gets quarried."
 			}
 		]
 	},
@@ -2862,10 +2862,10 @@
 			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
 		],
 		"requiredTech": "Virtual Drugs",
-		"quote": "'.' - ",
+		"quote": "'I wonder if there are other worlds out there with such a magnificent tree guarding their lifeforms.' - Siegfried Thorkell, xenobiologist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Taking advantage of the rich sap of the World Tree, distilling it until the nutritious and medical substances are concentrated into human-digestible juice. Sweet!"
 			}
 		]
 	},
@@ -2883,7 +2883,7 @@
 			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]"
 		],
 		"requiredTech": "Terraforming",
-		"quote": "'.' - ",
+		"quote": "'Take root in the ground, live in harmony with the wind, plant your seeds in the winter, and rejoice with the birds in the coming of spring.' - Lucita Toel, scientist",
 		"civilopediaText": [
 			{
 				"text": "."
@@ -2922,10 +2922,10 @@
 			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'.' - ",
+		"quote": "'How do you expect to communicate with the ocean, when you can’t even understand one another?.' - Stanislaw Kelvin, xenobiologist",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Using mind linking technology, humans can finally begin to understand the alien wisdom of the Amoebic Lake."
 			}
 		]
 	},
