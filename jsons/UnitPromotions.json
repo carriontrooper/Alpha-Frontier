@@ -21,7 +21,9 @@
 			"Close Range Mech",
 			"Ranged Mech",
 			"Satellite"
-		]
+		],
+		"row": 0,
+        "column": 0
 	},
 
 	// Sniper + Siege
@@ -30,7 +32,9 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 1,
+        "column": 1
 	},
 	{
 		"name": "Accuracy II",
@@ -38,7 +42,9 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 1,
+        "column": 2
 	},
 	{
 		"name": "Accuracy III",
@@ -46,7 +52,9 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 1,
+        "column": 3
 	},
 
 	{
@@ -54,7 +62,9 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 2,
+        "column": 1
 	},
 	{
 		"name": "Barrage II",
@@ -62,7 +72,9 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 2,
+        "column": 2
 	},
 	{
 		"name": "Barrage III",
@@ -70,14 +82,18 @@
 		"uniques": [
 			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
 		],
-		"unitTypes": ["Siege", "Sniper", "Ranged Mech"]
+		"unitTypes": ["Siege", "Sniper", "Ranged Mech"],
+		"row": 2,
+        "column": 3
 	},
 
 	{
 		"name": "Salvo",
 		"prerequisites": ["Accuracy I", "Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sniper", "Siege", "Ranged Mech"]
+		"unitTypes": ["Sniper", "Siege", "Ranged Mech"],
+		"row": 33,
+        "column": 0
 	},
 	{
 		"name": "Extended Range",
@@ -95,7 +111,9 @@
 			"Ranged Water",
 			"Submarine",
 			"Ranged Mech"
-		]
+		],
+		"row": 34,
+        "column": 0
 	},
 	{
 		"name": "Indirect Fire",
@@ -106,7 +124,9 @@
 			"Targeting II"
 		],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Sniper", "Siege", "Ranged Water", "Ranged Mech"]
+		"unitTypes": ["Sniper", "Siege", "Ranged Water", "Ranged Mech"],
+		"row": 35,
+        "column": 0
 	},
 
 	// Close Combat, Armored
@@ -120,7 +140,9 @@
 			"Hover",
 			"Armored",
 			"Close Range Mech"
-		]
+		],
+		"row": 3,
+        "column": 1
 	},
 	{
 		"name": "Shock II",
@@ -133,7 +155,9 @@
 			"Hover",
 			"Armored",
 			"Close Range Mech"
-		]
+		],
+		"row": 3,
+        "column": 2
 	},
 	{
 		"name": "Shock III",
@@ -146,56 +170,74 @@
 			"Hover",
 			"Armored",
 			"Close Range Mech"
-		]
+		],
+		"row": 3,
+        "column": 3
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry", "Stealth Infantry"]
+		"unitTypes": ["Infantry", "Stealth Infantry"],
+		"row": 4,
+        "column": 1
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry", "Stealth Infantry"]
+		"unitTypes": ["Infantry", "Stealth Infantry"],
+		"row": 4,
+        "column": 2
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry", "Stealth Infantry"]
+		"unitTypes": ["Infantry", "Stealth Infantry"],
+		"row": 4,
+        "column": 3
 	},
 
 	{
 		"name": "Terrain Cover I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"],
+		"row": 5,
+        "column": 1
 	},
 	{
 		"name": "Terrain Cover II",
 		"prerequisites": ["Terrain Cover I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"],
+		"row": 5,
+        "column": 2
 	},
 	{
 		"name": "Terrain Cover III",
 		"prerequisites": ["Terrain Cover II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"],
+		"row": 5,
+        "column": 3
 	},
 
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II", "Terrain Cover II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"]
+		"unitTypes": ["Rover", "Hover", "Armored", "Close Range Mech"],
+		"row": 36,
+        "column": 0
 	},
 	{
 		"name": "Urban Warfare",
 		"prerequisites": ["Shock II", "Drill II", "Terrain Cover II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Close Range Mech"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Close Range Mech"],
+		"row": 37,
+        "column": 0
 	},
 	{
 		"name": "Blitz",
@@ -208,7 +250,9 @@
 			"Hover",
 			"Armored",
 			"Close Range Mech"
-		]
+		],
+		"row": 38,
+        "column": 0
 	},
 	{
 		"name": "Jungle Warfare",
@@ -222,7 +266,9 @@
 			"Stealth Infantry",
 			"Sniper",
 			"Close Range Mech"
-		]
+		],
+		"row": 39,
+        "column": 0
 	},
 	{
 		"name": "Amphibious",
@@ -241,7 +287,9 @@
 			"Armored",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 40,
+        "column": 0
 	},
 
 	{
@@ -254,7 +302,9 @@
 			"Survivalism II"
 		],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"],
+		"row": 6,
+        "column": 1
 	},
 	{
 		"name": "Medic II",
@@ -263,26 +313,34 @@
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Rover", "Hover", "Scout"],
+		"row": 6,
+        "column": 2
 	},
 
 	// Scout
 	{
 		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 7,
+        "column": 1
 	},
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 7,
+        "column": 2
 	},
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 7,
+        "column": 3
 	},
 	{
 		"name": "Survivalism I",
@@ -290,7 +348,9 @@
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"[+25]% Strength <when defending>"
 		],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 8,
+        "column": 1
 	},
 	{
 		"name": "Survivalism II",
@@ -299,7 +359,9 @@
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"[+25]% Strength <when defending>"
 		],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 8,
+        "column": 2
 	},
 	{
 		"name": "Survivalism III",
@@ -308,26 +370,34 @@
 			"Unit will heal every turn, even if it performs an action",
 			"May withdraw before melee ([75]%)"
 		], // This number is not based on any source
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"row": 8,
+        "column": 3
 	},
 
 	// Close Range Water
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 9,
+        "column": 1
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 9,
+        "column": 2
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 9,
+        "column": 3
 	},
 
 	{
@@ -336,7 +406,9 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 10,
+        "column": 1
 	},
 	{
 		"name": "Coastal Raider II",
@@ -345,7 +417,9 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 10,
+        "column": 2
 	},
 	{
 		"name": "Coastal Raider III",
@@ -354,50 +428,66 @@
 			"[+20]% Strength <vs cities>",
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 10,
+        "column": 3
 	},
 	{
 		"name": "Coastal Assault",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Close Range Water", "Hover"]
+		"unitTypes": ["Close Range Water", "Hover"],
+		"row": 41,
+        "column": 0
 	},
 
 	// Ranged Water
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","Satellite"]
+		"unitTypes": ["Ranged Water","Satellite"],
+		"row": 11,
+        "column": 1
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","Satellite"]
+		"unitTypes": ["Ranged Water","Satellite"],
+		"row": 11,
+        "column": 2
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"unitTypes": ["Ranged Water"],
+		"row": 11,
+        "column": 3
 	},
 
 	// Submarine
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"]
+		"unitTypes": ["Submarine"],
+		"row": 12,
+        "column": 1
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"]
+		"unitTypes": ["Submarine"],
+		"row": 12,
+        "column": 2
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"]
+		"unitTypes": ["Submarine"],
+		"row": 12,
+        "column": 3
 	},
 
 	// Carrier
@@ -408,7 +498,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 13,
+        "column": 1
 	},
 	{
 		"name": "Flight Deck II",
@@ -418,7 +510,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 13,
+        "column": 2
 	},
 	{
 		"name": "Flight Deck III",
@@ -428,7 +522,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 13,
+        "column": 3
 	},
 
 	// Misc Water
@@ -445,71 +541,93 @@
 			"May heal outside of friendly territory",
 			"[+15] HP when healing <in [Foreign Land] tiles>"
 		],
-		"unitTypes": ["Close Range Water", "Ranged Water", "Submarine", "Hover"]
+		"unitTypes": ["Close Range Water", "Ranged Water", "Submarine", "Hover"],
+		"row": 42,
+        "column": 0
 	},
 
 	// Aerocraft
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Aerocraft","Satellite"]
+		"unitTypes": ["Aerocraft","Satellite"],
+		"row": 14,
+        "column": 1
 	},
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 14,
+        "column": 2
 	},
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 14,
+        "column": 3
 	},
 	
 	{
 		"name": "Dogfighting I",
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 15,
+        "column": 1
 	},
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 15,
+        "column": 2
 	},
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
 		"uniques": ["[+34]% Strength when performing Air Sweep"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 15,
+        "column": 3
 	},
 
 	{
 		"name": "Air Targeting I",
 		"prerequisites": ["Interception I", "Bombardment I", "Dogfighting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 16,
+        "column": 1
 	},
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 16,
+        "column": 2
 	},
 
 	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 43,
+        "column": 0
 	},
 
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Dogfighting I"],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Aerocraft","Satellite"]
+		"unitTypes": ["Aerocraft","Satellite"],
+		"row": 44,
+        "column": 0
 	},
 	{
 		"name": "Air Repair",
@@ -520,51 +638,67 @@
 			"Anti-Armor II"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Aerocraft", "Helicopter"]
+		"unitTypes": ["Aerocraft", "Helicopter"],
+		"row": 45,
+        "column": 0
 	},
 
 	{
 		"name": "Evasion",
 		"prerequisites": ["Interception II", "Air Targeting II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Aerocraft"]
+		"unitTypes": ["Aerocraft"],
+		"row": 46,
+        "column": 0
 	},
 
 	// Helicopter
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"]
+		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"],
+		"row": 17,
+        "column": 1
 	},
 	{
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I", "Dodge I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"]
+		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"],
+		"row": 17,
+        "column": 2
 	},
 	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"]
+		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"],
+		"row": 18,
+        "column": 1
 	},
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"]
+		"unitTypes": ["Helicopter", "Close Range Mech", "Ranged Mech"],
+		"row": 18,
+        "column": 2
 	},
 
 	// Mechs
 	{
 		"name": "Dodge I",
 		"uniques": ["May withdraw before melee ([75]%)"],
-		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"]
+		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"],
+		"row": 19,
+        "column": 1
 	},
 	{
 		"name": "Dodge II",
 		"prerequisites": ["Dodge I"],
 		"uniques": ["May withdraw before melee ([75]%)"],
-		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"]
+		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"],
+		"row": 19,
+        "column": 2
 	},
 
 	// Mixed
@@ -581,7 +715,9 @@
 			"Siege",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 20,
+        "column": 1
 	},
 	{
 		"name": "Cover II",
@@ -597,7 +733,9 @@
 			"Siege",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 20,
+        "column": 2
 	},
 
 	{
@@ -615,7 +753,9 @@
 			"Infantry",
 			"Stealth Infantry",
 			"Sniper",
-		]
+		],
+		"row": 47,
+        "column": 0
 	},
 	{
 		"name": "Maintenance",
@@ -635,7 +775,9 @@
 			"Siege",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 48,
+        "column": 0
 	},
 	{
 		"name": "Mobility",
@@ -657,7 +799,9 @@
 			"Ranged Water",
 			"Armored",
 			"Submarine"
-		]
+		],
+		"row": 49,
+        "column": 0
 	},
 	{
 		"name": "Sentry",
@@ -683,7 +827,9 @@
 			"Ranged Water",
 			"Armored",
 			"Satellite"
-		]
+		],
+		"row": 50,
+        "column": 0
 	},
 	{
 		"name": "Logistics",
@@ -707,19 +853,25 @@
 			"Submarine",
 			"Aerocraft",
 			"Helicopter"
-		]
+		],
+		"row": 51,
+        "column": 0
 	},
 
 	{
 		"name": "Ambush I",
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Aerocraft"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Aerocraft"],
+		"row": 21,
+        "column": 1
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Infantry", "Stealth Infantry", "Aerocraft"]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Aerocraft"],
+		"row": 21,
+        "column": 2
 	},
 
 	{
@@ -732,7 +884,9 @@
 			"Armored",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 22,
+        "column": 1
 	},
 	{
 		"name": "Mech Hunter II",
@@ -745,7 +899,9 @@
 			"Armored",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 22,
+        "column": 2
 	},
 
 	{
@@ -762,7 +918,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 23,
+        "column": 1
 	},
 	{
 		"name": "Armor Plating II",
@@ -779,7 +937,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 23,
+        "column": 2
 	},
 	{
 		"name": "Armor Plating III",
@@ -796,7 +956,9 @@
 			"Water Carrier",
 			"Land Carrier",
 			"Hover Carrier"
-		]
+		],
+		"row": 23,
+        "column": 3
 	},
 	
 	{
@@ -827,26 +989,34 @@
 			"Siege",
 			"Close Range Mech",
 			"Ranged Mech"
-		]
+		],
+		"row": 52,
+        "column": 0
 	},
 
 	// Ranged Water and Air
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"],
+		"row": 24,
+        "column": 1
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"]
+		"unitTypes": ["Ranged Water", "Aerocraft", "Satellite"],
+		"row": 24,
+        "column": 2
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Aerocraft"]
+		"unitTypes": ["Ranged Water", "Aerocraft"],
+		"row": 24,
+        "column": 3
 	},
 
 	//Xeno only, in case you can build/capture xeno units
@@ -857,7 +1027,9 @@
 			"[+15]% Strength <vs [Stealth Infantry] units> <when attacking>",
 			"[+15]% Strength <vs [Sniper] units> <when attacking>"
 		],
-		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"]
+		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"],
+		"row": 25,
+        "column": 1
 	},
 	{
 		"name": "Toxin II",
@@ -867,7 +1039,9 @@
 			"[+15]% Strength <vs [Stealth Infantry] units> <when attacking>",
 			"[+15]% Strength <vs [Sniper] units> <when attacking>"
 		],
-		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"]
+		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"],
+		"row": 25,
+        "column": 2
 	},
 	{
 		"name": "Toxin III",
@@ -877,7 +1051,9 @@
 			"[+15]% Strength <vs [Stealth Infantry] units> <when attacking>",
 			"[+15]% Strength <vs [Sniper] units> <when attacking>"
 		],
-		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"]
+		"unitTypes": ["Xeno Melee Land", "Xeno Ranged Land"],
+		"row": 25,
+        "column": 3
 	},
 
 	{
@@ -889,7 +1065,9 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 26,
+        "column": 1
 	},
 	{
 		"name": "Spike II",
@@ -901,7 +1079,9 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 26,
+        "column": 2
 	},
 	{
 		"name": "Spike III",
@@ -913,43 +1093,57 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 26,
+        "column": 3
 	},
 
 	{
 		"name": "Supercavitation I",
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
-		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"]
+		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"],
+		"row": 27,
+        "column": 1
 	},
 	{
 		"name": "Supercavitation II",
 		"prerequisites": ["Supercavitation I"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
-		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"]
+		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"],
+		"row": 27,
+        "column": 2
 	},
 	{
 		"name": "Supercavitation III",
 		"prerequisites": ["Supercavitation II"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
-		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"]
+		"unitTypes": ["Xeno Melee Water", "Xeno Stealth Water"],
+		"row": 27,
+        "column": 3
 	},
 
 	{
 		"name": "Talons I",
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 28,
+        "column": 1
 	},
 	{
 		"name": "Talons II",
 		"prerequisites": ["Talons I"],
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 28,
+        "column": 2
 	},
 	{
 		"name": "Talons III",
 		"prerequisites": ["Talons II"],
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 28,
+        "column": 3
 	},
 
 	{
@@ -961,7 +1155,9 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 29,
+        "column": 1
 	},
 	{
 		"name": "Carapace II",
@@ -973,7 +1169,9 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 29,
+        "column": 2
 	},
 	{
 		"name": "Carapace III",
@@ -985,7 +1183,9 @@
 			"Xeno Melee Water",
 			"Xeno Stealth Water",
 			"Xeno Air"
-		]
+		],
+		"row": 29,
+        "column": 3
 	},
 
 	{
@@ -996,7 +1196,9 @@
 			"Xeno Ranged Land",
 			"Xeno Melee Water",
 			"Xeno Stealth Water"
-		]
+		],
+		"row": 30,
+        "column": 1
 	},
 	{
 		"name": "Ambulation II",
@@ -1007,7 +1209,9 @@
 			"Xeno Ranged Land",
 			"Xeno Melee Water",
 			"Xeno Stealth Water"
-		]
+		],
+		"row": 30,
+        "column": 2
 	},
 	{
 		"name": "Ambulation III",
@@ -1018,62 +1222,84 @@
 			"Xeno Ranged Land",
 			"Xeno Melee Water",
 			"Xeno Stealth Water"
-		]
+		],
+		"row": 30,
+        "column": 3
 	},
 
 	{
 		"name": "Wings I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 31,
+        "column": 1
 	},
 	{
 		"name": "Wings II",
 		"prerequisites": ["Wings I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 31,
+        "column": 2
 	},
 	{
 		"name": "Wings III",
 		"prerequisites": ["Wings II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 31,
+        "column": 3
 	},
 
 	{
 		"name": "Agility",
 		"prerequisites": ["Wings II"],
 		"uniques": ["May withdraw before melee ([75]%)"],
-		"unitTypes": ["Xeno Air"]
+		"unitTypes": ["Xeno Air"],
+		"row": 53,
+        "column": 0
 	},
 	{
 		"name": "Frenzy",
 		"prerequisites": ["Spike II"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Xeno Melee Land", "Xeno Melee Water"]
+		"unitTypes": ["Xeno Melee Land", "Xeno Melee Water"],
+		"row": 54,
+        "column": 0
 	},
 	{
 		"name": "Bloodthirst",
 		"prerequisites": ["Spike I"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Xeno Melee Land", "Xeno Melee Water"]
+		"unitTypes": ["Xeno Melee Land", "Xeno Melee Water"],
+		"row": 55,
+        "column": 0
 	},
 
 	// Uniques kept through upgrades
 	{
 		"name": "Morale", // Military Simulation Training
-		"uniques": ["[+15]% Strength"]
+		"uniques": ["[+15]% Strength"],
+		"row": 56,
+        "column": 0
 	},
 	{
 		"name": "Hivemind Hijacker", // Surrogate Hivemind
-		"uniques": ["May capture killed [Xeno] units"]
+		"uniques": ["May capture killed [Xeno] units"],
+		"row": 57,
+        "column": 0
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Tree of Worlds
-		"uniques": ["All healing effects doubled"]
+		"uniques": ["All healing effects doubled"],
+		"row": 58,
+        "column": 0
 	},
 	{
 		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
+		"uniques": ["Ignores terrain cost"],
+		"row": 59,
+        "column": 0
 	},
 	{
 		"name": "Spook",
@@ -1081,7 +1307,9 @@
 			"Ignores Zone of Control",
 			"Invisible to others",
 			"May enter foreign tiles without open borders"
-		]
+		],
+		"row": 60,
+        "column": 0
 	},
 	
 	
@@ -1093,7 +1321,9 @@
 			"[-50]% XP gained from combat",
 			"Damage is ignored when determining unit Strength",
 			"Ignores Zone of Control"
-		]
+		],
+		"row": 61,
+        "column": 0
 	},
 	
 	{
@@ -1101,7 +1331,9 @@
 		"uniques": [
 			"Invisible to non-adjacent units",
 			"May withdraw before melee ([20]%)"
-		]
+		],
+		"row": 32,
+        "column": 1
 	},
 	{
 		"name": "Mirage II",
@@ -1110,30 +1342,40 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
 			"Consumes [1] [Digital Storage Space]"
-		]
+		],
+		"row": 32,
+        "column": 2
 	},
 	
 
 	{
 		"name": "Bug Hunter",
-		"uniques": ["[+25]% Strength <vs [Xeno] units>"]
+		"uniques": ["[+25]% Strength <vs [Xeno] units>"],
+		"row": 62,
+        "column": 1
 	},
 	{
 		"name": "Bug Exterminator",
 		"prerequisites": ["Bug Hunter"],
 		"uniques": ["[+50]% Strength <vs [Xeno] units>"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 62,
+        "column": 2
 	},
 	{
 		"name": "Penal Training",
-		"uniques": ["Can build [Land] improvements on tiles"]
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"row": 63,
+        "column": 0
 	},
 	{
 		"name": "Delver Training",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"[+50]% Strength <when fighting in [Hill] tiles>"
-		]
+		],
+		"row": 64,
+        "column": 0
 	},
 	{
 		"name": "GHOST Hack",
@@ -1141,7 +1383,9 @@
 			"Data Uplinked",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"May withdraw before melee ([80]%)"
-		]
+		],
+		"row": 64,
+        "column": 0
 	},
 	{
 		"name": "Dog Soldier Reputation",
@@ -1149,7 +1393,9 @@
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
-		]
+		],
+		"row": 65,
+        "column": 0
 	},
 	{
 		"name": "Humanity's March",
@@ -1159,7 +1405,9 @@
 			"Double movement in [Open terrain]",
 			//"Double movement in [Transport Network]",
 			"[-20]% maintenance costs"
-		]
+		],
+		"row": 66,
+        "column": 0
 	},
 	{
 		"name": "Seadog Raiding Crew",
@@ -1167,14 +1415,18 @@
 			"Earn [10]% of the damage done to [All] units as [Gold]",
 			"Earn [10]% of killed [All] unit's [Cost] as [Gold]",
 			"May withdraw before melee ([80]%)"
-		]
+		],
+		"row": 67,
+        "column": 0
 	},
 	{
 		"name": "Jaeger Manufacturing",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units> <when defending>",
 			"[+20]% to Flank Attack bonuses"
-		]
+		],
+		"row": 68,
+        "column": 0
 	},
 
 	// Colonial Marine special promos
@@ -1182,7 +1434,9 @@
 		"name": "Colonial Marine Unit",
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
-		]
+		],
+		"row": 69,
+        "column": 0
 	},
 	{
 		"name": "Smartgun Equipped",
@@ -1191,13 +1445,17 @@
 			"[+25]% Strength <vs [Infantry] units>",
 			"[+25]% Strength <vs [Stealth Infantry] units>"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 70,
+        "column": 1
 	},
 	{
 		"name": "Flamer Equipped",
 		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 71,
+        "column": 1
 	},
 	{
 		"name": "Commando Training",
@@ -1206,7 +1464,9 @@
 			"Ignores Zone of Control",
 			"Invisible to non-adjacent units"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 72,
+        "column": 1
 	},
 	{
 		"name": "Drop Trooper Training",
@@ -1214,7 +1474,9 @@
 		"uniques": [
 			"May Paradrop up to [5] tiles from inside friendly territory"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 73,
+        "column": 1
 	},
 
 	// T-Series special promos
@@ -1222,13 +1484,17 @@
 		"name": "T-Series Unit",
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
-		]
+		],
+		"row": 74,
+        "column": 0
 	},
 	{
 		"name": "Hardened Exoskeleton",
 		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% Strength <when defending>"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 75,
+        "column": 1
 	},
 	{
 		"name": "Uncanny Appearance",
@@ -1237,7 +1503,9 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 76,
+        "column": 1
 	},
 	{
 		"name": "Network Synchronization",
@@ -1246,13 +1514,17 @@
 			"Data Uplinked",
 			"[+50]% Strength decreasing with distance from the capital"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 77,
+        "column": 1
 	},
 	{
 		"name": "Combat Analysis Module",
 		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% XP gained from combat"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"row": 78,
+        "column": 1
 	},
 
 	// Tame Xeno special promos, other than the usual xeno promos
@@ -1260,7 +1532,9 @@
 		"name": "Tame Xeno Unit",
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
-		]
+		],
+		"row": 79,
+        "column": 0
 	},
 	{
 		"name": "Human-Xeno Cooperation",
@@ -1269,13 +1543,17 @@
 			"[+15]% Strength <for [Tame Xeno] units> <when adjacent to a [Military] unit>",
 			"[-15]% Strength <for [Tame Xeno] units> <when adjacent to a [Nerve Stapled] unit>"
 		],
-		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"],
+		"row": 80,
+        "column": 1
 	},
 	{
 		"name": "Healing Goop",
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
-		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"]
+		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"],
+		"row": 81,
+        "column": 1
 	},
 	
 	// Merc promotions
@@ -1283,40 +1561,52 @@
 		"name": "Mercenary Pay",
 		"uniques": [
 			"Earn [15]% of the damage done to [Military] units as [Gold]"
-		]
+		],
+		"row": 82,
+        "column": 0
 	},
 	
 	{
 		"name": "Runabout",
 		"uniques": [
 			"[+1] Movement"
-		]
+		],
+		"row": 83,
+        "column": 0
 	},
 	{
 		"name": "Drunken Aim",
 		"uniques": [
 			"[+10]% Strength <with [50]% chance>"
-		]
+		],
+		"row": 84,
+        "column": 0
 	},
 	{
 		"name": "Professional Discipline",
 		"uniques": [
 			"[+10]% Strength <when adjacent to a [Infantry] unit>",
 			"[+10]% XP gained from combat"
-		]
+		],
+		"row": 85,
+        "column": 0
 	},
 	{
 		"name": "Deadshot",
 		"uniques": [
 			"[+20]% Strength <when attacking>"
-		]
+		],
+		"row": 86,
+        "column": 0
 	},
 	{
 		"name": "Maniacal Glee",
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
-		]
+		],
+		"row": 87,
+        "column": 0
 	},
 	{
 		"name": "Jovian Wolfhunt",
@@ -1324,122 +1614,160 @@
 			"[+15]% Strength <when fighting in [Vegetation] tiles>",
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]"
-		]
+		],
+		"row": 88,
+        "column": 0
 	},
 	{
 		"name": "Experimental Photon Sensors",
 		"uniques": [
 			"[+1] Sight",
 			"Can see over obstacles"
-		]
+		],
+		"row": 89,
+        "column": 0
 	},
 	{
 		"name": "Meteorlike",
 		"uniques": [
 			"[+20]% Strength <when attacking> <in [Hill] tiles>"
-		]
+		],
+		"row": 90,
+        "column": 0
 	},
 	{
 		"name": "Spectre Shadow",
 		"uniques": [
 			"May withdraw before melee ([20]%)"
-		]
+		],
+		"row": 91,
+        "column": 0
 	},
 	{
 		"name": "Dune Mirage",
 		"uniques": [
 			"[+1] Movement",
 			"May withdraw before melee ([10]%)"
-		]
+		],
+		"row": 92,
+        "column": 0
 	},
 	{
 		"name": "Missile Saturation",
 		"uniques": [
 			"[+10]% Strength <vs [Aerocraft] units>"
-		]
+		],
+		"row": 93,
+        "column": 0
 	},
 	{
 		"name": "Shark Attack",
 		"uniques": [
 			"[+10]% Strength <vs [Wounded] units>"
-		]
+		],
+		"row": 94,
+        "column": 0
 	},
 	{
 		"name": "Orca Feast",
 		"uniques": [
 			"Earn [10]% of killed [Water] unit's [Strength] as [Culture]"
-		]
+		],
+		"row": 95,
+        "column": 0
 	},
 	{
 		"name": "Slippery but Fierce",
 		"uniques": [
 			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([10]%)"
-		]
+		],
+		"row": 96,
+        "column": 0
 	},
 	{
 		"name": "Combat Aces",
 		"uniques": [
 			"[+10]% Strength <vs [Aerocraft] units>",
 			"Damage taken from interception reduced by [30]%"
-		]
+		],
+		"row": 97,
+        "column": 0
 	},
 	{
 		"name": "Tide Prowling",
 		"uniques": [
 			"[+1] Movement <in [Coast] tiles>"
-		]
+		],
+		"row": 98,
+        "column": 0
 	},
 	{
 		"name": "Deep Running",
 		"uniques": [
 			"[+1] Sight <in [Ocean] tiles>",
 			"[+1] Movement <in [Ocean] tiles>"
-		]
+		],
+		"row": 99,
+        "column": 0
 	},
 	{
 		"name": "Furious Retaliation",
 		"uniques": [
 			"[+10]% Strength <when below [50] HP>"
-		]
+		],
+		"row": 100,
+        "column": 0
 	},
 	{
 		"name": "Steel-Clad Mettle",
 		"uniques": [
 			"[+20]% Strength <when defending>",
 			"[+10]% Strength <when adjacent to a [Armor] unit>",
-		]
+		],
+		"row": 101,
+        "column": 0
 	},
 	{
 		"name": "PrismTech Analytics",
 		"uniques": [
 			"Data Uplinked",
 			"Earn [10]% of the damage done to [Military] units as [Science]"
-		]
+		],
+		"row": 102,
+        "column": 0
 	},
 	{
 		"name": "Piercing Taunts",
 		"uniques": [
 			"[+10]% Strength <vs cities> <while the empire is happy>"
-		]
+		],
+		"row": 103,
+        "column": 0
 	},
 	{
 		"name": "Steady Gallop",
 		"uniques": [
 			"[+2] Movement <in [Open terrain] tiles>"
-		]
+		],
+		"row": 104,
+        "column": 0
 	},
 	{
 		"name": "Alpha Strike",
 		"uniques": [
 			"[+10]% Strength <when attacking> <vs [Armored] units>"
-		]
+		],
+		"row": 105,
+        "column": 0
 	},
 	{
 		"name": "Silver Rain",
 		"uniques": [
 			"[+10]% Strength <vs cities>",
 			"[+10]% Strength <vs [Armored] units>"
-		]
+		],
+		"row": 106,
+        "column": 0
 	}
 ]
