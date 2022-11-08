@@ -1384,7 +1384,7 @@
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"May withdraw before melee ([80]%)"
 		],
-		"row": 64,
+		"row": 65,
         "column": 0
 	},
 	{
@@ -1394,7 +1394,7 @@
 			"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
 		],
-		"row": 65,
+		"row": 66,
         "column": 0
 	},
 	{
@@ -1406,7 +1406,7 @@
 			//"Double movement in [Transport Network]",
 			"[-20]% maintenance costs"
 		],
-		"row": 66,
+		"row": 67,
         "column": 0
 	},
 	{
@@ -1416,7 +1416,7 @@
 			"Earn [10]% of killed [All] unit's [Cost] as [Gold]",
 			"May withdraw before melee ([80]%)"
 		],
-		"row": 67,
+		"row": 68,
         "column": 0
 	},
 	{
@@ -1425,7 +1425,7 @@
 			"[+50]% Strength <vs [Armored] units> <when defending>",
 			"[+20]% to Flank Attack bonuses"
 		],
-		"row": 68,
+		"row": 69,
         "column": 0
 	},
 
@@ -1435,7 +1435,7 @@
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
 		],
-		"row": 69,
+		"row": 70,
         "column": 0
 	},
 	{
@@ -1446,7 +1446,7 @@
 			"[+25]% Strength <vs [Stealth Infantry] units>"
 		],
 		"unitTypes": ["Infantry"],
-		"row": 70,
+		"row": 71,
         "column": 1
 	},
 	{
@@ -1454,7 +1454,7 @@
 		"prerequisites": ["Colonial Marine Unit"],
 		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>"],
 		"unitTypes": ["Infantry"],
-		"row": 71,
+		"row": 72,
         "column": 1
 	},
 	{
@@ -1465,7 +1465,7 @@
 			"Invisible to non-adjacent units"
 		],
 		"unitTypes": ["Infantry"],
-		"row": 72,
+		"row": 73,
         "column": 1
 	},
 	{
@@ -1475,7 +1475,7 @@
 			"May Paradrop up to [5] tiles from inside friendly territory"
 		],
 		"unitTypes": ["Infantry"],
-		"row": 73,
+		"row": 74,
         "column": 1
 	},
 
@@ -1485,7 +1485,7 @@
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
 		],
-		"row": 74,
+		"row": 75,
         "column": 0
 	},
 	{
@@ -1493,7 +1493,7 @@
 		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% Strength <when defending>"],
 		"unitTypes": ["Infantry"],
-		"row": 75,
+		"row": 76,
         "column": 1
 	},
 	{
@@ -1504,7 +1504,7 @@
 			"[10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
 		"unitTypes": ["Infantry"],
-		"row": 76,
+		"row": 77,
         "column": 1
 	},
 	{
@@ -1515,7 +1515,7 @@
 			"[+50]% Strength decreasing with distance from the capital"
 		],
 		"unitTypes": ["Infantry"],
-		"row": 77,
+		"row": 78,
         "column": 1
 	},
 	{
@@ -1523,7 +1523,7 @@
 		"prerequisites": ["T-Series Unit"],
 		"uniques": ["[+50]% XP gained from combat"],
 		"unitTypes": ["Infantry"],
-		"row": 78,
+		"row": 79,
         "column": 1
 	},
 
@@ -1533,7 +1533,7 @@
 		"uniques": [
 			"Gains access to special promotions available only to this unit"
 		],
-		"row": 79,
+		"row": 80,
         "column": 0
 	},
 	{
@@ -1544,7 +1544,7 @@
 			"[-15]% Strength <for [Tame Xeno] units> <when adjacent to a [Nerve Stapled] unit>"
 		],
 		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"],
-		"row": 80,
+		"row": 81,
         "column": 1
 	},
 	{
@@ -1552,7 +1552,7 @@
 		"prerequisites": ["Tame Xeno Unit"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"unitTypes": ["Xeno Melee Land","Xeno Ranged Land","Xeno Melee Water","Xeno Stealth Water","Xeno Air"],
-		"row": 81,
+		"row": 82,
         "column": 1
 	},
 	
@@ -1562,7 +1562,7 @@
 		"uniques": [
 			"Earn [15]% of the damage done to [Military] units as [Gold]"
 		],
-		"row": 82,
+		"row": 83,
         "column": 0
 	},
 	
@@ -1571,7 +1571,7 @@
 		"uniques": [
 			"[+1] Movement"
 		],
-		"row": 83,
+		"row": 84,
         "column": 0
 	},
 	{
@@ -1579,7 +1579,7 @@
 		"uniques": [
 			"[+10]% Strength <with [50]% chance>"
 		],
-		"row": 84,
+		"row": 85,
         "column": 0
 	},
 	{
@@ -1588,7 +1588,7 @@
 			"[+10]% Strength <when adjacent to a [Infantry] unit>",
 			"[+10]% XP gained from combat"
 		],
-		"row": 85,
+		"row": 86,
         "column": 0
 	},
 	{
@@ -1596,7 +1596,7 @@
 		"uniques": [
 			"[+20]% Strength <when attacking>"
 		],
-		"row": 86,
+		"row": 87,
         "column": 0
 	},
 	{
@@ -1605,7 +1605,7 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
-		"row": 87,
+		"row": 88,
         "column": 0
 	},
 	{
@@ -1615,7 +1615,7 @@
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]"
 		],
-		"row": 88,
+		"row": 89,
         "column": 0
 	},
 	{
@@ -1624,7 +1624,7 @@
 			"[+1] Sight",
 			"Can see over obstacles"
 		],
-		"row": 89,
+		"row": 90,
         "column": 0
 	},
 	{
@@ -1632,7 +1632,7 @@
 		"uniques": [
 			"[+20]% Strength <when attacking> <in [Hill] tiles>"
 		],
-		"row": 90,
+		"row": 91,
         "column": 0
 	},
 	{
@@ -1640,7 +1640,7 @@
 		"uniques": [
 			"May withdraw before melee ([20]%)"
 		],
-		"row": 91,
+		"row": 92,
         "column": 0
 	},
 	{
@@ -1649,7 +1649,7 @@
 			"[+1] Movement",
 			"May withdraw before melee ([10]%)"
 		],
-		"row": 92,
+		"row": 93,
         "column": 0
 	},
 	{
@@ -1657,7 +1657,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Aerocraft] units>"
 		],
-		"row": 93,
+		"row": 94,
         "column": 0
 	},
 	{
@@ -1665,7 +1665,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Wounded] units>"
 		],
-		"row": 94,
+		"row": 95,
         "column": 0
 	},
 	{
@@ -1673,7 +1673,7 @@
 		"uniques": [
 			"Earn [10]% of killed [Water] unit's [Strength] as [Culture]"
 		],
-		"row": 95,
+		"row": 96,
         "column": 0
 	},
 	{
@@ -1682,7 +1682,7 @@
 			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([10]%)"
 		],
-		"row": 96,
+		"row": 97,
         "column": 0
 	},
 	{
@@ -1691,7 +1691,7 @@
 			"[+10]% Strength <vs [Aerocraft] units>",
 			"Damage taken from interception reduced by [30]%"
 		],
-		"row": 97,
+		"row": 98,
         "column": 0
 	},
 	{
@@ -1699,7 +1699,7 @@
 		"uniques": [
 			"[+1] Movement <in [Coast] tiles>"
 		],
-		"row": 98,
+		"row": 99,
         "column": 0
 	},
 	{
@@ -1708,7 +1708,7 @@
 			"[+1] Sight <in [Ocean] tiles>",
 			"[+1] Movement <in [Ocean] tiles>"
 		],
-		"row": 99,
+		"row": 100,
         "column": 0
 	},
 	{
@@ -1716,7 +1716,7 @@
 		"uniques": [
 			"[+10]% Strength <when below [50] HP>"
 		],
-		"row": 100,
+		"row": 101,
         "column": 0
 	},
 	{
@@ -1725,7 +1725,7 @@
 			"[+20]% Strength <when defending>",
 			"[+10]% Strength <when adjacent to a [Armor] unit>",
 		],
-		"row": 101,
+		"row": 102,
         "column": 0
 	},
 	{
@@ -1734,7 +1734,7 @@
 			"Data Uplinked",
 			"Earn [10]% of the damage done to [Military] units as [Science]"
 		],
-		"row": 102,
+		"row": 103,
         "column": 0
 	},
 	{
@@ -1742,7 +1742,7 @@
 		"uniques": [
 			"[+10]% Strength <vs cities> <while the empire is happy>"
 		],
-		"row": 103,
+		"row": 104,
         "column": 0
 	},
 	{
@@ -1750,7 +1750,7 @@
 		"uniques": [
 			"[+2] Movement <in [Open terrain] tiles>"
 		],
-		"row": 104,
+		"row": 105,
         "column": 0
 	},
 	{
@@ -1758,7 +1758,7 @@
 		"uniques": [
 			"[+10]% Strength <when attacking> <vs [Armored] units>"
 		],
-		"row": 105,
+		"row": 106,
         "column": 0
 	},
 	{
@@ -1767,7 +1767,7 @@
 			"[+10]% Strength <vs cities>",
 			"[+10]% Strength <vs [Armored] units>"
 		],
-		"row": 106,
+		"row": 107,
         "column": 0
 	}
 ]
