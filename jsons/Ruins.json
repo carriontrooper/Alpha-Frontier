@@ -83,8 +83,8 @@
 		"uniques": [
 			"Hidden when religion is disabled",
 			"Gain enough Faith for a Pantheon",
-			"Hidden after founding a Pantheon",
-			"Only available after [20] turns"
+			"Only available <before founding a Pantheon>",
+			"Only available <after [20] turns>"
 		],
 		"color": "#CDDDF4"
 	},
@@ -95,8 +95,8 @@
 			"Hidden when religion is disabled",
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Hidden after generating a Great Prophet",
-			"Hidden before founding a Pantheon",
-			"Only available after [20] turns"
+			"Only available <before founding a Pantheon>",
+			"Only available <after [20] turns>"
 		],
 		"color": "#CDDDF4"
 	}
