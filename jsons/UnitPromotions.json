@@ -238,13 +238,7 @@
 			"[+50]% Strength <vs cities>",
 			"[+10]% Strength <within [1] tiles of a [City center]>",
 			"[+10]% Strength <in [City ruins] tiles>",
-			"[+5]% Strength <in [Habitation Dome] tiles>",
-			"[+5]% Strength <in [Academy] tiles>",
-			"[+5]% Strength <in [Cultural Site] tiles>",
-			"[+5]% Strength <in [Industrial District] tiles>",
-			"[+5]% Strength <in [Trade Center] tiles>",
-			"[+5]% Strength <in [Visionary Site] tiles>",
-			"[+5]% Strength <in [Biodome City] tiles>"
+			"[+5]% Strength <in [Urban Improvement] tiles>"
 		],
 		"unitTypes": ["Infantry", "Stealth Infantry", "Close Range Mech"],
 		"row": 37,
