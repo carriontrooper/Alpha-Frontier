@@ -208,6 +208,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Hab-Domes",
 		"uniques": [
+			"Urban Improvement",
 			"[+1 Gold] <after discovering [Cryptocurrency]>",
 			"[+1 Production] <after discovering [Exoskeletons]>",
 			"[+1 Food] <after discovering [Genetics]>",
@@ -635,6 +636,7 @@
 		"science": 8,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"[+1 Science] <after discovering [Research Networks]>",
 			"[+2 Science] <after discovering [Quantum Theory]>",
 			"[+2 Science] <after discovering [Artificial Intelligence]>",
@@ -662,6 +664,7 @@
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"[+1 Culture] <after discovering [Colonial Culture]>",
 			"[+2 Culture] <after discovering [Net Culture]>",
 			"[+3 Culture] <after discovering [Posthumanist Culture]>",
@@ -687,6 +690,7 @@
 		"production": 4,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"[+1 Production] <after discovering [Offworld Industries]>",
 			"[+1 Production] <after discovering [Crust Fracking]>",
 			"Removes removable features when built",
@@ -711,6 +715,7 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"[+1 Gold] <after discovering [Info Networks]>",
 			"[+2 Gold] <after discovering [Cryptocurrency]>",
 			"Removes removable features when built",
@@ -735,6 +740,7 @@
 		"faith": 6,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Faith]"
 		],
@@ -816,6 +822,7 @@
 		"food": 5,
 		"uniques": [
 			"Great Improvement",
+			"Urban Improvement",
 			"[+1 Science] <after discovering [Research Networks]>",
 			"[+2 Science] <after discovering [Quantum Theory]>",
 			"[+2 Science] <after discovering [Artificial Intelligence]>",
