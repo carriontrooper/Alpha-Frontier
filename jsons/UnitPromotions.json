@@ -238,7 +238,7 @@
 			"[+50]% Strength <vs cities>",
 			"[+10]% Strength <within [1] tiles of a [City center]>",
 			"[+10]% Strength <in [City ruins] tiles>",
-			"[+5]% Strength <in [Urban Improvement] tiles>"
+			"[+5]% Strength <in [Great Improvements] tiles>"
 		],
 		"unitTypes": ["Infantry", "Stealth Infantry", "Close Range Mech"],
 		"row": 37,
