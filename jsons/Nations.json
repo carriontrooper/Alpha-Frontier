@@ -72,7 +72,7 @@
 		]
 	},
 	
-	// CS types: Cultured, Maritime, Mercantile, Militaristic, Religious
+	// CS types: Cultural, Agricultural, Economic, Militaristic, Religious, Scientific
 	
 	{
 		"name": "OutpostName",
@@ -102,11 +102,19 @@
 	
 	// Militaristic
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		
 	// Religious
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
+		
+	// Scientific
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		
+	// Industrial
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
 	
 	*/
 
@@ -1098,7 +1106,7 @@
 	{
 		"name": "Neo-Hedonist Enclave",
 		"adjective": ["Neo-Hedonist"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Prairie"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1111,7 +1119,7 @@
 	{
 		"name": "Brotherhood of Dada",
 		"adjective": ["Dadaist"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Mycelium"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1124,7 +1132,7 @@
 	{
 		"name": "Saudade West",
 		"adjective": ["Saudadin"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Coastal"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1137,7 +1145,7 @@
 	{
 		"name": "Virtual Babylon",
 		"adjective": ["Virtual Babylon"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1150,7 +1158,7 @@
 	{
 		"name": "Wordsmiths' Refuge",
 		"adjective": ["Wordsmith"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Tundra"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1165,7 +1173,7 @@
 	{
 		"name": "Demeter Commune",
 		"adjective": ["Demeter"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1178,7 +1186,7 @@
 	{
 		"name": "Neo-Amish",
 		"adjective": ["Neo-Amish"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1191,7 +1199,7 @@
 	{
 		"name": "Indomie Corporation",
 		"adjective": ["Indomie"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1204,7 +1212,7 @@
 	{
 		"name": "Fiddler's Green",
 		"adjective": ["Fiddler"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Coastal"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1217,7 +1225,7 @@
 	{
 		"name": "Nutri-Paste Inc.",
 		"adjective": ["Nutri-Paste"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1232,7 +1240,7 @@
 	{
 		"name": "Sputnik Outpost",
 		"adjective": ["Sputnikian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Economic",
 		"startBias": ["Tundra"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1245,7 +1253,7 @@
 	{
 		"name": "Vega Casino Town",
 		"adjective": ["Vega"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Economic",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1258,7 +1266,7 @@
 	{
 		"name": "Samarkandi Clanhome",
 		"adjective": ["Samarkandi"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Economic",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1271,7 +1279,7 @@
 	{
 		"name": "Intersolutions",
 		"adjective": ["Intersolutions"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Economic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1283,7 +1291,7 @@
 	{
 		"name": "Ancapistan",
 		"adjective": ["Ancapistan"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Economic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1304,7 +1312,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		"cities": ["Eglon Base"]
 	},
 	{
@@ -1317,7 +1325,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		"cities": ["Soldados Vagabundos"]
 	},
 	{
@@ -1330,7 +1338,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		"cities": ["Northfrost Paramilitary"]
 	},
 	{
@@ -1343,7 +1351,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		"cities": ["Pushkagrad Sniper Community"]
 	},
 	{
@@ -1355,7 +1363,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [222, 116, 55],
+		"innerColor": [200, 55, 25],
 		"cities": ["Yeni Turkiye Engineering"]
 	},
 	
@@ -1424,6 +1432,138 @@
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["St. Cuthbert Monastery"]
+	},
+	
+	// Scientific
+	{
+		"name": "Borealis Station",
+		"adjective": ["Borealis"],
+		"cityStateType": "Scientific",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Borealis Station"]
+	},
+	{
+		"name": "Mycopharm Inc.",
+		"adjective": ["Mycopharm"],
+		"cityStateType": "Scientific",
+		"startBias": ["Mycelium"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Mycopharm Inc."]
+	},
+	{
+		"name": "Astratek Observatory",
+		"adjective": ["Astratek"],
+		"cityStateType": "Scientific",
+		"startBias": ["Hills"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Astratek Observatory"]
+	},
+	{
+		"name": "Seowon Research Center",
+		"adjective": ["Seowon"],
+		"cityStateType": "Scientific",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Seowon Research Center"]
+	},
+	{
+		"name": "Laozi College",
+		"adjective": ["Laozi"],
+		"cityStateType": "Scientific",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Laozi College"]
+	},
+	
+	// Industrial
+	{
+		"name": "Ogun Forges",
+		"adjective": ["Ogun"],
+		"cityStateType": "Industrial",
+		"startBias": ["Jungle"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Ogun Forges"]
+	},
+	{
+		"name": "Amalgam Metalworks",
+		"adjective": ["Amalgam"],
+		"cityStateType": "Industrial",
+		"startBias": ["Hills"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Amalgam Metalworks"]
+	},
+	{
+		"name": "Candradimuka Engineering",
+		"adjective": ["Candradimuka"],
+		"cityStateType": "Industrial",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Candradimuka Engineering"]
+	},
+	{
+		"name": "Vulkan Tech",
+		"adjective": ["Vulkan"],
+		"cityStateType": "Industrial",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Vulkan Tech"]
+	},
+	{
+		"name": "Brunel Workshop",
+		"adjective": ["Brunel"],
+		"cityStateType": "Industrial",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		"cities": ["Brunel Workshop"]
 	},
 
 	// Barbarian
