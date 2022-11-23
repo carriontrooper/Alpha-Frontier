@@ -494,6 +494,34 @@ BuildingIcons/Interspecies Parliament
   orig: 100, 100
   offset: 0, 0
   index: -1
+CityStateIcons/Agricultural
+  rotate: false
+  xy: 592, 1888
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cultural
+  rotate: false
+  xy: 760, 1024
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Economic
+  rotate: false
+  xy: 868, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Industrial
+  rotate: false
+  xy: 1408, 52
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Academy
   rotate: false
   xy: 4, 1624
@@ -718,37 +746,9 @@ NationIcons/Jaeger Engineering
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/Agricultural
-  rotate: false
-  xy: 592, 1888
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 OtherIcons/Cities
   rotate: false
   xy: 436, 1348
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Cultural
-  rotate: false
-  xy: 760, 1024
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Economic
-  rotate: false
-  xy: 868, 700
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Industrial
-  rotate: false
-  xy: 1408, 52
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2908,6 +2908,27 @@ BuildingIcons/Vyasa-Gandhari Cloning Array
   orig: 100, 100
   offset: 0, 0
   index: -1
+CityStateIcons/Militaristic
+  rotate: false
+  xy: 652, 1516
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Religious
+  rotate: false
+  xy: 1192, 1192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Scientific
+  rotate: false
+  xy: 976, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Mine
   rotate: false
   xy: 544, 1300
@@ -3016,27 +3037,6 @@ NationIcons/Toma Heavy Industries
 NationIcons/Walpole-Yuen Inc
   rotate: false
   xy: 1840, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Militaristic
-  rotate: false
-  xy: 652, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Religious
-  rotate: false
-  xy: 1192, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Scientific
-  rotate: false
-  xy: 976, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
