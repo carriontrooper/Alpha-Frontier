@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Cultural",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Colonization era]>",
+            "[+6 Culture] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Culture] <starting from the [Realization era]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Colonization era]>",
+            "[+12 Culture] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+26 Culture] <starting from the [Realization era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Agricultural",
+        "friendBonusUniques": [
+			"[+2 Food] [in capital]"
+		],
+        "allyBonusUniques": [
+			"[+2 Food] [in capital]", 
+			"[+1 Food] [in all cities]"
+		],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Economic",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Colonization era]>",
+            "[+3 Happiness] <starting from the [Colonization era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Colonization era]>",
+            "[+3 Happiness] <starting from the [Colonization era]>",
+            "Provides a unique luxury",
+			"[Gold] cost of purchasing items in cities [-5]%"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": [
+			"Provides military units every ≈[20] turns",
+			"[+1]% Strength <for [Military] units> <before the [Colonization era]>",
+			"[+2]% Strength <for [Military] units> <starting from the [Colonization era]> <before the [Realization era]>",
+			"[+5]% Strength <for [Military] units> <starting from the [Realization era]>"
+		],
+        "allyBonusUniques": [
+			"Provides military units every ≈[17] turns",
+			"[+2]% Strength <for [Military] units> <before the [Colonization era]>",
+			"[+5]% Strength <for [Military] units> <starting from the [Colonization era]> <before the [Realization era]>",
+			"[+10]% Strength <for [Military] units> <starting from the [Realization era]>"
+		],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Religious",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Colonization era]>",
+            "[+6 Faith] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Faith] <starting from the [Realization era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Colonization era]>",
+            "[+12 Faith] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+26 Faith] <starting from the [Realization era]>",
+			"[Faith] cost of purchasing items in cities [-5]%"
+        ],
+        "color": [255, 255, 255]
+    },
+	{
+        "name": "Scientific",
+        "friendBonusUniques":  [
+            "[+3 Science] <before the [Colonization era]>",
+            "[+6 Science] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Science] <starting from the [Realization era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Science] <before the [Colonization era]>",
+            "[+12 Science] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+26 Science] <starting from the [Realization era]>",
+			"[+1 Science] from every [Scientist]"
+        ],
+        "color": [55, 55, 255]
+    },
+	{
+        "name": "Industrial",
+        "friendBonusUniques":  [
+            "[+3 Production] <before the [Colonization era]>",
+            "[+6 Production] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Production] <starting from the [Realization era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Production] <before the [Colonization era]>",
+            "[+12 Production] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+26 Production] <starting from the [Realization era]>",
+			"[-5]% Production when constructing [All] buildings [in all cities]"
+        ],
+        "color": [220, 100, 15]
+    }
+]
