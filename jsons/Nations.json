@@ -1512,7 +1512,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [222, 116, 55],
 		"cities": ["Ogun Forges"]
 	},
 	{
@@ -1525,7 +1525,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [222, 116, 55],
 		"cities": ["Amalgam Metalworks"]
 	},
 	{
@@ -1537,7 +1537,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [222, 116, 55],
 		"cities": ["Candradimuka Engineering"]
 	},
 	{
@@ -1550,7 +1550,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [222, 116, 55],
 		"cities": ["Vulkan Tech"]
 	},
 	{
@@ -1562,7 +1562,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [222, 116, 55],
 		"cities": ["Brunel Workshop"]
 	},
 
