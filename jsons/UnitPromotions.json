@@ -1419,6 +1419,7 @@
 		"uniques": [
 			"Earn [10]% of the damage done to [All] units as [Gold]",
 			"Earn [10]% of killed [All] unit's [Cost] as [Gold]",
+			"[+10]% Strength <when fighting in [Water resource] tiles>"
 			"May withdraw before melee ([80]%)"
 		],
 		"row": 68,
