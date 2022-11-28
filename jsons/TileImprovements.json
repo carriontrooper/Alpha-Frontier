@@ -628,6 +628,15 @@
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "."
 	},
+	
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
 
 	// Great Person improvements
 	{
