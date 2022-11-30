@@ -2441,7 +2441,7 @@
 		"name": "Jormungand NAVSAT Network",
 		"gold": 2,
 		"isWonder": true,
-		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <upon discovering [Cosmonautics]>"],
+		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <after discovering [Cosmonautics]>"],
 		"requiredTech": "Satellite Networks",
 		"quote": "'Like a serpent coiling itself upon this world, we now have live coverage of the oceanic weather. Naval advantage is ours.' - Koko Hekmatyar, Jormungand project manager",
 		"civilopediaText": [
@@ -2630,7 +2630,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Provides [2] [Digital Storage Space]",
-			"Provides 1 happiness per 2 additional social policies adopted"
+			"Provides [+1 Happiness] per [2] social policies adopted"
 		],
 		"requiredTech": "Nanotechnology",
 		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
