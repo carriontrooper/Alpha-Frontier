@@ -581,10 +581,10 @@
 			"Scientific": 10
         	},
 		"uniques": [
-			"[+1 Happiness] from every [Prefab Walls]",
 			"[+1 Happiness] from every [Prefab Bunkers]",
 			"[+1 Happiness] from every [Defense Perimeter]",
 			"[+1 Happiness] from every [Command Center]",
+			"[+1 Happiness] from every [Stasis Defenses]",
 			"Only available <before adopting [Symbiosis Ideology]>",
 			"Only available <before adopting [Radiant Ideology]>"
 		],
