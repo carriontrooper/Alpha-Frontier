@@ -159,6 +159,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Military",
 			"Prefab",
 			"New [Infantry] units start with [15] Experience [in this city]",
 			"New [Stealth Infantry] units start with [15] Experience [in this city]",
@@ -177,7 +178,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredTech": "Frontier Armaments",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Military", "Destroyed when the city is captured"],
 		"civilopediaText": [
 			{
 				"text": "Sensors, embankments and electric fences mostly to keep the xenofauna out."
@@ -268,6 +269,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Enables you to build Hydrofoil units",
+			"Military",
 			"Prefab",
 			"Must be next to [Coast]",
 			"Destroyed when the city is captured"
@@ -727,6 +729,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Military",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -746,6 +749,7 @@
 		"requiredBuilding": "Defense Perimeter",
 		"requiredTech": "Military Ballistics",
 		"uniques": [
+			"Military",
 			"Prefab",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Destroyed when the city is captured"
@@ -762,6 +766,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Military",
 			"Enables you to build Aerocraft units",
 			"New [Air] units start with [15] Experience [in this city]"
 		],
@@ -1008,6 +1013,7 @@
 		"requiredBuilding": "Colonial Patrol Station",
 		"requiredTech": "Colony Administration",
 		"uniques": [
+			"Military",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1023,6 +1029,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Military",
 			"New [Military] units start with [25] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1041,6 +1048,7 @@
 		"production": 2,
 		"uniques": [
 			"Enables you to build larger Water units",
+			"Military",
 			"New [Water] units start with [15] Experience [in this city]",
 			"Must be next to [Coast]"
 			"Destroyed when the city is captured"
@@ -1059,6 +1067,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Military",
 			"New [Mech] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1078,6 +1087,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Enables you to build Armored and Mech units",
+			"Military",
 			"New [Armored] units start with [15] Experience [in this city]",
 			//"New [Mech] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
@@ -1095,6 +1105,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Military",
 			"New [Drone] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1164,6 +1175,7 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": [
+			"Military",
 			"Enables you to build ICBMs",
 		]
 		"civilopediaText": [
@@ -1484,6 +1496,7 @@
 		"requiredBuilding": "Command Center",
 		"requiredTech": "Stasis Fields",
 		"uniques": [
+			"Military",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -2043,6 +2056,7 @@
 		"cityHealth": 100,
 		"maintenance": 1,
 		"uniques": [
+			"Military",
 			"Consumes [2] [Digital Storage Space]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+20]% City Strength from defensive buildings",
@@ -2084,6 +2098,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Enables you to build Tame Xeno units",
+			"Military",
 			"New [Infantry] units start with [15] Experience [in this city]",
 			"New [Stealth Infantry] units start with [15] Experience [in this city]",
 			"New [Tame Xeno] units start with [15] Experience [in this city]",
@@ -2144,6 +2159,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 5 },
 		"uniques": [
+			"Military",
 			"New [Air] units start with [30] Experience [in this city]"
 		],
 		"requiredTech": "Aeronautics",
@@ -2162,8 +2178,9 @@
 		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Military",
 			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
-			"New [Armored] units start with [15] Experience [in this city]",
+			//"New [Armored] units start with [15] Experience [in this city]",
 			"New [Close Range Mech] units start with [15] Experience [in this city]",
 			"New [Ranged Mech] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
@@ -2201,6 +2218,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
+			"Military",
 			"Virtual",
 			"Consumes [3] [Digital Storage Space]",
 			"Requires a [Frontier Armory] in all cities",
@@ -2372,6 +2390,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
+			"Military",
 			"Enables nuclear weapon",
 			"Triggers a global alert upon completion"
 		],
@@ -2469,6 +2488,7 @@
 		"cityStrength": 30,
 		"isWonder": true,
 		"uniques": [
+			"Military",
 			"Consumes [3] [Digital Storage Space]",
 			"Free [Great General] appears",
 			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
@@ -2487,6 +2507,7 @@
 		"cityStrength": 50,
 		"isWonder": true,
 		"uniques": [
+			"Military",
 			"[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"
 		],
 		"requiredTech": "Lasers",
@@ -2502,6 +2523,7 @@
 		"cityHealth": 50,
 		"isWonder": true,
 		"uniques": [
+			"Military",
 			"[+50]% City Strength from defensive buildings",
 			"Population loss from nuclear attacks [-75]% [in all cities]"
 		],
@@ -2877,6 +2899,7 @@
 		"greatPersonPoints": { "Great General": 2 },
 		"isWonder": true,
 		"uniques": [
+			"Military",
 			"Must have an owned [Sheeta Floating Mountain] within [3] tiles",
 			"Provides [2] [Gravitix] <after discovering [Graviton Harnessing]>",
 			"Provides [2] [Ulframite]",
