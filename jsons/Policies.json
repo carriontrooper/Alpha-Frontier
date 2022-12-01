@@ -365,7 +365,7 @@
 			{
 				"name": "Field Research",
 				"uniques": [
-					"[+1 Science] from every [Trading post]",
+					"[+1 Science] from every [Research Base]",
 					"[+1 Science] [in all cities connected to capital]"
 				],
 				"requires": ["Colonial Patents"],
