@@ -417,7 +417,7 @@
 			},
 			{
 				"name": "Charity NGOs",
-				"uniques": ["[+1 Food] from all [Religious] buildings"],
+				"uniques": ["[+1 Food] from all [Faith] buildings"],
 				"row": 1,
 				"column": 4
 			},
