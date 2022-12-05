@@ -816,7 +816,7 @@
 		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
 
 		"outerColor": [255, 136, 0],
-		"innerColor": [59, 54, 54],
+		"innerColor": [70, 90, 50],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "Humanity's Fist",
 		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [{Military} {Land}] units [in all cities] receive the [Humanity's March] promotion"],
