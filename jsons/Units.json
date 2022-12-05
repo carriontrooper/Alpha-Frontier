@@ -3273,7 +3273,7 @@
 	},
 	{
 		"name": "T-Series",
-		"replaces": "Colony Rifleman",
+		//"replaces": "Colony Rifleman",
 		"uniqueTo": "Skye Robotics",
 		"unitType": "Infantry",
 		"movement": 2,
