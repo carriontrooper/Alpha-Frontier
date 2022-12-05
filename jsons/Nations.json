@@ -1109,9 +1109,9 @@
 		"cityStateType": "Cultural",
 		"startBias": ["Prairie"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Let's get this party started!",
+		"attacked": "Don't be such a killjoy!",
+		"defeated": "Aww, party's over.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Neo-Hedonist Enclave"]
@@ -1122,9 +1122,9 @@
 		"cityStateType": "Cultural",
 		"startBias": ["Mycelium"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "My first task is to declare war on 'the way things are'!",
+		"attacked": "Are we not proof that the universe is a drooling idiot with no fashion sense?",
+		"defeated": "Rataplan, rataplan, the vicar's pants are closing.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Brotherhood of Dada"]
