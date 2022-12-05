@@ -1135,9 +1135,9 @@
 		"cityStateType": "Cultural",
 		"startBias": ["Coastal"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "We have lost so much that the sorrowful chalice regrettably overflows towards you.",
+		"attacked": "Do you, too, seek the hollow sorrow of loss?",
+		"defeated": "We shall live on, eternal, in the golden rays of the sunset.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Saudade West"]
@@ -1161,9 +1161,9 @@
 		"cityStateType": "Cultural",
 		"startBias": ["Tundra"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Verily, the pen is mightier than the sword!",
+		"attacked": "Correspondence using the language of violence - such is the trend among warlords.",
+		"defeated": "All we ask is to not put our manuscripts in the pyre of ignorance.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Wordsmiths' Refuge"]
@@ -1293,9 +1293,9 @@
 		"adjective": ["Ancapistan"],
 		"cityStateType": "Economic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Our recreational nukes and medicinal assault rifles are starting to get rusty, you know how it is.",
+		"attacked": "Aha! You've violated our NAP card!",
+		"defeated": "What do you mean by 'it'll collapse by itself sooner or later'?!",
 		"outerColor": [50, 50, 50],
 		"innerColor": [222, 200, 55],
 		"cities": ["Ancapistan"]
@@ -1308,9 +1308,9 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Desert"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "We will make the first move, then.",
+		"attacked": "We shall mount a counterattack.",
+		"defeated": "We lost, fair and square.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		"cities": ["Eglon Base"]
@@ -1321,9 +1321,9 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Jungle"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Vagabundos! It's time to strike!.",
+		"attacked": "Come, Vagabundos! Return fire!",
+		"defeated": "Oh come on!",
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		"cities": ["Soldados Vagabundos"]
@@ -1334,9 +1334,9 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Tundra"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Alpha Mike Foxtrot this!",
+		"attacked": "What the Whiskey Tango Foxtrot?",
+		"defeated": "November Golf, situation's all gone FUBAR.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		"cities": ["Northfrost Paramilitary"]
@@ -1347,9 +1347,9 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Forest"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Look at you, fitting neatly in our crosshairs!",
+		"attacked": "Taking pot shots at us? Are you mad?",
+		"defeated": "So this is what it feels to be outgunned.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		"cities": ["Pushkagrad Sniper Community"]
@@ -1400,9 +1400,9 @@
 		"cityStateType": "Religious",
 		"startBias": ["Forest"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "By the will of Gaia, you must be punished!",
+		"attacked": "Do not think our eco-warriors will stand idly by!",
+		"defeated": "Are we truly unsustainable, o Gaia?",
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Greenhome Compound"]
@@ -1426,9 +1426,9 @@
 		"cityStateType": "Religious",
 		"startBias": ["Plains"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Our divine, twenty-sided patron has decided - you must go!",
+		"attacked": "Very well, roll for initiative.",
+		"defeated": "Thus the encounter ends, and how the dice rolled.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["St. Cuthbert Monastery"]
@@ -1441,9 +1441,9 @@
 		"cityStateType": "Scientific",
 		"startBias": ["Tundra"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "I hope you're prepared for an unforgettable battle!",
+		"attacked": "Attack us? At this time of year, at this time of day, in this part of the planet, localized entirely within our territory?!",
+		"defeated": "Well fought, you are an odd enemy... but you waged a good war.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [20, 100, 200],
 		"cities": ["Borealis Station"]
@@ -1493,9 +1493,9 @@
 		"cityStateType": "Scientific",
 		"startBias": ["Plains"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Mastering others is strength, mastering oneself is true power.",
+		"attacked": "A violent wind does not outlast the morning, a squall of rain does not outlast the day.",
+		"defeated": "Therefore the Sage embraces the One, and becomes a model for the world.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [20, 100, 200],
 		"cities": ["Laozi College"]
