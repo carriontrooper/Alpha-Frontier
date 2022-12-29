@@ -15,6 +15,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -39,6 +40,7 @@
 		"strength": 7,
 		"cost": 40,
 		"requiredTech": "Frontier Armaments",
+		"obsoleteTech": "Composite Armor",
 		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -147,6 +149,7 @@
 		"strength": 5,
 		"rangedStrength": 6,
 		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
@@ -201,6 +204,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 20,
+		"obsoleteTech": "Composite Armor",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
@@ -252,6 +256,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": [
 			"Xeno",
 			"[5]% chance to intercept air attacks",
@@ -280,6 +285,7 @@
 		"strength": 15,
 		"cost": 30,
 		"requiredTech": "Frontier Armaments",
+		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Xeno",
 			"[10]% chance to intercept air attacks",
@@ -424,7 +430,7 @@
 		"strength": 8,
 		//"rangedStrength": 8,
 		"cost": 40,
-		//"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Next-Gen Armaments", //Exoskeletons?
 		"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
@@ -482,11 +488,12 @@
 		"requiredTech": "Portable Power Sources",
 		//"requiredResource": "Titanium",
 		"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
+		"obsoleteTech": "Missiles",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
+			"May upgrade to [Anti-Air Buggy] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -516,6 +523,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Only available <in cities with a [Floating Harbor]>",
+			"May upgrade to [Assault Hydrofoil] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"upgradesTo": "Assault Hydrofoil",
@@ -544,8 +552,8 @@
 		"cost": 100,
 		"requiredTech": "Hovercrafts",
 		"requiredResource": "Titanium",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
+		"upgradesTo": "Hovertank",
+		"obsoleteTech": "Synthetic Materials",
 		"uniques": [
 			"Armored",
 			"Hovercraft",
@@ -554,6 +562,7 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
 			"Consumes [1] [Titanium]",
+			"May upgrade to [Hovertank] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost", "Amphibious"],
@@ -656,10 +665,11 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Only available <in cities with a [Floating Harbor]>",
+			"May upgrade to [Corvette] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"upgradesTo": "Corvette",
-		//"obsoleteTech": "Astronomy",
+		"obsoleteTech": "Composite Armor",
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
@@ -725,6 +735,7 @@
 		"requiredTech": "Aeronautics",
 		"requiredResource": "Promethine",
 		"upgradesTo": "Beam Fighter",
+		"obsoleteTech": "Lasers",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
@@ -901,7 +912,7 @@
 		//"rangedStrength": 14,
 		"cost": 75,
 		"requiredTech": "Next-Gen Armaments",
-		//"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Exoskeletons",
 		"upgradesTo": "Exoframe Soldier",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
@@ -930,7 +941,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Next-Gen Armaments",
-		//"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Exoskeletons",
 		"upgradesTo": "Exoframe Sniper",
 		"uniques": [
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
@@ -1146,12 +1157,14 @@
 		"cost": 275,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Titanium",
+		"upgradesTo": "Phantom Submersible"
 		"uniques": [
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [2] [Cruise Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [2] [Titanium]",
+			"May upgrade to [Phantom Submersible] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -1258,6 +1271,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Promethine]",
+			"May upgrade to [Drop Tank] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1369,6 +1383,7 @@
 			"[-50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Titanium]",
+			"May upgrade to [Assault Mecha] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -3194,6 +3209,7 @@
 		"strength": 7,
 		"cost": 30,
 		"upgradesTo": "Colony Rifleman",
+		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -3223,6 +3239,7 @@
 		"cost": 100,
 		"requiredTech": "Next-Gen Armaments",
 		"upgradesTo": "Exoframe Soldier",
+		"obsoleteTech": "Exoskeletons",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -3252,6 +3269,7 @@
 		"cost": 100,
 		"requiredTech": "Next-Gen Armaments",
 		"upgradesTo": "Exoframe Soldier",
+		"obsoleteTech": "Exoskeletons",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -3335,6 +3353,7 @@
 		"cost": 100,
 		"requiredTech": "Next-Gen Armaments",
 		"upgradesTo": "Exoframe Soldier",
+		"obsoleteTech": "Exoskeletons",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -3370,10 +3389,12 @@
 			"Can construct [Prefab Lair]",
 			"Can build [Water] improvements on tiles"
 			"Only available <in cities with a [Floating Harbor]>",
+			"May upgrade to [Corvette] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Seadog Raiding Crew"],
 		"upgradesTo": "Corvette",
+		"obsoleteTech": "Composite Armor",
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
