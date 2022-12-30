@@ -553,7 +553,7 @@
 		"requiredTech": "Hovercrafts",
 		"requiredResource": "Titanium",
 		"upgradesTo": "Hovertank",
-		"obsoleteTech": "Synthetic Materials",
+		"obsoleteTech": "Composite Armor",
 		"uniques": [
 			"Armored",
 			"Hovercraft",
