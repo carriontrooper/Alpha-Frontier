@@ -791,6 +791,7 @@
 		"cost": 100,
 		"requiredTech": "Payload Delivery",
 		"uniques": [
+			"Can perform Air Sweep",
 			"Can only attack [Satellite] units",
 			"[+200]% Strength <vs [Satellite] units>",
 			"[-100]% maintenance costs",
