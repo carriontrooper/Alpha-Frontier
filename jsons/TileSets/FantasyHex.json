@@ -4,6 +4,14 @@
 		
 		// Flood Plain fix
 		//"Desert+Flood plains": ["Desert","FloodPlains"],
+
+		// City center fix
+		"Grassland+Hills+City center": ["Grassland","Hills","City center"],
+		"Plains+Hills+City center": ["Plains","Hills","City center"],
+		"Desert+Hills+City center": ["Desert","Hills","City center"],
+		"Tundra+Hills+City center": ["Tundra","Hills","City center"],
+		"Snow+Hills+City center": ["Snow","Hills","City center"],
+		"Mycelium+Hills+City center": ["Mycelium","Hills","City center"],
 		
 		// Xeno Hive no snow fix
 		"Tundra+Barbarian encampment": ["Tundra","Barbarian encampment"],
