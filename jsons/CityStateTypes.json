@@ -95,7 +95,7 @@
             "[+6 Production] <before the [Colonization era]>",
             "[+12 Production] <starting from the [Colonization era]> <before the [Realization era]>",
             "[+26 Production] <starting from the [Realization era]>",
-			"[-5]% Production when constructing [All] buildings [in all cities]"
+			"[+5]% Production when constructing [All] buildings [in all cities]"
         ],
         "color": [220, 100, 15]
     }
