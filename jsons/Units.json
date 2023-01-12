@@ -3304,6 +3304,7 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Consumes [1] [Titanium]",
+			"Damage is ignored when determining unit Strength",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["T-Series Unit"],
