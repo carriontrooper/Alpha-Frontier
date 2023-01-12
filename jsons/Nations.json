@@ -204,9 +204,12 @@
 		"hateHello": "Ach, it's the slaggart. Whatchu want?",
 
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
-
+/*
 		"outerColor": [240, 199, 36],
 		"innerColor": [255, 125, 3],
+*/
+		"outerColor": [243, 213, 90],
+		"innerColor": [191, 93, 2],
 		"favoredReligion": "Mormonism",
 		"uniqueName": "Belta Penal Code",
 		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
@@ -387,9 +390,12 @@
 		"hateHello": "Oh, I do not need this right now. How may I help you?",
 
 		"tradeRequest": "We think these will aid both of us.",
-
+/*
 		"outerColor": [110, 44, 171],
 		"innerColor": [2, 161, 25],
+*/
+		"outerColor": [93, 37, 145],
+		"innerColor": [39, 175, 59],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "Somatic Element",
 		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[15] HP when healing <for [Wounded] units>"],
@@ -570,9 +576,12 @@
 		"hateHello": "Speak.",
 
 		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
-
+/*
 		"outerColor": [109, 145, 145],
 		"innerColor": [209, 50, 50],
+*/
+		"outerColor": [145, 172, 172],
+		"innerColor": [156, 37, 37],
 		"favoredReligion": "Voidist",
 		"uniqueName": "The Hounds of War",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","+30% Strength when fighting City-State units and cities"],
@@ -692,9 +701,12 @@
 		"hateHello": "Huh?",
 
 		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
-
+/*
 		"outerColor": [201, 175, 113],
 		"innerColor": [255, 246, 212],
+*/
+		"outerColor": [160, 140, 90],
+		"innerColor": [255, 247, 220],
 		"favoredReligion": "Nomadist",
 		"uniqueName": "Eternal Caravan",
 		"uniques": ["City-State territory always counts as friendly territory","[+1] Movement <for [Land] units>"],
@@ -965,16 +977,16 @@
 			"Fen Vil"
 		] ,
 		"spyNames": [
-			"Mondeh",
-			"Choozdeh",
-			"Wensdeh",
-			"Tursdeh",
-			"Frideh",
-			"Satideh",
-			"Sundeh",
-			"Yestideh",
-			"Tiddeh",
-			"Tomarroh"
+			"Mista Mondeh",
+			"Sista Choozdeh",
+			"Mista Wensdeh",
+			"Sista Tursdeh",
+			"Mista Frideh",
+			"Mista Satideh",
+			"Sista Sundeh",
+			"Mista Yestideh",
+			"Sista Tiddeh",
+			"Mista Tomarroh"
 		]
 		
 	},
@@ -1312,7 +1324,7 @@
 		"attacked": "We shall mount a counterattack.",
 		"defeated": "We lost, fair and square.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [200, 55, 25],
+		"innerColor": [205, 75, 48],
 		"cities": ["Eglon Base"]
 	},
 	{
@@ -1325,7 +1337,7 @@
 		"attacked": "Come, Vagabundos! Return fire!",
 		"defeated": "Oh come on!",
 		"outerColor": [50, 50, 50],
-		"innerColor": [200, 55, 25],
+		"innerColor": [205, 75, 48],
 		"cities": ["Soldados Vagabundos"]
 	},
 	{
@@ -1338,7 +1350,7 @@
 		"attacked": "What the Whiskey Tango Foxtrot?",
 		"defeated": "November Golf, situation's all gone FUBAR.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [200, 55, 25],
+		"innerColor": [205, 75, 48],
 		"cities": ["Northfrost Paramilitary"]
 	},
 	{
@@ -1351,7 +1363,7 @@
 		"attacked": "Taking pot shots at us? Are you mad?",
 		"defeated": "So this is what it feels to be outgunned.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [200, 55, 25],
+		"innerColor": [205, 75, 48],
 		"cities": ["Pushkagrad Sniper Community"]
 	},
 	{
@@ -1363,7 +1375,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [200, 55, 25],
+		"innerColor": [205, 75, 48],
 		"cities": ["Yeni Turkiye Engineering"]
 	},
 	
@@ -1445,7 +1457,7 @@
 		"attacked": "Attack us? At this time of year, at this time of day, in this part of the planet, localized entirely within our territory?!",
 		"defeated": "Well fought, you are an odd enemy... but you waged a good war.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [55, 123, 208],
 		"cities": ["Borealis Station"]
 	},
 	{
@@ -1458,7 +1470,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [55, 123, 208],
 		"cities": ["Mycopharm Inc."]
 	},
 	{
@@ -1471,7 +1483,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [55, 123, 208],
 		"cities": ["Astratek Observatory"]
 	},
 	{
@@ -1484,7 +1496,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [55, 123, 208],
 		"cities": ["Seowon Research Center"]
 	},
 	{
@@ -1497,7 +1509,7 @@
 		"attacked": "A violent wind does not outlast the morning, a squall of rain does not outlast the day.",
 		"defeated": "Therefore the Sage embraces the One, and becomes a model for the world.",
 		"outerColor": [50, 50, 50],
-		"innerColor": [20, 100, 200],
+		"innerColor": [55, 123, 208],
 		"cities": ["Laozi College"]
 	},
 	
