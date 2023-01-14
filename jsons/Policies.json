@@ -102,7 +102,7 @@
 					"Free [Worker] appears"
 				],
 				"requires": ["Centralization"],
-				"row": 2,
+				"row": 3,
 				"column": 2
 			},
 			{
@@ -122,7 +122,7 @@
 					"[+1 Happiness] [in all cities with a garrison]"
 				],
 				"requires": ["Centralization"],
-				"row": 2,
+				"row": 3,
 				"column": 5
 			},
 			{
@@ -687,7 +687,7 @@
 				"name": "Xeno-Cooperation",
 				"uniques": ["Unlocks building the Xeno Sanctuary improvement"],
 				"requires": ["Eco Harmony"],
-				"row": 2,
+				"row": 3,
 				"column": 1
 			},
 			{
