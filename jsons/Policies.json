@@ -687,7 +687,7 @@
 				"name": "Xeno-Cooperation",
 				"uniques": ["Unlocks building the Xeno Sanctuary improvement"],
 				"requires": ["Eco Harmony"],
-				"row": 2,
+				"row": 5,
 				"column": 1
 			},
 			{
@@ -715,8 +715,8 @@
 					*/
 					"[+1 Happiness] from [Organic] tiles [in all cities]"
 				],
-				"requires": ["Xeno-Cooperation"],
-				"row": 3,
+				"requires": ["Eco Harmony"],
+				"row": 2,
 				"column": 3
 			},
 			{
@@ -725,7 +725,7 @@
 					"[+25]% growth [in all cities] <while the empire is happy>"
 				],
 				"requires": ["Biodiversity", "Healing Nature"],
-				"row": 4,
+				"row": 3,
 				"column": 4
 			},
 			{
