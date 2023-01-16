@@ -681,13 +681,13 @@
 					"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"
 				],
 				"row": 1,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Xeno-Cooperation",
 				"uniques": ["Unlocks building the Xeno Sanctuary improvement"],
 				"requires": ["Eco Harmony"],
-				"row": 5,
+				"row": 3,
 				"column": 1
 			},
 			{
