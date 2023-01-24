@@ -593,7 +593,7 @@
 				"name": "Pest Control",
 				"uniques": [
 					"[+33]% Strength <vs [Barbarian] units>",
-					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Credit]"
+					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]"
 				],
 				"row": 1,
 				"column": 1
