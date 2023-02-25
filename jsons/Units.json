@@ -89,14 +89,15 @@
 		"name": "Wurm", //see into limiting movement to desert tiles if possible in the future
 		"unitType": "Xeno Melee Land",
 		"uniqueTo": "Barbarians",
-		"movement": 0.5,
+		"movement": 0,
 		"strength": 50,
 		"cost": 100,
 		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs cities>"
+			"[+33]% Strength <vs cities>",
+			"[+3] Movement <in [Desert] tiles>"
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -170,7 +171,7 @@
 		"name": "Mycon", //see into limiting movement to mycelium tiles if possible in the future
 		"unitType": "Xeno Ranged Land",
 		"uniqueTo": "Barbarians",
-		"movement": 0.5,
+		"movement": 0,
 		"range": 1,
 		"strength": 20,
 		"rangedStrength": 24,
@@ -179,7 +180,9 @@
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Infantry] units>",
-			"Blast radius [1]"
+			"Blast radius [1]",
+			"[+2] Movement <in [Mycelium] tiles>",
+			"Invisible to non-adjacent units <in [Jungle] tiles>"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
