@@ -25,7 +25,10 @@
 	{
 		"name": "Miasma Dreams",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Miasma]"]
+		"uniques": [
+			"[+1 Faith] from every [Miasma]",
+			"[+1 Faith] from every [Artificial Miasma]"
+		]
 	},
 	{
 		"name": "Homeopathy",
@@ -50,7 +53,10 @@
 	{
 		"name": "Xeno Observation",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Enclosure]"]
+		"uniques": [
+			"[+1 Culture] from every [Enclosure]",
+			"[+1 Culture] from every [Xeno Sanctuary]"
+		]
 	},
 	{
 		"name": "Seafarers' Superstition",
@@ -86,6 +92,22 @@
 		"name": "Defend the Motherland",
 		"type": "Pantheon",
 		"uniques": ["[+30]% Strength for cities <when attacking>"]
+	},
+	{
+		"name": "Bulwark of Faith",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Emplacement]",
+			"[+1 Faith] from every [Fort]",
+			"[+2 Faith] from every [Citadel]"
+		]
+	},
+	{
+		"name": "Almighty Credit",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Server Farm]"
+		]
 	},
 	{
 		"name": "Food Preparations",
@@ -152,7 +174,8 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+2 Faith] from every [Quarry]",
-			"[+1 Faith] from every [Mine]"
+			"[+1 Faith] from every [Mine]",
+			"[+1 Faith] from every [Mining Camp]"
 		]
 	},
 	{
@@ -165,7 +188,9 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Field Lab]",
-			"[+1 Faith] from every [Research Laboratory]"
+			"[+1 Faith] from every [Research Laboratory]",
+			"[+2 Faith] from every [Academy]",
+			"[+2 Faith] from every [Biodome City]"
 		]
 	},
 	{
@@ -256,7 +281,8 @@
 		"name": "Virtual Idol Worship",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>"
+			"[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>",
+			"[+1 Faith] from every [Holorelay]"
 		]
 	},
 	{
