@@ -262,14 +262,14 @@
 			},
 			{
 				"name": "Info Networks",
-				"row": 6,
+				"row": 7,
 				"quote": "'They did WHAT on my network?! ...Well, these funny cats are nice...' - Jeanie O'Shea, scientist",
 				"prerequisites": ["Research Networks","Offworld Industries"],
 				"uniques": ["May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
 			},
 			{
 				"name": "Colony Administration",
-				"row": 7,
+				"row": 8,
 				"quote": "'I wouldn't know what to do if we haven't installed more bandwidth and more servers. It would be a bureaucratic hell, signed in triplicate.' - Yuen Xin Tiao, senior administrator",
 				"prerequisites": ["Hab-Domes", "Research Networks"]
 			},
