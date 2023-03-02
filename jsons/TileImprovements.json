@@ -299,6 +299,10 @@
 		"techRequired": "Xenogeology",
 		"uniques": [
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
+			"[+1 Production] <upon constructing [Mining Tunnels]>",
+			"Gives a defensive bonus of [10]% <upon adopting [Purification Ideology]>",
+			"[+1 Science] <upon adopting [Radiant Ideology]>",
+			"[+1 Food] <upon adopting [Symbiosis Ideology]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+2 Production]"
 		],
