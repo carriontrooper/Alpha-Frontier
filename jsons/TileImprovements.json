@@ -520,11 +520,11 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Pioneer Administration",
-		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
+		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user... but now it's a real unique
 		"uniques": [
 			"Transport Network",
 			"Can be built outside your borders",
-			"Costs [1] gold per turn when in your territory"
+			"Costs [1] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R",
 		"civilopediaText": [
@@ -552,7 +552,7 @@
 		"uniques": [
 			"Transport Network",
 			"Can be built outside your borders",
-			"Costs [2] gold per turn when in your territory"
+			"Costs [2] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R",
 		"civilopediaText": [
