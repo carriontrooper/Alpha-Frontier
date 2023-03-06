@@ -2794,7 +2794,7 @@
 	//// Armored
 	{
 		"name": "Floating Furies (Hovertank)",
-		"unitType": "Armored",
+		"unitType": "Hover",
 		"movement": 3,
 		"strength": 35,
 		"cost": 150,
