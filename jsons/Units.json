@@ -3022,7 +3022,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [8]-turn golden age",
-			"Can construct [Cultural Site]",
+			"Can instantly construct a [Cultural Site] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3046,7 +3046,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can hurry technology research",
-			"Can construct [Academy]",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3070,7 +3070,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Trade Center]",
+			"Can instantly construct a [Trade Center] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3094,7 +3094,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building",
-			"Can construct [Industrial District]",
+			"Can instantly construct a [Industrial District] improvement <by consuming this unit>",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3117,7 +3117,7 @@
 		"name": "Great Visionary",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
+			"Can instantly construct a [Visionary Site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -3151,7 +3151,7 @@
 		"uniques": [
 			"Can start an [8]-turn golden age",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3393,7 +3393,7 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"May enter foreign tiles without open borders",
-			"Can construct [Prefab Lair]",
+			"Can instantly construct a [Cultural Site] improvement <for [4] movement>",
 			"Can build [Water] improvements on tiles"
 			"Only available <in cities with a [Floating Harbor]>",
 			"May upgrade to [Corvette] through ruins-like effects",
