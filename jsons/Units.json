@@ -349,7 +349,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city",
+			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"
 		],
@@ -373,7 +373,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"May create improvements on water resources",
+			"May create improvements on water resources <for [2] movement>",
 			"Can build [Water] improvements on tiles"
 		],
 		"cost": 70,
@@ -3021,7 +3021,7 @@
 		"name": "Great Influencer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Cultural Site] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Unbuildable",
@@ -3149,7 +3149,7 @@
 		"name": "Great General", // rename to Great Tactician in localization
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
@@ -3644,7 +3644,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
+			"Can instantly construct a [Visionary Site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -3679,7 +3679,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can hurry technology research",
-			"Can construct [Biodome City]",
+			"Can instantly construct a [Biodome City] improvement <by consuming this unit>",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
