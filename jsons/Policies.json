@@ -99,7 +99,8 @@
 				"name": "City Planning",
 				"uniques": [
 					"[+5]% Production when constructing [All] buildings [in all cities]",
-					"Free [Worker] appears"
+					"Free [Worker] appears",
+					"[-10]% maintenance cost for buildings [in all cities]"
 				],
 				"requires": ["Centralization"],
 				"row": 3,
