@@ -23,6 +23,16 @@
 		"uniques": ["[+1 Faith] from every [Mycelium]"]
 	},
 	{
+		"name": "Cosmic Mycology",
+		"type": "Pantheon",
+		"uniques": ["[+1 Science] from every [Mycelium]"]
+	},
+	{
+		"name": "Mycelial Wonders",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Mycelium]"]
+	},
+	{
 		"name": "Miasma Dreams",
 		"type": "Pantheon",
 		"uniques": [
