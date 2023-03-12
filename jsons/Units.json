@@ -882,10 +882,10 @@
 		"requiredTech": "Satellite Networks",
 		"requiredResource": "Digital Storage Space",
 		"uniques": [
-			"[+5]% Strength bonus for [Military] units within [2] tiles",
-			"[+5]% Strength bonus for [Data Uplinked] units within [2] tiles",
-			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
-			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Data Uplinked] units within [2] tiles",
+			"[+10]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
 			"Consumes [1] [Digital Storage Space]",
 			"Consumes [1] [Digital Storage Space] <after discovering [Artificial Intelligence]>",
 			"Uncapturable",
@@ -1373,7 +1373,7 @@
 	{
 		"name": "Recon Mecha",
 		"unitType": "Close Range Mech",
-		"movement": 4,
+		"movement": 5,
 		"strength": 30,
 		"cost": 175,
 		"requiredTech": "Mecha Prototypes",
@@ -1391,7 +1391,7 @@
 			"May upgrade to [Assault Mecha] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost", "Mobility I"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -1421,6 +1421,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
+			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
 			"[+25]% Strength when performing Air Sweep",
 			"[+50]% Strength <vs [non-air] units>",
@@ -1480,6 +1481,7 @@
 		"cost": 125,
 		"requiredTech": "Satellite Networks",
 		"uniques": [
+			"[+1] Sight",
 			"Blast radius [1]",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
@@ -1507,6 +1509,7 @@
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
 		"uniques": [
+			"[+1] Sight",
 			"[100]% chance to intercept air attacks",
 			"Can perform Air Sweep",
 			"[+25]% Strength when performing Air Sweep",
@@ -1713,7 +1716,7 @@
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"Mech",
-			"[+200]% Strength <vs cities>",
+			"[+400]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armored] units>",
@@ -1822,7 +1825,7 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Ulframite",
 		"uniques": [
-			"Can only attack [City] units",
+			"Can only attack [City] units <[3] times> <after which this unit is consumed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"[+2000]% Strength <vs [non-air] units>",
@@ -1851,13 +1854,14 @@
 		"unitType": "Stealth Infantry",
 		"movement": 2,
 		//"range": 1,
-		"strength": 34,
+		"strength": 38,
 		//"rangedStrength": 34,
 		"cost": 350,
 		"requiredTech": "Metamaterials",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
 		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Sentry"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -2183,9 +2187,9 @@
 		"name": "Mobile Fortress",
 		"unitType": "Land Carrier",
 		"movement": 3,
-		"strength": 65,
+		"strength": 80,
 		"range": 2,
-		"cost": 600,
+		"cost": 700,
 		"requiredTech": "Antimatter Harnessing",
 		"requiredResource": "Antimatter",
 		"uniques": [
@@ -2195,7 +2199,7 @@
 			"Can carry [4] [Missile] units",
 			"Can carry [1] [Satellite] units",
 			"[100]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Armored] units> <when defending>",
 			"[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Limited to [3] per Civilization",
@@ -2923,7 +2927,7 @@
 	{
 		"name": "Redhorse Striders (Recon Mecha)",
 		"unitType": "Close Range Mech",
-		"movement": 4,
+		"movement": 5,
 		"strength": 30,
 		"cost": 175,
 		"requiredTech": "Mecha Prototypes",
@@ -2942,7 +2946,7 @@
 			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Ignore terrain cost","Steady Gallop"],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Mobility I", "Steady Gallop"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -3507,6 +3511,7 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
 		"uniques": [
+			"Can only attack [All] units <[4] times> <after which this unit is consumed>",
 			"Blast radius [2]",
 			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
