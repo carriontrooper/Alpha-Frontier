@@ -2881,6 +2881,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Must have an owned [Tree of Worlds] within [3] tiles",
+			"[All] Units adjacent to this city heal [10] HP per turn when healing",
 			"[+50]% growth [in all cities]",
 			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
 		],
