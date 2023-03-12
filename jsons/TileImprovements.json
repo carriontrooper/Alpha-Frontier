@@ -164,10 +164,11 @@
 			"Flood plains",
 			"Mycelium"
 		],
-		"gold": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Computing",
 		"uniques": [
+			"[+1 Gold] <within [3] tiles of a [City center]>",
 			"[+1 Gold] <after discovering [Cryptocurrency]>",
 			"[+1 Gold] <in [Tundra] tiles>",
 			"[+1 Gold] <in [Snow] tiles>",
