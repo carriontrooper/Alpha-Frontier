@@ -40,7 +40,7 @@
 				"uniques": [
 					"[+1] Sight <for [All] units>",
 					"[+1 Gold] from [Luxury resource] tiles [in all cities]"
-				], //how to define luxury resources?
+				],
 				"requires": ["Trailblazers"],
 				"row": 2,
 				"column": 2
@@ -109,7 +109,7 @@
 				"name": "Urban Luxuries",
 				"uniques": [
 					"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
-					"[+1 Gold] per [5] population [in capital]"
+					"[+2 Gold] per [5] population [in capital]"
 				],
 				"requires": ["Centralization"],
 				"row": 2,
@@ -352,20 +352,25 @@
 		"policies": [
 			{
 				"name": "Colonial Patents",
-				"uniques": ["[+1 Gold] from every [Scientist]"],
+				"uniques": [
+					"[+2 Gold] from every [Scientist]"
+				],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Cyber Entrepreneurs",
-				"uniques": ["[+1 Science] from every [Merchant]"],
+				"uniques": [
+					"[+1 Science] from every [Merchant]",
+					"[+1 Gold] from [Server Farm] tiles [in all cities]"
+				],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Field Research",
 				"uniques": [
-					"[+1 Science] from every [Research Base]",
+					"[+1 Science] from [Research Base] tiles [in all cities]",
 					"[+1 Science] [in all cities connected to capital]"
 				],
 				"requires": ["Colonial Patents"],
@@ -374,7 +379,10 @@
 			},
 			{
 				"name": "Scientific Management",
-				"uniques": ["[+1 Gold] from all [Science] buildings"],
+				"uniques": [
+					"[+1 Gold] from all [Science] buildings",
+					"[+3 Gold] from [Academy] tiles [in all cities]"
+				],
 				"requires": ["Colonial Patents", "Cyber Entrepreneurs"],
 				"row": 2,
 				"column": 3
@@ -508,7 +516,7 @@
 				"name": "Ascendancy Complete",
 				"uniques": [
 					"[1] Free Technologies",
-					"[+3 Science] from every [Academy]"
+					"[+5 Science] from [Academy] tiles [in all cities]"
 				]
 			}
 		]
@@ -536,13 +544,18 @@
 			},
 			{
 				"name": "Market of Ideas",
-				"uniques": ["[+1 Gold] from all [Culture] buildings"],
+				"uniques": [
+					"[+1 Gold] from all [Culture] buildings"
+				],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Social Media",
-				"uniques": ["[+1 Culture] from every [Influencer]"],
+				"uniques": [
+					"[+1 Culture] from every [Influencer]",
+					"[+2 Gold] from [Habitation Dome] tiles [in all cities]"
+				],
 				"requires": ["Cultural Icons"],
 				"row": 2,
 				"column": 1
@@ -556,7 +569,10 @@
 			},
 			{
 				"name": "Monetization Laws",
-				"uniques": ["[+1 Gold] from every [Influencer]"],
+				"uniques": [
+					"[+2 Gold] from every [Influencer]",
+					"[+3 Gold] from [Cultural Site] tiles [in all cities]"
+				],
 				"requires": ["Market of Ideas", "Right to Expression"],
 				"row": 3,
 				"column": 4
@@ -565,7 +581,8 @@
 				"name": "Influence Complete",
 				"uniques": [
 					"Free Social Policy",
-					"May buy [Great Influencer] units for [200] [Culture] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>"
+					"May buy [Great Influencer] units for [200] [Culture] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
+					"[+5 Culture] from [Cultural Site] tiles [in all cities]"
 				]
 			}
 		]
