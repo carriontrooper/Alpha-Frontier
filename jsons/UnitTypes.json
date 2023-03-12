@@ -104,6 +104,7 @@
 			"Aircraft",
 			"[+4] Sight",
 			"Can see over obstacles",
+			"Ranged attacks may be performed over obstacles",
 			"Cannot be carried by [Carrier] units"
 		]
 	},
@@ -122,7 +123,7 @@
 	{
 		"name": "Missile",
 		"movementType": "Air",
-		"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+		"uniques": ["Self-destructs when attacking", "Ranged attacks may be performed over obstacles", "Cannot be intercepted"]
 	},
 	{
 		"name": "Helicopter",
