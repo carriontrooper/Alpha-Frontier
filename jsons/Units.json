@@ -2361,6 +2361,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
+		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2385,6 +2386,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
+		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2406,6 +2408,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 75,
+		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"Mercenary",
@@ -2430,6 +2433,7 @@
 		"strength": 13,
 		"rangedStrength": 13,
 		"cost": 100,
+		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"Mercenary",
@@ -2452,6 +2456,7 @@
 		"movement": 2,
 		"strength": 23,
 		"cost": 125,
+		"hurryCostModifier": -10,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
@@ -2476,6 +2481,7 @@
 		"strength": 23,
 		"rangedStrength": 23,
 		"cost": 175,
+		"hurryCostModifier": -10,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
@@ -2569,6 +2575,7 @@
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
+		"hurryCostModifier": -10,
 		"requiredTech": "Portable Power Sources",
 		"uniques": [
 			"Mercenary",
@@ -2594,6 +2601,7 @@
 		"movement": 4,
 		"strength": 15,
 		"cost": 100,
+		"hurryCostModifier": -10,
 		"requiredTech": "Missiles",
 		"uniques": [
 			"Mercenary",
@@ -2626,6 +2634,7 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
+		"hurryCostModifier": -10,
 		"requiredTech": "Hydrodynamics",
 		"uniques": [
 			"Mercenary",
@@ -2650,6 +2659,7 @@
 		"movement": 5,
 		"strength": 20,
 		"cost": 125,
+		"hurryCostModifier": -10,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Mercenary",
@@ -2675,6 +2685,7 @@
 		"movement": 3,
 		"strength": 12,
 		"cost": 100,
+		"hurryCostModifier": -10,
 		"requiredTech": "Hovercrafts",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -2802,6 +2813,7 @@
 		"movement": 3,
 		"strength": 35,
 		"cost": 150,
+		"hurryCostModifier": -10,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -2899,6 +2911,7 @@
 		"strength": 30,
 		"rangedStrength": 40,
 		"cost": 175,
+		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -2930,6 +2943,7 @@
 		"movement": 5,
 		"strength": 30,
 		"cost": 175,
+		"hurryCostModifier": -10,
 		"requiredTech": "Mecha Prototypes",
 		"requiredResource": "Titanium",
 		"uniques": [
