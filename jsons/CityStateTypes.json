@@ -9,18 +9,25 @@
         "allyBonusUniques": [
             "[+6 Culture] <before the [Colonization era]>",
             "[+12 Culture] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+26 Culture] <starting from the [Realization era]>"
+            "[+26 Culture] <starting from the [Realization era]>",
+			"[-5]% Culture cost of adopting new Policies"
         ],
         "color": [139, 96, 255]
     },
     {
         "name": "Agricultural",
         "friendBonusUniques": [
-			"[+2 Food] [in capital]"
+			"[+2 Food] [in capital] <before the [Colonization era]>",
+			"[+3 Food] [in capital] <starting from the [Colonization era]> <before the [Realization era]>",
+			"[+4 Food] [in capital] <starting from the [Realization era]>"
 		],
         "allyBonusUniques": [
-			"[+2 Food] [in capital]", 
-			"[+1 Food] [in all cities]"
+			"[+2 Food] [in capital] <before the [Colonization era]>",
+			"[+3 Food] [in capital] <starting from the [Colonization era]> <before the [Realization era]>",
+			"[+4 Food] [in capital] <starting from the [Realization era]>", 
+			"[+1 Food] [in all cities] <before the [Colonization era]>",
+			"[+2 Food] [in all cities] <starting from the [Colonization era]> <before the [Realization era]>",
+			"[+3 Food] [in all cities] <starting from the [Realization era]>"
 		],
         "color": [56, 255, 112]
     },
@@ -87,14 +94,14 @@
 	{
         "name": "Industrial",
         "friendBonusUniques":  [
-            "[+3 Production] <before the [Colonization era]>",
-            "[+6 Production] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+13 Production] <starting from the [Realization era]>"
+            "[+3 Production] [in all cities] <before the [Colonization era]>",
+            "[+6 Production] [in all cities] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Production] [in all cities] <starting from the [Realization era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Production] <before the [Colonization era]>",
-            "[+12 Production] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+26 Production] <starting from the [Realization era]>",
+            "[+6 Production] [in all cities] <before the [Colonization era]>",
+            "[+12 Production] [in all cities] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+26 Production] [in all cities] <starting from the [Realization era]>",
 			"[+5]% Production when constructing [All] buildings [in all cities]"
         ],
         "color": [220, 100, 15]
