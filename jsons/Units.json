@@ -795,6 +795,8 @@
 		"requiredTech": "Payload Delivery",
 		"uniques": [
 			"Can perform Air Sweep",
+			"[100]% chance to intercept air attacks <vs [Satellite] units>",
+			"[+300]% Damage when intercepting",
 			"Can only attack [Satellite] units",
 			"[+200]% Strength <vs [Satellite] units>",
 			"[-100]% maintenance costs",
@@ -856,6 +858,7 @@
 		//"obsoleteTech": "Radar",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"[+300]% Damage when intercepting",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+200]% Strength <vs [Satellite] units>",
 			"[-99]% Strength <vs cities> <when attacking>",
