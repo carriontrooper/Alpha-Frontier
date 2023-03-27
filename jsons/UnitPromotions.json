@@ -440,7 +440,7 @@
 	{
 		"name": "Coastal Assault",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Close Range Water", "Hover"],
+		"unitTypes": ["Close Range Water"],
 		"row": 41,
         "column": 0
 	},
