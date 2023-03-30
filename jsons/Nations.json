@@ -398,7 +398,7 @@
 		"innerColor": [39, 175, 59],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "Somatic Element",
-		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[15] HP when healing <for [Wounded] units>"],
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[10] HP when healing <for [Wounded] units>"],
 		"cities": [
 			"Magnasanti",
 			"Mandira",
@@ -770,7 +770,7 @@
 		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Xeno Brotherhood",
-		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>"],
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>","[+10]% Strength <for [Xeno] units>"],
 		"cities": [
 			"Xenopolis",
 			"Helixien",
