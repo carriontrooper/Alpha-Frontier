@@ -133,7 +133,7 @@
 	{
 		"name": "Hover",
 		"movementType": "Land",
-		"uniques": ["Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+		"uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
 	},
 	{
 		"name": "Water Carrier",
@@ -146,7 +146,7 @@
 	{
 		"name": "Hover Carrier",
 		"movementType": "Land",
-		"uniques": ["Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+		"uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work
