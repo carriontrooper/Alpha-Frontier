@@ -27,7 +27,7 @@
 	{
 		"name": "Xeno Air",
 		"movementType": "Land",
-		"uniques": ["Air","Can pass through impassable tiles","Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+		"uniques": ["Air","Can pass through impassable tiles","[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
 	},
 
 	{
@@ -128,7 +128,7 @@
 	{
 		"name": "Helicopter",
 		"movementType": "Land",
-		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","Defense bonus when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+		"uniques": ["Air", "Can pass through impassable tiles","[+1] Sight <when [Embarked]>","Defense bonus when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
 	},
 	{
 		"name": "Hover",
