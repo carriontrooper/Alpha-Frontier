@@ -15,6 +15,7 @@
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
 			"Pillaging this improvement yields approximately [+2 Food]"
@@ -47,6 +48,7 @@
 		"techRequired": "Xenoagriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
 			"Pillaging this improvement yields approximately [+3 Food, +2 Gold]"
@@ -80,6 +82,7 @@
 		"techRequired": "Genetics",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetic Hybridization]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Designer Lifeforms]>",
 			"Pillaging this improvement yields approximately [+3 Food, +3 Gold, +2 Culture]"
@@ -105,6 +108,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
@@ -131,6 +135,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenogeology",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
 			"[+1 Production] <after discovering [Crust Fracking]>",
 			"Removes removable features when built",
@@ -168,6 +173,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Computing",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"[+1 Gold] <within [3] tiles of a [City center]>",
 			"[+1 Gold] <after discovering [Cryptocurrency]>",
 			"[+1 Gold] <in [Tundra] tiles>",
@@ -274,6 +280,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Gold] <after discovering [Efficient Extraction Methods]>",
@@ -299,6 +306,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Xenogeology",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
 			"[+1 Production] <upon constructing [Mining Tunnels]>",
 			"Gives a defensive bonus of [10]% <upon adopting [Purification Ideology]>",
@@ -327,6 +335,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Research Networks",
 		"uniques": [
+			"Cannot be built on [Water] tiles",
 			"[+2 Science] <after discovering [Info Networks]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+5 Science, +2 Gold]"
