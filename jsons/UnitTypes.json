@@ -27,7 +27,7 @@
 	{
 		"name": "Xeno Air",
 		"movementType": "Land",
-		"uniques": ["Air","Can pass through impassable tiles","[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+		"uniques": ["Air","Can pass through impassable tiles", /* "[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked", */ "May travel on Water tiles without embarking"]
 	},
 
 	{
@@ -128,12 +128,12 @@
 	{
 		"name": "Helicopter",
 		"movementType": "Land",
-		"uniques": ["Air", "Can pass through impassable tiles","[+1] Sight <when [Embarked]>","Defense bonus when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+		"uniques": ["Air", "Can pass through impassable tiles", /* "[+1] Sight <when [Embarked]>","Defense bonus when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked", */ "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Hover",
 		"movementType": "Land",
-		"uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+		"uniques": [ /* "[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked", */ "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Water Carrier",
@@ -146,7 +146,7 @@
 	{
 		"name": "Hover Carrier",
 		"movementType": "Land",
-		"uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+		"uniques": [ /* "[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked", */ "May travel on Water tiles without embarking"]
 	},
 
 	// Deprecated unit types required for mods without a UnitTypes.json file to work
