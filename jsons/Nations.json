@@ -146,7 +146,7 @@
 		"uniques": [
 			"Receive a tech boost when scientific buildings/wonders are built in capital",
 			"Science gained from research agreements [+100]%",
-			"Unhappiness from number of Cities doubled"
+			"[+100]% unhappiness from the number of Cities"
 		],
 		"cities": [
 			"Cydonia Central",
