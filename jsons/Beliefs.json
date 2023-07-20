@@ -277,7 +277,7 @@
 		"name": "Specialist Reverence",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] <if this city has at least [1] specialists>"
+			"[+2 Production] <in cities with at least [1] [Specialists]>"
 		]
 	},
 	{
