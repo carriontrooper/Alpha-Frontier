@@ -272,6 +272,9 @@
 				"name": "Colony Administration",
 				"row": 8,
 				"quote": "'I wouldn't know what to do if we haven't installed more bandwidth and more servers. It would be a bureaucratic hell, signed in triplicate.' - Yuen Xin Tiao, senior administrator",
+				"uniques": [
+					"Enables Defensive Pacts"
+				]
 				"prerequisites": ["Hab-Domes", "Research Networks"]
 			},
 			{
