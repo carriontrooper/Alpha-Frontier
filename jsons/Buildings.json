@@ -2947,13 +2947,34 @@
 			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
 		],
 		"requiredTech": "Mind Linking",
-		"quote": "'How do you expect to communicate with the ocean, when you can’t even understand one another?.' - Stanislaw Kelvin, xenobiologist",
+		"quote": "'How do you expect to communicate with the ocean, when you can’t even understand one another?' - Stanislaw Kelvin, xenobiologist",
 		"civilopediaText": [
 			{
 				"text": "Using mind linking technology, humans can finally begin to understand the alien wisdom of the Amoebic Lake."
 			}
 		]
 	},
+	/*
+	{
+		"name": "Mystery Flesh Pit Research Park",
+		"science": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Influencer": 1, "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Mystery Flesh Pit] within [3] tiles",
+			"[+1 Food, +1 Culture] from [Organic] tiles [in this city]",
+			"[+2 Science, +2 Gold] from [Mystery Flesh Pit] tiles [in all cities]"
+		],
+		"requiredTech": "Genetics",
+		"quote": "'It's amazing how this living cave is even able to live. No known nutrient input has been discovered, and yet this organism still manage to grow slowly over the years it's been here.' - Yasmin binti Rashidah, xenobiologist",
+		"civilopediaText": [
+			{
+				"text": "Part research facility, part tourist attraction, the park allows scientists and tourits to spelunk carefully into the depths of this organic anomaly."
+			}
+		]
+	},
+	*/
 
 	// Victory Buildings
 	{
