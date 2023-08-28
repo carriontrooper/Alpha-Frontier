@@ -720,6 +720,31 @@
 			}
 		]
 	}
+	/* indev, don't forget to put the comma above this
+	{
+		"name": "MysteryFleshPit",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"science": 6,
+		"food": 2,
+		"overrideStats": true,
+		"occursOn": ["Plains", "Grassland"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Hill] tiles",
+			"Must be adjacent to [0] [Mountain] tiles"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 4,
+		"civilopediaText": [
+			{
+				"text": "A hole - or rather, an orifice - of an unknown, massive subterranean organism. Whether this is a cavity inside a gargantuan organism, or something that grows inside natural caverns, is hotly debated - its distinct DNA difference from the Xenos also intrigues scientists."
+			}
+		]
+	},
+	*/
 	/*
 	{
 		"name": "Great Barrier Reef",
