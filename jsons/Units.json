@@ -2040,7 +2040,7 @@
 			"[+100]% Strength <vs [Mech] units>",
 			"[-25]% Strength <vs [Air] units>",
 			"May withdraw before melee ([50]%)",
-			"Consumes [1] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
