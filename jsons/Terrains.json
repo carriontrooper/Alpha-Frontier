@@ -722,7 +722,7 @@
 	}
 	/* indev, don't forget to put the comma above this
 	{
-		"name": "MysteryFleshPit",
+		"name": "Mystery Flesh Pit",
 		"type": "NaturalWonder",
 		"culture": 2,
 		"science": 6,
