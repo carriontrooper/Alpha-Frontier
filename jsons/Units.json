@@ -1687,7 +1687,7 @@
 		],
 		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "MissileLaunch",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Laser Mecha",
@@ -2011,7 +2011,54 @@
 			}
 		]
 	},
-	
+
+	//// Aerial Units
+	/*
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Heavy Heli Gunship",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"range": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 465,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Can carry [2] [Cruise Missile] units",
+			"Can carry [1] [ICBM] units",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[-25]% Strength <vs [Air] units>",
+			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Heli Gunship",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These flying juggernauts use nanotechnology to stay lightweight, yet durable enough to take hits that would normally kill a tank. Not to mention its Ulframite-powered engines that allow it to carry exceptional armaments."
+			}
+		]
+	},
+	*/
 
 	//// Submarine
 	{
@@ -3353,7 +3400,7 @@
 		"requiredTech": "Metamaterials",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["GHOST Hack"],
-		"attackSound": "shot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/GHOST Unit",
@@ -3567,7 +3614,7 @@
 		],
 		"promotions": ["Ignore terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/War Casket",
