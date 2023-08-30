@@ -781,6 +781,37 @@
 		]
 	},
 	{
+		"name": "Biodome City",
+		//"replaces": "Academy",
+		//"uniqueTo": "Somatek Biomedical",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"food": 5,
+		"uniques": [
+			"Great Improvement",
+			"Urban Improvement",
+			"[+1 Science] <after discovering [Research Networks]>",
+			"[+2 Science] <after discovering [Quantum Theory]>",
+			"[+2 Science] <after discovering [Artificial Intelligence]>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Science, +5 Food]"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Biodome City",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Under the dome, a bustling, eco-friendly city thrives. Various flora are cultivated on the buildings themselves, providing food to the masses. And of course, the laboratories and educational services are integrated into daily life here"
+			}
+		]
+	},
+	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
@@ -836,6 +867,7 @@
 			}
 		]
 	},
+	/*
 	{
 		"name": "Biodome City",
 		//"replaces": "Academy",
@@ -867,6 +899,7 @@
 			}
 		]
 	},
+	*/
 	{
 		"name": "Holorelay",
 		"uniqueTo": "Thespiaux Medianet",
