@@ -373,7 +373,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Can instantly construct a [Water] improvement <for [2] movement>",
+			"May create improvements on water resources <for [2] movement>", // Don't change this
 			"Can build [Water] improvements on tiles"
 		],
 		"cost": 70,
