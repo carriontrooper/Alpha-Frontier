@@ -65,7 +65,7 @@
 				"Separator": true
 			},
 			{
-				"text": "While fungal xeno-organisms flourish in this planet, most of them are toxic or disagree with our biochemistry. Some of them, however, possess fruiting bodies that are both edible and tasty."
+				"text": "While fungal xeno-organisms flourish in this planet, most of them are either toxic or otherwise disagree with our biochemistry. Some, however, possess fruiting bodies that are both edible and tasty."
 			}
 		]
 	},
@@ -98,7 +98,7 @@
 				"Separator": true
 			},
 			{
-				"text": "There are few non-fungal plantlike xeno-organisms, and most do not grow fruits like these. Quite tasty if harvested in the right season."
+				"text": "There are few non-fungal plantlike xeno-organisms on this planet, and most do not grow fruits like these. Quite tasty if harvested in the right season."
 			}
 		]
 	},
@@ -131,7 +131,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Hardy extremophiles living in the hottest of deserts and the coldest of tundras, these stone-like xenoflora can be the sole source of nutrient in these places."
+				"text": "Hardy extremophiles living in the hottest of deserts and the coldest of tundras, these stone-like xenoflora can be the sole source of nutrients in these places."
 			}
 		]
 	},
@@ -240,7 +240,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Not to be confused with an obscure old Earth explosive, these are iron ores which naturally form a hexagonal lattice due to other elements in its molecule. This also means that they are easy to smelt into steel."
+				"text": "Not to be confused with an obscure old Earth explosive, these are iron ores which naturally form a hexagonal lattice due to other elements in its molecule. This also means that they are easy to smelt into high-grade steel."
 			}
 		]
 	},
@@ -270,7 +270,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A good, solid rock, these stones with volcanic origins are good building material."
+				"text": "A good, solid rock, these stones with volcanic origins make for good, readily-available building material."
 			}
 		]
 	},
@@ -443,7 +443,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Microbial plantlife floating in the sea, they exhibit striking similarities to the algae of old Earth. This means they, too, can be a source of nutrient and biofuel."
+				"text": "Microbial plantlife floating in the sea, they exhibit striking similarities to the algae of old Earth. This means they, too, can become a source of nutrient and biofuel."
 			}
 		]
 	},
@@ -601,7 +601,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Some type of moss or fungal xenoflora, these hardy organisms can enhance the taste of food. But prepared in a different way, and they become a potent hallucinogenic."
+				"text": "Some type of moss or fungal xenoflora, these hardy organisms can enhance the taste of food. But prepared in a different way, and they become a potent hallucinogen."
 			}
 		]
 	},
@@ -765,7 +765,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Among the least hostile xenofauna we've ever encountered in this planet, Snuffets were at the bottom of the planetary food chain. Colonists also find them to be a fancy exotic pet, as long as you spay them."
+				"text": "Among the least hostile xenofauna we've ever encountered in this planet, Snuffets were at the bottom of the planetary food chain. Colonists also regard them as a fancy exotic pet, as long as you spay them."
 			}
 		]
 	},
@@ -804,7 +804,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The same shiny material that was highly prized in old Earth, it is now valued more by its use in electronics rather than its lustre."
+				"text": "The same shiny material that was highly prized in old Earth, it is now valued more for its use in electronics rather than its lustre."
 			}
 		]
 	},
@@ -843,7 +843,7 @@
 				"Separator": true
 			},
 			{
-				"text": "These crystals possess a certain molecular structure that a soothing hum can be heard when they are lightly struck. They have since become a good stress reliever for colonists."
+				"text": "These crystals possess a peculiar molecular structure that allows them to emit a soothing hum when they are lightly struck. They have since become a good stress reliever for colonists."
 			}
 		]
 	},
@@ -952,7 +952,7 @@
 				"Separator": true
 			},
 			{
-				"text": "This blue crustacean-like xenofauna is said to be the most delicious in this planet."
+				"text": "This blue crustacean-like xenofauna is said to be the most delicious seafood in this planet."
 			}
 		]
 	},
@@ -1079,7 +1079,7 @@
 		"resourceType": "Luxury",
 		"civilopediaText": [
 			{
-				"text": "Somatek Biomedical's namesake, this long-extinct plant has been successfully recreated from fossilized pollen. It has various medicinal properties."
+				"text": "Somatek Biomedical's namesake, this long-extinct plant has been successfully reconstructed from fossilized pollen. It has various medicinal properties."
 			}
 		]
 	},
@@ -1137,7 +1137,7 @@
 		]
 		"civilopediaText": [
 			{
-				"text": "Baubles, knick-knacks and assorted souvenir-worthy small items of decorative function - their value lies more in the memories of obtaining them."
+				"text": "Baubles, knick-knacks and assorted souvenir-worthy small items of decorative function - their value lies more in the memories created of obtaining them."
 			}
 		]
 	},
