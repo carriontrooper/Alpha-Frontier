@@ -1482,7 +1482,7 @@
 		"requiredTech": "Satellite Networks",
 		"uniques": [
 			"[+1] Sight",
-			"Blast radius [1]",
+			//"Blast radius [1]",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -3574,7 +3574,7 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Can only attack [All] units <[4] times> <after which this unit is consumed>",
-			"Blast radius [2]",
+			//"Blast radius [2]",
 			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
 			"[-100]% Strength <vs [Satellite] units>",
