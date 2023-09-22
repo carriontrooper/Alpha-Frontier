@@ -121,7 +121,7 @@
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 5,
-		"cost": 50,
+		"cost": 5,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
 		"promotions": ["Ignore terrain cost"],
@@ -173,14 +173,16 @@
 		"uniqueTo": "Barbarians",
 		"movement": 0,
 		"range": 1,
-		"strength": 20,
+		"strength": 50,
 		"rangedStrength": 24,
 		"cost": 100,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Infantry] units>",
-			"Blast radius [1]",
+			//"Blast radius [1]", //doesn't work
+			"[-10]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
+			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
 			"[+2] Movement <in [Mycelium] tiles>",
 			"Invisible to non-adjacent units <in [Jungle] tiles>"
 		],
@@ -231,7 +233,7 @@
 		"unitType": "Xeno Stealth Water",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 20,
+		"strength": 50,
 		"cost": 50,
 		"requiredTech": "Exoskeletons",
 		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
@@ -1480,7 +1482,7 @@
 		"requiredTech": "Satellite Networks",
 		"uniques": [
 			"[+1] Sight",
-			"Blast radius [1]",
+			//"Blast radius [1]",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -3572,7 +3574,7 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Can only attack [All] units <[4] times> <after which this unit is consumed>",
-			"Blast radius [2]",
+			//"Blast radius [2]",
 			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
 			"[-100]% Strength <vs [Satellite] units>",
