@@ -460,7 +460,7 @@
 		"uniques": [
 			"[+25]% Spread Religion Strength <for [Great Visionary] units>",
 			"[-25]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost for [Great Visionary] units [-25]%"
+			//"[Faith] cost for [Great Visionary] units [-25]%"
 		]
 	},
 	{
