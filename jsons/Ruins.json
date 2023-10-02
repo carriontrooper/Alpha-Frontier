@@ -74,7 +74,7 @@
 		"name": "found partial survey data",
 		"notification": "We have found partial survey data from the crash site!",
 		"uniques": [
-			"From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"
+			"From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
 		]
 	},
 	{
