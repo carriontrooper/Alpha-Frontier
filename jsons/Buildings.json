@@ -2653,7 +2653,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Provides [2] [Digital Storage Space]",
-			"Provides [+1 Happiness] per [2] social policies adopted"
+			"[+1 Happiness] per [2] social policies adopted"
 		],
 		"requiredTech": "Nanotechnology",
 		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
