@@ -3576,7 +3576,9 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
 		"uniques": [
-			"Can only attack [All] units <[4] times> <after which this unit is consumed>",
+			"Can only attack [All] units", //<[4] times> <after which this unit is consumed>",
+			"Costs [-4] [Nuke Sat Charge]",
+			"Costs [1] [Nuke Sat Charge] <when attacking>",
 			//"Blast radius [2]",
 			"Destroys tile improvements when attacking",
 			"[+200]% Strength <vs [non-air] units>",
