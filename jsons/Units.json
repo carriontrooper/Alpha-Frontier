@@ -375,8 +375,9 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"May create improvements on water resources <for [2] movement>", // Don't change this
-			"Can build [Water] improvements on tiles"
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"Can instantly construct a [Water] improvement <for [2] movement>"
 		],
 		"cost": 70,
 		"civilopediaText": [
@@ -1827,7 +1828,9 @@
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Ulframite",
 		"uniques": [
-			"Can only attack [City] units <[3] times> <after which this unit is consumed>",
+			"Can only attack [City] units", // <[3] times> <after which this unit is consumed>",
+			"Provides [3] [Nuke Sat Charge]",
+			"Costs [1] [Nuke Sat Charge] <when attacking>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"[+2000]% Strength <vs [non-air] units>",
