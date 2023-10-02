@@ -1483,7 +1483,7 @@
 	{
 		"name": "Nuke Sat Charge",
 		"resourceType": "Strategic",
-		"revealedBy: "Orbital Deterrents",
+		"revealedBy": "Orbital Deterrents",
 		"uniques": [
 			"Stockpiled",
 			"Cannot be traded",
