@@ -384,6 +384,7 @@
 		"Grassland+Forest+Chitin+Enclosure": ["Grassland","EnclosureBack","ForestClearingGrasslandBack","Chitin","ForestClearingGrasslandFront","EnclosureFront"],
 		"Plains+Forest+Chitin+Enclosure": ["Plains","EnclosureBack","ForestClearingPlainsBack","Chitin","ForestClearingPlainsFront","EnclosureFront"],
 		"Tundra+Forest+Chitin+Enclosure": ["Tundra","EnclosureBack","ForestClearingTundraBack","Chitin","ForestClearingTundraFront","EnclosureFront"],
+		"Mycelium+Forest+Chitin+Enclosure": ["Mycelium","EnclosureBack","ForestClearingMyceliumBack","Chitin","ForestClearingMyceliumFront","EnclosureFront"],
 		
 		"Grassland+Hill+Forest+Chitin+Enclosure": ["Grassland","Hill","EnclosureBack","ForestClearingGrasslandBack","Chitin","ForestClearingGrasslandFront","EnclosureFront"],
 		"Plains+Hill+Forest+Chitin+Enclosure": ["Plains","Hill","EnclosureBack","ForestClearingPlainsBack","Chitin","ForestClearingPlainsFront","EnclosureFront"],
@@ -400,10 +401,16 @@
 		"Plains+Snuffets+Enclosure": ["Plains","EnclosureBack","Snuffets","EnclosureFront"],
 		"Tundra+Snuffets+Enclosure": ["Tundra","EnclosureBack","Snuffets","EnclosureFront"],
 		"Mycelium+Snuffets+Enclosure": ["Mycelium","EnclosureBack","Snuffets","EnclosureFront"],
+
+		"Grassland+Hill+Snuffets+Enclosure": ["Grassland","Hill","EnclosureBack","Snuffets","EnclosureFront"],
+		"Plains+Hill+Snuffets+Enclosure": ["Plains","Hill","EnclosureBack","Snuffets","EnclosureFront"],
+		"Tundra+Hill+Snuffets+Enclosure": ["Tundra","Hill","EnclosureBack","Snuffets","EnclosureFront"],
+		"Mycelium+Hill+Snuffets+Enclosure": ["Mycelium","Hill","EnclosureBack","Snuffets","EnclosureFront"],
 		
 		"Grassland+Forest+Snuffets+Enclosure": ["Grassland","EnclosureBack","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront","EnclosureFront"],
 		"Plains+Forest+Snuffets+Enclosure": ["Plains","EnclosureBack","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront","EnclosureFront"],
 		"Tundra+Forest+Snuffets+Enclosure": ["Tundra","EnclosureBack","ForestClearingTundraBack","Snuffets","ForestClearingTundraFront","EnclosureFront"],
+		"Mycelium+Forest+Snuffets+Enclosure": ["Mycelium","EnclosureBack","ForestClearingMyceliumBack","Snuffets","ForestClearingMyceliumFront","EnclosureFront"],
 		
 		"Grassland+Hill+Forest+Snuffets+Enclosure": ["Grassland","Hill","EnclosureBack","ForestClearingGrasslandBack","Snuffets","ForestClearingGrasslandFront","EnclosureFront"],
 		"Plains+Hill+Forest+Snuffets+Enclosure": ["Plains","Hill","EnclosureBack","ForestClearingPlainsBack","Snuffets","ForestClearingPlainsFront","EnclosureFront"],
