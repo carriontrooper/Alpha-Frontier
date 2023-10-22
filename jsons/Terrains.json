@@ -719,8 +719,8 @@
 				"text": "This vast body of water is composed of one humongous single-celled organism. Ingesting its gelatinous liquid causes intense hallucinations, and many believers come in pilgrimage."
 			}
 		]
-	}
-	/* indev, don't forget to put the comma above this
+	},
+	
 	{
 		"name": "Mystery Flesh Pit",
 		"type": "NaturalWonder",
@@ -744,7 +744,7 @@
 			}
 		]
 	},
-	*/
+	
 	/*
 	{
 		"name": "Great Barrier Reef",
