@@ -1515,7 +1515,7 @@
 		"percentStatBonus": { "food": 5, "gold": 5 },
 		"requiredTech": "Solar Reflectors",
 		"requiredBuilding": "Orbital Launch Facility",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": ["Orbital","Consumes [2] [Titanium]"],
 		"civilopediaText": [
 			{
@@ -1567,7 +1567,7 @@
 			"Provides [1] [Yairmite]"
 		],
 		"requiredTech": "Exotic Quantum Physics",
-		"requiredResource": "Antimatter",
+		//"requiredResource": "Antimatter",
 		"civilopediaText": [
 			{
 				"text": "Basically, this facility is fishing for resources in the very sea of uncertain possibilities."
@@ -1600,7 +1600,7 @@
 		"percentStatBonus": { "food": 5 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Advanced Biotech",
-		"requiredResource": "Vitamass",
+		//"requiredResource": "Vitamass",
 		"uniques": [
 			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
 			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing",
@@ -1645,7 +1645,7 @@
 			"Consumes [1] [Yairmite]",
 		],
 		"requiredTech": "N-Dimensional Exploration",
-		"requiredResource": "Yairmite",
+		//"requiredResource": "Yairmite",
 		"civilopediaText": [
 			{
 				"text": "Uses manufactured pocket dimensions to create places where it's bigger on the inside."
