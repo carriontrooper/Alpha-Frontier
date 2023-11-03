@@ -557,7 +557,7 @@
 		"strength": 12,
 		"cost": 100,
 		"requiredTech": "Hovercrafts",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"upgradesTo": "Hovertank",
 		"obsoleteTech": "Composite Armor",
 		"uniques": [
@@ -739,7 +739,7 @@
 		"interceptRange": 4,
 		"cost": 150,
 		"requiredTech": "Aeronautics",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"upgradesTo": "Beam Fighter",
 		"obsoleteTech": "Lasers",
 		"uniques": [
@@ -824,7 +824,7 @@
 		"interceptRange": 0,
 		"cost": 100,
 		"requiredTech": "Payload Delivery",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		//"upgradesTo": "Laser Satellite",
 		//"obsoleteTech": "Radar",
 		"uniques": [
@@ -855,7 +855,7 @@
 		"interceptRange": 1,
 		"cost": 200,
 		"requiredTech": "Payload Delivery",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"upgradesTo": "Laser Satellite",
 		//"obsoleteTech": "Radar",
 		"uniques": [
@@ -885,7 +885,7 @@
 		"unitType": "Civilian",
 		"cost": 200,
 		"requiredTech": "Satellite Networks",
-		"requiredResource": "Digital Storage Space",
+		//"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength bonus for [Data Uplinked] units within [2] tiles",
@@ -1065,7 +1065,7 @@
 		"strength": 35,
 		"cost": 250,
 		"requiredTech": "Alloy Microstructures",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
@@ -1097,7 +1097,7 @@
 		"rangedStrength": 35,
 		"cost": 275,
 		"requiredTech": "Alloy Microstructures",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
@@ -1135,7 +1135,7 @@
 		"rangedStrength": 55,
 		"cost": 275,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"[+1] Sight",
 			"Only available <in cities with a [Naval Yard]>",
@@ -1166,7 +1166,7 @@
 		"rangedStrength": 32,
 		"cost": 275,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"upgradesTo": "Phantom Submersible"
 		"uniques": [
 			"[+100]% Strength <vs [Submarine] units> <when attacking>",
@@ -1200,7 +1200,7 @@
 		"strength": 32,
 		"cost": 250,
 		"requiredTech": "Satellite Networks",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1237,7 +1237,7 @@
 		"strength": 35,
 		"cost": 150,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Armored",
 			"Hovercraft",
@@ -1268,7 +1268,7 @@
 		"strength": 40,
 		"cost": 150,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"upgradesTo": "Drop Tank",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1302,7 +1302,7 @@
 		"strength": 35,
 		"cost": 175,
 		"requiredTech": "Lasers",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1343,7 +1343,7 @@
 		"rangedStrength": 40,
 		"cost": 175,
 		"requiredTech": "Next-Gen Armaments",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -1378,7 +1378,7 @@
 		"strength": 30,
 		"cost": 175,
 		"requiredTech": "Mecha Prototypes",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"upgradesTo": "Assault Mecha",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1420,7 +1420,7 @@
 		"interceptRange": 4,
 		"cost": 150,
 		"requiredTech": "Lasers",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
@@ -1506,7 +1506,7 @@
 		"interceptRange": 3,
 		"cost": 300,
 		"requiredTech": "Lasers",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		//"upgradesTo": "Fighter",
 		//"obsoleteTech": "Radar",
 		"uniques": [
@@ -1603,7 +1603,7 @@
 		"strength": 45,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1640,7 +1640,7 @@
 		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -1677,7 +1677,7 @@
 		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Fusion Power",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"Mech",
 			"[-50]% Strength <vs cities> <when attacking>",
@@ -1712,7 +1712,7 @@
 		"rangedStrength": 55,
 		"cost": 550,
 		"requiredTech": "Mind-Machine Interface",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [
@@ -1754,7 +1754,7 @@
 		"rangedStrength": 50,
 		"cost": 345,
 		"requiredTech": "Mind-Machine Interface",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -1795,7 +1795,7 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Orbital Deterrents",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
@@ -1826,7 +1826,7 @@
 		"interceptRange": 0,
 		"cost": 1500,
 		"requiredTech": "Orbital Deterrents",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"Can only attack [City] units", // <[3] times> <after which this unit is consumed>",
 			"Costs [-3] [Nuke Sat Charge]",
@@ -1893,7 +1893,7 @@
 		"strength": 40,
 		//"rangedStrength": 40,
 		"cost": 380,
-		"requiredResource": "Digital Storage Space",
+		//"requiredResource": "Digital Storage Space",
 		"requiredTech": "Artificial Intelligence",
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Drop Trooper",
@@ -1958,7 +1958,7 @@
 		"strength": 50,
 		"cost": 450,
 		"requiredTech": "Stasis Fields",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"May Paradrop up to [5] tiles from inside friendly territory",
 			"Can move after attacking",
@@ -1992,7 +1992,7 @@
 		"strength": 50,
 		"cost": 450,
 		"requiredTech": "Artificial Intelligence",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -2032,7 +2032,7 @@
 		"rangedStrength": 60,
 		"cost": 465,
 		"requiredTech": "Nanotechnology",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -2077,7 +2077,7 @@
 		"rangedStrength": 52,
 		"cost": 375,
 		"requiredTech": "Metamaterials",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"[+150]% Strength <vs [Submarine] units>",
 			"[+150]% Strength <vs [Xeno Stealth Water] units>",
@@ -2141,7 +2141,7 @@
 		"rangedStrength": 61,
 		"cost": 400,
 		"requiredTech": "Graviton Harnessing",
-		"requiredResource": "Antimatter",
+		//"requiredResource": "Antimatter",
 		"uniques": [
 			"[+1000]% Strength <when attacking>",
 			"Ranged attacks may be performed over obstacles",
@@ -2175,7 +2175,7 @@
 		"rangedStrength": 50,
 		"cost": 355,
 		"requiredTech": "Hive Mind",
-		"requiredResource": "Vitamass",
+		//"requiredResource": "Vitamass",
 		"uniques": [
 			"Drone",
 			"No defensive terrain bonus",
@@ -2247,7 +2247,7 @@
 		"range": 2,
 		"cost": 700,
 		"requiredTech": "Antimatter Harnessing",
-		"requiredResource": "Antimatter",
+		//"requiredResource": "Antimatter",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -2314,7 +2314,7 @@
 		"strength": 60,
 		"cost": 600,
 		"requiredTech": "Advanced Biotech",
-		"requiredResource": "Vitamass",
+		//"requiredResource": "Vitamass",
 		"uniques": [
 			"Xeno",
 			"Tame Xeno",
@@ -2353,7 +2353,7 @@
 		"rangedStrength": 56,
 		"cost": 500,
 		"requiredTech": "Cyberbrains",
-		"requiredResource": "Digital Storage Space",
+		//"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+2] Sight",
 			"Damage is ignored when determining unit Strength",
@@ -2386,7 +2386,7 @@
 		"interceptRange": 4,
 		"cost": 550,
 		"requiredTech": "Exotic Quantum Physics",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength when performing Air Sweep",
@@ -2744,7 +2744,7 @@
 		"cost": 100,
 		"hurryCostModifier": -10,
 		"requiredTech": "Hovercrafts",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2778,7 +2778,7 @@
 		"interceptRange": 4,
 		"cost": 150,
 		"requiredTech": "Aeronautics",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2810,7 +2810,7 @@
 		"strength": 35,
 		"cost": 250,
 		"requiredTech": "Alloy Microstructures",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2839,7 +2839,7 @@
 		"rangedStrength": 32,
 		"cost": 275,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2870,7 +2870,7 @@
 		"cost": 150,
 		"hurryCostModifier": -10,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2899,7 +2899,7 @@
 		"strength": 40,
 		"cost": 150,
 		"requiredTech": "Composite Armor",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2928,7 +2928,7 @@
 		"strength": 35,
 		"cost": 175,
 		"requiredTech": "Lasers",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2966,7 +2966,7 @@
 		"cost": 175,
 		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -2998,7 +2998,7 @@
 		"cost": 175,
 		"hurryCostModifier": -10,
 		"requiredTech": "Mecha Prototypes",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -3029,7 +3029,7 @@
 		"strength": 45,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -3061,7 +3061,7 @@
 		"rangedStrength": 50,
 		"cost": 450,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
@@ -3255,7 +3255,7 @@
 		"rangedStrength": 31,
 		"cost": 350,
 		"requiredTech": "Graviton Harnessing",
-		"requiredResource": "Antimatter",
+		//"requiredResource": "Antimatter",
 		"uniques": [
 			"[+1] Sight",
 			"[+1000]% Strength <when attacking>",
@@ -3375,7 +3375,7 @@
 		"strength": 16,
 		"cost": 125,
 		"requiredTech": "Next-Gen Armaments",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Consumes [1] [Titanium]",
 			"Damage is ignored when determining unit Strength",
@@ -3539,7 +3539,7 @@
 		"interceptRange": 4,
 		"cost": 150,
 		"requiredTech": "Aeronautics",
-		"requiredResource": "Promethine",
+		//"requiredResource": "Promethine",
 		"upgradesTo": "Beam Fighter",
 		"uniques": [
 			"[+2] Sight",
@@ -3576,7 +3576,7 @@
 		"interceptRange": 0,
 		"cost": 1000,
 		"requiredTech": "Orbital Deterrents",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Can only attack [All] units", //<[4] times> <after which this unit is consumed>",
 			"Costs [-4] [Nuke Sat Charge]",
@@ -3610,7 +3610,7 @@
 		"strength": 60,
 		"cost": 500,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
@@ -3647,7 +3647,7 @@
 		"strength": 40,
 		"cost": 400,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
@@ -3684,7 +3684,7 @@
 		"strength": 47,
 		"cost": 475,
 		"requiredTech": "Combat Mechas",
-		"requiredResource": "Titanium",
+		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
@@ -4068,7 +4068,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "FTL Travel",
-		"requiredResource": "Gravitix",
+		//"requiredResource": "Gravitix",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
@@ -4098,7 +4098,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Hyperwave Communications",
-		"requiredResource": "Yairmite",
+		//"requiredResource": "Yairmite",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
@@ -4129,7 +4129,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Graviton Harnessing",
-		"requiredResource": "Antimatter",
+		//"requiredResource": "Antimatter",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
@@ -4159,7 +4159,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Zero Point Energy",
-		"requiredResource": "Ulframite",
+		//"requiredResource": "Ulframite",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
@@ -4189,7 +4189,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Nanotechnology",
-		"requiredResource": "Vitamass",
+		//"requiredResource": "Vitamass",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
@@ -4219,7 +4219,7 @@
 		"movement": 2,
 		"cost": 750,
 		"requiredTech": "Stasis Fields",
-		"requiredResource": "Yairmite",
+		//"requiredResource": "Yairmite",
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
