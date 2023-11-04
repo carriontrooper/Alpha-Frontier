@@ -13,7 +13,7 @@
 		"cost": 1,
 		"uniques": [
 			"Provides [1] [Digital Storage Space]",
-			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
 			"Indicates the capital city"
 		],
 		"civilopediaText": [
@@ -1051,7 +1051,7 @@
 			"Enables you to build larger Water units",
 			"Military",
 			"New [Water] units start with [15] Experience [in this city]",
-			"Must be next to [Coast]"
+			"Must be next to [Coast]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Floating Harbor",
@@ -1256,6 +1256,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Metaverse",
@@ -1274,6 +1275,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Net Culture",
@@ -1292,6 +1294,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredBuilding": "Virtual Cultural Space",
@@ -1311,6 +1314,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Virtual Drugs",
@@ -1383,6 +1387,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"Population loss from nuclear attacks [-50]% [in this city]",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
@@ -1402,6 +1407,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Artificial Intelligence",
@@ -1420,6 +1426,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Quantum Computing",
@@ -1480,6 +1487,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [5] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
@@ -1516,7 +1524,7 @@
 		"requiredTech": "Solar Reflectors",
 		"requiredBuilding": "Orbital Launch Facility",
 		//"requiredResource": "Titanium",
-		"uniques": ["Orbital","Consumes [2] [Titanium]"],
+		"uniques": ["Orbital","Consumes [2] [Titanium]","Only available <with [Titanium]>"],
 		"civilopediaText": [
 			{
 				"text": "Warm up cold places and chill down hot spots by reflecting the sun's rays with an enormous orbital mirror."
@@ -1563,6 +1571,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
 			"Provides [1] [Gravitix]",
 			"Provides [1] [Yairmite]"
 		],
@@ -1582,6 +1591,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Consumes [2] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+5]% growth [in this city]",
 			"[+1]% growth [in all cities]"
 		],
@@ -1605,6 +1615,7 @@
 			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
 			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing",
 			"Consumes [1] [Vitamass]",
+			"Only available <with [Vitamass]>",
 		],
 		"civilopediaText": [
 			{
@@ -1621,6 +1632,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [5] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
 			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
@@ -1713,6 +1725,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing",
+			"Consumes [1] [Vitamass]",
 			"Only available <after adopting [Symbiosis Ideology]>"
 		],
 		"requiredTech": "Genetic Hybridization",
@@ -1768,7 +1781,7 @@
 		"percentStatBonus": { "production": 5, "gold": 5, "science": 5 },
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+3 Science] from each Trade Route <while the empire is happy>"
+			"[+3 Science] from each Trade Route <while the empire is happy>",
 			"Only available <after adopting [Radiant Ideology]>"
 		],
 		"requiredTech": "Cyberbrains",
@@ -1845,6 +1858,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
+			"Only available <with [Digital Storage Space]>",
 			"Unbuildable",
 			"Hidden when religion is disabled",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
@@ -2419,7 +2433,7 @@
 			"Gain a free [Field Lab] [in this city]",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
-		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
+		"quote": "'We hope to avoid the mistakes of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
 		"civilopediaText": [
 			{
 				"text": "A widely distributed knowledge aggregation system akin to Old Earth's wikipedia, but more rigorously checked and updated. Secure underground servers also help preserve the knowledge."
@@ -2618,7 +2632,7 @@
 			"Production to [Science] conversion in cities changed by [+33]%"
 		],
 		"requiredTech": "Graviton Harnessing",
-		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
+		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close.' - Helena Oyebe, scientist",
 		"civilopediaText": [
 			{
 				"text": "Using precise control of Graviton waves, this microscopic black hole can be safely generated, contained and studied."
@@ -2999,7 +3013,7 @@
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniques": [
 			"Hidden until [5] social policy branches have been completed",
 			"Triggers a global alert upon build start",
@@ -3016,7 +3030,7 @@
 	{
 		"name": "Global Terraforming Project",
 		"cost": 1000,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"Requires a [Atmospheric Generator] in at least [3] cities",
