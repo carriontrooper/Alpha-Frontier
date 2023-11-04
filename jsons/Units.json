@@ -3532,7 +3532,9 @@
 		"uniqueTo": "Einherjar Diktat",
 		"unitType": "Helicopter",
 		"movement": 5,
+		"range": 1,
 		"strength": 10,
+		"rangedStrength": 12,
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
 		"uniques": [
