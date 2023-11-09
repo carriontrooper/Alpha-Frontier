@@ -1409,7 +1409,7 @@
 			//"Double movement in [Road]",
 			//"Double movement in [Railroad]",
 			"Double movement in [Open terrain]",
-			//"Double movement in [Transport Network]",
+			"Double movement in [Transport Network]",
 			"[-20]% maintenance costs"
 		],
 		"row": 67,
