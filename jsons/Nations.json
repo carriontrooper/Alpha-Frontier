@@ -953,7 +953,7 @@
 		"innerColor": [99, 16, 232],
 		"favoredReligion": "Children of Nihil",
 		"uniqueName": "Lanme Kouri",
-		"uniques": ["Defense bonus when embarked <for [All] units>","[+1] Movement <in [Water] tiles>"],
+		"uniques": ["Defense bonus when embarked <for [All] units>","[+1] Movement <in [Water] tiles>","[10]% to Flank Attack bonuses <for [Hovercraft] units>"],
 		"cities": [
 			"Freeport",
 			"Barataria",
