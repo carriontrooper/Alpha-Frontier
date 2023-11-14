@@ -20,10 +20,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Bugwolf",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -45,10 +47,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Stalker",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -73,10 +77,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterStep",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Gigantes",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -101,10 +107,12 @@
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Wurm",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -127,10 +135,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Wendigo",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -155,10 +165,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Echidna",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -188,10 +200,12 @@
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mycon",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -214,10 +228,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Gun Lobster",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -240,10 +256,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lurker",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -270,10 +288,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Darter",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -299,10 +319,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Winghead",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -327,10 +349,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Neon Dragon",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -357,10 +381,12 @@
 		],
 		"hurryCostModifier": 20,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -381,10 +407,12 @@
 		],
 		"cost": 70,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Worker",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -414,10 +442,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Rover Explorer",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -444,10 +474,12 @@
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Frontier Militia",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -471,10 +503,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Combat Rover",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -506,10 +540,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Light Buggy",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -537,10 +573,12 @@
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Light Hydrofoil",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -575,10 +613,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Light Hovercraft",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -611,10 +651,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Missile Rover",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -648,10 +690,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Anti-Air Buggy",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -678,10 +722,12 @@
 		"obsoleteTech": "Composite Armor",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Assault Hydrofoil",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -718,10 +764,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Combat Drone",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -905,10 +953,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tactical Mobile Uplink",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -937,10 +987,12 @@
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Colony Rifleman",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -966,10 +1018,12 @@
 		],
 		"attackSound": "SniperShot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Colony Marksman",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -993,10 +1047,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Exoframe Soldier",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1022,10 +1078,12 @@
 		],
 		"attackSound": "SniperShot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Exoframe Sniper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1051,10 +1109,12 @@
 		],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Laser Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1084,10 +1144,12 @@
 		//"obsoleteTech": "Astronomy",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Corvette",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1123,10 +1185,12 @@
 		],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Missile Destroyer",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1155,10 +1219,12 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Battleship",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1190,10 +1256,12 @@
 		],
 		"attackSound": "torpedo",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Submersible",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1228,10 +1296,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Hovercarrier",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1264,10 +1334,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Hovertank",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1297,10 +1369,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1335,10 +1409,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Laser Tank",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1373,10 +1449,12 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Missile Artillery",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1413,10 +1491,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Recon Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1568,10 +1648,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1600,10 +1682,12 @@
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Clone Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1639,10 +1723,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Assault Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1677,10 +1763,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Artillery Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1714,10 +1802,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Laser Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1752,10 +1842,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Siege Walker",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1796,10 +1888,12 @@
 		],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cyberheli",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1897,10 +1991,12 @@
 		"promotions": ["Sentry"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Stealth Operative",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1930,10 +2026,12 @@
 		"promotions": ["Mirage I"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mirage Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1962,10 +2060,12 @@
 		"promotions": ["Nerve Stapled"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Nerve Staple Conscript",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -1998,10 +2098,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2035,10 +2137,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mirage Tank",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2120,10 +2224,12 @@
 		],
 		"attackSound": "torpedo",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Phantom Submersible",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2149,10 +2255,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "PsyBlast",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Battle Psion",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2182,10 +2290,12 @@
 		],
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Graviton Cannon",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2231,10 +2341,12 @@
 		],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2261,10 +2373,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Stim Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2301,10 +2415,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mobile Fortress",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2330,10 +2446,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Hybrid Trooper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2366,10 +2484,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Behemoth",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -2400,10 +2520,12 @@
 		"promotions": ["Data Uplinked"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cyborg Sniper",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3137,10 +3259,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Influencer",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3161,10 +3285,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Scientist",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3185,10 +3311,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Merchant",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3209,10 +3337,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Engineer",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3241,10 +3371,12 @@
 		"movement": 2,
 		"religiousStrength": 1000,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Visionary",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3266,10 +3398,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great General",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3302,10 +3436,12 @@
 		],
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Graviton Gunner",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3331,10 +3467,12 @@
 		"promotions": ["Penal Training"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Penal Legionnaire",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3361,10 +3499,12 @@
 		"promotions": ["Delver Training", "Bug Hunter"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Delver Team",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3391,10 +3531,12 @@
 		"promotions": ["Colonial Marine Unit", "Bug Hunter"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3421,10 +3563,12 @@
 		"promotions": ["T-Series Unit"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/T-Series",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3446,10 +3590,12 @@
 		"promotions": ["GHOST Hack"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/GHOST Unit",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3476,10 +3622,12 @@
 		"promotions": ["Dog Soldier Reputation"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Dog Soldier",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3512,10 +3660,12 @@
 		"obsoleteTech": "Composite Armor",
 		"attackSound": "shipguns",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Seadog",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3552,10 +3702,12 @@
 		],
 		"attackSound": "machinegun",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Vulture Combat Drone",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3665,10 +3817,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/War Casket",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3702,10 +3856,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Civil Protection Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3737,10 +3893,12 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/ZANKER Mecha",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3774,10 +3932,12 @@
 		"movement": 2,
 		"religiousStrength": 1000,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Nomad",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3800,10 +3960,12 @@
 		],
 		"movement": 2,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Great Geneticist",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3831,10 +3993,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Bugwolf",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3860,10 +4024,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3891,10 +4057,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Echidna",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3920,10 +4088,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Gun Lobster",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3950,10 +4120,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Darter",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -3980,10 +4152,12 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tame Winghead",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4009,10 +4183,12 @@
 		"movement": 4,
 		"religiousStrength": 1000,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Visionary",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4035,10 +4211,12 @@
 		],
 		"movement": 3,
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Expunger",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4055,15 +4233,18 @@
 		"cost": 20,
 		"uniques": [
 			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <after adopting [Fanaticism]>",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Religious Zealot",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4082,15 +4263,18 @@
 			"[+500]% Strength <when attacking>",
 			"Self-destructs when attacking",
 			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <after adopting [Fanaticism]>",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeExplosion",
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Religious Martyr",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4119,10 +4303,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Hyperspace Core",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4150,10 +4336,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/FTL Navigations Bridge",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4180,10 +4368,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/FTL Drive",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4210,10 +4400,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Zero Point Ship Reactor",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4240,10 +4432,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Nanite Life Support",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
@@ -4271,10 +4465,12 @@
 		],
 		// costs 1500 in BNW
 		"civilopediaText": [
+			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Stasis Pod Arrays",
 				"imageSize": 64
 			},
+			*/
 			{
 				"Separator": true
 			},
