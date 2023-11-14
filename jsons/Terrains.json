@@ -532,6 +532,7 @@
         "gold": 1,
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
         "uniques": [
+			"[+1 Food] <after discovering [Xeno-Grafting]>",
 			"Doesn't generate naturally",
 			"Excluded from map editor"
 		],
