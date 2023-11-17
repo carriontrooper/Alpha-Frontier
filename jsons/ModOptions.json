@@ -7,6 +7,12 @@
 	"constants":
 	{
 		"maxXPfromBarbarians":150,
-		"unitUpgradeCost":{}
+		"unitUpgradeCost":{
+			"base":10,
+			"perProduction":2,
+			"eraMultiplier":2,
+			"exponent":1,
+			"roundTo":5
+		}
 	}
 }
