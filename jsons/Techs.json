@@ -386,7 +386,7 @@
 			},
 			{
 				"name": "Combat Mechas",
-				"row": 10,
+				"row": 9,
 				"quote": "'Finally, a weapon to surpass modern armor! Their mobility will rewrite the rules of the battlefield.' - General Amuro Aznable",
 				"prerequisites": ["Mecha Prototypes"]
 			},
