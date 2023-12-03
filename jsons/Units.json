@@ -1870,6 +1870,7 @@
 		"cost": 345,
 		"requiredTech": "Mind-Machine Interface",
 		//"requiredResource": "Titanium",
+		"upgradesTo": "Heavy Heli Gunship",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -2153,7 +2154,7 @@
 	},
 
 	//// Aerial Units
-	/*
+	
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -2199,7 +2200,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Submarine
 	{
