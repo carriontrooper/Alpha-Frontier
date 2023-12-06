@@ -7,8 +7,8 @@
 	},
 	{
 		"name": "an intact and easily repairable Constructor",
-		"notification": "We have found a working [Worker]!",
-		"uniques": ["Free [Worker] found in the ruins"],
+		"notification": "We have found a working [Constructor]!",
+		"uniques": ["Free [Constructor] found in the ruins"],
 		"excludedDifficulties": [
 			"Prince",
 			"King",
