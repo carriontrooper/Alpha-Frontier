@@ -14,6 +14,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
+			"Agricultural",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
@@ -47,6 +48,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
+			"Agricultural",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
@@ -81,6 +83,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Genetics",
 		"uniques": [
+			"Agricultural",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetic Hybridization]>",
@@ -383,6 +386,7 @@
 		"food": 1,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
+			"Agricultural",
 			"[+1 Food] <after discovering [Genetics]>",
 			"[+1 Food] <in [Ocean] tiles>",
 			"Can only be built to improve a resource",
