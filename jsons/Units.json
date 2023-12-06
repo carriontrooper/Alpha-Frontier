@@ -396,7 +396,7 @@
 		]
 	},
 	{
-		"name": "Worker", //rename to Constructor in localization
+		"name": "Constructor", //rename to Constructor in localization
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
@@ -409,7 +409,7 @@
 		"civilopediaText": [
 			/*
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"extraImage": "TileSets/FantasyHex/Units/Constructor",
 				"imageSize": 64
 			},
 			*/
