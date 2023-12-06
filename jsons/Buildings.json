@@ -2447,7 +2447,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[-25]% tile improvement construction time",
-			"[2] free [Worker] units appear"
+			"[2] free [Constructor] units appear"
 		],
 		"requiredTech": "Crust Fracking",
 		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer",
