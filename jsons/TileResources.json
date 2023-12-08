@@ -1475,6 +1475,7 @@
 		"name": "Digital Storage Space", // doesn't generate naturally
 		"resourceType": "Strategic",
 		"revealedBy": "Computing",
+		"uniques": ["Excluded from map editor"],
 		"civilopediaText": [
 			{
 				"text": "Physical manifestations of the virtual."
@@ -1490,7 +1491,8 @@
 			"Stockpiled",
 			"Cannot be traded",
 			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Excluded from map editor"
 		]
 	}
 ]
