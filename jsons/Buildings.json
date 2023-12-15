@@ -2193,6 +2193,7 @@
 		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Enables you to build Armored and Mech units",
 			"Military",
 			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
 			//"New [Armored] units start with [15] Experience [in this city]",
