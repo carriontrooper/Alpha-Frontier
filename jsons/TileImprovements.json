@@ -589,7 +589,7 @@
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 		"civilopediaText": [
 			{
@@ -602,7 +602,7 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -610,7 +610,7 @@
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		// Has no tile improvements as it can always be built
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -618,7 +618,7 @@
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Miasma"],
 		"techRequired": "Synthetic Materials",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -626,7 +626,7 @@
 		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 
@@ -634,16 +634,16 @@
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Railroad", //rename to Magrail in translations
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
 	
@@ -652,7 +652,7 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable"],
+        "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
