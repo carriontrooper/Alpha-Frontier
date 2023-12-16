@@ -175,7 +175,7 @@
 			{
 				"name": "Worker Unions",
 				"uniques": [
-					"[-10]% tile improvement construction time",
+					"[-10]% construction time for [All] improvements",
 					"[+1 Production] [in all cities connected to capital]"
 				],
 				"requires": ["Representation"],
