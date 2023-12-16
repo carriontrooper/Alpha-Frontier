@@ -221,7 +221,7 @@
 		"innerColor": [191, 93, 2],
 		"favoredReligion": "Mormonism",
 		"uniqueName": "Belta Penal Code",
-		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
+		"uniques": ["[-20]% construction time for [All] improvements","No movement cost to pillage <for [Infantry] units>"],
 		"cities": [
 			"Canterbury",
 			"Rocinante",
