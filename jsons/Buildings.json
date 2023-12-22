@@ -1655,6 +1655,7 @@
 			"[Gold] cost of purchasing [All] buildings [-10]%",
 			"[-10]% Unhappiness from [Population] [in this city]",
 			"Consumes [1] [Yairmite]",
+			"Limited to [5] per Civilization"
 		],
 		"requiredTech": "N-Dimensional Exploration",
 		//"requiredResource": "Yairmite",
