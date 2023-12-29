@@ -3653,7 +3653,7 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"May enter foreign tiles without open borders",
-			"Can instantly construct a [Cultural Site] improvement <for [4] movement>",
+			"Can instantly construct a [Prefab Lair] improvement <for [4] movement>",
 			"Can build [Water] improvements on tiles",
 			"Only available <in cities with a [Floating Harbor]>",
 			"May upgrade to [Corvette] through ruins-like effects",
