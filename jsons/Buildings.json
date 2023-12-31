@@ -2255,6 +2255,7 @@
 		"cost": 150,
 		"science": 3,
 		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 50 },
 		"uniques": [
@@ -2274,6 +2275,7 @@
 		"cost": 400,
 		"percentStatBonus": { "culture": 50 },
 		"culture": 5,
+		"greatPersonPoints": { "Great Influencer": 1 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Virtual",
@@ -2294,6 +2296,7 @@
 		"cost": 300,
 		"culture": 1,
 		"faith": 8,
+		"greatPersonPoints": { "Great Visionary": 1 },
 		"uniques": [
 			"Requires a [Tele-Temple] in all cities",
 			"Cost increases by [30] per owned city",
@@ -2314,6 +2317,7 @@
 		"cost": 250,
 		"gold": 8,
 		"culture": 1,
+		"greatPersonPoints": { "Great Merchant": 1 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Provides [1] [Digital Storage Space]",
@@ -2332,6 +2336,7 @@
 		"cost": 400,
 		"science": 3,
 		"culture": 2,
+		"greatPersonPoints": { "Great Engineer": 1 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Orbital",
@@ -2371,6 +2376,7 @@
 		"happiness": 5,
 		"culture": 2,
 		"gold": 2,
+		"greatPersonPoints": { "Great Influencer": 1, "Great Merchant": 1 }
 		"isNationalWonder": true,
 		"uniques": [
 			"Requires a [Megamall] in all cities",
@@ -2476,6 +2482,7 @@
 	{
 		"name": "Jormungand NAVSAT Network",
 		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 1 },
 		"isWonder": true,
 		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <after discovering [Cosmonautics]>"],
 		"requiredTech": "Satellite Networks",
@@ -2702,7 +2709,7 @@
 		"name": "Shambhala Virtual Space",
 		"culture": 2,
 		"faith": 3,
-		"greatPersonPoints": { "Great Visionary": 1 },
+		"greatPersonPoints": { "Great Visionary": 2 },
 		"isWonder": true,
 		"uniques": [
 			"Virtual",
@@ -2778,7 +2785,7 @@
 		"name": "Global Consciousness",
 		"science": 3,
 		"culture": 3,
-		"greatPersonPoints": { "Great Scientist": 2 },
+		"greatPersonPoints": { "Great Scientist": 1, "Great Influencer": 1 },
 		"isWonder": true,
 		"uniques": [
 			"Consumes [5] [Digital Storage Space]",
