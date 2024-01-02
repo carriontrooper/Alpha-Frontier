@@ -1538,8 +1538,8 @@
 	{
 		"name": "Tame Xeno Unit",
 		"uniques": [
-			"[+50]% Strength <starting from the [Colonization era]",
-			"[+50]% Strength <starting from the [Realization era]",
+			"[+50]% Strength <starting from the [Colonization era]>",
+			"[+50]% Strength <starting from the [Realization era]>",
 			"[+100]% Strength <after adopting [Symbiosis Ideology]>",
 			"Gains access to special promotions available only to this unit"
 		],
