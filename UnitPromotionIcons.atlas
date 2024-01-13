@@ -403,7 +403,7 @@ UnitPromotionIcons/Logistics
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maintenance
+UnitPromotionIcons/Field Maintenance
   rotate: false
   xy: 436, 220
   size: 100, 100
