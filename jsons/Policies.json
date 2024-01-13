@@ -523,7 +523,7 @@
 		]
 	},
 	{
-		"name": "Influence",
+		"name": "Prestige",
 		"era": "Colonization era",
 		"priorities": {
 			"Neutral": 30,
@@ -579,7 +579,7 @@
 				"column": 4
 			},
 			{
-				"name": "Influence Complete",
+				"name": "Prestige Complete",
 				"uniques": [
 					"Free Social Policy",
 					"May buy [Great Influencer] units for [200] [Culture] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
