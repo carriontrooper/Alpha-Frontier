@@ -268,7 +268,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Enables you to build Hydrofoil units",
+			"Comment [Enables you to build Hydrofoil units]",
 			"Military",
 			"Prefab",
 			"Must be next to [Coast]",
@@ -333,7 +333,7 @@
 		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Enables you to build Rover units",
+			"Comment [Enables you to build Rover units]",
 			"Prefab",
 			"New [Rover] units start with [15] Experience [in this city]"
 		],
@@ -768,7 +768,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Military",
-			"Enables you to build Aerocraft units",
+			"Comment [Enables you to build Aerocraft units]",
 			"New [Air] units start with [15] Experience [in this city]"
 		],
 		"requiredTech": "Aeronautics",
@@ -787,7 +787,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Payload Delivery",
 		"uniques": [
-			"Enables you to build Satellite units"
+			"Comment [Enables you to build Satellite units]"
 		]
 		"civilopediaText": [
 			{
@@ -1048,7 +1048,7 @@
 		"maintenance": 1,
 		"production": 2,
 		"uniques": [
-			"Enables you to build larger Water units",
+			"Comment [Enables you to build larger Water units]",
 			"Military",
 			"New [Water] units start with [15] Experience [in this city]",
 			"Must be next to [Coast]",
@@ -1087,7 +1087,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Enables you to build Armored and Mech units",
+			"Comment [Enables you to build Armored and Mech units]",
 			"Military",
 			"New [Armored] units start with [15] Experience [in this city]",
 			//"New [Mech] units start with [15] Experience [in this city]",
@@ -1177,7 +1177,7 @@
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": [
 			"Military",
-			"Enables you to build ICBMs",
+			"Comment [Enables you to build ICBMs]",
 		]
 		"civilopediaText": [
 			{
@@ -1369,7 +1369,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			//"[+1 Production] from every [Virtual]" //move this to the virtual buildings instead, for now
-			"Adds +1 Production on every Virtual building in this city"
+			"Comment [Adds +1 Production on every Virtual building in this city]"
 		],
 		"requiredTech": "Cyberbrains",
 		"civilopediaText": [
@@ -2113,7 +2113,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Enables you to build Tame Xeno units",
+			"Comment [Enables you to build Tame Xeno units]",
 			"Military",
 			"New [Infantry] units start with [15] Experience [in this city]",
 			"New [Stealth Infantry] units start with [15] Experience [in this city]",
@@ -2194,7 +2194,7 @@
 		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Enables you to build Armored and Mech units",
+			"Comment [Enables you to build Armored and Mech units]",
 			"Military",
 			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
 			//"New [Armored] units start with [15] Experience [in this city]",
