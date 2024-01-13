@@ -703,7 +703,7 @@
 			},
 			{
 				"name": "Xeno-Cooperation",
-				"uniques": ["Unlocks building the Xeno Sanctuary improvement"],
+				"uniques": ["Comment [Unlocks building the Xeno Sanctuary improvement]"],
 				"requires": ["Eco Harmony"],
 				"row": 3,
 				"column": 1
