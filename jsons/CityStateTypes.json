@@ -94,15 +94,15 @@
 	{
         "name": "Industrial",
         "friendBonusUniques":  [
-            "[+3 Production] [in all cities] <before the [Colonization era]>",
-            "[+6 Production] [in all cities] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+13 Production] [in all cities] <starting from the [Realization era]>"
+            "[+1 Production] [in all cities connected to capital] <before the [Colonization era]>",
+            "[+3 Production] [in all cities connected to capital] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+6 Production] [in all cities connected to capital] <starting from the [Realization era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Production] [in all cities] <before the [Colonization era]>",
-            "[+12 Production] [in all cities] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+26 Production] [in all cities] <starting from the [Realization era]>",
-			"[+5]% Production when constructing [All] buildings [in all cities]"
+            "[+3 Production] [in all cities connected to capital] <before the [Colonization era]>",
+            "[+6 Production] [in all cities connected to capital] <starting from the [Colonization era]> <before the [Realization era]>",
+            "[+13 Production] [in all cities connected to capital] <starting from the [Realization era]>",
+			"[+2]% Production when constructing [All] buildings [in the capital]"
         ],
         "color": [220, 100, 15]
     }
