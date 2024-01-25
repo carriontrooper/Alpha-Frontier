@@ -2,6 +2,18 @@
 	// todo: add more aerocraft?
 	// list of additional units TBD:
 	// gyrocopter, combat heli
+	// new ideo units: archangel (radiant), siren (symbiosis), sentinel (purification)
+	/* bucketeer sez:
+	Archangel
+    The original idea here is to fill the gap of Radiant lacking a relatively tanky melee unit. And to add a bit spice of advanced warfare and long range power projection, probably giving it orbital drop, or ability to transform into a (unbuildable) gunship form might be nice idea.
+	
+	Siren
+    Requires Psionics tech, conceptually it's an amphibious combat support unit for Symbiosis that weakens strength of nearby enemies.
+    Should be able to attack while embarked.
+	
+	Sentinel
+    Some sort of all-purpose heavy artillery unit with anti air radius of 3 for Purification military.
+	*/
 
 	////////////////////
 	// Xeno Units
@@ -813,6 +825,48 @@
 		]
 	},
 
+	/*
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Gyrocopter",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"range": 1,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 125,
+		"requiredTech": "Aeronautics",
+		"upgradesTo": "Combat Heli",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+75]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[-25]% Strength <vs cities>",
+			"May withdraw before melee ([50]%)",
+			//"Consumes [1] [Titanium]",
+			//"Only available <with [Titanium]>",
+			"Never appears as a Barbarian unit"
+		],
+		//"promotions": ["Indirect Fire"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			
+			{
+				"Separator": true
+			},
+			{
+				"text": "Rudimentary rotor-based aerial vehicle converted into a combat role."
+			}
+		]
+	},
+	*/
+
 	//// Missiles
 	{
 		"name": "Short-Range Missile",
@@ -1540,6 +1594,48 @@
 		]
 	},
 
+	/*
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Combat Heli",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"range": 2,
+		"strength": 25,
+		"rangedStrength": 30,
+		"cost": 150,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Cyberheli",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			//"[-25]% Strength <vs cities>",
+			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Titanium]",
+			"Only available <with [Titanium]>",
+			"Never appears as a Barbarian unit"
+		],
+		//"promotions": ["Indirect Fire"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			
+			{
+				"Separator": true
+			},
+			{
+				"text": "A tougher rotor-based vehicle that is designed for warfare."
+			}
+		]
+	},
+	*/
+
 	//// Drones
 	{
 		"name": "Strike Drone",
@@ -1865,7 +1961,7 @@
 		"name": "Cyberheli",
 		"unitType": "Helicopter",
 		"movement": 5,
-		"range": 2,
+		"range": 3,
 		"strength": 50,
 		"rangedStrength": 50,
 		"cost": 345,
