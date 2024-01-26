@@ -2529,6 +2529,45 @@
 			}
 		]
 	},
+/*
+	{
+		"name": "Sentinel",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 60,
+		"rangedStrength": 65,
+		"cost": 450,
+		"requiredTech": "Cosmonautics",
+		"uniques": [
+			"Armored",
+			"Can perform Air Sweep",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units> <when attacking>",
+			"[+150]% Strength <vs [Drone] units> <when attacking>",
+			"[+100]% Strength <vs [Satellite] units> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Only available <after adopting [Purification Ideology]>",
+			"Consumes [1] [Ulframite]",
+			"Only available <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A multipurpose missile launcher, this unit wreaks havoc on cities, aerocraft, and even satellites."
+			}
+		]
+	},
+*/
 	
 	//// Symbiosis
 	{
@@ -2598,6 +2637,45 @@
 			}
 		]
 	},
+/*
+	{
+		"name": "Siren",
+		"unitType": "Xeno Melee Land",
+		"movement": 2,
+		"strength": 58,
+		"cost": 500,
+		"requiredTech": "Psionics",
+		//"requiredResource": "Vitamass",
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"Heals [20] damage if it kills a unit",
+			//"Can move after attacking",
+			"May attack when embarked",
+			"Defense bonus when embarked",
+			"[+33]% Strength <vs [Infantry] units>",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
+			"[+33]% Strength <vs cities>",
+			"[+10] HP when healing <in [Water] tiles>",
+			"Limited to [3] per Civilization",
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Consumes [3] [Vitamass]",
+			"Only available <with [Vitamass]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost","Amphibious"],
+		"attackSound": "MonsterBite", //change this to new custom sound
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Hybridization of psionic-triggering genes with Xeno DNA culminates in this amphibious monstrosity that can impair nearby enemy units and heal quicker when submerged in water."
+			}
+		]
+	},
+*/
 	
 	//// Radiant
 	{
@@ -2666,7 +2744,75 @@
 			}
 		]
 	},
-	
+/*
+	{
+		"name": "Archangel Mecha",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 57,
+		"cost": 550,
+		"requiredTech": "Stasis Fields",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Can transform to [Archangel Gunship]",
+			"Consumes [1] [Ulframite]",
+			"Only available <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Shock I", "Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with cutting edge technology such as a stasis shield and an Ulframite-powered laser gun, this mecha can also transform into a flying gunship thanks to its multipurpose thrusters."
+			}
+		]
+	},
+	{
+		"name": "Archangel Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 57,
+		"cost": 550,
+		"requiredTech": "Stasis Fields",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <when attacking>",
+			//"Only available <in cities with a [Mechanized Unit Facility]>",
+			//"Only available <after adopting [Radiant Ideology]>",
+			"Can transform to [Archangel Mecha]",
+			//"Consumes [1] [Ulframite]",
+			//"Only available <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Shock I", "Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with cutting edge technology such as a stasis shield and an Ulframite-powered laser gun, this gunship can also transform into a mecha thanks to its multipurpose thrusters."
+			}
+		]
+	},
+*/
 
 	// Mercenary Units
 	//// Scout
