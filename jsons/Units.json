@@ -107,7 +107,7 @@
 		"name": "Wurm", //see into limiting movement to desert tiles if possible in the future
 		"unitType": "Xeno Melee Land",
 		"uniqueTo": "Barbarians",
-		"movement": 0,
+		"movement": 3,
 		"strength": 50,
 		"cost": 100,
 		"requiredTech": "Combat Mechas",
@@ -115,7 +115,7 @@
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
-			"[+3] Movement <in [Desert] tiles>"
+			"[-3] Movement <in [non-[Desert]] tiles>"
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -195,7 +195,7 @@
 		"name": "Mycon", //see into limiting movement to mycelium tiles if possible in the future
 		"unitType": "Xeno Ranged Land",
 		"uniqueTo": "Barbarians",
-		"movement": 0,
+		"movement": 1,
 		"range": 1,
 		"strength": 50,
 		"rangedStrength": 24,
@@ -207,7 +207,7 @@
 			//"Blast radius [1]", //doesn't work
 			"[-10]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
-			"[+2] Movement <in [Mycelium] tiles>",
+			"[-1] Movement <in [non-[Mycelium]] tiles>",
 			"Invisible to non-adjacent units <in [Jungle] tiles>"
 		],
 		"attackSound": "nonmetalhit",
@@ -375,6 +375,229 @@
 			}
 		]
 	},
+
+	//xeno boss units
+/*
+	{
+		"name": "Ulfradrake",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 63,
+		"rangedStrength": 63,
+		"range": 1,
+		"cost": 100,
+		"uniques": ["Xeno","Nuclear weapon of Strength [2]","Blast radius [0]","Uncapturable","Limited to [1] per Civilization","[90]% chance to intercept air attacks"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "ChargeUpBeam",
+		"requiredTech": "Fusion Power",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite, which makes its breath of fire having the potency of thermonuclear weapons - literally."
+			}
+		]
+	},
+	{
+		"name": "Leviathan",
+		"unitType": "Xeno Stealth Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 70,
+		"rangedStrength": 55,
+		"range": 1,
+		"cost": 100,
+		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBubbles",
+		"requiredTech": "Metamaterials",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "One of the largest ocean-dwelling xeno threats ever emerged, one is so large that it'll look like an unsuspecting island from afar, preying on nearby ships."
+			}
+		]
+	},
+	{
+		"name": "Overlord",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 100,
+		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterStep",
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "If you think Gigantes is already the worst you have seen, then you haven't seen this greater beast on rampage - Only few weapons may match it in raw strength."
+			}
+		]
+	},
+	{
+		"name": "Xeno Titan",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 150,
+		"cost": 100,
+		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","May attack when embarked","[+500]% Strength <in [Water] tiles>","[+1] Sight","Can see over obstacles","Can pass through impassable tiles","All tiles cost 1 movement","[+100]% Strength <vs cities>","Destroys tile improvements when attacking","[-30]% Strength for enemy [non-[Titan]] units in adjacent [All] tiles"],
+		"attackSound": "MonsterBite",
+		"requiredTech": "Advanced Biotech",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "The ultimate instrument of destruction and vengeance from nature itself, it created an abomination based off its greatest enemy - us."
+			}
+		]
+	},
+*/
+
+	//Evolved xenos
+/*
+	{
+		"name": "Mimic",
+		"unitType": "Stealth Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 30,
+		"cost": 100,
+		"uniques": ["Xeno","Uncapturable","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "For some reason, the xeno hives managed to assimilate captured humans and turned them into lethal, shapeshifting horrors that can mimic objects in their surrounding enviromnent. Your only hope to break its disguise is with aid of fine scanning devices or observation at close proximity."
+			}
+		]
+	},
+	{
+		"name": "Dire Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 6,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>","Limited to [4] per Civilization"],
+		"promotions": ["Ignore terrain cost","Toxin I","Ambulation I"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Bugwolf."
+			}
+		]
+	},
+	{
+		"name": "Reaper",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Frontier Armaments",
+		"obsoleteTech": "Composite Armor",
+		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>","Limited to [4] per Civilization"],
+		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Ambulation I"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Stalker."
+			}
+		]
+	},
+	{
+		"name": "Echidna Major",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>","Limited to [4] per Civilization"],
+		"promotions": ["Ignore terrain cost","Toxin I","Carapace I"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Echidna."
+			}
+		]
+	},
+	{
+		"name": "Chaser",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": [
+			"Xeno","Limited to [4] per Civilization",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost","Toxin I","Wings I"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Darter."
+			}
+		]
+	},
+	{
+		"name": "Bladehead",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 30,
+		"requiredTech": "Frontier Armaments",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"Xeno","Limited to [4] per Civilization",
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Wings I"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Winghead"
+			}
+		]
+	},
+*/
 
 	////////////////////
 	// Player units

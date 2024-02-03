@@ -361,6 +361,7 @@
 		"name": "Offshore Platform",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"production": 1,
+		"turnsToBuild": 8,
 		"techRequired": "Hydrodynamics",
 		"uniques": [
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
@@ -384,6 +385,7 @@
 		"name": "Aquaculture",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean", "Lakes"],
 		"food": 1,
+		"turnsToBuild": 6,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
 			"Agricultural",
@@ -475,7 +477,7 @@
 			"Jungle",
 			"Mycelium"
 		],
-		"turnsToBuild": 6,
+		"turnsToBuild": 8,
 		"techRequired": "Next-Gen Armaments",
 		"uniques": [
 			"Can be built outside your borders",
