@@ -115,7 +115,7 @@
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
-			"[0] Movement <in [non-[Desert]] tiles>"
+			"[-3] Movement <in [non-[Desert]] tiles>"
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -207,7 +207,7 @@
 			//"Blast radius [1]", //doesn't work
 			"[-10]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
-			"[0] Movement <in [non-[Mycelium]] tiles>",
+			"[-1] Movement <in [non-[Mycelium]] tiles>",
 			"Invisible to non-adjacent units <in [Jungle] tiles>"
 		],
 		"attackSound": "nonmetalhit",
