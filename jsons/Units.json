@@ -2758,6 +2758,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"range": 3,
+		"interceptRange":3,
 		"strength": 60,
 		"rangedStrength": 65,
 		"cost": 450,
@@ -2768,7 +2769,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units> <when attacking>",
 			"[+150]% Strength <vs [Drone] units> <when attacking>",
-			"[+100]% Strength <vs [Satellite] units> <when attacking>",
+			"[+100]% Strength <vs [Satellite] units>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -2861,7 +2862,6 @@
 		]
 	},
 /*
-	{
 		"name": "Siren",
 		"unitType": "Xeno Melee Land",
 		"movement": 2,
@@ -2873,8 +2873,7 @@
 			"Xeno",
 			"Tame Xeno",
 			"Heals [20] damage if it kills a unit",
-			//"Can move after attacking",
-			"May attack when embarked",
+			"[+100]% Strength <in [Water] tiles> <when defending> <before the [Singularity era]>", # to compensate the 16 base embarked defense strength
 			"Defense bonus when embarked",
 			"[+33]% Strength <vs [Infantry] units>",
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
@@ -2893,6 +2892,11 @@
 			{
 				"Separator": true
 			},
+			{
+				"text": "Hybridization of psionic-triggering genes with Xeno DNA culminates in this amphibious monstrosity that can impair nearby enemy units and heal quicker when submerged in water."
+			}
+		]
+	},			},
 			{
 				"text": "Hybridization of psionic-triggering genes with Xeno DNA culminates in this amphibious monstrosity that can impair nearby enemy units and heal quicker when submerged in water."
 			}
@@ -3018,7 +3022,7 @@
 			//"Only available <in cities with a [Mechanized Unit Facility]>",
 			//"Only available <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Mecha]",
-			//"Consumes [1] [Ulframite]",
+			"Consumes [1] [Ulframite]",
 			//"Only available <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
