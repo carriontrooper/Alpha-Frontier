@@ -3048,7 +3048,7 @@
 		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Rover",
@@ -3073,7 +3073,7 @@
 		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3096,7 +3096,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3121,7 +3121,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3144,7 +3144,7 @@
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3169,7 +3169,7 @@
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3193,7 +3193,7 @@
 		"requiredTech": "Lasers",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Ranged attacks may be performed over obstacles",
@@ -3216,7 +3216,7 @@
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"May Paradrop up to [5] tiles from inside friendly territory",
@@ -3239,7 +3239,7 @@
 		"requiredTech": "Metamaterials",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit"
@@ -3264,7 +3264,7 @@
 		"requiredTech": "Portable Power Sources",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Can move after attacking",
@@ -3290,7 +3290,7 @@
 		"requiredTech": "Missiles",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"[100]% chance to intercept air attacks",
@@ -3323,7 +3323,7 @@
 		"requiredTech": "Hydrodynamics",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
@@ -3348,7 +3348,7 @@
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Only available <in cities with a [Floating Harbor]>",
@@ -3375,7 +3375,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Armored",
@@ -3409,7 +3409,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"[100]% chance to intercept air attacks",
@@ -3441,7 +3441,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Only available <in cities with a [Naval Yard]>",
@@ -3470,7 +3470,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"[+100]% Strength <vs [Submarine] units> <when attacking>",
@@ -3501,7 +3501,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Hovercraft",
@@ -3530,7 +3530,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Can move after attacking",
@@ -3559,7 +3559,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"[100]% chance to intercept air attacks",
@@ -3597,7 +3597,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -3629,7 +3629,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Mech",
@@ -3660,7 +3660,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Mech",
@@ -3692,7 +3692,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human players]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Mech",
