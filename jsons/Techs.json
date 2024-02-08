@@ -109,7 +109,7 @@
 				"row": 8,
 				"quote": "'One thing I've learned is that you can run to another planet all you like, the paperwork can and will catch up to you eventually.' - Yuen Xin Tiao, junior administrator",
 				"prerequisites": ["Computing", "Habitation"],
-				"uniques": ["Enables Open Borders agreements"]
+				"uniques": ["Enables Open Borders agreements", "May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
 			},
 			{
 				"name": "Hovercrafts",
@@ -266,7 +266,7 @@
 				"row": 7,
 				"quote": "'They did WHAT on my network?! ...Well, these funny cats are nice...' - Jeanie O'Shea, scientist",
 				"prerequisites": ["Research Networks","Offworld Industries"],
-				"uniques": ["May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
+				//"uniques": ["May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
 			},
 			{
 				"name": "Colony Administration",
