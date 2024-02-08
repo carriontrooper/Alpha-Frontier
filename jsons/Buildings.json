@@ -1133,7 +1133,7 @@
 			"New [Mercenary] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Info Networks",
+		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
 				"text": "Semi-legal businesses where one can hire soldiers of fortune."
