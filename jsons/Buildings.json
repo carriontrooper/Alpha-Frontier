@@ -1125,7 +1125,7 @@
 		"gold": 1,
 		//"hurryCostModifier": 25,
 		"uniques": [
-			"Unbuildable",
+			"Unbuildable <for [Human player]>",
 			//"Can be purchased with [Gold] [in all cities]",
 			//"Can be purchased for [200] [Gold] [in all cities]",
 			"May buy [Mercenary] units with [Gold] [in this city]",
