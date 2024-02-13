@@ -453,7 +453,7 @@
 		"maintenance": 1,
 		"culture": 3,
 		"hurryCostModifier": 15,
-		"specialistSlots": { "Scientist": 1 },
+		"specialistSlots": { "Scientist": 1,  "Influencer": 1},
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"[+1 Science, +1 Culture] from [Artifacts] tiles [in this city]"
@@ -1125,7 +1125,7 @@
 		"gold": 1,
 		//"hurryCostModifier": 25,
 		"uniques": [
-			"Unbuildable",
+			"Unbuildable <for [Human player]>",
 			//"Can be purchased with [Gold] [in all cities]",
 			//"Can be purchased for [200] [Gold] [in all cities]",
 			"May buy [Mercenary] units with [Gold] [in this city]",
@@ -1133,7 +1133,7 @@
 			"New [Mercenary] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Info Networks",
+		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
 				"text": "Semi-legal businesses where one can hire soldiers of fortune."
@@ -1270,7 +1270,7 @@
 	{
 		"name": "Virtual Cultural Space",
 		"culture": 3,
-		"specialistSlots": { "Influencer": 2 },
+		"specialistSlots": { "Influencer": 3 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
@@ -1309,7 +1309,7 @@
 		"name": "Virtual Altered State",
 		"culture": 2,
 		"faith": 2,
-		"specialistSlots": { "Influencer": 1 },
+		"specialistSlots": { "Influencer": 2 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
@@ -1403,6 +1403,7 @@
 		"maintenance": 2,
 		"culture": 3,
 		"happiness": 2,
+		"specialistSlots": { "Influencer": 2 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
@@ -1441,6 +1442,7 @@
 		"maintenance": 1,
 		"science": 3,
 		"culture": 2,
+		"specialistSlots": { "Scientist": 2 },
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Genetic Laboratory",
 		"requiredTech": "Xeno Psychology",
@@ -1483,6 +1485,7 @@
 		"maintenance": 2,
 		"culture": 3,
 		"science": 3,
+		"specialistSlots": { "Influencer": 1, "Scientist": 1 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
@@ -1628,6 +1631,7 @@
 		"maintenance": 1,
 		"culture": 3,
 		"faith": 3,
+		"specialistSlots": { "Influencer": 1 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Virtual",
@@ -1703,6 +1707,7 @@
 		"name": "Propaganda Office",
 		"maintenance": 1,
 		"culture": 2,
+		"specialistSlots": { "Influencer": 2 },
 		"percentStatBonus": { "culture": 10 },
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -1856,6 +1861,7 @@
 		"culture": 3,
 		"faith": 3,
 		"happiness": 2,
+		"specialistSlots": { "Influencer": 1 },
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
@@ -2255,6 +2261,7 @@
 		"cost": 150,
 		"science": 3,
 		"culture": 1,
+		"specialistSlots": { "Scientist": 1 },
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 50 },
@@ -2275,6 +2282,7 @@
 		"cost": 400,
 		"percentStatBonus": { "culture": 50 },
 		"culture": 5,
+		"specialistSlots": { "Influencer": 1 },
 		"greatPersonPoints": { "Great Influencer": 1 },
 		"isNationalWonder": true,
 		"uniques": [
@@ -2317,6 +2325,7 @@
 		"cost": 250,
 		"gold": 8,
 		"culture": 1,
+		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 1 },
 		"isNationalWonder": true,
 		"uniques": [
@@ -2336,6 +2345,7 @@
 		"cost": 400,
 		"science": 3,
 		"culture": 2,
+		"specialistSlots": { "Engineer": 1 },
 		"greatPersonPoints": { "Great Engineer": 1 },
 		"isNationalWonder": true,
 		"uniques": [
@@ -2376,6 +2386,7 @@
 		"happiness": 5,
 		"culture": 2,
 		"gold": 2,
+		"specialistSlots": { "Influencer": 1, "Merchant": 1 },
 		"greatPersonPoints": { "Great Influencer": 1, "Great Merchant": 1 }
 		"isNationalWonder": true,
 		"uniques": [
@@ -2431,6 +2442,7 @@
 		"name": "Akashipedia Archives",
 		"science": 3,
 		"culture": 1,
+		"specialistSlots": { "Scientist": 1 },
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isWonder": true,
 		"requiredTech": "Computing",
@@ -2451,6 +2463,7 @@
 	{
 		"name": "Hades Core Bore Project",
 		"production": 1,
+		"specialistSlots": { "Engineer": 1 },
 		"greatPersonPoints": { "Great Engineer": 1 },
 		"isWonder": true,
 		"uniques": [
@@ -2468,6 +2481,7 @@
 	{
 		"name": "Saraswati Cultural College",
 		"culture": 3,
+		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Influencer": 1 },
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
@@ -2563,6 +2577,7 @@
 		"name": "Gaia Preserve",
 		"culture": 1,
 		"food": 2,
+		"specialistSlots": { "Scientist": 1 },
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"isWonder": true,
 		"uniques": [
@@ -2634,6 +2649,7 @@
 	{
 		"name": "Captive Microsingularity",
 		"science": 3,
+		"specialistSlots": { "Scientist": 1 },
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isWonder": true,
 		"uniques": [
@@ -2652,6 +2668,7 @@
 		"name": "Old Terra Resort",
 		"culture": 5,
 		"gold": 3,
+		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Influencer": 2 },
 		"isWonder": true,
 		"uniques": [
@@ -2672,6 +2689,7 @@
 		"culture": 3,
 		"gold": 3,
 		"food": 3,
+		"specialistSlots": { "Engineer": 1 },
 		"greatPersonPoints": { "Great Engineer": 2 },
 		"isWonder": true,
 		"uniques": [
@@ -2747,6 +2765,7 @@
 		"name": "Space Elevator",
 		"production": 2,
 		"gold": 2,
+		"specialistSlots": { "Engineer": 1 },
 		"greatPersonPoints": { "Great Engineer": 2 },
 		"isWonder": true,
 		"uniques": [
@@ -2765,6 +2784,7 @@
 		"name": "Economic Oracle",
 		"gold": 5,
 		"science": 3,
+		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
 		"uniques": [
@@ -2861,6 +2881,7 @@
 		"name": "Uttershroom Ecological Park",
 		"science": 2,
 		"culture": 2,
+		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Scientist": 1, "Great Influencer": 1 },
 		"isWonder": true,
 		"uniques": [
@@ -2961,6 +2982,7 @@
 		"name": "Amoebic Lake Mindlink Station",
 		"faith": 3,
 		"gold": 1,
+		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Influencer": 1, "Great Visionary": 1 },
 		"isWonder": true,
 		"uniques": [
@@ -2982,6 +3004,7 @@
 		"name": "Flesh Pit Park",
 		"science": 2,
 		"gold": 2,
+		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Influencer": 1, "Great Scientist": 1 },
 		"isWonder": true,
 		"uniques": [

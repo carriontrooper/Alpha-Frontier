@@ -1268,7 +1268,7 @@
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Mineral",
-			"Deposits in [Coast] tiles always provide [5] resources",
+			"Deposits in [Coast] tiles always provide [10] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [15] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Generated with weight [10] <in [Featureless] [Tundra] tiles>",
@@ -1285,7 +1285,7 @@
 			"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
-		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
+		"minorDepositAmount": { "sparse": 2, "default": 5, "abundant": 6 },
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Promethine",
