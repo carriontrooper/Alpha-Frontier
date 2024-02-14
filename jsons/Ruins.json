@@ -94,7 +94,7 @@
 		"uniques": [
 			"Hidden when religion is disabled",
 			"Gain enough Faith for [33]% of a Great Prophet",
-			"Hidden after generating a Great Prophet",
+			"Unavailable <after generating a Great Prophet>",
 			"Only available <before founding a Pantheon>",
 			"Only available <after [20] turns>"
 		],
