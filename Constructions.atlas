@@ -1481,7 +1481,7 @@ UnitIcons/Echidna
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Enchidna Major
+UnitIcons/Echidna Major
   rotate: false
   xy: 544, 1084
   size: 100, 100

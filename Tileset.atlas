@@ -1320,7 +1320,7 @@ TileSets/FantasyHex/Units/Echidna
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Echidna_Major
+TileSets/FantasyHex/Units/Echidna Major
   rotate: false
   xy: 724, 224
   size: 32, 28
