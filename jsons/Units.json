@@ -446,6 +446,8 @@
 			}
 		]
 	},
+*/
+/*
 	{
 		"name": "Xeno Titan",
 		"unitType": "Xeno Melee Land",
@@ -468,7 +470,7 @@
 */
 
 	//Evolved xenos
-/*
+
 	{
 		"name": "Mimic",
 		"unitType": "Stealth Infantry",
@@ -603,7 +605,7 @@
 			}
 		]
 	},
-*/
+
 
 	////////////////////
 	// Player units
@@ -2778,7 +2780,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "Sentinel",
 		"unitType": "Siege",
@@ -2819,7 +2821,7 @@
 			}
 		]
 	},
-*/
+
 	
 	//// Symbiosis
 	{
@@ -2889,7 +2891,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "Siren",
 		"unitType": "Xeno Melee Land",
@@ -2927,7 +2929,7 @@
 			}
 		]
 	},
-*/
+
 	
 	//// Radiant
 	{
@@ -2998,7 +3000,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "Archangel Mecha",
 		"unitType": "Close Range Mech",
@@ -3066,7 +3068,7 @@
 			}
 		]
 	},
-*/
+
 
 	// Mercenary Units
 	//// Scout
