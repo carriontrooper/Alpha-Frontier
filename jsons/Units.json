@@ -389,9 +389,8 @@
 		"strength": 63,
 		"rangedStrength": 63,
 		"range": 1,
-		"interceptRange": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Nuclear weapon of Strength [2]","Blast radius [0]","Uncapturable","Limited to [1] per Civilization","[90]% chance to intercept air attacks"],
+		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]","Uncapturable","Limited to [1] per Civilization","[90]% chance to intercept air attacks","Cannot move <before [40] turns>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
 		"requiredTech": "Fusion Power",
@@ -400,7 +399,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite, which makes its breath of fire having the potency of thermonuclear weapons - literally."
+				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite, which its breath of fire has the potency of thermonuclear weapons - for literally."
 			}
 		]
 	},
@@ -409,12 +408,12 @@
 		"unitType": "Xeno Stealth Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 70,
-		"rangedStrength": 55,
-		"range": 1,
+		"strength": 100,
+		"rangedStrength": 65,
+		"range": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before [20] turns>"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterBubbles",
 		"requiredTech": "Metamaterials",
 		"civilopediaText": [
@@ -422,7 +421,7 @@
 				"Separator": true
 			},
 			{
-				"text": "One of the largest ocean-dwelling xeno threats ever emerged, one is so large that it'll look like an unsuspecting island from afar, preying on nearby ships."
+				"text": "One of the largest aquatic xeno threats ever emerged, one is so large that it'll look like an unsuspecting island from afar, praying on nearby ships."
 			}
 		]
 	},
@@ -433,8 +432,8 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>","Cannot move <before [10] turns>"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterStep",
 		"requiredTech": "Genetic Hybridization",
 		"civilopediaText": [
@@ -442,28 +441,7 @@
 				"Separator": true
 			},
 			{
-				"text": "If you think Gigantes is already the worst you have seen, then you haven't seen this greater beast on rampage - Only few weapons may match it in raw strength."
-			}
-		]
-	},
-*/
-/*
-	{
-		"name": "Xeno Titan",
-		"unitType": "Xeno Melee Land",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 150,
-		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","May attack when embarked","[+500]% Strength <in [Water] tiles>","[+1] Sight","Can see over obstacles","Can pass through impassable tiles","All tiles cost 1 movement","[+100]% Strength <vs cities>","Destroys tile improvements when attacking","[-30]% Strength for enemy [non-[Titan]] units in adjacent [All] tiles"],
-		"attackSound": "MonsterBite",
-		"requiredTech": "Advanced Biotech",
-		"civilopediaText": [
-			{
-				"Separator": true
-			},
-			{
-				"text": "The ultimate instrument of destruction and vengeance from nature itself, it created an abomination based off its greatest enemy - us."
+				"text": "If you think Gigantes is already the worst bigger xeno you have seen, then you must haven't seen this greater beast of rampage - Only few weapons may match it in raw strength."
 			}
 		]
 	},
@@ -478,7 +456,7 @@
 		"movement": 3,
 		"strength": 30,
 		"cost": 100,
-		"uniques": ["Xeno","Uncapturable","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
+		"uniques": ["Xeno","Uncapturable","[+1] Sight","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"requiredTech": "Genetic Hybridization",
@@ -487,7 +465,7 @@
 				"Separator": true
 			},
 			{
-				"text": "For some reason, the xeno hives managed to assimilate captured humans and turned them into lethal, shapeshifting horrors that can mimic objects in their surrounding enviromnent. Your only hope to break its disguise is with aid of fine scanning devices or observation at close proximity."
+				"text": "For some reason, some organisms in xeno hive managed to assimilate captured humans and turned them into more lethal, shapeshifting horrors that can mimic on its victims and even objects of surrounding enviromnent. Your only hope to break its disguise is with aid of fine scanning devices or observation at proximity distance."
 			}
 		]
 	},
@@ -601,11 +579,10 @@
 				"Separator": true
 			},
 			{
-				"text": "A more vicious strain of Winghead"
+				"text": "A more vicious strain of Winghead."
 			}
 		]
 	},
-
 
 	////////////////////
 	// Player units
