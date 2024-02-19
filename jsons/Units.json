@@ -1060,7 +1060,7 @@
 		]
 	},
 
-	/*
+	
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -1100,7 +1100,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Missiles
 	{
@@ -1838,7 +1838,7 @@
 		]
 	},
 
-	/*
+	
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -1878,7 +1878,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	//// Drones
 	{
