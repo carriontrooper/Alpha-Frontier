@@ -3051,7 +3051,7 @@
 			//"Only available <in cities with a [Mechanized Unit Facility]>",
 			//"Only available <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Mecha]",
-			//"Consumes [1] [Ulframite]",
+			"Consumes [1] [Ulframite]",
 			//"Only available <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
