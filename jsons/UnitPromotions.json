@@ -1,4 +1,15 @@
 [
+	/*
+	Rows usage:
+	Alpha Frontier: 0-107, 140
+	Deciv in AF: 108-119
+	CivBE in AF: 120-123
+	Shamsy in AF/New Powers: 124
+
+	Undsc expansion: 125-128, 130
+	LesserSpaceNations: 126-128
+	*/
+	
 	{
 		"name": "Heal Instantly",
 		"uniques": [
@@ -1353,7 +1364,35 @@
 		"row": 32,
         "column": 2
 	},
-	
+
+	// slap this on workers with an unique in the Terraforming tech
+	/*
+	{
+		"name": "Terraformer",
+		"uniques": [
+			"Turn this tile into a [Ocean] tile <in [{non-[Ocean]} {Water}] tiles>",
+			"Turn this tile into a [Coast] tile <in [{non-[Coast]} {Water}] tiles>",
+			"Turn this tile into a [Atoll] tile <in [{non-[Atoll]} {Water}] tiles>",
+			"Turn this tile into a [Desert] tile <in [{non-[Ocean]} {Water}] tiles>", //raise the seafloor
+			"Turn this tile into a [Lake] tile <in [Land] tiles>",
+			"Turn this tile into a [Grassland] tile <in [{non-[Grassland]} {Land}] tiles>",
+			"Turn this tile into a [Plains] tile <in [{non-[Plains]} {Land}] tiles>",
+			"Turn this tile into a [Mycelium] tile <in [{non-[Mycelium]} {Land}] tiles>",
+			"Turn this tile into a [Tundra] tile <in [{non-[Tundra]} {Land}] tiles>",
+			"Turn this tile into a [Desert] tile <in [{non-[Desert]} {Land}] tiles>",
+			"Turn this tile into a [Snow] tile <in [{non-[Snow]} {Land}] tiles>",
+			"Turn this tile into a [Hill] tile <in [{non-[Hill]} {Land}] tiles>",
+			"Turn this tile into a [Forest] tile <in [{non-[Forest]} {Land}] tiles>",
+			"Turn this tile into a [Jungle] tile <in [{non-[Jungle]} {Land}] tiles>",
+			"Turn this tile into a [Marsh] tile <in [{non-[Marsh]} {Land}] tiles>",
+			"Turn this tile into a [Oasis] tile <in [{non-[Oasis]} {Land}] tiles>",
+			"Turn this tile into a [Polar Oasis] tile <in [{non-[Polar Oasis]} {Land}] tiles>",
+			"Turn this tile into a [Flood plains] tile <in [{non-[Flood plains]} {Land}] tiles>"
+		],
+		"row": 140,
+        "column": 0
+	},
+	*/
 
 	{
 		"name": "Bug Hunter",
