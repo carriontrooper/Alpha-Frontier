@@ -1,0 +1,25 @@
+[
+	/* template
+	{
+		"name": "PersonalityName",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		"military": 10,
+		"priorities": {
+			"Liberty": 30,
+			"Commerce": 20,
+			"Autocracy": 10
+		},
+		"warMongering": 10,
+		"civilopediaText": [
+			{"text": "."}
+		]
+	}
+	*/
+]
