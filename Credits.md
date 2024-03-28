@@ -27,3 +27,8 @@
 
 - [Caballero-Arepa](https://github.com/Caballero-Arepa) - translation template
 - [Heipizhu4](https://github.com/heipizhu4) - Chinese translation, autogen template
+- [GeneralWadaling (AKA TheBucketeer)](https://github.com/GeneralWadaling) - Simplified Chinese translation
+- [Hachchch](https://github.com/hachchch) - Japanese translation
+- [K0baU](https://github.com/K0baU) - Japanese translation
+- [Hello200000](https://github.com/Hello200000) - Spanish translation
+- Doomstar5647 on Discord - Russian translation

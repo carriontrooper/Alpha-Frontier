@@ -469,6 +469,12 @@
 				"row": 4,
 				"quote": "'With our current terraforming technology, what we did on Mars seem like child's play.' - Brigit Oxoa, terraformer",
 				"prerequisites": ["Cloning", "Xenoarchaeology"]
+				/*
+				"uniques": [
+					"[Worker] units gain the [Terraformer] promotion",
+					"All newly-trained [Worker] units [in all cities] receive the [Terraformer] promotion"
+				]
+				*/
 			},
 			{
 				"name": "Quantum Computing",

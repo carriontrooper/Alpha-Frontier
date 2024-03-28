@@ -14,6 +14,7 @@
 	Sentinel
     Some sort of all-purpose heavy artillery unit with anti air radius of 3 for Purification military.
 	*/
+	// IFV unit
 
 	////////////////////
 	// Xeno Units
@@ -389,9 +390,8 @@
 		"strength": 63,
 		"rangedStrength": 63,
 		"range": 1,
-		"interceptRange": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Nuclear weapon of Strength [2]","Blast radius [0]","Uncapturable","Limited to [1] per Civilization","[90]% chance to intercept air attacks"],
+		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]","Uncapturable","Limited to [1] per Civilization","[90]% chance to intercept air attacks","Cannot move <before [40] turns>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
 		"requiredTech": "Fusion Power",
@@ -400,7 +400,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite, which makes its breath of fire having the potency of thermonuclear weapons - literally."
+				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite. Its breath of fire has the potency of thermonuclear weapons - literally."
 			}
 		]
 	},
@@ -409,12 +409,12 @@
 		"unitType": "Xeno Stealth Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 70,
-		"rangedStrength": 55,
-		"range": 1,
+		"strength": 100,
+		"rangedStrength": 65,
+		"range": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before [20] turns>"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterBubbles",
 		"requiredTech": "Metamaterials",
 		"civilopediaText": [
@@ -422,7 +422,7 @@
 				"Separator": true
 			},
 			{
-				"text": "One of the largest ocean-dwelling xeno threats ever emerged, one is so large that it'll look like an unsuspecting island from afar, preying on nearby ships."
+				"text": "One of the largest aquatic xeno threats ever encountered - the Leviathan is so large that it looks like an unsuspecting island from afar, preying on nearby ships."
 			}
 		]
 	},
@@ -433,8 +433,8 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>","Cannot move <before [10] turns>"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterStep",
 		"requiredTech": "Genetic Hybridization",
 		"civilopediaText": [
@@ -442,28 +442,7 @@
 				"Separator": true
 			},
 			{
-				"text": "If you think Gigantes is already the worst you have seen, then you haven't seen this greater beast on rampage - Only few weapons may match it in raw strength."
-			}
-		]
-	},
-*/
-/*
-	{
-		"name": "Xeno Titan",
-		"unitType": "Xeno Melee Land",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 150,
-		"cost": 100,
-		"uniques": ["Xeno","Titan","Uncapturable","Limited to [1] per Civilization","May attack when embarked","[+500]% Strength <in [Water] tiles>","[+1] Sight","Can see over obstacles","Can pass through impassable tiles","All tiles cost 1 movement","[+100]% Strength <vs cities>","Destroys tile improvements when attacking","[-30]% Strength for enemy [non-[Titan]] units in adjacent [All] tiles"],
-		"attackSound": "MonsterBite",
-		"requiredTech": "Advanced Biotech",
-		"civilopediaText": [
-			{
-				"Separator": true
-			},
-			{
-				"text": "The ultimate instrument of destruction and vengeance from nature itself, it created an abomination based off its greatest enemy - us."
+				"text": "If you think Gigantes is already the biggest and worst xeno you have seen, then you haven't seen this rampaging giant - few weapons can match it in raw strength."
 			}
 		]
 	},
@@ -478,7 +457,7 @@
 		"movement": 3,
 		"strength": 30,
 		"cost": 100,
-		"uniques": ["Xeno","Uncapturable","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
+		"uniques": ["Xeno","Uncapturable","[+1] Sight","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"requiredTech": "Genetic Hybridization",
@@ -487,7 +466,7 @@
 				"Separator": true
 			},
 			{
-				"text": "For some reason, the xeno hives managed to assimilate captured humans and turned them into lethal, shapeshifting horrors that can mimic objects in their surrounding enviromnent. Your only hope to break its disguise is with aid of fine scanning devices or observation at close proximity."
+				"text": "For some reason, some organisms in the xeno hive managed to assimilate captured humans and turn them into more lethal, shapeshifting horrors that can mimic its victims and even objects of surrounding enviromnent. Your only hope to break its disguise is with the aid of fine scanning devices or observation at close proximity."
 			}
 		]
 	},
@@ -601,11 +580,10 @@
 				"Separator": true
 			},
 			{
-				"text": "A more vicious strain of Winghead"
+				"text": "A more vicious strain of Winghead."
 			}
 		]
 	},
-
 
 	////////////////////
 	// Player units
@@ -3077,13 +3055,14 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
-		"cost": 25,
+		"cost": 50,
 		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [10] per Civilization",
 			"Rover",
 			"Never appears as a Barbarian unit"
 		],
@@ -3102,13 +3081,14 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 8,
-		"cost": 40,
+		"cost": 80,
 		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [10] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Drunken Aim"],
@@ -3124,7 +3104,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 13,
-		"cost": 75,
+		"cost": 150,
 		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
@@ -3132,6 +3112,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Professional Discipline"],
@@ -3149,7 +3130,7 @@
 		"range": 2,
 		"strength": 13,
 		"rangedStrength": 13,
-		"cost": 100,
+		"cost": 200,
 		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
@@ -3157,6 +3138,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Deadshot"],
@@ -3172,7 +3154,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 23,
-		"cost": 125,
+		"cost": 250,
 		"hurryCostModifier": -10,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
@@ -3180,6 +3162,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Maniacal Glee"],
@@ -3197,7 +3180,7 @@
 		"range": 2,
 		"strength": 23,
 		"rangedStrength": 23,
-		"cost": 175,
+		"cost": 350,
 		"hurryCostModifier": -10,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
@@ -3205,6 +3188,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Jovian Wolfhunt"],
@@ -3222,13 +3206,14 @@
 		"range": 3,
 		"strength": 33,
 		"rangedStrength": 33,
-		"cost": 250,
+		"cost": 500,
 		"requiredTech": "Lasers",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
@@ -3245,13 +3230,14 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 43,
-		"cost": 300,
+		"cost": 600,
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"May Paradrop up to [5] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
@@ -3268,13 +3254,14 @@
 		"unitType": "Stealth Infantry",
 		"movement": 2,
 		"strength": 34,
-		"cost": 350,
+		"cost": 700,
 		"requiredTech": "Metamaterials",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay","Spectre Shadow"],
@@ -3292,7 +3279,7 @@
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 12,
-		"cost": 75,
+		"cost": 150,
 		"hurryCostModifier": -10,
 		"requiredTech": "Portable Power Sources",
 		"uniques": [
@@ -3300,6 +3287,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
@@ -3319,7 +3307,7 @@
 		"movement": 4,
 		"strength": 15,
 		"interceptRange": 3,
-		"cost": 100,
+		"cost": 200,
 		"hurryCostModifier": -10,
 		"requiredTech": "Missiles",
 		"uniques": [
@@ -3327,6 +3315,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Damage when intercepting <vs [Air] units>",
@@ -3354,7 +3343,7 @@
 		"unitType": "Close Range Water",
 		"movement": 4,
 		"strength": 10,
-		"cost": 45,
+		"cost": 90,
 		"hurryCostModifier": -10,
 		"requiredTech": "Hydrodynamics",
 		"uniques": [
@@ -3362,6 +3351,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
@@ -3379,7 +3369,7 @@
 		"unitType": "Close Range Water",
 		"movement": 5,
 		"strength": 20,
-		"cost": 125,
+		"cost": 250,
 		"hurryCostModifier": -10,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
@@ -3387,6 +3377,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3405,7 +3396,7 @@
 		"unitType": "Hover",
 		"movement": 3,
 		"strength": 12,
-		"cost": 100,
+		"cost": 200,
 		"hurryCostModifier": -10,
 		"requiredTech": "Hovercrafts",
 		//"requiredResource": "Promethine",
@@ -3414,6 +3405,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Armored",
 			"Hovercraft",
 			"No defensive terrain bonus",
@@ -3440,7 +3432,7 @@
 		"rangedStrength": 25,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 150,
+		"cost": 300,
 		"requiredTech": "Aeronautics",
 		//"requiredResource": "Promethine",
 		"uniques": [
@@ -3448,6 +3440,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [non-air] units>",
 			"[+100]% Strength <vs [Air] units>",
@@ -3473,7 +3466,7 @@
 		"unitType": "Close Range Water",
 		"movement": 5,
 		"strength": 35,
-		"cost": 250,
+		"cost": 500,
 		"requiredTech": "Alloy Microstructures",
 		//"requiredResource": "Promethine",
 		"uniques": [
@@ -3481,6 +3474,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
@@ -3502,7 +3496,7 @@
 		"range": 2,
 		"strength": 32,
 		"rangedStrength": 32,
-		"cost": 275,
+		"cost": 550,
 		"requiredTech": "Composite Armor",
 		//"requiredResource": "Titanium",
 		"uniques": [
@@ -3510,6 +3504,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"[+100]% Strength <vs [Submarine] units> <when attacking>",
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [2] [Cruise Missile] units",
@@ -3532,7 +3527,7 @@
 		"unitType": "Hover",
 		"movement": 3,
 		"strength": 35,
-		"cost": 150,
+		"cost": 300,
 		"hurryCostModifier": -10,
 		"requiredTech": "Composite Armor",
 		//"requiredResource": "Promethine",
@@ -3541,6 +3536,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Hovercraft",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -3562,7 +3558,7 @@
 		"unitType": "Armored",
 		"movement": 3,
 		"strength": 40,
-		"cost": 150,
+		"cost": 300,
 		"requiredTech": "Composite Armor",
 		//"requiredResource": "Promethine",
 		"uniques": [
@@ -3570,6 +3566,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
@@ -3592,7 +3589,7 @@
 		"movement": 3,
 		"strength": 35,
 		"interceptRange": 4,
-		"cost": 175,
+		"cost": 350,
 		"requiredTech": "Lasers",
 		//"requiredResource": "Promethine",
 		"uniques": [
@@ -3600,6 +3597,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Armored] units>",
 			"[+150]% Strength <vs [Air] units>",
@@ -3630,7 +3628,7 @@
 		"range": 3,
 		"strength": 30,
 		"rangedStrength": 40,
-		"cost": 175,
+		"cost": 350,
 		"hurryCostModifier": -10,
 		"requiredTech": "Next-Gen Armaments",
 		//"requiredResource": "Promethine",
@@ -3639,6 +3637,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [5] per Civilization",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -3662,7 +3661,7 @@
 		"unitType": "Close Range Mech",
 		"movement": 5,
 		"strength": 30,
-		"cost": 175,
+		"cost": 350,
 		"hurryCostModifier": -10,
 		"requiredTech": "Mecha Prototypes",
 		//"requiredResource": "Titanium",
@@ -3671,6 +3670,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [7] per Civilization",
 			"Mech",
 			"[+1] Sight",
 			"Can move after attacking",
@@ -3694,7 +3694,7 @@
 		"unitType": "Close Range Mech",
 		"movement": 4,
 		"strength": 45,
-		"cost": 450,
+		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		//"requiredResource": "Titanium",
 		"uniques": [
@@ -3702,6 +3702,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"Mech",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -3726,7 +3727,7 @@
 		"range": 3,
 		"strength": 45,
 		"rangedStrength": 50,
-		"cost": 450,
+		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		//"requiredResource": "Titanium",
 		"uniques": [
@@ -3734,6 +3735,7 @@
 			"Unbuildable <for [Human player]>",
 			"Only available <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
 			"Mech",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",

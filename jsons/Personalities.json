@@ -1,0 +1,72 @@
+[
+	/*
+	### Alpha Frontier personality ideas
+	- Isolationist Researcher
+	- Expansionist Megacorp
+	- Industrial Megacorp
+	- Economic Megacorp
+	- Medical Researcher
+	- Scientific Megacorp
+	- Cyber Military Bureau
+	- Warmongering Bully
+	- Media Megacorp
+	- Wandering Mystic
+	- Eco-harmonist Empire
+	- Human-purist Empire
+	- Protective Defense Bureau
+	- Cultural Raider
+	- Military-Industrial Megacorp
+	### Deciv in AF
+	- Nomadic Survivor
+	- Unethical Researcher
+	- Tribal Commune
+	- Mercenary Megacorp
+	- Diplomatic Union
+	- Resurgent Military
+	- Isolationist Survivor
+	- Criminal Empire
+	- Imperial Raider
+	- Zealous Cultist
+	- Nomadic Raider
+	- Rising Power
+	### CivBE in AF
+	- Wonder Construction Bureau
+	- Expansionist Military
+	- Cultural Ambassador
+	- Theocratic Nation
+	- Agrobusiness Trader
+	- Industrial Nation
+	- Nomadic Spacer
+	- Isolationist Spymaster
+	- Diplomatic Ambassador
+	- Industrial Builder
+	### New Powers
+	- Urban Builder
+	- Agrobusiness Spacer
+	- Human-purist Researcher
+	- Expansionist Union
+	*/
+	/* template
+	{
+		"name": "PersonalityName",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		"military": 10,
+		"priorities": {
+			"Liberty": 30,
+			"Commerce": 20,
+			"Autocracy": 10
+		},
+		"warMongering": 10,
+		"civilopediaText": [
+			{"text": "."}
+		]
+	}
+	*/
+]
