@@ -279,7 +279,7 @@ BuildingIcons/Drone Delivery Network
   index: -1
 BuildingIcons/Economic Oracle
   rotate: false
-  xy: 544, 1084
+  xy: 436, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1483,7 +1483,7 @@ UnitIcons/Echidna
   index: -1
 UnitIcons/Echidna Major
   rotate: false
-  xy: 436, 976
+  xy: 544, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
