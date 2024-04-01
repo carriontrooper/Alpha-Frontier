@@ -1,14 +1,15 @@
 [
 	/*
-	### Alpha Frontier personality ideas
-	- Isolationist Researcher
-	- Expansionist Megacorp
+	#### Alpha Frontier personality ideas
+	### Base AF
+	- Centralized Researcher
+	- Belter Corpo-Union
 	- Industrial Megacorp
 	- Economic Megacorp
-	- Medical Researcher
+	- Medical Megacorp
 	- Scientific Megacorp
 	- Cyber Military Bureau
-	- Warmongering Bully
+	- Bullying Warmonger
 	- Media Megacorp
 	- Wandering Mystic
 	- Eco-harmonist Empire
@@ -17,20 +18,20 @@
 	- Cultural Raider
 	- Military-Industrial Megacorp
 	### Deciv in AF
-	- Nomadic Survivor
+	- Nomadic Survivors
 	- Unethical Researcher
 	- Tribal Commune
 	- Mercenary Megacorp
 	- Diplomatic Union
 	- Resurgent Military
-	- Isolationist Survivor
+	- Isolationist Survivors
 	- Criminal Empire
 	- Imperial Raider
 	- Zealous Cultist
 	- Nomadic Raider
 	- Rising Power
 	### CivBE in AF
-	- Wonder Construction Bureau
+	- Construction Bureau
 	- Expansionist Military
 	- Cultural Ambassador
 	- Theocratic Nation
@@ -45,8 +46,14 @@
 	- Agrobusiness Spacer
 	- Human-purist Researcher
 	- Expansionist Union
+	### Spares for other modders to use
+	- Expansionist Megacorp
+	
 	*/
 	/* template
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	// AF VictoryTypes: Scientific, Cultural, Terraforming, Domination, Diplomatic
+	
 	{
 		"name": "PersonalityName",
 		"preferredVictoryType": "Domination",
@@ -69,4 +76,607 @@
 		]
 	}
 	*/
+
+	{
+		"name": "Centralized Researcher",
+		"preferredVictoryType": "Scientific",
+		"culture": 3,
+		"faith": 3,
+		"food": 5,
+		"gold": 3,
+		"happiness": 5,
+		"production": 5,
+		"science": 8,
+		"military": 5,
+		"priorities": {
+			"Consolidation": 20,
+			"Ingenuity": 20,
+			"Ascendancy": 10,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This faction tend to pool their resources into a centralized scientific authority, with research as their primary focus."}
+		]
+	},
+	{
+		"name": "Belter Corpo-Union",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 4,
+		"food": 5,
+		"gold": 7,
+		"happiness": 5,
+		"production": 8,
+		"science": 5,
+		"military": 7,
+		"priorities": {
+			"Pioneer Spirit": 30,
+			"Diversity": 20,
+			"Tenacity": 20,
+			"Ingenuity": 20,
+			"Humanitarian": 10,
+			"Purification Ideology": 10,
+			"Symbiosis Ideology": 10
+		},
+		"warMongering": 7,
+		"civilopediaText": [
+			{"text": "A loose alliance of corporations hailing from the asteroid belt, their diversity and ingenuity are driven by their adamant pioneering spirit."}
+		]
+	},
+	{
+		"name": "Industrial Megacorp",
+		"preferredVictoryType": "Cultural",
+		"culture": 5,
+		"faith": 5,
+		"food": 5,
+		"gold": 8,
+		"happiness": 6,
+		"production": 9,
+		"science": 6,
+		"military": 7,
+		"priorities": {
+			"Consolidation": 10,
+			"Tenacity": 20,
+			"Ingenuity": 20,
+			"Prestige": 20,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This kind of megacorporation prioritizes their industrial output and economy, with more than sufficient military force to guard itself."}
+		]
+	},
+	{
+		"name": "Economic Megacorp",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 6,
+		"faith": 5,
+		"food": 5,
+		"gold": 9,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		"military": 7,
+		"priorities": {
+			"Consolidation": 10,
+			"Tenacity": 20,
+			"Statecraft": 30,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 6,
+		"civilopediaText": [
+			{"text": "This kind of megacorporation tend to gravitate towards trade with outposts and pure profits, although it still keeps a sufficient military force to guard itself."}
+		]
+	},
+	{
+		"name": "Medical Megacorp",
+		"preferredVictoryType": "Scientific",
+		"culture": 7,
+		"faith": 6,
+		"food": 5,
+		"gold": 3,
+		"happiness": 6,
+		"production": 4,
+		"science": 8,
+		"military": 3,
+		"priorities": {
+			"Diversity": 20,
+			"Humanitarian": 20,
+			"Ascendancy": 20,
+			"Symbiosis Ideology": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This research-driven megacorporation is more interested in advancing humanity's medical sciences and ease humanity's ills."}
+		]
+	},
+	{
+		"name": "Scientific Megacorp",
+		"preferredVictoryType": "Scientific",
+		"culture": 3,
+		"faith": 3,
+		"food": 3,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 9,
+		"military": 7,
+		"priorities": {
+			"Consolidation": 20,
+			"Tenacity": 10,
+			"Ingenuity": 20,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 6,
+		"civilopediaText": [
+			{"text": "This type of megacorporation is based around its reasearch and development department; profiting off the scientific advances they make is but a side effect."}
+		]
+	},
+	{
+		"name": "Cyber Military Bureau",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 4,
+		"faith": 4,
+		"food": 5,
+		"gold": 4,
+		"happiness": 5,
+		"production": 8,
+		"science": 7,
+		"military": 9,
+		"priorities": {
+			"Consolidation": 10,
+			"Tenacity": 30,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction tends to value cybernetically-enhanced military strength, and thus usually have a big industrial and scientific base."}
+		]
+	},
+	{
+		"name": "Bullying Warmonger",
+		"preferredVictoryType": "Domination",
+		"culture": 3,
+		"faith": 5,
+		"food": 6,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 3,
+		"military": 9,
+		"priorities": {
+			"Tenacity": 30,
+			"Purification Ideology": 30
+		},
+		"warMongering": 9,
+		"civilopediaText": [
+			{"text": "This militaristic faction enjoys causing trouble for other civilizations, and extorting outposts - if not conquering them outright."}
+		]
+	},
+	{
+		"name": "Media Megacorp",
+		"preferredVictoryType": "Cultural",
+		"culture": 8,
+		"faith": 6,
+		"food": 5,
+		"gold": 7,
+		"happiness": 8,
+		"production": 5,
+		"science": 6,
+		"military": 5,
+		"priorities": {
+			"Diversity": 30,
+			"Humanitarian": 10,
+			"Prestige": 30,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This kind of megacorporation tends to monopolize the media, ensuring the happiness of their viewers by offering them superior cultural entertainment."}
+		]
+	},
+	{
+		"name": "Wandering Mystic",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 7,
+		"faith": 9,
+		"food": 5,
+		"gold": 6,
+		"happiness": 8,
+		"production": 5,
+		"science": 4,
+		"military": 4,
+		"priorities": {
+			"Pioneer Spirit": 30,
+			"Tenacity": 20,
+			"Humanitarian": 10,
+			"Ascendancy": 10,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20
+		},
+		"warMongering": 2,
+		"civilopediaText": [
+			{"text": "This faction has nomadic tendencies, their wanderings driven by a higher spiritual cause."}
+		]
+	},
+	{
+		"name": "Eco-harmonist Empire",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 7,
+		"faith": 6,
+		"food": 8,
+		"gold": 3,
+		"happiness": 8,
+		"production": 5,
+		"science": 4,
+		"military": 4,
+		"priorities": {
+			"Diversity": 20,
+			"Statecraft": 20,
+			"Humanitarian": 10,
+			"Symbiosis Ideology": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This faction values harmony with its environment, and focuses towards helping fellow organisms."}
+		]
+	},
+	{
+		"name": "Human-purist Empire",
+		"preferredVictoryType": "Domination",
+		"culture": 7,
+		"faith": 6,
+		"food": 6,
+		"gold": 5,
+		"happiness": 3,
+		"production": 5,
+		"science": 3,
+		"military": 8,
+		"priorities": {
+			"Consolidation": 20,
+			"Tenacity": 20,
+			"Humanitarian": 10,
+			"Prestige": 10,
+			"Purification Ideology": 30
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This faction favors heavily towards humanity's natural supremacy, and would not hesitate to use force against those who disagree."}
+		]
+	},
+	{
+		"name": "Protective Defense Bureau",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 6,
+		"faith": 3,
+		"food": 6,
+		"gold": 4,
+		"happiness": 7,
+		"production": 7,
+		"science": 5,
+		"military": 8,
+		"priorities": {
+			"Consolidation": 10,
+			"Tenacity": 10,
+			"Statecraft": 20,
+			"Humanitarian": 20,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This defense-oriented military faction tends to be protective towards those who are weaker than them, and use their military as a means to diplomacy."}
+		]
+	},
+	{
+		"name": "Cultural Raiders",
+		"preferredVictoryType": "Cultural",
+		"culture": 8,
+		"faith": 7,
+		"food": 6,
+		"gold": 5,
+		"happiness": 6,
+		"production": 4,
+		"science": 4,
+		"military": 6,
+		"priorities": {
+			"Diversity": 20,
+			"Tenacity": 30,
+			"Humanitarian": 10,
+			"Prestige": 10,
+			"Symbiosis Ideology": 30
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This faction's culture revolves around raiding - or perhaps, they raid because it's in their culture to do so."}
+		]
+	},
+	{
+		"name": "Military-Industrial Megacorp",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 3,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 9,
+		"science": 6,
+		"military": 9,
+		"priorities": {
+			"Consolidation": 20,
+			"Tenacity": 30,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 6,
+		"civilopediaText": [
+			{"text": "This kind of megacorporation mixes military efficiency with industrial might, often becoming an industrial and military juggernaught."}
+		]
+	},
+
+	// Deciv in AF
+	{
+		"name": "Nomadic Survivors",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 5,
+		"faith": 6,
+		"food": 5,
+		"gold": 3,
+		"happiness": 7,
+		"production": 5,
+		"science": 4,
+		"military": 7,
+		"priorities": {
+			"Pioneer Spirit": 20,
+			"Tenacity": 20,
+			"Humanitarian": 20
+		},
+		"warMongering": 2,
+		"civilopediaText": [
+			{"text": "This faction's wanderings is because of necessity, a history of scarcity may explain the origin of this nomadic tradition."}
+		]
+	},
+	{
+		"name": "Unethical Researcher",
+		"preferredVictoryType": "Domination",
+		"culture": 3,
+		"faith": 3,
+		"food": 5,
+		"gold": 3,
+		"happiness": 3,
+		"production": 7,
+		"science": 9,
+		"military": 5,
+		"priorities": {
+			"Consolidation": 20,
+			"Ingenuity": 10,
+			"Ascendancy": 20,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 7,
+		"civilopediaText": [
+			{"text": "This faction will go to any length in order to fulfill their scientific curiosity, even by invading others for research purposes."}
+		]
+	},
+	{
+		"name": "Tribal Commune",
+		"preferredVictoryType": "Cultural",
+		"culture": 8,
+		"faith": 6,
+		"food": 6,
+		"gold": 4,
+		"happiness": 6,
+		"production": 7,
+		"science": 4,
+		"military": 6,
+		"priorities": {
+			"Tenacity": 20,
+			"Humanitarian": 20,
+			"Symbiosis Ideology": 20
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This egalitarian community of tribal clans value their industrial traditions, making them strong together."}
+		]
+	},
+	{
+		"name": "Mercenary Megacorp",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 3,
+		"food": 5,
+		"gold": 7,
+		"happiness": 4,
+		"production": 6,
+		"science": 5,
+		"military": 8,
+		"priorities": {
+			"Tenacity": 20,
+			"Prestige": 20,
+			"Purification Ideology": 30
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This kind of megacorporation thrives upon all sorts of wars, selling their services to anyone able to meet their steep price. They will make a profit even if they have to start a few wars of their own."}
+		]
+	},
+	{
+		"name": "Diplomatic Union",
+		"preferredVictoryType": "Diplomacy",
+		"culture": 7,
+		"faith": 6,
+		"food": 7,
+		"gold": 5,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		"military": 7,
+		"priorities": {
+			"Statecraft": 30,
+			"Humanitarian": 20,
+			"Prestige": 20
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction is actually an alliance between smaller states, banding together for mutual benefit."}
+		]
+	},
+	{
+		"name": "Resurgent Military",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 3,
+		"food": 4,
+		"gold": 4,
+		"happiness": 5,
+		"production": 8,
+		"science": 4,
+		"military": 9,
+		"priorities": {
+			"Consolidation": 10,
+			"Tenacity": 30,
+			"Purification Ideology": 30
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This militaristic faction was once brought low and in the brink of collapse, but an upswing of patriotic fervor managed to save them from annihilation."}
+		]
+	},
+	{
+		"name": "Isolationist Survivors",
+		"preferredVictoryType": "Scientific",
+		"culture": 6,
+		"faith": 4,
+		"food": 7,
+		"gold": 5,
+		"happiness": 6,
+		"production": 6,
+		"science": 7,
+		"military": 9,
+		"priorities": {
+			"Tenacity": 30,
+			"Ingenuity": 20,
+			"Purification Ideology": 20
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "This faction is made up of survivors who banded together for mutual protection. They will not generally attack unless they were agitated first."}
+		]
+	},
+	{
+		"name": "Criminal Empire",
+		"preferredVictoryType": "Domination",
+		"culture": 5,
+		"faith": 4,
+		"food": 5,
+		"gold": 7,
+		"happiness": 3,
+		"production": 6,
+		"science": 4,
+		"military": 7,
+		"priorities": {
+			"Consolidation": 20,
+			"Prestige": 10,
+			"Purification Ideology": 20
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This faction has its roots in organized crime, and would not hesitate to use underhanded means to achieve their goal."}
+		]
+	},
+	{
+		"name": "Imperial Raiders",
+		"preferredVictoryType": "Domination",
+		"culture": 7,
+		"faith": 7,
+		"food": 5,
+		"gold": 5,
+		"happiness": 4,
+		"production": 7,
+		"science": 4,
+		"military": 8,
+		"priorities": {
+			"Tenacity": 30,
+			"Prestige": 20,
+			"Purification Ideology": 20
+		},
+		"warMongering": 9,
+		"civilopediaText": [
+			{"text": "This faction of raiders has big plans to turn themselves into an empire that could rival those in history, via military power."}
+		]
+	},
+	{
+		"name": "Zealous Cultists",
+		"preferredVictoryType": "Domination",
+		"culture": 6,
+		"faith": 9,
+		"food": 6,
+		"gold": 4,
+		"happiness": 5,
+		"production": 6,
+		"science": 3,
+		"military": 8,
+		"priorities": {
+			"Tenacity": 30,
+			"Ascendancy": 20,
+			"Purification Ideology": 30
+		},
+		"warMongering": 8,
+		"civilopediaText": [
+			{"text": "This cult-like faction has incredible zeal to bring down all the unbelievers."}
+		]
+	},
+	{
+		"name": "Nomadic Raiders",
+		"preferredVictoryType": "Domination",
+		"culture": 6,
+		"faith": 6,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 6,
+		"science": 4,
+		"military": 8,
+		"priorities": {
+			"Pioneer Spirit": 20,
+			"Tenacity": 20,
+			"Ingenuity": 30
+		},
+		"warMongering": 2,
+		"civilopediaText": [
+			{"text": "This raider faction tend to roam far and wide in order to strike at their victims, necessitating nomadic living."}
+		]
+	},
+	{
+		"name": "Rising Power",
+		"preferredVictoryType": "Scientific",
+		"culture": 7,
+		"faith": 6,
+		"food": 7,
+		"gold": 5,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		"military": 6,
+		"priorities": {
+			"Consolidation": 20,
+			"Diversity": 20,
+			"Statecraft": 10,
+			"Ingenuity": 10,
+			"Humanitarian": 20,
+			"Prestige": 10
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction had just recently became a major player in the world stage, and is building up its political power through various means."}
+		]
+	}
 ]
