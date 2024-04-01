@@ -26,6 +26,7 @@
 		"leaderName": "LeaderName",
 		"adjective": ["Adjective"],
 		"startBias": ["Tundra"],
+		"personality": "personalityType",
 		"preferredVictoryType":"Scientific",
 
 		"startIntroPart1": ".",
@@ -134,6 +135,7 @@
 		"leaderName": "Kirii Toma",
 		"adjective": ["Toman"],
 		"startBias": ["Tundra"],
+		"personality": "Centralized Researcher",
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries. Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
@@ -200,6 +202,7 @@
 		"leaderName": "Tycho Dawes",
 		"adjective": ["Belta"],
 		"startBias": ["Plains"],
+		"personality": "Belter Corpo-Union",
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "Oye, Beltalowda Tycho Dawes, spokesperson of the Belta V Offworld Mining! Originally a small mining company based on Ceres in the Asteroid Belt, its integration into the local prison system has been a major success. Soon the company spread around the Asteroid Belt and beyond, taking in a majority of the Belter subculture into their workforce. As the mineral content of the Belt dwindles, rumors spread of a fresh new exoplanet to colonize - and soon the company commissioned their own colony ship with you, Tycho Dawes, as its warden.",
@@ -264,6 +267,7 @@
 		"leaderName": "Karl McUrist",
 		"adjective": ["Deep Rock"],
 		"startBias": ["Avoid [Coast]"],
+		"personality": "Industrial Megacorp",
 		"preferredVictoryType":"Cultural",
 
 		"startIntroPart1": "May you forever Rock and Stone, Karl McUrist, CEO of Deep Rock Ganymede! Ever since you've struck it rich as a hazardous miner in Ganymede, you've built your own corporation from the ground up. Your company's key to success is specializing in high-hazard high-pay employment to mine the rarest resources, going farther and deeper than any of your competitor ever dreamed of. Now, as unrest grips the Jovian moons, you turn your eye towards the new exoplanet, and built your own colony ship.",
@@ -325,6 +329,7 @@
 		"leaderName": "Paula Walpole",
 		"adjective": ["W-Y"],
 		//"startBias": ["Tundra"],
+		"personality": "Economic Megacorp",
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Greetings upon you, Paula Walpole, CEO of the Walpole-Yuen Inc. megacorporation. What began as a merger between Walpole Trading Company and Yuen Solutions turned into a lucrative conglomeration of companies, profiting more and more with each acquisition. Right before the Great Economic Collapse, Walpole-Yuen had invested much into a colony ship - one it uses to seek new worlds to colonize and exploit. Accompanied by colonists eager for profits, you, Paula Walpole, had landed on this exoplanet.",
@@ -386,6 +391,7 @@
 		"leaderName": "Aparajita Devi",
 		"adjective": ["Somatek"],
 		"startBias": ["Mycelium"],
+		"personality": "Medical Megacorp",
 		"preferredVictoryType":"Scientific",
 
 		"startIntroPart1": "Namaste, Director Aparajita Devi of Somatek Biomedical. Your company successfully rose from a simple pharmaceutical company in old Earth's India, treating the poor and rich alike. You've stumbled upon a major breakthrough when you revived the Soma plant back from extinction, which proved to have major health benefits. As the Earth's conditions worsen and more and more pandemics occur, your company have gathered enough capital to save as much people as you can off the Earth. When time came, you, Aparajita Devi, emerged into a new paradise, along with the people you pledged to save.",
@@ -449,6 +455,7 @@
 		"name": "Skye Robotics",
 		"leaderName": "Gladys Winters",
 		"adjective": ["Skye"],
+		"personality": "Scientific Megacorp",
 		"preferredVictoryType":"Scientific",
 
 		"startIntroPart1": "Greetings be upon you, Director Gladys Winters of Skye Robotics. Although the earliest data about your company was unavailable, it rose to prominence in the beginning of the collapse of old Earth as an independent robotics provider. Your company made various kinds of robots to help the ailing humanity - from automated construction vehicles to toys for refugee children. From the profits, you created a spaceship and crewed it with engineers and scientists, aimed at the stars to learn more about the human condition.",
@@ -511,6 +518,7 @@
 		"leaderName": "Chihiro Kusanagi",
 		"adjective": ["Daikyu"],
 		"startBias": ["Avoid [Desert]"],
+		"personality": "Cyber Military Bureau",
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Salutations, Major Chihiro Kusanagi of the Daikyu Boei Kikan. A quasi-espionage agency operating in the East Asian region of old Earth, its role expanded into covert paramilitary action during the collapse. As the refugees and wars creep closer, you've decided to convert your secret space station into a covert colony ship - to spy upon new worlds.",
@@ -572,6 +580,7 @@
 		"leaderName": "Gregor Radec",
 		"adjective": ["Einherjar"],
 		"startBias": ["Tundra"],
+		"personality": "Bullying Warmonger",
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "Hail, Diktat Gregor Radec of the Einherjar Diktat! Ever since your beginnings as a mercenary operating in the ice mines of Europa, you've steadily built up a loyal and dangerous following. As you seized power over Europa during the Jovian unrests, you've also begun to build your own spaceship - to further the reach of the Diktat far into space.",
@@ -636,6 +645,7 @@
 		"leaderName": "Camille Jourdain",
 		"adjective": ["Thespiaux"],
 		"startBias": ["Coastal"],
+		"personality": "Media Megacorp",
 		"preferredVictoryType":"Cultural",
 
 		"startIntroPart1": "Bonjour, Camille Jourdain, head of Thespiaux Medianet! Rising from a small news outlet into a major media player in old Earth's Europe, your network has entertained, informed and shaped opinions of millions around the world and beyond. Your cameras had captured the pandemics of Asia, the worsening climate change, the Jovian unrest, and as a last broadcast on old Earth: the launch of your own colony ship. Packed with the most creative minds from around the world, you seek to document and air the entirety of your colony-building efforts.",
@@ -697,6 +707,7 @@
 		"leaderName": "Igider Zeroual",
 		"adjective": ["Musafir"],
 		"startBias": ["Desert"],
+		"personality": "Wandering Mystic",
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Azul, Igider Zeroual of the Badwalmusafir. A true visionary among the waves of refugees in the wake of the societal collapse of old Earth, you have amassed a devout following by promoting a nomadic way of life. Your wanderings took you places you never even believed existed before - and when your followers created a colony ship to wander the stars with, you did not hesitate to go.",
@@ -761,6 +772,7 @@
 		"leaderName": "Smetre D'Poloty",
 		"adjective": ["Xenoidid"],
 		"startBias": ["Mycelium"],
+		"personality": "Eco-harmonist Empire",
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Greetings to you and your beasts, king Smetre D'Poloty of the Xenoidid Empire! As a bioengineering scientist back on old Earth, you've joined the numerous legions of refugees that escaped the collapse. Your ship is among the first to land on this exoplanet - albeit damaged and lacking supplies. It was fortunate, then, that a rare strain of mutated Xeno lifeform lives nearby - one whose hive mind was severed from the main planetary hive mind, and is more open for domestication. That is how you and your people survived, by forming a rudimentary symbiosis with these orphaned Xenos.",
@@ -822,6 +834,7 @@
 		"leaderName": "Cain Stalia",
 		"adjective": ["Imperio"],
 		"startBias": ["Grassland"],
+		"personality": "Human-purist Empire",
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "Ave, true to Cain Stalia! Imperator of the Imperio Di Uomo, subjugator of cities. Ever since the collapse ocurred, you've established yourself as a warlord, amassing military might to protect your people. Then, you sought to civilize the devastated states around you, and went on a ten-year campaign to unite most of old Earth's Balkans, South and East Europe under your banner. For a while, your empire prospers, a beacon of martial civility among the ruins. When the climate began to take a turn for the worse, you've managed to build a magnificent colony ship, ready for an exodus to preserve humanity across the stars.",
@@ -883,6 +896,7 @@
 		"leaderName": "Xu Jianhong",
 		"adjective": ["Fazhan"],
 		"startBias": ["Plains"],
+		"personality": "Protective Defense Bureau",
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Ni Hao, Xu Jianhong of Xingxing Fazhan Bu - the Ministry of Planetary Development. Your ministry arose in the East Asia region of old Earth, anticipating an early rush for space colonization - alas, the global collapse had complicated things. Instead, your ministry had turned into one dedicated for the development and defense of the people, focusing on the protection of civilians in the increasingly chaotic times. However, the original intent still lives on, and eventually the Ministry had managed to create a colony ship of their own. Now, the Ministry has found a foothold in this new world, ready to finally fulfill their original purpose.",
@@ -944,6 +958,7 @@
 		"leaderName": "Omnira Pessoa",
 		"adjective": ["Waverunner"],
 		"startBias": ["Coastal"],
+		"personality": "Cultural Raiders",
 		"preferredVictoryType":"Cultural",
 
 		"startIntroPart1": "Bonjou, Captain Omnira Pessoa of the Free Waverunners! Starting as a small artistic commune in the Caribbeans of old Earth, the societal collapse had turned your collection of artists and writers into a den of pirates just to survive. Over time, your crew had assimilated the other pirates in the area, and grew into a major threat for shipping in the Atlantic. But you kept your artistic roots alive - and even influenced the other pirate groups. It was when you found a failed prototype of a colony ship in a Floridan warehouse that you decided to expand your operations towards other planets. Fixing the ship took time, effort, and a few more raids inland, but at the end it was worth it - soon you'll sail in another ocean, on alien seas unfettered.",
@@ -1005,6 +1020,7 @@
 		"leaderName": "Harvey Hawkes",
 		"adjective": ["Blue Streak"],
 		"startBias": ["Plains"],
+		"personality": "Scientific Megacorp",
 		"preferredVictoryType":"Scientific",
 
 		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
@@ -1066,6 +1082,7 @@
 		"leaderName": "Alphonse Gunther-Zetkin",
 		"adjective": ["Jaeger"],
 		"startBias": ["Hill"],
+		"personality": "Military-Industrial Megacorp",
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "Greetings to you, Alphone Gunther-Zetkin, CEO of Jaeger Engineering. Since before the collapse of old Earth, your company have long focused on making armored cars. Soon, you've expanded into the weapons manufacturing business, making armored cars and tanks to other countries. It was your company that first developed the Mech as we know it - and you, too, capitalized it, franchising its designs across the globe. When the collapse happened, you've managed to survive by arming everyone and yourself at a profit. Now, that same profit has been invested into a colony ship, where you hope to test your company against other nations among the stars. To you, competition is the ultimate crucible, and you will look for it even in the stars.",
