@@ -30,6 +30,7 @@
 	- Zealous Cultist
 	- Nomadic Raider
 	- Rising Power
+	- Radioactive Survivors
 	### CivBE in AF
 	- Espionage Megacorp
 	- Construction Bureau
@@ -678,6 +679,27 @@
 		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction had just recently became a major player in the world stage, and is building up its political power through various means."}
+		]
+	},
+	{
+		"name": "Radiocative Survivors",
+		"preferredVictoryType": "Scientific",
+		"culture": 3,
+		"faith": 3,
+		"food": 6,
+		"gold": 3,
+		"happiness": 5,
+		"production": 5,
+		"science": 7,
+		"military": 7,
+		"priorities": {
+			"Tenacity": 20,
+			"Ingenuity": 20,
+			"Humanitarian": 20
+		},
+		"warMongering": 6,
+		"civilopediaText": [
+			{"text": "This faction is made up of irradiated survivors who banded together in order to pool their scientific might, so they can be saved from their radioactive demise."}
 		]
 	},
 
