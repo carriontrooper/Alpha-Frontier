@@ -31,14 +31,15 @@
 	- Nomadic Raider
 	- Rising Power
 	### CivBE in AF
+	- Espionage Megacorp
 	- Construction Bureau
 	- Expansionist Military
 	- Cultural Ambassador
-	- Theocratic Nation
-	- Agrobusiness Trader
-	- Industrial Nation
+	- Diverse Theocracy
+	- Agrobusiness Union
+	- Techno-industrialist Nation
 	- Nomadic Spacer
-	- Isolationist Spymaster
+	- Scheming Spymaster
 	- Diplomatic Ambassador
 	- Industrial Builder
 	### New Powers
@@ -677,6 +678,247 @@
 		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction had just recently became a major player in the world stage, and is building up its political power through various means."}
+		]
+	},
+
+	//CivBE in AF
+	{
+		"name": "Espionage Megacorp",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 5,
+		"faith": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 6,
+		"production": 5,
+		"science": 7,
+		"military": 6,
+		"priorities": {
+			"Statecraft": 20,
+			"Ingenuity": 20,
+			"Prestige": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This megacorp uses corporate espionage to accrue more profit for themselves."}
+		]
+	},
+	{
+		"name": "Construction Bureau",
+		"preferredVictoryType": "Cultural",
+		"culture": 7,
+		"faith": 5,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 9,
+		"science": 6,
+		"military": 3,
+		"priorities": {
+			"Consolidation": 30,
+			"Prestige": 20,
+			"Purification Ideology": 20,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction tend to concentrate its efforts in constructing things. Wonders, buildings, improvements, you name it, they'll try to build it."}
+		]
+	},
+	{
+		"name": "Expansionist Military",
+		"preferredVictoryType": "Domination",
+		"culture": 6,
+		"faith": 5,
+		"food": 8,
+		"gold": 4,
+		"happiness": 6,
+		"production": 7,
+		"science": 3,
+		"military": 8,
+		"priorities": {
+			"Pioneer Spirit": 10,
+			"Consolidation": 20,
+			"Tenacity": 30
+		},
+		"warMongering": 7,
+		"civilopediaText": [
+			{"text": "This militaristic faction will try and grow its cities, as well as take land from their neighbors."}
+		]
+	},
+	{
+		"name": "Cultural Ambassador",
+		"preferredVictoryType": "Cultural",
+		"culture": 8,
+		"faith": 6,
+		"food": 5,
+		"gold": 6,
+		"happiness": 6,
+		"production": 4,
+		"science": 5,
+		"military": 5,
+		"priorities": {
+			"Diversity": 20,
+			"Statecraft": 20,
+			"Prestige": 30
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction considers culture to be paramount, but they also believe that culture should be shared with others."}
+		]
+	},
+	{
+		"name": "Diverse Theocracy",
+		"preferredVictoryType": "Diplomatic",
+		"culture": 7,
+		"faith": 8,
+		"food": 7,
+		"gold": 3,
+		"happiness": 7,
+		"production": 4,
+		"science": 5,
+		"military": 4,
+		"priorities": {
+			"Statecraft": 20,
+			"Humanitarian": 20,
+			"Ascendancy": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction holds true to a religion that encompasses different cultural roots. Thus, it seeks harmony between its followers, and hopefully also the wider world."}
+		]
+	},
+	{
+		"name": "Agrobusiness Union",
+		"preferredVictoryType": "Diplomacy",
+		"culture": 4,
+		"faith": 4,
+		"food": 8,
+		"gold": 7,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		"military": 5,
+		"priorities": {
+			"Statecraft": 20,
+			"Ingenuity": 20,
+			"Humanitarian": 30,
+			"Symbiosis Ideology": 20
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction has its roots in several nation-states, who united in their desire to reach self-sufficiency in both food and economic matters."}
+		]
+	},
+	{
+		"name": "Techno-industrialist Nation",
+		"preferredVictoryType": "Scientific",
+		"culture": 4,
+		"faith": 4,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 7,
+		"science": 8,
+		"military": 6,
+		"priorities": {
+			"Consolidation": 20,
+			"Ingenuity": 20,
+			"Humanitarian": 30,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This nation believes in a strong industrial tenet, which is backed by technological prowess."}
+		]
+	},
+	{
+		"name": "Nomadic Spacers",
+		"preferredVictoryType": "Cultural",
+		"culture": 8,
+		"faith": 6,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 7,
+		"science": 6,
+		"military": 6,
+		"priorities": {
+			"Pioneer Spirit": 20,
+			"Ingenuity": 20,
+			"Humanitarian": 30,
+			"Radiant Ideology": 20
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction has long wandered the stars, and developed their own culture based on it."}
+		]
+	},
+	{
+		"name": "Scheming Spymaster",
+		"preferredVictoryType": "Domination",
+		"culture": 6,
+		"faith": 4,
+		"food": 5,
+		"gold": 5,
+		"happiness": 4,
+		"production": 6,
+		"science": 8,
+		"military": 6,
+		"priorities": {
+			"Statecraft": 20,
+			"Ingenuity": 20,
+			"Purity Ideology": 30,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 7,
+		"civilopediaText": [
+			{"text": "This faction spies on others and makes a lot of schemes on how to best twist them to its advantage."}
+		]
+	},
+	{
+		"name": "Diplomatic Ambassador",
+		"preferredVictoryType": "Diplomacy",
+		"culture": 7,
+		"faith": 6,
+		"food": 5,
+		"gold": 6,
+		"happiness": 6,
+		"production": 4,
+		"science": 7,
+		"military": 5,
+		"priorities": {
+			"Diversity": 20,
+			"Statecraft": 30,
+			"Ingenuity": 20,
+			"Prestige": 20
+		},
+		"warMongering": 4,
+		"civilopediaText": [
+			{"text": "This faction seeks to be the foremost in the diplomatic stage, backed by applicable science."}
+		]
+	},
+	{
+		"name": "Industrial Builder",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 4,
+		"food": 6,
+		"gold": 6,
+		"happiness": 7,
+		"production": 9,
+		"science": 7,
+		"military": 7,
+		"priorities": {
+			"Consolidation": 20,
+			"Tenacity": 10,
+			"Statecraft": 10,
+			"Ingenuity": 20
+		},
+		"warMongering": 6,
+		"civilopediaText": [
+			{"text": "This faction likes to build its industrial base, backed by a military strong enough to defend itself."}
 		]
 	}
 ]
