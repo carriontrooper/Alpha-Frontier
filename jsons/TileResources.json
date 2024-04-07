@@ -12,10 +12,10 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",
-			"Generated on every [22] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>"
+			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
+			"Generated on every [22] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -45,12 +45,12 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Mycelium] tiles>",
-			"Generated on every [27] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",
-			"Generated on every [27] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-			"Generated on every [22] tiles <in [Featureless] [Mycelium] tiles> <in [Hill] Regions>"
+			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Mycelium}] tiles>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
+			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+			"Generated on every [22] tiles <in [{Featureless} {Mycelium}] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -113,10 +113,10 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [14] tiles <in [Featureless] [Desert] tiles>",
-			"Generated on every [28] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [16] tiles <in [Featureless] [Desert] tiles> <in [Hill] Regions>",
-			"Generated on every [32] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
+			"Generated on every [14] tiles <in [{Featureless} {Desert}] tiles>",
+			"Generated on every [28] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [16] tiles <in [{Featureless} {Desert}] tiles> <in [Hill] Regions>",
+			"Generated on every [32] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -146,13 +146,13 @@
 		"uniques": [
 			"Organic",
 			"Fauna",
-			"Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
-			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [16] tiles <in [Featureless] [Mycelium] tiles>",
-			"Generated on every [25] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
+			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [16] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [16] tiles <in [{Featureless} {Mycelium}] tiles>",
+			"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
 			"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
@@ -184,9 +184,9 @@
 		"uniques": [
 			"Organic",
 			"Fauna",
-			"Generated on every [32] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [32] tiles <in [Featureless] [Mycelium] tiles>",
-			"Generated on every [36] tiles <in [Featureless] [Grassland] tiles>"
+			"Generated on every [32] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [32] tiles <in [{Featureless} {Mycelium}] tiles>",
+			"Generated on every [36] tiles <in [{Featureless} {Grassland}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -225,11 +225,11 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
-			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [20] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [20] tiles <in [Featureless] [Mycelium] tiles>",
-			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [20] tiles <in [{Featureless} {Mycelium}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -253,9 +253,9 @@
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Mineral",
-			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -283,8 +283,8 @@
 		"improvementStats": { "gold": 1 },
 		"uniques": [
 			"Mineral",
-			"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
+			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -314,8 +314,8 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
-			"Generated with weight [15] <in [Featureless] [Plains] tiles>",
-			"Generated with weight [15] <in [Featureless] [Desert] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
 		],
 		"civilopediaText": [
@@ -341,9 +341,9 @@
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Mineral",
-			"Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"
+			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -369,8 +369,8 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
-			"Generated with weight [15] <in [Featureless] [Plains] tiles>",
-			"Generated with weight [15] <in [Featureless] [Desert] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
 		],
 		"civilopediaText": [
@@ -397,7 +397,7 @@
 		"improvementStats": { "gold": 1, "production": 1 },
 		"uniques": [
 			"Mineral",
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
+			"Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -426,9 +426,9 @@
 		"improvement": "Aquaculture",
 		"uniques": [
 			"Organic",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Lakes] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Lakes}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -458,7 +458,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
-			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [15] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -486,8 +486,8 @@
 		"improvementStats": { "production": 1, "food": 1 },
 		"uniques": [
 			"Organic",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -516,8 +516,8 @@
 		"uniques": [
 			"Organic",
 			"Fauna",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -545,8 +545,8 @@
 		"improvement": "Offshore Platform",
 		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Ice] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles> <with [1] to [6] neighboring [Ice] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Ice] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles> <with [1] to [6] neighboring [Ice] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -586,7 +586,7 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>",
-			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -631,7 +631,7 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>",
-			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -675,7 +675,7 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>",
-			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -711,7 +711,7 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>",
-			"Doesn't generate naturally <in [Tundra] [Forest] tiles>"
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -741,13 +741,13 @@
 		"uniques": [
 			"Organic",
 			"Fauna",
-			"Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
-			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [16] tiles <in [Featureless] [Mycelium] tiles>",
-			"Generated on every [25] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
+			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [16] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [16] tiles <in [{Featureless} {Mycelium}] tiles>",
+			"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
 			"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
@@ -936,8 +936,8 @@
 		"uniques": [
 			"Organic",
 			"Fauna",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [23] tiles <in [Featureless] [Coast] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [23] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -967,7 +967,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
+			"Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
 			{
@@ -1218,21 +1218,21 @@
 			"Mineral",
 			"Metallic",
 			"Guaranteed with Strategic Balance resource option",
-			"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
-			"Generated with weight [25] <in [Featureless] [Snow] tiles>",
-			"Generated with weight [35] <in [Featureless] [Desert] tiles>",
-			"Generated with weight [35] <in [Featureless] [Mycelium] tiles>",
+			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [35] <in [{Featureless} {Mycelium}] tiles>",
 			"Generated with weight [26] <in [Hill] tiles>",
 			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
+			"Minor deposits generated with weight [10] <in [Jungle} {Hill}] tiles>",
 			"Minor deposits generated with weight [20] <in [Forest] tiles>",
 			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Mycelium] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"
+			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Mycelium}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 4, "default": 6, "abundant": 9 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
@@ -1271,18 +1271,18 @@
 			"Deposits in [Coast] tiles always provide [10] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [15] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Generated with weight [10] <in [Featureless] [Tundra] tiles>",
-			"Generated with weight [15] <in [Featureless] [Snow] tiles>",
-			"Generated with weight [15] <in [Featureless] [Desert] tiles>",
-			"Generated with weight [15] <in [Featureless] [Coast] tiles>",
+			"Generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Coast}] tiles>",
 			"Generated with weight [20] <in [Hill] tiles>",
 			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [Forest] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Mycelium] tiles>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Mycelium}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
 		"minorDepositAmount": { "sparse": 2, "default": 5, "abundant": 6 },
@@ -1324,16 +1324,16 @@
 			"Deposits in [Coast] tiles always provide [4] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Generated with weight [40] <in [Featureless] [Mycelium] tiles>",
-			"Generated with weight [60] <in [Featureless] [Snow] tiles>",
-			"Generated with weight [65] <in [Featureless] [Desert] tiles>",
-			"Generated with weight [100] <in [Featureless] [Coast] tiles>",
+			"Generated with weight [40] <in [{Featureless} {Mycelium}] tiles>",
+			"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
 			"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Mycelium] tiles>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-			"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Mycelium}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
@@ -1370,8 +1370,8 @@
 			"Minor deposits generated with weight [10] <in [Grassland] tiles>",
 			"Minor deposits generated with weight [10] <in [Plains] tiles>",
 			"Minor deposits generated with weight [10] <in [Mycelium] tiles>",
-			"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
-			"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>"
+			"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
@@ -1409,12 +1409,12 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
-			"Generated with weight [30] <in [Snow] [Hill] tiles>",
-			"Generated with weight [30] <in [Tundra] [Hill] tiles>",
-			"Generated with weight [30] <in [Desert] [Hill] tiles>",
+			"Generated with weight [30] <in [{Snow} {Hill}] tiles>",
+			"Generated with weight [30] <in [{Tundra} {Hill}] tiles>",
+			"Generated with weight [30] <in [{Desert} {Hill}] tiles>",
 			"Minor deposits generated with weight [5] <in [Hill] tiles>",
-			"Minor deposits generated with weight [5] <in [Featureless] [Tundra] tiles>",
-			"Minor deposits generated with weight [5] <in [Featureless] [Snow] tiles>"
+			"Minor deposits generated with weight [5] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [5] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
@@ -1452,9 +1452,9 @@
 			"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [Forest] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Mycelium] tiles>",
-			"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Mycelium}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
