@@ -1370,24 +1370,24 @@
 	{
 		"name": "Terraformer",
 		"uniques": [
-			"Turn this tile into a [Ocean] tile <in [{non-[Ocean]} {Water}] tiles>",
-			"Turn this tile into a [Coast] tile <in [{non-[Coast]} {Water}] tiles>",
-			"Turn this tile into a [Atoll] tile <in [{non-[Atoll]} {Water}] tiles>",
-			"Turn this tile into a [Desert] tile <in [{non-[Ocean]} {Water}] tiles>", //raise the seafloor
-			"Turn this tile into a [Lake] tile <in [Land] tiles>",
-			"Turn this tile into a [Grassland] tile <in [{non-[Grassland]} {Land}] tiles>",
-			"Turn this tile into a [Plains] tile <in [{non-[Plains]} {Land}] tiles>",
-			"Turn this tile into a [Mycelium] tile <in [{non-[Mycelium]} {Land}] tiles>",
-			"Turn this tile into a [Tundra] tile <in [{non-[Tundra]} {Land}] tiles>",
-			"Turn this tile into a [Desert] tile <in [{non-[Desert]} {Land}] tiles>",
-			"Turn this tile into a [Snow] tile <in [{non-[Snow]} {Land}] tiles>",
-			"Turn this tile into a [Hill] tile <in [{non-[Hill]} {Land}] tiles>",
-			"Turn this tile into a [Forest] tile <in [{non-[Forest]} {Land}] tiles>",
-			"Turn this tile into a [Jungle] tile <in [{non-[Jungle]} {Land}] tiles>",
-			"Turn this tile into a [Marsh] tile <in [{non-[Marsh]} {Land}] tiles>",
-			"Turn this tile into a [Oasis] tile <in [{non-[Oasis]} {Land}] tiles>",
-			"Turn this tile into a [Polar Oasis] tile <in [{non-[Polar Oasis]} {Land}] tiles>",
-			"Turn this tile into a [Flood plains] tile <in [{non-[Flood plains]} {Land}] tiles>"
+			"Turn this tile into a [Ocean] tile <in [{non-[Ocean]} {Water}] tiles> <for all movement>",
+			"Turn this tile into a [Coast] tile <in [{non-[Coast]} {Water}] tiles> <for all movement>",
+			"Turn this tile into a [Atoll] tile <in [{non-[Atoll]} {Water}] tiles> <for all movement>",
+			"Turn this tile into a [Desert] tile <in [{non-[Ocean]} {Water}] tiles> <for all movement>", //raise the seafloor
+			"Turn this tile into a [Lake] tile <in [Land] tiles> <for all movement>",
+			"Turn this tile into a [Grassland] tile <in [{non-[Grassland]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Plains] tile <in [{non-[Plains]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Mycelium] tile <in [{non-[Mycelium]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Tundra] tile <in [{non-[Tundra]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Desert] tile <in [{non-[Desert]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Snow] tile <in [{non-[Snow]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Hill] tile <in [{non-[Hill]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Forest] tile <in [{non-[Forest]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Jungle] tile <in [{non-[Jungle]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Marsh] tile <in [{non-[Marsh]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Oasis] tile <in [{non-[Oasis]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Polar Oasis] tile <in [{non-[Polar Oasis]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Flood plains] tile <in [{non-[Flood plains]} {Land}] tiles> <for all movement>"
 		],
 		"row": 140,
         "column": 0
