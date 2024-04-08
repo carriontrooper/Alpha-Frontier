@@ -349,6 +349,12 @@
 				"row": 13,
 				"quote": "'Cargo assist servos, modular combat plates, all in one easy to wear package - each and every soldier should have one of these.' - General Ingrid Rasmussen",
 				"prerequisites": ["Next-Gen Armaments","Strike Drones"]
+				/*
+				"uniques": [
+					"[Worker] units gain the [Canal Digger] promotion",
+					"All newly-trained [Worker] units [in all cities] receive the [Canal Digger] promotion"
+				]
+				*/
 			},
 			{
 				"name": "Composite Armor",
@@ -395,6 +401,12 @@
 				"row": 13,
 				"quote": "'As I see it, this is just one way to augment our capabilities. Evolution is no longer the monopoly of natural processes.' - Director Gladys Winters, Skye Robotics",
 				"prerequisites": ["Exoskeletons"]
+				/*
+				"uniques": [
+					"[Worker] units gain the [Mountain Tunneler] promotion",
+					"All newly-trained [Worker] units [in all cities] receive the [Mountain Tunneler] promotion"
+				]
+				*/
 			},
 			{
 				"name": "Orbital Deterrents",
