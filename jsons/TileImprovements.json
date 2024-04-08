@@ -1077,6 +1077,7 @@
 			"Hill",
 			"Coast",
 			"Ocean",
+			//"Canal",
 			"Lakes"
 		],
 		"production": 1,
