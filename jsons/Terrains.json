@@ -253,6 +253,45 @@
 		]
 	},
 
+	/*
+	{
+		"name": "Mountain Tunnel",
+		"type": "Land",
+		"impassable": false,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [110, 110, 110],
+		"uniques": [
+			"Rough terrain",
+			"Doesn't generate naturally",
+			"Has an elevation of [4] for visibility calculations",
+			"Only [All Road] improvements may be built on this tile"
+		],
+		"civilopediaText": [
+			{
+				"text": "Tunnels snake under this mountain, making it passable by ordinary land units."
+			}
+		]
+	},
+
+	{
+		"name": "Canal",
+		"type": "Water",
+		"gold": 1,
+		"RGB": [133, 212, 236],
+		"uniques": [
+			"Fresh water",
+			"Doesn't generate naturally",
+			"Only [Prefab Lair] improvements may be built on this tile <hidden from users>" //Imagine the Waverunners just making canals full of prefab lairs
+		],
+		"civilopediaText": [
+			{
+				"text": "Artificial waterways that allow ships to sail on top of it."
+			}
+		]
+	},
+	*/
+
 	// Terrain features
 	{
 		"name": "Hill",
