@@ -2310,7 +2310,7 @@
 			"Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]",
 			"Hidden when religion is disabled",
-			"Can only be built [in holy cities]"
+			"Can only be built <in [Holy] cities>"
 		],
 		"requiredTech": "Net Culture",
 		"isNationalWonder": true,
