@@ -223,7 +223,7 @@
 		"uniques": [
 			// "May buy [Mercenary Offices] buildings with [Gold] [in cities following this religion]",
 			// "[10]% Strength <for units with [Mercenary Pay] promotion> <when at war>",
-			"[+1 Faith] from every [Mercenary Offices] <in cities where this religion has at least [3] followers>"
+			"[+1 Faith] from every [Mercenary Offices] <in cities where at least [3] [Followers of this Religion]>"
 		]
 	},
 
@@ -242,7 +242,7 @@
 		"name": "Memorialists",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Happiness] from every [Memorial] <in cities where this religion has at least [3] followers>"
+			"[+1 Happiness] from every [Memorial] <in cities where at least [3] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -257,7 +257,7 @@
 		"name": "Mass Prayer",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Culture] from every [Congregation Space] <in cities where this religion has at least [5] followers>"
+			"[+2 Culture] from every [Congregation Space] <in cities where at least [5] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -291,7 +291,7 @@
 		"name": "Virtual Idol Worship",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Faith] from every [Virtual Cultural Space] <in cities where this religion has at least [3] followers>",
+			"[+1 Faith] from every [Virtual Cultural Space] <in cities where at least [3] [Followers of this Religion]>",
 			"[+1 Faith] from every [Holorelay]"
 		]
 	},
@@ -309,7 +309,7 @@
 		"name": "Urban Spiritualism",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Happiness] from every [Congregation Space] <in cities where this religion has at least [5] followers>"
+			"[+2 Happiness] from every [Congregation Space] <in cities where at least [5] [Followers of this Religion]>"
 		]
 	},
 	{
