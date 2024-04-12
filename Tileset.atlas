@@ -1278,7 +1278,7 @@ TileSets/FantasyHex/Units/Delver Team
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Dire_Bugwolf
+TileSets/FantasyHex/Units/Dire Bugwolf
   rotate: false
   xy: 644, 224
   size: 32, 28
