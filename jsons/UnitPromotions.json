@@ -1360,7 +1360,7 @@
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
 			"Consumes [1] [Digital Storage Space]"
 		],
-		"unitTypes": ["Infantry", "Armored"],
+		"unitTypes": ["Stealth Infantry", "Armored"],
 		"row": 32,
         "column": 2
 	},
