@@ -1,7 +1,7 @@
 [
 	/*
 	Rows usage:
-	Alpha Frontier: 0-107, 140
+	Alpha Frontier: 0-107, 140-141
 	Deciv in AF: 108-119
 	CivBE in AF: 120-123
 	Shamsy in AF/New Powers: 124
@@ -1410,6 +1410,34 @@
 		],
 		"row": 140,
         "column": 2
+	},
+	*/
+
+	//era or tech unit buffs
+	/*
+	
+	// Next-Gen Armements
+	{
+		"name": "Advanced Aerocraft Armaments",
+		"uniques": ["[+25]% Strength"],
+		"row": 141,
+        "column": 1
+	},
+
+	// Cybernetics
+	{
+		"name": "Cybernetic Pilot Augmentation",
+		"uniques": ["[+25]% Strength"],
+		"row": 141,
+        "column": 2
+	},
+
+	// Artificial Intelligence
+	{
+		"name": "Personal AI Copilot",
+		"uniques": ["[+25]% Strength"],
+		"row": 141,
+        "column": 3
 	},
 	*/
 
