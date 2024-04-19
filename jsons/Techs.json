@@ -304,6 +304,12 @@
 				"row": 14,
 				"quote": "'There is a possibility of peace in our lifetime - one that is enforced by superior firepower.' - Diktat Gregor Radec",
 				"prerequisites": ["Missiles"]
+				/*
+				"uniques": [
+					"[Aerocraft] units gain the [Advanced Aerocraft Armaments] promotion",
+					"All newly-trained [Aerocraft] units [in all cities] receive the [Advanced Aerocraft Armaments] promotion"
+				]
+				*/
 			}
 		]
 	},
@@ -404,7 +410,9 @@
 				/*
 				"uniques": [
 					"[Worker] units gain the [Mountain Tunneler] promotion",
-					"All newly-trained [Worker] units [in all cities] receive the [Mountain Tunneler] promotion"
+					"All newly-trained [Worker] units [in all cities] receive the [Mountain Tunneler] promotion",
+					"[Aerocraft] units gain the [Cybernetic Pilot Augmentation] promotion",
+					"All newly-trained [Aerocraft] units [in all cities] receive the [Cybernetic Pilot Augmentation] promotion"
 				]
 				*/
 			},
@@ -526,6 +534,12 @@
 				"row": 5,
 				"quote": "'Forget Captcha, forget the Turing test - this AI can make you doubt you are human.' - ROK-0, AI",
 				"prerequisites": ["Quantum Computing"]
+				/*
+				"uniques": [
+					"[Aerocraft] units gain the [Personal AI Copilot] promotion",
+					"All newly-trained [Aerocraft] units [in all cities] receive the [Personal AI Copilot] promotion"
+				]
+				*/
 			},
 			{
 				"name": "Antimatter Harnessing",
