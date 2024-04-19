@@ -640,7 +640,7 @@
 
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I", "Dogfighting I"],
+		"prerequisites": ["Interception I", "Dogfighting I","Bombardment I"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Aerocraft","Satellite"],
 		"row": 44,
@@ -652,7 +652,8 @@
 			"Interception II",
 			"Dogfighting II",
 			"Mobility II",
-			"Anti-Armor II"
+			"Anti-Armor II",
+			"Bombardment II"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Aerocraft", "Helicopter"],
