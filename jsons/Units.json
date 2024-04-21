@@ -1828,7 +1828,7 @@
 		"rangedStrength": 30,
 		"cost": 150,
 		"requiredTech": "Next-Gen Armaments",
-		"upgradesTo": "Cyberheli",
+		//"upgradesTo": "Cyberheli",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -1842,6 +1842,8 @@
 			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Titanium]",
 			"Only available <with [Titanium]>",
+			"Can upgrade to [Cyberheli]",
+			"Can upgrade to [Heavy Heli Gunship]",
 			"Never appears as a Barbarian unit"
 		],
 		//"promotions": ["Indirect Fire"],
@@ -2193,7 +2195,7 @@
 		"cost": 345,
 		"requiredTech": "Mind-Machine Interface",
 		//"requiredResource": "Titanium",
-		"upgradesTo": "Heavy Heli Gunship",
+		//"upgradesTo": "Heavy Heli Gunship",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
