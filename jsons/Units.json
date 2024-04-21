@@ -1828,7 +1828,7 @@
 		"rangedStrength": 30,
 		"cost": 150,
 		"requiredTech": "Next-Gen Armaments",
-		"upgradesTo": ["Cyberheli", "Heavy Heli Gunship"],
+		"upgradesTo": "Cyberheli",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -2193,7 +2193,7 @@
 		"cost": 345,
 		"requiredTech": "Mind-Machine Interface",
 		//"requiredResource": "Titanium",
-		//"upgradesTo": "Heavy Heli Gunship",
+		"upgradesTo": "Heavy Heli Gunship",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking",
