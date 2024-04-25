@@ -2698,7 +2698,7 @@
 		"uniques": [
 			"[+100]% Strength <during a Golden Age>",
 			"[+50]% XP gained from combat",
-			"Only available <after adopting [Purification Ideology]>",
+			"Can only be built <after adopting [Purification Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -2739,7 +2739,7 @@
 			"[+100]% Damage when intercepting <vs [Satellite] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Limited to [3] per Civilization",
-			"Only available <after adopting [Purification Ideology]>",
+			"Can only be built <after adopting [Purification Ideology]>",
 			"Consumes [2] [Antimatter]",
 			"Only available <with [Antimatter]>",
 			"Never appears as a Barbarian unit"
@@ -2786,7 +2786,7 @@
 			"[-1] Sight",
 			"No defensive terrain bonus",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Only available <after adopting [Purification Ideology]>",
+			"Can only be built <after adopting [Purification Ideology]>",
 			"Consumes [1] [Ulframite]",
 			"Only available <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
@@ -2815,7 +2815,7 @@
 		"uniques": [
 			"[20] HP when healing",
 			"Heals [20] damage if it kills a unit",
-			"Only available <after adopting [Symbiosis Ideology]>",
+			"Can only be built <after adopting [Symbiosis Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -2850,7 +2850,7 @@
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
 			"Limited to [3] per Civilization",
-			"Only available <after adopting [Symbiosis Ideology]>",
+			"Can only be built <after adopting [Symbiosis Ideology]>",
 			"Consumes [3] [Vitamass]",
 			"Only available <with [Vitamass]>",
 			"Never appears as a Barbarian unit"
@@ -2894,7 +2894,7 @@
 			"[+33]% Strength <vs cities>",
 			"[+10] HP when healing <in [Water] tiles>",
 			"Limited to [3] per Civilization",
-			"Only available <after adopting [Symbiosis Ideology]>",
+			"Can only be built <after adopting [Symbiosis Ideology]>",
 			"Consumes [3] [Vitamass]",
 			"Only available <with [Vitamass]>",
 			"Never appears as a Barbarian unit"
@@ -2927,7 +2927,7 @@
 			"[+2] Sight",
 			"Damage is ignored when determining unit Strength",
 			"Consumes [1] [Digital Storage Space]",
-			"Only available <after adopting [Radiant Ideology]>",
+			"Can only be built <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Data Uplinked"],
@@ -2969,7 +2969,7 @@
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Limited to [3] per Civilization",
-			"Only available <after adopting [Radiant Ideology]>",
+			"Can only be built <after adopting [Radiant Ideology]>",
 			"Consumes [2] [Ulframite]",
 			"Only available <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
@@ -2996,7 +2996,7 @@
 			"[+50]% Strength <vs [Armored] units>",
 			"[+50]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Only available <after adopting [Radiant Ideology]>",
+			"Can only be built <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Gunship]",
 			"Consumes [1] [Ulframite]",
 			"Only available <with [Ulframite]>",
