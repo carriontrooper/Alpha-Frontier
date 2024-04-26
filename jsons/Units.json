@@ -749,15 +749,16 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Portable Power Sources",
-		//"requiredResource": "Titanium",
-		"upgradesTo": "Anti-Air Buggy",
+		//"upgradesTo": "Anti-Air Buggy",
 		"obsoleteTech": "Missiles",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			//"Can only be built <with [Titanium]>",
+			"Can upgrade to [Anti-Air Buggy]",
+			//"Can upgrade to [IFV]",
 			"May upgrade to [Anti-Air Buggy] through ruins-like effects",
+			//"May upgrade to [IFV] through ruins-like effects <with [50]% chance>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -975,6 +976,7 @@
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
 		//"requiredResource": "Aluminum",
+		"upgradesTo": "Swarm Drones"
 		"uniques": [
 			"Drone",
 			"No defensive terrain bonus",
@@ -985,6 +987,7 @@
 			"[+50]% Strength <vs [Infantry] units>",
 			"[-50]% Strength <vs [Air] units>",
 			"[-50]% Strength <vs cities>",
+			"May upgrade to [Swarm Drones] through ruins-like effects <starting from the [Realization Era]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -1065,6 +1068,7 @@
 			"May withdraw before melee ([50]%)",
 			//"Consumes [1] [Titanium]",
 			//"Can only be built <with [Titanium]>",
+			"May upgrade to [Combat Heli] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		//"promotions": ["Indirect Fire"],
@@ -1393,6 +1397,41 @@
 			}
 		]
 	},
+
+	//// Buggies
+	/*
+	{
+		"name": "IFV",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 30,
+		"cost": 120,
+		"requiredTech": "Next-Gen Armaments",
+		//"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Missiles",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+10]% Strength bonus for [Infantry] units within [2] tiles",
+			//"Can only be built <with [Titanium]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "These vehicles have evolved beyond mere buggies, and is fully designed to support infantry units from the ground up."
+			}
+		]
+	},
+*/
 
 	//// Water Units
 	{
@@ -4200,6 +4239,7 @@
 		"rangedStrength": 12,
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
+		"upgradesTo": "Swarm Drones",
 		"uniques": [
 			"Drone",
 			"No defensive terrain bonus",
@@ -4211,6 +4251,7 @@
 			"[-50]% Strength <vs [Air] units>",
 			"[+25]% Strength <vs [Wounded] units>",
 			"[+25]% XP gained from combat",
+			"May upgrade to [Swarm Drones] through ruins-like effects <starting from the [Realization Era]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
