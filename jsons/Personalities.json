@@ -943,4 +943,50 @@
 			{"text": "This faction likes to build its industrial base, backed by a military strong enough to defend itself."}
 		]
 	}
+
+	// New Powers
+	{
+		"name": "Urban Builder",
+		"preferredVictoryType": "Cultural",
+		"culture": 6,
+		"faith": 4,
+		"food": 7,
+		"gold": 7,
+		"happiness": 7,
+		"production": 9,
+		"science": 5,
+		"military": 5,
+		"priorities": {
+			"Consolidation": 30,
+			"Prestige": 20,
+			"Statecraft": 10
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction likes to build and develop cities, and provide the relevant infrastructures for them."}
+		]
+	},
+	{
+		"name": "Agrobusiness Spacer",
+		"preferredVictoryType": "Scientific",
+		"culture": 4,
+		"faith": 4,
+		"food": 8,
+		"gold": 6,
+		"happiness": 6,
+		"production": 6,
+		"science": 7,
+		"military": 6,
+		"priorities": {
+			"Pioneer Spirit": 20,
+			"Diversity": 10,
+			"Ingenuity": 20,
+			"Humanitarian": 20,
+			"Symbiosis Ideology": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction prioritizes food production and scientific research. The profits from selling food is just a nice bonus."}
+		]
+	}
 ]
