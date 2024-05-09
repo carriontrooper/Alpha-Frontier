@@ -2288,7 +2288,7 @@
 			"Can only be built <if [Samson Option] is constructed>",
 			"Can only be built <in cities with a [Orbital Launch Facility]>",
 			"Can only be built <in cities with a [ICBM Silo]>",
-			"Consumes [3] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2328,7 +2328,7 @@
 			"Can only be built <if [Samson Option] is constructed>",
 			"Can only be built <in cities with a [Orbital Launch Facility]>",
 			"Limited to [1] per Civilization",
-			"Consumes [2] [Ulframite]",
+			"Consumes [3] [Ulframite]",
 			"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2339,6 +2339,33 @@
 			}
 		]
 	},
+/*
+	{
+		"name": "Nuclear Payload Rearming",
+		"unitType": "Civilian",
+		"cost": 700,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"Instantly provides [1] [Nuke Sat Charge] <by consuming this unit> <hidden from users>",
+			"Comment [Instantly provides 1 Nuclear Satellite charge by consuming this unit]",
+			"Consumes [1] [Ulframite]",
+			"Can only be built <with [Ulframite]>",
+			"Can only be built <in cities with a [Samson Option]>",
+			//"Uncapturable",
+			"Never appears as a Barbarian unit"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A clandestine orbital payload containing one Nuclear Satellite warhead, which unlike Nuclear ICBMs cannot be intercepted."
+			}
+		]
+	},
+*/
 
 	// Realization Era
 
@@ -2939,7 +2966,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost","Amphibious"],
-		"attackSound": "SirenScream", //change this to new custom sound
+		"attackSound": "SirenScream",
 		"civilopediaText": [
 			{
 				"Separator": true
