@@ -355,12 +355,12 @@
 				"row": 13,
 				"quote": "'Cargo assist servos, modular combat plates, all in one easy to wear package - each and every soldier should have one of these.' - General Ingrid Rasmussen",
 				"prerequisites": ["Next-Gen Armaments","Strike Drones"]
-				
+				/*
 				"uniques": [
 					"[Worker] units gain the [Canal Digger] promotion",
 					"All newly-trained [Worker] units [in all cities] receive the [Canal Digger] promotion"
 				]
-				
+				*/
 			},
 			{
 				"name": "Composite Armor",
@@ -409,8 +409,8 @@
 				"prerequisites": ["Exoskeletons"]
 				
 				"uniques": [
-					"[Worker] units gain the [Mountain Tunneler] promotion",
-					"All newly-trained [Worker] units [in all cities] receive the [Mountain Tunneler] promotion",
+					//"[Worker] units gain the [Mountain Tunneler] promotion",
+					//"All newly-trained [Worker] units [in all cities] receive the [Mountain Tunneler] promotion",
 					"[Aerocraft] units gain the [Cybernetic Pilot Augmentation] promotion",
 					"All newly-trained [Aerocraft] units [in all cities] receive the [Cybernetic Pilot Augmentation] promotion"
 				]
@@ -489,12 +489,12 @@
 				"row": 4,
 				"quote": "'With our current terraforming technology, what we did on Mars seem like child's play.' - Brigit Oxoa, terraformer",
 				"prerequisites": ["Cloning", "Xenoarchaeology"]
-				
+				/*
 				"uniques": [
 					"[Worker] units gain the [Terraformer] promotion",
 					"All newly-trained [Worker] units [in all cities] receive the [Terraformer] promotion"
 				]
-				
+				*/
 			},
 			{
 				"name": "Quantum Computing",
