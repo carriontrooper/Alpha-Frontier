@@ -2328,7 +2328,7 @@
 	},
 /*
 	{
-		"name": "Nuclear Payload Rearming",
+		"name": "Nuclear Resupply Payload",
 		"unitType": "Civilian",
 		"cost": 700,
 		"requiredTech": "Cosmonautics",
