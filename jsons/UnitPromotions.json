@@ -1367,7 +1367,7 @@
 	},
 
 	// slap this on workers with an unique in the Terraforming tech
-	
+	/*
 	{
 		"name": "Terraformer",
 		"uniques": [
@@ -1413,7 +1413,7 @@
 		"row": 140,
         "column": 2
 	},
-	
+	*/
 
 	//era or tech unit buffs
 	
