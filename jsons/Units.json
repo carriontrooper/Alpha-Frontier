@@ -1,19 +1,6 @@
 [
 	// todo: add more aerocraft?
 	// list of additional units TBD:
-	// gyrocopter, combat heli
-	// new ideo units: archangel (radiant), siren (symbiosis), sentinel (purification)
-	/* bucketeer sez:
-	Archangel
-    The original idea here is to fill the gap of Radiant lacking a relatively tanky melee unit. And to add a bit spice of advanced warfare and long range power projection, probably giving it orbital drop, or ability to transform into a (unbuildable) gunship form might be nice idea.
-	
-	Siren
-    Requires Psionics tech, conceptually it's an amphibious combat support unit for Symbiosis that weakens strength of nearby enemies.
-    Should be able to attack while embarked.
-	
-	Sentinel
-    Some sort of all-purpose heavy artillery unit with anti air radius of 3 for Purification military.
-	*/
 	// IFV unit
 	// Nuclear Resupply Payload
 
