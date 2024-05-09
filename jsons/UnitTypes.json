@@ -61,6 +61,11 @@
 	{
 		"name": "Siege", //ranged tank
 		"movementType": "Land"
+		/*
+		"uniques": [
+			"Cannot attack <in [Mountain Tunnel] tiles>"
+		]
+		*/
 	},
 	{
 		"name": "Close Range Mech", //mechs
