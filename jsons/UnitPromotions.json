@@ -1408,7 +1408,7 @@
 		"uniques": [
 			"Can pass through impassable tiles",
 			"Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>",
-			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Wonder]} {Mountain}] tiles> <by consuming this unit>",
+			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit>",
 		],
 		"row": 140,
         "column": 2
