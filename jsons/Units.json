@@ -743,9 +743,9 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can upgrade to [Anti-Air Buggy]",
-			//"Can upgrade to [IFV]",
-			"May upgrade to [Anti-Air Buggy] through ruins-like effects",
-			//"May upgrade to [IFV] through ruins-like effects <with [50]% chance>",
+			"Can upgrade to [IFV]",
+			"May upgrade to [Anti-Air Buggy] through ruins-like effects <with [50]% chance>",
+			"May upgrade to [IFV] through ruins-like effects <with [50]% chance>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1386,7 +1386,7 @@
 	},
 
 	//// Buggies
-	/*
+	
 	{
 		"name": "IFV",
 		"unitType": "Armored",
@@ -1418,7 +1418,7 @@
 			}
 		]
 	},
-*/
+
 
 	//// Water Units
 	{
@@ -2326,7 +2326,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "Nuclear Resupply Payload",
 		"unitType": "Civilian",
@@ -2352,7 +2352,7 @@
 			}
 		]
 	},
-*/
+
 
 	// Realization Era
 
