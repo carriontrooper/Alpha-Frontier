@@ -1375,7 +1375,7 @@
 			"Turn this tile into a [Coast] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Coast]} {Water}] tiles> <for all movement>",
 			"Turn this tile into a [Atoll] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Atoll]} {Water}] tiles> <for all movement>",
 			"Turn this tile into a [Desert] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Ocean]} {Water}] tiles> <by consuming this unit>", //raise the seafloor
-			"Turn this tile into a [Lake] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Land}] tiles> <by consuming this unit>",
+			"Turn this tile into a [Lakes] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Land}] tiles> <by consuming this unit>",
 			"Turn this tile into a [Grassland] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Grassland]} {Land}] tiles> <for all movement>",
 			"Turn this tile into a [Plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Plains]} {Land}] tiles> <for all movement>",
 			"Turn this tile into a [Mycelium] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Mycelium]} {Land}] tiles> <for all movement>",
