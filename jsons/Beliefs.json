@@ -472,8 +472,8 @@
 		"name": "Religious Documents",
 		"type": "Enhancer",
 		"uniques": [
-			"[+34]% Natural religion spread [in all cities]",
-			"[+34]% Natural religion spread [in all cities] <after discovering [Info Networks]>"
+			"[+34]% Natural religion spread [in cities following our religion]",
+			"[+34]% Natural religion spread [in cities following our religion] <after discovering [Info Networks]>"
 		]
 	},
 	{
@@ -495,5 +495,21 @@
 		"name": "Orbital Vengeance",
 		"type": "Enhancer",
 		"uniques": ["[+10]% Strength <for [Satellite] units> <when attacking>"]
+	},
+	{
+		"name": "Clandestine Secrets",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain an extra spy",
+			"[+20]% spy effectiveness [in cities following our religion]"
+		]
+	}
+	{
+		"name": "Vigilant Gaze",
+		"type": "Enhancer",
+		"uniques": [
+			"Can see invisible [Stealth Infantry] units",
+			"[-20]% enemy spy effectiveness [in cities following our religion]"
+		]
 	}
 ]
