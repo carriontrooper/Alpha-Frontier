@@ -998,7 +998,8 @@
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": [
 			"Orbital",
-			"Consumes [1] [Digital Storage Space]"
+			"Consumes [1] [Digital Storage Space]",
+			"[+20]% spy effectiveness [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -1459,6 +1460,9 @@
 		"percentStatBonus": { "production": 5 },
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Augment Center",
+		"uniques": [
+			"[-20]% enemy spy effectiveness [in this city]"
+		],
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
 			{
@@ -1712,6 +1716,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in this city] <with a garrison>",
+			"[-20]% enemy spy effectiveness [in this city]",
 			"Only available <after adopting [Purification Ideology]>"
 		],
 		"requiredTech": "Nerve Stapling",
@@ -1770,6 +1775,7 @@
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
 			"[+4 Science] per [3] population [in this city]",
+			"[+20]% spy effectiveness [in this city]",
 			"Only available <after adopting [Radiant Ideology]>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
@@ -2082,6 +2088,8 @@
 			"Consumes [2] [Digital Storage Space]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+20]% City Strength from defensive buildings",
+			"[+20]% spy effectiveness [in this city]",
+			"[-20]% enemy spy effectiveness [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
@@ -2410,6 +2418,8 @@
 			"Only available <if [Spy Satellite Network] is constructed in all [non-[Puppeted]] cities>",
 			"Consumes [2] [Digital Storage Space]",
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
+			"[+20]% spy effectiveness [in all cities]",
+			"[-20]% enemy spy effectiveness [in all cities]",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Info Networks",
@@ -2512,7 +2522,7 @@
 		"cityStrength": 50,
 		"cityHealth": 30,
 		"isWonder": true,
-		"uniques": ["Consumes [3] [Digital Storage Space]","[-20]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["Consumes [3] [Digital Storage Space]","[-20]% Unhappiness from [Population] [in all cities]","[-50]% enemy spy effectiveness [in all cities]"],
 		"requiredTech": "Info Networks",
 		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON",
 		"civilopediaText": [
