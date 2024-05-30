@@ -508,7 +508,7 @@
 		"name": "Vigilant Gaze",
 		"type": "Enhancer",
 		"uniques": [
-			"Can see invisible [Stealth Infantry] units",
+			"[+1] Sight <for [Military] units>",
 			"[-20]% enemy spy effectiveness [in cities following our religion]"
 		]
 	}
