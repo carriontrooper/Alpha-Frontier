@@ -3041,6 +3041,7 @@
 		"requiredTech": "Mind Linking",
 		"uniques": [
 			"Consumes [10] [Digital Storage Space]",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Triggers voting for the Diplomatic Victory",
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -3058,6 +3059,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Hidden until [5] social policy branches have been completed",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Cannot be hurried",
@@ -3076,6 +3078,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Terraforming",
 		"uniques": [
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Only available <if [Atmospheric Generator] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Only available <if [Tectonic Stabilizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Only available <if [Soil Revitalizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
@@ -3101,6 +3104,7 @@
 		"uniques": [
 			"[+1 Gold] from [Habitation Dome] tiles [in this city]",
 			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -3117,6 +3121,7 @@
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"[+1 Production] from [Mine] tiles [in this city]",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -3134,6 +3139,7 @@
 		"uniques": [
 			"[+1 Food] from [Agri Farm] tiles [in this city]",
 			"[+1 Food] from [Terraboretum] tiles [in this city]",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -3151,6 +3157,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Water resource] tiles [in this city]",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -3166,6 +3173,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"isNationalWonder": true,
 		"uniques": [
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Enables construction of Spaceship parts",
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
