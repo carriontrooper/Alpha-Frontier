@@ -3820,6 +3820,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Cultural Site] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3846,6 +3847,7 @@
 			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Great Person - [Science]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3872,6 +3874,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Trade Center] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3898,6 +3901,7 @@
 			"Can speed up construction of a building",
 			"Can instantly construct a [Industrial District] improvement <by consuming this unit>",
 			"Great Person - [Production]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3929,6 +3933,7 @@
 			"May enter foreign tiles without open borders",
 			"[-1] Sight",
 			"Great Person - [Faith]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
@@ -3959,6 +3964,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Is part of Great Person group [Military]",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -4494,6 +4500,7 @@
 			"May enter foreign tiles without open borders",
 			"[-1] Sight",
 			"Great Person - [Faith]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
@@ -4525,6 +4532,7 @@
 			"Can hurry technology research",
 			"Can instantly construct a [Biodome City] improvement <by consuming this unit>",
 			"Great Person - [Science]",
+			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Uncapturable"
 		],
