@@ -375,7 +375,7 @@
 		},
 		"warMongering": 3,
 		"civilopediaText": [
-			{"text": "This defense-oriented military faction tends to be protective towards those who are weaker than them, and use their military as a means to diplomacy."}
+			{"text": "This defense-oriented military faction tends to be protective towards those who are weaker than them, and use their military as a means to Diplomatic."}
 		]
 	},
 	{
@@ -512,7 +512,7 @@
 	},
 	{
 		"name": "Diplomatic Union",
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": "Diplomatic",
 		"culture": 7,
 		"faith": 6,
 		"food": 7,
@@ -813,7 +813,7 @@
 	},
 	{
 		"name": "Agrobusiness Union",
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": "Diplomatic",
 		"culture": 4,
 		"faith": 4,
 		"food": 8,
@@ -901,7 +901,7 @@
 	},
 	{
 		"name": "Diplomatic Ambassador",
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": "Diplomatic",
 		"culture": 7,
 		"faith": 6,
 		"food": 5,
@@ -987,6 +987,51 @@
 		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction prioritizes food production and scientific research. The profits from selling food is just a nice bonus."}
+		]
+	},
+	{
+		"name": "Human-purist Researcher",
+		"preferredVictoryType": "Scientific",
+		"culture": 4,
+		"faith": 4,
+		"food": 8,
+		"gold": 6,
+		"happiness": 6,
+		"production": 6,
+		"science": 7,
+		"military": 6,
+		"priorities": {
+			"Consolidation": 10,
+			"Ingenuity": 20,
+			"Ascendancy": 20,
+			"Purification Ideology": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This faction believes that they alone carry the true torch of humanity's scientific efforts, and shun the 'deviant' ways of Cybernetic Transhumanism and Xenobiologic Engineering."}
+		]
+	},
+	{
+		"name": "Expansionist Union",
+		"preferredVictoryType": "Domination",
+		"culture": 4,
+		"faith": 4,
+		"food": 8,
+		"gold": 6,
+		"happiness": 6,
+		"production": 6,
+		"science": 7,
+		"military": 6,
+		"priorities": {
+			"Pioneer Spirit": 20,
+			"Tenacity": 30,
+			"Statecraft": 10,
+			"Ingenuity": 20,
+			"Humanitarian": 20
+		},
+		"warMongering": 7,
+		"civilopediaText": [
+			{"text": "This conglomeration of smaller states are united through the promise of prosperity and military expansion."}
 		]
 	}
 ]
