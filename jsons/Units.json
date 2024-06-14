@@ -3189,7 +3189,7 @@
 		"strength": 8,
 		"cost": 80,
 		"hurryCostModifier": -10,
-		"obsoleteTech": "Next-Gen Armamanets",
+		"obsoleteTech": "Next-Gen Armanents",
 		"uniques": [
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
