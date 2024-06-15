@@ -969,7 +969,7 @@
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
 		//"requiredResource": "Aluminum",
-		"upgradesTo": "Swarm Drones", //Laser Drones
+		"upgradesTo": "Laser Drone",
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Drone",
@@ -981,7 +981,7 @@
 			"[+50]% Strength <vs [Infantry] units>",
 			"[-50]% Strength <vs [Air] units>",
 			"[-50]% Strength <vs cities>",
-			//"May upgrade to [Laser Drones] through ruins-like effects <starting from the [Realization Era]>",
+			"May upgrade to [Laser Drones] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -1827,7 +1827,7 @@
 		"rangedStrength": 35,
 		"range": 4,
 		"interceptRange": 5,
-		"cost": 150,
+		"cost": 170,
 		"requiredTech": "Lasers",
 		//"requiredResource": "Promethine",
 		"uniques": [
@@ -1908,7 +1908,7 @@
 		"rangedStrength": 22,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 100,
+		"cost": 120,
 		"requiredTech": "Strike Drones",
 		//"requiredResource": "Oil",
 		//"upgradesTo": "Fighter",
@@ -1932,7 +1932,7 @@
 		]
 	},
 
-/*
+
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -1940,8 +1940,8 @@
 		"unitType": "Helicopter",
 		"movement": 5,
 		"range": 1,
-		"strength": 20,
-		"rangedStrength": 20,
+		"strength": 30,
+		"rangedStrength": 30,
 		"cost": 100,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Swarm Drones",
@@ -1968,7 +1968,7 @@
 			}
 		]
 	},
-*/
+
 
 	//// Missiles
 	{
@@ -4319,7 +4319,7 @@
 		"rangedStrength": 12,
 		"cost": 45,
 		"requiredTech": "Aerial Drones",
-		"upgradesTo": "Swarm Drones", //Laser Drones
+		"upgradesTo": "Laser Drone",
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Drone",
@@ -4332,7 +4332,7 @@
 			"[-50]% Strength <vs [Air] units>",
 			"[+25]% Strength <vs [Wounded] units>",
 			"[+25]% XP gained from combat",
-			"May upgrade to [Swarm Drones] through ruins-like effects <starting from the [Realization Era]>",
+			"May upgrade to [Laser Drone] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
