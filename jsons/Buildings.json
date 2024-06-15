@@ -860,6 +860,7 @@
 	{
 		"name": "Tele-Temple",
 		"faith": 2,
+		"happiness": 1,
 		"requiredBuilding": "Congregation Space",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -942,7 +943,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "food": 5, "production": 5, "gold": 5 },
 		"uniques": [
-			"Provides [1] [Digital Storage Space]"
+			"Provides [1] [Digital Storage Space]",
 		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
@@ -999,7 +1000,7 @@
 		"uniques": [
 			"Orbital",
 			"Consumes [1] [Digital Storage Space]",
-			"[+20]% spy effectiveness [in this city]"
+			"[+10]% spy effectiveness [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -1223,6 +1224,9 @@
 		"percentStatBonus": { "production": 5, "gold": 5 },
 		"requiredBuilding": "Infrastructure 2.0",
 		"requiredTech": "Fusion Power",
+		"uniques": [
+			"[-5]% unhappiness from the number of cities"
+		]
 		"civilopediaText": [
 			{
 				"text": "A network of fusion-powered tube trains that connect the various districts of the ever-growing city."
@@ -1403,7 +1407,7 @@
 		"name": "Holodeck",
 		"maintenance": 2,
 		"culture": 3,
-		"happiness": 2,
+		"happiness": 3,
 		"specialistSlots": { "Influencer": 2 },
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -1461,7 +1465,8 @@
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Augment Center",
 		"uniques": [
-			"[-20]% enemy spy effectiveness [in this city]"
+			"[-20]% enemy spy effectiveness [in this city]",
+			"[-5]% unhappiness from the number of cities"
 		],
 		"requiredTech": "Nerve Stapling",
 		"civilopediaText": [
@@ -1559,7 +1564,7 @@
 		"name": "Bio-Design Agency",
 		"maintenance": 2,
 		"culture": 4,
-		"happiness": 1,
+		"happiness": 3,
 		"percentStatBonus": { "food": 5 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Designer Lifeforms",
@@ -1600,7 +1605,8 @@
 			"Consumes [2] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>",
 			"[+5]% growth [in this city]",
-			"[+1]% growth [in all cities]"
+			"[+1]% growth [in all cities]",
+			"[-10]% unhappiness from the number of cities"
 		],
 		"requiredTech": "Lossless Matter Conversion",
 		"civilopediaText": [
@@ -1613,7 +1619,7 @@
 		"name": "Vitae Field Generator",
 		"maintenance": 2,
 		"science": 2,
-		"happiness": 1,
+		"happiness": 2,
 		"percentStatBonus": { "food": 5 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Advanced Biotech",
@@ -1635,6 +1641,7 @@
 		"maintenance": 1,
 		"culture": 3,
 		"faith": 3,
+		"happiness": 2,
 		"specialistSlots": { "Influencer": 1 },
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -1711,6 +1718,7 @@
 		"name": "Propaganda Office",
 		"maintenance": 1,
 		"culture": 2,
+		"happiness": 2,
 		"specialistSlots": { "Influencer": 2 },
 		"percentStatBonus": { "culture": 10 },
 		"hurryCostModifier": 25,
@@ -1789,7 +1797,7 @@
 	{
 		"name": "Mind Optimization Terminals",
 		"maintenance": 1,
-		"happiness": 1,
+		"happiness": 2,
 		"percentStatBonus": { "production": 5, "gold": 5, "science": 5 },
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2172,6 +2180,7 @@
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[-5]% unhappiness from the number of cities"
 		]
 		"civilopediaText": [
 			{
@@ -2290,6 +2299,7 @@
 		"cost": 400,
 		"percentStatBonus": { "culture": 50 },
 		"culture": 5,
+		"happiness": 4,
 		"specialistSlots": { "Influencer": 1 },
 		"greatPersonPoints": { "Great Influencer": 1 },
 		"isNationalWonder": true,
@@ -2399,6 +2409,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Megamall] is constructed in all [non-[Puppeted]] cities>",
+			"[-20]% unhappiness from the number of cities"
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Colonial Culture",

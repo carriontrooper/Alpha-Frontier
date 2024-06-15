@@ -22,6 +22,7 @@
 	- Unethical Researcher
 	- Tribal Commune
 	- Mercenary Megacorp
+	- Objectivist Megacorp
 	- Diplomatic Union
 	- Resurgent Military
 	- Isolationist Survivors
@@ -511,6 +512,28 @@
 		]
 	},
 	{
+		"name": "Objectivist Megacorp",
+		"preferredVictoryType": "Scientific",
+		"culture": 2,
+		"faith": 0,
+		"food": 3,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 9,
+		"military": 6,
+		"priorities": {
+			"Consolidation": 20,
+			"Ingenuity": 20,
+			"Ascendancy": 10,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This type of megacorporation eschews religion and similar trivialities in favor of cold, hard logic and science."}
+		]
+	},
+	{
 		"name": "Diplomatic Union",
 		"preferredVictoryType": "Diplomatic",
 		"culture": 7,
@@ -652,7 +675,7 @@
 			"Tenacity": 20,
 			"Ingenuity": 30
 		},
-		"warMongering": 2,
+		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "This raider faction tend to roam far and wide in order to strike at their victims, necessitating nomadic living."}
 		]
