@@ -22,6 +22,7 @@
 	- Unethical Researcher
 	- Tribal Commune
 	- Mercenary Megacorp
+	- Objectivist Megacorp
 	- Diplomatic Union
 	- Resurgent Military
 	- Isolationist Survivors
@@ -508,6 +509,28 @@
 		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation thrives upon all sorts of wars, selling their services to anyone able to meet their steep price. They will make a profit even if they have to start a few wars of their own."}
+		]
+	},
+	{
+		"name": "Objectivist Megacorp",
+		"preferredVictoryType": "Scientific",
+		"culture": 2,
+		"faith": 0,
+		"food": 3,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 9,
+		"military": 6,
+		"priorities": {
+			"Consolidation": 20,
+			"Ingenuity": 20,
+			"Ascendancy": 10,
+			"Radiant Ideology": 30
+		},
+		"warMongering": 5,
+		"civilopediaText": [
+			{"text": "This type of megacorporation eschews religion and similar trivialities in favor of cold, hard logic and science."}
 		]
 	},
 	{
