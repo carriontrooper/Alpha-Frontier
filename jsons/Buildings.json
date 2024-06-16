@@ -557,7 +557,8 @@
 		"percentStatBonus": { "production": 2 },
 		"requiredBuilding": "Prefab Printer",
 		"uniques": [
-			"[+20]% Production when constructing [Rover] units [in this city]"
+			"[+20]% Production when constructing [Rover] units [in this city]",
+			"[+10]% Production when constructing [Mech] units [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
