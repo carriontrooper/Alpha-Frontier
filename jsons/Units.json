@@ -1879,8 +1879,8 @@
 			"[-50]% Strength <vs [Air] units>",
 			//"[-25]% Strength <vs cities>",
 			"May withdraw before melee ([50]%)",
-			"Consumes [1] [Titanium]",
-			"Can only be built <with [Titanium]>",
+			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Can upgrade to [Cyberheli]",
 			"Can upgrade to [Heavy Heli Gunship] <after discovering [Nanotechnology]>",
 			"Never appears as a Barbarian unit"
@@ -2890,8 +2890,8 @@
 			"No defensive terrain bonus",
 			"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			"Can only be built <after adopting [Purification Ideology]>",
-			"Consumes [1] [Ulframite]",
-			"Can only be built <with [Ulframite]>",
+			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
@@ -3101,7 +3101,7 @@
 			"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			"Can only be built <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Gunship]",
-			"Consumes [1] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3135,7 +3135,7 @@
 			//"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			//"Can only be built <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Mecha]",
-			"Consumes [1] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			//"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
