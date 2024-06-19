@@ -1429,7 +1429,42 @@
 			}
 		]
 	},
-
+/*
+	{
+		"name": "EMP SAM",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 30,
+		"interceptRange": 2,
+		"cost": 130,
+		"requiredTech": "Next-Gen Armaments",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"[95]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Air] units> <when attacking>",
+			"[+200]% Damage when intercepting <vs [Air] units>",
+			"[+200]% Strength <vs [Drone] units> <when attacking>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"[-100]% Damage when intercepting <vs [Satellite] units>",
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Field Anti Air"],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "These bigger than usual buggies carry munitions that emit EMP bursts when they detonate, making them extra deadly to units with sensitive electronics like aerocraft and drones."
+			}
+		]
+	},
+*/
 
 	//// Water Units
 	{
@@ -2101,7 +2136,39 @@
 			}
 		]
 	},
-	
+
+	//// Armored
+/*
+	{
+		"name": "Antigrav Tank",
+		"unitType": "Hover",
+		"movement": 3,
+		"strength": 40,
+		"cost": 300,
+		"requiredTech": "Fusion Power",
+		"obsoleteTech": "Stasis Fields",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"May withdraw before melee ([20]%)",
+			"Can only be built <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Can only be built <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{ "text": "Utilizing anti-gravitic properties of Ulframite crystals, these nimble tanks can even dodge shots from certain angles sometimes." }
+		]
+	},
+*/
 
 	//// Mechs
 	{
