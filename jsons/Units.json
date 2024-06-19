@@ -1438,7 +1438,7 @@
 		"interceptRange": 2,
 		"cost": 130,
 		"requiredTech": "Next-Gen Armaments",
-		"obsoleteTech": "Lasers",
+		//"obsoleteTech": "Lasers",
 		"uniques": [
 			"[95]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Air] units> <when attacking>",
