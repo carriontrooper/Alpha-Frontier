@@ -1368,6 +1368,23 @@
 			}
 		]
 	},
+/*
+	{
+		"name": "Ulframite Synthesizer",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [2] [Promethine]",
+			"Provides [1] [Ulframite]"
+		],
+		"requiredTech": "Nanotechnology",
+		"civilopediaText": [
+			{
+				"text": "Utilizing nanites, it is now possible to replicate Ulframite's specific properties, although it does require a quantity of Promethine."
+			}
+		]
+	},
+*/
 	{
 		"name": "Remote Fabricator",
 		"maintenance": 2,
