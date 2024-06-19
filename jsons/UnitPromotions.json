@@ -1,7 +1,7 @@
 [
 	/*
 	Rows usage:
-	Alpha Frontier: 0-107, 140-141
+	Alpha Frontier: 0-98, free until 107, 140-143
 	Deciv in AF: 108-119
 	CivBE in AF: 120-123
 	Shamsy in AF/New Powers: 124
@@ -566,7 +566,7 @@
 	// Aerocraft
 	{
 		"name": "Interception I",
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting","[+33]% Strength <vs [Helicopter] units>"],
 		"unitTypes": ["Aerocraft","Satellite"],
 		"row": 14,
         "column": 1
@@ -574,7 +574,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting","[+33]% Strength <vs [Helicopter] units>"],
 		"unitTypes": ["Aerocraft"],
 		"row": 14,
         "column": 2
@@ -582,7 +582,7 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+34]% Damage when intercepting"],
+		"uniques": ["[+34]% Damage when intercepting","[+34]% Strength <vs [Helicopter] units>"],
 		"unitTypes": ["Aerocraft"],
 		"row": 14,
         "column": 3
@@ -1035,6 +1035,119 @@
 		"unitTypes": ["Ranged Water", "Aerocraft"],
 		"row": 24,
         "column": 3
+	},
+
+	//Anti Air
+	{
+		"name": "Field Anti Air",
+		"uniques": ["Comment [Provides anti air promotions for anti air units]"],
+		"row": 142,
+        "column": 0
+	},
+	{
+		"name": "Anti Air I",
+		"prerequisites": ["Field Anti Air"],
+		"uniques": ["[+25]% Strength <vs [Air] units>", "[+25]% Damage when intercepting"],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Hover",
+			"Armored",
+			"Siege",
+			"Close Range Water",
+			"Ranged Water",
+			"Close Range Mech",
+			"Ranged Mech",
+		],
+		"row": 142,
+        "column": 1
+	},
+	{
+		"name": "Anti Air II",
+		"prerequisites": ["Anti Air I"],
+		"uniques": ["[+25]% Strength <vs [Air] units>", "[+25]% Damage when intercepting"],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Hover",
+			"Armored",
+			"Siege",
+			"Close Range Water",
+			"Ranged Water",
+			"Close Range Mech",
+			"Ranged Mech",
+		],
+		"row": 142,
+        "column": 2
+	},
+	{
+		"name": "Anti Air III",
+		"prerequisites": ["Anti Air II"],
+		"uniques": ["[+25]% Strength <vs [Air] units>", "[+25]% Damage when intercepting"],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Hover",
+			"Armored",
+			"Siege",
+			"Close Range Water",
+			"Ranged Water",
+			"Close Range Mech",
+			"Ranged Mech",
+		],
+		"row": 142,
+        "column": 3
+	},
+	{
+		"name": "Continuous AA Protection",
+		"prerequisites": ["Anti Air II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Hover",
+			"Armored",
+			"Siege",
+			"Close Range Water",
+			"Ranged Water",
+			"Close Range Mech",
+			"Ranged Mech",
+		],
+		"row": 143,
+        "column": 1
+	},
+	{
+		"name": "Early Warning System",
+		"prerequisites": ["Anti Air II"],
+		"uniques": ["[+1] Sight", "[+1] Air Interception Range"],
+		"unitTypes": [
+			"Infantry",
+			"Stealth Infantry",
+			"Sniper",
+			"Scout",
+			"Rover",
+			"Hover",
+			"Armored",
+			"Siege",
+			"Close Range Water",
+			"Ranged Water",
+			"Close Range Mech",
+			"Ranged Mech",
+		],
+		"row": 143,
+        "column": 2
 	},
 
 	//Xeno only, in case you can build/capture xeno units
@@ -1687,16 +1800,16 @@
 			"[+10]% Strength <when adjacent to a [Infantry] unit>",
 			"[+10]% XP gained from combat"
 		],
-		"row": 86,
-        "column": 0
+		"row": 85,
+        "column": 1
 	},
 	{
 		"name": "Deadshot",
 		"uniques": [
 			"[+20]% Strength <when attacking>"
 		],
-		"row": 87,
-        "column": 0
+		"row": 86,
+        "column": 1
 	},
 	{
 		"name": "Maniacal Glee",
@@ -1704,8 +1817,8 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles"
 		],
-		"row": 88,
-        "column": 0
+		"row": 85,
+        "column": 2
 	},
 	{
 		"name": "Jovian Wolfhunt",
@@ -1714,8 +1827,8 @@
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]"
 		],
-		"row": 89,
-        "column": 0
+		"row": 86,
+        "column": 2
 	},
 	{
 		"name": "Experimental Photon Sensors",
@@ -1723,23 +1836,23 @@
 			"[+1] Sight",
 			"Can see over obstacles"
 		],
-		"row": 90,
-        "column": 0
+		"row": 86,
+        "column": 3
 	},
 	{
 		"name": "Meteorlike",
 		"uniques": [
 			"[+20]% Strength <when attacking> <in [Hill] tiles>"
 		],
-		"row": 91,
-        "column": 0
+		"row": 85,
+        "column": 3
 	},
 	{
 		"name": "Spectre Shadow",
 		"uniques": [
 			"May withdraw before melee ([20]%)"
 		],
-		"row": 92,
+		"row": 87,
         "column": 0
 	},
 	{
@@ -1748,7 +1861,7 @@
 			"[+1] Movement",
 			"May withdraw before melee ([10]%)"
 		],
-		"row": 93,
+		"row": 88,
         "column": 0
 	},
 	{
@@ -1756,7 +1869,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Aerocraft] units>"
 		],
-		"row": 94,
+		"row": 89,
         "column": 0
 	},
 	{
@@ -1764,7 +1877,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Wounded] units>"
 		],
-		"row": 95,
+		"row": 90,
         "column": 0
 	},
 	{
@@ -1772,8 +1885,8 @@
 		"uniques": [
 			"Earn [10]% of killed [Water] unit's [Strength] as [Culture]"
 		],
-		"row": 96,
-        "column": 0
+		"row": 90,
+        "column": 1
 	},
 	{
 		"name": "Slippery but Fierce",
@@ -1781,7 +1894,7 @@
 			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([10]%)"
 		],
-		"row": 97,
+		"row": 91,
         "column": 0
 	},
 	{
@@ -1790,7 +1903,7 @@
 			"[+10]% Strength <vs [Aerocraft] units>",
 			"Damage taken from interception reduced by [30]%"
 		],
-		"row": 98,
+		"row": 92,
         "column": 0
 	},
 	{
@@ -1798,8 +1911,8 @@
 		"uniques": [
 			"[+1] Movement <in [Coast] tiles>"
 		],
-		"row": 99,
-        "column": 0
+		"row": 90,
+        "column": 2
 	},
 	{
 		"name": "Deep Running",
@@ -1807,7 +1920,7 @@
 			"[+1] Sight <in [Ocean] tiles>",
 			"[+1] Movement <in [Ocean] tiles>"
 		],
-		"row": 100,
+		"row": 93,
         "column": 0
 	},
 	{
@@ -1815,7 +1928,7 @@
 		"uniques": [
 			"[+10]% Strength <when below [50] HP>"
 		],
-		"row": 101,
+		"row": 94,
         "column": 0
 	},
 	{
@@ -1824,7 +1937,7 @@
 			"[+20]% Strength <when defending>",
 			"[+10]% Strength <when adjacent to a [Armor] unit>",
 		],
-		"row": 102,
+		"row": 95,
         "column": 0
 	},
 	{
@@ -1833,15 +1946,15 @@
 			"Data Uplinked",
 			"Earn [10]% of the damage done to [Military] units as [Science]"
 		],
-		"row": 103,
-        "column": 0
+		"row": 95,
+        "column": 1
 	},
 	{
 		"name": "Piercing Taunts",
 		"uniques": [
 			"[+10]% Strength <vs cities> <while the empire is happy>"
 		],
-		"row": 104,
+		"row": 96,
         "column": 0
 	},
 	{
@@ -1849,7 +1962,7 @@
 		"uniques": [
 			"[+2] Movement <in [Open terrain] tiles>"
 		],
-		"row": 105,
+		"row": 97,
         "column": 0
 	},
 	{
@@ -1857,8 +1970,8 @@
 		"uniques": [
 			"[+10]% Strength <when attacking> <vs [Armored] units>"
 		],
-		"row": 106,
-        "column": 0
+		"row": 97,
+        "column": 1
 	},
 	{
 		"name": "Silver Rain",
@@ -1866,7 +1979,48 @@
 			"[+10]% Strength <vs cities>",
 			"[+10]% Strength <vs [Armored] units>"
 		],
-		"row": 107,
-        "column": 0
-	}
+		"row": 97,
+        "column": 2
+	},
+	{
+		"name": "Exiles back from Hell",
+		"uniques": [
+			"Damage taken from interception reduced by [+30]%",
+			"[+20]% Strength when performing Air Sweep"
+		],
+		"row": 92,
+        "column": 1
+	},
+	{
+		"name": "Silent Runners",
+		"uniques": [
+			"[+40]% Strength <when defending>"
+		],
+		"row": 93,
+        "column": 1
+	},
+	{
+		"name": "Berserk",
+		"uniques": [
+			"Damage is ignored when determining unit Strength"
+		],
+		"row": 85,
+    	"column": 4
+	},
+	{
+		"name": "Brutality",
+		"uniques": [
+			"[+15]% Strength <when attacking>"
+		],
+		"row": 85,
+    	"column": 5
+	},
+	{
+		"name": "Bunker Buster",
+		"uniques": [
+			"[+50]% Strength <vs cities>","[+20]% Strength <when fighting in [Fort] tiles> <when attacking>"
+		],
+		"row": 98,
+    	"column": 0
+	},
 ]

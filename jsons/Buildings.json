@@ -1,5 +1,6 @@
 [
 	// todo: more wonders maybe?
+	// todo: Ulframite Synthesizer, 2 Promethine goes in, 1 Ulframite goes out
 
 	// Buildings
 	{
@@ -557,7 +558,8 @@
 		"percentStatBonus": { "production": 2 },
 		"requiredBuilding": "Prefab Printer",
 		"uniques": [
-			"[+20]% Production when constructing [Rover] units [in this city]"
+			"[+20]% Production when constructing [Rover] units [in this city]",
+			"[+10]% Production when constructing [Mech] units [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
@@ -1366,6 +1368,23 @@
 			}
 		]
 	},
+/*
+	{
+		"name": "Ulframite Synthesizer",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [2] [Promethine]",
+			"Provides [1] [Ulframite]"
+		],
+		"requiredTech": "Nanotechnology",
+		"civilopediaText": [
+			{
+				"text": "Utilizing nanites, it is now possible to replicate Ulframite's specific properties, although it does require a quantity of Promethine."
+			}
+		]
+	},
+*/
 	{
 		"name": "Remote Fabricator",
 		"maintenance": 2,

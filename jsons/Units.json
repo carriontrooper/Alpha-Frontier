@@ -1,8 +1,8 @@
 [
 	// todo: add more aerocraft?
 	// list of additional units TBD:
-	// IFV unit
-	// Nuclear Resupply Payload
+	// EMP SAM (late eras dedicated AA land unit)
+	// Antigrav Tank (late eras dedicated amphibious tank)
 
 	////////////////////
 	// Xeno Units
@@ -906,6 +906,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Field Anti Air"],
 		"hurryCostModifier": 20,
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
@@ -1428,7 +1429,42 @@
 			}
 		]
 	},
-
+/*
+	{
+		"name": "EMP SAM",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 30,
+		"interceptRange": 2,
+		"cost": 130,
+		"requiredTech": "Next-Gen Armaments",
+		//"obsoleteTech": "Lasers",
+		"uniques": [
+			"[95]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Air] units> <when attacking>",
+			"[+200]% Damage when intercepting <vs [Air] units>",
+			"[+200]% Strength <vs [Drone] units> <when attacking>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"[-100]% Damage when intercepting <vs [Satellite] units>",
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Field Anti Air"],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "These bigger than usual buggies carry munitions that emit EMP bursts when they detonate, making them extra deadly to units with sensitive electronics like aerocraft and drones."
+			}
+		]
+	},
+*/
 
 	//// Water Units
 	{
@@ -1492,6 +1528,7 @@
 			"Can only be built <with [Titanium]>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Field Anti Air"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			/*
@@ -1718,6 +1755,7 @@
 			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Field Anti Air"],
 		"hurryCostModifier": 20,
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
@@ -1879,8 +1917,8 @@
 			"[-50]% Strength <vs [Air] units>",
 			//"[-25]% Strength <vs cities>",
 			"May withdraw before melee ([50]%)",
-			"Consumes [1] [Titanium]",
-			"Can only be built <with [Titanium]>",
+			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Can upgrade to [Cyberheli]",
 			"Can upgrade to [Heavy Heli Gunship] <after discovering [Nanotechnology]>",
 			"Never appears as a Barbarian unit"
@@ -2098,7 +2136,39 @@
 			}
 		]
 	},
-	
+
+	//// Armored
+/*
+	{
+		"name": "Antigrav Tank",
+		"unitType": "Hover",
+		"movement": 3,
+		"strength": 40,
+		"cost": 300,
+		"requiredTech": "Fusion Power",
+		"obsoleteTech": "Stasis Fields",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"May withdraw before melee ([20]%)",
+			"Can only be built <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Can only be built <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{ "text": "Utilizing anti-gravitic properties of Ulframite crystals, these nimble tanks can even dodge shots from certain angles sometimes." }
+		]
+	},
+*/
 
 	//// Mechs
 	{
@@ -2890,11 +2960,11 @@
 			"No defensive terrain bonus",
 			"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			"Can only be built <after adopting [Purification Ideology]>",
-			"Consumes [1] [Ulframite]",
-			"Can only be built <with [Ulframite]>",
+			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire"],
+		"promotions": ["Indirect Fire","Field Anti Air"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -3101,7 +3171,7 @@
 			"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			"Can only be built <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Gunship]",
-			"Consumes [1] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3135,7 +3205,7 @@
 			//"Can only be built <in cities with a [Mechanized Unit Facility]>",
 			//"Can only be built <after adopting [Radiant Ideology]>",
 			"Can transform to [Archangel Mecha]",
-			"Consumes [1] [Ulframite]",
+			"Consumes [2] [Ulframite]",
 			//"Can only be built <with [Ulframite]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -3149,6 +3219,129 @@
 			},
 			{
 				"text": "Equipped with cutting edge technology such as a stasis shield and an Ulframite-powered laser gun, this gunship can also transform into a mecha thanks to its multipurpose thrusters."
+			}
+		]
+	},
+
+	/// Epic Units
+	{
+		"name": "Flagship",
+		"unitType": "Helicopter",
+		"movement": 4,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 1600,
+		"requiredTech": "Antimatter Harnessing",
+		"uniques": [
+			"Comment [Epic unit]",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"Only available <after adopting [Purification Ideology]>",
+			"Limited to [1] per Civilization",
+			"Can carry [4] [Aerocraft] units",
+			"Can carry [2] [ICBM] units",
+			"Can carry [4] [Cruise Missile] units",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"[+50]% Strength <vs cities>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[-25]% Strength <vs [Air] units> <when defending>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Transfer Movement to [Great Tactician]"
+			"[100]% chance to intercept air attacks",
+			"Consumes [3] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "It is not unsimilar to Mobile Fortresses, however, the Flagship is more than what it is derived from. A centerpiece of any Purist military at peak might, this flying bulwark of war combines functions of mobile command center, heavy bombardment support and aircraft carrier, its multifunctionalities can support any combat purposes you ever needed to counter the enemy."
+			}
+		]
+	},
+	{
+		"name": "Pandora",
+		"unitType": "Xeno Melee Land",
+		"movement": 2,
+		"strength": 140,
+		"cost": 2000,
+		"requiredTech": "Designer Lifeforms",
+		"uniques": [
+			"Comment [Epic unit]",
+			"Xeno",
+			"Tame Xeno",
+			"Heals [20] damage if it kills a unit",
+			"Can move after attacking",
+			"All adjacent units heal [+30] HP when healing",
+			"[+20] HP when healing",
+			"[+30]% Strength <when defending>",
+			"Unit will heal every turn, even if it performs an action",
+			"Limited to [1] per Civilization",
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Consumes [4] [Vitamass]",
+			"Only available <with [Vitamass]>",
+			"Never appears as a Barbarian unit",
+			"[1] Movement point cost to disembark",
+			"[2] Movement point cost to embark",
+			"Eliminates combat penalty for attacking over a river"
+		],
+		"attackSound": "MonsterStep",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Pandora is an engineered megaxenoform, while primarily made for destruction, it is also capable of releasing bio-aerosols capable of rapid healing and repairing for itself and surrounding friendly forces, it can drastically make a difference in endurance of your troops and ultimately outlasting your enemy - especially when used in combo with other Symbiosis units having powerful rejuvenation."
+			}
+		]
+	},
+	{
+		"name": "Silencer",
+		"unitType": "Hover",
+		"movement": 4,
+		"strength": 50,
+		"rangedStrength": 120,
+		"range": 4,
+		"cost": 2500,
+		"requiredTech": "Exotic Quantum Physics",
+		"uniques": [
+			"Comment [Epic unit]",
+			"Armored",
+			"Hovercraft",
+			"Data Uplinked",
+			"[+1] Sight",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Limited to [1] per Civilization",
+			"Can carry [3] [Cruise Missile] units",
+			"Can carry [2] [ICBM] units",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark",
+			"Can move after attacking",
+			"[+50]% Strength <vs [Armored] units> <when attacking>",
+			"[+50]% Strength <vs [Mech] units> <when attacking>",
+			"Consumes [3] [Antimatter]",
+			"Consumes [8] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire","Mirage I","Mirage II","Ignore terrain cost", "Amphibious"],
+		"attackSound": "ChargeExplosion",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Silencer is a stealthy, sleek and highly mobile hovering long range rail-artillery platform, with the superior engineering and best technology combined. Designed to strike enemy targets undetected, the enemy will never know what hits them. As long as it remains undetected, it is a very valuable support weapon capable of wrecking havoc while spreading confusion."
 			}
 		]
 	},
@@ -3383,6 +3576,88 @@
 			}
 		]
 	},
+	{
+		"name": "Omaskan Berserkers (Stim Trooper)",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 44,
+		"cost": 300,
+		"requiredTech": "Virtual Drugs",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [2] per Civilization <before adopting [Purification Ideology]>",
+			"Limited to [8] per Civilization <after adopting [Purification Ideology]>",
+			"[+50]% Strength <during a Golden Age>",
+			"[+50]% XP gained from combat",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Berserk"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Stimulant addicts who will go overdosing before a battle to put themselves into premature battle frenzy."
+			}
+		]
+	},
+	{
+		"name": "Brutes of War (Hybrid Trooper)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 400,
+		"requiredTech": "Genetic Hybridization",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [2] per Civilization <before adopting [Symbiosis Ideology]>",
+			"Limited to [8] per Civilization <after adopting [Symbiosis Ideology]>",
+			"[20] HP when healing",
+			"Heals [20] damage if it kills a unit",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Brutality"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Failed experimental subjects of biologically enhanced soldier projects being repurposed as muscle brains for hire."
+			}
+		]
+	},
+	{
+		"name": "Mister Clanker (Cyborg Sniper)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 500,
+		"requiredTech": "Cyberbrains",
+		//"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [2] per Civilization <before adopting [Radiant Ideology]>",
+			"Limited to [8] per Civilization <after adopting [Radiant Ideology]>",
+			"[+2] Sight",
+			"[+1] Range <after adopting [Radiant Ideology]>",
+			"[+15]% Strength <when below [50] HP>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Data Uplinked"],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"text": "Largely uses second-hand cybernetic components to modify themselves."
+			}
+		]
+	},
 
 	//// Buggies
 	{
@@ -3440,7 +3715,7 @@
 			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Missile Saturation"],
+		"promotions": ["Mercenary Pay","Field Anti Air","Missile Saturation"],
 		"hurryCostModifier": 20,
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
@@ -3574,6 +3849,85 @@
 			}
 		]
 	},
+	{
+		"name": "Delta Creek Exiles (Beam Fighter)",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 4,
+		"interceptRange": 5,
+		"cost": 150,
+		"requiredTech": "Lasers",
+		//"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Damage when intercepting <vs [Air] units>",
+			"[+100]% Strength <vs [Satellite] units> <with [50]% chance> <when attacking>",
+			"[+100]% Damage when intercepting",
+			"[+100]% Damage when intercepting <vs [Satellite] units> <with [50]% chance> <when attacking>",
+			"[-33]% Strength <vs cities>",
+			"Can only be built <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Exiles back from Hell"],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Nameless aces on the exile."
+			}
+		]
+	},
+	{
+		"name": "Thunderstrike (Heavy Heli Gunship)",
+		"unitType": "Helicopter",
+		"movement": 4,
+		"range": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 465,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [1] per Civilization",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Can carry [2] [Cruise Missile] units",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[-25]% Strength <vs [Air] units>",
+			"May withdraw before melee ([30]%)",
+			"Consumes [3] [Promethine]",
+			"Can only be built <with [Promethine]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire","Bunker Buster"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "A scrapped Promethine-powered prototype given a second life in freelance bunker busting service."
+			}
+		]
+	},
 
 	//// Water Units
 	{
@@ -3632,6 +3986,39 @@
 		"civilopediaText": [
 			{
 				"text": "Former pirates who finds privateering to be a more lucrative endeavor."
+			}
+		]
+	},
+	{
+		"name": "Silent Fleet (Phantom Submersible)",
+		"unitType": "Submarine",
+		"movement": 5,
+		"range": 3,
+		"strength": 52,
+		"rangedStrength": 52,
+		"cost": 375,
+		"requiredTech": "Metamaterials",
+		//"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [2] per Civilization",
+			"[+150]% Strength <vs [Submarine] units>",
+			"[+150]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [4] [Cruise Missile] units",
+			"Can carry [1] [Nuclear ICBM] units",
+			"Can only be built <in cities with a [Naval Yard]>",
+			"Consumes [1] [Ulframite]",
+			"Can only be built <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Silent Runners"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"text": "Secret and independent subnautical military service known by only the few."
 			}
 		]
 	},
@@ -3725,7 +4112,7 @@
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","PrismTech Analytics"],
+		"promotions": ["Mercenary Pay","Field Anti Air","PrismTech Analytics"],
 		"hurryCostModifier": 20,
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
