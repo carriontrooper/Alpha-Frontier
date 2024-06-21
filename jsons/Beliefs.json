@@ -237,6 +237,14 @@
 		"type": "Pantheon",
 		"uniques": ["[+3 Faith] from every [City ruins]"]
 	},
+	{
+		"name": "Central Focus",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Colony Headquarters]"
+		]
+	},
+	
 	// Follower beliefs
 	{
 		"name": "Memorialists",
