@@ -67,13 +67,29 @@
 		"happiness": 10,
 		"production": 10,
 		"science": 10,
+		
 		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 10,
+		
 		"priorities": {
-			"Liberty": 30,
-			"Commerce": 20,
-			"Autocracy": 10
+			"Pioneer Spirit": 10,
+			"Consolidation": 20,
+			"Diversity": 30,
+			"Tenacity": 10,
+			"Statecraft": 20,
+			"Ingenuity": 30,
+			"Humanitarian": 10,
+			"Ascendancy": 20,
+			"Prestige": 30,
+			"Purification Ideology": 10,
+			"Symbiosis Ideology": 20,
+			"Radiant Ideology": 30
 		},
-		"warMongering": 10,
 		"civilopediaText": [
 			{"text": "."}
 		]
