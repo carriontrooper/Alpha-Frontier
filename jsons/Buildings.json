@@ -1368,7 +1368,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "Ulframite Synthesizer",
 		"maintenance": 1,
@@ -1384,7 +1384,7 @@
 			}
 		]
 	},
-*/
+
 	{
 		"name": "Remote Fabricator",
 		"maintenance": 2,
