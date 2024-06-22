@@ -1525,7 +1525,7 @@
 			"Can carry [4] [Short-Range Missile] units",
 			"Can only be built <in cities with a [Naval Yard]>",
 			"Consumes [1] [Promethine]",
-			"Can only be built <with [Titanium]>",
+			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Field Anti Air"],
