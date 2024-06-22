@@ -892,7 +892,7 @@
 		"cost": 100,
 		"requiredTech": "Missiles",
 		//"requiredResource": "Titanium",
-		//"upgradesTo": "IFV",
+		"upgradesTo": "EMP SAM",
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"[90]% chance to intercept air attacks",
@@ -1429,7 +1429,7 @@
 			}
 		]
 	},
-/*
+
 	{
 		"name": "EMP SAM",
 		"unitType": "Armored",
@@ -1464,7 +1464,7 @@
 			}
 		]
 	},
-*/
+
 
 	//// Water Units
 	{
@@ -1666,6 +1666,7 @@
 		"strength": 35,
 		"cost": 150,
 		"requiredTech": "Composite Armor",
+		"upgradesTo": "Antigrav Tank",
 		"obsoleteTech": "Stasis Fields",
 		"uniques": [
 			"Armored",
@@ -2138,7 +2139,7 @@
 	},
 
 	//// Armored
-/*
+
 	{
 		"name": "Antigrav Tank",
 		"unitType": "Hover",
@@ -2168,7 +2169,7 @@
 			{ "text": "Utilizing anti-gravitic properties of Ulframite crystals, these nimble tanks can even dodge shots from certain angles sometimes." }
 		]
 	},
-*/
+
 
 	//// Mechs
 	{
