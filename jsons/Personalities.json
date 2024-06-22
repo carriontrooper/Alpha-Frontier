@@ -107,13 +107,19 @@
 		"production": 5,
 		"science": 8,
 		"military": 5,
+		"aggressive": 3,
+		"declareWar": 3,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 7,
+		"expansion": 2,
 		"priorities": {
 			"Consolidation": 20,
 			"Ingenuity": 20,
 			"Ascendancy": 10,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 3,
+		
 		"civilopediaText": [
 			{"text": "This faction tend to pool their resources into a centralized scientific authority, with research as their primary focus."}
 		]
@@ -129,6 +135,12 @@
 		"production": 8,
 		"science": 5,
 		"military": 7,
+		"aggressive": 8,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 2,
+		"expansion": 7,
 		"priorities": {
 			"Pioneer Spirit": 30,
 			"Diversity": 20,
@@ -138,7 +150,6 @@
 			"Purification Ideology": 10,
 			"Symbiosis Ideology": 10
 		},
-		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "A loose alliance of corporations hailing from the asteroid belt, their diversity and ingenuity are driven by their adamant pioneering spirit."}
 		]
@@ -154,6 +165,12 @@
 		"production": 9,
 		"science": 6,
 		"military": 7,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 6,
+		"loyal": 5,
+		"expansion": 5,
 		"priorities": {
 			"Consolidation": 10,
 			"Tenacity": 20,
@@ -163,7 +180,6 @@
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation prioritizes their industrial output and economy, with more than sufficient military force to guard itself."}
 		]
@@ -179,6 +195,12 @@
 		"production": 5,
 		"science": 5,
 		"military": 7,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 9,
+		"diplomacy": 7,
+		"loyal": 7,
+		"expansion": 5,
 		"priorities": {
 			"Consolidation": 10,
 			"Tenacity": 20,
@@ -187,7 +209,6 @@
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 6,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation tend to gravitate towards trade with outposts and pure profits, although it still keeps a sufficient military force to guard itself."}
 		]
@@ -203,13 +224,18 @@
 		"production": 4,
 		"science": 8,
 		"military": 3,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 4,
 		"priorities": {
 			"Diversity": 20,
 			"Humanitarian": 20,
 			"Ascendancy": 20,
 			"Symbiosis Ideology": 30
 		},
-		"warMongering": 3,
 		"civilopediaText": [
 			{"text": "This research-driven megacorporation is more interested in advancing humanity's medical sciences and ease humanity's ills."}
 		]
@@ -225,13 +251,18 @@
 		"production": 7,
 		"science": 9,
 		"military": 7,
+		"aggressive": 6,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 5,
 		"priorities": {
 			"Consolidation": 20,
 			"Tenacity": 10,
 			"Ingenuity": 20,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 6,
 		"civilopediaText": [
 			{"text": "This type of megacorporation is based around its reasearch and development department; profiting off the scientific advances they make is but a side effect."}
 		]
@@ -247,12 +278,17 @@
 		"production": 8,
 		"science": 7,
 		"military": 9,
+		"aggressive": 9,
+		"declareWar": 5,
+		"commerce": 4,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 6,
 		"priorities": {
 			"Consolidation": 10,
 			"Tenacity": 30,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This faction tends to value cybernetically-enhanced military strength, and thus usually have a big industrial and scientific base."}
 		]
@@ -268,11 +304,16 @@
 		"production": 7,
 		"science": 3,
 		"military": 9,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 2,
+		"diplomacy": 2,
+		"loyal": 1,
+		"expansion": 8,
 		"priorities": {
 			"Tenacity": 30,
 			"Purification Ideology": 30
 		},
-		"warMongering": 9,
 		"civilopediaText": [
 			{"text": "This militaristic faction enjoys causing trouble for other civilizations, and extorting outposts - if not conquering them outright."}
 		]
@@ -288,6 +329,12 @@
 		"production": 5,
 		"science": 6,
 		"military": 5,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 3,
 		"priorities": {
 			"Diversity": 30,
 			"Humanitarian": 10,
@@ -296,7 +343,6 @@
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 3,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation tends to monopolize the media, ensuring the happiness of their viewers by offering them superior cultural entertainment."}
 		]
@@ -312,6 +358,12 @@
 		"production": 5,
 		"science": 4,
 		"military": 4,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 9,
+		"expansion": 5,
 		"priorities": {
 			"Pioneer Spirit": 30,
 			"Tenacity": 20,
@@ -320,7 +372,6 @@
 			"Purification Ideology": 20,
 			"Symbiosis Ideology": 20
 		},
-		"warMongering": 2,
 		"civilopediaText": [
 			{"text": "This faction has nomadic tendencies, their wanderings driven by a higher spiritual cause."}
 		]
@@ -336,13 +387,18 @@
 		"production": 5,
 		"science": 4,
 		"military": 4,
+		"aggressive": 9,
+		"declareWar": 4,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 9,
+		"expansion": 6,
 		"priorities": {
 			"Diversity": 20,
 			"Statecraft": 20,
 			"Humanitarian": 10,
 			"Symbiosis Ideology": 30
 		},
-		"warMongering": 3,
 		"civilopediaText": [
 			{"text": "This faction values harmony with its environment, and focuses towards helping fellow organisms."}
 		]
@@ -358,6 +414,12 @@
 		"production": 5,
 		"science": 3,
 		"military": 8,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 8,
 		"priorities": {
 			"Consolidation": 20,
 			"Tenacity": 20,
@@ -365,7 +427,6 @@
 			"Prestige": 10,
 			"Purification Ideology": 30
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This faction favors heavily towards humanity's natural supremacy, and would not hesitate to use force against those who disagree."}
 		]
@@ -381,6 +442,12 @@
 		"production": 7,
 		"science": 5,
 		"military": 8,
+		"aggressive": 1,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 7,
 		"priorities": {
 			"Consolidation": 10,
 			"Tenacity": 10,
@@ -390,7 +457,6 @@
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 3,
 		"civilopediaText": [
 			{"text": "This defense-oriented military faction tends to be protective towards those who are weaker than them, and use their military as a means to Diplomatic."}
 		]
@@ -406,6 +472,12 @@
 		"production": 4,
 		"science": 4,
 		"military": 6,
+		"aggressive": 8,
+		"declareWar": 9,
+		"commerce": 3,
+		"diplomacy": 4,
+		"loyal": 9,
+		"expansion": 5,
 		"priorities": {
 			"Diversity": 20,
 			"Tenacity": 30,
@@ -413,7 +485,6 @@
 			"Prestige": 10,
 			"Symbiosis Ideology": 30
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This faction's culture revolves around raiding - or perhaps, they raid because it's in their culture to do so."}
 		]
@@ -429,13 +500,18 @@
 		"production": 9,
 		"science": 6,
 		"military": 9,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 6,
+		"expansion": 8,
 		"priorities": {
 			"Consolidation": 20,
 			"Tenacity": 30,
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 6,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation mixes military efficiency with industrial might, often becoming an industrial and military juggernaught."}
 		]
@@ -453,12 +529,17 @@
 		"production": 5,
 		"science": 4,
 		"military": 7,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
 		"priorities": {
 			"Pioneer Spirit": 20,
 			"Tenacity": 20,
 			"Humanitarian": 20
 		},
-		"warMongering": 2,
 		"civilopediaText": [
 			{"text": "This faction's wanderings is because of necessity, a history of scarcity may explain the origin of this nomadic tradition."}
 		]
@@ -474,13 +555,18 @@
 		"production": 7,
 		"science": 9,
 		"military": 5,
+		"aggressive": 6,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 2,
+		"expansion": 4,
 		"priorities": {
 			"Consolidation": 20,
 			"Ingenuity": 10,
 			"Ascendancy": 20,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "This faction will go to any length in order to fulfill their scientific curiosity, even by invading others for research purposes."}
 		]
@@ -496,12 +582,17 @@
 		"production": 7,
 		"science": 4,
 		"military": 6,
+		"aggressive": 7,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 6,
 		"priorities": {
 			"Tenacity": 20,
 			"Humanitarian": 20,
 			"Symbiosis Ideology": 20
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This egalitarian community of tribal clans value their industrial traditions, making them strong together."}
 		]
@@ -517,12 +608,17 @@
 		"production": 6,
 		"science": 5,
 		"military": 8,
+		"aggressive": 8,
+		"declareWar": 8,
+		"commerce": 7,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 7,
 		"priorities": {
 			"Tenacity": 20,
 			"Prestige": 20,
 			"Purification Ideology": 30
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This kind of megacorporation thrives upon all sorts of wars, selling their services to anyone able to meet their steep price. They will make a profit even if they have to start a few wars of their own."}
 		]
@@ -538,13 +634,18 @@
 		"production": 7,
 		"science": 9,
 		"military": 6,
+		"aggressive": 3,
+		"declareWar": 4,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 7,
+		"expansion": 3,
 		"priorities": {
 			"Consolidation": 20,
 			"Ingenuity": 20,
 			"Ascendancy": 10,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This type of megacorporation eschews religion and similar trivialities in favor of cold, hard logic and science."}
 		]
@@ -560,12 +661,17 @@
 		"production": 5,
 		"science": 5,
 		"military": 7,
+		"aggressive": 6,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 6,
 		"priorities": {
 			"Statecraft": 30,
 			"Humanitarian": 20,
 			"Prestige": 20
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This faction is actually an alliance between smaller states, banding together for mutual benefit."}
 		]
@@ -581,12 +687,17 @@
 		"production": 8,
 		"science": 4,
 		"military": 9,
+		"aggressive": 9,
+		"declareWar": 7,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 9,
 		"priorities": {
 			"Consolidation": 10,
 			"Tenacity": 30,
 			"Purification Ideology": 30
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This militaristic faction was once brought low and in the brink of collapse, but an upswing of patriotic fervor managed to save them from annihilation."}
 		]
@@ -602,12 +713,17 @@
 		"production": 6,
 		"science": 7,
 		"military": 9,
+		"aggressive": 3,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 3,
+		"loyal": 9,
+		"expansion": 5,
 		"priorities": {
 			"Tenacity": 30,
 			"Ingenuity": 20,
 			"Purification Ideology": 20
 		},
-		"warMongering": 3,
 		"civilopediaText": [
 			{"text": "This faction is made up of survivors who banded together for mutual protection. They will not generally attack unless they were agitated first."}
 		]
@@ -623,12 +739,17 @@
 		"production": 6,
 		"science": 4,
 		"military": 7,
+		"aggressive": 6,
+		"declareWar": 8,
+		"commerce": 7,
+		"diplomacy": 6,
+		"loyal": 1,
+		"expansion": 7,
 		"priorities": {
 			"Consolidation": 20,
 			"Prestige": 10,
 			"Purification Ideology": 20
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This faction has its roots in organized crime, and would not hesitate to use underhanded means to achieve their goal."}
 		]
@@ -644,12 +765,17 @@
 		"production": 7,
 		"science": 4,
 		"military": 8,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 3,
+		"diplomacy": 2,
+		"loyal": 6,
+		"expansion": 9,
 		"priorities": {
 			"Tenacity": 30,
 			"Prestige": 20,
 			"Purification Ideology": 20
 		},
-		"warMongering": 9,
 		"civilopediaText": [
 			{"text": "This faction of raiders has big plans to turn themselves into an empire that could rival those in history, via military power."}
 		]
@@ -665,12 +791,17 @@
 		"production": 6,
 		"science": 3,
 		"military": 8,
+		"aggressive": 10,
+		"declareWar": 8,
+		"commerce": 2,
+		"diplomacy": 3,
+		"loyal": 3,
+		"expansion": 5,
 		"priorities": {
 			"Tenacity": 30,
 			"Ascendancy": 20,
 			"Purification Ideology": 30
 		},
-		"warMongering": 8,
 		"civilopediaText": [
 			{"text": "This cult-like faction has incredible zeal to bring down all the unbelievers."}
 		]
@@ -686,12 +817,17 @@
 		"production": 6,
 		"science": 4,
 		"military": 8,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 4,
+		"expansion": 8,
 		"priorities": {
 			"Pioneer Spirit": 20,
 			"Tenacity": 20,
 			"Ingenuity": 30
 		},
-		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "This raider faction tend to roam far and wide in order to strike at their victims, necessitating nomadic living."}
 		]
@@ -707,6 +843,12 @@
 		"production": 5,
 		"science": 5,
 		"military": 6,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 8,
 		"priorities": {
 			"Consolidation": 20,
 			"Diversity": 20,
@@ -715,7 +857,6 @@
 			"Humanitarian": 20,
 			"Prestige": 10
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction had just recently became a major player in the world stage, and is building up its political power through various means."}
 		]
@@ -731,12 +872,17 @@
 		"production": 5,
 		"science": 7,
 		"military": 7,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 5,
+		"diplomacy": 7,
+		"loyal": 7,
+		"expansion": 3,
 		"priorities": {
 			"Tenacity": 20,
 			"Ingenuity": 20,
 			"Humanitarian": 20
 		},
-		"warMongering": 6,
 		"civilopediaText": [
 			{"text": "This faction is made up of irradiated survivors who banded together in order to pool their scientific might, so they can be saved from their radioactive demise."}
 		]
@@ -754,12 +900,17 @@
 		"production": 5,
 		"science": 7,
 		"military": 6,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 2,
+		"expansion": 4,
 		"priorities": {
 			"Statecraft": 20,
 			"Ingenuity": 20,
 			"Prestige": 30
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This megacorp uses corporate espionage to accrue more profit for themselves."}
 		]
@@ -775,6 +926,12 @@
 		"production": 9,
 		"science": 6,
 		"military": 3,
+		"aggressive": 5,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 8,
+		"expansion": 5,
 		"priorities": {
 			"Consolidation": 30,
 			"Prestige": 20,
@@ -782,7 +939,6 @@
 			"Symbiosis Ideology": 20,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This faction tend to concentrate its efforts in constructing things. Wonders, buildings, improvements, you name it, they'll try to build it."}
 		]
@@ -798,12 +954,17 @@
 		"production": 7,
 		"science": 3,
 		"military": 8,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 5,
+		"expansion": 10,
 		"priorities": {
 			"Pioneer Spirit": 10,
 			"Consolidation": 20,
 			"Tenacity": 30
 		},
-		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "This militaristic faction will try and grow its cities, as well as take land from their neighbors."}
 		]
@@ -819,6 +980,12 @@
 		"production": 4,
 		"science": 5,
 		"military": 5,
+		"aggressive": 3,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 2,
 		"priorities": {
 			"Diversity": 20,
 			"Statecraft": 20,
@@ -840,12 +1007,17 @@
 		"production": 4,
 		"science": 5,
 		"military": 4,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 7,
+		"loyal": 7,
+		"expansion": 6,
 		"priorities": {
 			"Statecraft": 20,
 			"Humanitarian": 20,
 			"Ascendancy": 30
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction holds true to a religion that encompasses different cultural roots. Thus, it seeks harmony between its followers, and hopefully also the wider world."}
 		]
@@ -861,13 +1033,18 @@
 		"production": 5,
 		"science": 5,
 		"military": 5,
+		"aggressive": 3,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 7,
+		"loyal": 8,
+		"expansion": 3,
 		"priorities": {
 			"Statecraft": 20,
 			"Ingenuity": 20,
 			"Humanitarian": 30,
 			"Symbiosis Ideology": 20
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This faction has its roots in several nation-states, who united in their desire to reach self-sufficiency in both food and economic matters."}
 		]
@@ -883,13 +1060,18 @@
 		"production": 7,
 		"science": 8,
 		"military": 6,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 3,
+		"diplomacy": 4,
+		"loyal": 6,
+		"expansion": 4,
 		"priorities": {
 			"Consolidation": 20,
 			"Ingenuity": 20,
 			"Humanitarian": 30,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This nation believes in a strong industrial tenet, which is backed by technological prowess."}
 		]
@@ -905,13 +1087,18 @@
 		"production": 7,
 		"science": 6,
 		"military": 6,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 7,
+		"loyal": 8,
+		"expansion": 3,
 		"priorities": {
 			"Pioneer Spirit": 20,
 			"Ingenuity": 20,
 			"Humanitarian": 30,
 			"Radiant Ideology": 20
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction has long wandered the stars, and developed their own culture based on it."}
 		]
@@ -927,13 +1114,18 @@
 		"production": 6,
 		"science": 8,
 		"military": 6,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 7,
+		"loyal": 3,
+		"expansion": 2,
 		"priorities": {
 			"Statecraft": 20,
 			"Ingenuity": 20,
 			"Purity Ideology": 30,
 			"Radiant Ideology": 30
 		},
-		"warMongering": 7,
 		"civilopediaText": [
 			{"text": "This faction spies on others and makes a lot of schemes on how to best twist them to its advantage."}
 		]
@@ -949,13 +1141,18 @@
 		"production": 4,
 		"science": 7,
 		"military": 5,
+		"aggressive": 2,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 9,
+		"expansion": 3,
 		"priorities": {
 			"Diversity": 20,
 			"Statecraft": 30,
 			"Ingenuity": 20,
 			"Prestige": 20
 		},
-		"warMongering": 4,
 		"civilopediaText": [
 			{"text": "This faction seeks to be the foremost in the diplomatic stage, backed by applicable science."}
 		]
@@ -971,13 +1168,18 @@
 		"production": 9,
 		"science": 7,
 		"military": 7,
+		"aggressive": 2,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 5,
+		"loyal": 6,
+		"expansion": 6,
 		"priorities": {
 			"Consolidation": 20,
 			"Tenacity": 10,
 			"Statecraft": 10,
 			"Ingenuity": 20
 		},
-		"warMongering": 6,
 		"civilopediaText": [
 			{"text": "This faction likes to build its industrial base, backed by a military strong enough to defend itself."}
 		]
@@ -995,12 +1197,17 @@
 		"production": 9,
 		"science": 5,
 		"military": 5,
+		"aggressive": 2,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 1,
 		"priorities": {
 			"Consolidation": 30,
 			"Prestige": 20,
 			"Statecraft": 10
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction likes to build and develop cities, and provide the relevant infrastructures for them."}
 		]
@@ -1016,6 +1223,12 @@
 		"production": 6,
 		"science": 7,
 		"military": 6,
+		"aggressive": 7,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 7,
+		"loyal": 5,
+		"expansion": 4,
 		"priorities": {
 			"Pioneer Spirit": 20,
 			"Diversity": 10,
@@ -1023,7 +1236,6 @@
 			"Humanitarian": 20,
 			"Symbiosis Ideology": 30
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction prioritizes food production and scientific research. The profits from selling food is just a nice bonus."}
 		]
@@ -1039,13 +1251,18 @@
 		"production": 6,
 		"science": 7,
 		"military": 6,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 8,
+		"expansion": 7,
 		"priorities": {
 			"Consolidation": 10,
 			"Ingenuity": 20,
 			"Ascendancy": 20,
 			"Purification Ideology": 30
 		},
-		"warMongering": 5,
 		"civilopediaText": [
 			{"text": "This faction believes that they alone carry the true torch of humanity's scientific efforts, and shun the 'deviant' ways of Cybernetic Transhumanism and Xenobiologic Engineering."}
 		]
@@ -1061,6 +1278,12 @@
 		"production": 6,
 		"science": 7,
 		"military": 6,
+		"aggressive": 7,
+		"declareWar": 8,
+		"commerce": 4,
+		"diplomacy": 6,
+		"loyal": 9,
+		"expansion": 9,
 		"priorities": {
 			"Pioneer Spirit": 20,
 			"Tenacity": 30,
