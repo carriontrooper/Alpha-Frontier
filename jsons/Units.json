@@ -2147,7 +2147,7 @@
 		"strength": 40,
 		"cost": 300,
 		"requiredTech": "Fusion Power",
-		"obsoleteTech": "Stasis Fields",
+		//"obsoleteTech": "Stasis Fields",
 		"uniques": [
 			"Armored",
 			"Hovercraft",
