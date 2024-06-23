@@ -1132,7 +1132,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Unbuildable","Will be replaced by automated workers"],
+		"uniques": ["Unpillagable","Unbuildable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
