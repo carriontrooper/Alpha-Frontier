@@ -391,7 +391,7 @@
 			{
 				"name": "Legacies of Genius",
 				"uniques": [
-					"[+50 Science] whenever a Great Person is expended"
+					"Gain [50] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
 				],
 				"requires": ["Scientific Management"],
 				"row": 3,
@@ -537,7 +537,7 @@
 			{
 				"name": "Cultural Icons",
 				"uniques": [
-					"[+50 Culture] whenever a Great Person is expended",
+					"Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
 					"[Great Influencer] is earned [+20]% faster"
 				],
 				"row": 1,
