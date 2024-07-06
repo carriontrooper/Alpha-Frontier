@@ -538,7 +538,7 @@
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Virtualism",
 		"uniqueName": "We are Soldiers, Stand or Die",
-		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>","Great General provides double combat bonus","[+50]% maintenance costs","[+20]% spy effectiveness [in all cities]"],
+		"uniques": ["No damage penalty for wounded units","Great General provides double combat bonus","[+50]% maintenance costs","[+20]% spy effectiveness [in all cities]"],
 		"cities": [
 			"Niihama New Port City",
 			"Aramaki-Cho",
