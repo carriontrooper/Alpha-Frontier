@@ -84,7 +84,7 @@
 			"Hidden when religion is disabled",
 			"Gain enough Faith for a Pantheon",
 			"Only available <before founding a Pantheon>",
-			"Only available <after [20] turns>"
+			"Only available <after turn number [20]>"
 		],
 		"color": "#CDDDF4"
 	},
@@ -96,7 +96,7 @@
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Unavailable <after generating a Great Prophet>",
 			"Only available <before founding a Pantheon>",
-			"Only available <after [20] turns>"
+			"Only available <after turn number [20]>"
 		],
 		"color": "#CDDDF4"
 	}
