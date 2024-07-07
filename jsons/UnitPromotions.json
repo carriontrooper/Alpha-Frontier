@@ -385,7 +385,7 @@
 		"prerequisites": ["Survivalism II"],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action",
-			"May withdraw before melee ([75]%)"
+			"Withdraws before melee combat <with [75]% chance>"
 		], // This number is not based on any source
 		"unitTypes": ["Scout"],
 		"row": 8,
@@ -705,7 +705,7 @@
 	// Mechs
 	{
 		"name": "Dodge I",
-		"uniques": ["May withdraw before melee ([75]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>",],
 		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"],
 		"row": 19,
         "column": 1
@@ -713,7 +713,7 @@
 	{
 		"name": "Dodge II",
 		"prerequisites": ["Dodge I"],
-		"uniques": ["May withdraw before melee ([75]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>",],
 		"unitTypes": ["Close Range Mech", "Ranged Mech", "Xeno Melee Land"],
 		"row": 19,
         "column": 2
@@ -1385,7 +1385,7 @@
 	{
 		"name": "Agility",
 		"prerequisites": ["Wings II"],
-		"uniques": ["May withdraw before melee ([75]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Xeno Air"],
 		"row": 53,
         "column": 0
@@ -1450,7 +1450,7 @@
 			"Nerve Stapled",
 			"[+15]% Strength",
 			"[-50]% XP gained from combat",
-			"Damage is ignored when determining unit Strength",
+			"No damage penalty for wounded units",
 			"Ignores Zone of Control"
 		],
 		"row": 61,
@@ -1461,7 +1461,7 @@
 		"name": "Mirage I",
 		"uniques": [
 			"Invisible to non-adjacent units",
-			"May withdraw before melee ([20]%)"
+			"Withdraws before melee combat <with [20]% chance>"
 		],
 		"row": 32,
         "column": 1
@@ -1590,7 +1590,7 @@
 		"uniques": [
 			"Data Uplinked",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
-			"May withdraw before melee ([80]%)"
+			"Withdraws before melee combat <with [75]% chance>",
 		],
 		"row": 65,
         "column": 0
@@ -1622,8 +1622,8 @@
 		"uniques": [
 			"Earn [10]% of the damage done to [All] units as [Gold]",
 			"Earn [10]% of killed [All] unit's [Cost] as [Gold]",
-			"[+10]% Strength <when fighting in [Water resource] tiles>"
-			"May withdraw before melee ([80]%)"
+			"[+10]% Strength <when fighting in [Water resource] tiles>",
+			"Withdraws before melee combat <with [75]% chance>",
 		],
 		"row": 68,
         "column": 0
@@ -1850,7 +1850,7 @@
 	{
 		"name": "Spectre Shadow",
 		"uniques": [
-			"May withdraw before melee ([20]%)"
+			"Withdraws before melee combat <with [20]% chance>",
 		],
 		"row": 87,
         "column": 0
@@ -1859,7 +1859,7 @@
 		"name": "Dune Mirage",
 		"uniques": [
 			"[+1] Movement",
-			"May withdraw before melee ([10]%)"
+			"Withdraws before melee combat <with [10]% chance>",
 		],
 		"row": 88,
         "column": 0
@@ -1892,7 +1892,7 @@
 		"name": "Slippery but Fierce",
 		"uniques": [
 			"[+20]% to Flank Attack bonuses",
-			"May withdraw before melee ([10]%)"
+			"Withdraws before melee combat <with [10]% chance>"
 		],
 		"row": 91,
         "column": 0
@@ -2002,7 +2002,8 @@
 	{
 		"name": "Berserk",
 		"uniques": [
-			"Damage is ignored when determining unit Strength"
+			"[+10]% Strength <when attacking>",
+			"No damage penalty for wounded units"
 		],
 		"row": 85,
     	"column": 4
