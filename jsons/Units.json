@@ -3099,7 +3099,7 @@
 		//"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+2] Sight",
-			"Damage is ignored when determining unit Strength",
+			"No damage penalty for wounded units",
 			"Consumes [1] [Digital Storage Space]",
 			"Can only be built <after adopting [Radiant Ideology]>",
 			"Never appears as a Barbarian unit"
@@ -3916,7 +3916,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[-25]% Strength <vs [Air] units>",
-			"May withdraw before melee ([30]%)",
+			"Withdraws before melee combat <with [30]% chance>",
 			"Consumes [3] [Promethine]",
 			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
