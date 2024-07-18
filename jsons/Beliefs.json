@@ -44,7 +44,7 @@
 		"name": "Homeopathy",
 		"type": "Pantheon",
 		"uniques": [
-			"[All] Units adjacent to this city heal [+30] HP per turn when healing"
+			"[All] Units adjacent to this city heal [+30] HP per turn when healing <in this city>"
 		]
 		// TODO: This should be worded better
 	},
