@@ -1357,9 +1357,9 @@
 		"production": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[Armored] Units adjacent to this city heal [20] HP per turn when healing",
-			"[Mech] Units adjacent to this city heal [20] HP per turn when healing",
-			"[Water] Units adjacent to this city heal [20] HP per turn when healing"
+			"[Armored] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
+			"[Mech] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
+			"[Water] Units adjacent to this city heal [20] HP per turn when healing <in this city>"
 		],
 		"requiredTech": "Nanotechnology",
 		"civilopediaText": [
@@ -1644,8 +1644,8 @@
 		"requiredTech": "Advanced Biotech",
 		//"requiredResource": "Vitamass",
 		"uniques": [
-			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
-			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
+			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
 			"Consumes [1] [Vitamass]",
 			"Only available <with [Vitamass]>",
 		],
@@ -1762,7 +1762,7 @@
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing",
+			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
 			"Consumes [1] [Vitamass]",
 			"Only available <after adopting [Symbiosis Ideology]>"
 		],
@@ -2965,7 +2965,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Must have an owned [Tree of Worlds] within [3] tiles",
-			"[All] Units adjacent to this city heal [10] HP per turn when healing",
+			"[All] Units adjacent to this city heal [10] HP per turn when healing <in this city>",
 			"[+50]% growth [in all cities]",
 			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
 		],
