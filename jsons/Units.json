@@ -1,7 +1,7 @@
 [
 	// todo: add more aerocraft?
 	// todo: bump EMP SAM up an era
-	// add SAM unit where EMP SAM was
+	// add SPAA unit where EMP SAM was
 	// add advanced IFV which IFVs can upgrade to
 
 	////////////////////
@@ -1430,8 +1430,8 @@
 		]
 	},
 
-	{
-		"name": "EMP SAM",
+	{ //replace with SPAA, bump up an era
+		"name": "EMP SAM", // SPAA
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 30,
@@ -1454,7 +1454,7 @@
 		],
 		"promotions": ["Field Anti Air"],
 		"hurryCostModifier": 20,
-		"attackSound": "AntiAirLock",
+		"attackSound": "AntiAirLock", // machinegun
 		"civilopediaText": [
 			{
 				"Separator": true
@@ -2138,6 +2138,76 @@
 		]
 	},
 
+	//// Buggies
+// insert EMP SAM and AIFV here
+/*
+	{
+		"name": "AIFV",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 35,
+		"cost": 200,
+		"requiredTech": "Cybernetics",
+		//"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Missiles",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+75]% Strength <vs [Infantry] units>",
+			"[+10]% Strength bonus for [Infantry] units within [2] tiles",
+			"[+20]% Strength when stacked with [Civilian] <when defending>",
+			//"Can only be built <with [Titanium]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Taking the infantry support doctrine to the next level, this advanced IFV zips through the battlefield to provide assistance and firepower to allied infantry units."
+			}
+		]
+	},
+	{
+		"name": "EMP SAM",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 35,
+		"interceptRange": 3,
+		"cost": 225,
+		"requiredTech": "Cybernetics",
+		//"obsoleteTech": "Lasers",
+		"uniques": [
+			"[95]% chance to intercept air attacks",
+			"[+300]% Strength <vs [Air] units> <when attacking>",
+			"[+300]% Damage when intercepting <vs [Air] units>",
+			"[+300]% Strength <vs [Drone] units> <when attacking>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"[-100]% Damage when intercepting <vs [Satellite] units>",
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Field Anti Air"],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "These bigger than usual buggies carry munitions that emit EMP bursts when they detonate, making them extra deadly to units with sensitive electronics like aerocraft and drones."
+			}
+		]
+	},
+*/
 	//// Armored
 
 	{
