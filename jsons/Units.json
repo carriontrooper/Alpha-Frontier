@@ -1406,8 +1406,8 @@
 		"cost": 120,
 		"requiredTech": "Next-Gen Armaments",
 		//"requiredResource": "Titanium",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Missiles",
+		//"upgradesTo": "AIFV",
+		//"obsoleteTech": "Cybernetics",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1416,6 +1416,7 @@
 			"[+10]% Strength bonus for [Infantry] units within [2] tiles",
 			//"Can only be built <with [Titanium]>",
 			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1473,7 +1474,8 @@
 		"interceptRange": 2,
 		"cost": 130,
 		"requiredTech": "Next-Gen Armaments",
-		"obsoleteTech": "Lasers",
+		"upgradesTo": "EMP SAM",
+		"obsoleteTech": "Cybernetics",
 		"uniques": [
 			"[95]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Air] units> <when attacking>",
@@ -2175,7 +2177,7 @@
 	},
 
 	//// Buggies
-// insert EMP SAM and AIFV here
+	// insert EMP SAM and AIFV here
 /*
 	{
 		"name": "AIFV",
@@ -2194,8 +2196,8 @@
 			"[+75]% Strength <vs [Infantry] units>",
 			"[+10]% Strength bonus for [Infantry] units within [2] tiles",
 			"[+20]% Strength when stacked with [Civilian] <when defending>",
-			//"Can only be built <with [Titanium]>",
 			"Consumes [1] [Promethine]",
+			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -2219,7 +2221,7 @@
 		"requiredTech": "Cybernetics",
 		//"obsoleteTech": "Lasers",
 		"uniques": [
-			"[95]% chance to intercept air attacks",
+			"[99]% chance to intercept air attacks",
 			"[+300]% Strength <vs [Air] units> <when attacking>",
 			"[+300]% Damage when intercepting <vs [Air] units>",
 			"[+300]% Strength <vs [Drone] units> <when attacking>",
@@ -2272,7 +2274,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Utilizing anti-gravitic properties of Ulframite crystals, these nimble tanks can even dodge shots from certain angles sometimes." }
+			{ "text": "Utilizing anti-gravitic properties of Ulframite crystals, these nimble tanks can even sometimes dodge shots from certain angles." }
 		]
 	},
 
