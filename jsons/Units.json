@@ -892,8 +892,8 @@
 		"cost": 100,
 		"requiredTech": "Missiles",
 		//"requiredResource": "Titanium",
-		"upgradesTo": "EMP SAM",
-		"obsoleteTech": "Lasers",
+		"upgradesTo": "SPAA",
+		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": [
 			"[90]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units> <when attacking>",
@@ -1406,8 +1406,8 @@
 		"cost": 120,
 		"requiredTech": "Next-Gen Armaments",
 		//"requiredResource": "Titanium",
-		//"upgradesTo": "AIFV",
-		//"obsoleteTech": "Cybernetics",
+		"upgradesTo": "AIFV",
+		"obsoleteTech": "Cybernetics",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1431,41 +1431,6 @@
 		]
 	},
 
-	{ //replace with SPAA, bump up an era
-		"name": "EMP SAM", // SPAA
-		"unitType": "Armored",
-		"movement": 4,
-		"strength": 30,
-		"interceptRange": 2,
-		"cost": 130,
-		"requiredTech": "Next-Gen Armaments",
-		//"obsoleteTech": "Lasers",
-		"uniques": [
-			"[95]% chance to intercept air attacks",
-			"[+200]% Strength <vs [Air] units> <when attacking>",
-			"[+200]% Damage when intercepting <vs [Air] units>",
-			"[+200]% Strength <vs [Drone] units> <when attacking>",
-			"[-100]% Strength <vs [Satellite] units> <when attacking>",
-			"[-100]% Damage when intercepting <vs [Satellite] units>",
-			"[+25]% Strength <vs [Armor] units>",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": ["Field Anti Air"],
-		"hurryCostModifier": 20,
-		"attackSound": "AntiAirLock", // machinegun
-		"civilopediaText": [
-			{
-				"Separator": true
-			},
-			{
-				"text": "These bigger than usual buggies carry munitions that emit EMP bursts when they detonate, making them extra deadly to units with sensitive electronics like aerocraft and drones."
-			}
-		]
-	},
-/*
 	{
 		"name": "SPAA",
 		"unitType": "Armored",
@@ -1501,8 +1466,6 @@
 			}
 		]
 	},
-*/
-
 
 	//// Water Units
 	{
@@ -2178,7 +2141,6 @@
 
 	//// Buggies
 	// insert EMP SAM and AIFV here
-/*
 	{
 		"name": "AIFV",
 		"unitType": "Armored",
@@ -2245,7 +2207,6 @@
 			}
 		]
 	},
-*/
 	//// Armored
 
 	{
