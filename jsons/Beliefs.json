@@ -194,7 +194,7 @@
 		"uniques": ["[+1 Faith] from every [Bureaucratic Office]"]
 	},
 	{
-		"name": "Faith in Science",
+		"name": "Academic Exultation",
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Field Lab]",
@@ -215,6 +215,14 @@
 			"[+2 Faith] from every [Artifacts]",
 			"[+10 Faith] from every [Aurigan Vault Complex]",
 			"[+10 Faith] from every [Harborship Wreck]"
+		]
+	},
+	{
+		"name": "Techno-cult",
+		"type": "Pantheon",
+		"uniques": [
+			"[+3 Faith] <after adopting [Ascendancy]>",
+			"[+3 Faith] <after adopting [Ingenuity]>"
 		]
 	},
 	{
@@ -431,6 +439,13 @@
 			"[+1 Culture] from every [5] global followers [in foreign cities]"
 		]
 	},
+	{
+		"name": "Faith in Science",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Faith] per every [5] [Science] <in cities following our religion>"
+		]
+	},
 
 	// Enhancer beliefs
 	{
@@ -511,7 +526,7 @@
 			"Gain an extra spy",
 			"[+20]% spy effectiveness [in cities following our religion]"
 		]
-	}
+	},
 	{
 		"name": "Vigilant Gaze",
 		"type": "Enhancer",
@@ -519,5 +534,18 @@
 			"[+1] Sight <for [Military] units>",
 			"[-20]% enemy spy effectiveness [in cities following our religion]"
 		]
-	}
+	},
+	{
+		"name": "Holy Technology",
+		"type": "Enhancer",
+		"uniques": [
+			"[+3 Faith, +1 Culture] <starting from the [Landfall Era]>",
+			"[+3 Faith, +1 Culture] <starting from the [Exploration Era]>",
+			"[+5 Faith, +2 Culture] <starting from the [Colonization Era]>",
+			"[+5 Faith, +2 Culture] <starting from the [Halcyon Era]>",
+			"[+7 Faith, +3 Culture] <starting from the [Realization Era]>",
+			"[+7 Faith, +3 Culture] <starting from the [Transcendental Era]>",
+			"[+10 Faith, +5 Culture] <starting from the [Singularity Era]>"
+		]
+	},
 ]
