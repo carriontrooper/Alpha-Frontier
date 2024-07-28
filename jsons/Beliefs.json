@@ -221,8 +221,8 @@
 		"name": "Techno-cult",
 		"type": "Pantheon",
 		"uniques": [
-			"[+3 Faith] <after adopting [Ascendancy]>",
-			"[+3 Faith] <after adopting [Ingenuity]>"
+			"[+3 Faith] from every [Medbay] <after adopting [Ascendancy]>",
+			"[+3 Faith] from every [Field Lab] <after adopting [Ingenuity]>"
 		]
 	},
 	{
@@ -539,13 +539,13 @@
 		"name": "Holy Technology",
 		"type": "Enhancer",
 		"uniques": [
-			"[+3 Faith, +1 Culture] <starting from the [Landfall Era]>",
-			"[+3 Faith, +1 Culture] <starting from the [Exploration Era]>",
-			"[+5 Faith, +2 Culture] <starting from the [Colonization Era]>",
-			"[+5 Faith, +2 Culture] <starting from the [Halcyon Era]>",
-			"[+7 Faith, +3 Culture] <starting from the [Realization Era]>",
-			"[+7 Faith, +3 Culture] <starting from the [Transcendental Era]>",
-			"[+10 Faith, +5 Culture] <starting from the [Singularity Era]>"
+			"[+3 Faith, +1 Culture] <starting from the [Landfall era]>",
+			"[+3 Faith, +1 Culture] <starting from the [Exploration era]>",
+			"[+5 Faith, +2 Culture] <starting from the [Colonization era]>",
+			"[+5 Faith, +2 Culture] <starting from the [Halcyon era]>",
+			"[+7 Faith, +3 Culture] <starting from the [Realization era]>",
+			"[+7 Faith, +3 Culture] <starting from the [Transcendental era]>",
+			"[+10 Faith, +5 Culture] <starting from the [Singularity era]>"
 		]
 	}
 ]
