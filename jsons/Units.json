@@ -3951,7 +3951,7 @@
 			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Exiles back from Hell"],
+		"promotions": ["Mercenary Pay","Hell's Exiles"],
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
