@@ -128,7 +128,7 @@
 	{
 		"name": "Missile",
 		"movementType": "Air",
-		"uniques": ["Self-destructs when attacking", "Ranged attacks may be performed over obstacles", "Cannot be intercepted"]
+		"uniques": ["Self-destructs when attacking", "Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Helicopter",
