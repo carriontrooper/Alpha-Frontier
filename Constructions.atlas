@@ -284,13 +284,6 @@ BuildingIcons/Floating Harbor
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Floating Mountain Fortress
-  rotate: false
-  xy: 112, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Frontier Armory
   rotate: false
   xy: 220, 544
@@ -816,13 +809,6 @@ BuildingIcons/Stock Exchange
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Surrogate Xenomind
-  rotate: false
-  xy: 1192, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Survey Buoy
   rotate: false
   xy: 1300, 220
@@ -970,6 +956,13 @@ BuildingPortraits/Flesh Pit Park
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingPortraits/Floating Mountain Fortress
+  rotate: false
+  xy: 112, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingPortraits/Gaia Preserve
   rotate: false
   xy: 652, 976
@@ -1099,6 +1092,13 @@ BuildingPortraits/Soil Revitalizer
 BuildingPortraits/Space Elevator
   rotate: false
   xy: 1624, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingPortraits/Surrogate Xenomind
+  rotate: false
+  xy: 1192, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
