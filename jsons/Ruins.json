@@ -34,7 +34,7 @@
 		"name": "your exploring unit receives training",
 		"notification": "Our unit has gained experience from military logs recovered from the crash site!",
 		"uniques": [
-			"This Unit gains [10] XP"
+			"[This Unit] gains [10] XP"
 			//"Only available after [10] turns"
 		]
 	},
@@ -61,7 +61,7 @@
 	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds intact combat equipment in the crash site!",
-		"uniques": ["This Unit upgrades for free including special upgrades"]
+		"uniques": ["[This Unit] upgrades for free including special upgrades"]
 	},
 	{
 		"name": "reveal nearby Xeno Hives",
