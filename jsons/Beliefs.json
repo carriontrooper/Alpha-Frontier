@@ -495,14 +495,17 @@
 		"name": "Religious Documents",
 		"type": "Enhancer",
 		"uniques": [
-			"[+34]% Natural religion spread [in cities following our religion]",
-			"[+34]% Natural religion spread [in cities following our religion] <after discovering [Info Networks]>"
+			"[+34]% Natural religion spread [in all cities]",
+			"[+34]% Natural religion spread [in all cities] <after discovering [Info Networks]>"
 		]
 	},
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+		"uniques": [
+			"[+100]% Natural religion spread [City-State] <hiďden from users>",
+			"Comment [+100% Natural religion spread in Outposts]"
+		]
 	},
 	{
 		"name": "Memorabilia",
