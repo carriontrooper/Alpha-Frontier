@@ -503,7 +503,7 @@
 		"name": "Religious Unity",
 		"type": "Enhancer",
 		"uniques": [
-			"[+100]% Natural religion spread [City-State] <hidden from users>",
+			"[+100]% Natural religion spread [City-States] <hidden from users>",
 			"Comment [+100% Natural religion spread in Outposts]"
 		]
 	},
