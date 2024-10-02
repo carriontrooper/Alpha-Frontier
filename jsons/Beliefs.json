@@ -293,7 +293,8 @@
 		"name": "Specialist Reverence",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Production] for every specialist [in cities following this religion] <in cities with at least [1] [Specialists]>"
+			//"[+1 Production] for every specialist [in cities following this religion] <in cities with at least [1] [Specialists]>"
+			"[+1 Production] for every specialist [in cities following this religion]"
 		]
 	},
 	{
