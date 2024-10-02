@@ -46,42 +46,42 @@ TileSets/FantasyHex/Edges/Beach-Coast-Land-TopRight
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-Bottom
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-Bottom
   rotate: false
   xy: 884, 403
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-BottomLeft
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-BottomLeft
   rotate: false
   xy: 924, 443
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-BottomRight
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-BottomRight
   rotate: false
   xy: 964, 479
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-Top
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-Top
   rotate: false
   xy: 884, 366
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-TopLeft
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-TopLeft
   rotate: false
   xy: 924, 406
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Lock-Canal-Water-TopRight
+TileSets/FantasyHex/Edges/Lock-Canal-NonCanal-TopRight
   rotate: false
   xy: 964, 442
   size: 32, 29
