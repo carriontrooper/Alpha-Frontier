@@ -8,6 +8,7 @@
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
 		"uniques": [
+			"NonCanal",
 			"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			"Becomes [Coast] when adjacent to [Great Neuroreef]"
 		],
@@ -24,6 +25,7 @@
 		"impassable": true,
 		"RGB": [2, 104, 100],
 		"uniques": [
+			"NonCanal",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
@@ -40,6 +42,7 @@
 		"movementCost": 1,
 		"RGB": [42, 206, 179],
 		"uniques": [
+			"NonCanal",
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -215,6 +218,7 @@
 		"gold": 1,
 		"RGB": [123, 202, 226],
 		"uniques": [
+			"NonCanal",
 			"Fresh water",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
