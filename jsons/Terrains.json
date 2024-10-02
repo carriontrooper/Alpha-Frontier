@@ -19,6 +19,21 @@
 		]
 	},
 	{
+		"name": "Impassable Ocean",
+		"type": "Water",
+		"impassable": true,
+		"RGB": [2, 104, 100],
+		"uniques": [
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{
+				"text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
+				//"link": "Resource/Vent"
+			}
+		]
+	},
+	{
 		"name": "Coast",
 		"type": "Water",
 		"food": 1,
@@ -610,7 +625,7 @@
 			"Occurs in groups of [2] to [2] tiles",
 			"Neighboring tiles will convert to [Coast]"
 		],
-		"turnsInto": "Coast",
+		"turnsInto": "Impassable Ocean",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10,
@@ -753,7 +768,7 @@
 			"Must be adjacent to [0] [Ice] tiles",
 			"Neighboring tiles will convert to [Coast]"
 		],
-		"turnsInto": "Mountain",
+		"turnsInto": "Impassable Ocean",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10,
