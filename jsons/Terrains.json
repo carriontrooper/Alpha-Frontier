@@ -233,7 +233,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
 		"uniques": [
-			"Land No Wonder",
+			//"Land No Wonder",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
