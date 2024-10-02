@@ -57,7 +57,7 @@
 		"movementCost": 1,
 		"RGB": [107, 214, 152],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [-0.5] and [0] and humidity between [0.6] and [0.7]",
@@ -92,7 +92,7 @@
 		"movementCost": 1,
 		"RGB": [61, 142, 93],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [0.5]",
@@ -128,7 +128,6 @@
 		"movementCost": 1,
 		"RGB": [154, 107, 214],
 		"uniques": [
-			"Land No Wonder",
 			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [1]",
 			"Occurs at temperature between [-0.2] and [0.7] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0] and [0.5] and humidity between [0.6] and [0.7]",
@@ -161,7 +160,7 @@
 		"movementCost": 1,
 		"RGB": [205, 204, 136],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
 			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
 			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
@@ -189,7 +188,7 @@
 		"movementCost": 1,
 		"RGB": [212, 112, 70],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
@@ -233,7 +232,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
 		"uniques": [
-			//"Land No Wonder",
+			//"NonMycelium",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
@@ -253,7 +252,7 @@
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
 			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
@@ -284,7 +283,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [110, 110, 110],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rough terrain",
 			"Doesn't generate naturally",
 			"Has an elevation of [4] for visibility calculations",
@@ -333,7 +332,7 @@
 			"Mycelium"
 		],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
@@ -363,7 +362,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra", "Plains", "Grassland", "Hill", "Mycelium"],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rough terrain",
 			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
@@ -394,7 +393,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains", "Grassland", "Mycelium"],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rough terrain",
 			"Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -422,7 +421,7 @@
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland", "Mycelium"],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -439,7 +438,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Nullifies all other stats this tile provides",
 			"Doesn't generate naturally"
 		],
@@ -472,7 +471,7 @@
 		"movementCost": 2,
 		"unbuildable": false,
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Rare feature",
 			"Considered [Undesirable] when determining start locations",
 			"[-2] to Fertility for Map Generation"
@@ -509,7 +508,7 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Fresh water",
 			"Rare feature",
 			"Only [All Road] improvements may be built on this tile",
@@ -554,7 +553,7 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": [
-			"Land No Wonder",
+			"NonMycelium",
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
