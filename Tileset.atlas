@@ -88,42 +88,42 @@ TileSets/FantasyHex/Edges/Lock-Canal-Water-TopRight
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-Bottom
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-Bottom
   rotate: false
   xy: 1124, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-BottomLeft
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-BottomLeft
   rotate: false
   xy: 1164, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-BottomRight
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-BottomRight
   rotate: false
   xy: 1084, 364
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-Top
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-Top
   rotate: false
   xy: 1124, 408
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-TopLeft
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-TopLeft
   rotate: false
   xy: 1164, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Edges/Myceliedge-Land No Wonder-Mycelium-TopRight
+TileSets/FantasyHex/Edges/Myceliedge-NonMycelium-Mycelium-TopRight
   rotate: false
   xy: 1204, 480
   size: 32, 28
