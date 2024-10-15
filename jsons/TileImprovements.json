@@ -925,6 +925,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Info Networks",
 		"uniques": [
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Holorelay] tiles>",
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Net Culture]>",
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Posthumanist Culture]>",
