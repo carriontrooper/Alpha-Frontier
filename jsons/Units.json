@@ -3164,7 +3164,7 @@
 			"Heals [20] damage if it kills a unit",
 			//"Can move after attacking",
 			"May attack when embarked",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"[+33]% Strength <vs [Infantry] units>",
 			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+20]% Strength for enemy [Nerve Stapled] units in adjacent [All] tiles",
@@ -3462,7 +3462,7 @@
 		"hurryCostModifier": -10,
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [10] per Civilization",
@@ -3489,7 +3489,7 @@
 		"obsoleteTech": "Next-Gen Armaments",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [10] per Civilization",
@@ -3514,7 +3514,7 @@
 		"obsoleteTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3541,7 +3541,7 @@
 		"obsoleteTech": "Exoskeletons",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3566,7 +3566,7 @@
 		"obsoleteTech": "Cybernetics",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -3593,7 +3593,7 @@
 		"obsoleteTech": "Cybernetics",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -3618,7 +3618,7 @@
 		"requiredTech": "Lasers",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -3642,7 +3642,7 @@
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -3666,7 +3666,7 @@
 		"requiredTech": "Metamaterials",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -3775,7 +3775,7 @@
 		"obsoleteTech": "Missiles",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3804,7 +3804,7 @@
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3843,7 +3843,7 @@
 		"obsoleteTech": "Synthetic Materials",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3870,7 +3870,7 @@
 		"obsoleteTech": "Composite Armor",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -3898,7 +3898,7 @@
 		"obsoleteTech": "Composite Armor",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -3933,7 +3933,7 @@
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -3969,7 +3969,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -4047,7 +4047,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -4077,7 +4077,7 @@
 		"obsoleteTech": "Metamaterials",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -4142,7 +4142,7 @@
 		"obsoleteTech": "Stasis Fields",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -4172,7 +4172,7 @@
 		"obsoleteTech": "Stasis Fields",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -4203,7 +4203,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -4244,7 +4244,7 @@
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [5] per Civilization",
@@ -4277,7 +4277,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [7] per Civilization",
@@ -4309,7 +4309,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -4342,7 +4342,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [3] per Civilization",
@@ -4490,7 +4490,7 @@
 			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>">,
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -5063,7 +5063,7 @@
 			"Is part of Great Person group [Civil]",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>">,
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -5322,7 +5322,7 @@
 			"[-1] Sight",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>">
 		],
 		"movement": 4,
 		"religiousStrength": 1000,
@@ -5349,7 +5349,7 @@
 			"Can remove other religions from cities <in [Friendly] tiles> <[1] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>">,
 			"Unbuildable",
 			"Religious Unit"
 		],
