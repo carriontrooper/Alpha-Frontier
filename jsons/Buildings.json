@@ -84,7 +84,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Habitation",
-		"uniques": ["Hidden when religion is disabled"],
+		"uniques": ["Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{
 				"text": "A space set aside to remember those who are left behind on old Earth, or who met their final end in the new world."
@@ -590,7 +590,7 @@
 		"requiredTech": "Hab-Domes",
 		"uniques": [
 			"Prefab",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
@@ -870,7 +870,7 @@
 		"uniques": [
 			"Provides [1] [Digital Storage Space]",
 			"[+1 Faith] <in cities with a [Harmony Garden]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
@@ -1129,7 +1129,7 @@
 		"gold": 1,
 		//"hurryCostModifier": 25,
 		"uniques": [
-			"Unbuildable <for [Human player]>",
+			"Unbuildable <for [Human player] Civilizations>",
 			//"Can be purchased with [Gold] [in all cities]",
 			//"Can be purchased for [200] [Gold] [in all cities]",
 			"May buy [Mercenary] units with [Gold] [in this city]",
@@ -1839,7 +1839,7 @@
 		"faith": 2,
 		"food": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{
 				"text": "To give alms to the poor is to be rich in spirit."
@@ -1854,7 +1854,7 @@
 		"culture": 1,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{
 				"text": "A legally-sanctioned cultist safehouse, in exchange for it doubling as a fortified compound during city combat."
@@ -1867,7 +1867,7 @@
 		"culture": 2,
 		"faith": 4,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{
 				"text": "A nice spot to focus your mind and meditate without being bothered by anything."
@@ -1881,7 +1881,7 @@
 		"faith": 2,
 		"science": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{
 				"text": "Arguments and debates are encouraged here, as long as it all stays civil."
@@ -1900,7 +1900,7 @@
 			"Consumes [1] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>",
 			"Unbuildable",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"civilopediaText": [
@@ -2346,7 +2346,7 @@
 			"Only available <if [Tele-Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Can only be built <in [Holy] cities>"
 		],
 		"requiredTech": "Net Culture",
@@ -2772,7 +2772,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [3] [Digital Storage Space]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Gain a free [Tele-Temple] [in this city]",
 			"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
@@ -3073,7 +3073,7 @@
 			"Consumes [10] [Digital Storage Space]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "'And blood-black nothingness began to spin, a system of cells interlinked within, cells interlinked within cells interlinked, within one stem. And dreadfully distinct against the dark, a tall white fountain played.' - Vladimir Nabokov, Pale Fire poem",
@@ -3093,7 +3093,7 @@
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Cannot be hurried",
-			"Hidden when [Cultural] Victory is disabled"
+			"Only available <when [Cultural] Victory is enabled>"
 		],
 		"quote": "'Gaze upon my works, ye mighty, and weep.' - Ozymandias",
 		"civilopediaText": [
@@ -3117,7 +3117,7 @@
 			//"Triggers a Cultural Victory upon completion",
 			"Triggers victory",
 			"Cannot be hurried",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
 		"civilopediaText": [
@@ -3136,7 +3136,7 @@
 			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3153,7 +3153,7 @@
 			"[+1 Production] from [Mine] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3171,7 +3171,7 @@
 			"[+1 Food] from [Terraboretum] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3189,7 +3189,7 @@
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3206,7 +3206,7 @@
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Enables construction of Spaceship parts",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		],
 		"requiredTech": "Cosmonautics",
 		"quote": "'One small step for man, one giant leap for mankind.' - Neil Armstrong",
