@@ -603,7 +603,7 @@
 		"innerColor": [156, 37, 37],
 		"favoredReligion": "Voidist",
 		"uniqueName": "The Hounds of War",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","[+30]% Strength <vs [City-states]>"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","[+30]% Strength <vs [City-States]>"],
 		"cities": [
 			"Ragnarok's Fist",
 			"Jotunheim",
