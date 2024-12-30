@@ -4240,7 +4240,7 @@
 		"rangedStrength": 40,
 		"cost": 350,
 		"hurryCostModifier": -10,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Composite Armor",
 		//"requiredResource": "Promethine",
 		"uniques": [
 			"Mercenary",
