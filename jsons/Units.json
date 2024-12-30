@@ -1813,7 +1813,7 @@
 		"strength": 30,
 		"rangedStrength": 40,
 		"cost": 175,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Composite Armor",
 		//"requiredResource": "Promethine",
 		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
