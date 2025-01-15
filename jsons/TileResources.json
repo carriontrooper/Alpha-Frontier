@@ -1494,5 +1494,19 @@
 			"Will not be displayed in Civilopedia",
 			"Excluded from map editor"
 		]
+	},
+	{
+		"name": "Censorship Happiness Bonus",
+		"resourceType": "Strategic",
+		//"revealedBy": "Orbital Deterrents",
+		"happiness": 3,
+		"uniques": [
+			"Stockpiled",
+			"City-level resource",
+			"Cannot be traded",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia",
+			"Excluded from map editor"
+		]
 	}
 ]
