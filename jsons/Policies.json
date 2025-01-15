@@ -646,7 +646,7 @@
 				"name": "Censorship",
 				"uniques": [
 					"[+100]% Production when constructing [Proxy Office] buildings [in all cities]",
-					"Comment[[+3 Happiness] in all cities when below 3 Happiness]",
+					"Comment[+3 [Happiness] in all cities when below 3 Happiness]",
 					"Instantly gain [1] [Censorship Happiness Bonus] <in [Your] cities> <when below [3] Happiness> <hidden from users>"
 				],
 				"requires": ["Appropriation"],
