@@ -311,7 +311,7 @@
 		"uniques": [
 			"Cannot be built on [Water] tiles",
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
-			"[+1 Production] <upon constructing [Mining Tunnels]>",
+			"[+1 Production] <if [Mining Tunnels] is constructed>",
 			"Gives a defensive bonus of [10]% <after adopting [Purification Ideology]>",
 			"[+1 Science] <after adopting [Radiant Ideology]>",
 			"[+1 Food] <after adopting [Symbiosis Ideology]>",
