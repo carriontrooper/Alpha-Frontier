@@ -2138,6 +2138,8 @@
 		"requiredBuilding": "Pioneer Speakeasy",
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
+			"[+1 Happiness] <in [Annexed] cities>",
+			"[+1 Happiness] <in [Puppeted] cities>",
 			"Consumes [1] [Digital Storage Space]",
 			"Can be purchased for [100] [Culture] [in all cities]"
 		],
