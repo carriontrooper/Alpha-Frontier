@@ -1207,7 +1207,7 @@
 		"name": "Cloning Vat",
 		"maintenance": 1,
 		"food": 2,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 100,
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]",
 			"[+1] population [in this city]"
