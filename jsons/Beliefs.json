@@ -443,7 +443,8 @@
 		"name": "Faith in Science",
 		"type": "Founder",
 		"uniques": [
-			"[+1 Faith] per every [5] [Science] <in cities following our religion>"
+			//"[+1 Faith] per every [5] [Science] <in cities following our religion>"
+			"[+1 Faith] from every [Science] buildings <in cities following our religion>"
 		]
 	},
 
