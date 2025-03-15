@@ -631,7 +631,7 @@
 		"uniques": [
 			"Worker",
 			"Can build [Land] improvements on tiles",
-			"May create improvements on water resources",
+			//"May create improvements on water resources",
 			"Can build [Water] improvements on tiles",
 			//"Can instantly construct a [Water] improvement <for [2] movement>"
 		],
