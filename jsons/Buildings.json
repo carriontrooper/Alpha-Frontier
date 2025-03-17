@@ -162,8 +162,8 @@
 		"uniques": [
 			"Military",
 			"Prefab",
-			"New [Infantry] units start with [15] Experience [in this city]",
-			"New [Stealth Infantry] units start with [15] Experience [in this city]",
+			"New [Infantry] units start with [15] XP [in this city]",
+			"New [Stealth Infantry] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Frontier Armaments",
@@ -733,7 +733,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Military",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Frontier Armory",
@@ -771,7 +771,7 @@
 		"uniques": [
 			"Military",
 			"Comment [Enables you to build Aerocraft units]",
-			"New [Air] units start with [15] Experience [in this city]"
+			"New [Air] units start with [15] XP [in this city]"
 		],
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
@@ -1019,7 +1019,7 @@
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"Military",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
@@ -1035,7 +1035,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Military",
-			"New [Military] units start with [25] Experience [in this city]",
+			"New [Military] units start with [25] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
@@ -1054,7 +1054,7 @@
 		"uniques": [
 			"Comment [Enables you to build larger Water units]",
 			"Military",
-			"New [Water] units start with [15] Experience [in this city]",
+			"New [Water] units start with [15] XP [in this city]",
 			"Must be next to [Coast]",
 			"Destroyed when the city is captured"
 		],
@@ -1073,7 +1073,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Military",
-			"New [Mech] units start with [15] Experience [in this city]",
+			"New [Mech] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
@@ -1093,8 +1093,8 @@
 		"uniques": [
 			"Comment [Enables you to build Armored and Mech units]",
 			"Military",
-			"New [Armored] units start with [15] Experience [in this city]",
-			//"New [Mech] units start with [15] Experience [in this city]",
+			"New [Armored] units start with [15] XP [in this city]",
+			//"New [Mech] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Military Base",
@@ -1111,7 +1111,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Military",
-			"New [Drone] units start with [15] Experience [in this city]",
+			"New [Drone] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
@@ -1134,7 +1134,7 @@
 			//"Can be purchased for [200] [Gold] [in all cities]",
 			"May buy [Mercenary] units with [Gold] [in this city]",
 			"Limited to [3] per Civilization",
-			"New [Mercenary] units start with [15] Experience [in this city]",
+			"New [Mercenary] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Pioneer Administration",
@@ -1166,7 +1166,7 @@
 		"requiredTech": "Cosmonautics",
 		"uniques": [
 			"[+1 Science, +1 Culture, +1 Gold] <in cities with a [Orbital]>",
-			"New [Satellite] units start with [15] Experience [in this city]"
+			"New [Satellite] units start with [15] XP [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -1724,7 +1724,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+10]% growth [in this city]",
-			"New [Infantry] units start with [30] Experience [in this city]",
+			"New [Infantry] units start with [30] XP [in this city]",
 			"Only available <after adopting [Purification Ideology]>"
 		],
 		"requiredTech": "Cloning",
@@ -2093,7 +2093,7 @@
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"Provides [1] [Digital Storage Space]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+2 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Mycelium] tiles [in this city]"
 		],
@@ -2114,7 +2114,7 @@
 		"uniques": [
 			"Military",
 			"Consumes [2] [Digital Storage Space]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+20]% City Strength from defensive buildings",
 			"[+20]% spy effectiveness [in this city]",
 			"[-20]% enemy spy effectiveness [in this city]",
@@ -2159,9 +2159,9 @@
 		"uniques": [
 			"Comment [Enables you to build Tame Xeno units]",
 			"Military",
-			"New [Infantry] units start with [15] Experience [in this city]",
-			"New [Stealth Infantry] units start with [15] Experience [in this city]",
-			"New [Tame Xeno] units start with [15] Experience [in this city]",
+			"New [Infantry] units start with [15] XP [in this city]",
+			"New [Stealth Infantry] units start with [15] XP [in this city]",
+			"New [Tame Xeno] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Frontier Armaments",
@@ -2221,7 +2221,7 @@
 		"percentStatBonus": { "gold": 10 },
 		"uniques": [
 			"Military",
-			"New [Air] units start with [30] Experience [in this city]"
+			"New [Air] units start with [30] XP [in this city]"
 		],
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
@@ -2242,9 +2242,9 @@
 			"Comment [Enables you to build Armored and Mech units]",
 			"Military",
 			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
-			//"New [Armored] units start with [15] Experience [in this city]",
-			"New [Close Range Mech] units start with [15] Experience [in this city]",
-			"New [Ranged Mech] units start with [15] Experience [in this city]",
+			//"New [Armored] units start with [15] XP [in this city]",
+			"New [Close Range Mech] units start with [15] XP [in this city]",
+			"New [Ranged Mech] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Military Base",
@@ -2431,7 +2431,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Megamall] is constructed in all [non-[Puppeted]] cities>",
-			"[-20]% unhappiness from the number of cities"
+			"[-20]% unhappiness from the number of cities",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Colonial Culture",
