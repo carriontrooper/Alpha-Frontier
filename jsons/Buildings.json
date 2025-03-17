@@ -3139,7 +3139,7 @@
 			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Only available <when [Terraforming] Victory is enabled>"
+			//"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3156,7 +3156,7 @@
 			"[+1 Production] from [Mine] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Only available <when [Terraforming] Victory is enabled>"
+			//"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3174,7 +3174,7 @@
 			"[+1 Food] from [Terraboretum] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Only available <when [Terraforming] Victory is enabled>"
+			//"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -3192,7 +3192,7 @@
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Limited to [3] per Civilization",
-			"Only available <when [Terraforming] Victory is enabled>"
+			//"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
