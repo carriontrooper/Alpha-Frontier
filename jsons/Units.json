@@ -634,6 +634,7 @@
 			"May create improvements on water resources",
 			"Can build [Water] improvements on tiles",
 			//"Can instantly construct a [Water] improvement <for [2] movement>"
+			//"Can upgrade to [Terraformer <for [Human player] Civilizations>]"
 		],
 		"cost": 70,
 		"civilopediaText": [
@@ -651,6 +652,29 @@
 			}
 		]
 	},
+
+	/*
+	{
+		"name": "Terraformer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Worker",
+			"Unbuildable",
+			"Cannot be purchased"
+		],
+		"promotions": ["Terraformer"],
+		"requiredTech": "Terraforming",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A specialized upgrade of the Constructor that is used exclusively in terraforming planets."
+			}
+		]
+	},
+	*/
 
 	// Landfall Era
 
@@ -3689,7 +3713,7 @@
 		"requiredTech": "Virtual Drugs",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [2] per Civilization <before adopting [Purification Ideology]>",
@@ -3715,7 +3739,7 @@
 		"requiredTech": "Genetic Hybridization",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [2] per Civilization <before adopting [Symbiosis Ideology]>",
@@ -3744,7 +3768,7 @@
 		//"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [2] per Civilization <before adopting [Radiant Ideology]>",
@@ -4007,7 +4031,7 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [1] per Civilization",
@@ -4108,7 +4132,7 @@
 		//"requiredResource": "Titanium",
 		"uniques": [
 			"Mercenary",
-			"Unbuildable",
+			"Unbuildable <for [Human player] Civilizations>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
 			"Limited to [2] per Civilization",
