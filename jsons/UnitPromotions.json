@@ -1500,7 +1500,7 @@
 			"Turn this tile into a [Jungle] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Jungle]} {Land}] tiles> <for all movement>",
 			"Turn this tile into a [Marsh] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Marsh]} {Land}] tiles> <for all movement>",
 			"Turn this tile into a [Oasis] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Oasis]} {Land}] tiles> <for all movement>",
-			"Turn this tile into a [Polar Oasis] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Polar Oasis]} {Land}] tiles> <for all movement>",
+			"Turn this tile into a [Polar Oasis] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Polar Oasis]} {Snow}] tiles> <for all movement>",
 			"Turn this tile into a [Flood plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Flood plains]} {Land}] tiles> <for all movement>"
 		],
 		"row": 140,
