@@ -634,7 +634,7 @@
 			"May create improvements on water resources",
 			"Can build [Water] improvements on tiles",
 			//"Can instantly construct a [Water] improvement <for [2] movement>"
-			//"Can upgrade to [Terraformer <for [Human player] Civilizations>]"
+			"Can upgrade to [Terraformer <for [Human player] Civilizations>]"
 		],
 		"cost": 70,
 		"civilopediaText": [
@@ -653,7 +653,7 @@
 		]
 	},
 
-	/*
+	
 	{
 		"name": "Terraformer",
 		"unitType": "Civilian",
@@ -676,7 +676,7 @@
 			}
 		]
 	},
-	*/
+	
 
 	// Landfall Era
 
