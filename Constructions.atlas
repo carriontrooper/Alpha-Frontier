@@ -839,63 +839,63 @@ BuildingIcons/Tele-Temple
   index: -1
 BuildingIcons/Tokamak Reactor
   rotate: false
-  xy: 1840, 622
+  xy: 1408, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Trade Port
   rotate: false
-  xy: 1408, 82
+  xy: 1516, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ulframite Synthesizer
   rotate: false
-  xy: 1624, 298
+  xy: 1732, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Uni-Recycler
   rotate: false
-  xy: 1732, 406
+  xy: 1840, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University of the Planet
   rotate: false
-  xy: 1840, 514
+  xy: 1516, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Virtual Altered State
   rotate: false
-  xy: 1840, 406
+  xy: 1624, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Virtual Cultural Space
   rotate: false
-  xy: 1624, 82
+  xy: 1732, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Virtual Trance Server
   rotate: false
-  xy: 1732, 190
+  xy: 1840, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Vitae Field Generator
   rotate: false
-  xy: 1732, 82
+  xy: 1840, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1112,28 +1112,28 @@ BuildingPortraits/Tectonic Stabilizer
   index: -1
 BuildingPortraits/Utopia Project
   rotate: false
-  xy: 1516, 82
+  xy: 1624, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Uttershroom Ecological Park
   rotate: false
-  xy: 1624, 190
+  xy: 1732, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Valhalla Milsim Training Facility
   rotate: false
-  xy: 1732, 298
+  xy: 1840, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Void Lens
   rotate: false
-  xy: 1840, 190
+  xy: 1840, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2237,37 +2237,37 @@ UnitIcons/Tame Winghead
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thunderstrike (Heavy Heli Gunship)
+UnitIcons/Terraformer
   rotate: false
   xy: 1624, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Tidehunters (Corvette)
+UnitIcons/Thunderstrike (Heavy Heli Gunship)
   rotate: false
   xy: 1732, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Tidehunters (Corvette)
+  rotate: false
+  xy: 1840, 622
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Ulfradrake
   rotate: false
-  xy: 1516, 190
+  xy: 1624, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Visionary
   rotate: false
-  xy: 1840, 298
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Vulture Combat Drone
-  rotate: false
-  xy: 1840, 82
+  xy: 1732, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2280,91 +2280,98 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Xeno Livestock Auction House
   rotate: false
-  xy: 760, 4
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Xenoid Barracks
   rotate: false
-  xy: 868, 4
+  xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Xenomind Research Center
   rotate: false
-  xy: 976, 4
+  xy: 1084, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Vyasa-Gandhari Cloning Array
   rotate: false
-  xy: 4, 4
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/World Tree Sap Distiller
   rotate: false
-  xy: 436, 4
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Xeno Gene Tapestry Project
   rotate: false
-  xy: 652, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingPortraits/Yggdrasil Arcology
   rotate: false
-  xy: 1084, 4
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vulture Combat Drone
+  rotate: false
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Casket
   rotate: false
-  xy: 112, 4
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wendigo
   rotate: false
-  xy: 220, 4
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Winghead
   rotate: false
-  xy: 328, 4
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wurm
   rotate: false
-  xy: 544, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/ZANKER Mecha
   rotate: false
-  xy: 1192, 4
+  xy: 1300, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zero Point Ship Reactor
   rotate: false
-  xy: 1300, 4
+  xy: 1408, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -1126,28 +1126,28 @@ TileSets/FantasyHex/Tiles/Terraboretum
   index: -1
 TileSets/FantasyHex/Tiles/Titanium
   rotate: false
-  xy: 1444, 372
+  xy: 1484, 404
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Center
   rotate: false
-  xy: 1484, 392
+  xy: 1524, 392
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tree of Worlds
   rotate: false
-  xy: 1524, 392
+  xy: 1564, 395
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tubers
   rotate: false
-  xy: 1564, 407
+  xy: 1484, 368
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2384,16 +2384,23 @@ TileSets/FantasyHex/Units/Tame Stalker
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Thunderstrike (Heavy Heli Gunship)
+TileSets/FantasyHex/Units/Terraformer
   rotate: false
   xy: 1364, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Tidehunters (Corvette)
+TileSets/FantasyHex/Units/Thunderstrike (Heavy Heli Gunship)
   rotate: false
   xy: 1404, 372
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tidehunters (Corvette)
+  rotate: false
+  xy: 1444, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
