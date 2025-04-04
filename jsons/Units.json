@@ -661,7 +661,7 @@
 		"uniques": [
 			"Worker",
 			"Unbuildable",
-			"Comment[Changes terrain tiles to another chosen terrain tile]",
+			"Comment [Changes terrain tiles to another chosen terrain tile]",
 			"Cannot be purchased",
 			"Uncapturable"
 		],
