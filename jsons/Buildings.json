@@ -2431,7 +2431,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Megamall] is constructed in all [non-[Puppeted]] cities>",
-			"[-20]% unhappiness from the number of cities"
+			"[-20]% unhappiness from the number of cities",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Colonial Culture",
