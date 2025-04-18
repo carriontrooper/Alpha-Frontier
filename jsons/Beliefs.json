@@ -446,7 +446,8 @@
 			//"[+1 Faith] per every [5] [Science] <in cities following our religion>"
 			//"[+1 Faith] from every [Science] <in cities following our religion>"
 			//"[+1 Faith] <for every [5] [Science]> <in cities following our religion>"
-			"[+1]% [Science] from every follower, up to [+10]% <in cities following our religion>"
+			//"[+1]% [Science] from every follower, up to [+10]% <in cities following our religion>"
+			"[+2 Faith] from every [Scientist] <in cities following our religion>"
 		]
 	},
 
