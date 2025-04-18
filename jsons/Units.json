@@ -662,6 +662,7 @@
 			"Worker",
 			"Unbuildable",
 			"Comment [Changes terrain tiles to another chosen terrain tile]",
+			"Limited to [3] per Civilization",
 			"Cannot be purchased",
 			"Uncapturable"
 		],
