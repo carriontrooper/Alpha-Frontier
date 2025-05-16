@@ -796,7 +796,7 @@
 		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Xeno Brotherhood",
-		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>","[+10]% Strength <for [Xeno] units>"],
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>","[+10]% Strength <for [Xeno] units>","[Xeno] units gain the [Tame Xeno Unit] promotion"],
 		"cities": [
 			"Xenopolis",
 			"Helixien",
