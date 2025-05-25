@@ -40,6 +40,7 @@
 		"neutralHello": ".",
 		"hateHello": ".",
 
+		"denounced": ".",
 		"tradeRequest": ".",
 
 		"outerColor": [85, 85, 85],
@@ -149,6 +150,7 @@
 		"neutralHello": "Greetings. State your business.",
 		"hateHello": "State your business or vacate this frequency.",
 
+		"denounced": "This is highly illogical, but expected.",
 		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
 
 		"outerColor": [126, 192, 253],
@@ -216,6 +218,7 @@
 		"neutralHello": "Oye, what's cookin' ay?",
 		"hateHello": "Ach, it's the slaggart. Whatchu want?",
 
+		"denounced": "Oy oy oy, now thassa just rude!",
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
 /*
 		"outerColor": [240, 199, 36],
@@ -281,6 +284,7 @@
 		"neutralHello": "Aye, hello there!",
 		"hateHello": "What is it, you oaf?",
 
+		"denounced": "Baiting for a grudge, are ye?",
 		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
 
 		"outerColor": [217, 56, 7],
@@ -343,6 +347,7 @@
 		"neutralHello": "Walpole-Yuen Incorporated, Paula speaking.",
 		"hateHello": "Walpole-Yuen Inco- tch, it's you.",
 
+		"denounced": "What, our terms and services too tough for you?",
 		"tradeRequest": "We would like to open up a trade opportunity with you.",
 
 		"outerColor": [77, 77, 77],
@@ -409,6 +414,7 @@
 		"neutralHello": "Good morning! How can I help you?",
 		"hateHello": "Oh, I do not need this right now. How may I help you?",
 
+		"denounced": "This is disheartening, but I hope this won't last.",
 		"tradeRequest": "We think these will aid both of us.",
 /*
 		"outerColor": [110, 44, 171],
@@ -473,6 +479,7 @@
 		"neutralHello": "Oh? What is it that you require?",
 		"hateHello": "Oh, it's just you. State your business.",
 
+		"denounced": "Diplomatic opinion received, and promptly discarded.",
 		"tradeRequest": "Perhaps some trade would be in order.",
 
 		"outerColor": [230, 243, 245],
@@ -536,6 +543,7 @@
 		"neutralHello": "Commlink secure. Hailing frequencies open.",
 		"hateHello": "Hostile communication detected. Establishing firewalls.",
 
+		"denounced": "So be it, then. Enact isolation protocols.",
 		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
 
 		"outerColor": [43, 55, 66],
@@ -598,6 +606,7 @@
 		"neutralHello": "Ah, good. Speak, friend.",
 		"hateHello": "Speak.",
 
+		"denounced": "The little dog finally dared to bark.",
 		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
 /*
 		"outerColor": [109, 145, 145],
@@ -663,6 +672,7 @@
 		"neutralHello": "Greetings, salutations, and good day! What brings you before me today?",
 		"hateHello": "Did I ever tell you that you look bad in that angle?",
 
+		"denounced": "Denounce moi?! You do realize your ratings are going to freefall from this?!",
 		"tradeRequest": "It seems like a great time for an exchange, wouldn't you agree?",
 
 		"outerColor": [138, 51, 189],
@@ -725,6 +735,7 @@
 		"neutralHello": "Mataanit, how are you?",
 		"hateHello": "Huh?",
 
+		"denounced": "Your words are like sand in the wind, in the face of our beliefs.",
 		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
 /*
 		"outerColor": [201, 175, 113],
@@ -790,6 +801,7 @@
 		"neutralHello": "Ello there. What's the pleasure?",
 		"hateHello": "Heel, boy, you'll get your chance yet. So what're you insinuatin'?",
 
+		"denounced": "Look, you've made little Snappy sad. Shame on you.",
 		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
 
 		"outerColor": [164, 196, 88],
@@ -852,6 +864,7 @@
 		"neutralHello": "Ave. The Imperator is listening.",
 		"hateHello": "You dare show your face here?",
 
+		"denounced": "Know that you go against Humanity itself.",
 		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
 
 		"outerColor": [255, 136, 0],
@@ -914,6 +927,7 @@
 		"neutralHello": "Ni hao, what is today's business?",
 		"hateHello": "Oh great, more paperwork. What is it?",
 
+		"denounced": "Sigh... this will double the paperwork.",
 		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
 
 		"outerColor": [130, 224, 16],
@@ -976,6 +990,7 @@
 		"neutralHello": "Yah, ki sa ou vle?",
 		"hateHello": "Oh, dis bumbaclot again.",
 
+		"denounced": "Look, di liar show dem true colors!",
 		"tradeRequest": "What say ou, to put price on dis loot?",
 
 		"outerColor": [146, 222, 182],
@@ -1038,6 +1053,7 @@
 		"neutralHello": "What's the occasion, fella?",
 		"hateHello": "Well if it isn't the yellowbelly.",
 
+		"denounced": "Now, why'd you go badmouthing me for?",
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
 		"outerColor": [147, 218, 230],
@@ -1100,6 +1116,7 @@
 		"neutralHello": "Hrm. What is the purpose of this call?",
 		"hateHello": "Hrmph.",
 
+		"denounced": "Are your words backed with iron? Tread carefully.",
 		"tradeRequest": "Let us swap steel. And other goods besides.",
 
 		"outerColor": [184, 184, 184],
