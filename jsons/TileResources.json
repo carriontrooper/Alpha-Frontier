@@ -1224,7 +1224,7 @@
 			"Generated with weight [45] <in [{Featureless} {Mycelium}] tiles>",
 			"Generated with weight [46] <in [Hill] tiles>",
 			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Jungle} {Hill}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 			"Minor deposits generated with weight [20] <in [Forest] tiles>",
 			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
