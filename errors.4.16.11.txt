@@ -1,0 +1,70 @@
+Light Buggy is supposed to automatically upgrade at tech Missiles, and therefore Next-Gen Armaments for its upgrade IFV may not yet be researched!
+Exoframe Sniper is supposed to automatically upgrade at tech Cybernetics, and therefore Lasers for its upgrade Laser Trooper may not yet be researched!
+Combat Heli is supposed to automatically upgrade at tech Mind-Machine Interface, and therefore Nanotechnology for its upgrade Heavy Heli Gunship may not yet be researched!
+Eglon Base's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [207, 84, 58],
+Soldados Vagabundos's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [207, 84, 58],
+Northfrost Paramilitary's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [207, 84, 58],
+Pushkagrad Sniper Community's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [207, 84, 58],
+Yeni Turkiye Engineering's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [207, 84, 58],
+Borealis Station's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [65, 129, 210],
+Mycopharm Inc.'s colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [65, 129, 210],
+Astratek Observatory's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [65, 129, 210],
+Seowon Research Center's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [65, 129, 210],
+Laozi College's colors do not contrast enough - it is unreadable!
+Suggested colors:
+		"outerColor": [48, 48, 48],
+		"innerColor": [65, 129, 210],
+Alpha Frontier: (Unit) Ulfradrake's unique "Cannot move <before turn number [40]>" contains a conditional on a unit movement unique. Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.
+Alpha Frontier: (Unit) Leviathan's unique "Cannot move <before turn number [20]>" contains a conditional on a unit movement unique. Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.
+Alpha Frontier: (Unit) Overlord's unique "Cannot move <before turn number [10]>" contains a conditional on a unit movement unique. Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.
+Alpha Frontier: (Improvement) Hydroponics Field's unique "Agricultural" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Improvement) Agri Farm's unique "Agricultural" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Improvement) Terraboretum's unique "Agricultural" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Improvement) Aquaculture's unique "Agricultural" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Ocean's unique "NonCanal" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Impassable Ocean's unique "NonCanal" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Coast's unique "NonCanal" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Grassland's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Plains's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Tundra's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Desert's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Lakes's unique "NonCanal" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Snow's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Mountain Tunnel's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Hill's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Forest's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Forest's unique "Provides a one-time Production bonus to the closest city when cut down" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Jungle's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Marsh's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Fallout's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Miasma's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Oasis's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+Alpha Frontier: (Terrain) Flood plains's unique "NonMycelium" not found in Unciv's unique types, and is not used as a filtering unique.
+File GreatPeopleNames.json is in the jsons folder but is not a recognized ruleset file
