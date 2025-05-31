@@ -7,7 +7,12 @@
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		//"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Organic",
@@ -40,7 +45,12 @@
 		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Mycelium"],
 		//"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Organic",
@@ -75,7 +85,12 @@
 		"revealedBy": "Xenoagriculture",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		//"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "food": 2, "production": -1, "gold": -1 },
 		"uniques": [
 			"Organic",
@@ -108,7 +123,12 @@
 		"revealedBy": "Xenobiology",
 		"terrainsCanBeFoundOn": ["Tundra", "Desert"],
 		"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Organic",
@@ -141,7 +161,11 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland", "Mycelium"],
 		"food": 1,
-		"improvement": "Enclosure",
+		"improvedBy": [
+			"Enclosure",
+			"Xeno Sanctuary",
+			"Waystation"
+		]
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Organic",
@@ -179,7 +203,11 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Mycelium"],
 		//"food": 1,
-		"improvement": "Enclosure",
+		"improvedBy": [
+			"Enclosure",
+			"Xeno Sanctuary",
+			"Waystation"
+		]
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Organic",
@@ -573,7 +601,12 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh", "Desert"],
 		"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "faith": 2 },
 		"uniques": [
 			"Organic",
@@ -617,7 +650,12 @@
 			"Mycelium"
 		],
 		"production": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Organic",
@@ -662,7 +700,12 @@
 			"Mycelium"
 		],
 		"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Organic",
@@ -699,7 +742,12 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
-		"improvement": "Agri Farm",
+		"improvedBy": [
+			"Agri Farm",
+			"Xeno Sanctuary",
+			"Biodome City",
+			"Waystation"
+		],
 		"improvementStats": { "gold": 1, "food": 1 },
 		"uniques": [
 			"Organic",
@@ -736,7 +784,11 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland", "Mycelium"],
 		//"food": 1,
-		"improvement": "Enclosure",
+		"improvedBy": [
+			"Enclosure",
+			"Xeno Sanctuary",
+			"Waystation"
+		],
 		"improvementStats": { "culture": 2, "happiness": 1 },
 		"uniques": [
 			"Organic",
