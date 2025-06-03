@@ -41,6 +41,7 @@
 		"hateHello": ".",
 
 		"denounced": ".",
+		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
 		"outerColor": [85, 85, 85],
@@ -151,6 +152,7 @@
 		"hateHello": "State your business or vacate this frequency.",
 
 		"denounced": "This is highly illogical, but expected.",
+		"declaringFriendship": "It is highly logical to choose you, relationship-wise.",
 		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
 
 		"outerColor": [126, 192, 253],
@@ -219,6 +221,7 @@
 		"hateHello": "Ach, it's the slaggart. Whatchu want?",
 
 		"denounced": "Oy oy oy, now thassa just rude!",
+		"declaringFriendship": "I got a feelin' that you'd be a good bestie, mate.",
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
 /*
 		"outerColor": [240, 199, 36],
@@ -285,6 +288,7 @@
 		"hateHello": "What is it, you oaf?",
 
 		"denounced": "Baiting for a grudge, are ye?",
+		"declaringFriendship": "For what's it worth, you're one of us diggers.",
 		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
 
 		"outerColor": [217, 56, 7],
@@ -348,6 +352,7 @@
 		"hateHello": "Walpole-Yuen Inco- tch, it's you.",
 
 		"denounced": "What, our terms and services too tough for you?",
+		"declaringFriendship": "We look forward to a very profitable relationship with you.",
 		"tradeRequest": "We would like to open up a trade opportunity with you.",
 
 		"outerColor": [77, 77, 77],
@@ -415,6 +420,7 @@
 		"hateHello": "Oh, I do not need this right now. How may I help you?",
 
 		"denounced": "This is disheartening, but I hope this won't last.",
+		"declaringFriendship": "Why don't we build a healthy relationship together?",
 		"tradeRequest": "We think these will aid both of us.",
 /*
 		"outerColor": [110, 44, 171],
@@ -480,6 +486,7 @@
 		"hateHello": "Oh, it's just you. State your business.",
 
 		"denounced": "Diplomatic opinion received, and promptly discarded.",
+		"declaringFriendship": "Interesting, this concept of 'friendship'. You may call me your friend.",
 		"tradeRequest": "Perhaps some trade would be in order.",
 
 		"outerColor": [230, 243, 245],
@@ -544,6 +551,7 @@
 		"hateHello": "Hostile communication detected. Establishing firewalls.",
 
 		"denounced": "So be it, then. Enact isolation protocols.",
+		"declaringFriendship": "We share a mutual desire. Are we in agreement?",
 		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
 
 		"outerColor": [43, 55, 66],
@@ -607,6 +615,7 @@
 		"hateHello": "Speak.",
 
 		"denounced": "The little dog finally dared to bark.",
+		"declaringFriendship": "You have your... uses. I will tolerate you.",
 		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
 /*
 		"outerColor": [109, 145, 145],
@@ -673,6 +682,7 @@
 		"hateHello": "Did I ever tell you that you look bad in that angle?",
 
 		"denounced": "Denounce moi?! You do realize your ratings are going to freefall from this?!",
+		"declaringFriendship": "Ahh, like a field of flowers, friendship blooms beautifully!",
 		"tradeRequest": "It seems like a great time for an exchange, wouldn't you agree?",
 
 		"outerColor": [138, 51, 189],
@@ -736,6 +746,7 @@
 		"hateHello": "Huh?",
 
 		"denounced": "Your words are like sand in the wind, in the face of our beliefs.",
+		"declaringFriendship": "I extend a hand of friendship to a fellow traveler.",
 		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
 /*
 		"outerColor": [201, 175, 113],
@@ -802,6 +813,7 @@
 		"hateHello": "Heel, boy, you'll get your chance yet. So what're you insinuatin'?",
 
 		"denounced": "Look, you've made little Snappy sad. Shame on you.",
+		"declaringFriendship": "Oho, our little friends seem to like you! You seem to be someone I can trust.",
 		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
 
 		"outerColor": [164, 196, 88],
@@ -865,6 +877,7 @@
 		"hateHello": "You dare show your face here?",
 
 		"denounced": "Know that you go against Humanity itself.",
+		"declaringFriendship": "You prove to be a good equal, humanity wills it!",
 		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
 
 		"outerColor": [255, 136, 0],
@@ -928,6 +941,7 @@
 		"hateHello": "Oh great, more paperwork. What is it?",
 
 		"denounced": "Sigh... this will double the paperwork.",
+		"declaringFriendship": "I'll be glad to sort this friendship agreement for you!",
 		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
 
 		"outerColor": [130, 224, 16],
@@ -991,6 +1005,7 @@
 		"hateHello": "Oh, dis bumbaclot again.",
 
 		"denounced": "Look, di liar show dem true colors!",
+		"declaringFriendship": "Yuh nuh dat bad, eh.",
 		"tradeRequest": "What say ou, to put price on dis loot?",
 
 		"outerColor": [146, 222, 182],
@@ -1054,6 +1069,7 @@
 		"hateHello": "Well if it isn't the yellowbelly.",
 
 		"denounced": "Now, why'd you go badmouthing me for?",
+		"declaringFriendship": "Now you look like an upright fella I can trust. Shake on it?",
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
 		"outerColor": [147, 218, 230],
@@ -1117,6 +1133,7 @@
 		"hateHello": "Hrmph.",
 
 		"denounced": "Are your words backed with iron? Tread carefully.",
+		"declaringFriendship": "Hrm. Your will is girded by steel. I approve.",
 		"tradeRequest": "Let us swap steel. And other goods besides.",
 
 		"outerColor": [184, 184, 184],
