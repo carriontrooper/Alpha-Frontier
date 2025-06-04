@@ -648,7 +648,7 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
-	
+
 	{
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
@@ -845,7 +845,7 @@
 			}
 		]
 	},
-	
+
 	// Nation Uniques
 	{
 		"name": "Mining Camp",
@@ -925,7 +925,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Info Networks",
 		"uniques": [
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Holorelay] tiles>",
+			"Cannot be built on [All] tiles <within [6] tiles of a [Holorelay]>",
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Net Culture]>",
 			"[+1 Culture] from [Holorelay] tiles <after discovering [Posthumanist Culture]>",
@@ -963,7 +963,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Portable Power Sources",
 		"uniques": [
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Waystation] tiles>", // can't be built next to each other
+			"Cannot be built on [All] tiles <within [6] tiles of a [Waystation]>",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -996,17 +996,17 @@
 			"[+1 Science] <with [1] to [6] neighboring [Research Base] tiles>",
 			*/
 			//cut the entries above if too OP
-			
-			
+
+
 			"[+1 Food] <with [1] to [6] neighboring [Organic] tiles>",
-			
+
 			//"[+1 Production] <with [1] to [6] neighboring [Mineral] tiles>",
-			
+
 			"[+1 Production] <with [1] to [6] neighboring [Metallic] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Gemlike] tiles>",
-			
+
 			"Costs [2] [Faith] per turn <in tiles adjacent to [Waystation] tiles>",
-			
+
 			/*
 			"[+1 Food] <with [1] to [6] neighboring [Tubers] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Fungi Pods] tiles>",
@@ -1026,13 +1026,13 @@
 			"[+1 Food] <with [1] to [6] neighboring [Sindrian Lobster] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Flowers of Silence] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Vitamass] tiles>",
-			
+
 			"[+1 Production] <with [1] to [6] neighboring [Hexanite] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Aluminum] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Redstone] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Gold Ore] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Titanium] tiles>",
-			
+
 			"[+1 Gold] <with [1] to [6] neighboring [Ruby Cactus] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Harmonix Crystals] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Jadonyx] tiles>",
@@ -1040,18 +1040,18 @@
 			"[+1 Gold] <with [1] to [6] neighboring [Benthic Orbs] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Ulframite] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Gravitix] tiles>",
-			
+
 			//cut the entries above if still too OP
 			"[+1 Faith] <with [1] to [6] neighboring [Water resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Bonus resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Luxury resource] tiles>",
 			"[+1 Faith] <with [1] to [6] neighboring [Strategic resource] tiles>"
 			*/
-			
+
 			"Provides [1] [Digital Storage Space]",
 			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
-			
+
 		],
 		//"shortcutKey": "F",
 		"civilopediaText": [
@@ -1067,7 +1067,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name": "Prefab Lair",
 		"uniqueTo": "Free Waverunners",
@@ -1090,7 +1090,7 @@
 		"techRequired": "Habitation",
 		"uniques": [
 			//"Prefab Lair",
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Prefab Lair] tiles>", // can't be built next to each other
+			"Cannot be built on [All] tiles <within [6] tiles of a [Prefab Lair]>",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
