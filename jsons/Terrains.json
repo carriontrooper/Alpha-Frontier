@@ -593,9 +593,7 @@
 		"food": 1,
 		"production": 1,
 		"occursOn": ["Coast"],
-		"uniques": [
-
-		],
+		"uniques": ["Rare feature"],
 		"civilopediaText": [
 			{
 				"text": "Oceanic sedentary life has piled up enough detritus to form these teeming islands."
