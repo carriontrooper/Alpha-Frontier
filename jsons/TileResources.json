@@ -419,7 +419,7 @@
 		"name": "Vents",
 		"resourceType": "Bonus",
 		"revealedBy": "Deep Resource Scanning",
-		"terrainsCanBeFoundOn": ["Ocean"],
+		"terrainsCanBeFoundOn": ["Offshore"],
 		//"production": 1,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "production": 1 },
@@ -449,7 +449,7 @@
 	{
 		"name": "Algae",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean","Lakes"],
+		"terrainsCanBeFoundOn": ["Coast", "Offshore","Lakes"],
 		"food": 1,
 		"improvement": "Aquaculture",
 		"uniques": [
@@ -508,7 +508,7 @@
 	{
 		"name": "Plankton",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
 		//"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "production": 1, "food": 1 },
@@ -537,7 +537,7 @@
 	{
 		"name": "Sea Slivers",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
 		"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "food": 1 },
@@ -568,7 +568,7 @@
 		"name": "Ice-10",
 		"resourceType": "Bonus",
 		"revealedBy": "Deep Resource Scanning",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
 		"science": 3,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "science": 1, "production": 1 },
@@ -981,7 +981,7 @@
 	{
 		"name": "Sindrian Lobster",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
 		"food": 1,
 		"improvement": "Aquaculture",
 		"improvementStats": { "gold": 1, "food": 1 },
@@ -1012,7 +1012,7 @@
 		"name": "Benthic Orbs",
 		"resourceType": "Luxury",
 		"revealedBy": "Deep Resource Scanning",
-		"terrainsCanBeFoundOn": ["Ocean"],
+		"terrainsCanBeFoundOn": ["Offshore"],
 		"gold": 1,
 		"improvement": "Offshore Platform",
 		"improvementStats": { "gold": 1, "culture": 2 },
