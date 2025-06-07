@@ -100,7 +100,7 @@
 				"uniques": [
 					"[+5]% Production when constructing [All] buildings [in all cities]",
 					"Free [Constructor] appears",
-					"[-10]% maintenance cost for buildings [in all cities]"
+					"[-10]% maintenance cost for [All] buildings [in all cities]"
 				],
 				"requires": ["Centralization"],
 				"row": 3,
