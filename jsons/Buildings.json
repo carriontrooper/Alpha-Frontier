@@ -30,7 +30,7 @@
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Provides [1] [Digital Storage Space]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Destroyed when the city is captured"
 		],
@@ -2137,7 +2137,7 @@
 		"specialistSlots": { "Influencer": 1 },
 		"requiredBuilding": "Pioneer Speakeasy",
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+1 Happiness] <in [Annexed] cities>",
 			"[+1 Happiness] <in [Puppeted] cities>",
 			"Consumes [1] [Digital Storage Space]",
