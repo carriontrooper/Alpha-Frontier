@@ -100,7 +100,7 @@
 				"uniques": [
 					"[+5]% Production when constructing [All] buildings [in all cities]",
 					"Free [Constructor] appears",
-					"[-10]% maintenance cost for buildings [in all cities]"
+					"[-10]% maintenance cost for [All] buildings [in all cities]"
 				],
 				"requires": ["Centralization"],
 				"row": 3,
@@ -647,7 +647,7 @@
 				"uniques": [
 					"[+100]% Production when constructing [Proxy Office] buildings [in all cities]",
 					"Comment [when below 3 Happiness, adds 3 [Happiness] in all cities]",
-					"Instantly gain [1] [Censorship Happiness Bonus] <in [Your] cities> <when below [3] Happiness> <hidden from users>"
+					"Instantly gain [1] [Censorship Happiness Bonus] <in [Your] cities> <when below [3] [Happiness]> <hidden from users>"
 				],
 				"requires": ["Appropriation"],
 				"row": 2,

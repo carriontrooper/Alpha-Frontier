@@ -493,7 +493,7 @@
 		"innerColor": [22, 116, 204],
 		"favoredReligion": "Mekhaneites",
 		"uniqueName": "The Future is Chrome",
-		"uniques": ["Double quantity of [Titanium] produced","Double quantity of [Ulframite] produced","[+1 Science] from all [Science] buildings"],
+		"uniques": ["[100]% [Titanium] resource production","[100]% [Ulframite] resource production","[+1 Science] from all [Science] buildings"],
 		"cities": [
 			"Terminal Aperture",
 			"District 01",

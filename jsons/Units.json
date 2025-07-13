@@ -2214,7 +2214,7 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[+75]% Strength <vs [Infantry] units>",
 			"[+10]% Strength bonus for [Infantry] units within [2] tiles",
-			"[+20]% Strength when stacked with [Civilian] <when defending>",
+			"[+20]% Strength <when stacked with a [Civilian] unit> <when defending>",
 			"Consumes [1] [Promethine]",
 			"Can only be built <with [Promethine]>",
 			"Never appears as a Barbarian unit"

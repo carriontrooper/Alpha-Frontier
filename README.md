@@ -2,7 +2,7 @@
 
 An Unciv total conversion mod, taking inspiration from Alpha Centauri and Beyond Earth.
 
-Use FantasyHex tiles for now!!! HexRealm not supported yet!!
+Use FantasyHex tiles for now!!! HexaRealm not supported yet!!
 
 Features:
 
