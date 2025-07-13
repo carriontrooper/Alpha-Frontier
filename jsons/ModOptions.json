@@ -1,0 +1,17 @@
+{
+  "isBaseRuleset": true,
+  "constants": {
+    "maxXPfromBarbarians": 150,
+    "unitUpgradeCost": {
+      "eraMultiplier": 0.5
+    }
+  },
+  "modUrl": "https://github.com/Unkind98/Alpha-Frontier",
+  "defaultBranch": "main",
+  "author": "Unkind98",
+  "topics": [
+    "unciv-mod",
+    "unciv-mod-rulesets"
+  ]
+}
+

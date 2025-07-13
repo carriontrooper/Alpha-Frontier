@@ -10,7 +10,8 @@
 		"uniques": [
 			"NonCanal",
 			"Becomes [Coast] when adjacent to [Harborship Wreck]",
-			"Becomes [Coast] when adjacent to [Great Neuroreef]"
+			"Becomes [Coast] when adjacent to [Great Neuroreef]",
+			"Becomes [Offshore] when adjacent to [Coast]"
 		],
 		"civilopediaText": [
 			{
@@ -278,7 +279,7 @@
 		]
 	},
 
-	
+
 	{
 		"name": "Mountain Tunnel",
 		"type": "Land",
@@ -316,7 +317,7 @@
 			}
 		]
 	},
-	
+
 
 	// Terrain features
 	{
@@ -600,6 +601,17 @@
 		]
 	},
 	{
+		"name": "Offshore",
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean"],
+		"civilopediaText": [
+			{
+				"text": "Made by unkind98 to make sure oceanic resources occur not far from Coast",
+				"text": "PS: Made change on Ocean properties at line 15"
+			}
+		]
+	},
+	{
         "name": "River",
         "type": "TerrainFeature",
         "gold": 1,
@@ -821,7 +833,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name": "Mystery Flesh Pit",
 		"type": "NaturalWonder",
@@ -845,7 +857,7 @@
 			}
 		]
 	},
-	
+
 	/*
 	{
 		"name": "Great Barrier Reef",
