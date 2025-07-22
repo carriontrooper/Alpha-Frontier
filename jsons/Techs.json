@@ -109,7 +109,7 @@
 				"row": 8,
 				"quote": "'One thing I've learned is that you can run to another planet all you like, the paperwork can and will catch up to you eventually.' - Yuen Xin Tiao, junior administrator",
 				"prerequisites": ["Computing", "Habitation"],
-				"uniques": ["Enables Open Borders agreements", "May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
+				"uniques": ["Enables establishment of embassies","Enables Open Borders agreements", "May buy [Mercenary Offices] buildings with [Gold] [in all cities]"]
 			},
 			{
 				"name": "Hovercrafts",
