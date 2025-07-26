@@ -3219,5 +3219,20 @@
 				"text": "'One small step for man, one giant leap for mankind.' - Neil Armstrong"
 			}
 		]
-	}
+	},
+
+	// hidden buildings
+	{
+		"name": "Censorship Happiness Bonus Building",
+		"maintenance": 0,
+		"uniques": [
+			"[+3 Happiness] <for every [Censorship Happiness Bonus]>",
+			"Can only be built <after adopting [Censorship]> <with [Censorship Happiness Bonus]>",
+			"Automatically built in all cities where it is buildable",
+			"Cannot be purchased",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		],
+	},
 ]
