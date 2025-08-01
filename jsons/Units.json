@@ -625,6 +625,34 @@
 		]
 	},
 	{
+		"name": "Amphibious Colonizer",
+		"unitType": "Civilian",
+		"replaces": "Colonizer",
+		"uniqueTo": "Seaborne Faction",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <in [Coast] tiles> <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."
+			}
+		]
+	},
+	{
 		"name": "Constructor", //rename to Constructor in localization
 		"unitType": "Civilian",
 		"movement": 2,
