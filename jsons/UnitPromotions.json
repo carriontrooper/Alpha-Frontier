@@ -1530,7 +1530,15 @@
         "column": 2
 	},
 
-	/*
+	
+	{
+		"name": "Colonizer",
+		"uniques": [
+			"Founds a new city <by consuming this unit>"
+		],
+		"row": 140,
+        "column": 3
+	},
 	{
 		"name": "Amphibious Colonizer",
 		"uniques": [
@@ -1539,9 +1547,9 @@
 			"Founds a new city <in [Coast] tiles> <by consuming this unit>"
 		],
 		"row": 140,
-        "column": 3
+        "column": 4
 	},
-	*/
+	
 
 	//era or tech unit buffs
 	
