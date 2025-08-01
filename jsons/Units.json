@@ -647,12 +647,6 @@
 		//"promotions": ["Amphibious Colonizer"],
 		"hurryCostModifier": 20,
 		"civilopediaText": [
-			/*
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
-				"imageSize": 64
-			},
-			*/
 			{
 				"Separator": true
 			},
