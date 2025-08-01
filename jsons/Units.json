@@ -606,7 +606,7 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Can transform to [Amphibious Colonizer] <after discovering [Hab-Domes]>",
+			"Can transform to [Amphibious Colonizer] <for [0] movement> <after discovering [Hab-Domes]>",
 			"Requires at least [2] population"
 			//"[This Unit] gains the [Amphibious Colonizer] promotion <upon entering a [Water] tile> <for units without [Amphibious Colonizer]> <after discovering [Hab-Domes]>",
 			//"[This Unit] loses the [Colonizer] promotion <upon entering a [Water] tile> <for units with [Colonizer]> <after discovering [Hab-Domes]>",
@@ -640,7 +640,7 @@
 		"uniques": [
 			"Founds a new city <in [{non-Ocean} {Water}] tiles> <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Can transform to [Colonizer]",
+			"Can transform to [Colonizer] <for [0] movement>",
 			"Requires at least [2] population"
 			//"[This Unit] gains the [Amphibious Colonizer] promotion <upon entering a [Water] tile> <for units without [Amphibious Colonizer]> <after discovering [Hab-Domes]>",
 			//"[This Unit] loses the [Colonizer] promotion <upon entering a [Water] tile> <for units with [Colonizer]> <after discovering [Hab-Domes]>",
