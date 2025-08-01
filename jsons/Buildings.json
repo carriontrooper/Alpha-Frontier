@@ -3225,6 +3225,7 @@
 	{
 		"name": "Censorship Happiness Bonus Building",
 		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
 		"uniques": [
 			"[+3 Happiness] <for every [Censorship Happiness Bonus]>",
 			"Can only be built <after adopting [Censorship]> <with [Censorship Happiness Bonus]>",
