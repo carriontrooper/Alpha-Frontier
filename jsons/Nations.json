@@ -1017,9 +1017,8 @@
 			"Enables embarkation for land units",
 			"[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
 			"[+1] Movement <in [Water] tiles>",
-			"[10]% to Flank Attack bonuses <for [Hovercraft] units>"
-			//"[Colonizer] units gain the [Amphibious Colonizer] promotion",
-			//"All newly-trained [Colonizer] units [in all cities] receive the [Amphibious Colonizer] promotion"
+			"[10]% to Flank Attack bonuses <for [Hovercraft] units>",
+			"[Colonizer] units gain the [Amphibious] promotion"
 		],
 		"cities": [
 			"Freeport",
