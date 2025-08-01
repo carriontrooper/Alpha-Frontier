@@ -1530,7 +1530,7 @@
         "column": 2
 	},
 
-	
+	/*
 	{
 		"name": "Colonizer",
 		"uniques": [
@@ -1539,15 +1539,14 @@
 		"row": 140,
         "column": 3
 	},
+	*/
 	{
 		"name": "Amphibious Colonizer",
 		"uniques": [
-			"[0] Movement point cost to disembark",
-			"[0] Movement point cost to embark",
-			"Founds a new city <in [Coast] tiles> <by consuming this unit>"
+			"Can transform to [Amphibious Colonizer]"
 		],
 		"row": 140,
-        "column": 4
+        "column": 3
 	},
 	
 
