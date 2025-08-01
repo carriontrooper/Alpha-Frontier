@@ -219,11 +219,13 @@
 				"prerequisites": [
 					"Habitation",
 					"Synthetic Materials"
-				],
+				]
+				/*,
 				"uniques": [
 					"[Colonizer] units gain the [Amphibious Colonizer] promotion",
 					"All newly-trained [Colonizer] units [in all cities] receive the [Amphibious Colonizer] promotion"
 				]
+				*/
 			},
 			{
 				"name": "Stable Fission Power",
