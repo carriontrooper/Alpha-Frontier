@@ -606,12 +606,8 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Can transform to [Amphibious Colonizer] <for [0] movement> <after discovering [Hab-Domes]>",
+			//"Can transform to [Amphibious Colonizer] <for [0] movement> <after discovering [Hab-Domes]>",
 			"Requires at least [2] population"
-			//"[This Unit] gains the [Amphibious Colonizer] promotion <upon entering a [Water] tile> <for units without [Amphibious Colonizer]> <after discovering [Hab-Domes]>",
-			//"[This Unit] loses the [Colonizer] promotion <upon entering a [Water] tile> <for units with [Colonizer]> <after discovering [Hab-Domes]>",
-			//"[This Unit] gains the [Colonizer] promotion <upon entering a [Land] tile> <for units without [Colonizer]> <after discovering [Hab-Domes]>",
-			//"[This Unit] loses the [Amphibious Colonizer] promotion <upon entering a [Land] tile> <for units with [Amphibious Colonizer]> <after discovering [Hab-Domes]>",
 		],
 		//"promotions": ["Colonizer"],
 		"hurryCostModifier": 20,
@@ -630,6 +626,7 @@
 			}
 		]
 	},
+	/*
 	{
 		"name": "Amphibious Colonizer",
 		"unitType": "Civilian",
@@ -664,6 +661,7 @@
 			}
 		]
 	},
+	*/
 	{
 		"name": "Constructor", //rename to Constructor in localization
 		"unitType": "Civilian",
