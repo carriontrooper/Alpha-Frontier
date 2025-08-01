@@ -604,8 +604,9 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city <in [Land] tiles> <by consuming this unit> <before discovering [Hab-Domes]>",
-			"Founds a new city <in [{non-[Ocean]} {non-[Mountain]}] tiles> <by consuming this unit> <after discovering [Hab-Domes]>",
+			"Founds a new city <in [Land] tiles> <by consuming this unit> <before discovering [Hab-Domes]> <for [non-[Seaborne Faction]] Civilizations>",
+			"Founds a new city <in [{non-[Ocean]} {non-[Mountain]}] tiles> <by consuming this unit> <after discovering [Hab-Domes]> <for [non-[Seaborne Faction]] Civilizations>",
+			"Founds a new city <in [{non-[Ocean]} {non-[Mountain]}] tiles> <by consuming this unit> <for [Seaborne Faction] Civilizations>",
 			"Excess Food converted to Production when under construction",
 			//"Can transform to [Amphibious Colonizer] <for [0] movement> <after discovering [Hab-Domes]>",
 			"Requires at least [2] population"
