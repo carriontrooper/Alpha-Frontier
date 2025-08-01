@@ -1543,7 +1543,7 @@
 	{
 		"name": "Amphibious Colonizer",
 		"uniques": [
-			"Can transform to [Amphibious Colonizer]"
+			"Can transform to [Amphibious Colonizer] <for [0] movement>"
 		],
 		"row": 140,
         "column": 3
