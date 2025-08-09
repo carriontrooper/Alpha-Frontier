@@ -625,7 +625,14 @@
 		"innerColor": [156, 37, 37],
 		"favoredReligion": "Voidist",
 		"uniqueName": "The Hounds of War",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","[+30]% Strength <vs [City-States]>"],
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			//"[+30]% Strength <vs [City-States]>"
+			"[+20]% Strength <for [Military] units> <for [10] turns> <upon declaring war on [City-States] Civilizations>",
+			"[+30]% Strength <for [Military] units> <for [10] turns> <upon declaring war on [Major] Civilizations>",
+			"[+20]% Strength for cities <for [10] turns> <upon being declared war on by [City-States] Civilizations>",
+			"[+30]% Strength for cities <for [10] turns> <upon being declared war on by [Major] Civilizations>"
+		],
 		"cities": [
 			"Ragnarok's Fist",
 			"Jotunheim",
