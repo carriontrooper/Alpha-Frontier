@@ -239,7 +239,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Happiness] from [Sindrian Lobster] tiles [in this city]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredNearbyImprovedResources": ["Sindrian Lobster"],
 		"requiredTech": "Hovercrafts",
@@ -461,7 +461,7 @@
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"[+1 Science, +1 Culture] from [Artifacts] tiles [in this city]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
@@ -480,8 +480,9 @@
 		"specialistSlots": {"Influencer": 1},
 		"requiredBuilding": "Museum of the Frontier",
 		"uniques": [
-			//"Provides [1] [Tourism]"
-			//"Consumes [1] [Old Earth Memento]"
+			//"Provides [1] [Tourism]",
+			//"Consumes [1] [Old Earth Memento]",
+			//"Only available <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -498,8 +499,9 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Museum of the Frontier",
 		"uniques": [
-			//"Provides [1] [Tourism]"
-			//"Consumes [1] [Xeno-Artifact]"
+			//"Provides [1] [Tourism]",
+			//"Consumes [1] [Xeno-Artifact]",
+			//"Only available <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -517,8 +519,9 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Museum of the Frontier",
 		"uniques": [
-			//"Provides [1] [Tourism]"
-			//"Consumes [1] [Great Work of Science]"
+			//"Provides [1] [Tourism]",
+			//"Consumes [1] [Great Work of Science]",
+			//"Only available <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -535,8 +538,9 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Museum of the Frontier",
 		"uniques": [
-			//"Provides [1] [Tourism]"
-			//"Consumes [1] [Great Work of Philosophy]"
+			//"Provides [1] [Tourism]",
+			//"Consumes [1] [Great Work of Philosophy]",
+			//"Only available <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -553,8 +557,9 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Museum of the Frontier",
 		"uniques": [
-			//"Provides [1] [Tourism]"
-			//"Consumes [1] [Great Work of Entertainment]"
+			//"Provides [1] [Tourism]",
+			//"Consumes [1] [Great Work of Entertainment]",
+			//"Only available <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -586,7 +591,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Happiness] from [Snuffets] tiles [in this city]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredNearbyImprovedResources": ["Snuffets"],
 		"requiredTech": "Hab-Domes",
@@ -1385,7 +1390,7 @@
 			"Consumes [1] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
-			//"Provides [1] [Tourism]"
+			//"Provides [1] [Tourism] <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
@@ -1405,7 +1410,7 @@
 			"Consumes [1] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
-			//"Provides [1] [Tourism]"
+			//"Provides [1] [Tourism] <when [Cultural] Victory is enabled>"
 		],
 		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
@@ -1538,7 +1543,7 @@
 			"Consumes [2] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
-			//"Provides [1] [Tourism]"
+			//"Provides [1] [Tourism] <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
@@ -2246,7 +2251,7 @@
 			"[+1 Happiness] <in [Puppeted] cities>",
 			"Consumes [1] [Digital Storage Space]",
 			"Can be purchased for [100] [Culture] [in all cities]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
@@ -2436,7 +2441,7 @@
 			"Only available <if [Virtual Cultural Space] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
-			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
@@ -2539,7 +2544,7 @@
 			"Only available <if [Megamall] is constructed in all [non-[Puppeted]] cities>",
 			"[-20]% unhappiness from the number of cities",
 			"Cost increases by [30] per owned city"
-			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -2636,7 +2641,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Free Social Policy"
-			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Colonial Culture",
 		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
@@ -2736,7 +2741,7 @@
 		"uniques": [
 			"Empire enters golden age",
 			"[+10]% [Food] [in all cities]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Xenobiology",
 		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
@@ -2829,7 +2834,7 @@
 			"Must be next to [Coast]",
 			"[-50]% Culture cost of natural border growth [in all cities]",
 			"Doubles Gold given to enemy if city is captured"
-			//"Provides [3] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [3] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Terraforming",
 		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
@@ -2890,7 +2895,7 @@
 			"Only available <when religion is enabled>",
 			"Gain a free [Tele-Temple] [in this city]"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
-			//"Provides [2] [Tourism]"
+			//"Provides [2] [Tourism] <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Net Culture",
 		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
@@ -3044,7 +3049,7 @@
 			"Must have an owned [Uttershroom] within [3] tiles",
 			"[+1 Food, +1 Culture] from [Mycelium] tiles [in this city]",
 			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Genetic Hybridization",
 		"quote": "'That looks like a... a HUGE, GARGANTUAN, SWOLLEN, BLOATED MUSHROOM!' - Griswold Smith, xenobiologist",
@@ -3126,7 +3131,7 @@
 			"Must have an owned [Harborship Wreck] within [3] tiles",
 			"Free Technology",
 			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
-			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Xenoarchaeology",
 		"quote": "'This is our legacy to you.' - translated inscryption from the bridge area",
@@ -3169,7 +3174,7 @@
 			"Must have an owned [Mystery Flesh Pit] within [3] tiles",
 			"[+1 Food, +1 Culture] from [Organic] tiles [in this city]",
 			"[+2 Science, +2 Gold] from [Mystery Flesh Pit] tiles [in all cities]"
-			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Genetics",
 		"quote": "'It's amazing how this living cave is even able to live. No known nutrient input has been discovered, and yet this organism still manage to grow slowly over the years it's been here.' - Yasmin binti Rashidah, xenobiologist",
