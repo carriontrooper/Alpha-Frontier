@@ -4434,6 +4434,7 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Cultural Site] improvement <by consuming this unit>",
+			//"Instantly provides [1] [Great Work of Entertainment] <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Is part of Great Person group [Civil]",
 			"Unbuildable",
@@ -4461,6 +4462,7 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			//"Instantly provides [1] [Great Work of Science] <by consuming this unit>",
 			"Great Person - [Science]",
 			"Is part of Great Person group [Civil]",
 			"Unbuildable",
@@ -4542,6 +4544,7 @@
 		"uniques": [
 			"Can instantly construct a [Visionary Site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <[4] times> <after which this unit is consumed>",
+			//"Instantly provides [1] [Great Work of Philosophy] <by consuming this unit>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
@@ -5115,6 +5118,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Visionary Site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <[4] times> <after which this unit is consumed>",
+			//"Instantly provides [1] [Great Work of Philosophy] <by consuming this unit>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
@@ -5152,6 +5156,7 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Biodome City] improvement <by consuming this unit>",
+			//"Instantly provides [1] [Great Work of Science] <by consuming this unit>",
 			"Great Person - [Science]",
 			"Is part of Great Person group [Civil]",
 			"Unbuildable",
