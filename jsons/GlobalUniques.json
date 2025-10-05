@@ -9,5 +9,7 @@
 		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
 		"Cannot build [Colonizer] units <when below [-10] [Happiness]>",
 		"Rebel units may spawn <when below [-20] [Happiness]>"
+
+		//"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
 	]
 }
