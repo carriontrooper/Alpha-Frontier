@@ -237,7 +237,10 @@
 		"gold": 3,
 		"food": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Happiness] from [Sindrian Lobster] tiles [in this city]"],
+		"uniques": [
+			"[+1 Happiness] from [Sindrian Lobster] tiles [in this city]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+		],
 		"requiredNearbyImprovedResources": ["Sindrian Lobster"],
 		"requiredTech": "Hovercrafts",
 		"civilopediaText": [
@@ -458,6 +461,7 @@
 		"requiredBuilding": "Field Lab",
 		"uniques": [
 			"[+1 Science, +1 Culture] from [Artifacts] tiles [in this city]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Research Networks",
 		"civilopediaText": [
@@ -466,6 +470,100 @@
 			}
 		]
 	},
+	/*
+	// tourism museum wings
+	{
+		"name": "Museum Wing - Colonial History",
+		"maintenance": 1,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Influencer": 1},
+		"requiredBuilding": "Museum of the Frontier",
+		"uniques": [
+			//"Provides [1] [Tourism]"
+			//"Consumes [1] [Old Earth Memento]"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A dedicated wing of the museum, focusing on historic events in this colony's history."
+			}
+		]
+	},
+	{
+		"name": "Museum Wing - Xeno History",
+		"maintenance": 1,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Museum of the Frontier",
+		"uniques": [
+			//"Provides [1] [Tourism]"
+			//"Consumes [1] [Xeno-Artifact]"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A dedicated wing of the museum, focusing on the strange ancient xeno-artifacts found on this planet."
+			}
+		]
+	},
+	{
+		"name": "Museum Wing - Science",
+		"maintenance": 1,
+		"culture": 2,
+		"science": 1,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Museum of the Frontier",
+		"uniques": [
+			//"Provides [1] [Tourism]"
+			//"Consumes [1] [Great Work of Science]"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A dedicated wing of the museum, focusing on the scientific achievements of the colonists."
+			}
+		]
+	},
+	{
+		"name": "Museum Wing - Philosophy",
+		"maintenance": 1,
+		"culture": 2,
+		"faith": 1,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Museum of the Frontier",
+		"uniques": [
+			//"Provides [1] [Tourism]"
+			//"Consumes [1] [Great Work of Philosophy]"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A dedicated wing of the museum, focusing on the philosophical ideas that bloomed among the colonists."
+			}
+		]
+	},
+	{
+		"name": "Museum Wing - Culture",
+		"maintenance": 1,
+		"culture": 2,
+		"faith": 1,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Museum of the Frontier",
+		"uniques": [
+			//"Provides [1] [Tourism]"
+			//"Consumes [1] [Great Work of Entertainment]"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A dedicated wing of the museum, focusing on the cultural entertainments that were produced by the colonists."
+			}
+		]
+	},
+	*/
 	{
 		"name": "Specimen Storage",
 		"maintenance": 1,
@@ -486,7 +584,10 @@
 		"specialistSlots": { "Scientist": 1 },
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Happiness] from [Snuffets] tiles [in this city]"],
+		"uniques": [
+			"[+1 Happiness] from [Snuffets] tiles [in this city]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
+		],
 		"requiredNearbyImprovedResources": ["Snuffets"],
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
@@ -1263,7 +1364,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
-			"Only available <with [Digital Storage Space]>",
+			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Metaverse",
@@ -1282,8 +1383,9 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
-			"Only available <with [Digital Storage Space]>",
+			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
+			//"Provides [1] [Tourism]"
 		],
 		"requiredTech": "Net Culture",
 		"civilopediaText": [
@@ -1301,8 +1403,9 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
-			"Only available <with [Digital Storage Space]>",
+			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
+			//"Provides [1] [Tourism]"
 		],
 		"requiredBuilding": "Virtual Cultural Space",
 		"requiredTech": "Metaverse",
@@ -1321,7 +1424,7 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
-			"Only available <with [Digital Storage Space]>",
+			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Virtual Drugs",
@@ -1413,7 +1516,7 @@
 			"Virtual",
 			"Consumes [1] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>",
-			"Population loss from nuclear attacks [-50]% [in this city]",
+			"Population loss from nuclear attacks [-50]% [in this city]"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Cyberbrains",
@@ -1433,8 +1536,9 @@
 		"uniques": [
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
-			"Only available <with [Digital Storage Space]>",
+			"Only available <with [Digital Storage Space]>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
+			//"Provides [1] [Tourism]"
 		],
 		"requiredTech": "Artificial Intelligence",
 		"civilopediaText": [
@@ -1520,7 +1624,7 @@
 			"Virtual",
 			"Consumes [5] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>",
-			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Mind Linking",
@@ -1669,7 +1773,7 @@
 			"Consumes [5] [Digital Storage Space]",
 			"Only available <with [Digital Storage Space]>",
 			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
-			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
 		],
 		"requiredTech": "Posthumanist Culture",
@@ -2142,6 +2246,7 @@
 			"[+1 Happiness] <in [Puppeted] cities>",
 			"Consumes [1] [Digital Storage Space]",
 			"Can be purchased for [100] [Culture] [in all cities]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Info Networks",
 		"civilopediaText": [
@@ -2329,8 +2434,9 @@
 			"Virtual",
 			"Consumes [2] [Digital Storage Space]",
 			"Only available <if [Virtual Cultural Space] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [30] per owned city"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Quantum Computing",
 		"civilopediaText": [
@@ -2433,6 +2539,7 @@
 			"Only available <if [Megamall] is constructed in all [non-[Puppeted]] cities>",
 			"[-20]% unhappiness from the number of cities",
 			"Cost increases by [30] per owned city"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Colonial Culture",
 		"civilopediaText": [
@@ -2527,7 +2634,10 @@
 		"specialistSlots": { "Influencer": 2 },
 		"greatPersonPoints": { "Great Influencer": 1 },
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": [
+			"Free Social Policy"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
+		],
 		"requiredTech": "Colonial Culture",
 		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
 		"civilopediaText": [
@@ -2626,6 +2736,7 @@
 		"uniques": [
 			"Empire enters golden age",
 			"[+10]% [Food] [in all cities]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Xenobiology",
 		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
@@ -2718,6 +2829,7 @@
 			"Must be next to [Coast]",
 			"[-50]% Culture cost of natural border growth [in all cities]",
 			"Doubles Gold given to enemy if city is captured"
+			//"Provides [3] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Terraforming",
 		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
@@ -2776,8 +2888,9 @@
 			"Virtual",
 			"Consumes [3] [Digital Storage Space]",
 			"Only available <when religion is enabled>",
-			"Gain a free [Tele-Temple] [in this city]",
+			"Gain a free [Tele-Temple] [in this city]"
 			//"[+1 Production] <in cities with a [Remote Fabricator]>"
+			//"Provides [2] [Tourism]"
 		],
 		"requiredTech": "Net Culture",
 		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
@@ -2931,6 +3044,7 @@
 			"Must have an owned [Uttershroom] within [3] tiles",
 			"[+1 Food, +1 Culture] from [Mycelium] tiles [in this city]",
 			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
+			//"Provides [1] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Genetic Hybridization",
 		"quote": "'That looks like a... a HUGE, GARGANTUAN, SWOLLEN, BLOATED MUSHROOM!' - Griswold Smith, xenobiologist",
@@ -3012,6 +3126,7 @@
 			"Must have an owned [Harborship Wreck] within [3] tiles",
 			"Free Technology",
 			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Xenoarchaeology",
 		"quote": "'This is our legacy to you.' - translated inscryption from the bridge area",
@@ -3054,6 +3169,7 @@
 			"Must have an owned [Mystery Flesh Pit] within [3] tiles",
 			"[+1 Food, +1 Culture] from [Organic] tiles [in this city]",
 			"[+2 Science, +2 Gold] from [Mystery Flesh Pit] tiles [in all cities]"
+			//"Provides [2] [Tourism] <after discovering [Colonial Culture]>"
 		],
 		"requiredTech": "Genetics",
 		"quote": "'It's amazing how this living cave is even able to live. No known nutrient input has been discovered, and yet this organism still manage to grow slowly over the years it's been here.' - Yasmin binti Rashidah, xenobiologist",
