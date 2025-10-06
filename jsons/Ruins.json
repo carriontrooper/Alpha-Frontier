@@ -3,8 +3,8 @@
 		"name": "discover old Earth memorabilia",
 		"notification": "We have discovered old Earth memorabilia in the crash site! (+20 culture)",
 		"uniques": [
-			"Gain [20] [Culture]"
-			//"Instantly provides [1] [Old Earth Memento] <with [50]% chance> <when [Cultural] Victory is enabled>"
+			"Gain [20] [Culture]",
+			"Instantly provides [1] [Old Earth Memento] <with [50]% chance> <when [Cultural] Victory is enabled>"
 		],
 		"color": "#cf8ff7"
 	},
