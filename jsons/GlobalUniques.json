@@ -8,15 +8,15 @@
 		"[-33]% [Production] [in all cities] <when below [-10] [Happiness]>",
 		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
 		"Cannot build [Colonizer] units <when below [-10] [Happiness]>",
-		"Rebel units may spawn <when below [-20] [Happiness]>"
+		"Rebel units may spawn <when below [-20] [Happiness]>",
 
-		//"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Neon Dragon] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Wurm] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Mycon] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Ulfradrake] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Leviathan] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Overlord] unit> <when [Cultural] Victory is enabled>",
-		//"Instantly provides [1] [Xeno-Artifact] <with [10]% chance> <for [Major] Civilizations> <with [Artifacts]> <upon turn start> <when [Cultural] Victory is enabled>"
+		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]> <when [Cultural] Victory is enabled>",
+		"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Neon Dragon] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Wurm] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [1] [Xeno-Artifact] <upon defeating a [Mycon] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Ulfradrake] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Leviathan] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [2] [Xeno-Artifact] <upon defeating a [Overlord] unit> <when [Cultural] Victory is enabled>",
+		"Instantly provides [1] [Xeno-Artifact] <with [10]% chance> <for [Major] Civilizations> <with [Artifacts]> <upon turn start> <when [Cultural] Victory is enabled>"
 	]
 }
