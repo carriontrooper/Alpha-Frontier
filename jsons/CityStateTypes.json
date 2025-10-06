@@ -4,15 +4,15 @@
         "friendBonusUniques": [
             "[+3 Culture] <before the [Colonization era]>",
             "[+6 Culture] <starting from the [Colonization era]> <before the [Realization era]>",
-            "[+13 Culture] <starting from the [Realization era]>"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
+            "[+13 Culture] <starting from the [Realization era]>",
+			"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Colonization era]>",
             "[+12 Culture] <starting from the [Colonization era]> <before the [Realization era]>",
             "[+26 Culture] <starting from the [Realization era]>",
-			"[-5]% Culture cost of adopting new Policies"
-			//"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
+			"[-5]% Culture cost of adopting new Policies",
+			"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
         ],
         "color": [139, 96, 255]
     },
