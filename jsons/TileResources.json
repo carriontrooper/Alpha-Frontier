@@ -1535,7 +1535,7 @@
 		]
 	},
 	// Tourism & Great Works
-	/*
+	
 	{
 		"name": "Tourism",
 		"resourceType": "Strategic",
@@ -1648,7 +1648,7 @@
 			//{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
 		//]
     },
-	*/
+	
 	
 	//hidden resources
 	{
@@ -1677,7 +1677,7 @@
 		]
 	}
 
-	/*
+	
 	{
 		"name": "Accumulated Culture",
 		"resourceType": "Bonus",
@@ -1690,5 +1690,5 @@
 			"Will not be displayed in Civilopedia"
 		]
 	}
-	*/
+	
 ]
