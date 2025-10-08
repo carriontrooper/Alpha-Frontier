@@ -1482,7 +1482,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Costs [2] [Promethine]",
+			"Consumes [2] [Promethine]",
 			"Provides [1] [Ulframite]"
 		],
 		"requiredTech": "Nanotechnology",
@@ -1665,7 +1665,7 @@
 		"requiredTech": "Solar Reflectors",
 		"requiredBuilding": "Orbital Launch Facility",
 		//"requiredResource": "Titanium",
-		"uniques": ["Orbital","Costs [2] [Titanium]","Only available <with [Titanium]>"],
+		"uniques": ["Orbital","Consumes [2] [Titanium]","Only available <with [Titanium]>"],
 		"civilopediaText": [
 			{
 				"text": "Warm up cold places and chill down hot spots by reflecting the sun's rays with an enormous orbital mirror."
@@ -1711,7 +1711,7 @@
 		"percentStatBonus": { "production": 5 },
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Costs [1] [Antimatter]",
+			"Consumes [1] [Antimatter]",
 			"Only available <with [Antimatter]>",
 			"Provides [1] [Gravitix]",
 			"Provides [1] [Yairmite]"
@@ -1756,7 +1756,7 @@
 		"uniques": [
 			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
 			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing <in this city>",
-			"Costs [1] [Vitamass]",
+			"Consumes [1] [Vitamass]",
 			"Only available <with [Vitamass]>",
 		],
 		"civilopediaText": [
@@ -1798,7 +1798,7 @@
 		"uniques": [
 			"[Gold] cost of purchasing [All] buildings [-10]%",
 			"[-10]% Unhappiness from [Population] [in this city]",
-			"Costs [1] [Yairmite]",
+			"Consumes [1] [Yairmite]",
 			"Limited to [5] per Civilization"
 		],
 		"requiredTech": "N-Dimensional Exploration",
@@ -1873,7 +1873,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
-			"Costs [1] [Vitamass]",
+			"Consumes [1] [Vitamass]",
 			"Only available <after adopting [Symbiosis Ideology]>"
 		],
 		"requiredTech": "Genetic Hybridization",
