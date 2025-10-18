@@ -25,7 +25,11 @@
 			},
 			{
 				"name": "Trailblazers",
-				"uniques": ["[+1] Movement <for [All] units>"],
+				"uniques": [
+					"[+1] Movement <for [Scout] units> <before the [Colonization era]>",
+					"[+1] Movement <for [Military] units> <starting from the [Colonization era]> <before the [Realization era]>",
+					"[+1] Movement <for [All] units> <starting from the [Realization era]>"
+				],
 				"row": 1,
 				"column": 3
 			},
@@ -420,13 +424,20 @@
 		"policies": [
 			{
 				"name": "Founding Mythos",
-				"uniques": ["[+2 Faith, +2 Culture] [in capital]"],
+				"uniques": [
+					"[+2 Faith, +2 Culture] [in capital]",
+					"[+1 Faith, +1 Culture] [in capital] <starting from the [Colonization era]>",
+					"[+1 Faith, +1 Culture] [in capital] <starting from the [Realization era]>"
+				],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Charity NGOs",
-				"uniques": ["[+1 Food] from all [Faith] buildings"],
+				"uniques": [
+					"[+1 Food] from all [Faith] buildings",
+					"[+1 Food] from all [Faith] buildings <starting from the [Colonization era]>"
+				],
 				"row": 1,
 				"column": 4
 			},
@@ -458,7 +469,8 @@
 				"name": "Humanitarian Complete",
 				"uniques": [
 					"Free [Great Visionary] appears",
-					"[+2 Culture, +2 Faith] from [Visionary Site] tiles [in all cities]"
+					"May buy [Great Visionary] units for [200] [Faith] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
+					"[+2 Culture, +2 Faith] from [Visionary Site] tiles [in all cities] <for every [Owned [Visionary Site] Tiles]>"
 				]
 			}
 		]
@@ -487,28 +499,42 @@
 				"name": "Neo-Philosophy",
 				"uniques": [
 					"[+1 Faith] from all [Faith] buildings",
-					"[+1 Science] from all [Science] buildings"
+					"[+1 Science] from all [Science] buildings",
+					"[+1 Faith] from all [Faith] buildings <starting from the [Colonization era]>",
+					"[+1 Science] from all [Science] buildings <starting from the [Colonization era]>",
+					"[+1 Faith] from all [Faith] buildings <starting from the [Realization era]>",
+					"[+1 Science] from all [Science] buildings <starting from the [Realization era]>"
 				],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Archive Nodes",
-				"uniques": ["[+1 Science] [in all cities]"],
+				"uniques": [
+					"[+1 Science] [in all cities]",
+					"[+1 Science] [in all cities] <starting from the [Colonization era]>",
+					"[+1 Science] [in all cities] <starting from the [Realization era]>"
+				],
 				"requires": ["Deep Analysis"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Virtual Enlightenment",
-				"uniques": ["[+1 Faith] from every [Wonder]"],
+				"uniques": [
+					"[+1 Faith] from every [Wonder]",
+					"[+2 Faith] from every [Wonder] <starting from the [Realization era]>"
+				],
 				"requires": ["Deep Analysis", "Neo-Philosophy"],
 				"row": 2,
 				"column": 3
 			},
 			{
 				"name": "Ethics Committee",
-				"uniques": ["[+1 Faith] from all [Science] buildings"],
+				"uniques": [
+					"[+1 Faith] from all [Science] buildings",
+					"[+1 Faith] from all [Science] buildings <starting from the [Colonization era]>"
+				],
 				"requires": ["Neo-Philosophy"],
 				"row": 2,
 				"column": 5
@@ -537,7 +563,9 @@
 			{
 				"name": "Cultural Icons",
 				"uniques": [
-					"Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+					"Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)> <before the [Colonization era]>",
+					"Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)> <starting from the [Colonization era]> <before the [Realization era]>",
+					"Gain [200] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)> <starting from the [Realization era]>",
 					"[Great Influencer] is earned [+20]% faster"
 				],
 				"row": 1,
@@ -546,7 +574,8 @@
 			{
 				"name": "Market of Ideas",
 				"uniques": [
-					"[+1 Gold] from all [Culture] buildings"
+					"[+1 Gold] from all [Culture] buildings",
+					"[+1 Gold] from all [Culture] buildings <starting from the [Colonization era]>"
 				],
 				"row": 1,
 				"column": 5
@@ -555,7 +584,8 @@
 				"name": "Social Media",
 				"uniques": [
 					"[+1 Culture] from every [Influencer]",
-					"[+2 Gold] from [Habitation Dome] tiles [in all cities]"
+					"[+2 Gold] from [Habitation Dome] tiles [in all cities]",
+					"[+2 Gold] from [Habitation Dome] tiles [in all cities] <starting from the [Colonization era]>"
 				],
 				"requires": ["Cultural Icons"],
 				"row": 2,
@@ -583,7 +613,7 @@
 				"uniques": [
 					"Free Social Policy",
 					"May buy [Great Influencer] units for [200] [Culture] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
-					"[+5 Culture] from [Cultural Site] tiles [in all cities]"
+					"[+5 Culture] from [Cultural Site] tiles [in all cities] <for every [Owned [Cultural Site] Tiles]>"
 				]
 			}
 		]
@@ -750,7 +780,8 @@
 			{
 				"name": "Symbiosis Ideology Complete", //rename into Apex
 				"uniques": [
-					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities]"
+					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities]",
+					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities] <starting from the [Realization era]>"
 				]
 			}
 		]
@@ -773,7 +804,10 @@
 		"policies": [
 			{
 				"name": "Liberated Experimentation",
-				"uniques": ["[+2 Science] from all [Science] buildings"],
+				"uniques": [
+					"[+2 Science] from all [Science] buildings",
+					"[+2 Science] from all [Science] buildings <starting from the [Realization era]>"
+				],
 				"row": 1,
 				"column": 1
 			},
@@ -812,7 +846,9 @@
 				"requires": ["Logical Progression"],
 				"uniques": [
 					"[+2 Science] from all [Science] buildings <during a Golden Age>",
-					"[+2 Science] from every specialist [in all cities] <during a Golden Age>"
+					"[+2 Science] from every specialist [in all cities] <during a Golden Age>",
+					"[+2 Science] from all [Science] buildings <during a Golden Age> <starting from the [Realization era]>",
+					"[+2 Science] from every specialist [in all cities] <during a Golden Age> <starting from the [Realization era]>"
 				],
 				"row": 3,
 				"column": 3
