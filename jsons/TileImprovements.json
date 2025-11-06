@@ -930,9 +930,9 @@
 		"techRequired": "Info Networks",
 		"uniques": [
 			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Holorelay] tiles>",
-			"[+1 Culture] <with [0] to [0] neighboring [Holorelay] tiles> <for every [Owned [Holorelay] Tiles]> <after discovering [Colonial Culture]>", //yes they are meant to be exponential, might nerf if too OP in testing
-			"[+1 Culture] <with [0] to [0] neighboring [Holorelay] tiles> <for every [Owned [Holorelay] Tiles]> <after discovering [Net Culture]>",
-			"[+1 Culture] <with [0] to [0] neighboring [Holorelay] tiles> <for every [Owned [Holorelay] Tiles]> <after discovering [Posthumanist Culture]>",
+			"[+1 Culture] <for every [Owned [Holorelay] Tiles]> <after discovering [Colonial Culture]> <with [0] to [0] neighboring [Holorelay] tiles>", //yes they are meant to be exponential, might nerf if too OP in testing
+			"[+1 Culture] <for every [Owned [Holorelay] Tiles]> <after discovering [Net Culture]> <with [0] to [0] neighboring [Holorelay] tiles>",
+			"[+1 Culture] <for every [Owned [Holorelay] Tiles]> <after discovering [Posthumanist Culture]> <with [0] to [0] neighboring [Holorelay] tiles>",
 			"Costs [2] [Culture] per turn <in tiles adjacent to [Holorelay] tiles>", //just in case the AI does a trick
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+3 Gold, +3 Culture]",
