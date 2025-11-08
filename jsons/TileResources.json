@@ -1562,7 +1562,7 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Great Work of Science]>",
 			"Cannot be traded <hidden from users>"
 		],
 		//"civilopediaText": [
@@ -1581,7 +1581,7 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Great Work of Entertainment]>",
 			"Cannot be traded <hidden from users>"
 		],
 		//"civilopediaText": [
@@ -1599,7 +1599,7 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Great Work of Philosophy]>",
 			"Cannot be traded <hidden from users>"
 		],
 		//"civilopediaText": [
@@ -1617,7 +1617,7 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Xeno-Artifact]>",
 			"Doesn't generate naturally"
 		],
 		//"civilopediaText": [
@@ -1636,7 +1636,7 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Old Earth Memento]>",
 			"Doesn't generate naturally"
 		],
 		//"civilopediaText": [
