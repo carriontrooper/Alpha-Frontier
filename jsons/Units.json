@@ -4437,6 +4437,7 @@
 			"Instantly provides [1] [Great Work of Entertainment] <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Is part of Great Person group [Civil]",
+			"[This Unit] gets a name from the [Influencer] group",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -4465,6 +4466,7 @@
 			"Instantly provides [1] [Great Work of Science] <by consuming this unit>",
 			"Great Person - [Science]",
 			"Is part of Great Person group [Civil]",
+			"[This Unit] gets a name from the [Scientist] group",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -4492,6 +4494,7 @@
 			"Can instantly construct a [Trade Center] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Is part of Great Person group [Civil]",
+			"[This Unit] gets a name from the [Merchant] group",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -4519,6 +4522,7 @@
 			"Can instantly construct a [Industrial District] improvement <by consuming this unit>",
 			"Great Person - [Production]",
 			"Is part of Great Person group [Civil]",
+			"[This Unit] gets a name from the [Engineer] group",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -4552,6 +4556,7 @@
 			"[-1] Sight",
 			"Great Person - [Faith]",
 			"Is part of Great Person group [Civil]",
+			"[This Unit] gets a name from the [Visionary] group",
 			"Unbuildable",
 			"Religious Unit",
 			"Only available <when religion is enabled>",
@@ -4584,6 +4589,7 @@
 			"Can be earned through combat",
 			"Great Person - [War]",
 			"Is part of Great Person group [Military]",
+			"[This Unit] gets a name from the [Tactician] group",
 			"Unbuildable",
 			"Uncapturable"
 		],
