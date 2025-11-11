@@ -1,3 +1,136 @@
 [
-	
+	{
+        "name": "Tactician",
+        "unitNames": [
+			"Perry Rhodes",
+			"Nicholas Furioso",
+			"James Rainier",
+			"Honor Herrington",
+			"Ember Biggins",
+			"'Master Chef'",
+			"Ozark E. Coyote",
+			"Dice-K Aremaki",
+			"Young Wen-li",
+			"Paula von Oberkern",
+			"Makuve",
+			"'Hamilcar' Smith",
+			"Jan Sheridan",
+			"Hando Davios",
+			"Prestley Cole",
+			"Cmdr. Shepherd",
+			"Welby Gunther",
+			"Bennet Sisco",
+			"'Soap' MacAmish",
+			"'Roach'",
+			"Wedge Ardrahan"
+		]
+    },
+	{
+        "name": "Scientist",
+        "unitNames": [
+			"Henk Pim",
+			"Kevin Flynn",
+			"Bern Forthmass",
+			"Harry Sheldon",
+			"Dave Bowmann",
+			"Reid Dick",
+			"Doktor Braun",
+			"Dusty Novacs",
+			"Frances Madarame",
+			"Bondye Nobel",
+			"Okabe Rinsuke",
+			"Neo Cortex",
+			"Khala Kapoor",
+			"Moirae",
+			"Sigma Delta",
+			"Al Wessker",
+			"Kris Celsius"
+		]
+    },
+	{
+        "name": "Merchant",
+        "unitNames": [
+			"Beautiful Jane",
+			"Linnaeus Ponyets",
+			"Oliver de Figaro",
+			"Wetten Fassa",
+			"Sylas Fox",
+			"Pyanner Chafur",
+			"Jones de Bergerac",
+			"'Crazy' Hassan",
+			"Recette Kusaemon",
+			"Yuri Orlok",
+			"Coco Hekmatyar",
+			"Marcus Kinkaide",
+			"Cave Hansen"
+		]
+    },
+	{
+        "name": "Influencer",
+        "unitNames": [
+			"Banks",
+			"Linn Minmax",
+			"Max Headroom",
+			"Delta 3333",
+			"Susumu Hirasawa",
+			"Derry Zoolanda",
+			"Ronald Vermillion",
+			"Rube Rhodes",
+			"Alanis Wake",
+			"BoJack Equestris",
+			"Port Robin"
+		]
+    },
+	{
+        "name": "Engineer",
+        "unitNames": [
+			"Reggie Pubsmudd",
+			"Isaku Clark",
+			"Gale Tyrolean",
+			"George La Forge",
+			"Killarney O'Brian",
+			"Cid del Norte Marquez",
+			"Thorbjörn",
+			"Delilah Conagher",
+			"Kevin Anders",
+			"'Koala' Sue",
+			"Symmetris",
+			"Montgomier 'Scotty' Scotch"
+		]
+    },
+	{
+        "name": "Visionary",
+        "unitNames": [
+			"Gaius Baltazar",
+			"Khalid Nassour",
+			"Nissan al Ghaib",
+			"Gwen Ganieda",
+			"Joe Acorn",
+			"Morgan TruFae",
+			"Los Urthona",
+			"Sprachmann Zarathustra",
+			"Robert Dobbs Jr.",
+			"Kahless the Unforgettable",
+			"Surak Vulkan",
+			"Brother Jacques",
+			"Enrico Pucci",
+			"St. Xynoris",
+			"St. Javelin",
+			"Father Mapple",
+			"Prester John",
+			"Kagome Higurashi",
+			"Reimu Hakurei",
+			"Abdul Alhazred",
+			"Cassandra Pythoness",
+			"Magica DeSpell",
+			"Mad Hettie",
+			"Thessaly",
+			"Sarah Aching",
+			"Gytha Ogg",
+			"Jadis",
+			"Sucy Manbavaran",
+			"Angrboda",
+			"Yoko Belnades"
+		]
+    },
 ]
