@@ -895,7 +895,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Payload Delivery",
 		"uniques": [
-			"Comment [Enables you to build Satellite units]"
+			"Comment [Enables you to build Satellite units]",
+			"Can carry [1] extra [Air] units"
 		]
 		"civilopediaText": [
 			{
@@ -1288,6 +1289,7 @@
 		"uniques": [
 			"Military",
 			"Comment [Enables you to build ICBMs]",
+			"Can carry [1] extra [Air] units"
 		]
 		"civilopediaText": [
 			{
@@ -2331,7 +2333,8 @@
 		"percentStatBonus": { "gold": 10 },
 		"uniques": [
 			"Military",
-			"New [Air] units start with [30] XP [in this city]"
+			"New [Air] units start with [30] XP [in this city]",
+			"Can carry [1] extra [Air] units"
 		],
 		"requiredTech": "Aeronautics",
 		"civilopediaText": [
@@ -2504,7 +2507,8 @@
 			"Provides [2] [Digital Storage Space]",
 			"Only available <if [Orbital Launch Facility] is constructed in all [non-[Puppeted]] cities>",
 			"Free Technology",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Can carry [2] extra [Air] units"
 		],
 		"requiredTech": "Cosmonautics",
 		"requiredBuilding": "Orbital Launch Facility",
@@ -2931,7 +2935,8 @@
 		"isWonder": true,
 		"uniques": [
 			"[+50]% Production when constructing [Satellite] units [in this city]",
-			"[+1 Gold, +1 Production] from each Trade Route"
+			"[+1 Gold, +1 Production] from each Trade Route",
+			"Can carry [3] extra [Air] units"
 		],
 		"requiredTech": "Metamaterials",
 		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer",
@@ -3112,7 +3117,8 @@
 			"Must have an owned [Sheeta Floating Mountain] within [3] tiles",
 			"Provides [2] [Gravitix] <after discovering [Graviton Harnessing]>",
 			"Provides [2] [Ulframite]",
-			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]"
+			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]",
+			"Can carry [1] extra [Air] units"
 		],
 		"requiredTech": "Terraforming",
 		"quote": "'Take root in the ground, live in harmony with the wind, plant your seeds in the winter, and rejoice with the birds in the coming of spring.' - Lucita Toel, scientist",
