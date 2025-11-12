@@ -63,7 +63,8 @@
 				"name": "Pioneer Spirit Complete",
 				"uniques": [
 					"[+15]% growth [in all cities]",
-					"Provides a [Frontier Hospital] in your first [4] cities for free"
+					"Provides a [Frontier Hospital] in your first [4] cities for free",
+					"Get the leader title of [[leaderName] the Explorer]"
 				]
 			}
 		]
@@ -133,7 +134,8 @@
 			{
 				"name": "Consolidation Complete",
 				"uniques": [
-					"[+2 Gold, +2 Production] [in capital] <during a Golden Age>"
+					"[+2 Gold, +2 Production] [in capital] <during a Golden Age>",
+					"Get the leader title of [[leaderName] the Centralist]"
 				]
 			}
 		]
@@ -199,7 +201,8 @@
 				"name": "Diversity Complete",
 				"uniques": [
 					"[+1 Happiness] [in all cities connected to capital]",
-					"[+1 Culture] [in all cities] <during a Golden Age>"
+					"[+1 Culture] [in all cities] <during a Golden Age>",
+					"Get the leader title of [[leaderName] the Multicultural]"
 				]
 			}
 		]
@@ -271,7 +274,8 @@
 				"name": "Tenacity Complete",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>"
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>",
+					"Get the leader title of [[leaderName] the Stalwart]"
 				]
 			}
 		]
@@ -338,7 +342,8 @@
 				"name": "Statecraft Complete",
 				"uniques": [
 					"Influence of all other civilizations with all city-states degrades [33]% faster",
-					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
+					"Get the leader title of [[leaderName] the Diplomat]"
 				]
 			}
 		]
@@ -405,7 +410,8 @@
 				"name": "Ingenuity Complete",
 				"uniques": [
 					"[1] Free Technologies",
-					"[+100]% Gold from Great Merchant trade missions"
+					"[+100]% Gold from Great Merchant trade missions",
+					"Get the leader title of [[leaderName] the Innovator]"
 				]
 			}
 		]
@@ -470,7 +476,8 @@
 				"uniques": [
 					"Free [Great Visionary] appears",
 					"May buy [Great Visionary] units for [200] [Faith] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
-					"[+2 Culture, +2 Faith] from [Visionary Site] tiles [in all cities] <for every [Owned [Visionary Site] Tiles]>"
+					"[+2 Culture, +2 Faith] from [Visionary Site] tiles [in all cities] <for every [Owned [Visionary Site] Tiles]>",
+					"Get the leader title of [[leaderName] the Kind]"
 				]
 			}
 		]
@@ -543,7 +550,8 @@
 				"name": "Ascendancy Complete",
 				"uniques": [
 					"[1] Free Technologies",
-					"[+5 Science] from [Academy] tiles [in all cities]"
+					"[+5 Science] from [Academy] tiles [in all cities]",
+					"Get the leader title of [[leaderName] the Ascendant]"
 				]
 			}
 		]
@@ -613,7 +621,8 @@
 				"uniques": [
 					"Free Social Policy",
 					"May buy [Great Influencer] units for [200] [Culture] [in all cities] at an increasing price ([50]) <starting from the [Halcyon era]>",
-					"[+5 Culture] from [Cultural Site] tiles [in all cities] <for every [Owned [Cultural Site] Tiles]>"
+					"[+5 Culture] from [Cultural Site] tiles [in all cities] <for every [Owned [Cultural Site] Tiles]>",
+					"Get the leader title of [[leaderName] the Noble]"
 				]
 			}
 		]
@@ -687,7 +696,8 @@
 				"name": "Purification Ideology Complete", //rename into Apex
 				"uniques": [
 					"[+20]% Production when constructing [Military] units [in all cities]",
-					"[+50]% Production when constructing [Military] units [in capital]"
+					"[+50]% Production when constructing [Military] units [in capital]",
+					"Get the leader title of [[leaderName] the Pure]"
 				]
 			}
 		]
@@ -781,7 +791,8 @@
 				"name": "Symbiosis Ideology Complete", //rename into Apex
 				"uniques": [
 					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities]",
-					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities] <starting from the [Realization era]>"
+					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities] <starting from the [Realization era]>",
+					"Get the leader title of [Symbionist [leaderName]]"
 				]
 			}
 		]
@@ -855,7 +866,10 @@
 			},
 			{
 				"name": "Radiant Ideology Complete", //rename into Apex
-				"uniques": ["[+100]% Yield from every [Great Improvement]"]
+				"uniques": [
+					"[+100]% Yield from every [Great Improvement]",
+					"Get the leader title of [Illuminator [leaderName]]"
+				]
 			}
 		]
 	}
