@@ -2837,7 +2837,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[-50]% Culture cost of natural border growth [in all cities]",
-			"Doubles Gold given to enemy if city is captured",
+			"[+100]% Gold given to enemy if city is captured",
 			"Provides [3] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
 		],
 		"requiredTech": "Terraforming",
@@ -2957,7 +2957,7 @@
 			"Consumes [5] [Digital Storage Space]",
 			"[+1 Gold] from all [Gold] buildings <during a Golden Age>",
 			"[+1 Gold] from every specialist [in all cities]",
-			"Doubles Gold given to enemy if city is captured"
+			"[+100]% Gold given to enemy if city is captured"
 		],
 		"requiredTech": "Psionics",
 		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant",
