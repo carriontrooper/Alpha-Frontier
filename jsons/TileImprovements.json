@@ -1127,7 +1127,7 @@
 		//"name": "Ancient ruins",
 		"name": "Crash site",
 		"terrainsCanBeBuiltOn": ["Land","Water"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable","Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Crash site",
@@ -1159,7 +1159,7 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Irremovable","Unbuildable"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]","Unpillagable", "Irremovable","Unbuildable","Excluded from map editor"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City center-Landfall era",
