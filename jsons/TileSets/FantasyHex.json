@@ -12,6 +12,9 @@
 		"Tundra+Hills+City center": ["Tundra","Hills","City center"],
 		"Snow+Hills+City center": ["Snow","Hills","City center"],
 		"Mycelium+Hills+City center": ["Mycelium","Hills","City center"],
+
+		// Floating city test
+		"Coast+City center": [FloatingCity],
 		
 		// Xeno Hive no snow fix
 		"Tundra+Barbarian encampment": ["Tundra","Barbarian encampment"],
