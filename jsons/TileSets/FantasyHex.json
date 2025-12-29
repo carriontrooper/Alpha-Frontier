@@ -15,6 +15,7 @@
 
 		// Floating city test
 		"Coast+City center": [FloatingCity],
+		"Lakes+City center": [FloatingCity],
 		
 		// Xeno Hive no snow fix
 		"Tundra+Barbarian encampment": ["Tundra","Barbarian encampment"],
