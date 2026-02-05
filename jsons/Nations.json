@@ -1,13 +1,12 @@
 [
 	//TO-DO:
 	/*
-	Add more stuff:
-	-finish the heli gunship sprites (FantasyHex DONE)
-	-add a gyrocopter in colonization era
-	-add a combat heli in realization era
-	-add Xenoidid tame xeno buff after Halcyon era
-	-add a 'one-city' civ (Helios Megapolity?) Greek-ish themed -> into new mod maybe? Fold Shamsy in this new civilization pack as well
-	-add some more new civs for the pack other than Helios and Shamsy
+	Brainstorming how to get megacorps and monopoly mechanics...
+	monopoly major hurdle(s):
+	- how to count how many global resource are there on the entire map? i.e. how many silicates was genned?
+	- how to count percentage of countable? i.e. 50% of global silicate count?
+
+	megacorps are world wonders that gives a 'stock' resource based on how many of a monopolized resource you get, i.e. if you have monopoly over silicates and you control 5 silicates, you get 5 silica inc stocks
 	*/
 	// Spectator
 	{
