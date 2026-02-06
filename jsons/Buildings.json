@@ -3224,7 +3224,7 @@
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Cannot be hurried",
-			"Only available <when [Cultural] Victory is enabled>"
+			"Only available <when [Utopian] Victory is enabled>",
 			"Unavailable <when number of [Completed Policy branches] is less than [5]>"
 		],
 		"quote": "'Gaze upon my works, ye mighty, and weep.' - Ozymandias",
