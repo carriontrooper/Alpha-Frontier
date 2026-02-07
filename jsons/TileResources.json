@@ -1534,6 +1534,7 @@
 			}
 		]
 	},
+	
 	// Tourism & Great Works
 	
 	{
@@ -1565,14 +1566,11 @@
 			"Not shown on world screen <without [Great Work of Science]>",
 			"Cannot be traded <hidden from users>"
 		],
-		//"civilopediaText": [
-			//{ "text": "Slotted into a [Great Work] Slot" },
-			//{ "separator": true },
-			//{ "text": "Great Works", "link": "Tutorial/Great Works" },
-			//{ "text": "See also" },
-			//{ "text": "Great Writer", "link": "Unit/Great Writer" },
-			//{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" }
-		//]
+		"civilopediaText": [
+			{
+				"text": "Theorems, proofs, discoveries and finds originating from your faction."
+			}
+		]
     },
     {
         "name": "Great Work of Entertainment",
@@ -1584,13 +1582,11 @@
 			"Not shown on world screen <without [Great Work of Entertainment]>",
 			"Cannot be traded <hidden from users>"
 		],
-		//"civilopediaText": [
-			//{ "text": "Slotted into a [Great Work] Slot" },
-			//{ "separator": true },
-			//{ "text": "Great Works", "link": "Tutorial/Great Works"},
-			//{ "text": "See also" },
-			//{ "text": "Great Artist", "link": "Unit/Great Artist" }
-		//]
+		"civilopediaText": [
+			{
+				"text": "Legendary stories, epics, artwork, music - things your faction can make interesting."
+			}
+		]
     },
     {
         "name": "Great Work of Philosophy",
@@ -1602,13 +1598,11 @@
 			"Not shown on world screen <without [Great Work of Philosophy]>",
 			"Cannot be traded <hidden from users>"
 		],
-		//"civilopediaText": [
-			//{ "text": "Slotted into a [Great Work] Slot" },
-			//{ "separator": true },
-			//{ "text": "Great Works", "link": "Tutorial/Great Works" },
-			//{ "text": "See also" },
-			//{ "text": "Great Musician", "link": "Unit/Great Musician" }
-		//]
+		"civilopediaText": [
+			{
+				"text": "Ponderings, enlightening truths, way of life, schools of thoughts that is unique to your faction."
+			}
+		]
     },
 	
     {
@@ -1620,14 +1614,11 @@
 			"Not shown on world screen <without [Xeno-Artifact]>",
 			"Doesn't generate naturally"
 		],
-		//"civilopediaText": [
-			//{ "text": "" },
-			//{ "separator": true },
-			//{ "text": "Great Works", "link": "Tutorial/Great Works" },
-			//{ "text": "See also" },
-			//{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
-			//{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
-		//]
+		"civilopediaText": [
+			{
+				"text": "Clear signs that a previous non-human civilization once inhabited this planet."
+			}
+		]
     },
 
 	{
@@ -1639,14 +1630,11 @@
 			"Not shown on world screen <without [Old Earth Memento]>",
 			"Doesn't generate naturally"
 		],
-		//"civilopediaText": [
-			//{ "text": "" },
-			//{ "separator": true },
-			//{ "text": "Great Works", "link": "Tutorial/Great Works" },
-			//{ "text": "See also" },
-			//{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
-			//{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
-		//]
+		"civilopediaText": [
+			{
+				"text": "All the little things that has been left preserved from Old Earth, that reminds us of our roots."
+			}
+		]
     },
 	
 	
