@@ -5,8 +5,11 @@
 	monopoly major hurdle(s):
 	- how to count how many global resource are there on the entire map? i.e. how many silicates was genned?
 	- how to count percentage of countable? i.e. 50% of global silicate count?
+	for now, buildable only if you have 10 improved instances of a luxury (check the tiles?)
 
 	megacorps are world wonders that gives a 'stock' resource based on how many of a monopolized resource you get, i.e. if you have monopoly over silicates and you control 5 silicates, you get 5 silica inc stocks
+	each megacorp does something different, and building a megacorp HQ allows everyone to build their franchises
+	W-Y has subsidiaries instead of megacorps, which can coexist with another of the same megacorp (i.e. W-Y can build silicate subsidiary if there's already a silicate inc wonder built)
 	*/
 	// Spectator
 	{
