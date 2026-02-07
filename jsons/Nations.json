@@ -5,11 +5,22 @@
 	monopoly major hurdle(s):
 	- how to count how many global resource are there on the entire map? i.e. how many silicates was genned?
 	- how to count percentage of countable? i.e. 50% of global silicate count?
-	for now, buildable only if you have 10 improved instances of a luxury (check the tiles?)
+	for now, buildable only if you have 5 improved instances of a luxury, or 10 of a bonus (check the tiles?)
+	-> use <when number of [Owned [{improved} {resourcename}] Tiles] is more than [9]> in globaluniques
+	-> build a hidden monopoly marker building in capital if demands met (i.e. 'nootropia competitor', etc) if it doesn't have one already
+	-> can only build megacorps if you have one of these monopoly markers
+	-> delete relevant monopoly markers once a megacorp HQ is built anywhere
 
-	megacorps are world wonders that gives a 'stock' resource based on how many of a monopolized resource you get, i.e. if you have monopoly over silicates and you control 5 silicates, you get 5 silica inc stocks
+	megacorps are world wonders that gives 'stock' resources based on how many of a monopolized resource you get, i.e. if you have monopoly over silicates and you control 5 silicates, you get 5 silica inc stocks
 	each megacorp does something different, and building a megacorp HQ allows everyone to build their franchises
 	W-Y has subsidiaries instead of megacorps, which can coexist with another of the same megacorp (i.e. W-Y can build silicate subsidiary if there's already a silicate inc wonder built)
+	megacorps:
+	- Superfoods Inc: hydromielin, spice, sindrian lobster, tubers, fungi pods, exotic fruits, rockbud, algae, plankton
+	- Pan Zoologics: sindiran lobster, snuffet, chitin, dairy aphid, sea slivers
+	- DelverCo: hexanite, basalt, aluminum, phostlite, redstone, vents
+	- Plouton Luxuries: ruby cactus, benthic orbs, gold ore, jadonyx, seasilk
+	- OgmaTech: artifacts, flowers of silence, jadonyx, silica, ice-10
+	- Nootropia: stimulants, harmonix, kaibir, fungi pods, spice
 	*/
 	// Spectator
 	{
