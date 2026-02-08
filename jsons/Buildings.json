@@ -3191,7 +3191,14 @@
 			}
 		]
 	},
-	
+
+	// Megacorp HQ Wonders
+
+	// Megacorp Franchise Buildings
+
+	// W-Y unique Subsidiary National Wonders
+
+	// W-Y Subsidiary Franschise Buildings
 
 	// Victory Buildings
 	{
@@ -3364,4 +3371,6 @@
 			"Will not be displayed in Civilopedia"
 		],
 	},
+
+	// monopoly hidden buildings
 ]
