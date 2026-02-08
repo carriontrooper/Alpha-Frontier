@@ -1636,7 +1636,40 @@
 			}
 		]
     },
-	
+
+	//megacorp stocks
+	/*
+	{
+		"name": "SFI Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Superfoods HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Superfoods Inc." }
+		]
+	},
+	*/
+
+	//subsidiary stocks
+	/*
+	{
+		"name": "SFI Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Superfoods HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Superfoods Inc." }
+		]
+	},
+	*/
 	
 	//hidden resources
 	{
