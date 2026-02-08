@@ -1657,16 +1657,16 @@
 	//subsidiary stocks
 	/*
 	{
-		"name": "SFI Stock",
+		"name": "WYNM Stock",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen <if [Superfoods HQ] is not constructed>",
+			"Not shown on world screen <if [W-Y Nutrimax HQ] is not constructed>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "The stock shares of the megacorp, Superfoods Inc." }
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Nutrimax." }
 		]
 	},
 	*/
