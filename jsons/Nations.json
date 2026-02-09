@@ -376,6 +376,7 @@
 			"Retain [20]% of the happiness from a luxury after the last copy has been traded away",
 			"[+1] Sight <for [All] units>",
 			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+			//"Comment[Replaces Megacorp HQs with W-Y Subsidiaries, which are slightly weaker but are not limited to one subsidiary per faction - as long as the monopoly requirement is fulfilled]"
 		],
 		"cities": [
 			"Hadley's Hope",
