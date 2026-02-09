@@ -1652,6 +1652,71 @@
 			{ "text": "The stock shares of the megacorp, Superfoods Inc." }
 		]
 	},
+	{
+		"name": "PZOO Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Pan Zoologicals HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Pan Zoologicals." }
+		]
+	},
+	{
+		"name": "DVCO Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Delver Co HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Delver Co." }
+		]
+	},
+	{
+		"name": "PLL Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Plouton Luxuries HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Plouton Luxuries." }
+		]
+	},
+	{
+		"name": "OGMA Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [OgmaTech HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, OgmaTech." }
+		]
+	},
+	{
+		"name": "NOOT Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [Nootropia HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the megacorp, Nootropia." }
+		]
+	},
 	*/
 
 	//subsidiary stocks
@@ -1667,6 +1732,71 @@
 		],
 		"civilopediaText": [
 			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Nutrimax." }
+		]
+	},
+	{
+		"name": "WYPV Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [W-Y PetVet HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, PetVet." }
+		]
+	},
+	{
+		"name": "WYEX Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [W-Y Extractions HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, W-Y Extractions." }
+		]
+	},
+	{
+		"name": "WYGL Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [W-Y Glitterati HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Glitterati." }
+		]
+	},
+	{
+		"name": "WYCB Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [W-Y Cerebro HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Cerebro." }
+		]
+	},
+	{
+		"name": "WYAM Stock",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen <if [W-Y Altermind HQ] is not constructed>",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Altermind." }
 		]
 	},
 	*/
