@@ -6,7 +6,7 @@
 	- how to count how many global resource are there on the entire map? i.e. how many silicates was genned?
 	- how to count percentage of countable? i.e. 50% of global silicate count?
 	for now, buildable only if you have 5 improved instances of a luxury, or 10 of a bonus (check the tiles?)
-	-> use <when number of [Owned [{improved} {resourcename}] Tiles] is more than [9]> in globaluniques
+	-> use <when number of [Owned [{improved} {resourcename}] Tiles] is more than [[resourcename] Tiles]> in globaluniques
 	-> build a hidden monopoly marker building in capital if demands met (i.e. 'nootropia competitor', etc) if it doesn't have one already
 	-> can only build megacorps if you have one of these monopoly markers
 	-> delete relevant monopoly markers once a megacorp HQ is built anywhere
