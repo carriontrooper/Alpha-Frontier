@@ -22,5 +22,56 @@
 		"Instantly provides [1] [Xeno-Artifact] <with [10]% chance> <for [Major] Civilizations> <with [Artifacts]> <upon turn start> <when [Cultural] Victory is enabled>"
 
 		// Monopoly and Megacorp stuff
+		/*
+		"Gain a free [Hydromielin Monopoly] [in capital] <when number of [Owned [{improved} {Hydromielin}] Tiles] is more than [[[Hydromielin] Tiles] / 2]> <if [Hydromielin Monopoly] is not constructed>",
+		"Gain a free [Spice Monopoly] [in capital] <when number of [Owned [{improved} {Spice}] Tiles] is more than [[[Spice] Tiles] / 2]> <if [Spice Monopoly] is not constructed>",
+		"Gain a free [Sindrian Lobster Monopoly] [in capital] <when number of [Owned [{improved} {Sindrian Lobster}] Tiles] is more than [[[Sindrian Lobster] Tiles] / 2]> <if [Sindrian Lobster Monopoly] is not constructed>",
+		"Gain a free [Tubers Monopoly] [in capital] <when number of [Owned [{improved} {Tubers}] Tiles] is more than [[[Tubers] Tiles] / 3]> <if [Tubers Monopoly] is not constructed>",
+		"Gain a free [Fungi Pods Monopoly] [in capital] <when number of [Owned [{improved} {Fungi Pods}] Tiles] is more than [[[Fungi Pods] Tiles] / 3]> <if [Fungi Pods Monopoly] is not constructed>",
+		"Gain a free [Exotic Fruits Monopoly] [in capital] <when number of [Owned [{improved} {Exotic Fruits}] Tiles] is more than [[[Exotic Fruits] Tiles] / 3]> <if [Exotic Fruits Monopoly] is not constructed>",
+		"Gain a free [Rockbud Monopoly] [in capital] <when number of [Owned [{improved} {Rockbud}] Tiles] is more than [[[Rockbud] Tiles] / 3]> <if [Rockbud Monopoly] is not constructed>",
+		"Gain a free [Algae Monopoly] [in capital] <when number of [Owned [{improved} {Algae}] Tiles] is more than [[[Algae] Tiles] / 3]> <if [Algae Monopoly] is not constructed>",
+		"Gain a free [Plankton Monopoly] [in capital] <when number of [Owned [{improved} {Plankton}] Tiles] is more than [[[Plankton] Tiles] / 3]> <if [Plankton Monopoly] is not constructed>",
+		"Gain a free [Snuffets Monopoly] [in capital] <when number of [Owned [{improved} {Snuffets}] Tiles] is more than [[[Snuffets] Tiles] / 2]> <if [Snuffets Monopoly] is not constructed>",
+		"Gain a free [Chitin Monopoly] [in capital] <when number of [Owned [{improved} {Chitin}] Tiles] is more than [[[Chitin] Tiles] / 3]> <if [Chitin Monopoly] is not constructed>",
+		"Gain a free [Dairy Aphid Monopoly] [in capital] <when number of [Owned [{improved} {Dairy Aphid}] Tiles] is more than [[[Dairy Aphid] Tiles] / 3]> <if [Dairy Aphid Monopoly] is not constructed>",
+		"Gain a free [Sea Slivers Monopoly] [in capital] <when number of [Owned [{improved} {Sea Slivers}] Tiles] is more than [[[Sea Slivers] Tiles] / 3]> <if [Sea Slivers Monopoly] is not constructed>",
+		"Gain a free [Hexanite Monopoly] [in capital] <when number of [Owned [{improved} {Hexanite}] Tiles] is more than [[[Hexanite] Tiles] / 3]> <if [Hexanite Monopoly] is not constructed>",
+		"Gain a free [Basalt Monopoly] [in capital] <when number of [Owned [{improved} {Basalt}] Tiles] is more than [[[Basalt] Tiles] / 3]> <if [Basalt Monopoly] is not constructed>",
+		"Gain a free [Aluminum Monopoly] [in capital] <when number of [Owned [{improved} {Aluminum}] Tiles] is more than [[[Aluminum] Tiles] / 3]> <if [Aluminum Monopoly] is not constructed>",
+		"Gain a free [Phostlite Monopoly] [in capital] <when number of [Owned [{improved} {Phostlite}] Tiles] is more than [[[Phostlite] Tiles] / 3]> <if [Phostlite Monopoly] is not constructed>",
+		"Gain a free [Redstone Monopoly] [in capital] <when number of [Owned [{improved} {Redstone}] Tiles] is more than [[[Redstone] Tiles] / 3]> <if [Redstone Monopoly] is not constructed>",
+		"Gain a free [Vents Monopoly] [in capital] <when number of [Owned [{improved} {Vents}] Tiles] is more than [[[Vents] Tiles] / 3]> <if [Vents Monopoly] is not constructed>",
+
+		"Gain a free [Potential Superfoods] [in capital] <if [Hydromielin Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Spice Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Sindrian Lobster Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Tubers Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Fungi Pods Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Exotic Fruits Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Rockbud Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Algae Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Superfoods] [in capital] <if [Plankton Monopoly] is constructed> <if [Potential Superfoods] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Pan Zoologics] [in capital] <if [Sindrian Lobster Monopoly] is constructed> <if [Potential Pan Zoologics] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Pan Zoologics] [in capital] <if [Snuffets Monopoly] is constructed> <if [Potential Pan Zoologics] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Pan Zoologics] [in capital] <if [Chitin Monopoly] is constructed> <if [Potential Pan Zoologics] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Pan Zoologics] [in capital] <if [Dairy Aphid Monopoly] is constructed> <if [Potential Pan Zoologics] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential Pan Zoologics] [in capital] <if [Sea Slivers Monopoly] is constructed> <if [Potential Pan Zoologics] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Hexanite Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Basalt Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Aluminum Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Phostlite Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Redstone Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Gain a free [Potential DelverCo] [in capital] <if [Vents Monopoly] is constructed> <if [Potential DelverCo] is not constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		
+		"Gain a free [Potential W-Y Nutrimax] [in capital] <if [Hydromielin Monopoly] is constructed> <if [Potential W-Y Nutrimax] is not constructed> <for [Walpole-Yuen Inc] Civilizations>",
+		
+		"Remove [Hydromielin Monopoly] [in capital] <when number of [Owned [{improved} {Hydromielin}] Tiles] is less than [[[Hydromielin] Tiles] / 2]> <if [Hydromielin Monopoly] is constructed> <upon turn end>",
+
+		"Remove [Potential Superfoods] [in capital] <if [Hydromielin Monopoly] is not constructed> <if [Spice Monopoly] is not constructed> <if [Sindrian Lobster Monopoly] is not constructed> <if [Tubers Monopoly] is not constructed> <if [Fungi Pods Monopoly] is not constructed> <if [Exotic Fruits Monopoly] is not constructed> <if [Rockbud Monopoly] is not constructed> <if [Algae Monopoly] is not constructed> <if [Plankton Monopoly] is not constructed> <if [Potential Superfoods] is constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+
+		"Remove [Potential W-Y Nutrimax] [in capital] <if [Hydromielin Monopoly] is not constructed> <if [Spice Monopoly] is not constructed> <if [Sindrian Lobster Monopoly] is not constructed> <if [Tubers Monopoly] is not constructed> <if [Fungi Pods Monopoly] is not constructed> <if [Exotic Fruits Monopoly] is not constructed> <if [Rockbud Monopoly] is not constructed> <if [Algae Monopoly] is not constructed> <if [Plankton Monopoly] is not constructed> <if [Potential W-Y Nutrimax] is constructed> <for [Walpole-Yuen Inc] Civilizations>",
+		
+		*/
 	]
 }
