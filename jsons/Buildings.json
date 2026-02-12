@@ -3372,5 +3372,25 @@
 		],
 	},
 
+	{
+		"name": "Consolidation Finisher Golden Age Bonus Building",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"[+10]% [Production] [in this city] <during a Golden Age>",
+			"[+10]% [Food] [in this city] <during a Golden Age>",
+			"[+10]% [Science] [in this city] <during a Golden Age>",
+			"[+10]% [Gold] [in this city] <during a Golden Age>",
+			"[+10]% [Faith] [in this city] <during a Golden Age>",
+			"[+10]% [Culture] [in this city] <during a Golden Age>",
+			//"Only available <after adopting [Consolidation Complete]>",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+
 	// monopoly hidden buildings
 ]
