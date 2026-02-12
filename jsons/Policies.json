@@ -134,7 +134,9 @@
 			{
 				"name": "Consolidation Complete",
 				"uniques": [
-					"[+2 Gold, +2 Production] [in capital] <during a Golden Age>",
+					//"[+2 Gold, +2 Production] [in capital] <during a Golden Age>",
+					"Comment [+10% of all yields (excluding tourism) in your first 4 cities during a Golden Age]",
+					"Provides a [Consolidation Finisher Golden Age Bonus Building] in your first [4] cities for free <hidden from users>",
 					"Get the leader title of [[leaderName] the Centralist]" //<upon adopting [Consolidation Complete]>"
 				]
 			}
