@@ -23,7 +23,7 @@
 
 		// Monopoly and Megacorp stuff
 		/*
-		// Monopoly status give and take
+		// Monopoly status gain
 		"Gain a free [Hydromielin Monopoly] [in capital] <when number of [Owned [{improved} {Hydromielin}] Tiles] is more than [[[Hydromielin] Tiles] / 2]> <if [Hydromielin Monopoly] is not constructed>",
 		"Gain a free [Spice Monopoly] [in capital] <when number of [Owned [{improved} {Spice}] Tiles] is more than [[[Spice] Tiles] / 2]> <if [Spice Monopoly] is not constructed>",
 		"Gain a free [Sindrian Lobster Monopoly] [in capital] <when number of [Owned [{improved} {Sindrian Lobster}] Tiles] is more than [[[Sindrian Lobster] Tiles] / 2]> <if [Sindrian Lobster Monopoly] is not constructed>",
@@ -132,6 +132,7 @@
 		"Gain a free [Potential W-Y Altermind] [in capital] <if [Spice Monopoly] is constructed> <if [Potential W-Y Altermind] is not constructed> <for [Walpole-Yuen Inc] Civilizations>",
 		"Gain a free [Potential W-Y Altermind] [in capital] <if [Hydromielin Monopoly] is constructed> <if [Potential W-Y Altermind] is not constructed> <for [Walpole-Yuen Inc] Civilizations>",
 		
+		// Monopoly status loss
 		"Remove [Hydromielin Monopoly] [in capital] <when number of [Owned [{improved} {Hydromielin}] Tiles] is less than [[[Hydromielin] Tiles] / 2]> <if [Hydromielin Monopoly] is constructed> <upon turn end>",
 		"Remove [Spice Monopoly] [in capital] <when number of [Owned [{improved} {Spice}] Tiles] is less than [[[Spice] Tiles] / 2]> <if [Spice Monopoly] is constructed> <upon turn end>",
 		"Remove [Sindrian Lobster Monopoly] [in capital] <when number of [Owned [{improved} {Sindrian Lobster}] Tiles] is less than [[[Sindrian Lobster] Tiles] / 2]> <if [Sindrian Lobster Monopoly] is constructed> <upon turn end>",
@@ -142,13 +143,23 @@
 		"Remove [Algae Monopoly] [in capital] <when number of [Owned [{improved} {Algae}] Tiles] is less than [[[Algae] Tiles] / 3]> <if [Algae Monopoly] is constructed> <upon turn end>",
 		"Remove [Plankton Monopoly] [in capital] <when number of [Owned [{improved} {Plankton}] Tiles] is less than [[[Plankton] Tiles] / 3]> <if [Plankton Monopoly] is constructed> <upon turn end>",
 
+		// Remove potential megacorps via monopoly loss
 		"Remove [Potential Superfoods] [in capital] <if [Hydromielin Monopoly] is not constructed> <if [Spice Monopoly] is not constructed> <if [Sindrian Lobster Monopoly] is not constructed> <if [Tubers Monopoly] is not constructed> <if [Fungi Pods Monopoly] is not constructed> <if [Exotic Fruits Monopoly] is not constructed> <if [Rockbud Monopoly] is not constructed> <if [Algae Monopoly] is not constructed> <if [Plankton Monopoly] is not constructed> <if [Potential Superfoods] is constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
 		"Remove [Potential Pan Zoologics] [in capital] <if [Sindrian Lobster Monopoly] is not constructed> <if [Snuffets Monopoly] is not constructed> <if [Chitin Monopoly] is not constructed> <if [Dairy Aphid Monopoly] is not constructed> <if [Sea Slivers Monopoly] is not constructed> <if [Potential Pan Zoologics] is constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
 		"Remove [Potential DelverCo] [in capital] <if [Hexanite Monopoly] is not constructed> <if [Basalt Monopoly] is not constructed> <if [Aluminum Monopoly] is not constructed> <if [Phostlite Monopoly] is not constructed> <if [Redstone Monopoly] is not constructed> <if [Vents Monopoly] is not constructed> <if [Potential DelverCo] is constructed> <for [non-[Walpole-Yuen Inc]] Civilizations>",
 
+		// Remove potential subsidiaries via monopoly loss
 		"Remove [Potential W-Y Nutrimax] [in capital] <if [Hydromielin Monopoly] is not constructed> <if [Spice Monopoly] is not constructed> <if [Sindrian Lobster Monopoly] is not constructed> <if [Tubers Monopoly] is not constructed> <if [Fungi Pods Monopoly] is not constructed> <if [Exotic Fruits Monopoly] is not constructed> <if [Rockbud Monopoly] is not constructed> <if [Algae Monopoly] is not constructed> <if [Plankton Monopoly] is not constructed> <if [Potential W-Y Nutrimax] is constructed> <for [Walpole-Yuen Inc] Civilizations>",
 		"Remove [Potential W-Y PetVet] [in capital] <if [Sindrian Lobster Monopoly] is not constructed> <if [Snuffets Monopoly] is not constructed> <if [Chitin Monopoly] is not constructed> <if [Dairy Aphid Monopoly] is not constructed> <if [Sea Slivers Monopoly] is not constructed> <if [Potential W-Y PetVet] is constructed> <for [Walpole-Yuen Inc] Civilizations>",
 		"Remove [Potential W-Y Extractions] [in capital] <if [Hexanite Monopoly] is not constructed> <if [Basalt Monopoly] is not constructed> <if [Aluminum Monopoly] is not constructed> <if [Phostlite Monopoly] is not constructed> <if [Redstone Monopoly] is not constructed> <if [Vents Monopoly] is not constructed> <if [Potential W-Y Extractions] is constructed> <for [Walpole-Yuen Inc] Civilizations>",
+		
+		// Remove potential megacorps when it's already built
+		"Remove [Potential Superfoods] [in capital] <if [Superfoods HQ] is constructed by anybody> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Remove [Potential Pan Zoologics] [in capital] <if [Pan Zoologics HQ] is constructed by anybody> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+		"Remove [Potential DelverCo] [in capital] <if [DelverCo HQ] is constructed by anybody> <for [non-[Walpole-Yuen Inc]] Civilizations>",
+
+		// Remove potential subsidiaries when it's already built
+		"Remove [Potential W-Y Nutrimax] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
 		*/
 	]
 }
