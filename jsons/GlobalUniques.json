@@ -191,11 +191,11 @@
 
 		// Remove potential subsidiaries when it's already built
 		"Remove [Potential W-Y Nutrimax] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
-		"Remove [Potential W-Y PetVet] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
-		"Remove [Potential W-Y Extractions] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
-		"Remove [Potential W-Y Glitterati] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
-		"Remove [Potential W-Y Cerebro] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
-		"Remove [Potential W-Y Altermind] [in capital] <if [W-Y Nutrimax HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>"
+		"Remove [Potential W-Y PetVet] [in capital] <if [W-Y PetVet HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
+		"Remove [Potential W-Y Extractions] [in capital] <if [W-Y Extractions HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
+		"Remove [Potential W-Y Glitterati] [in capital] <if [W-Y Glitterati HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
+		"Remove [Potential W-Y Cerebro] [in capital] <if [W-Y Cerebro HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
+		"Remove [Potential W-Y Altermind] [in capital] <if [W-Y Altermind HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>"
 		*/
 	]
 }
