@@ -3192,14 +3192,270 @@
 		]
 	},
 
+	/*
 	// Megacorp HQ Wonders
+	{
+		"name": "Superfoods HQ",
+		"gold": 3,
+		"food": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows Superfoods Franchise buildings to be built in every city]",
+			"Gain a free [Superfoods Franchise] [in this city]",
+			"Only available <if [Potential Superfoods] is constructed>"
+		],
+		"quote": "'Superfoods - we make foods that taste out of this world!' - Superfoods motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Pan Zoologics HQ",
+		"gold": 3,
+		"food": 2,
+		"production": 2,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
+			"Gain a free [Pan Zoologics Franchise] [in this city]",
+			"Only available <if [Potential Pan Zoologics] is constructed>"
+		],
+		"quote": "'If it's animal companionship you seek, Pan Zoologics got it all.' - Pan Zoologics motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "DelverCo HQ",
+		"gold": 3,
+		"production": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
+			"Gain a free [DelverCo Franchise] [in this city]",
+			"Only available <if [Potential DelverCo] is constructed>"
+		],
+		"quote": "'Deep. Dark. Expansive. Reasonably priced.' - DelverCo motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Plouton Luxuries HQ",
+		"gold": 3,
+		"culture": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
+			"Gain a free [Plouton Luxuries Franchise] [in this city]",
+			"Only available <if [Potential Plouton Luxuries] is constructed>"
+		],
+		"quote": "'We bring up tomorrow's luxuries straight into your hands.' - Plouton Luxuries motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "OgmaTech HQ",
+		"gold": 3,
+		"science": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows OgmaTech Franchise buildings to be built in every city]",
+			"Gain a free [OgmaTech Franchise] [in this city]",
+			"Only available <if [Potential OgmaTech] is constructed>"
+		],
+		"quote": "'Defining the bleeding edge of technology.' - OgmaTech motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Nootropia HQ",
+		"gold": 3,
+		"faith": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
+			"Gain a free [Nootropia Franchise] [in this city]",
+			"Only available <if [Potential Nootropia] is constructed>"
+		],
+		"quote": "'Expand the horizons of your mind, with Nootropia!' - Nootropia motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
 	// Megacorp Franchise Buildings
 
 	// W-Y unique Subsidiary National Wonders
+	{
+		"name": "W-Y Nutrimax HQ",
+		"replaces": "Superfoods HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"food": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y Nutrimax Franchise buildings to be built in every city]",
+			"Gain a free [W-Y Nutrimax Franchise] [in this city]",
+			"Only available <if [Potential W-Y Nutrimax] is constructed>"
+		],
+		"quote": "'Maximize your nutrition intake with Nutrimax!' - W-Y Nutrimax motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "W-Y PetVet HQ",
+		"replaces": "Pan Zoologics HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"food": 2,
+		"production": 2,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
+			"Gain a free [W-Y PetVet Franchise] [in this city]",
+			"Only available <if [Potential W-Y PetVet] is constructed>"
+		],
+		"quote": "'PetVet - the best xeno-organism healthcare on the planet.' - W-Y PetVet motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "W-Y Extractions HQ",
+		"replaces": "DelverCo HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"production": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
+			"Gain a free [W-Y Extractions Franchise] [in this city]",
+			"Only available <if [Potential W-Y Extractions] is constructed>"
+		],
+		"quote": "'Bringing you materials for your construction needs.' - W-Y Extractions motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "W-Y Glitterati HQ",
+		"replaces": "Plouton Luxuries HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"culture": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
+			"Gain a free [W-Y Glitterati Franchise] [in this city]",
+			"Only available <if [Potential W-Y Glitterati] is constructed>"
+		],
+		"quote": "'Become a celebrity. Become Glitterati.' - W-Y Glitterati motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "W-Y Cerebro HQ",
+		"replaces": "OgmaTech HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"science": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y Cerebro Franchise buildings to be built in every city]",
+			"Gain a free [W-Y Cerebro Franchise] [in this city]",
+			"Only available <if [Potential W-Y Cerebro] is constructed>"
+		],
+		"quote": "'Think smart - think Cerebro.' - W-Y Cerebro motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "W-Y Altermind HQ",
+		"replaces": "Nootropia HQ",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 3,
+		"faith": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isNationalWonder": true,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
+			"Gain a free [W-Y Altermind Franchise] [in this city]",
+			"Only available <if [Potential W-Y Altermind] is constructed>"
+		],
+		"quote": "'Explore the unreal horizons. Altermind.' - W-Y Altermind motto",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
-	// W-Y Subsidiary Franschise Buildings
+	// W-Y Subsidiary Franchise Buildings
 
+	*/
 	// Victory Buildings
 	{
 		"name": "Planetary Mindlink",
