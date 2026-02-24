@@ -3203,6 +3203,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [5] [Food]> <during a Golden Age>",
 			"Comment [Allows Superfoods Franchise buildings to be built in every city]",
 			"Gain a free [Superfoods Franchise] [in this city]",
 			"Only available <if [Potential Superfoods] is constructed>"
@@ -3210,7 +3211,7 @@
 		"quote": "'Superfoods - we make foods that taste out of this world!' - Superfoods motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Superfoods is a conglomeration of several food and nutrition-based corporations, whose products and services range from the most common nutrient packs to the most ritzy restaurants."
 			}
 		]
 	},
@@ -3224,6 +3225,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
 			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
 			"Gain a free [Pan Zoologics Franchise] [in this city]",
 			"Only available <if [Potential Pan Zoologics] is constructed>"
@@ -3231,7 +3233,7 @@
 		"quote": "'If it's animal companionship you seek, Pan Zoologics got it all.' - Pan Zoologics motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Pan Zoologics is a megacorporation that specializes in fauna-related matters, mostly in the agricultural sector."
 			}
 		]
 	},
@@ -3244,6 +3246,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
 			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
 			"Gain a free [DelverCo Franchise] [in this city]",
 			"Only available <if [Potential DelverCo] is constructed>"
@@ -3251,7 +3254,7 @@
 		"quote": "'Deep. Dark. Expansive. Reasonably priced.' - DelverCo motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Specializing in deep-crust mineral extraction, DelverCo chooses to not expand its reach to strategic mineral resources in order to avoid nationalization efforts by major factions."
 			}
 		]
 	},
@@ -3264,6 +3267,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
 			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
 			"Gain a free [Plouton Luxuries Franchise] [in this city]",
 			"Only available <if [Potential Plouton Luxuries] is constructed>"
@@ -3271,7 +3275,7 @@
 		"quote": "'We bring up tomorrow's luxuries straight into your hands.' - Plouton Luxuries motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Plouton Luxuries was a renowned brand name linked to high-end luxury goods in Old Earth before its collapse, and now they have been revived here - and they're thriving among the upper class."
 			}
 		]
 	},
@@ -3284,6 +3288,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [5] [Science]> <during a Golden Age>",
 			"Comment [Allows OgmaTech Franchise buildings to be built in every city]",
 			"Gain a free [OgmaTech Franchise] [in this city]",
 			"Only available <if [Potential OgmaTech] is constructed>"
@@ -3291,7 +3296,7 @@
 		"quote": "'Defining the bleeding edge of technology.' - OgmaTech motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "An innovative start-up that quickly became the leading tech manufacturer, OgmaTech still eagerly explores new avenues of scientific discovery."
 			}
 		]
 	},
@@ -3304,6 +3309,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
 			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
 			"Gain a free [Nootropia Franchise] [in this city]",
 			"Only available <if [Potential Nootropia] is constructed>"
@@ -3311,12 +3317,103 @@
 		"quote": "'Expand the horizons of your mind, with Nootropia!' - Nootropia motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "Initially a niche corporation catering to subcultures, Nootropia expanded its clientele and soon attracts a large following among the planet's more faithful populace."
 			}
 		]
 	},
 
 	// Megacorp Franchise Buildings
+	{
+		"name": "Superfoods Franchise",
+		"gold": 2,
+		"food": 2,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Food] from [Agricultural] tiles [in this city]",
+			"Only available <if [Superfoods HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Superfoods megacorporation."
+			}
+		]
+	},
+	{
+		"name": "Pan Zoologics Franchise",
+		"gold": 2,
+		"food": 1,
+		"production": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Food] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"Only available <if [Pan Zoologics HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Pan Zoologics megacorporation."
+			}
+		]
+	},
+	{
+		"name": "DelverCo Franchise",
+		"gold": 2,
+		"production": 2,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+2 Production] from every [Engineer] <in this city>",
+			"Only available <if [DelverCo HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the DelverCo megacorporation."
+			}
+		]
+	},
+	{
+		"name": "Plouton Luxuries Franchise",
+		"gold": 2,
+		"culture": 2,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Culture] from all [Culture] buildings <in this city>",
+			"Only available <if [Plouton Luxuries HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Plouton Luxuries megacorporation."
+			}
+		]
+	},
+	{
+		"name": "OgmaTech Franchise",
+		"gold": 2,
+		"science": 2,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+2 Science] from every [Scientist] <in this city>",
+			"Only available <if [OgmaTech HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the OgmaTech megacorporation."
+			}
+		]
+	},
+	{
+		"name": "Nootropia Franchise",
+		"gold": 2,
+		"faith": 2,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Faith] from all [Faith] buildings <in this city>",
+			"Only available <if [Nootropia HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Nootropia megacorporation."
+			}
+		]
+	},
 
 	// W-Y unique Subsidiary National Wonders
 	{
@@ -3330,6 +3427,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [10] [Food]> <during a Golden Age>",
 			"Comment [Allows W-Y Nutrimax Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Nutrimax Franchise] [in this city]",
 			"Only available <if [Potential W-Y Nutrimax] is constructed>"
@@ -3337,7 +3435,7 @@
 		"quote": "'Maximize your nutrition intake with Nutrimax!' - W-Y Nutrimax motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, Nutrimax corners the market in cheap but nutritious meal bars."
 			}
 		]
 	},
@@ -3353,6 +3451,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
 			"Gain a free [W-Y PetVet Franchise] [in this city]",
 			"Only available <if [Potential W-Y PetVet] is constructed>"
@@ -3360,7 +3459,7 @@
 		"quote": "'PetVet - the best xeno-organism healthcare on the planet.' - W-Y PetVet motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, PetVet offers affordable pet-oriented services."
 			}
 		]
 	},
@@ -3375,6 +3474,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Extractions Franchise] [in this city]",
 			"Only available <if [Potential W-Y Extractions] is constructed>"
@@ -3382,7 +3482,7 @@
 		"quote": "'Bringing you materials for your construction needs.' - W-Y Extractions motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, W-Y Extractions focuses on quality construction materials."
 			}
 		]
 	},
@@ -3397,6 +3497,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Glitterati Franchise] [in this city]",
 			"Only available <if [Potential W-Y Glitterati] is constructed>"
@@ -3404,7 +3505,7 @@
 		"quote": "'Become a celebrity. Become Glitterati.' - W-Y Glitterati motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, Glitterati's products allow the upper-middle class a taste of the glam culture - at an affordable price."
 			}
 		]
 	},
@@ -3419,6 +3520,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [10] [Science]> <during a Golden Age>",
 			"Comment [Allows W-Y Cerebro Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Cerebro Franchise] [in this city]",
 			"Only available <if [Potential W-Y Cerebro] is constructed>"
@@ -3426,7 +3528,7 @@
 		"quote": "'Think smart - think Cerebro.' - W-Y Cerebro motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, Cerebro excels in the education and learning sectors, consistently being the go-to edu-holo producer."
 			}
 		]
 	},
@@ -3441,6 +3543,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Altermind Franchise] [in this city]",
 			"Only available <if [Potential W-Y Altermind] is constructed>"
@@ -3448,12 +3551,102 @@
 		"quote": "'Explore the unreal horizons. Altermind.' - W-Y Altermind motto",
 		"civilopediaText": [
 			{
-				"text": "."
+				"text": "A subsidiary of Walpole-Yuen, Altermind started as a foray into experimental holo-entertainment that expanded into a larger cult following."
 			}
 		]
 	},
 
 	// W-Y Subsidiary Franchise Buildings
+	{
+		"name": "W-Y Nutrimax Franchise",
+		"gold": 1,
+		"food": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Food] from all [Food] buildings <in this city>",
+			"Only available <if [W-Y Nutrimax HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen Nutrimax subsidiary."
+			}
+		]
+	},
+	{
+		"name": "W-Y PetVet Franchise",
+		"gold": 1,
+		"food": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"Only available <if [W-Y PetVet HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen PetVet subsidiary."
+			}
+		]
+	},
+	{
+		"name": "W-Y Extractions Franchise",
+		"gold": 1,
+		"production": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Gold] from all [Production] buildings <in this city>",
+			"Only available <if [W-Y Extractions HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen Extractions subsidiary."
+			}
+		]
+	},
+	{
+		"name": "W-Y Glitterati Franchise",
+		"gold": 1,
+		"culture": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Gold] per [3] population [in this city]",
+			"Only available <if [W-Y Glitterati HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen Glitterati subsidiary."
+			}
+		]
+	},
+	{
+		"name": "W-Y Cerebro Franchise",
+		"gold": 1,
+		"science": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Science] from all [Science] buildings <in this city>",
+			"Only available <if [W-Y Cerebro HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen Cerebro subsidiary."
+			}
+		]
+	},
+	{
+		"name": "W-Y Altermind Franchise",
+		"gold": 1,
+		"faith": 1,
+		"requiredTech": "Cryptocurrency",
+		"uniques": [
+			"[+1 Faith] per [5] population [in this city]",
+			"Only available <if [W-Y Altermind HQ] is constructed by anybody>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A franchise of the Walpole-Yuen Altermind subsidiary."
+			}
+		]
+	},
 
 	*/
 	// Victory Buildings
