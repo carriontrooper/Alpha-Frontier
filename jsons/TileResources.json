@@ -55,6 +55,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
+			"Megacorp Faith",
 			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [10] tiles <in [{Featureless} {Mycelium}] tiles>",
@@ -253,6 +254,7 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
+			"Megacorp Mineral",
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
@@ -281,6 +283,7 @@
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Mineral",
+			"Megacorp Mineral",
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
@@ -342,6 +345,7 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
+			"Megacorp Mineral",
 			"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
@@ -369,6 +373,7 @@
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Mineral",
+			"Megacorp Mineral",
 			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
@@ -397,6 +402,7 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
+			"Megacorp Mineral",
 			"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>"
@@ -425,6 +431,7 @@
 		"improvementStats": { "gold": 1, "production": 1 },
 		"uniques": [
 			"Mineral",
+			"Megacorp Mineral",
 			"Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -486,6 +493,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
+			"Megacorp Cultural",
 			"Generated on every [15] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"civilopediaText": [
@@ -611,6 +619,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
+			"Megacorp Faith",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [10] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -660,6 +669,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
+			"Megacorp Faith",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Forest] Regions>",
@@ -709,6 +719,7 @@
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Organic",
+			"Megacorp Faith",
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Forest] Regions>",
@@ -753,6 +764,7 @@
 			"Organic",
 			"Flora",
 			"Gemlike",
+			"Megacorp Cultural",
 			"Generated with weight [30] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Grassland] Regions>",
@@ -838,6 +850,7 @@
 		"uniques": [
 			"Mineral",
 			"Metallic",
+			"Megacorp Cultural",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -877,6 +890,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
+			"Megacorp Faith",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -916,6 +930,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
+			"Megacorp Cultural",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -955,6 +970,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
+			"Megacorp Faith",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -1019,6 +1035,7 @@
 		"uniques": [
 			"Mineral",
 			"Gemlike",
+			"Megacorp Cultural",
 			"Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		],
 		"civilopediaText": [
@@ -1087,6 +1104,7 @@
 		"uniques": [
 			"Organic",
 			"Flora",
+			"Megacorp Faith",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
