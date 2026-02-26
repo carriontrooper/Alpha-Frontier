@@ -22,7 +22,7 @@
 		"Instantly provides [1] [Xeno-Artifact] <with [10]% chance> <for [Major] Civilizations> <with [Artifacts]> <upon turn start> <when [Cultural] Victory is enabled>"
 
 		// Monopoly and Megacorp stuff
-		/*
+		
 		// Monopoly status gain
 		"Gain a free [Hydromielin Monopoly] [in capital] <when number of [Owned [{improved} {Hydromielin}] Tiles] is more than [[[Hydromielin] Tiles] / 2]> <if [Hydromielin Monopoly] is not constructed>",
 		"Gain a free [Spice Monopoly] [in capital] <when number of [Owned [{improved} {Spice}] Tiles] is more than [[[Spice] Tiles] / 2]> <if [Spice Monopoly] is not constructed>",
@@ -198,6 +198,6 @@
 		"Remove [Potential W-Y Glitterati] [in capital] <if [W-Y Glitterati HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
 		"Remove [Potential W-Y Cerebro] [in capital] <if [W-Y Cerebro HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>",
 		"Remove [Potential W-Y Altermind] [in capital] <if [W-Y Altermind HQ] is constructed by anybody> <for [Walpole-Yuen Inc] Civilizations>"
-		*/
+		
 	]
 }
