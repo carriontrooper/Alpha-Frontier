@@ -3852,6 +3852,391 @@
 			"Will not be displayed in Civilopedia"
 		],
 	},
-
+/*
 	// monopoly hidden buildings
+	{
+		"name": "Hydromielin Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Spice Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Spice Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Sindrian Lobster Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Tubers Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Fungi Pods Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Exotic Fruits Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Rockbud Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Algae Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Plankton Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Snuffets Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Chitin Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Dairy Aphid Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Sea Slivers Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Hexanite Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Basalt Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Aluminum Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Phostlite Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Redstone Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Vents Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Ruby Cactus Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Benthic Orbs Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Gold Ore Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Jadonyx Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Seasilk Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Artifacts Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Flowers of Silence Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Silica Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Ice-10 Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Stimulants Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Kaibir Crystals Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Harmonix Crystals Monopoly",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	}
+*/
 ]
