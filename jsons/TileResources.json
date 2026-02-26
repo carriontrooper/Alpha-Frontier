@@ -1656,7 +1656,7 @@
     },
 
 	//megacorp stocks
-	/*
+	
 	{
 		"name": "SUFO Stock",
 		"resourceType": "Strategic",
@@ -1735,10 +1735,10 @@
 			{ "text": "The stock shares of the megacorp, Nootropia." }
 		]
 	},
-	*/
+	
 
 	//subsidiary stocks
-	/*
+	
 	{
 		"name": "WYNM Stock",
 		"resourceType": "Strategic",
@@ -1817,7 +1817,7 @@
 			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Altermind." }
 		]
 	},
-	*/
+	
 	
 	//hidden resources
 	{
