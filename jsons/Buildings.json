@@ -3226,7 +3226,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
 			"Gain a free [Pan Zoologics Franchise] [in this city]",
 			"Provides [5] [PZOO Stock]",
@@ -3248,7 +3248,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
 			"Gain a free [DelverCo Franchise] [in this city]",
 			"Provides [5] [DVCO Stock]",
@@ -3270,7 +3270,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
 			"Gain a free [Plouton Luxuries Franchise] [in this city]",
 			"Provides [5] [PLUX Stock]",
@@ -3314,7 +3314,7 @@
 		"isWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
 			"Gain a free [Nootropia Franchise] [in this city]",
 			"Provides [5] [NOOT Stock]",
@@ -3351,7 +3351,7 @@
 		"production": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Food] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"[+1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [Pan Zoologics HQ] is constructed by anybody>"
 		],
 		"civilopediaText": [
@@ -3458,7 +3458,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
 			"Gain a free [W-Y PetVet Franchise] [in this city]",
 			"Provides [5] [WYPV Stock]",
@@ -3482,7 +3482,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
+			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Extractions Franchise] [in this city]",
 			"Provides [5] [WYEX Stock]",
@@ -3506,7 +3506,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Glitterati Franchise] [in this city]",
 			"Provides [5] [WYGL Stock]",
@@ -3554,7 +3554,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Altermind Franchise] [in this city]",
 			"Provides [5] [WYAM Stock]",
@@ -3590,7 +3590,7 @@
 		"food": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [W-Y PetVet HQ] is constructed by anybody>"
 		],
 		"civilopediaText": [
