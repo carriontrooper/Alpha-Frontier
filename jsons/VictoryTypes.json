@@ -1,7 +1,7 @@
 [
     {
         "name": "Scientific",
-        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "victoryScreenHeader": "Complete all the spaceship parts\nand send them off to space from your capital\nto win!",
         "milestones": [
             "Build [FTL Seedship Program]", "Add all [spaceship parts] in capital"
         ],
