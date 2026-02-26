@@ -3201,6 +3201,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [5] [Food]> <during a Golden Age>",
@@ -3224,6 +3225,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
@@ -3246,6 +3248,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
@@ -3268,6 +3271,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
@@ -3290,6 +3294,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [5] [Science]> <during a Golden Age>",
@@ -3312,6 +3317,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
@@ -3431,6 +3437,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [10] [Food]> <during a Golden Age>",
@@ -3456,6 +3463,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
@@ -3480,6 +3488,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
@@ -3504,6 +3513,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
@@ -3528,6 +3538,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [10] [Science]> <during a Golden Age>",
@@ -3552,6 +3563,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
