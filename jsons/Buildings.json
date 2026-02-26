@@ -4237,6 +4237,154 @@
 			"Moves to new capital when capital changes",
 			"Will not be displayed in Civilopedia"
 		],
+	},
+
+	// potential megacorps
+	{
+		"name": "Potential Superfoods",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Pan Zoologics",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential DelverCo",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Plouton Luxuries",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential OgmaTech",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Nootropia",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+
+	// potential subsidiaries
+	{
+		"name": "Potential W-Y Nutrimax",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y PetVet",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Extractions",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Glitterati",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Cerebro",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Altermind",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
 	}
 
 ]
