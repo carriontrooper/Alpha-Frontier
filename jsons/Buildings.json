@@ -3206,6 +3206,7 @@
 			"[+1 Gold] <for every [5] [Food]> <during a Golden Age>",
 			"Comment [Allows Superfoods Franchise buildings to be built in every city]",
 			"Gain a free [Superfoods Franchise] [in this city]",
+			"Provides [5] [SUFO Stock]",
 			"Only available <if [Potential Superfoods] is constructed>"
 		],
 		"quote": "'Superfoods - we make foods that taste out of this world!' - Superfoods motto",
@@ -3228,6 +3229,7 @@
 			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
 			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
 			"Gain a free [Pan Zoologics Franchise] [in this city]",
+			"Provides [5] [PZOO Stock]",
 			"Only available <if [Potential Pan Zoologics] is constructed>"
 		],
 		"quote": "'If it's animal companionship you seek, Pan Zoologics got it all.' - Pan Zoologics motto",
@@ -3249,6 +3251,7 @@
 			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
 			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
 			"Gain a free [DelverCo Franchise] [in this city]",
+			"Provides [5] [DVCO Stock]",
 			"Only available <if [Potential DelverCo] is constructed>"
 		],
 		"quote": "'Deep. Dark. Expansive. Reasonably priced.' - DelverCo motto",
@@ -3270,6 +3273,7 @@
 			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
 			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
 			"Gain a free [Plouton Luxuries Franchise] [in this city]",
+			"Provides [5] [PLUX Stock]",
 			"Only available <if [Potential Plouton Luxuries] is constructed>"
 		],
 		"quote": "'We bring up tomorrow's luxuries straight into your hands.' - Plouton Luxuries motto",
@@ -3291,6 +3295,7 @@
 			"[+1 Gold] <for every [5] [Science]> <during a Golden Age>",
 			"Comment [Allows OgmaTech Franchise buildings to be built in every city]",
 			"Gain a free [OgmaTech Franchise] [in this city]",
+			"Provides [5] [OGMA Stock]",
 			"Only available <if [Potential OgmaTech] is constructed>"
 		],
 		"quote": "'Defining the bleeding edge of technology.' - OgmaTech motto",
@@ -3312,6 +3317,7 @@
 			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
 			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
 			"Gain a free [Nootropia Franchise] [in this city]",
+			"Provides [5] [NOOT Stock]",
 			"Only available <if [Potential Nootropia] is constructed>"
 		],
 		"quote": "'Expand the horizons of your mind, with Nootropia!' - Nootropia motto",
@@ -3430,6 +3436,7 @@
 			"[+1 Gold] <for every [10] [Food]> <during a Golden Age>",
 			"Comment [Allows W-Y Nutrimax Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Nutrimax Franchise] [in this city]",
+			"Provides [5] [WYNM Stock]",
 			"Only available <if [Potential W-Y Nutrimax] is constructed>"
 		],
 		"quote": "'Maximize your nutrition intake with Nutrimax!' - W-Y Nutrimax motto",
@@ -3454,6 +3461,7 @@
 			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
 			"Gain a free [W-Y PetVet Franchise] [in this city]",
+			"Provides [5] [WYPV Stock]",
 			"Only available <if [Potential W-Y PetVet] is constructed>"
 		],
 		"quote": "'PetVet - the best xeno-organism healthcare on the planet.' - W-Y PetVet motto",
@@ -3477,6 +3485,7 @@
 			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Extractions Franchise] [in this city]",
+			"Provides [5] [WYEX Stock]",
 			"Only available <if [Potential W-Y Extractions] is constructed>"
 		],
 		"quote": "'Bringing you materials for your construction needs.' - W-Y Extractions motto",
@@ -3500,6 +3509,7 @@
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Glitterati Franchise] [in this city]",
+			"Provides [5] [WYGL Stock]",
 			"Only available <if [Potential W-Y Glitterati] is constructed>"
 		],
 		"quote": "'Become a celebrity. Become Glitterati.' - W-Y Glitterati motto",
@@ -3523,6 +3533,7 @@
 			"[+1 Gold] <for every [10] [Science]> <during a Golden Age>",
 			"Comment [Allows W-Y Cerebro Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Cerebro Franchise] [in this city]",
+			"Provides [5] [WYCB Stock]",
 			"Only available <if [Potential W-Y Cerebro] is constructed>"
 		],
 		"quote": "'Think smart - think Cerebro.' - W-Y Cerebro motto",
@@ -3546,6 +3557,7 @@
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
 			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Altermind Franchise] [in this city]",
+			"Provides [5] [WYAM Stock]",
 			"Only available <if [Potential W-Y Altermind] is constructed>"
 		],
 		"quote": "'Explore the unreal horizons. Altermind.' - W-Y Altermind motto",
