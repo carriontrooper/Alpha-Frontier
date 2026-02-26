@@ -3852,7 +3852,7 @@
 			"Will not be displayed in Civilopedia"
 		],
 	},
-/*
+
 	// monopoly hidden buildings
 	{
 		"name": "Hydromielin Monopoly",
@@ -4238,5 +4238,5 @@
 			"Will not be displayed in Civilopedia"
 		],
 	}
-*/
+
 ]
