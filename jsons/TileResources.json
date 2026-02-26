@@ -1658,7 +1658,7 @@
 	//megacorp stocks
 	/*
 	{
-		"name": "SFI Stock",
+		"name": "SUFO Stock",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",
@@ -1697,7 +1697,7 @@
 		]
 	},
 	{
-		"name": "PLL Stock",
+		"name": "PLUX Stock",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",
