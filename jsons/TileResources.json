@@ -1656,7 +1656,7 @@
     },
 
 	//megacorp stocks
-	/*
+	
 	{
 		"name": "SUFO Stock",
 		"resourceType": "Strategic",
@@ -1667,7 +1667,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "The stock shares of the megacorp, Superfoods Inc." }
+			{ "text": "The stock shares of the megacorp, Superfoods." }
 		]
 	},
 	{
@@ -1676,11 +1676,11 @@
 		"uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen <if [Pan Zoologicals HQ] is not constructed>",
+			"Not shown on world screen <if [Pan Zoologics HQ] is not constructed>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "The stock shares of the megacorp, Pan Zoologicals." }
+			{ "text": "The stock shares of the megacorp, Pan Zoologics." }
 		]
 	},
 	{
@@ -1689,7 +1689,7 @@
 		"uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen <if [Delver Co HQ] is not constructed>",
+			"Not shown on world screen <if [DelverCo HQ] is not constructed>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
@@ -1735,10 +1735,10 @@
 			{ "text": "The stock shares of the megacorp, Nootropia." }
 		]
 	},
-	*/
+	
 
 	//subsidiary stocks
-	/*
+	
 	{
 		"name": "WYNM Stock",
 		"resourceType": "Strategic",
@@ -1817,7 +1817,7 @@
 			{ "text": "The stock shares of the Walpole-Yuen subsidiary, Altermind." }
 		]
 	},
-	*/
+	
 	
 	//hidden resources
 	{

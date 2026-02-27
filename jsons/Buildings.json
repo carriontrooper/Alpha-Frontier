@@ -3192,7 +3192,7 @@
 		]
 	},
 
-	/*
+	
 	// Megacorp HQ Wonders
 	{
 		"name": "Superfoods HQ",
@@ -3201,6 +3201,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [5] [Food]> <during a Golden Age>",
@@ -3224,9 +3225,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
 			"Gain a free [Pan Zoologics Franchise] [in this city]",
 			"Provides [5] [PZOO Stock]",
@@ -3246,9 +3248,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
 			"Gain a free [DelverCo Franchise] [in this city]",
 			"Provides [5] [DVCO Stock]",
@@ -3268,9 +3271,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
 			"Gain a free [Plouton Luxuries Franchise] [in this city]",
 			"Provides [5] [PLUX Stock]",
@@ -3290,6 +3294,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [5] [Science]> <during a Golden Age>",
@@ -3312,9 +3317,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
+			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
 			"Gain a free [Nootropia Franchise] [in this city]",
 			"Provides [5] [NOOT Stock]",
@@ -3351,7 +3357,7 @@
 		"production": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Food] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"[+1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [Pan Zoologics HQ] is constructed by anybody>"
 		],
 		"civilopediaText": [
@@ -3431,6 +3437,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [10] [Food]> <during a Golden Age>",
@@ -3456,9 +3463,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
 			"Gain a free [W-Y PetVet Franchise] [in this city]",
 			"Provides [5] [WYPV Stock]",
@@ -3480,9 +3488,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] tile]> <during a Golden Age>",
+			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Extractions Franchise] [in this city]",
 			"Provides [5] [WYEX Stock]",
@@ -3504,9 +3513,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Glitterati Franchise] [in this city]",
 			"Provides [5] [WYGL Stock]",
@@ -3528,6 +3538,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"[+1 Gold] <for every [10] [Science]> <during a Golden Age>",
@@ -3552,9 +3563,10 @@
 		"specialistSlots": { "Merchant": 1 },
 		"greatPersonPoints": { "Great Merchant": 2 },
 		"isNationalWonder": true,
+		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] tile]> <during a Golden Age>",
+			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Altermind Franchise] [in this city]",
 			"Provides [5] [WYAM Stock]",
@@ -3590,7 +3602,7 @@
 		"food": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"[+1 Gold] <for every [Owned [{improved} {Fauna}] tile]> <in this city>",
+			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [W-Y PetVet HQ] is constructed by anybody>"
 		],
 		"civilopediaText": [
@@ -3660,7 +3672,7 @@
 		]
 	},
 
-	*/
+	
 	// Victory Buildings
 	{
 		"name": "Planetary Mindlink",
@@ -3852,7 +3864,7 @@
 			"Will not be displayed in Civilopedia"
 		],
 	},
-/*
+
 	// monopoly hidden buildings
 	{
 		"name": "Hydromielin Monopoly",
@@ -4237,6 +4249,154 @@
 			"Moves to new capital when capital changes",
 			"Will not be displayed in Civilopedia"
 		],
+	},
+
+	// potential megacorps
+	{
+		"name": "Potential Superfoods",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Pan Zoologics",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential DelverCo",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Plouton Luxuries",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential OgmaTech",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential Nootropia",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+
+	// potential subsidiaries
+	{
+		"name": "Potential W-Y Nutrimax",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y PetVet",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Extractions",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Glitterati",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Cerebro",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Potential W-Y Altermind",
+		"maintenance": 0,
+		"requiredTech": "Old Earth Knowledge",
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Will not be displayed in Civilopedia"
+		],
 	}
-*/
+
 ]
