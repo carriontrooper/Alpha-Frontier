@@ -1659,9 +1659,8 @@
 	
 	{
 		"name": "SUFO Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [Superfoods HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1672,9 +1671,8 @@
 	},
 	{
 		"name": "PZOO Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [Pan Zoologics HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1685,9 +1683,8 @@
 	},
 	{
 		"name": "DVCO Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [DelverCo HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1698,9 +1695,8 @@
 	},
 	{
 		"name": "PLUX Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [Plouton Luxuries HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1711,9 +1707,8 @@
 	},
 	{
 		"name": "OGMA Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [OgmaTech HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1724,9 +1719,8 @@
 	},
 	{
 		"name": "NOOT Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [Nootropia HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1741,9 +1735,8 @@
 	
 	{
 		"name": "WYNM Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y Nutrimax HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1754,9 +1747,8 @@
 	},
 	{
 		"name": "WYPV Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y PetVet HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1767,9 +1759,8 @@
 	},
 	{
 		"name": "WYEX Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y Extractions HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1780,9 +1771,8 @@
 	},
 	{
 		"name": "WYGL Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y Glitterati HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1793,9 +1783,8 @@
 	},
 	{
 		"name": "WYCB Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y Cerebro HQ] is not constructed>",
 			"Doesn't generate naturally"
@@ -1806,9 +1795,8 @@
 	},
 	{
 		"name": "WYAM Stock",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
-			"Stockpiled",
 			"Excluded from map editor",
 			"Not shown on world screen <if [W-Y Altermind HQ] is not constructed>",
 			"Doesn't generate naturally"
