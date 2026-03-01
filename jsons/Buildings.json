@@ -3204,6 +3204,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>", //only one megacorp per faction!
 			"[+1 Gold] <for every [5] [Food]> <during a Golden Age>",
 			"Comment [Allows Superfoods Franchise buildings to be built in every city]",
 			"Gain a free [Superfoods Franchise] [in this city]",
@@ -3228,6 +3230,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>",
 			"[+1 Gold, +1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Pan Zoologics Franchise buildings to be built in every city]",
 			"Gain a free [Pan Zoologics Franchise] [in this city]",
@@ -3251,6 +3255,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>",
 			"[+1 Gold, +1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows DelverCo Franchise buildings to be built in every city]",
 			"Gain a free [DelverCo Franchise] [in this city]",
@@ -3274,6 +3280,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>",
 			"[+1 Gold, +1 Culture] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Plouton Luxuries Franchise buildings to be built in every city]",
 			"Gain a free [Plouton Luxuries Franchise] [in this city]",
@@ -3297,6 +3305,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>",
 			"[+1 Gold] <for every [5] [Science]> <during a Golden Age>",
 			"Comment [Allows OgmaTech Franchise buildings to be built in every city]",
 			"Gain a free [OgmaTech Franchise] [in this city]",
@@ -3320,6 +3330,8 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Megacorp HQ",
+			"Unavailable <if [Megacorp HQ] is constructed>",
 			"[+1 Gold, +1 Faith] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows Nootropia Franchise buildings to be built in every city]",
 			"Gain a free [Nootropia Franchise] [in this city]",
