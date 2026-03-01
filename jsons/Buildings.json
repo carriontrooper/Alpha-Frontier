@@ -3353,6 +3353,7 @@
 		"food": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Food] from [Agricultural] tiles [in this city]",
 			"Only available <if [Superfoods HQ] is constructed by anybody>"
 		],
@@ -3369,6 +3370,7 @@
 		"production": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Food] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [Pan Zoologics HQ] is constructed by anybody>"
 		],
@@ -3384,6 +3386,7 @@
 		"production": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+2 Production] from every [Engineer] <in this city>",
 			"Only available <if [DelverCo HQ] is constructed by anybody>"
 		],
@@ -3399,6 +3402,7 @@
 		"culture": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Culture] from all [Culture] buildings <in this city>",
 			"Only available <if [Plouton Luxuries HQ] is constructed by anybody>"
 		],
@@ -3414,6 +3418,7 @@
 		"science": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+2 Science] from every [Scientist] <in this city>",
 			"Only available <if [OgmaTech HQ] is constructed by anybody>"
 		],
@@ -3429,6 +3434,7 @@
 		"faith": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Faith] from all [Faith] buildings <in this city>",
 			"Only available <if [Nootropia HQ] is constructed by anybody>"
 		],
@@ -3452,6 +3458,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Gold] <for every [10] [Food]> <during a Golden Age>",
 			"Comment [Allows W-Y Nutrimax Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Nutrimax Franchise] [in this city]",
@@ -3478,6 +3485,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y PetVet Franchise buildings to be built in every city]",
 			"Gain a free [W-Y PetVet Franchise] [in this city]",
@@ -3503,6 +3511,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Production] <for every [Owned [{improved} {Megacorp Mineral}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Extractions Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Extractions Franchise] [in this city]",
@@ -3528,6 +3537,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Cultural}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Glitterati Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Glitterati Franchise] [in this city]",
@@ -3553,6 +3563,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Gold] <for every [10] [Science]> <during a Golden Age>",
 			"Comment [Allows W-Y Cerebro Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Cerebro Franchise] [in this city]",
@@ -3578,6 +3589,7 @@
 		"requiredBuilding": "Stock Exchange",
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Subsidiary HQ",
 			"[+1 Gold] <for every [Owned [{improved} {Megacorp Faith}] Tiles]> <during a Golden Age>",
 			"Comment [Allows W-Y Altermind Franchise buildings to be built in every city]",
 			"Gain a free [W-Y Altermind Franchise] [in this city]",
@@ -3599,6 +3611,7 @@
 		"food": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Food] from all [Food] buildings <in this city>",
 			"Only available <if [W-Y Nutrimax HQ] is constructed by anybody>"
 		],
@@ -3614,6 +3627,7 @@
 		"food": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Gold] <for every [Owned [{improved} {Fauna}] Tiles]> <in this city>",
 			"Only available <if [W-Y PetVet HQ] is constructed by anybody>"
 		],
@@ -3629,6 +3643,7 @@
 		"production": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Gold] from all [Production] buildings <in this city>",
 			"Only available <if [W-Y Extractions HQ] is constructed by anybody>"
 		],
@@ -3644,6 +3659,7 @@
 		"culture": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Gold] per [3] population [in this city]",
 			"Only available <if [W-Y Glitterati HQ] is constructed by anybody>"
 		],
@@ -3659,6 +3675,7 @@
 		"science": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Science] from all [Science] buildings <in this city>",
 			"Only available <if [W-Y Cerebro HQ] is constructed by anybody>"
 		],
@@ -3674,6 +3691,7 @@
 		"faith": 1,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
+			"Franchise",
 			"[+1 Faith] per [5] population [in this city]",
 			"Only available <if [W-Y Altermind HQ] is constructed by anybody>"
 		],
