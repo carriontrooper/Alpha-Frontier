@@ -57,6 +57,11 @@
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
 		"outerColor": [85, 85, 85],
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "ReligionName",
