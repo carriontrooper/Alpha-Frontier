@@ -175,6 +175,13 @@
 		"declaringFriendship": "It is highly logical to choose you, relationship-wise.",
 		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
 
+		"neutralDenouncing": "Based on the information I've received, it would be logical to denounce you at this moment.",
+		"hateDenouncing": "The facts support it, you are highly recommended for a denounciation.",
+		
+		"acceptingDemand": "Very well. This is passably logical.",
+		"neutralRejectingDemand": "I am sorry, I do not see the logic in this demand. Rejected.",
+		"hateRejectingDemand": "It is clear that this entire deal is illogical. No.",
+
 		"outerColor": [126, 192, 253],
 		"innerColor": [85, 85, 85],
 		"favoredReligion": "Virtualism",
@@ -243,6 +250,13 @@
 		"denounced": "Oy oy oy, now thassa just rude!",
 		"declaringFriendship": "I got a feelin' that you'd be a good bestie, mate.",
 		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
+
+		"neutralDenouncing": "No hard feelin', but your respec' is dippin' low.",
+		"hateDenouncing": "Ach, so you were low-beltin', like I thought!.",
+		
+		"acceptingDemand": "Yeh, sure mate.",
+		"neutralRejectingDemand": "Nah, not interested right now.",
+		"hateRejectingDemand": "Nope! Why'd you think this even has a chance?",
 /*
 		"outerColor": [240, 199, 36],
 		"innerColor": [255, 125, 3],
@@ -311,6 +325,13 @@
 		"declaringFriendship": "For what's it worth, you're one of us diggers.",
 		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
 
+		"neutralDenouncing": "Sorry, but we've decided we don't like you no more.",
+		"hateDenouncing": "Seems like you dug your reputation too deep, you grubby git!",
+		
+		"acceptingDemand": "That's alright with us.",
+		"neutralRejectingDemand": "You got nothing to dig at, here.",
+		"hateRejectingDemand": "No deal. Get out of here.",
+
 		"outerColor": [217, 56, 7],
 		"innerColor": [255, 218, 31],
 		"favoredReligion": "Cosmic Clergy",
@@ -374,6 +395,13 @@
 		"denounced": "What, our terms and services too tough for you?",
 		"declaringFriendship": "We look forward to a very profitable relationship with you.",
 		"tradeRequest": "We would like to open up a trade opportunity with you.",
+
+		"neutralDenouncing": "We regrettably have to terminate our 'good standing' policy with you.",
+		"hateDenouncing": "We effectively terminate your usefulness rating to us, immediately.",
+		
+		"acceptingDemand": "This is good. Deal.",
+		"neutralRejectingDemand": "Apologies, but not at this moment, no.",
+		"hateRejectingDemand": "Did you really think this through? Of course not.",
 
 		"outerColor": [77, 77, 77],
 		"innerColor": [245, 184, 0],
@@ -443,6 +471,13 @@
 		"denounced": "This is disheartening, but I hope this won't last.",
 		"declaringFriendship": "Why don't we build a healthy relationship together?",
 		"tradeRequest": "We think these will aid both of us.",
+
+		"neutralDenouncing": "I'm afraid we must cut ties with you right now.",
+		"hateDenouncing": "The others say you're making the world worse, and I agree.",
+		
+		"acceptingDemand": "Yes, gladly!",
+		"neutralRejectingDemand": "I'm sorry, but we can't do this right now.",
+		"hateRejectingDemand": "Despite my own code to help others, you are really beyond help.",
 /*
 		"outerColor": [110, 44, 171],
 		"innerColor": [2, 161, 25],
@@ -510,6 +545,13 @@
 		"declaringFriendship": "Interesting, this concept of 'friendship'. You may call me your friend.",
 		"tradeRequest": "Perhaps some trade would be in order.",
 
+		"neutralDenouncing": "Due to circumstances, diplomatic relations have been cut. I hope you understand.",
+		"hateDenouncing": "Diplomatic relations cut. I'm surprised I didn't do this earlier.",
+		
+		"acceptingDemand": "Demand accepted.",
+		"neutralRejectingDemand": "Demand denied.",
+		"hateRejectingDemand": "Demand denied. What did you expect?",
+
 		"outerColor": [230, 243, 245],
 		"innerColor": [22, 116, 204],
 		"favoredReligion": "Mekhaneites",
@@ -575,6 +617,13 @@
 		"declaringFriendship": "We share a mutual desire. Are we in agreement?",
 		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
 
+		"neutralDenouncing": "Be warned that you have been flagged in our files. Tread carefully.",
+		"hateDenouncing": "We've found yet another reason to discredit you. So we will.",
+		
+		"acceptingDemand": "Acknowledged. This is acceptable.",
+		"neutralRejectingDemand": "Proposal rejected.",
+		"hateRejectingDemand": "Proposal rejected with prejudice. I'd put my firewalls up if I were you.",
+
 		"outerColor": [43, 55, 66],
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Virtualism",
@@ -638,6 +687,13 @@
 		"denounced": "The little dog finally dared to bark.",
 		"declaringFriendship": "You have your... uses. I will tolerate you.",
 		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
+
+		"neutralDenouncing": "You have ceased to be... useful, to me.",
+		"hateDenouncing": "Wretched thing, you are barely a threat to me.",
+		
+		"acceptingDemand": "I find this... acceptable.",
+		"neutralRejectingDemand": "This is not acceptable.",
+		"hateRejectingDemand": "My answer is never, you wretch.",
 /*
 		"outerColor": [109, 145, 145],
 		"innerColor": [209, 50, 50],
@@ -713,6 +769,13 @@
 		"declaringFriendship": "Ahh, like a field of flowers, friendship blooms beautifully!",
 		"tradeRequest": "It seems like a great time for an exchange, wouldn't you agree?",
 
+		"neutralDenouncing": "Ah, sorry, but you've became outmoded. Ta-ta!",
+		"hateDenouncing": "Turns out I am correct - you have an atrocious sense of fashion.",
+		
+		"acceptingDemand": "Oui, alright.",
+		"neutralRejectingDemand": "Non, this will clash with my aesthetics.",
+		"hateRejectingDemand": "Non non non. You clearly do not know how to demand things tastefully.",
+
 		"outerColor": [138, 51, 189],
 		"innerColor": [255, 179, 252],
 		"favoredReligion": "Neo-Monolith",
@@ -776,6 +839,13 @@
 		"denounced": "Your words are like sand in the wind, in the face of our beliefs.",
 		"declaringFriendship": "I extend a hand of friendship to a fellow traveler.",
 		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
+
+		"neutralDenouncing": "Your shadow grows dark, and so we must distance ourselves.",
+		"hateDenouncing": "You have crossed a line in the sand, that we cannot deny.",
+		
+		"acceptingDemand": "Yes, as sure as the oasis.",
+		"neutralRejectingDemand": "This will lead to dark paths, so we must say no.",
+		"hateRejectingDemand": "Your path is as dark as it is. We want no part in this.",
 /*
 		"outerColor": [201, 175, 113],
 		"innerColor": [255, 246, 212],
@@ -844,6 +914,13 @@
 		"declaringFriendship": "Oho, our little friends seem to like you! You seem to be someone I can trust.",
 		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
 
+		"neutralDenouncing": "Sorry, but Snappy don't like you no more.",
+		"hateDenouncing": "What's that, Snappy? They're as foul as they smell? I agree!",
+		
+		"acceptingDemand": "Oho, good!",
+		"neutralRejectingDemand": "Ah, nah... Snappy wouldn't like it.",
+		"hateRejectingDemand": "You trying to make Snappy cry with this demand?",
+
 		"outerColor": [164, 196, 88],
 		"innerColor": [128, 36, 156],
 		"favoredReligion": "Xenocult",
@@ -907,6 +984,13 @@
 		"denounced": "Know that you go against Humanity itself.",
 		"declaringFriendship": "You prove to be a good equal, humanity wills it!",
 		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
+
+		"neutralDenouncing": "Why have you strayed from the path of Humanity?",
+		"hateDenouncing": "You are barely human anymore, and I loathe you so.",
+		
+		"acceptingDemand": "Ave, true to Imperator.",
+		"neutralRejectingDemand": "This ill suits Imperio di Uomo.",
+		"hateRejectingDemand": "You dare push this paltry demand to me, Imperator Cain Stalia?!",
 
 		"outerColor": [255, 136, 0],
 		"innerColor": [70, 90, 50],
@@ -972,6 +1056,13 @@
 		"declaringFriendship": "I'll be glad to sort this friendship agreement for you!",
 		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
 
+		"neutralDenouncing": "Your recent diplomatic papers are concerning, so we have to cut relations for the moment.",
+		"hateDenouncing": "Honestly, I don't know why we still keep a diplomatic channel with you, it's such a hassle. So we're shutting it down.",
+		
+		"acceptingDemand": "Accepted, and signed in triplicate!",
+		"neutralRejectingDemand": "Ah, sorry, this won't meet the requirement of form 34-A.",
+		"hateRejectingDemand": "Sorry, but no - no matter how many forms you fill.",
+
 		"outerColor": [130, 224, 16],
 		"innerColor": [53, 99, 0],
 		"favoredReligion": "Solar Mass",
@@ -1035,6 +1126,13 @@
 		"denounced": "Look, di liar show dem true colors!",
 		"declaringFriendship": "Yuh nuh dat bad, eh.",
 		"tradeRequest": "What say ou, to put price on dis loot?",
+
+		"neutralDenouncing": "Wi no like yuh no more.",
+		"hateDenouncing": "Wi really hate yuh, ya bumbaclot.",
+		
+		"acceptingDemand": "This a one good deal!",
+		"neutralRejectingDemand": "No, dis nuh fill wi needs.",
+		"hateRejectingDemand": "Yuh a try scam wi wid dis? No!",
 
 		"outerColor": [146, 222, 182],
 		"innerColor": [99, 16, 232],
@@ -1107,6 +1205,13 @@
 		"declaringFriendship": "Now you look like an upright fella I can trust. Shake on it?",
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
+		"neutralDenouncing": "Look, word got around, and I don't think I can trust you anymore.",
+		"hateDenouncing": "You rattlesnake, hope you get what you deserve.",
+		
+		"acceptingDemand": "Sure thing!",
+		"neutralRejectingDemand": "Look, I think this one should go back to the drawing board.",
+		"hateRejectingDemand": "This won't fly with me, you rattlesnake.",
+
 		"outerColor": [147, 218, 230],
 		"innerColor": [0, 19, 186],
 		"favoredReligion": "Cosmic Clergy",
@@ -1170,6 +1275,13 @@
 		"denounced": "Are your words backed with iron? Tread carefully.",
 		"declaringFriendship": "Hrm. Your will is girded by steel. I approve.",
 		"tradeRequest": "Let us swap steel. And other goods besides.",
+
+		"neutralDenouncing": "Hrm. It seems that your reputation isn't as stainless as your steel.",
+		"hateDenouncing": "Hrm. It seems that you are as rusted inside as you are outside.",
+		
+		"acceptingDemand": "Very well.",
+		"neutralRejectingDemand": "Hrm. No. Not strong enough.",
+		"hateRejectingDemand": "Hrm. You are as good as slag to me.",
 
 		"outerColor": [184, 184, 184],
 		"innerColor": [99, 99, 99],
