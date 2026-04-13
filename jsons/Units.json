@@ -4753,6 +4753,7 @@
 		"requiredTech": "Next-Gen Armaments",
 		//"requiredResource": "Titanium",
 		"uniques": [
+			"Comment [Built with additional promotions once you research certain robotic or cybernetic technologies]",
 			"Consumes [1] [Titanium]",
 			"No damage penalty for wounded units",
 			"Never appears as a Barbarian unit"
