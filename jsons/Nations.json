@@ -556,7 +556,19 @@
 		"innerColor": [22, 116, 204],
 		"favoredReligion": "Mekhaneites",
 		"uniqueName": "The Future is Chrome",
-		"uniques": ["[100]% [Titanium] resource production","[100]% [Ulframite] resource production","[+1 Science] from all [Science] buildings"],
+		"uniques": [
+			"[100]% [Titanium] resource production",
+			"[100]% [Ulframite] resource production",
+			"[+1 Science] from all [Science] buildings",
+			"All newly-trained [T-Series] units [in all cities] receive the [Shock I] promotion <after discovering [Cybernetics]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Drill I] promotion <after discovering [Cybernetics]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Data Uplinked] promotion <after discovering [Cybernetics]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Network Synchronization] promotion <after discovering [Mind-Machine Interface]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Combat Analysis Module] promotion <after discovering [Cyberbrains]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Mirage I] promotion <after discovering [Metamaterials]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [March] promotion <after discovering [Artificial Intelligence]> <hidden from users>",
+			"All newly-trained [T-Series] units [in all cities] receive the [Medic I] promotion <after discovering [Artificial Intelligence]> <hidden from users>"
+		],
 		"cities": [
 			"Terminal Aperture",
 			"District 01",
