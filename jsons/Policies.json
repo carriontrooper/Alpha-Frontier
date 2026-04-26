@@ -746,7 +746,11 @@
 			},
 			{
 				"name": "Xeno-Cooperation",
-				"uniques": ["Comment [Unlocks building the Xeno Sanctuary improvement]"],
+				"uniques": [
+					"Comment [Unlocks building the Xeno Sanctuary improvement]",
+					"[+5] HP when healing <in [Friendly] tiles>",
+					"[+10]% Strength <in [Friendly] tiles> <when defending>",
+				],
 				"requires": ["Eco Harmony"],
 				"row": 3,
 				"column": 1
