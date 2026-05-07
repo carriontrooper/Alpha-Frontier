@@ -102,6 +102,19 @@
 			"Spy8",
 			"Spy9",
 			"Spy10"
+		],
+		"civilopediaText": [
+			{
+				"text": "Title 1",
+				"header": 2,
+				"centered": true
+			},
+			{
+				"text": "Civilopedia Entry 1"
+			},
+			{
+				"separator": true
+			}
 		]
 	},
 	
@@ -224,6 +237,43 @@
 			"Mori",
 			"Zuru",
 			"Mizunoe"
+		],
+		"civilopediaText": [
+			{
+				"text": "Technological Pioneer",
+				"header": 2,
+				"centered": true
+			},
+			{
+				"text": "Toma Heavy Industries started out as an enterprising spaceship manufacturing factory in the East Eurasian region of Old Earth. It kept ahead of the technological curve, innovating and expanding its research divisions while applying their findings into their factories. The technological boom and spaceflight craze of Old Earth had brought prosperity to Toma Heavy Industries, which allowed them to invest in a more promising frontier at the time: Mars."
+			},
+			{
+				"text": "Martian Relocation",
+				"header": 2,
+				"centered": true
+			},
+			{
+				"text": "Thanks to their advanced technologies, Toma Heavy Industries had secured a parcel of land in the Cydonia Mensae region of Mars, and relocated their headquarters within five years. Mars' socio-economic trends at the time fueled Toma Heavy Industries' growth, as more and more corporations and nation-states utilize Mars as a launchpad to ever-distant destinations such as the asteroid belt and the Jovian sub-system. But this golden age of Mars won't last."
+			},
+			{
+				"text": "Escaping the Collapse",
+				"header": 2,
+				"centered": true
+			},
+			{
+				"text": "Kirii Toma, the CEO of Toma Heavy Industries, had noticed increasingly worrying socio-economic trends happening in the solar system. Using his corporation's mighty computing power, he had correctly predicted that a multi-aspected collapse would happen within his lifetime in Old Earth - and devised a plan to at least save his corporation. Manufacturing the first colony ship wasn't easy, especially under a cloak of secrecy, but Kirii Toma managed to complete it flawlessly. As his last act before launching the ship to a possible habitable planet, he disseminated the plans for his colony ship all over Old Earth - just a scant few years before the Collapse happened."
+			},
+			{
+				"separator": true
+			},
+			{
+				"text": "Kirii Toma, the Genius Recluse",
+				"header": 2,
+				"centered": true
+			},
+			{
+				"text": "Born into the Martian branch of the Toma family as the rightful heir to Toma Heavy Industries, Kirii had shown his brilliance from a young age. His intellect only grew sharper with age, but as a result he finds himself growing ever isolated from his peers. Surrounded by an illogical, lesser world, he developed a cold, calculating, and rational personality - one that allows him to become the most successful CEO in Toma Heavy Industries' history. It is said that the decision to relocate to Mars was partly born from a desire to leave Old Earth behind, to find a less hectic place to think."
+			},
 		]
 		
 	},
