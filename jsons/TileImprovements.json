@@ -261,6 +261,8 @@
 			"Only available <after adopting [Xeno-Cooperation]>",
 			"[+1 Culture] <after discovering [Genetic Hybridization]>",
 			"[+1 Culture] <after discovering [Designer Lifeforms]>",
+			"Gives a defensive bonus of [20]% <for [{Friendly} {Xeno}] units>",
+			"Gives a defensive bonus of [10]% <for [Friendly] units>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Gold, +5 Food]",
 			"Provides [1] [Tourism] <after discovering [Colonial Culture]> <when [Cultural] Victory is enabled>"
