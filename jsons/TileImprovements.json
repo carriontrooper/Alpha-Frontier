@@ -1203,7 +1203,11 @@
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Unbuildable"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Marks a barbarian camp"
+		],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
