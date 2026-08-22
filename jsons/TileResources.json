@@ -582,7 +582,8 @@
 		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
 			"Generated on every [23] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Ice] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles> <with [1] to [6] neighboring [Ice] tiles>"
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles> <with [1] to [6] neighboring [Ice] tiles>",
+			"Occurs at temperature between [-1] and [0] and humidity between [0] and [1]"
 		],
 		"civilopediaText": [
 			{
