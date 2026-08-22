@@ -1134,7 +1134,7 @@
 			"[+10]% Strength <in [Friendly Land] tiles>",
 			"[+20]% Strength <within [1] tiles of a [Fort]>",
 			//"Gain [100] [Production] <in cities with at least [3] [Population]> <upon declaring a defensive pact>"
-			"[+100 Production] <in cities with at least [3] [Population]> <upon declaring a defensive pact>"
+			"[+100 Production] <in cities with at least [3] [Population]> <for [1] turns> <upon declaring a defensive pact>"
 		],
 		"cities": [
 			"Xinxing Duhui",
