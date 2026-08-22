@@ -45,7 +45,8 @@
 			"NonCanal",
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
-			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Coastal Water"
 		],
 		"civilopediaText": [
 			{
@@ -221,7 +222,8 @@
 			"NonCanal",
 			"Fresh water",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
+			"Coastal Water"
 		],
 		"civilopediaText": [
 			{
