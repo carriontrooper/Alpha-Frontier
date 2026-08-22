@@ -47,7 +47,7 @@
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
-			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -78,7 +78,7 @@
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [7]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [7]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterStep",
@@ -110,7 +110,7 @@
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
 			"[-3] Movement <in [non-[Desert]] tiles>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [7]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [7]>"
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -141,7 +141,7 @@
 		"uniques": [
 			"Xeno",
 			"[-33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [3]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -208,7 +208,7 @@
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
 			"[-1] Movement <in [non-[Mycelium]] tiles>",
 			"Invisible to non-adjacent units <in [Jungle] tiles>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [7]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [7]>"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -267,7 +267,7 @@
 		"uniques": [
 			"Xeno",
 			"[-33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [3]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
@@ -337,7 +337,7 @@
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
 			"[-33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [3]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
@@ -370,7 +370,7 @@
 			"[90]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
 			"[+33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [7]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [7]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
@@ -410,7 +410,7 @@
 			"[90]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
 			//"Cannot move <before turn number [40]>"
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [10]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [10]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
@@ -440,7 +440,7 @@
 			"[+100]% Strength <when attacking>",
 			"Heals [20] damage if it kills a unit",
 			//"Cannot move <before turn number [20]>"
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [10]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [10]>"
 		],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterBubbles",
@@ -468,7 +468,7 @@
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
 			//"Cannot move <before turn number [10]>"
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [10]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [10]>"
 		],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterStep",
@@ -500,7 +500,7 @@
 			"[+100]% Strength <vs [Infantry] units>",
 			"[+100]% Strength <vs [Sniper] units> <when attacking>",
 			"Limited to [4] per Civilization",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
@@ -526,7 +526,7 @@
 			"Xeno",
 			"[-33]% Strength <vs cities>",
 			"Limited to [4] per Civilization",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Toxin I","Ambulation I"],
 		"attackSound": "MonsterBite",
@@ -552,7 +552,7 @@
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"Limited to [4] per Civilization",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Ambulation I"],
 		"attackSound": "MonsterBite",
@@ -580,7 +580,7 @@
 			"Xeno",
 			"[-33]% Strength <vs cities>",
 			"Limited to [4] per Civilization",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Toxin I","Carapace I"],
 		"attackSound": "shot",
@@ -609,7 +609,7 @@
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
 			"[-66]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Toxin I","Wings I"],
 		"attackSound": "MonsterBuzz",
@@ -638,7 +638,7 @@
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
 			"[-33]% Strength <vs cities>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [5]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] Civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Wings I"],
 		"attackSound": "MonsterBuzz",
