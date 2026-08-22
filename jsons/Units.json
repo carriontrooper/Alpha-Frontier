@@ -47,7 +47,7 @@
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
-			"Only available <when number of [([Cities] / [Remaining [Major] civilizations])] is more than [3]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
