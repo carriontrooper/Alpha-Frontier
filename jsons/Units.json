@@ -44,7 +44,11 @@
 		"cost": 40,
 		"requiredTech": "Frontier Armaments",
 		"obsoleteTech": "Composite Armor",
-		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
+		"uniques": [
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -73,7 +77,8 @@
 		"uniques": [
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs cities>"
+			"[+33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [7]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterStep",
@@ -104,7 +109,8 @@
 			"Xeno",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs cities>",
-			"[-3] Movement <in [non-[Desert]] tiles>"
+			"[-3] Movement <in [non-[Desert]] tiles>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [7]>"
 		],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -132,7 +138,11 @@
 		"strength": 5,
 		"cost": 5,
 		"requiredTech": "Next-Gen Armaments",
-		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"uniques": [
+			"Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -197,7 +207,8 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
 			"[+10]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
 			"[-1] Movement <in [non-[Mycelium]] tiles>",
-			"Invisible to non-adjacent units <in [Jungle] tiles>"
+			"Invisible to non-adjacent units <in [Jungle] tiles>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [7]>"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -253,7 +264,11 @@
 		"strength": 50,
 		"cost": 50,
 		"requiredTech": "Exoskeletons",
-		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"uniques": [
+			"Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBubbles",
 		"civilopediaText": [
@@ -321,7 +336,8 @@
 			"[10]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
-			"[-33]% Strength <vs cities>"
+			"[-33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [3]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
@@ -353,7 +369,8 @@
 			"Xeno",
 			"[90]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
-			"[+33]% Strength <vs cities>"
+			"[+33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [7]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBuzz",
@@ -392,11 +409,12 @@
 			"Limited to [1] per Civilization",
 			"[90]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
-			"Cannot move <before turn number [40]>"
+			//"Cannot move <before turn number [40]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [10]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
-		"requiredTech": "Fusion Power",
+		//"requiredTech": "Fusion Power",
 		"civilopediaText": [
 			{
 				"Separator": true
@@ -415,10 +433,18 @@
 		"rangedStrength": 65,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+100]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before turn number [20]>"],
+		"uniques": [
+			"Xeno",
+			"Uncapturable",
+			"Limited to [1] per Civilization",
+			"[+100]% Strength <when attacking>",
+			"Heals [20] damage if it kills a unit",
+			//"Cannot move <before turn number [20]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [10]>"
+		],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterBubbles",
-		"requiredTech": "Metamaterials",
+		//"requiredTech": "Metamaterials",
 		"civilopediaText": [
 			{
 				"Separator": true
@@ -435,10 +461,18 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 100,
-		"uniques": ["Xeno","Uncapturable","Limited to [1] per Civilization","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs cities>","Cannot move <before turn number [10]>"],
+		"uniques": [
+			"Xeno",
+			"Uncapturable",
+			"Limited to [1] per Civilization",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>",
+			//"Cannot move <before turn number [10]>"
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [10]>"
+		],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterStep",
-		"requiredTech": "Genetic Hybridization",
+		//"requiredTech": "Genetic Hybridization",
 		"civilopediaText": [
 			{
 				"Separator": true
@@ -459,7 +493,15 @@
 		"movement": 3,
 		"strength": 30,
 		"cost": 100,
-		"uniques": ["Xeno","Uncapturable","[+1] Sight","[+100]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Sniper] units> <when attacking>","Limited to [4] per Civilization"],
+		"uniques": [
+			"Xeno",
+			"Uncapturable",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[+100]% Strength <vs [Sniper] units> <when attacking>",
+			"Limited to [4] per Civilization",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "MonsterBite",
 		"requiredTech": "Genetic Hybridization",
@@ -480,7 +522,12 @@
 		"strength": 6,
 		"cost": 20,
 		"obsoleteTech": "Next-Gen Armaments",
-		"uniques": ["Xeno", "[-33]% Strength <vs cities>","Limited to [4] per Civilization"],
+		"uniques": [
+			"Xeno",
+			"[-33]% Strength <vs cities>",
+			"Limited to [4] per Civilization",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
+		],
 		"promotions": ["Ignore terrain cost","Toxin I","Ambulation I"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -501,7 +548,12 @@
 		"cost": 40,
 		"requiredTech": "Next-Gen Armaments",
 		"obsoleteTech": "Mind-Machine Interface",
-		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>","Limited to [4] per Civilization"],
+		"uniques": [
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"Limited to [4] per Civilization",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
+		],
 		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Ambulation I"],
 		"attackSound": "MonsterBite",
 		"civilopediaText": [
@@ -524,7 +576,12 @@
 		"cost": 20,
 		"requiredTech": "Frontier Armaments",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Xeno", "[-33]% Strength <vs cities>","Limited to [4] per Civilization"],
+		"uniques": [
+			"Xeno",
+			"[-33]% Strength <vs cities>",
+			"Limited to [4] per Civilization",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
+		],
 		"promotions": ["Ignore terrain cost","Toxin I","Carapace I"],
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -551,7 +608,8 @@
 			"[5]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
-			"[-66]% Strength <vs cities>"
+			"[-66]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Toxin I","Wings I"],
 		"attackSound": "MonsterBuzz",
@@ -579,7 +637,8 @@
 			"[10]% chance to intercept air attacks",
 			"Cannot intercept [Satellite] units",
 			"Cannot intercept [Missile] units",
-			"[-33]% Strength <vs cities>"
+			"[-33]% Strength <vs cities>",
+			"Only available <when number of [[Cities] / [Remaining [Major] civilizations]] is more than [5]>"
 		],
 		"promotions": ["Ignore terrain cost","Bloodthirst","Toxin I","Wings I"],
 		"attackSound": "MonsterBuzz",
