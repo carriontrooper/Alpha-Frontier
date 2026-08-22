@@ -28,7 +28,7 @@
 	- Isolationist Survivors
 	- Criminal Empire
 	- Imperial Raider
-	- Zealous Cultist
+	- Zealous Cultists
 	- Nomadic Raider
 	- Rising Power
 	- Radioactive Survivors
@@ -891,7 +891,7 @@
 		]
 	},
 	{
-		"name": "Radiocative Survivors",
+		"name": "Radioactive Survivors",
 		"preferredVictoryType": "Scientific",
 		"culture": 3,
 		"faith": 3,
