@@ -3354,9 +3354,9 @@
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"Franchise",
-			//"[+1 Food] from [Agricultural] tiles [in this city]",
+			"[+1 Food] from [Agricultural] tiles [in this city]",
 			//"[+1 Food] from every [Agricultural] <in this city>",
-			"[+1 Food] <for every [Owned [Agricultural] Tiles]> <in this city>",
+			//"[+1 Food] <for every [Owned [Agricultural] Tiles]> <in this city>",
 			"Only available <if [Superfoods HQ] is constructed by anybody>"
 		],
 		"civilopediaText": [
